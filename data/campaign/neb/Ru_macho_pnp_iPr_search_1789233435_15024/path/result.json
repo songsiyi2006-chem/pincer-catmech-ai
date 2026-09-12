@@ -1,0 +1,32 @@
+{
+  "status": "failed",
+  "accepted": false,
+  "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Ru_macho_pnp_iPr_search_1789233435_15024\\path",
+  "n_internal_images": 7,
+  "neb_converged": false,
+  "endpoint_converged": [
+    true,
+    true
+  ],
+  "image_energies_ev": [
+    -2551.9385792238245,
+    -2551.926825016457,
+    -2551.929346506018,
+    -2551.2628816147076,
+    -2550.904937106425,
+    -2550.736579711314,
+    -2550.5933508843173,
+    -2550.7101307376856,
+    -2550.772123679421
+  ],
+  "attempts": [],
+  "failure_reasons": [
+    "ValueError: CI-NEB did not converge within the step allowance"
+  ],
+  "accepted_ts_energy_ev": null,
+  "forward_electronic_barrier_ev": null,
+  "reverse_electronic_barrier_ev": null,
+  "elapsed_seconds": 1083.0630000000092,
+  "calculator_evaluations": 1828,
+  "evidence": "Injected-calculator electronic potential; no free-energy barrier inferred"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "operator_stopped_for_band_diagnostic",
+  "accepted": false,
+  "finished_utc": "2026-09-12T19:40:52.543227+00:00",
+  "reason": "Operator stopped this newly started provisional dimer continuation to follow the requested fixed original-band image 3 full-Hessian diagnostic first; no acceptance or barrier is inferred",
+  "scheduler_pid": 33808,
+  "worker_pid": 42216,
+  "last_recorded_progress": {
+    "stage": "dimer_start",
+    "elapsed_seconds": 34.21799999999348,
+    "calculator_evaluations": 29,
+    "attempt": 0
+  },
+  "preserved_original_task": "task_before_operator_stop.json"
+}

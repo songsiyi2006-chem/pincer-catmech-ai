@@ -1,0 +1,45 @@
+{
+  "status": "deadline_exhausted",
+  "accepted": false,
+  "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Mn_macho_pnp_Ph_resume_1789237349_19436\\path",
+  "n_internal_images": 7,
+  "neb_converged": true,
+  "provisional_neb_initial_guess": false,
+  "global_peak_image": 4,
+  "selected_initial_image": 2,
+  "endpoint_converged": [
+    true,
+    true
+  ],
+  "image_energies_ev": [
+    -3282.490691595651,
+    -3282.5974983391407,
+    -3282.2389666288764,
+    -3282.264273638757,
+    -3282.2085527207896,
+    -3282.4528773675397,
+    -3282.631587627558,
+    -3282.750473490147,
+    -3282.7940621743764
+  ],
+  "attempts": [
+    {
+      "attempt": 0,
+      "accepted": false,
+      "status": "deadline_exhausted",
+      "initial_guess_from_unconverged_band": false,
+      "selected_initial_image": 2,
+      "global_peak_image": 4,
+      "error": "Campaign deadline exhausted during electronic retries"
+    }
+  ],
+  "failure_reasons": [
+    "TimeoutError: Campaign deadline exhausted during electronic retries"
+  ],
+  "accepted_ts_energy_ev": null,
+  "forward_electronic_barrier_ev": null,
+  "reverse_electronic_barrier_ev": null,
+  "elapsed_seconds": 2698.875,
+  "calculator_evaluations": 1999,
+  "evidence": "Injected-calculator electronic potential; no free-energy barrier inferred"
+}

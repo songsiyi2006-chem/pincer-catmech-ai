@@ -1,0 +1,153 @@
+{
+  "status": "superseded_after_available_active_inputs",
+  "started_utc": "2026-09-13T01:29:25.128066+08:00",
+  "worker_count": 1,
+  "threads": 1,
+  "solvent": "toluene",
+  "solvation_state": "gsolv",
+  "items": [
+    {
+      "key": "Co_bipyridine_pnnoh_iPr|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Co_bipyridine_pnnoh_iPr__active\\result.json",
+      "wall_seconds": 31.813000000009197
+    },
+    {
+      "key": "Fe_bipyridine_pnnoh_iPr|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Fe_bipyridine_pnnoh_iPr__active\\result.json",
+      "wall_seconds": 33.42200000000594
+    },
+    {
+      "key": "Ru_bipyridine_pnnoh_iPr|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Ru_bipyridine_pnnoh_iPr__active\\result.json",
+      "wall_seconds": 33.78100000000268
+    },
+    {
+      "key": "Mn_bipyridine_pnnoh_iPr|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Mn_bipyridine_pnnoh_iPr__active\\result.json",
+      "wall_seconds": 38.04700000000594
+    },
+    {
+      "key": "Co_pyridine_pnn_iPr|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Co_pyridine_pnn_iPr__active\\result.json",
+      "wall_seconds": 43.46899999999732
+    },
+    {
+      "key": "Fe_pyridine_pnn_iPr|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Fe_pyridine_pnn_iPr__active\\result.json",
+      "wall_seconds": 46.15699999999197
+    },
+    {
+      "key": "Ru_pyridine_pnn_iPr|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Ru_pyridine_pnn_iPr__active\\result.json",
+      "wall_seconds": 44.0
+    },
+    {
+      "key": "Co_pyridine_pnn_Ph|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Co_pyridine_pnn_Ph__active\\result.json",
+      "wall_seconds": 51.65600000000268
+    },
+    {
+      "key": "Mn_pyridine_pnn_iPr|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Mn_pyridine_pnn_iPr__active\\result.json",
+      "wall_seconds": 49.88999999999942
+    },
+    {
+      "key": "Fe_pyridine_pnn_Ph|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Fe_pyridine_pnn_Ph__active\\result.json",
+      "wall_seconds": 53.562000000005355
+    },
+    {
+      "key": "Ru_pyridine_pnn_Ph|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Ru_pyridine_pnn_Ph__active\\result.json",
+      "wall_seconds": 57.73500000000058
+    },
+    {
+      "key": "Mn_pyridine_pnn_Ph|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Mn_pyridine_pnn_Ph__active\\result.json",
+      "wall_seconds": 62.078000000008615
+    },
+    {
+      "key": "Co_macho_pnp_iPr|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Co_macho_pnp_iPr__active\\result.json",
+      "wall_seconds": 51.96800000000803
+    },
+    {
+      "key": "Fe_macho_pnp_iPr|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Fe_macho_pnp_iPr__active\\result.json",
+      "wall_seconds": 57.34300000000803
+    },
+    {
+      "key": "Ru_macho_pnp_iPr|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Ru_macho_pnp_iPr__active\\result.json",
+      "wall_seconds": 55.78100000000268
+    },
+    {
+      "key": "Mn_macho_pnp_iPr|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Mn_macho_pnp_iPr__active\\result.json",
+      "wall_seconds": 59.0
+    },
+    {
+      "key": "Co_macho_pnp_Ph|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Co_macho_pnp_Ph__active\\result.json",
+      "wall_seconds": 76.98500000000058
+    },
+    {
+      "key": "Fe_macho_pnp_Ph|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Fe_macho_pnp_Ph__active\\result.json",
+      "wall_seconds": 94.68799999999464
+    },
+    {
+      "key": "Ru_macho_pnp_Ph|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Ru_macho_pnp_Ph__active\\result.json",
+      "wall_seconds": 91.75
+    },
+    {
+      "key": "Mn_macho_pnp_Ph|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry\\Mn_macho_pnp_Ph__active\\result.json",
+      "wall_seconds": 92.28100000000268
+    }
+  ],
+  "deadline_epoch": 1789243277.8901894,
+  "finished_utc": "2026-09-12T17:47:41.3314735+00:00",
+  "transition_reason": "All 20 canonical active inputs completed; idle watch stopped to expand states. No native calculation was interrupted."
+}

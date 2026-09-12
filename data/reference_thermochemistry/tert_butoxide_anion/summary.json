@@ -1,0 +1,117 @@
+{
+  "species": "tert_butoxide_anion",
+  "smiles": "CC(C)(C)[O-]",
+  "conformers": [
+    {
+      "conformer": 0,
+      "smiles": "CC(C)(C)[O-]",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -475.00461579447386,
+        "max_force_eV_A": 0.0005527522021285383,
+        "wall_seconds": 0.3129999999946449,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\tert_butoxide_anion\\conformer_00",
+        "charge": -1,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 14,
+        "output_sha256": "6fe2a583c5a257695000cdc03a51d491e9916067135801509cd2f6c3a8f5ae8a",
+        "error": null
+      },
+      "charge": -1,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 1,
+      "smiles": "CC(C)(C)[O-]",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -475.00450993110724,
+        "max_force_eV_A": 0.000608319741356583,
+        "wall_seconds": 0.28200000000651926,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\tert_butoxide_anion\\conformer_01",
+        "charge": -1,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 14,
+        "output_sha256": "6fa7f26f7106a1bb23f59ed7e6ffa750e5e96a7779f9d9563fd36324b5ff7f0c",
+        "error": null
+      },
+      "charge": -1,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 2,
+      "smiles": "CC(C)(C)[O-]",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -475.0045389103353,
+        "max_force_eV_A": 0.0005240517311540289,
+        "wall_seconds": 0.4529999999940628,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\tert_butoxide_anion\\conformer_02",
+        "charge": -1,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 14,
+        "output_sha256": "8e68b30b610c1db1f8c9c2a367492c8a86acc6b378f790507c22ab986608aefc",
+        "error": null
+      },
+      "charge": -1,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 3,
+      "smiles": "CC(C)(C)[O-]",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -475.00459026545894,
+        "max_force_eV_A": 0.0004808217798329201,
+        "wall_seconds": 0.5779999999940628,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\tert_butoxide_anion\\conformer_03",
+        "charge": -1,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 14,
+        "output_sha256": "c1f50d34d1a2051e80abf81fc60ed57800be514e8f8333fc67ce6b39cb7bf354",
+        "error": null
+      },
+      "charge": -1,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    }
+  ],
+  "status": "verified_minimum",
+  "accepted": true,
+  "best_conformer": 0,
+  "best_geometry_sha256": "422dd5a87d07461d9cb791f92690d0bcfc3f0c83276c6bf2ca294acae7a1fafd",
+  "thermochemistry_file": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\tert_butoxide_anion\\stationarity\\result.json",
+  "final_connectivity": {
+    "retained": true,
+    "lost_bonds": [],
+    "new_bonds": [],
+    "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+  }
+}

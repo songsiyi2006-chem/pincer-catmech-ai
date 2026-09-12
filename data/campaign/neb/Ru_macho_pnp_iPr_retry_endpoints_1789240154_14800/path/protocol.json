@@ -1,0 +1,37 @@
+{
+  "method": "ASE CI-NEB plus dimer plus full force-difference Hessian",
+  "n_internal_images": 7,
+  "hessian_provider": "__mp_main__.make_native_hessian_provider.<locals>.provider",
+  "transfer_indices": {
+    "proton": 67,
+    "proton_donor": 59,
+    "proton_acceptor": 1,
+    "hydride": 68,
+    "hydride_donor": 60,
+    "hydride_acceptor": 0
+  },
+  "atom_mapping": null,
+  "neb_fmax_ev_a": 0.05,
+  "neb_steps": 120,
+  "ts_fmax_ev_a": 0.03,
+  "ts_steps": 120,
+  "endpoint_steps": 80,
+  "max_corrections": 2,
+  "hessian_step_angstrom": 0.01,
+  "imaginary_noise_cm1": 0.0,
+  "imaginary_window_cm1": [
+    -1800,
+    -300
+  ],
+  "descent_steps": 100,
+  "descent_displacement_angstrom": 0.15,
+  "endpoint_rmsd_tolerance_angstrom": 0.5,
+  "minimum_transfer_overlap": 0.15,
+  "minimum_combined_overlap": 0.3,
+  "deadline_seconds": 1200.0,
+  "free_energy_barrier_computed": false,
+  "refine_unconverged_band": true,
+  "requested_ts_initial_image": null,
+  "restart_ts_candidate": null,
+  "restart": null
+}

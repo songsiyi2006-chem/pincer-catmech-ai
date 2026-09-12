@@ -1,0 +1,48 @@
+{
+  "method": "ASE CI-NEB plus dimer plus full force-difference Hessian",
+  "n_internal_images": 7,
+  "hessian_provider": "__mp_main__.make_native_hessian_provider.<locals>.provider",
+  "transfer_indices": {
+    "proton": 67,
+    "proton_donor": 59,
+    "proton_acceptor": 1,
+    "hydride": 68,
+    "hydride_donor": 60,
+    "hydride_acceptor": 0
+  },
+  "atom_mapping": null,
+  "neb_fmax_ev_a": 0.05,
+  "neb_steps": 1,
+  "ts_fmax_ev_a": 0.03,
+  "ts_steps": 120,
+  "endpoint_steps": 80,
+  "max_corrections": 2,
+  "hessian_step_angstrom": 0.01,
+  "imaginary_noise_cm1": 0.0,
+  "imaginary_window_cm1": [
+    -1800,
+    -300
+  ],
+  "descent_steps": 100,
+  "descent_displacement_angstrom": 0.15,
+  "endpoint_rmsd_tolerance_angstrom": 0.5,
+  "minimum_transfer_overlap": 0.15,
+  "minimum_combined_overlap": 0.3,
+  "deadline_seconds": 1363.1106266975403,
+  "free_energy_barrier_computed": false,
+  "refine_unconverged_band": true,
+  "requested_ts_initial_image": 3,
+  "restart_ts_candidate": null,
+  "restart_ts_mode": null,
+  "restart": {
+    "frames": 9,
+    "atom_order": "reactant order",
+    "interpolation": "none",
+    "initial_climbing_image": true,
+    "all_energies_and_forces_recomputed": true,
+    "source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Ru_macho_pnp_iPr_retry_endpoints_1789240154_14800\\path\\neb.traj",
+    "source_sha256": "6c88ad2668d0877d240fe5bab04ee4d1cf2df33b7fa89fa21d52ac21a3e86589",
+    "snapshot": "restart_input.traj",
+    "snapshot_sha256": "5960c3ada632144f008461ceac84b87714a67dcfecfd42890b21c48e892f1319"
+  }
+}

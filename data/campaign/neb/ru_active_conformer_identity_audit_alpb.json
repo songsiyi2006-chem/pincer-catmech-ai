@@ -1,0 +1,172 @@
+[
+  {
+    "id": "Ru_macho_pnp_iPr",
+    "conformer": 0,
+    "solvent": "toluene",
+    "energy_eV": -1922.5359332845596,
+    "connectivity": {
+      "retained": false,
+      "lost_bonds": [
+        [
+          10,
+          37
+        ]
+      ],
+      "new_bonds": [],
+      "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+    },
+    "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_iPr\\active\\conformer_0000"
+  },
+  {
+    "id": "Ru_macho_pnp_Ph",
+    "conformer": 0,
+    "solvent": "toluene",
+    "energy_eV": -2509.309905030237,
+    "connectivity": {
+      "retained": false,
+      "lost_bonds": [
+        [
+          1,
+          32
+        ]
+      ],
+      "new_bonds": [],
+      "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+    },
+    "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_Ph\\active\\conformer_0000"
+  },
+  {
+    "id": "Ru_macho_pnp_iPr",
+    "conformer": 1,
+    "solvent": "toluene",
+    "energy_eV": -1922.592210996058,
+    "connectivity": {
+      "retained": false,
+      "lost_bonds": [
+        [
+          1,
+          20
+        ]
+      ],
+      "new_bonds": [],
+      "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+    },
+    "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_iPr\\active\\conformer_0001"
+  },
+  {
+    "id": "Ru_macho_pnp_Ph",
+    "conformer": 1,
+    "solvent": "toluene",
+    "energy_eV": -2509.300975741426,
+    "connectivity": {
+      "retained": false,
+      "lost_bonds": [
+        [
+          1,
+          31
+        ]
+      ],
+      "new_bonds": [],
+      "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+    },
+    "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_Ph\\active\\conformer_0001"
+  },
+  {
+    "id": "Ru_macho_pnp_iPr",
+    "conformer": 2,
+    "solvent": "toluene",
+    "energy_eV": -1922.2968491688189,
+    "connectivity": {
+      "retained": true,
+      "lost_bonds": [],
+      "new_bonds": [],
+      "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+    },
+    "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_iPr\\active\\conformer_0002"
+  },
+  {
+    "id": "Ru_macho_pnp_Ph",
+    "conformer": 2,
+    "solvent": "toluene",
+    "energy_eV": -2509.328204175275,
+    "connectivity": {
+      "retained": false,
+      "lost_bonds": [
+        [
+          1,
+          31
+        ]
+      ],
+      "new_bonds": [],
+      "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+    },
+    "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_Ph\\active\\conformer_0002"
+  },
+  {
+    "id": "Ru_macho_pnp_Ph",
+    "conformer": 3,
+    "solvent": "toluene",
+    "energy_eV": -2509.3019208292444,
+    "connectivity": {
+      "retained": false,
+      "lost_bonds": [
+        [
+          1,
+          31
+        ]
+      ],
+      "new_bonds": [],
+      "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+    },
+    "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_Ph\\active\\conformer_0003"
+  },
+  {
+    "id": "Ru_macho_pnp_iPr",
+    "conformer": 3,
+    "solvent": "toluene",
+    "energy_eV": -1920.3098042108672,
+    "connectivity": {
+      "retained": false,
+      "lost_bonds": [
+        [
+          1,
+          19
+        ]
+      ],
+      "new_bonds": [],
+      "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+    },
+    "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_iPr\\active\\conformer_0003"
+  },
+  {
+    "id": "Ru_macho_pnp_Ph",
+    "conformer": 4,
+    "solvent": "toluene",
+    "energy_eV": -2507.9578770276025,
+    "connectivity": {
+      "retained": true,
+      "lost_bonds": [],
+      "new_bonds": [],
+      "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+    },
+    "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_Ph\\active\\conformer_0004"
+  },
+  {
+    "id": "Ru_macho_pnp_iPr",
+    "conformer": 4,
+    "solvent": "toluene",
+    "energy_eV": -1922.5183106996958,
+    "connectivity": {
+      "retained": false,
+      "lost_bonds": [
+        [
+          10,
+          38
+        ]
+      ],
+      "new_bonds": [],
+      "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+    },
+    "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_iPr\\active\\conformer_0004"
+  }
+]

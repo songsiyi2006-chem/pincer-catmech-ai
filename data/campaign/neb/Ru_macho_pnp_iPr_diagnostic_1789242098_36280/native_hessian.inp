@@ -1,0 +1,7 @@
+$hess
+  sccacc=0.05
+  step=0.005
+  scale=1.0
+$write
+  hessian.out=true
+$end

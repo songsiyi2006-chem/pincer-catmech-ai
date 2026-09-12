@@ -1,0 +1,15 @@
+{
+  "status": "operator_stopped_for_band_diagnostic",
+  "accepted": false,
+  "n_internal_images": 7,
+  "neb_converged": false,
+  "endpoint_converged": null,
+  "attempts": [],
+  "failure_reasons": [
+    "Operator stopped this newly started provisional dimer continuation to follow the requested fixed original-band image 3 full-Hessian diagnostic first; no acceptance or barrier is inferred"
+  ],
+  "forward_electronic_barrier_ev": null,
+  "reverse_electronic_barrier_ev": null,
+  "accepted_ts_energy_ev": null,
+  "evidence": "Operator interruption record; raw stage history remains authoritative"
+}

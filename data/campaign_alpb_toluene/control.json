@@ -1,0 +1,23 @@
+{
+  "status": "finished",
+  "started_at_utc": "2026-09-12T17:13:15.637607+00:00",
+  "started_epoch": 1789233195.6376076,
+  "deadline_epoch": 1789243277.89019,
+  "requested_hours": 3.0,
+  "pid": 28056,
+  "workers": 2,
+  "threads_per_worker": 2,
+  "method": "GFN2-xTB",
+  "electronic_temperature_K": 300.0,
+  "solvent": "toluene",
+  "solvation_state": "gsolv",
+  "standard_state_correction": "added separately in qRRHO at each temperature",
+  "interpretation": "Designed analogues; best found structures, no global-minimum or ground-spin proof",
+  "completed_jobs": 812,
+  "assembly_failures": 66,
+  "accepted_species": 70,
+  "active_jobs": 0,
+  "current_round": 12,
+  "elapsed_seconds": 10082.727222442627,
+  "finished_at_utc": "2026-09-12T20:01:18.364829+00:00"
+}

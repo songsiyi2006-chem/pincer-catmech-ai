@@ -1,0 +1,51 @@
+{
+  "seed": 4429,
+  "catalyst_id": "Co_macho_pnp_Ph",
+  "catalyst_atom_count": 62,
+  "complete_atom_count": 78,
+  "reactant_formula": "C36H36CoNO2P2",
+  "product_formula": "C36H36CoNO2P2",
+  "transfer_indices": {
+    "proton": 70,
+    "proton_donor": 62,
+    "proton_acceptor": 1,
+    "hydride": 72,
+    "hydride_donor": 63,
+    "hydride_acceptor": 0
+  },
+  "substrate_oxygen_index": 62,
+  "substrate_carbonyl_carbon_index": 63,
+  "electronic_state": {
+    "charge": 0,
+    "unpaired": 0,
+    "uhf": 0
+  },
+  "placement_score": 0.0024087065914049294,
+  "placement_score_units": "geometric penalty; NOT an energy",
+  "minimum_initial_interfragment_distance_A": 0.9990799538754889,
+  "input_transfer_distances": {
+    "reactant": {
+      "proton": {
+        "donor_H_A": 0.9930222229929395,
+        "acceptor_H_A": 1.754300027250318
+      },
+      "hydride": {
+        "donor_H_A": 1.1140943290615912,
+        "acceptor_H_A": 1.8006673352190485
+      }
+    },
+    "product": {
+      "proton": {
+        "donor_H_A": 2.6425070161874102,
+        "acceptor_H_A": 1.02
+      },
+      "hydride": {
+        "donor_H_A": 2.481530636472704,
+        "acceptor_H_A": 1.6000000000000003
+      }
+    }
+  },
+  "aldehyde_rigid_departure_A": 1.4,
+  "construction_status": "Mapped geometric hypotheses; endpoint optimization and basin validation are mandatory",
+  "substrate_preparation": "RDKit ETKDG plus organic UFF geometry preparation; no UFF energies used as quantum data"
+}

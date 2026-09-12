@@ -1,0 +1,67 @@
+{
+  "created_utc": "2026-09-12T20:02:04.574712+00:00",
+  "selection_temperature_K": 383.15,
+  "temperature_grid_K": [
+    298.15,
+    340.0,
+    350.0,
+    360.0,
+    370.0,
+    380.0,
+    383.15,
+    390.0,
+    400.0,
+    410.0,
+    420.0,
+    430.0,
+    440.0
+  ],
+  "selection": "Lowest certified G at 383.15 K per species. This is best among certified minima, not proof of a global minimum or the latest electronic-energy best. The selected geometry is fixed across all 13 temperatures.",
+  "electronic_model": "Actual GFN2-xTB/ALPB toluene gsolv, nominal occupation and supplied symmetry, 300 K electronic smearing",
+  "thermal_model": "Full projected molecular Hessian; ASE molecular RRHO with Grimme entropy-only qRRHO cutoff100cm-1; one ideal 1atm-to-1M correction",
+  "limitations": "Solvent temperature derivatives, ion-pair equilibria, ground spin, global minima, kinetic barriers and TOF are not established.",
+  "validation": "Local geometry/NPZ/native-output SHA256, actual gradient trace, recomputed full spectrum and thermochemistry, all covalent/ancillary identity and donor-coordination screens; raw records unchanged",
+  "numerical_reproduction_tolerance": "1e-4 in source kcal/mol or cal/(mol K); Hessian frequency tolerance 1e-4cm-1 + 1e-7 relative; XYZ/NPZ position tolerance1e-7A",
+  "history_snapshots": [
+    {
+      "path": "data/campaign_alpb_toluene/records.jsonl",
+      "snapshot_sha256": "7de7197c9897a52f7eaa61ed00facb16847e062801ce923649fadab3b211da7f",
+      "snapshot_bytes": 3088208
+    },
+    {
+      "path": "data/targeted_rescue/records.jsonl",
+      "snapshot_sha256": "697e811fb4115c4c9aadf612d70f9b6c954af88422ebf825b25f8aa37e38b158",
+      "snapshot_bytes": 180322
+    }
+  ],
+  "certificate_count": 84,
+  "eligible_certificate_count": 79,
+  "selected_catalyst_states": 70,
+  "selected_active_catalysts": 22,
+  "selected_reference_species": 9,
+  "catalyst_temperature_rows": 910,
+  "reference_temperature_rows": 117,
+  "reaction_temperature_rows": 858,
+  "exported_reactions": 66,
+  "reaction_schemes": [
+    "alcohol_dehydrogenation",
+    "separated_ion_deprotonation",
+    "imine_hydrogenation"
+  ],
+  "cycle_temperature_rows": 286,
+  "exported_cycles": 22,
+  "cycle_closure_tolerance_kcal_mol": 1e-08,
+  "cycle_maximum_absolute_residual_kcal_mol": 0.0,
+  "cycle_interpretation": "Four component reaction free energies telescope to the net alcohol/aniline-to-amine/water reaction using identical species certificates. This is arithmetic/state-function consistency, not pathway or kinetic validation.",
+  "files": {
+    "catalyst_thermochemistry.csv": "0cf2d411e40e813d6c1436d6cbdf15170c3c6d79fc0090c31543dd3a29ce01c6",
+    "certificates.json": "29607fc1dd75688b5274dc74f3af2049a28f3bbc6e4bb217c6778f8a08cb4bf8",
+    "cycle_status.json": "f896e73ee07edea36177f75b15e90f5c8a273cdffd5c8048df341f5b81e8688c",
+    "design_state_status.csv": "a7f73b745b7e9b39962d4d8fb7ae0fb04328a58964fb65bb652c24f4735f2927",
+    "reaction_free_energies.csv": "9d5ecb6fe6fa89d47516770fa82f752c57061f019840f31d9c56bc7f355da564",
+    "reaction_status.json": "8e6980028b1299da6706f7cf633aa111fb14dd319a187aff3263a6a793eceb9f",
+    "reference_thermochemistry.csv": "1c39bbb0d9f0eaec86d5536b026aa17ff5a6b6cdd540623447e92f513d03b86e",
+    "selected_certificates.json": "8a1a44f537372952995c84a52fe3f59b284cb4850ff420a7fe162dda24b7c228",
+    "thermodynamic_cycle_closure.csv": "03502c67470808e80a1420da0d1999c57ddb0a4ece6a4fddfbf34798ccf0ee63"
+  }
+}

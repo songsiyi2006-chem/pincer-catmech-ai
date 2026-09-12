@@ -1,0 +1,72 @@
+{
+  "sources": {
+    "data\\datasets\\catalyst_descriptors.csv": "a2b20b4c40e271c9d6ec7d4e7690bc96e49e71044582181f70e21293417ff6c4",
+    "data\\datasets\\thermochemistry\\reaction_free_energies.csv": "9d5ecb6fe6fa89d47516770fa82f752c57061f019840f31d9c56bc7f355da564",
+    "data\\campaign\\conditions.json": "edade293d051d12d924ce0c6a8a0fc70ffbd41ce5935ff141afd8516634d93de"
+  },
+  "steric_finite_cells": 22,
+  "steric_missing_cells": 2,
+  "endpoint_rows": [
+    {
+      "catalyst_id": "Ru_macho_pnp_Ph",
+      "reaction": "alcohol_dehydrogenation",
+      "temperature_K": "383.15",
+      "delta_G_kcal_mol": "-10.775208137107256",
+      "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+      "atoms_balanced": "True",
+      "charge_balanced": "True",
+      "reactant_certificates": "[\"data/campaign/thermochemistry_identity_replacements/Ru_macho_pnp_Ph__active/result.json\", \"data/reference_thermochemistry/benzyl_alcohol/stationarity/result.json\"]",
+      "product_certificates": "[\"data/campaign/thermochemistry/Ru_macho_pnp_Ph__hydrogenated/result.json\", \"data/reference_thermochemistry/benzaldehyde/stationarity/result.json\"]",
+      "reactant_geometry_sha256": "[\"f2c030ea3b04d2b043627d9cc29c7ff4e476300cf82e7d5e7136b8d39ac1a650\", \"f4897da33f477e49dfa225e23571ab1376182c83d5412b994134a99a99cc75c0\"]",
+      "product_geometry_sha256": "[\"1f4305273d2ba9284908608c402b090e6670d7b2fc0bf4e0c1c02c719c0e3e7d\", \"e7292b48e5f27218094b119118595a7fc0b25d93db34b114bb0582e7ad8b60b9\"]",
+      "scope": "Reaction thermodynamics of separate 1M molecular species; no kinetic barrier or TOF"
+    },
+    {
+      "catalyst_id": "Mn_macho_pnp_Ph",
+      "reaction": "alcohol_dehydrogenation",
+      "temperature_K": "383.15",
+      "delta_G_kcal_mol": "2.5890074429335073",
+      "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+      "atoms_balanced": "True",
+      "charge_balanced": "True",
+      "reactant_certificates": "[\"data/campaign/thermochemistry/Mn_macho_pnp_Ph__active/result.json\", \"data/reference_thermochemistry/benzyl_alcohol/stationarity/result.json\"]",
+      "product_certificates": "[\"data/campaign/thermochemistry/Mn_macho_pnp_Ph__hydrogenated/result.json\", \"data/reference_thermochemistry/benzaldehyde/stationarity/result.json\"]",
+      "reactant_geometry_sha256": "[\"c71b779af5dd714d318a72889d362e1c43d3fb0c021b86fc1ac004f1242b6172\", \"f4897da33f477e49dfa225e23571ab1376182c83d5412b994134a99a99cc75c0\"]",
+      "product_geometry_sha256": "[\"f667fd9d44bb8f9a90ca38eb86d9b6e1e60cb9750c89885e170ef1deb4b0f0cf\", \"e7292b48e5f27218094b119118595a7fc0b25d93db34b114bb0582e7ad8b60b9\"]",
+      "scope": "Reaction thermodynamics of separate 1M molecular species; no kinetic barrier or TOF"
+    },
+    {
+      "catalyst_id": "Ru_macho_pnp_iPr",
+      "reaction": "alcohol_dehydrogenation",
+      "temperature_K": "383.15",
+      "delta_G_kcal_mol": "-11.39757372160966",
+      "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+      "atoms_balanced": "True",
+      "charge_balanced": "True",
+      "reactant_certificates": "[\"data/campaign/thermochemistry_identity_replacements/Ru_macho_pnp_iPr__active/result.json\", \"data/reference_thermochemistry/benzyl_alcohol/stationarity/result.json\"]",
+      "product_certificates": "[\"data/campaign/thermochemistry/Ru_macho_pnp_iPr__hydrogenated/result.json\", \"data/reference_thermochemistry/benzaldehyde/stationarity/result.json\"]",
+      "reactant_geometry_sha256": "[\"e0971ea8d5eda3d6d26542411fbad974084e5b45eef04ae53e8f83cf3c80a835\", \"f4897da33f477e49dfa225e23571ab1376182c83d5412b994134a99a99cc75c0\"]",
+      "product_geometry_sha256": "[\"0e6be1b8bcf955f5350a5f300fc23e2501cf76f25fd43385d55dbc5434add995\", \"e7292b48e5f27218094b119118595a7fc0b25d93db34b114bb0582e7ad8b60b9\"]",
+      "scope": "Reaction thermodynamics of separate 1M molecular species; no kinetic barrier or TOF"
+    },
+    {
+      "catalyst_id": "Mn_macho_pnp_iPr",
+      "reaction": "alcohol_dehydrogenation",
+      "temperature_K": "383.15",
+      "delta_G_kcal_mol": "6.0071910479455255",
+      "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+      "atoms_balanced": "True",
+      "charge_balanced": "True",
+      "reactant_certificates": "[\"data/campaign/thermochemistry/Mn_macho_pnp_iPr__active/result.json\", \"data/reference_thermochemistry/benzyl_alcohol/stationarity/result.json\"]",
+      "product_certificates": "[\"data/campaign/thermochemistry/Mn_macho_pnp_iPr__hydrogenated/result.json\", \"data/reference_thermochemistry/benzaldehyde/stationarity/result.json\"]",
+      "reactant_geometry_sha256": "[\"1d1f93991abde9df16e9b079544e3fda884186628b523280073cf146f5cb3d7a\", \"f4897da33f477e49dfa225e23571ab1376182c83d5412b994134a99a99cc75c0\"]",
+      "product_geometry_sha256": "[\"37720869e088e04aabc401db3f1ac7fa6597021a1620509dafa595dd356da31b\", \"e7292b48e5f27218094b119118595a7fc0b25d93db34b114bb0582e7ad8b60b9\"]",
+      "scope": "Reaction thermodynamics of separate 1M molecular species; no kinetic barrier or TOF"
+    }
+  ],
+  "temperature_K": 383.15,
+  "pes_scope": "Certified separate-species endpoint thermodynamics; no TS curve",
+  "heatmap_scope": "availability_plot_not_TOF_result",
+  "numerical_TOF_values": 0,
+  "missing_values_are_zero": false
+}

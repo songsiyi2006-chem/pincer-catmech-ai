@@ -1,0 +1,7 @@
+{
+  "source_seed": 2029,
+  "status": "preparation_implementation_error",
+  "error_type": "TypeError",
+  "scientific_calculations_started": false,
+  "error": "RDKit Mol has no len(); corrected to GetNumAtoms() before the new seed 2030 run"
+}

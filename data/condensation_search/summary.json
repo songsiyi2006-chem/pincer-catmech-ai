@@ -1,0 +1,235 @@
+{
+  "created_utc": "2026-09-12T18:17:31.638718+00:00",
+  "status": "completed_bounded_searches",
+  "method": "GFN2-xTB",
+  "solvent": "ALPB toluene",
+  "solvation_state": "gsolv",
+  "energy_origin": "Actual native xTB energies, gradients and Hessians only",
+  "scope": "Explicit cluster models; no potassium, no total-base kinetic law, no experimental validation",
+  "attempts": [
+    {
+      "id": "activated_anionic_elimination_seed2028",
+      "status": "failed",
+      "accepted": false,
+      "started_utc": "2026-09-12T18:02:17.683215+00:00",
+      "finished_utc": "2026-09-12T18:03:28.632352+00:00",
+      "elapsed_seconds": 70.94913649559021,
+      "charge": -1,
+      "model": "Isolated anionic elimination from N-deprotonated hemiaminal plus two mapped tBuOH molecules to imine/water/tBuOH/tBuO-. Requires a separate preceding acid-base equilibrium; not the original neutral-hemiaminal elementary step or a total-base rate law.",
+      "result_path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\condensation_search\\activated_anionic_elimination_seed2028\\result.json",
+      "result_sha256": "7b82212f1833004673d5d470d24117b991031046f68b98685024bf81716c3332",
+      "failure_reasons": [
+        "ValueError: Endpoint 1 optimized into another chemical basin"
+      ],
+      "endpoint_identities": [
+        {
+          "index": 0,
+          "retained": true,
+          "lost_bonds": [],
+          "new_bonds": [],
+          "C_N_distance_angstrom": 1.428159212298459,
+          "C_N_allowed_interval": [
+            1.35,
+            1.7
+          ],
+          "criterion": "1.28 times ASE covalent radius sum plus specified C-N distance interval"
+        },
+        {
+          "index": 1,
+          "retained": false,
+          "lost_bonds": [
+            [
+              0,
+              42
+            ]
+          ],
+          "new_bonds": [
+            [
+              0,
+              1
+            ],
+            [
+              32,
+              42
+            ]
+          ],
+          "C_N_distance_angstrom": 1.4312947799545863,
+          "C_N_allowed_interval": [
+            1.15,
+            1.42
+          ],
+          "criterion": "1.28 times ASE covalent radius sum plus specified C-N distance interval"
+        }
+      ]
+    },
+    {
+      "id": "activated_anionic_elimination_seed2030",
+      "status": "failed",
+      "accepted": false,
+      "started_utc": "2026-09-12T18:08:27.919691+00:00",
+      "finished_utc": "2026-09-12T18:09:43.465678+00:00",
+      "elapsed_seconds": 75.54598712921143,
+      "charge": -1,
+      "model": "Isolated anionic elimination from N-deprotonated hemiaminal plus two mapped tBuOH molecules to imine/water/tBuOH/tBuO-. Requires a separate preceding acid-base equilibrium; not the original neutral-hemiaminal elementary step or a total-base rate law.",
+      "result_path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\condensation_search\\activated_anionic_elimination_seed2030\\result.json",
+      "result_sha256": "eaea2866038070e366a371e021a1591a92ca31d25ca07c407ed271e2e81cb247",
+      "failure_reasons": [
+        "ValueError: Endpoint 1 optimized into another chemical basin"
+      ],
+      "endpoint_identities": [
+        {
+          "index": 0,
+          "retained": true,
+          "lost_bonds": [],
+          "new_bonds": [],
+          "C_N_distance_angstrom": 1.4283156647281523,
+          "C_N_allowed_interval": [
+            1.35,
+            1.7
+          ],
+          "criterion": "1.28 times ASE covalent radius sum plus specified C-N distance interval"
+        },
+        {
+          "index": 1,
+          "retained": false,
+          "lost_bonds": [
+            [
+              0,
+              42
+            ]
+          ],
+          "new_bonds": [
+            [
+              0,
+              1
+            ],
+            [
+              32,
+              42
+            ]
+          ],
+          "C_N_distance_angstrom": 1.4311275739840141,
+          "C_N_allowed_interval": [
+            1.15,
+            1.42
+          ],
+          "criterion": "1.28 times ASE covalent radius sum plus specified C-N distance interval"
+        }
+      ]
+    },
+    {
+      "id": "anionic_tBuO_tBuOH_seed2027",
+      "status": "failed",
+      "accepted": false,
+      "started_utc": "2026-09-12T17:58:11.785775+00:00",
+      "finished_utc": "2026-09-12T17:58:20.667184+00:00",
+      "elapsed_seconds": 8.881408929824829,
+      "charge": -1,
+      "model": "Isolated anionic tBuO-/tBuOH cluster without potassium; N-H protonates the original tBuO- while original tBuOH protonates leaving O; mapped shuttle carbon skeletons exchange protonation states",
+      "result_path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\condensation_search\\anionic_tBuO_tBuOH_seed2027\\result.json",
+      "result_sha256": "090b929d745478fe7c815a6cc67fe1fae71eb4f1ff33b79c2db3181bb431c680",
+      "failure_reasons": [
+        "ValueError: Endpoint 0 optimized into another chemical basin"
+      ],
+      "endpoint_identities": [
+        {
+          "index": 0,
+          "retained": false,
+          "lost_bonds": [
+            [
+              2,
+              17
+            ]
+          ],
+          "new_bonds": [
+            [
+              17,
+              47
+            ]
+          ],
+          "C_N_distance_angstrom": 1.4281592181604181,
+          "C_N_allowed_interval": [
+            1.35,
+            1.7
+          ],
+          "criterion": "1.28 times ASE covalent radius sum plus specified C-N distance interval"
+        }
+      ]
+    },
+    {
+      "id": "neutral_tBuOH_seed2026",
+      "status": "failed",
+      "accepted": false,
+      "started_utc": "2026-09-12T17:41:39.706791+00:00",
+      "finished_utc": "2026-09-12T17:56:40.744693+00:00",
+      "elapsed_seconds": 901.0379018783569,
+      "charge": 0,
+      "model": "Neutral tBuOH proton shuttle; no base kinetic order or tBuOK speciation inferred",
+      "result_path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\condensation_search\\neutral_tBuOH_seed2026\\result.json",
+      "result_sha256": "ef614caee4d4aa87578c4c1b9dd1eb9f6b9b78faa685a096b39918338b0d5343",
+      "failure_reasons": [
+        "ValueError: CI-NEB did not converge within the bounded step allowance"
+      ],
+      "endpoint_identities": [
+        {
+          "index": 0,
+          "retained": true,
+          "lost_bonds": [],
+          "new_bonds": [],
+          "C_N_distance_angstrom": 1.4469751213361024,
+          "C_N_allowed_interval": [
+            1.35,
+            1.7
+          ],
+          "criterion": "1.28 times ASE covalent radius sum plus specified C-N distance interval"
+        },
+        {
+          "index": 1,
+          "retained": true,
+          "lost_bonds": [],
+          "new_bonds": [],
+          "C_N_distance_angstrom": 1.272280282123865,
+          "C_N_allowed_interval": [
+            1.15,
+            1.42
+          ],
+          "criterion": "1.28 times ASE covalent radius sum plus specified C-N distance interval"
+        }
+      ],
+      "neb_steps": 180,
+      "best_post_warmup_step": 76,
+      "minimum_post_warmup_projected_fmax_eV_A": 0.130327,
+      "final_projected_fmax_eV_A": 6.82507,
+      "n_total_images": 9,
+      "trajectory_path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\condensation_search\\neutral_tBuOH_seed2026\\neb.traj",
+      "trajectory_sha256": "1b2e4789548ef9703a6bd5140ed18b9d427c41cb95738cdcaa754cd7ee4038ab"
+    }
+  ],
+  "verified_endpoint_minimum_records": [
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\condensation_search\\activated_anionic_elimination_seed2028\\endpoint_0_verified_minimum.json",
+      "sha256": "be4b6f18811151fb5803560cc9681e63cdf1bc6e8cc7c6a55e1dec3976b5a84c",
+      "model": "Isolated anionic elimination from N-deprotonated hemiaminal plus two mapped tBuOH molecules to imine/water/tBuOH/tBuO-. Requires a separate preceding acid-base equilibrium; not the original neutral-hemiaminal elementary step or a total-base rate law.",
+      "minimum_frequency_cm1": 23.634616530290756,
+      "internal_modes": 165,
+      "formula": "C21H32NO3",
+      "charge": -1
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\condensation_search\\activated_anionic_elimination_seed2030\\endpoint_0_verified_minimum.json",
+      "sha256": "60d9b37cc6d8477bdb1b9640dbb11b98a68f487caa0c4563c8638cf0181d88be",
+      "model": "Isolated anionic elimination from N-deprotonated hemiaminal plus two mapped tBuOH molecules to imine/water/tBuOH/tBuO-. Requires a separate preceding acid-base equilibrium; not the original neutral-hemiaminal elementary step or a total-base rate law.",
+      "minimum_frequency_cm1": 24.627921103957597,
+      "internal_modes": 165,
+      "formula": "C21H32NO3",
+      "charge": -1
+    }
+  ],
+  "synthetic_research_observations": 0,
+  "accepted_transition_states": 0,
+  "complete_kinetic_network": false,
+  "barriers_and_TOFs_available": false,
+  "completed_search_attempts": 4,
+  "unique_verified_endpoint_chemical_models": 1,
+  "full_endpoint_hessian_records": 2
+}

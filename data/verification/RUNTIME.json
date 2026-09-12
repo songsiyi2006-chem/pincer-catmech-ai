@@ -1,0 +1,30 @@
+{
+  "python": "3.12.14 | packaged by conda-forge | (main, Sep  2 2026, 23:18:20) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "logical_CPUs": 20,
+  "physical_cores": 14,
+  "physical_memory_bytes": 16890716160,
+  "computational_device": "CPU; native xTB OMP resources are recorded per job",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "ase": "3.29.0",
+    "rdkit": "2026.3.5",
+    "scikit-learn": "1.9.0",
+    "psutil": "7.2.2",
+    "pytest": "8.4.2",
+    "pydantic": "2.13.5",
+    "reportlab": "5.0.1",
+    "matplotlib": "3.11.1",
+    "pillow": "12.3.0",
+    "jieba": "0.42.1"
+  },
+  "native_xtb_executable": "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+  "native_xtb_sha256": "e11f074b519c3b226f3fab4902f36555c4bfb204cc0365bdb196313124e3dc1b",
+  "native_xtb_version_stdout": "      -----------------------------------------------------------      \n     |                   =====================                   |     \n     |                           x T B                           |     \n     |                   =====================                   |     \n     |                         S. Grimme                         |     \n     |          Mulliken Center for Theoretical Chemistry        |     \n     |                    University of Bonn                     |     \n      -----------------------------------------------------------      \n\n   * xtb version 6.7.1 (edcfbbe) compiled by 'VssAdministrator@runnervm171ch' on 2026-06-10\n\n",
+  "native_xtb_version_stderr": "normal termination of xtb\n",
+  "existing_environment_preserved": "Campaign overlay venv inherits phase2ff; only missing test/report helpers installed in the overlay",
+  "hosted_language_model_CPU": "Not observable; telemetry measures local scientific subprocesses only"
+}

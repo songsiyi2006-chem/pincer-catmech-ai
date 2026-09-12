@@ -1,8 +1,19 @@
 # PINCER-CATMECH-AI
 
-Reproducible qRRHO thermochemistry and three-dimensional pincer descriptors for
-Gaussian 16 / ORCA workflows. This initialization provides numerical building
-blocks, not a trained model or an experimentally validated catalyst predictor.
+Reproducible qRRHO thermochemistry, pincer geometry generation, native GFN2-xTB
+searches, strict saddle-point validation, and evidence-gated microkinetics.
+The core initialization is followed by an actual three-hour local campaign.
+
+**Scientific status:** the campaign produced real optimized structures and
+source-verified molecular thermochemistry. The complete transition-state network,
+TOF grid, trained surrogate, and Pareto ranking remain unavailable. Software
+verification is not experimental validation. The exact frozen counts and unmet
+targets are recorded in [CAMPAIGN_STATUS.json](data/CAMPAIGN_STATUS.json).
+
+Read the [English monograph](docs/MONOGRAPH_BORROWING_HYDROGEN_EN.md) or
+[中文专著](docs/MONOGRAPH_BORROWING_HYDROGEN_ZH.md). The publication includes both
+Markdown and typeset PDFs, actual native evidence, rejected candidates, and
+portable geometry-linked datasets.
 
 ## Install and verify
 
@@ -11,7 +22,7 @@ Python 3.10 or newer:
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-python -m pip install -e '.[test]'
+python -m pip install -e '.[test,campaign]'
 python -m pytest tests/ -v
 python examples/mock_pipeline.py
 ```
@@ -89,7 +100,116 @@ and execute `git push origin main`. It never force-pushes. An upstream change
 that conflicts with local work or a failed test aborts the deployment.
 Use `PYTHON` to select a bootstrap interpreter and `PINCER_VENV` to select a
 different venv directory. Existing environments are reused, not recreated.
+For the complete campaign tests, set `PINCER_INSTALL_EXTRAS=test,campaign`.
+`PINCER_COMMIT_MESSAGE` supplies an explicit campaign message; omitting it keeps
+the original core commit convention. Data are included in the staged file set.
 
 See [English report](docs/TECHNICAL_REPORT_EN.md) and
 [中文技术报告](docs/TECHNICAL_REPORT_ZH.md) for derivations, citations, algorithms,
 evidence limits and the intended connection to pincer catalysis research.
+
+## Actual quantum campaign and evidence
+
+The 24 structures are designed analogues with explicit ancillary ligands and
+formal charge/occupation assumptions. Co is modeled as Co(I). The three modeled
+activation sites are PNP nitrogen, pyridine-PNN benzylic carbon, and bipyridine
+PNN(O) oxygen; a universal N–H activation assignment would be chemically wrong.
+GFN2-xTB does not establish their ground spin or experimental accessibility.
+
+The revised conditions are ALPB toluene (`gsolv`), 383.15 K, tBuOK 0.05 equivalent,
+with a requested 0.01–0.20 equivalent base grid. Full Hessians provide thirteen
+RRHO/qRRHO temperature evaluations. The ALPB electronic potential is held fixed
+across these temperatures; solvent temperature derivatives were not calculated.
+One ideal 1 atm-to-1 M correction is applied per molecular species at each T.
+The contact pair, free anion, and tBuOH are distinct molecular references; their
+existence does not determine dissolved salt speciation or free-base activity.
+
+Key source collections:
+
+| Collection | Meaning |
+| --- | --- |
+| `data/datasets/catalyst_descriptors.csv` | 24 design rows; missing intended structures remain empty |
+| `data/structures/` | Portable, exact-byte copies of selected native XYZ geometries and metadata |
+| `data/datasets/best_conformers_portable.json` | Electronic-energy selections with original provenance |
+| `data/datasets/thermochemistry/` | Fully revalidated certificates, 13T values and balanced reaction free energies |
+| `data/campaign/neb/` | Actual paths, force traces, convergence and strict TS acceptance records |
+| `data/condensation_search/` | Explicit neutral/anionic cluster attempts and failures |
+| `data/ionic_reference_retry/` | Verified K–OtBu contact-pair reference and actual restart audit |
+| `data/native_evidence/` | CRC/SHA256-verified ZIP archives of native inputs, outputs, gradients and Hessians |
+| `data/datasets/kinetics_readiness.json` | Why the requested real kinetic grid was not executed |
+| `data/datasets/surrogate_readiness.json` | Missing accepted barrier-label coverage; no trained model |
+
+The electronic best-found geometry need not be the lowest *certified* free-energy
+geometry. The thermal export chooses the lowest certified G at 383.15 K and uses
+that same certificate at every temperature; it never attaches its thermochemical
+correction to another conformer. Positive curvature alone cannot establish the
+intended catalyst identity. In particular, Co bipyridine active rearrangements
+are preserved as failures of that intended identity.
+
+Plots in `examples/plots/` have vector SVG/PDF and PNG companions. The Ru/Mn figure
+shows certified endpoint thermodynamics only. The requested TOF heatmap filename
+contains an explicitly labeled availability plot because no complete kinetic
+network is available. Hatched missing cells are not zero activity. There is no
+claimed mechanistic rate-controlling step, trained prediction, or metal ranking.
+
+## Replay and new calculations
+
+The actual runtime used native xTB 6.7.1 through an ASE calculator adapter, rather
+than an unavailable xtb-python binding. Install a working native xTB separately,
+then set `PINCER_XTB` to that executable. Reuse an existing scientific environment
+when available. The optional `campaign` dependencies include RDKit, ASE, SciPy,
+scikit-learn, and psutil. The `documents` extra supplies the PDF authoring tools.
+
+Revalidate the published evidence and regenerate the figures:
+
+```bash
+python scripts/export_thermochemistry_dataset.py
+python scripts/export_reference_reaction_thermodynamics.py
+python scripts/build_campaign_plots.py
+python -m pytest tests/ -v
+```
+
+The bilingual PDF renderer uses Windows Times/SimSun/SimHei fonts by default;
+provide `--font-directory` with those font files on another host. Rebuild and
+render every page for inspection with the `documents` dependencies:
+
+```bash
+python scripts/build_monograph_pdfs.py --output-directory work/pdf-rebuild
+python scripts/verify_monograph_pdfs.py work/pdf-rebuild work/pdf-qa
+```
+
+The second command records both parser page counts, every rendered page hash,
+text bounds, and the actual PDF rendering runtime. Inspect the resulting contact
+sheets and full pages before claiming visual quality; numeric bounds alone do
+not prove legibility or correct layout.
+
+Historical native absolute paths in raw JSON identify the originating workstation.
+Derived CSV paths are repository-relative. Certificate exporters resolve the local
+same-directory evidence and require its full SHA256. Data have Git text conversion
+disabled because changing native line endings would invalidate source hashes.
+Each native archive contains work-root-relative member names and an explicit
+selection/omission manifest. Binary restart caches, `xtbtopo.mol` topology caches,
+`.xtboptok` sentinels and files outside the manifest's explicit selectors are
+omitted. Saved XYZ, expected molecular graphs, native WBO, full output, restart
+source hashes, commands, final 300 K electronic energies, and force evidence remain.
+
+Start a *new* conformer search under a unique name so published data are preserved:
+
+```bash
+python scripts/run_conformer_campaign.py --campaign-name independent_run --hours 3 --workers 2 --threads 2 --solvent toluene --xtb /path/to/xtb
+```
+
+The new run writes `data/independent_run/` and separate scratch directories.
+`--resume` continues an existing run under its original deadline; it does not
+silently allocate a fresh three hours. Select that run's best-index and control
+paths. Changing the scientific protocol requires a new campaign name. Select output
+paths when launching the Hessian and NEB scripts. Inspect each script's `--help`
+for bounded resources and explicit output/scratch paths. Reproduction can change
+the best-found conformer with software/CPU differences and does not guarantee TS
+convergence. The original failed records remain scientifically meaningful.
+
+The eight-ODE solver and five-fold grouped surrogate are reusable algorithms.
+Their analytical regression fixtures are explicitly synthetic software tests,
+separate from the real campaign data. Their production interfaces require complete
+certified compositions, identities, charges, protocols, free energies, TS modes,
+and base-activity assumptions before producing scientific predictions.

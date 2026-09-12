@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-09-12T18:03:19.534171+00:00",
+  "records": [
+    {
+      "route": "Ru_macho_pnp_Ph_pilot_1789233262_18280",
+      "task_sha256_at_audit": "85a7e16971c4dcc0bc0a2431370b8c9083f3ecb27b7ffe2d06cce997070e4391",
+      "excluded_from_requested_catalyst_identity": true,
+      "reason": "Source active ligand underwent unintended intraligand C-H cleavage and transfer to Ru; assigned active amido catalyst topology was not retained",
+      "scope": "Coordinates, energies and failures remain genuine calculations of the rearranged composition; they are not valid training/barrier records for the intended catalyst identity"
+    },
+    {
+      "route": "Ru_macho_pnp_Ph_search_1789233435_31856",
+      "task_sha256_at_audit": "29b237d61c0c3ffbe22d190022920202f868dd8a9331d54d5a0dbc2883234fcd",
+      "excluded_from_requested_catalyst_identity": true,
+      "reason": "Source active ligand underwent unintended intraligand C-H cleavage and transfer to Ru; assigned active amido catalyst topology was not retained",
+      "scope": "Coordinates, energies and failures remain genuine calculations of the rearranged composition; they are not valid training/barrier records for the intended catalyst identity"
+    },
+    {
+      "route": "Ru_macho_pnp_iPr_search_1789233435_15024",
+      "task_sha256_at_audit": "808e9cbdc9517623db3b9858068a4c61cb174ac7bc3f7f86186942e5e9fc5952",
+      "excluded_from_requested_catalyst_identity": true,
+      "reason": "Source active ligand underwent unintended intraligand C-H cleavage and transfer to Ru; assigned active amido catalyst topology was not retained",
+      "scope": "Coordinates, energies and failures remain genuine calculations of the rearranged composition; they are not valid training/barrier records for the intended catalyst identity"
+    },
+    {
+      "route": "Ru_macho_pnp_iPr_resume_1789234998_22112",
+      "task_sha256_at_audit": "a9ee01a2d8b5452c8a55b244c45c7042af4f6cf7dc2058c198b16fb315e98ddb",
+      "excluded_from_requested_catalyst_identity": true,
+      "reason": "Source active ligand underwent unintended intraligand C-H cleavage and transfer to Ru; assigned active amido catalyst topology was not retained",
+      "scope": "Coordinates, energies and failures remain genuine calculations of the rearranged composition; they are not valid training/barrier records for the intended catalyst identity"
+    }
+  ],
+  "evidence": "endpoint_identity_audit.json and ru_active_conformer_identity_audit_alpb.json",
+  "overwrites_original_results": false
+}

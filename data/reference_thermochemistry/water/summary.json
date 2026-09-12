@@ -1,0 +1,117 @@
+{
+  "species": "water",
+  "smiles": "O",
+  "conformers": [
+    {
+      "conformer": 0,
+      "smiles": "O",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -138.04358880156434,
+        "max_force_eV_A": 9.931534615565409e-05,
+        "wall_seconds": 0.25,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\water\\conformer_00",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 3,
+        "output_sha256": "f1e00f8d3d82908f1adc5220c4b54b74c210c8d5783c2110b1cebd1d85757737",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 1,
+      "smiles": "O",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -138.04358860594166,
+        "max_force_eV_A": 0.00011372117344823177,
+        "wall_seconds": 0.1879999999946449,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\water\\conformer_01",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 3,
+        "output_sha256": "4373f1af10d8b48aa6fd364304afb30de27bf348c207728ae7715ff41f8c1688",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 2,
+      "smiles": "O",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -138.04358883911604,
+        "max_force_eV_A": 9.703072978113512e-05,
+        "wall_seconds": 0.15700000000651926,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\water\\conformer_02",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 3,
+        "output_sha256": "a98a62bc86d838618d92ff4fc4677b850f399c5dea95df84e9209e5e0a614d91",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 3,
+      "smiles": "O",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -138.04358583288376,
+        "max_force_eV_A": 0.0001987866429025902,
+        "wall_seconds": 0.28100000000267755,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\water\\conformer_03",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 3,
+        "output_sha256": "f4bcb0621d03f9a1975271633a0106163fe5ad6a6d6a0fafc77aa15d52c05a2f",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    }
+  ],
+  "status": "verified_minimum",
+  "accepted": true,
+  "best_conformer": 2,
+  "best_geometry_sha256": "1b9c4af57400a111d358616c8bcb8fc7fec67005c97076ae837102c1db0a292a",
+  "thermochemistry_file": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\water\\stationarity\\result.json",
+  "final_connectivity": {
+    "retained": true,
+    "lost_bonds": [],
+    "new_bonds": [],
+    "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+  }
+}

@@ -1,0 +1,711 @@
+{
+  "generated_utc": "2026-09-12T20:01:58.136224+00:00",
+  "status": "verified_postprocessing",
+  "csv_path": "data\\datasets\\reference_reaction_thermodynamics.csv",
+  "csv_sha256": "7a3b7635cb58f9f6281f97f5db59ba83a355709e21e8122d36569424e5c2af7c",
+  "generator": "scripts\\export_reference_reaction_thermodynamics.py",
+  "generator_sha256": "9da534eae0ae8f5d8b0ee245de603d7a9e40a86f8242ca434c0412d9e0cad92b",
+  "temperatures_K": [
+    298.15,
+    340.0,
+    350.0,
+    360.0,
+    370.0,
+    380.0,
+    383.15,
+    390.0,
+    400.0,
+    410.0,
+    420.0,
+    430.0,
+    440.0
+  ],
+  "row_count": 13,
+  "energy_unit": "kcal/mol",
+  "method": "GFN2-xTB + ALPB toluene/gsolv + entropy-only Grimme qRRHO + 1 M standard state",
+  "reaction_stoichiometry": {
+    "hemiaminal_formation": {
+      "hemiaminal": 1,
+      "benzaldehyde": -1,
+      "aniline": -1
+    },
+    "hemiaminal_dehydration": {
+      "imine": 1,
+      "water": 1,
+      "hemiaminal": -1
+    },
+    "net_borrowing_hydrogen": {
+      "product_amine": 1,
+      "water": 1,
+      "benzyl_alcohol": -1,
+      "aniline": -1
+    }
+  },
+  "reaction_delta_n": {
+    "hemiaminal_formation": -1,
+    "hemiaminal_dehydration": 1,
+    "net_borrowing_hydrogen": 0
+  },
+  "definition": "delta_G_standard = sum(products G_standard) - sum(reactants G_standard)",
+  "sources": [
+    {
+      "species_id": "aniline",
+      "formula": "C6H7N",
+      "charge": 0,
+      "smiles": "Nc1ccccc1",
+      "result_path": "data\\reference_thermochemistry\\aniline\\stationarity\\result.json",
+      "result_sha256": "d3e9ebbf63b998564883a059902adaa09a543bcf4a40400ed99edfd6aa72e27f",
+      "geometry_path": "data\\reference_thermochemistry\\aniline\\stationarity\\accepted_geometry.xyz",
+      "geometry_sha256": "10c6e1d825c20755cd72d7ae99b7d750b13a234bf316f183eefd95d13576771e",
+      "hessian_path": "data\\reference_thermochemistry\\aniline\\stationarity\\hessian_00.npz",
+      "hessian_sha256": "62ff63f728d70945f713ede715266d5c53d3f1a7e54c2420f6254502ebce2d38",
+      "original_hessian_source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\aniline\\stationarity\\hessian_00.npz",
+      "internal_mode_count": 36,
+      "minimum_frequency_cm1": 209.99693741515355,
+      "accepted_minimum": true,
+      "molecular_identity_checked": true,
+      "metadata_correction_audit": {
+        "utc": "2026-09-12T17:45:51.424221+00:00",
+        "reason": "source path refers to NPZ; source hash must hash that NPZ, while raw Hessian checksum is retained in attempts",
+        "changes": [
+          {
+            "temperature": 298.15,
+            "prior_raw_hessian_hash": "9ae9719f48a74a33b10b2247695ace84525e9485fdfb7c7165484aebc418f570",
+            "npz_source_hash": "62ff63f728d70945f713ede715266d5c53d3f1a7e54c2420f6254502ebce2d38"
+          },
+          {
+            "temperature": 340.0,
+            "prior_raw_hessian_hash": "9ae9719f48a74a33b10b2247695ace84525e9485fdfb7c7165484aebc418f570",
+            "npz_source_hash": "62ff63f728d70945f713ede715266d5c53d3f1a7e54c2420f6254502ebce2d38"
+          },
+          {
+            "temperature": 350.0,
+            "prior_raw_hessian_hash": "9ae9719f48a74a33b10b2247695ace84525e9485fdfb7c7165484aebc418f570",
+            "npz_source_hash": "62ff63f728d70945f713ede715266d5c53d3f1a7e54c2420f6254502ebce2d38"
+          },
+          {
+            "temperature": 360.0,
+            "prior_raw_hessian_hash": "9ae9719f48a74a33b10b2247695ace84525e9485fdfb7c7165484aebc418f570",
+            "npz_source_hash": "62ff63f728d70945f713ede715266d5c53d3f1a7e54c2420f6254502ebce2d38"
+          },
+          {
+            "temperature": 370.0,
+            "prior_raw_hessian_hash": "9ae9719f48a74a33b10b2247695ace84525e9485fdfb7c7165484aebc418f570",
+            "npz_source_hash": "62ff63f728d70945f713ede715266d5c53d3f1a7e54c2420f6254502ebce2d38"
+          },
+          {
+            "temperature": 380.0,
+            "prior_raw_hessian_hash": "9ae9719f48a74a33b10b2247695ace84525e9485fdfb7c7165484aebc418f570",
+            "npz_source_hash": "62ff63f728d70945f713ede715266d5c53d3f1a7e54c2420f6254502ebce2d38"
+          },
+          {
+            "temperature": 383.15,
+            "prior_raw_hessian_hash": "9ae9719f48a74a33b10b2247695ace84525e9485fdfb7c7165484aebc418f570",
+            "npz_source_hash": "62ff63f728d70945f713ede715266d5c53d3f1a7e54c2420f6254502ebce2d38"
+          },
+          {
+            "temperature": 390.0,
+            "prior_raw_hessian_hash": "9ae9719f48a74a33b10b2247695ace84525e9485fdfb7c7165484aebc418f570",
+            "npz_source_hash": "62ff63f728d70945f713ede715266d5c53d3f1a7e54c2420f6254502ebce2d38"
+          },
+          {
+            "temperature": 400.0,
+            "prior_raw_hessian_hash": "9ae9719f48a74a33b10b2247695ace84525e9485fdfb7c7165484aebc418f570",
+            "npz_source_hash": "62ff63f728d70945f713ede715266d5c53d3f1a7e54c2420f6254502ebce2d38"
+          },
+          {
+            "temperature": 410.0,
+            "prior_raw_hessian_hash": "9ae9719f48a74a33b10b2247695ace84525e9485fdfb7c7165484aebc418f570",
+            "npz_source_hash": "62ff63f728d70945f713ede715266d5c53d3f1a7e54c2420f6254502ebce2d38"
+          },
+          {
+            "temperature": 420.0,
+            "prior_raw_hessian_hash": "9ae9719f48a74a33b10b2247695ace84525e9485fdfb7c7165484aebc418f570",
+            "npz_source_hash": "62ff63f728d70945f713ede715266d5c53d3f1a7e54c2420f6254502ebce2d38"
+          },
+          {
+            "temperature": 430.0,
+            "prior_raw_hessian_hash": "9ae9719f48a74a33b10b2247695ace84525e9485fdfb7c7165484aebc418f570",
+            "npz_source_hash": "62ff63f728d70945f713ede715266d5c53d3f1a7e54c2420f6254502ebce2d38"
+          },
+          {
+            "temperature": 440.0,
+            "prior_raw_hessian_hash": "9ae9719f48a74a33b10b2247695ace84525e9485fdfb7c7165484aebc418f570",
+            "npz_source_hash": "62ff63f728d70945f713ede715266d5c53d3f1a7e54c2420f6254502ebce2d38"
+          }
+        ],
+        "energies_and_geometries_modified": false
+      },
+      "temperature_field": "temperature",
+      "G_field": "G_298_qRRHO_sol",
+      "G_field_interpretation": "Model G at the row temperature; legacy 298 name is not a temperature override"
+    },
+    {
+      "species_id": "benzaldehyde",
+      "formula": "C7H6O",
+      "charge": 0,
+      "smiles": "O=Cc1ccccc1",
+      "result_path": "data\\reference_thermochemistry\\benzaldehyde\\stationarity\\result.json",
+      "result_sha256": "3f46fd56a8a071c7e4fdfe9972db25c91e7807951f2d2b7fb661fb482d116e75",
+      "geometry_path": "data\\reference_thermochemistry\\benzaldehyde\\stationarity\\accepted_geometry.xyz",
+      "geometry_sha256": "e7292b48e5f27218094b119118595a7fc0b25d93db34b114bb0582e7ad8b60b9",
+      "hessian_path": "data\\reference_thermochemistry\\benzaldehyde\\stationarity\\hessian_00.npz",
+      "hessian_sha256": "64b76d5543cceee8f41ba798404dcfd80e1e4663692826bc2b20b21159eae912",
+      "original_hessian_source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\benzaldehyde\\stationarity\\hessian_00.npz",
+      "internal_mode_count": 36,
+      "minimum_frequency_cm1": 101.23105853175737,
+      "accepted_minimum": true,
+      "molecular_identity_checked": true,
+      "metadata_correction_audit": {
+        "utc": "2026-09-12T17:45:51.440139+00:00",
+        "reason": "source path refers to NPZ; source hash must hash that NPZ, while raw Hessian checksum is retained in attempts",
+        "changes": [
+          {
+            "temperature": 298.15,
+            "prior_raw_hessian_hash": "9b9ffc5bba90de934a06efd0e7d858650dc7a635f8ee1de5c05fca991a8429a8",
+            "npz_source_hash": "64b76d5543cceee8f41ba798404dcfd80e1e4663692826bc2b20b21159eae912"
+          },
+          {
+            "temperature": 340.0,
+            "prior_raw_hessian_hash": "9b9ffc5bba90de934a06efd0e7d858650dc7a635f8ee1de5c05fca991a8429a8",
+            "npz_source_hash": "64b76d5543cceee8f41ba798404dcfd80e1e4663692826bc2b20b21159eae912"
+          },
+          {
+            "temperature": 350.0,
+            "prior_raw_hessian_hash": "9b9ffc5bba90de934a06efd0e7d858650dc7a635f8ee1de5c05fca991a8429a8",
+            "npz_source_hash": "64b76d5543cceee8f41ba798404dcfd80e1e4663692826bc2b20b21159eae912"
+          },
+          {
+            "temperature": 360.0,
+            "prior_raw_hessian_hash": "9b9ffc5bba90de934a06efd0e7d858650dc7a635f8ee1de5c05fca991a8429a8",
+            "npz_source_hash": "64b76d5543cceee8f41ba798404dcfd80e1e4663692826bc2b20b21159eae912"
+          },
+          {
+            "temperature": 370.0,
+            "prior_raw_hessian_hash": "9b9ffc5bba90de934a06efd0e7d858650dc7a635f8ee1de5c05fca991a8429a8",
+            "npz_source_hash": "64b76d5543cceee8f41ba798404dcfd80e1e4663692826bc2b20b21159eae912"
+          },
+          {
+            "temperature": 380.0,
+            "prior_raw_hessian_hash": "9b9ffc5bba90de934a06efd0e7d858650dc7a635f8ee1de5c05fca991a8429a8",
+            "npz_source_hash": "64b76d5543cceee8f41ba798404dcfd80e1e4663692826bc2b20b21159eae912"
+          },
+          {
+            "temperature": 383.15,
+            "prior_raw_hessian_hash": "9b9ffc5bba90de934a06efd0e7d858650dc7a635f8ee1de5c05fca991a8429a8",
+            "npz_source_hash": "64b76d5543cceee8f41ba798404dcfd80e1e4663692826bc2b20b21159eae912"
+          },
+          {
+            "temperature": 390.0,
+            "prior_raw_hessian_hash": "9b9ffc5bba90de934a06efd0e7d858650dc7a635f8ee1de5c05fca991a8429a8",
+            "npz_source_hash": "64b76d5543cceee8f41ba798404dcfd80e1e4663692826bc2b20b21159eae912"
+          },
+          {
+            "temperature": 400.0,
+            "prior_raw_hessian_hash": "9b9ffc5bba90de934a06efd0e7d858650dc7a635f8ee1de5c05fca991a8429a8",
+            "npz_source_hash": "64b76d5543cceee8f41ba798404dcfd80e1e4663692826bc2b20b21159eae912"
+          },
+          {
+            "temperature": 410.0,
+            "prior_raw_hessian_hash": "9b9ffc5bba90de934a06efd0e7d858650dc7a635f8ee1de5c05fca991a8429a8",
+            "npz_source_hash": "64b76d5543cceee8f41ba798404dcfd80e1e4663692826bc2b20b21159eae912"
+          },
+          {
+            "temperature": 420.0,
+            "prior_raw_hessian_hash": "9b9ffc5bba90de934a06efd0e7d858650dc7a635f8ee1de5c05fca991a8429a8",
+            "npz_source_hash": "64b76d5543cceee8f41ba798404dcfd80e1e4663692826bc2b20b21159eae912"
+          },
+          {
+            "temperature": 430.0,
+            "prior_raw_hessian_hash": "9b9ffc5bba90de934a06efd0e7d858650dc7a635f8ee1de5c05fca991a8429a8",
+            "npz_source_hash": "64b76d5543cceee8f41ba798404dcfd80e1e4663692826bc2b20b21159eae912"
+          },
+          {
+            "temperature": 440.0,
+            "prior_raw_hessian_hash": "9b9ffc5bba90de934a06efd0e7d858650dc7a635f8ee1de5c05fca991a8429a8",
+            "npz_source_hash": "64b76d5543cceee8f41ba798404dcfd80e1e4663692826bc2b20b21159eae912"
+          }
+        ],
+        "energies_and_geometries_modified": false
+      },
+      "temperature_field": "temperature",
+      "G_field": "G_298_qRRHO_sol",
+      "G_field_interpretation": "Model G at the row temperature; legacy 298 name is not a temperature override"
+    },
+    {
+      "species_id": "benzyl_alcohol",
+      "formula": "C7H8O",
+      "charge": 0,
+      "smiles": "OCc1ccccc1",
+      "result_path": "data\\reference_thermochemistry\\benzyl_alcohol\\stationarity\\result.json",
+      "result_sha256": "0d8d739b15132b3eaadd6017059fd5f058ed99b882729013224aa941f77742c2",
+      "geometry_path": "data\\reference_thermochemistry\\benzyl_alcohol\\stationarity\\accepted_geometry.xyz",
+      "geometry_sha256": "f4897da33f477e49dfa225e23571ab1376182c83d5412b994134a99a99cc75c0",
+      "hessian_path": "data\\reference_thermochemistry\\benzyl_alcohol\\stationarity\\hessian_00.npz",
+      "hessian_sha256": "c52a5006fbe9a528104aa37196ed30e3ab66fb315bb59581763faae755cfd29c",
+      "original_hessian_source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\benzyl_alcohol\\stationarity\\hessian_00.npz",
+      "internal_mode_count": 42,
+      "minimum_frequency_cm1": 9.964287068918587,
+      "accepted_minimum": true,
+      "molecular_identity_checked": true,
+      "metadata_correction_audit": {
+        "utc": "2026-09-12T17:45:51.451684+00:00",
+        "reason": "source path refers to NPZ; source hash must hash that NPZ, while raw Hessian checksum is retained in attempts",
+        "changes": [
+          {
+            "temperature": 298.15,
+            "prior_raw_hessian_hash": "65bf34dcba4e6ffa94292190bed7763d0ce7bc8d5dabf244d64c158bc99a69fe",
+            "npz_source_hash": "c52a5006fbe9a528104aa37196ed30e3ab66fb315bb59581763faae755cfd29c"
+          },
+          {
+            "temperature": 340.0,
+            "prior_raw_hessian_hash": "65bf34dcba4e6ffa94292190bed7763d0ce7bc8d5dabf244d64c158bc99a69fe",
+            "npz_source_hash": "c52a5006fbe9a528104aa37196ed30e3ab66fb315bb59581763faae755cfd29c"
+          },
+          {
+            "temperature": 350.0,
+            "prior_raw_hessian_hash": "65bf34dcba4e6ffa94292190bed7763d0ce7bc8d5dabf244d64c158bc99a69fe",
+            "npz_source_hash": "c52a5006fbe9a528104aa37196ed30e3ab66fb315bb59581763faae755cfd29c"
+          },
+          {
+            "temperature": 360.0,
+            "prior_raw_hessian_hash": "65bf34dcba4e6ffa94292190bed7763d0ce7bc8d5dabf244d64c158bc99a69fe",
+            "npz_source_hash": "c52a5006fbe9a528104aa37196ed30e3ab66fb315bb59581763faae755cfd29c"
+          },
+          {
+            "temperature": 370.0,
+            "prior_raw_hessian_hash": "65bf34dcba4e6ffa94292190bed7763d0ce7bc8d5dabf244d64c158bc99a69fe",
+            "npz_source_hash": "c52a5006fbe9a528104aa37196ed30e3ab66fb315bb59581763faae755cfd29c"
+          },
+          {
+            "temperature": 380.0,
+            "prior_raw_hessian_hash": "65bf34dcba4e6ffa94292190bed7763d0ce7bc8d5dabf244d64c158bc99a69fe",
+            "npz_source_hash": "c52a5006fbe9a528104aa37196ed30e3ab66fb315bb59581763faae755cfd29c"
+          },
+          {
+            "temperature": 383.15,
+            "prior_raw_hessian_hash": "65bf34dcba4e6ffa94292190bed7763d0ce7bc8d5dabf244d64c158bc99a69fe",
+            "npz_source_hash": "c52a5006fbe9a528104aa37196ed30e3ab66fb315bb59581763faae755cfd29c"
+          },
+          {
+            "temperature": 390.0,
+            "prior_raw_hessian_hash": "65bf34dcba4e6ffa94292190bed7763d0ce7bc8d5dabf244d64c158bc99a69fe",
+            "npz_source_hash": "c52a5006fbe9a528104aa37196ed30e3ab66fb315bb59581763faae755cfd29c"
+          },
+          {
+            "temperature": 400.0,
+            "prior_raw_hessian_hash": "65bf34dcba4e6ffa94292190bed7763d0ce7bc8d5dabf244d64c158bc99a69fe",
+            "npz_source_hash": "c52a5006fbe9a528104aa37196ed30e3ab66fb315bb59581763faae755cfd29c"
+          },
+          {
+            "temperature": 410.0,
+            "prior_raw_hessian_hash": "65bf34dcba4e6ffa94292190bed7763d0ce7bc8d5dabf244d64c158bc99a69fe",
+            "npz_source_hash": "c52a5006fbe9a528104aa37196ed30e3ab66fb315bb59581763faae755cfd29c"
+          },
+          {
+            "temperature": 420.0,
+            "prior_raw_hessian_hash": "65bf34dcba4e6ffa94292190bed7763d0ce7bc8d5dabf244d64c158bc99a69fe",
+            "npz_source_hash": "c52a5006fbe9a528104aa37196ed30e3ab66fb315bb59581763faae755cfd29c"
+          },
+          {
+            "temperature": 430.0,
+            "prior_raw_hessian_hash": "65bf34dcba4e6ffa94292190bed7763d0ce7bc8d5dabf244d64c158bc99a69fe",
+            "npz_source_hash": "c52a5006fbe9a528104aa37196ed30e3ab66fb315bb59581763faae755cfd29c"
+          },
+          {
+            "temperature": 440.0,
+            "prior_raw_hessian_hash": "65bf34dcba4e6ffa94292190bed7763d0ce7bc8d5dabf244d64c158bc99a69fe",
+            "npz_source_hash": "c52a5006fbe9a528104aa37196ed30e3ab66fb315bb59581763faae755cfd29c"
+          }
+        ],
+        "energies_and_geometries_modified": false
+      },
+      "temperature_field": "temperature",
+      "G_field": "G_298_qRRHO_sol",
+      "G_field_interpretation": "Model G at the row temperature; legacy 298 name is not a temperature override"
+    },
+    {
+      "species_id": "hemiaminal",
+      "formula": "C13H13NO",
+      "charge": 0,
+      "smiles": "OC(Nc1ccccc1)c1ccccc1",
+      "result_path": "data\\reference_thermochemistry\\hemiaminal\\stationarity\\result.json",
+      "result_sha256": "c87bc196360d78217ef6e0528c5db5f9660bc58ea6815663a40e35b3495caff7",
+      "geometry_path": "data\\reference_thermochemistry\\hemiaminal\\stationarity\\accepted_geometry.xyz",
+      "geometry_sha256": "43c120f6fa5106717960454234119afe3ec98c29b1709477c98d887599f3c399",
+      "hessian_path": "data\\reference_thermochemistry\\hemiaminal\\stationarity\\hessian_00.npz",
+      "hessian_sha256": "711a7c4d09980744a16cc9ec29921e184db45bc50a5ba5cb4383c551e9ea48f9",
+      "original_hessian_source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\hemiaminal\\stationarity\\hessian_00.npz",
+      "internal_mode_count": 78,
+      "minimum_frequency_cm1": 26.056809848222702,
+      "accepted_minimum": true,
+      "molecular_identity_checked": true,
+      "metadata_correction_audit": {
+        "utc": "2026-09-12T17:45:51.467255+00:00",
+        "reason": "source path refers to NPZ; source hash must hash that NPZ, while raw Hessian checksum is retained in attempts",
+        "changes": [
+          {
+            "temperature": 298.15,
+            "prior_raw_hessian_hash": "4bcc82cd7e132f6ee3368373859da765d7edcb427d129719154e24969118a227",
+            "npz_source_hash": "711a7c4d09980744a16cc9ec29921e184db45bc50a5ba5cb4383c551e9ea48f9"
+          },
+          {
+            "temperature": 340.0,
+            "prior_raw_hessian_hash": "4bcc82cd7e132f6ee3368373859da765d7edcb427d129719154e24969118a227",
+            "npz_source_hash": "711a7c4d09980744a16cc9ec29921e184db45bc50a5ba5cb4383c551e9ea48f9"
+          },
+          {
+            "temperature": 350.0,
+            "prior_raw_hessian_hash": "4bcc82cd7e132f6ee3368373859da765d7edcb427d129719154e24969118a227",
+            "npz_source_hash": "711a7c4d09980744a16cc9ec29921e184db45bc50a5ba5cb4383c551e9ea48f9"
+          },
+          {
+            "temperature": 360.0,
+            "prior_raw_hessian_hash": "4bcc82cd7e132f6ee3368373859da765d7edcb427d129719154e24969118a227",
+            "npz_source_hash": "711a7c4d09980744a16cc9ec29921e184db45bc50a5ba5cb4383c551e9ea48f9"
+          },
+          {
+            "temperature": 370.0,
+            "prior_raw_hessian_hash": "4bcc82cd7e132f6ee3368373859da765d7edcb427d129719154e24969118a227",
+            "npz_source_hash": "711a7c4d09980744a16cc9ec29921e184db45bc50a5ba5cb4383c551e9ea48f9"
+          },
+          {
+            "temperature": 380.0,
+            "prior_raw_hessian_hash": "4bcc82cd7e132f6ee3368373859da765d7edcb427d129719154e24969118a227",
+            "npz_source_hash": "711a7c4d09980744a16cc9ec29921e184db45bc50a5ba5cb4383c551e9ea48f9"
+          },
+          {
+            "temperature": 383.15,
+            "prior_raw_hessian_hash": "4bcc82cd7e132f6ee3368373859da765d7edcb427d129719154e24969118a227",
+            "npz_source_hash": "711a7c4d09980744a16cc9ec29921e184db45bc50a5ba5cb4383c551e9ea48f9"
+          },
+          {
+            "temperature": 390.0,
+            "prior_raw_hessian_hash": "4bcc82cd7e132f6ee3368373859da765d7edcb427d129719154e24969118a227",
+            "npz_source_hash": "711a7c4d09980744a16cc9ec29921e184db45bc50a5ba5cb4383c551e9ea48f9"
+          },
+          {
+            "temperature": 400.0,
+            "prior_raw_hessian_hash": "4bcc82cd7e132f6ee3368373859da765d7edcb427d129719154e24969118a227",
+            "npz_source_hash": "711a7c4d09980744a16cc9ec29921e184db45bc50a5ba5cb4383c551e9ea48f9"
+          },
+          {
+            "temperature": 410.0,
+            "prior_raw_hessian_hash": "4bcc82cd7e132f6ee3368373859da765d7edcb427d129719154e24969118a227",
+            "npz_source_hash": "711a7c4d09980744a16cc9ec29921e184db45bc50a5ba5cb4383c551e9ea48f9"
+          },
+          {
+            "temperature": 420.0,
+            "prior_raw_hessian_hash": "4bcc82cd7e132f6ee3368373859da765d7edcb427d129719154e24969118a227",
+            "npz_source_hash": "711a7c4d09980744a16cc9ec29921e184db45bc50a5ba5cb4383c551e9ea48f9"
+          },
+          {
+            "temperature": 430.0,
+            "prior_raw_hessian_hash": "4bcc82cd7e132f6ee3368373859da765d7edcb427d129719154e24969118a227",
+            "npz_source_hash": "711a7c4d09980744a16cc9ec29921e184db45bc50a5ba5cb4383c551e9ea48f9"
+          },
+          {
+            "temperature": 440.0,
+            "prior_raw_hessian_hash": "4bcc82cd7e132f6ee3368373859da765d7edcb427d129719154e24969118a227",
+            "npz_source_hash": "711a7c4d09980744a16cc9ec29921e184db45bc50a5ba5cb4383c551e9ea48f9"
+          }
+        ],
+        "energies_and_geometries_modified": false
+      },
+      "temperature_field": "temperature",
+      "G_field": "G_298_qRRHO_sol",
+      "G_field_interpretation": "Model G at the row temperature; legacy 298 name is not a temperature override"
+    },
+    {
+      "species_id": "imine",
+      "formula": "C13H11N",
+      "charge": 0,
+      "smiles": "c1ccc(/C=N/c2ccccc2)cc1",
+      "result_path": "data\\reference_thermochemistry\\imine\\stationarity\\result.json",
+      "result_sha256": "2ee89b5a8c79986ed8f229f1f3ade61a7e00647f67f221ceee47af2a271952a1",
+      "geometry_path": "data\\reference_thermochemistry\\imine\\stationarity\\accepted_geometry.xyz",
+      "geometry_sha256": "320207d7a21680926414b387b1b8cd3adcb066bb7fc19106fe58731629d2bffb",
+      "hessian_path": "data\\reference_thermochemistry\\imine\\stationarity\\hessian_00.npz",
+      "hessian_sha256": "a94e2ab678a36c063d8f4bfe28a3f471fce72f64ae5d5410d494060438662da3",
+      "original_hessian_source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\imine\\stationarity\\hessian_00.npz",
+      "internal_mode_count": 69,
+      "minimum_frequency_cm1": 39.87931537154714,
+      "accepted_minimum": true,
+      "molecular_identity_checked": true,
+      "metadata_correction_audit": {
+        "utc": "2026-09-12T17:45:51.486060+00:00",
+        "reason": "source path refers to NPZ; source hash must hash that NPZ, while raw Hessian checksum is retained in attempts",
+        "changes": [
+          {
+            "temperature": 298.15,
+            "prior_raw_hessian_hash": "23e1f34791d9bd4c2190ca1053c7aa77f8496663597cbc2f5e3ae84b7d4db2ea",
+            "npz_source_hash": "a94e2ab678a36c063d8f4bfe28a3f471fce72f64ae5d5410d494060438662da3"
+          },
+          {
+            "temperature": 340.0,
+            "prior_raw_hessian_hash": "23e1f34791d9bd4c2190ca1053c7aa77f8496663597cbc2f5e3ae84b7d4db2ea",
+            "npz_source_hash": "a94e2ab678a36c063d8f4bfe28a3f471fce72f64ae5d5410d494060438662da3"
+          },
+          {
+            "temperature": 350.0,
+            "prior_raw_hessian_hash": "23e1f34791d9bd4c2190ca1053c7aa77f8496663597cbc2f5e3ae84b7d4db2ea",
+            "npz_source_hash": "a94e2ab678a36c063d8f4bfe28a3f471fce72f64ae5d5410d494060438662da3"
+          },
+          {
+            "temperature": 360.0,
+            "prior_raw_hessian_hash": "23e1f34791d9bd4c2190ca1053c7aa77f8496663597cbc2f5e3ae84b7d4db2ea",
+            "npz_source_hash": "a94e2ab678a36c063d8f4bfe28a3f471fce72f64ae5d5410d494060438662da3"
+          },
+          {
+            "temperature": 370.0,
+            "prior_raw_hessian_hash": "23e1f34791d9bd4c2190ca1053c7aa77f8496663597cbc2f5e3ae84b7d4db2ea",
+            "npz_source_hash": "a94e2ab678a36c063d8f4bfe28a3f471fce72f64ae5d5410d494060438662da3"
+          },
+          {
+            "temperature": 380.0,
+            "prior_raw_hessian_hash": "23e1f34791d9bd4c2190ca1053c7aa77f8496663597cbc2f5e3ae84b7d4db2ea",
+            "npz_source_hash": "a94e2ab678a36c063d8f4bfe28a3f471fce72f64ae5d5410d494060438662da3"
+          },
+          {
+            "temperature": 383.15,
+            "prior_raw_hessian_hash": "23e1f34791d9bd4c2190ca1053c7aa77f8496663597cbc2f5e3ae84b7d4db2ea",
+            "npz_source_hash": "a94e2ab678a36c063d8f4bfe28a3f471fce72f64ae5d5410d494060438662da3"
+          },
+          {
+            "temperature": 390.0,
+            "prior_raw_hessian_hash": "23e1f34791d9bd4c2190ca1053c7aa77f8496663597cbc2f5e3ae84b7d4db2ea",
+            "npz_source_hash": "a94e2ab678a36c063d8f4bfe28a3f471fce72f64ae5d5410d494060438662da3"
+          },
+          {
+            "temperature": 400.0,
+            "prior_raw_hessian_hash": "23e1f34791d9bd4c2190ca1053c7aa77f8496663597cbc2f5e3ae84b7d4db2ea",
+            "npz_source_hash": "a94e2ab678a36c063d8f4bfe28a3f471fce72f64ae5d5410d494060438662da3"
+          },
+          {
+            "temperature": 410.0,
+            "prior_raw_hessian_hash": "23e1f34791d9bd4c2190ca1053c7aa77f8496663597cbc2f5e3ae84b7d4db2ea",
+            "npz_source_hash": "a94e2ab678a36c063d8f4bfe28a3f471fce72f64ae5d5410d494060438662da3"
+          },
+          {
+            "temperature": 420.0,
+            "prior_raw_hessian_hash": "23e1f34791d9bd4c2190ca1053c7aa77f8496663597cbc2f5e3ae84b7d4db2ea",
+            "npz_source_hash": "a94e2ab678a36c063d8f4bfe28a3f471fce72f64ae5d5410d494060438662da3"
+          },
+          {
+            "temperature": 430.0,
+            "prior_raw_hessian_hash": "23e1f34791d9bd4c2190ca1053c7aa77f8496663597cbc2f5e3ae84b7d4db2ea",
+            "npz_source_hash": "a94e2ab678a36c063d8f4bfe28a3f471fce72f64ae5d5410d494060438662da3"
+          },
+          {
+            "temperature": 440.0,
+            "prior_raw_hessian_hash": "23e1f34791d9bd4c2190ca1053c7aa77f8496663597cbc2f5e3ae84b7d4db2ea",
+            "npz_source_hash": "a94e2ab678a36c063d8f4bfe28a3f471fce72f64ae5d5410d494060438662da3"
+          }
+        ],
+        "energies_and_geometries_modified": false
+      },
+      "temperature_field": "temperature",
+      "G_field": "G_298_qRRHO_sol",
+      "G_field_interpretation": "Model G at the row temperature; legacy 298 name is not a temperature override"
+    },
+    {
+      "species_id": "product_amine",
+      "formula": "C13H13N",
+      "charge": 0,
+      "smiles": "c1ccc(CNc2ccccc2)cc1",
+      "result_path": "data\\reference_thermochemistry\\product_amine\\stationarity\\result.json",
+      "result_sha256": "e12171d1b82ce6be4486cc215dd7d930921558e6a27498d7d946e102e88597f5",
+      "geometry_path": "data\\reference_thermochemistry\\product_amine\\stationarity\\accepted_geometry.xyz",
+      "geometry_sha256": "1310231bc0e8cfa7827d24c6e16bb1ae55f4c47ed9c416194f0e2ec8627a6231",
+      "hessian_path": "data\\reference_thermochemistry\\product_amine\\stationarity\\hessian_00.npz",
+      "hessian_sha256": "e0a82691865e570f53cc6bb7b32c298c96add14e7eac0c19b74ce5b401cfceb6",
+      "original_hessian_source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\product_amine\\stationarity\\hessian_00.npz",
+      "internal_mode_count": 75,
+      "minimum_frequency_cm1": 14.391675960227412,
+      "accepted_minimum": true,
+      "molecular_identity_checked": true,
+      "metadata_correction_audit": {
+        "utc": "2026-09-12T17:45:51.503567+00:00",
+        "reason": "source path refers to NPZ; source hash must hash that NPZ, while raw Hessian checksum is retained in attempts",
+        "changes": [
+          {
+            "temperature": 298.15,
+            "prior_raw_hessian_hash": "2065c4b6e6947f860e693748d8dd338f97506eb5eae0f282e5496bd80894b3a9",
+            "npz_source_hash": "e0a82691865e570f53cc6bb7b32c298c96add14e7eac0c19b74ce5b401cfceb6"
+          },
+          {
+            "temperature": 340.0,
+            "prior_raw_hessian_hash": "2065c4b6e6947f860e693748d8dd338f97506eb5eae0f282e5496bd80894b3a9",
+            "npz_source_hash": "e0a82691865e570f53cc6bb7b32c298c96add14e7eac0c19b74ce5b401cfceb6"
+          },
+          {
+            "temperature": 350.0,
+            "prior_raw_hessian_hash": "2065c4b6e6947f860e693748d8dd338f97506eb5eae0f282e5496bd80894b3a9",
+            "npz_source_hash": "e0a82691865e570f53cc6bb7b32c298c96add14e7eac0c19b74ce5b401cfceb6"
+          },
+          {
+            "temperature": 360.0,
+            "prior_raw_hessian_hash": "2065c4b6e6947f860e693748d8dd338f97506eb5eae0f282e5496bd80894b3a9",
+            "npz_source_hash": "e0a82691865e570f53cc6bb7b32c298c96add14e7eac0c19b74ce5b401cfceb6"
+          },
+          {
+            "temperature": 370.0,
+            "prior_raw_hessian_hash": "2065c4b6e6947f860e693748d8dd338f97506eb5eae0f282e5496bd80894b3a9",
+            "npz_source_hash": "e0a82691865e570f53cc6bb7b32c298c96add14e7eac0c19b74ce5b401cfceb6"
+          },
+          {
+            "temperature": 380.0,
+            "prior_raw_hessian_hash": "2065c4b6e6947f860e693748d8dd338f97506eb5eae0f282e5496bd80894b3a9",
+            "npz_source_hash": "e0a82691865e570f53cc6bb7b32c298c96add14e7eac0c19b74ce5b401cfceb6"
+          },
+          {
+            "temperature": 383.15,
+            "prior_raw_hessian_hash": "2065c4b6e6947f860e693748d8dd338f97506eb5eae0f282e5496bd80894b3a9",
+            "npz_source_hash": "e0a82691865e570f53cc6bb7b32c298c96add14e7eac0c19b74ce5b401cfceb6"
+          },
+          {
+            "temperature": 390.0,
+            "prior_raw_hessian_hash": "2065c4b6e6947f860e693748d8dd338f97506eb5eae0f282e5496bd80894b3a9",
+            "npz_source_hash": "e0a82691865e570f53cc6bb7b32c298c96add14e7eac0c19b74ce5b401cfceb6"
+          },
+          {
+            "temperature": 400.0,
+            "prior_raw_hessian_hash": "2065c4b6e6947f860e693748d8dd338f97506eb5eae0f282e5496bd80894b3a9",
+            "npz_source_hash": "e0a82691865e570f53cc6bb7b32c298c96add14e7eac0c19b74ce5b401cfceb6"
+          },
+          {
+            "temperature": 410.0,
+            "prior_raw_hessian_hash": "2065c4b6e6947f860e693748d8dd338f97506eb5eae0f282e5496bd80894b3a9",
+            "npz_source_hash": "e0a82691865e570f53cc6bb7b32c298c96add14e7eac0c19b74ce5b401cfceb6"
+          },
+          {
+            "temperature": 420.0,
+            "prior_raw_hessian_hash": "2065c4b6e6947f860e693748d8dd338f97506eb5eae0f282e5496bd80894b3a9",
+            "npz_source_hash": "e0a82691865e570f53cc6bb7b32c298c96add14e7eac0c19b74ce5b401cfceb6"
+          },
+          {
+            "temperature": 430.0,
+            "prior_raw_hessian_hash": "2065c4b6e6947f860e693748d8dd338f97506eb5eae0f282e5496bd80894b3a9",
+            "npz_source_hash": "e0a82691865e570f53cc6bb7b32c298c96add14e7eac0c19b74ce5b401cfceb6"
+          },
+          {
+            "temperature": 440.0,
+            "prior_raw_hessian_hash": "2065c4b6e6947f860e693748d8dd338f97506eb5eae0f282e5496bd80894b3a9",
+            "npz_source_hash": "e0a82691865e570f53cc6bb7b32c298c96add14e7eac0c19b74ce5b401cfceb6"
+          }
+        ],
+        "energies_and_geometries_modified": false
+      },
+      "temperature_field": "temperature",
+      "G_field": "G_298_qRRHO_sol",
+      "G_field_interpretation": "Model G at the row temperature; legacy 298 name is not a temperature override"
+    },
+    {
+      "species_id": "water",
+      "formula": "H2O",
+      "charge": 0,
+      "smiles": "O",
+      "result_path": "data\\reference_thermochemistry\\water\\stationarity\\result.json",
+      "result_sha256": "6bdc755b638bea813a83910603897ca6afe0f39aaa2e999e599c63f4d4e8e170",
+      "geometry_path": "data\\reference_thermochemistry\\water\\stationarity\\accepted_geometry.xyz",
+      "geometry_sha256": "b1f656d8e4e88d584ad8b71c352f7fa4a3b5198d1b61e4845d00e0ca24c8c884",
+      "hessian_path": "data\\reference_thermochemistry\\water\\stationarity\\hessian_00.npz",
+      "hessian_sha256": "2dd72a2c1af1fcdc73cf323035528fe785da15a647646a4abe849b7ff6f88398",
+      "original_hessian_source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\water\\stationarity\\hessian_00.npz",
+      "internal_mode_count": 3,
+      "minimum_frequency_cm1": 1531.0546819364542,
+      "accepted_minimum": true,
+      "molecular_identity_checked": true,
+      "metadata_correction_audit": {
+        "utc": "2026-09-12T17:45:51.545976+00:00",
+        "reason": "source path refers to NPZ; source hash must hash that NPZ, while raw Hessian checksum is retained in attempts",
+        "changes": [
+          {
+            "temperature": 298.15,
+            "prior_raw_hessian_hash": "13acbdd0c1897dfc343418ff381ad574419a571736b4dd242e6b6d962830b24d",
+            "npz_source_hash": "2dd72a2c1af1fcdc73cf323035528fe785da15a647646a4abe849b7ff6f88398"
+          },
+          {
+            "temperature": 340.0,
+            "prior_raw_hessian_hash": "13acbdd0c1897dfc343418ff381ad574419a571736b4dd242e6b6d962830b24d",
+            "npz_source_hash": "2dd72a2c1af1fcdc73cf323035528fe785da15a647646a4abe849b7ff6f88398"
+          },
+          {
+            "temperature": 350.0,
+            "prior_raw_hessian_hash": "13acbdd0c1897dfc343418ff381ad574419a571736b4dd242e6b6d962830b24d",
+            "npz_source_hash": "2dd72a2c1af1fcdc73cf323035528fe785da15a647646a4abe849b7ff6f88398"
+          },
+          {
+            "temperature": 360.0,
+            "prior_raw_hessian_hash": "13acbdd0c1897dfc343418ff381ad574419a571736b4dd242e6b6d962830b24d",
+            "npz_source_hash": "2dd72a2c1af1fcdc73cf323035528fe785da15a647646a4abe849b7ff6f88398"
+          },
+          {
+            "temperature": 370.0,
+            "prior_raw_hessian_hash": "13acbdd0c1897dfc343418ff381ad574419a571736b4dd242e6b6d962830b24d",
+            "npz_source_hash": "2dd72a2c1af1fcdc73cf323035528fe785da15a647646a4abe849b7ff6f88398"
+          },
+          {
+            "temperature": 380.0,
+            "prior_raw_hessian_hash": "13acbdd0c1897dfc343418ff381ad574419a571736b4dd242e6b6d962830b24d",
+            "npz_source_hash": "2dd72a2c1af1fcdc73cf323035528fe785da15a647646a4abe849b7ff6f88398"
+          },
+          {
+            "temperature": 383.15,
+            "prior_raw_hessian_hash": "13acbdd0c1897dfc343418ff381ad574419a571736b4dd242e6b6d962830b24d",
+            "npz_source_hash": "2dd72a2c1af1fcdc73cf323035528fe785da15a647646a4abe849b7ff6f88398"
+          },
+          {
+            "temperature": 390.0,
+            "prior_raw_hessian_hash": "13acbdd0c1897dfc343418ff381ad574419a571736b4dd242e6b6d962830b24d",
+            "npz_source_hash": "2dd72a2c1af1fcdc73cf323035528fe785da15a647646a4abe849b7ff6f88398"
+          },
+          {
+            "temperature": 400.0,
+            "prior_raw_hessian_hash": "13acbdd0c1897dfc343418ff381ad574419a571736b4dd242e6b6d962830b24d",
+            "npz_source_hash": "2dd72a2c1af1fcdc73cf323035528fe785da15a647646a4abe849b7ff6f88398"
+          },
+          {
+            "temperature": 410.0,
+            "prior_raw_hessian_hash": "13acbdd0c1897dfc343418ff381ad574419a571736b4dd242e6b6d962830b24d",
+            "npz_source_hash": "2dd72a2c1af1fcdc73cf323035528fe785da15a647646a4abe849b7ff6f88398"
+          },
+          {
+            "temperature": 420.0,
+            "prior_raw_hessian_hash": "13acbdd0c1897dfc343418ff381ad574419a571736b4dd242e6b6d962830b24d",
+            "npz_source_hash": "2dd72a2c1af1fcdc73cf323035528fe785da15a647646a4abe849b7ff6f88398"
+          },
+          {
+            "temperature": 430.0,
+            "prior_raw_hessian_hash": "13acbdd0c1897dfc343418ff381ad574419a571736b4dd242e6b6d962830b24d",
+            "npz_source_hash": "2dd72a2c1af1fcdc73cf323035528fe785da15a647646a4abe849b7ff6f88398"
+          },
+          {
+            "temperature": 440.0,
+            "prior_raw_hessian_hash": "13acbdd0c1897dfc343418ff381ad574419a571736b4dd242e6b6d962830b24d",
+            "npz_source_hash": "2dd72a2c1af1fcdc73cf323035528fe785da15a647646a4abe849b7ff6f88398"
+          }
+        ],
+        "energies_and_geometries_modified": false
+      },
+      "temperature_field": "temperature",
+      "G_field": "G_298_qRRHO_sol",
+      "G_field_interpretation": "Model G at the row temperature; legacy 298 name is not a temperature override"
+    }
+  ],
+  "interpretation": "Reaction thermodynamics of accepted independently optimized molecular references. No transition state, activation barrier, rate constant, TOF, or equilibrium population with ion-pair speciation is inferred.",
+  "temperature_approximation": "Fixed accepted geometry/Hessian and fixed ALPB excess contribution reused; no independent solvation enthalpy or solvent temperature derivative",
+  "standard_state": "ALPB gsolv excess contribution is already in the potential; one ideal 1 atm to 1 M shift per molecular species at each actual T",
+  "checks": [
+    "accepted minimum flags",
+    "exact XYZ hash",
+    "exact NPZ hash",
+    "XYZ/NPZ positions and atom order",
+    "all-positive complete internal spectrum",
+    "every row spectrum equals NPZ",
+    "graph identity",
+    "consistent 13T and reference-state conventions",
+    "G reconstruction",
+    "atom and charge balances"
+  ]
+}

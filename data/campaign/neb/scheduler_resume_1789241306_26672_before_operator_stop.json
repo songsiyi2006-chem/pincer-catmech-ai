@@ -1,0 +1,17 @@
+{
+  "mode": "resume",
+  "pid": 26672,
+  "started_utc": "2026-09-12T19:28:26.105003+00:00",
+  "status": "running",
+  "source_routes": [
+    "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Mn_macho_pnp_Ph_resume_1789237349_19436"
+  ],
+  "workers": 1,
+  "threads_per_worker": 2,
+  "deadline_epoch": 1789243277.8901894,
+  "results": [],
+  "active_source_routes": [
+    "data\\campaign\\neb\\Mn_macho_pnp_Ph_resume_1789237349_19436"
+  ],
+  "updated_utc": "2026-09-12T19:53:06.623041+00:00"
+}

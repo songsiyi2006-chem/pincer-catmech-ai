@@ -1,0 +1,31 @@
+{
+  "stage": "endpoint",
+  "utc": "2026-09-12T18:03:28.617832+00:00",
+  "elapsed_seconds": 70.93461632728577,
+  "index": 1,
+  "identity": {
+    "retained": false,
+    "lost_bonds": [
+      [
+        0,
+        42
+      ]
+    ],
+    "new_bonds": [
+      [
+        0,
+        1
+      ],
+      [
+        32,
+        42
+      ]
+    ],
+    "C_N_distance_angstrom": 1.4312947799545863,
+    "C_N_allowed_interval": [
+      1.15,
+      1.42
+    ],
+    "criterion": "1.28 times ASE covalent radius sum plus specified C-N distance interval"
+  }
+}

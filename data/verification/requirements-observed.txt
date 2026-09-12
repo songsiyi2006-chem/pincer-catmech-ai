@@ -1,0 +1,14 @@
+# Observed Python distributions in this campaign; not a cross-platform lockfile.
+# Native xTB and its binary hash are recorded separately in RUNTIME.json.
+numpy==2.4.6
+scipy==1.18.0
+ase==3.29.0
+rdkit==2026.3.5
+scikit-learn==1.9.0
+psutil==7.2.2
+pytest==8.4.2
+pydantic==2.13.5
+reportlab==5.0.1
+matplotlib==3.11.1
+pillow==12.3.0
+jieba==0.42.1

@@ -1,0 +1,22 @@
+{
+  "status": "superseded_by_user_solvent_selection",
+  "started_at_utc": "2026-09-12T17:01:17.890189+00:00",
+  "started_epoch": 1789232477.8901894,
+  "deadline_epoch": 1789243277.8901894,
+  "requested_hours": 3.0,
+  "pid": 32504,
+  "workers": 2,
+  "threads_per_worker": 2,
+  "method": "GFN2-xTB",
+  "electronic_temperature_K": 300.0,
+  "solvent": "gas phase; no solvent stabilization added",
+  "interpretation": "Designed analogues; best found structures, no global-minimum or ground-spin proof",
+  "completed_jobs": 110,
+  "assembly_failures": 8,
+  "accepted_species": 60,
+  "active_jobs": 1,
+  "current_round": 1,
+  "elapsed_seconds": 715.0647971630096,
+  "successor": "data/campaign_alpb_toluene/control.json",
+  "gas_results_role": "preoptimization_only"
+}

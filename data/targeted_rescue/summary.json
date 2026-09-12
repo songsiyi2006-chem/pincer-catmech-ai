@@ -1,0 +1,7 @@
+{
+  "finished_utc": "2026-09-12T17:59:00.286496+00:00",
+  "attempts": 48,
+  "accepted_species": 12,
+  "method": "GFN2-xTB/ALPB toluene gsolv",
+  "scope": "Fresh unrotated embedding seeds; unrestrained native optimizations; additional local search"
+}

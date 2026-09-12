@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-09-12T17:58:11.249872+00:00",
+  "seed": 2027,
+  "sources": [
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\hemiaminal\\stationarity\\accepted_geometry.xyz",
+      "sha256": "43c120f6fa5106717960454234119afe3ec98c29b1709477c98d887599f3c399"
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\tert_butanol\\stationarity\\accepted_geometry.xyz",
+      "sha256": "528ce6cef516220b49746927b16e66a325ccc5797a749a09e16cf5dfe6b1bd99"
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\tert_butoxide_anion\\stationarity\\accepted_geometry.xyz",
+      "sha256": "d212e4231d6b932ee1d5bcd7336d05f49a5bd740e5762fb2e2806c3cb8018b82"
+    }
+  ],
+  "assembly_geometric_score_only": 2.1411613298097078e-17,
+  "potassium_explicit": false,
+  "interpretation": "Isolated anionic tBuO-/tBuOH cluster without potassium; N-H protonates the original tBuO- while original tBuOH protonates leaving O; mapped shuttle carbon skeletons exchange protonation states",
+  "base_assembly_geometric_score_only": 0.0,
+  "mapped_indices": {
+    "C": 1,
+    "N": 2,
+    "leaving_O": 0,
+    "N_H": 17,
+    "original_O_H": 15,
+    "proton_acceptor_O": 47,
+    "shuttle_O": 32,
+    "shuttle_H": 42
+  },
+  "total_atoms": 57,
+  "total_charge": -1
+}

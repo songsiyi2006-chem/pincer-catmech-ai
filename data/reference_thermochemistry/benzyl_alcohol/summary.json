@@ -1,0 +1,117 @@
+{
+  "species": "benzyl_alcohol",
+  "smiles": "OCc1ccccc1",
+  "conformers": [
+    {
+      "conformer": 0,
+      "smiles": "OCc1ccccc1",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -628.9281084191002,
+        "max_force_eV_A": 0.0005092922866472339,
+        "wall_seconds": 0.3279999999940628,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\benzyl_alcohol\\conformer_00",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 16,
+        "output_sha256": "c32c1e8de26e4273b62a0e8ac34e69b683ec7b987ae3bc34f137ec9d5ca06a8f",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 1,
+      "smiles": "OCc1ccccc1",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -629.0079928349829,
+        "max_force_eV_A": 0.0005157498356583764,
+        "wall_seconds": 0.42199999999138527,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\benzyl_alcohol\\conformer_01",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 16,
+        "output_sha256": "2ed6533a4c00035507e9e21e5d16144b91724db9de16d298c0ca668cc1de4cdf",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 2,
+      "smiles": "OCc1ccccc1",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -628.9278894056747,
+        "max_force_eV_A": 0.00044770208834345545,
+        "wall_seconds": 0.3129999999946449,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\benzyl_alcohol\\conformer_02",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 16,
+        "output_sha256": "31694701eab5f742e5201cc62c5b24aee3de85c463e9dab5625a6f391cc565dd",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 3,
+      "smiles": "OCc1ccccc1",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -629.0077865963236,
+        "max_force_eV_A": 0.001132392212658858,
+        "wall_seconds": 0.375,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\benzyl_alcohol\\conformer_03",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 16,
+        "output_sha256": "a7671c48e8b84903ee655fd54928d46220805762d4596666b13f2a8616a8194d",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    }
+  ],
+  "status": "verified_minimum",
+  "accepted": true,
+  "best_conformer": 1,
+  "best_geometry_sha256": "4988101b8de8dd4196daf7c457f2ac1e3da0310f632f67137010c0aa5faf59b8",
+  "thermochemistry_file": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\benzyl_alcohol\\stationarity\\result.json",
+  "final_connectivity": {
+    "retained": true,
+    "lost_bonds": [],
+    "new_bonds": [],
+    "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+  }
+}

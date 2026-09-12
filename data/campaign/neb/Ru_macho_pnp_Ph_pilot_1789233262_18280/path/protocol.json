@@ -1,0 +1,32 @@
+{
+  "method": "ASE CI-NEB plus dimer plus full force-difference Hessian",
+  "n_internal_images": 7,
+  "transfer_indices": {
+    "proton": 71,
+    "proton_donor": 63,
+    "proton_acceptor": 1,
+    "hydride": 73,
+    "hydride_donor": 64,
+    "hydride_acceptor": 0
+  },
+  "atom_mapping": null,
+  "neb_fmax_ev_a": 0.05,
+  "neb_steps": 4,
+  "ts_fmax_ev_a": 0.03,
+  "ts_steps": 4,
+  "endpoint_steps": 8,
+  "max_corrections": 0,
+  "hessian_step_angstrom": 0.01,
+  "imaginary_noise_cm1": 0.0,
+  "imaginary_window_cm1": [
+    -1800,
+    -300
+  ],
+  "descent_steps": 80,
+  "descent_displacement_angstrom": 0.15,
+  "endpoint_rmsd_tolerance_angstrom": 0.5,
+  "minimum_transfer_overlap": 0.15,
+  "minimum_combined_overlap": 0.3,
+  "deadline_seconds": 180.0,
+  "free_energy_barrier_computed": false
+}

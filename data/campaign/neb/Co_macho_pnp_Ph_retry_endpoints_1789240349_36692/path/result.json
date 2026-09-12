@@ -1,0 +1,26 @@
+{
+  "status": "failed",
+  "accepted": false,
+  "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Co_macho_pnp_Ph_retry_endpoints_1789240349_36692\\path",
+  "n_internal_images": 7,
+  "neb_converged": false,
+  "provisional_neb_initial_guess": false,
+  "global_peak_image": null,
+  "selected_initial_image": null,
+  "restarted_ts_candidate": false,
+  "endpoint_converged": [
+    true,
+    true
+  ],
+  "image_energies_ev": [],
+  "attempts": [],
+  "failure_reasons": [
+    "RuntimeError: Real xTB energy/gradient evaluation failed; inspect attempt records"
+  ],
+  "accepted_ts_energy_ev": null,
+  "forward_electronic_barrier_ev": null,
+  "reverse_electronic_barrier_ev": null,
+  "elapsed_seconds": 121.92199999999139,
+  "calculator_evaluations": 8,
+  "evidence": "Injected-calculator electronic potential; no free-energy barrier inferred"
+}

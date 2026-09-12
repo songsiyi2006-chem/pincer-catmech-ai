@@ -1,0 +1,84 @@
+{
+  "species": "potassium_tert_butoxide_contact_pair",
+  "smiles": "CC(C)(C)[O-]",
+  "conformers": [
+    {
+      "conformer": 0,
+      "smiles": "CC(C)(C)[O-]",
+      "native_result": {
+        "status": "not_converged",
+        "energy_eV": null,
+        "max_force_eV_A": null,
+        "wall_seconds": 3.4530000000086147,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\potassium_tert_butoxide_contact_pair\\conformer_00",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": false,
+        "atoms_count": 15,
+        "output_sha256": "dd2bef38a68c28f4b47117d9bbdebbdac493938e9217d69a46b56dac4e2784ba",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0
+    },
+    {
+      "conformer": 1,
+      "smiles": "CC(C)(C)[O-]",
+      "native_result": {
+        "status": "not_converged",
+        "energy_eV": null,
+        "max_force_eV_A": null,
+        "wall_seconds": 3.5,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\potassium_tert_butoxide_contact_pair\\conformer_01",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": false,
+        "atoms_count": 15,
+        "output_sha256": "8c8fb99e3e5a230525254d6443f09eade4a4ba33c7d6e6cb71cb456997748b18",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0
+    },
+    {
+      "conformer": 2,
+      "smiles": "CC(C)(C)[O-]",
+      "native_result": {
+        "status": "not_converged",
+        "energy_eV": null,
+        "max_force_eV_A": null,
+        "wall_seconds": 3.375,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\potassium_tert_butoxide_contact_pair\\conformer_02",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": false,
+        "atoms_count": 15,
+        "output_sha256": "dff55d184bae766c0f55b8cd25ca8952fee332795ddf3cb0e384ecbc4bfbf42b",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0
+    },
+    {
+      "conformer": 3,
+      "smiles": "CC(C)(C)[O-]",
+      "native_result": {
+        "status": "not_converged",
+        "energy_eV": null,
+        "max_force_eV_A": null,
+        "wall_seconds": 3.5310000000026776,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\potassium_tert_butoxide_contact_pair\\conformer_03",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": false,
+        "atoms_count": 15,
+        "output_sha256": "8b4b2215b926657117ca34ef4ee2e2ac1389f77f809c1376d1d623ca10210539",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0
+    }
+  ],
+  "status": "no_converged_reference",
+  "accepted": false
+}

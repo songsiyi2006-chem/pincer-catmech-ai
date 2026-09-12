@@ -1,0 +1,50 @@
+{
+  "status": "operator_stopped",
+  "accepted": false,
+  "output_directory": "data\\campaign\\neb\\Mn_macho_pnp_Ph_resume_1789234998_33472\\path",
+  "n_internal_images": 7,
+  "neb_converged": true,
+  "provisional_neb_initial_guess": false,
+  "global_peak_image": 4,
+  "selected_initial_image": 4,
+  "endpoint_converged": [
+    true,
+    true
+  ],
+  "image_energies_ev": [
+    -3282.490691595651,
+    -3282.5974983391407,
+    -3282.2389666288764,
+    -3282.264273638757,
+    -3282.2085527207896,
+    -3282.4528773675397,
+    -3282.631587627558,
+    -3282.750473490147,
+    -3282.7940621743764
+  ],
+  "attempts": [
+    {
+      "attempt": 0,
+      "accepted": false,
+      "status": "dimer_not_converged",
+      "dimer_converged": false,
+      "true_fmax_ev_a": 0.19704294825388774,
+      "energy_ev": -3282.3453152463417,
+      "completed_dimer_steps": 120
+    },
+    {
+      "attempt": 1,
+      "accepted": false,
+      "status": "operator_stopped_after_first_complete_failed_attempt"
+    }
+  ],
+  "failure_reasons": [
+    "The 120-step global-peak dimer did not meet true-force convergence. Its geometry lies beyond both transfers; a separate reactive local-image search will use the saved converged band."
+  ],
+  "accepted_ts_energy_ev": null,
+  "forward_electronic_barrier_ev": null,
+  "reverse_electronic_barrier_ev": null,
+  "elapsed_seconds": 2340.161614,
+  "calculator_evaluations": 3002,
+  "evidence": "Real ALPB(toluene)/GFN2-xTB calculations. Operator stop provenance reconstructed from immutable gradient traces and completed stage log; no TS or Hessian certification obtained."
+}

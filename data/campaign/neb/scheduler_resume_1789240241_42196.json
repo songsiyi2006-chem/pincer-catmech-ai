@@ -1,0 +1,114 @@
+{
+  "mode": "resume",
+  "pid": 42196,
+  "started_utc": "2026-09-12T19:10:41.495268+00:00",
+  "status": "finished",
+  "source_routes": [
+    "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Co_macho_pnp_iPr_search_1789234743_15024"
+  ],
+  "workers": 1,
+  "threads_per_worker": 1,
+  "deadline_epoch": 1789243277.8901894,
+  "results": [
+    {
+      "catalyst_id": "Co_macho_pnp_iPr",
+      "mode": "resume",
+      "started_utc": "2026-09-12T19:10:49.236573+00:00",
+      "pid": 44628,
+      "source_route": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Co_macho_pnp_iPr_search_1789234743_15024",
+      "source_result_status": "failed",
+      "source_trajectory_sha256": "4c181fbacc55ea41e24648efc8c7e096e5eb6f86cd6784341c500ba7bcafc164",
+      "source_trajectory_frame_count": 9,
+      "selected_frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "source_protocol_sha256": "2836da195d47048d730815d4e474bde92110a748a435cabf66bf7b0e9b1f0971",
+      "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Co_macho_pnp_iPr_resume_1789240249_44628",
+      "threads": 1,
+      "solvent": "toluene",
+      "solvation_model": "ALPB",
+      "solvation_state": "gsolv",
+      "no_free_energy_barrier": true,
+      "refine_unconverged_band": true,
+      "requested_ts_initial_image": null,
+      "requested_resume_neb_steps": null,
+      "resume_last_dimer": false,
+      "hessian_method": "native",
+      "continuation_protocol": "Reuse only actual saved coordinates; fresh forces on every band image; no native endpoint or IDPP repetition",
+      "status": "failed",
+      "endpoint_ligand_identity": [
+        {
+          "retained": true,
+          "ligand_retained": true,
+          "original_nonmetal_graph_retained": true,
+          "lost_bonds": [],
+          "new_bonds": [],
+          "ligand_lost_bonds": [],
+          "ligand_new_bonds": [],
+          "ancillary_coordination_retained": true,
+          "metal_hydride_distances_A": [],
+          "metal_carbonyl_distances_A": [
+            1.7205701374885918
+          ],
+          "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+          "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+        },
+        {
+          "retained": true,
+          "ligand_retained": true,
+          "original_nonmetal_graph_retained": true,
+          "lost_bonds": [],
+          "new_bonds": [],
+          "ligand_lost_bonds": [],
+          "ligand_new_bonds": [],
+          "ancillary_coordination_retained": true,
+          "metal_hydride_distances_A": [],
+          "metal_carbonyl_distances_A": [
+            1.7187186703980202
+          ],
+          "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+          "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+        }
+      ],
+      "accepted": false,
+      "path_result": {
+        "status": "failed",
+        "accepted": false,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Co_macho_pnp_iPr_resume_1789240249_44628\\path",
+        "n_internal_images": 7,
+        "neb_converged": false,
+        "provisional_neb_initial_guess": false,
+        "global_peak_image": null,
+        "selected_initial_image": null,
+        "restarted_ts_candidate": false,
+        "endpoint_converged": [
+          true,
+          true
+        ],
+        "image_energies_ev": [],
+        "attempts": [],
+        "failure_reasons": [
+          "RuntimeError: Real xTB energy/gradient evaluation failed; inspect attempt records"
+        ],
+        "accepted_ts_energy_ev": null,
+        "forward_electronic_barrier_ev": null,
+        "reverse_electronic_barrier_ev": null,
+        "elapsed_seconds": 80.98500000001513,
+        "calculator_evaluations": 13,
+        "evidence": "Injected-calculator electronic potential; no free-energy barrier inferred"
+      },
+      "finished_utc": "2026-09-12T19:12:12.413669+00:00"
+    }
+  ],
+  "active_source_routes": [],
+  "updated_utc": "2026-09-12T19:12:12.431543+00:00",
+  "finished_utc": "2026-09-12T19:12:12.946782+00:00"
+}

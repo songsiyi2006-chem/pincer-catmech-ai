@@ -1,0 +1,7 @@
+{"stage": "endpoint_0", "elapsed_seconds": 1.25, "calculator_evaluations": 1, "step": 0, "energy_ev": -2551.64578491358, "fmax_ev_a": 0.004829604868850693}
+{"stage": "endpoint_1", "elapsed_seconds": 2.6719999999913853, "calculator_evaluations": 2, "step": 0, "energy_ev": -2552.223642919111, "fmax_ev_a": 0.03271419667601413}
+{"stage": "neb", "elapsed_seconds": 12.202999999979511, "calculator_evaluations": 10, "step": 0, "image_energies_ev": [-2551.64578491358, -2551.579909083117, -2551.416533842877, -2549.5867810193026, -2551.589045849114, -2551.2405686810866, -2551.8269640532103, -2552.1432666666783, -2552.223642919111]}
+{"stage": "neb", "elapsed_seconds": 32.875, "calculator_evaluations": 28, "step": 1, "image_energies_ev": [-2551.64578491358, -2551.5800119953, -2551.4168743341343, -2549.5878120959987, -2551.590661326788, -2551.2412624207063, -2551.8272613813315, -2552.143360507891, -2552.223642928608]}
+{"stage": "unconverged_band_provisional_guess", "elapsed_seconds": 34.21799999999348, "calculator_evaluations": 29, "neb_converged": false, "independent_full_saddle_validation_required": true}
+{"stage": "dimer_guess_selected", "elapsed_seconds": 34.21799999999348, "calculator_evaluations": 29, "global_peak_image": 3, "global_peak_energy_ev": -2549.5878120959987, "selected_image": 3, "selected_energy_ev": -2549.5878120959987, "initial_tangent_image": 3, "selection": "explicit local image"}
+{"stage": "dimer_start", "elapsed_seconds": 34.21799999999348, "calculator_evaluations": 29, "attempt": 0}

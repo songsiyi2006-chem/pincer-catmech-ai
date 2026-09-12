@@ -1,0 +1,2529 @@
+{
+  "schema_version": 1,
+  "finished_utc": "2026-09-12T19:57:22.449357+00:00",
+  "scope": "Actual GFN2-xTB ALPB(toluene)/gsolv six-representative alcohol dehydrogenation searches; software tests excluded",
+  "all_tracked_actual_neb_calculation_sessions_ended": true,
+  "process_guard": {
+    "checked_utc": "2026-09-12T19:57:22.449357+00:00",
+    "active_python_neb_or_diagnostic_writers": [],
+    "scope": "Tracked run_neb_campaign.py and diagnose_ts_candidate.py sessions; parent finalizer additionally checks all scientific writers"
+  },
+  "gradient_count_definition": "Successful JSONL records with both an energy and full forces; excludes native optimization/Hessian internal evaluations and failed SCC attempts; not total xTB calls",
+  "successful_archived_gradient_records": 15008,
+  "accepted_path_count": 0,
+  "free_energy_barrier_count": 0,
+  "diagnostic_boundary": "Nonstationary diagnostic frequencies and modes do not establish TS identity, a free energy, a barrier, or kinetic labels",
+  "identity_exclusion_file": {
+    "file": "excluded_route_identities.json",
+    "sha256": "200e6f0c84bc1fd7f222d998a9a3d4c33d1abcf07fc2266aa5b8a2624ffe94d9"
+  },
+  "chemical_identity_audits": [
+    {
+      "file": "current_reaction_complete_nonmetal_graph_audit.json",
+      "sha256": "08ba10acdb3dcf6e530ef2ef1bfd990850c8373ce78c9b1d61720f271dd41049"
+    },
+    {
+      "file": "co_retry_endpoint_audit.json",
+      "sha256": "08967aefb9cd719ae61fd30ed964252c7d71d392b1a55b043c5a216461a53090"
+    },
+    {
+      "file": "ru_conformer_identity_index_clarification.json",
+      "sha256": "99e32c28b16aceee20b470f3bd772ef6a98044ea7d617fdf100f33c60f628343"
+    }
+  ],
+  "groups": [
+    {
+      "catalyst_id": "Ru_macho_pnp_Ph",
+      "routes": [
+        {
+          "directory": "Ru_macho_pnp_Ph_pilot_1789233262_18280",
+          "status": "failed",
+          "accepted": false,
+          "started_utc": "2026-09-12T17:14:22.071138+00:00",
+          "finished_utc": "2026-09-12T17:14:32.004339+00:00",
+          "successful_archived_gradient_records": 18,
+          "gradient_archives": [
+            {
+              "file": "evaluations_endpoint_0.jsonl.gz",
+              "sha256": "eca67ae5bc6e5fe897d59347785c87d085b6cfeb67b7caa048d25e478187d47d",
+              "successful_gradient_records": 9,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_endpoint_1.jsonl.gz",
+              "sha256": "0442e354f9c87c8bb3eaccc710b1188cac421f9f38946e7261f925ab431ab219",
+              "successful_gradient_records": 9,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": null,
+          "identity_exclusion": {
+            "route": "Ru_macho_pnp_Ph_pilot_1789233262_18280",
+            "task_sha256_at_audit": "85a7e16971c4dcc0bc0a2431370b8c9083f3ecb27b7ffe2d06cce997070e4391",
+            "excluded_from_requested_catalyst_identity": true,
+            "reason": "Source active ligand underwent unintended intraligand C-H cleavage and transfer to Ru; assigned active amido catalyst topology was not retained",
+            "scope": "Coordinates, energies and failures remain genuine calculations of the rearranged composition; they are not valid training/barrier records for the intended catalyst identity"
+          },
+          "source_geometry_sha256": "caeb5c3373d813b277741dfe955cb72c23be1a4ac0413ec6ac6e34719348b57a",
+          "source_trajectory_sha256": null,
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "85a7e16971c4dcc0bc0a2431370b8c9083f3ecb27b7ffe2d06cce997070e4391",
+          "engine_accepted": false,
+          "accepted_ts_identity": null,
+          "source_not_explicitly_excluded": false,
+          "intended_identity_eligible": false,
+          "path_status": "failed",
+          "endpoint_converged": [
+            false,
+            false
+          ],
+          "neb_converged": false,
+          "provisional_neb_initial_guess": null,
+          "source_identity": null,
+          "endpoint_identity": null,
+          "hessian_mode_restart": null,
+          "attempts": [],
+          "failure_reasons": [
+            "ValueError: endpoint optimization did not converge within the step allowance",
+            "Source or fixed accepted geometry fails the full intended catalyst/substrate identity screen"
+          ],
+          "full_hessian_files": [],
+          "stage_history": [
+            "endpoint_0",
+            "endpoint_1"
+          ],
+          "progress_parse_errors": [],
+          "required_gates": {
+            "ts_fmax_ev_a": 0.03,
+            "imaginary_noise_cm1": 0.0,
+            "imaginary_window_cm1": [
+              -1800,
+              -300
+            ],
+            "minimum_transfer_overlap": 0.15,
+            "minimum_combined_overlap": 0.3
+          },
+          "forward_electronic_barrier_ev": null,
+          "raw_engine_forward_electronic_barrier_ev": null,
+          "free_energy_barrier_available": false,
+          "result_sha256": "3b7391dc204cbd904b8e76a043adeacf23f112cfedc6bbc60abc0ce161b7b697"
+        },
+        {
+          "directory": "Ru_macho_pnp_Ph_search_1789233435_31856",
+          "status": "failed",
+          "accepted": false,
+          "started_utc": "2026-09-12T17:17:15.148488+00:00",
+          "finished_utc": "2026-09-12T17:18:41.856639+00:00",
+          "successful_archived_gradient_records": 2,
+          "gradient_archives": [
+            {
+              "file": "evaluations_endpoint_0.jsonl.gz",
+              "sha256": "a9953d97756ed613313e556284f23af71452b42b7fd113f783da9b425d9f1e2b",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_endpoint_1.jsonl.gz",
+              "sha256": "39dd3483c64346a942748bc47f628e09ddc3ca068aaac4ab1f054c004a270998",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": null,
+          "identity_exclusion": {
+            "route": "Ru_macho_pnp_Ph_search_1789233435_31856",
+            "task_sha256_at_audit": "29b237d61c0c3ffbe22d190022920202f868dd8a9331d54d5a0dbc2883234fcd",
+            "excluded_from_requested_catalyst_identity": true,
+            "reason": "Source active ligand underwent unintended intraligand C-H cleavage and transfer to Ru; assigned active amido catalyst topology was not retained",
+            "scope": "Coordinates, energies and failures remain genuine calculations of the rearranged composition; they are not valid training/barrier records for the intended catalyst identity"
+          },
+          "source_geometry_sha256": "f8072e3a2fc3f7513547e006ad5a7e8bc79fa092c7be3f6006d1d83623a572ad",
+          "source_trajectory_sha256": null,
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "29b237d61c0c3ffbe22d190022920202f868dd8a9331d54d5a0dbc2883234fcd",
+          "engine_accepted": false,
+          "accepted_ts_identity": null,
+          "source_not_explicitly_excluded": false,
+          "intended_identity_eligible": false,
+          "path_status": "failed",
+          "endpoint_converged": [
+            true,
+            true
+          ],
+          "neb_converged": false,
+          "provisional_neb_initial_guess": null,
+          "source_identity": null,
+          "endpoint_identity": null,
+          "hessian_mode_restart": null,
+          "attempts": [],
+          "failure_reasons": [
+            "ValueError: optimized endpoints do not bracket the annotated hydride transfer",
+            "Source or fixed accepted geometry fails the full intended catalyst/substrate identity screen"
+          ],
+          "full_hessian_files": [],
+          "stage_history": [
+            "endpoint_0",
+            "endpoint_1"
+          ],
+          "progress_parse_errors": [],
+          "required_gates": {
+            "ts_fmax_ev_a": 0.03,
+            "imaginary_noise_cm1": 0.0,
+            "imaginary_window_cm1": [
+              -1800,
+              -300
+            ],
+            "minimum_transfer_overlap": 0.15,
+            "minimum_combined_overlap": 0.3
+          },
+          "forward_electronic_barrier_ev": null,
+          "raw_engine_forward_electronic_barrier_ev": null,
+          "free_energy_barrier_available": false,
+          "result_sha256": "22a8cf8da83342111819c1e512db0cdcdad2d340db8e0ccaf3290bfaf762b805"
+        },
+        {
+          "directory": "Ru_macho_pnp_Ph_search_1789236051_21844",
+          "status": "deadline_exhausted",
+          "accepted": false,
+          "started_utc": "2026-09-12T18:00:51.625317+00:00",
+          "finished_utc": "2026-09-12T18:45:58.903580+00:00",
+          "successful_archived_gradient_records": 2771,
+          "gradient_archives": [
+            {
+              "file": "evaluations_endpoint_0.jsonl.gz",
+              "sha256": "d07dd45db39954448666daced6c20a64baef6db7875313e846f962e00e514c79",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_endpoint_1.jsonl.gz",
+              "sha256": "f40030920eedd9d5b2f56549a36e39d58914f63e41986a0b5c80443c6b8b6f0a",
+              "successful_gradient_records": 311,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_01.jsonl.gz",
+              "sha256": "0b1b8668f17f7cf3931aa0d0c96bb094749e9eebd6bb370806b8a40e04c670ab",
+              "successful_gradient_records": 169,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_02.jsonl.gz",
+              "sha256": "3bc2995610ae7172feea502e626ed51dae221f1c59d7a213aedb26224d3f15a1",
+              "successful_gradient_records": 200,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_03.jsonl.gz",
+              "sha256": "67f1d1e3f50eee3ec0a3a688c0e1682dfee8281f8823beeec464c04745899f7f",
+              "successful_gradient_records": 233,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_04.jsonl.gz",
+              "sha256": "5f079da7b0fea9899accfdc9e1576033c00f652e4ac4c531f20e3334b2ad3f20",
+              "successful_gradient_records": 259,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_05.jsonl.gz",
+              "sha256": "9cc20f731f562cd1bf5202c851bd325f1ecc9ca9cd1e2352ea0b89e7982ad914",
+              "successful_gradient_records": 269,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_06.jsonl.gz",
+              "sha256": "9b2ceba3729b245c0e9a3da6dcb5c991c821807bae9f5fa4692a2403fef11abf",
+              "successful_gradient_records": 282,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_07.jsonl.gz",
+              "sha256": "11b0db6d490544caac651ab5190d211e0d05e74a5ed6306509577610b7158fc1",
+              "successful_gradient_records": 300,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_product_preconditioning.jsonl.gz",
+              "sha256": "48e970ec89488daa081539decfc829278b84f2c250720268c570ce66e096d13f",
+              "successful_gradient_records": 181,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_ts_attempt_00.jsonl.gz",
+              "sha256": "0e3f3d802cd5ff060b1bf9640faba8f7b9619aa0fbb389bf85aaffb028a732f9",
+              "successful_gradient_records": 566,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": null,
+          "identity_exclusion": null,
+          "source_geometry_sha256": "6534cee7b407f87e3f52fd2a9bf5cb12f654f8b4bc8a8c2976fdb455ff787274",
+          "source_trajectory_sha256": null,
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "cee0428e8f2db996a15516889edb0c322b3c07128f86846e0d9f259e7f335276",
+          "engine_accepted": false,
+          "accepted_ts_identity": null,
+          "source_not_explicitly_excluded": true,
+          "intended_identity_eligible": null,
+          "path_status": "deadline_exhausted",
+          "endpoint_converged": [
+            true,
+            true
+          ],
+          "neb_converged": false,
+          "provisional_neb_initial_guess": true,
+          "source_identity": {
+            "retained": true,
+            "lost_bonds": [],
+            "new_bonds": [],
+            "criterion": "1.28 times ASE covalent-radius sum within the original ligand; geometric identity screen"
+          },
+          "endpoint_identity": null,
+          "hessian_mode_restart": null,
+          "attempts": [
+            {
+              "attempt": 0,
+              "accepted": false,
+              "status": "deadline_exhausted",
+              "initial_guess_from_unconverged_band": true,
+              "error": "Campaign deadline exhausted during electronic retries"
+            }
+          ],
+          "failure_reasons": [
+            "TimeoutError: Campaign deadline exhausted during electronic retries"
+          ],
+          "full_hessian_files": [],
+          "stage_history": [
+            "endpoint_0",
+            "endpoint_1",
+            "neb",
+            "unconverged_band_provisional_guess",
+            "dimer_start"
+          ],
+          "progress_parse_errors": [],
+          "required_gates": {
+            "ts_fmax_ev_a": 0.03,
+            "imaginary_noise_cm1": 0.0,
+            "imaginary_window_cm1": [
+              -1800,
+              -300
+            ],
+            "minimum_transfer_overlap": 0.15,
+            "minimum_combined_overlap": 0.3
+          },
+          "forward_electronic_barrier_ev": null,
+          "raw_engine_forward_electronic_barrier_ev": null,
+          "free_energy_barrier_available": false,
+          "result_sha256": "9412dc766044eb008fa7a77411c7e7c79e0fedbd30522892a9ef19bbff3c198d"
+        }
+      ],
+      "diagnostics": [
+        {
+          "directory": "Ru_macho_pnp_Ph_diagnostic_1789241361_13924",
+          "status": "diagnostic_complete",
+          "accepted": false,
+          "started_utc": "2026-09-12T19:29:22.000350+00:00",
+          "finished_utc": "2026-09-12T19:34:30.989144+00:00",
+          "successful_archived_gradient_records": 1,
+          "gradient_archives": [
+            {
+              "file": "fresh_gradient.jsonl.gz",
+              "sha256": "6899b452c61e0421cc0f6c2dcc70d98d1c1a9f21b37296400de612f9ab751275",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Ru_macho_pnp_Ph_search_1789236051_21844",
+          "identity_exclusion": null,
+          "source_geometry_sha256": null,
+          "source_trajectory_sha256": "75bc63e1cb05273da77b4e9b7bd2fb697bb1128679f0aca43abcc9735cf70a0f",
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "695431979f4c620c47c945681c9b61f4715e3f1ac7d3628e677983b86e10d645",
+          "scope": "Full nonstationary-candidate curvature diagnostic; no TS certificate, thermochemistry, or barrier is emitted",
+          "true_fmax_eV_A": 0.5982512749838136,
+          "negative_mode_count": 4,
+          "negative_mode_transfer_coordinates": [
+            {
+              "frequency_cm1": -373.32036233005545,
+              "proton_overlap": 0.0460984372894915,
+              "hydride_overlap": 0.08434126608638684,
+              "combined_overlap": 0.09223479879304539,
+              "concerted_direction": true
+            },
+            {
+              "frequency_cm1": -36.20704044821542,
+              "proton_overlap": 0.15766212508897337,
+              "hydride_overlap": 0.12189612643652828,
+              "combined_overlap": 0.02529038018305284,
+              "concerted_direction": false
+            },
+            {
+              "frequency_cm1": -22.432125319239958,
+              "proton_overlap": 0.11062229447768615,
+              "hydride_overlap": 0.03308982724972366,
+              "combined_overlap": 0.10161981581215805,
+              "concerted_direction": true
+            },
+            {
+              "frequency_cm1": -18.772568854822755,
+              "proton_overlap": 0.05772713792500246,
+              "hydride_overlap": 0.06949169328686626,
+              "combined_overlap": 0.08995729824453919,
+              "concerted_direction": true
+            }
+          ],
+          "chemical_identity": {
+            "retained": true,
+            "ligand_retained": true,
+            "original_nonmetal_graph_retained": true,
+            "lost_bonds": [],
+            "new_bonds": [],
+            "ligand_lost_bonds": [],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [
+              1.6110761829278266
+            ],
+            "metal_carbonyl_distances_A": [
+              1.8473621141599084
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          },
+          "full_nonreacting_graph": null,
+          "source_frame": 31,
+          "selected_band_image": null,
+          "selection_reason": null,
+          "transfer_distances_A": null,
+          "full_matrix_shape": [
+            237,
+            237
+          ],
+          "native_gradient_energy_difference_eV": 3.346940502524376e-08,
+          "native_hessian_provider_sha256": "37ec6cd22b5b4faa9fd16280e7b98692a8886f5f96507b0f8c6135f5a19de8c1",
+          "hessian_npz_sha256": "798dcbaf0c5830a0e49cf39ae656a2436385e61494c5c9961a2ed633683f80e6",
+          "error": null
+        }
+      ],
+      "route_count": 3,
+      "diagnostic_count": 1,
+      "successful_archived_gradient_records": 2792,
+      "accepted_route_count": 0,
+      "identity_excluded_route_count": 2
+    },
+    {
+      "catalyst_id": "Ru_macho_pnp_iPr",
+      "routes": [
+        {
+          "directory": "Ru_macho_pnp_iPr_resume_1789234998_22112",
+          "status": "failed",
+          "accepted": false,
+          "started_utc": "2026-09-12T17:43:18.617123+00:00",
+          "finished_utc": "2026-09-12T17:56:19.242463+00:00",
+          "successful_archived_gradient_records": 1136,
+          "gradient_archives": [
+            {
+              "file": "evaluations_endpoint_0.jsonl.gz",
+              "sha256": "9e0aa38a4061994b70026d70bf6dcf3a3eedc15445b07ed3b12d48adcb14c2f4",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_endpoint_1.jsonl.gz",
+              "sha256": "718a940114141a947b244d07ad195f0480316541f60d10cb3992448d1dc6caeb",
+              "successful_gradient_records": 176,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_01.jsonl.gz",
+              "sha256": "7428bec27bb78b82f607f10cff0b45f3fd61fde5cd65dd709b3f32632a90073e",
+              "successful_gradient_records": 95,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_02.jsonl.gz",
+              "sha256": "f921ca52e479d3f121f7cdeeb4929d5e94bcdb81b4071fb7024a9421c5301ed7",
+              "successful_gradient_records": 110,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_03.jsonl.gz",
+              "sha256": "84692628510ade19747ebf0465d00229404d0108a215204091e7a30fa3e3a122",
+              "successful_gradient_records": 127,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_04.jsonl.gz",
+              "sha256": "5ea03fefdaf0bc6c092a73dceade8e2d3d138c6dcc562379bf3ce23f04a550e8",
+              "successful_gradient_records": 140,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_05.jsonl.gz",
+              "sha256": "847a7291fcadbc691477efa8835af0e78b97ca7e2f693c48549f8395d42a99f9",
+              "successful_gradient_records": 151,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_06.jsonl.gz",
+              "sha256": "f8c17947a793106772e3c09fa28f47c9a2f5535af653e804fee8eecf97907ace",
+              "successful_gradient_records": 166,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_07.jsonl.gz",
+              "sha256": "afcaff9e2b16112ecfe1cfa926fdb3a40eb932d5519303cab14109349d657c62",
+              "successful_gradient_records": 170,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Ru_macho_pnp_iPr_search_1789233435_15024",
+          "identity_exclusion": {
+            "route": "Ru_macho_pnp_iPr_resume_1789234998_22112",
+            "task_sha256_at_audit": "a9ee01a2d8b5452c8a55b244c45c7042af4f6cf7dc2058c198b16fb315e98ddb",
+            "excluded_from_requested_catalyst_identity": true,
+            "reason": "Source active ligand underwent unintended intraligand C-H cleavage and transfer to Ru; assigned active amido catalyst topology was not retained",
+            "scope": "Coordinates, energies and failures remain genuine calculations of the rearranged composition; they are not valid training/barrier records for the intended catalyst identity"
+          },
+          "source_geometry_sha256": null,
+          "source_trajectory_sha256": "71e5c7a4bf59197b655ba3a5fe9e0868def0fcbd0e8dcf4dbdfc93b18d8551a9",
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "a9ee01a2d8b5452c8a55b244c45c7042af4f6cf7dc2058c198b16fb315e98ddb",
+          "engine_accepted": false,
+          "accepted_ts_identity": null,
+          "source_not_explicitly_excluded": false,
+          "intended_identity_eligible": false,
+          "path_status": "failed",
+          "endpoint_converged": [
+            true,
+            true
+          ],
+          "neb_converged": false,
+          "provisional_neb_initial_guess": false,
+          "source_identity": null,
+          "endpoint_identity": null,
+          "hessian_mode_restart": null,
+          "attempts": [],
+          "failure_reasons": [
+            "RuntimeError: Real xTB energy/gradient evaluation failed; inspect attempt records",
+            "Source or fixed accepted geometry fails the full intended catalyst/substrate identity screen"
+          ],
+          "full_hessian_files": [],
+          "stage_history": [
+            "endpoint_0",
+            "endpoint_1",
+            "neb"
+          ],
+          "progress_parse_errors": [],
+          "required_gates": {
+            "ts_fmax_ev_a": 0.03,
+            "imaginary_noise_cm1": 0.0,
+            "imaginary_window_cm1": [
+              -1800,
+              -300
+            ],
+            "minimum_transfer_overlap": 0.15,
+            "minimum_combined_overlap": 0.3
+          },
+          "forward_electronic_barrier_ev": null,
+          "raw_engine_forward_electronic_barrier_ev": null,
+          "free_energy_barrier_available": false,
+          "result_sha256": "2254c5db49a57e8138758bfb909afda7d3ec47d020cb4618508ae346be4a37b4"
+        },
+        {
+          "directory": "Ru_macho_pnp_iPr_resume_1789241914_42216",
+          "status": "operator_stopped_for_band_diagnostic",
+          "accepted": false,
+          "started_utc": "2026-09-12T19:38:34.779562+00:00",
+          "finished_utc": "2026-09-12T19:40:52.543227+00:00",
+          "successful_archived_gradient_records": 80,
+          "gradient_archives": [
+            {
+              "file": "evaluations_endpoint_0.jsonl.gz",
+              "sha256": "7357c26c24bd76fd90eee712aea3f88154e1f9b802ebe3edb518f27c00cc1a04",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_endpoint_1.jsonl.gz",
+              "sha256": "61fd2da47b92a506b10c341aa0b3ae4cef10f2ffd6bb0cfba111db26eb9623e7",
+              "successful_gradient_records": 5,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_01.jsonl.gz",
+              "sha256": "5ce4624c85ece2509ca191101ba8c96c1c1500f71dd27ccb45e4607ed979a602",
+              "successful_gradient_records": 2,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_02.jsonl.gz",
+              "sha256": "4b3f8078aa4979e15d523c0a04ab9e824db7c5557a2ad275dbc3ae61f4a6f554",
+              "successful_gradient_records": 2,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_03.jsonl.gz",
+              "sha256": "5db7ffc33191fbe9bb164f126540daa877352249dd7c302b2abb483888efcd17",
+              "successful_gradient_records": 2,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_04.jsonl.gz",
+              "sha256": "bf3d45ebdc1cb3b4229fe87476a870a06c210f4ae9eb2ece954a27fb74c5ea2b",
+              "successful_gradient_records": 4,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_05.jsonl.gz",
+              "sha256": "35fda467fbfebb13975d3da2f17a7d03e8c6c97574fecabcac08bf4b6abe7a03",
+              "successful_gradient_records": 5,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_06.jsonl.gz",
+              "sha256": "0f760a25c2d196fdbb038926b9e922b7ab3d1b677ad7357aab72be5055bc5871",
+              "successful_gradient_records": 4,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_07.jsonl.gz",
+              "sha256": "a45c65be44ffd9fd75e9fe531b80128ea0969e3058c621ba5d2fa409b1d6041f",
+              "successful_gradient_records": 4,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_ts_attempt_00.jsonl.gz",
+              "sha256": "87cffb9242cf8d61b581baab29b3dc56f7a6fa3beedee3d9051689c69efb399e",
+              "successful_gradient_records": 51,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Ru_macho_pnp_iPr_retry_endpoints_1789240154_14800",
+          "identity_exclusion": null,
+          "source_geometry_sha256": null,
+          "source_trajectory_sha256": "6c88ad2668d0877d240fe5bab04ee4d1cf2df33b7fa89fa21d52ac21a3e86589",
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "8162862e345faaadcdc3bf894f02e419c064aa44df98154d1d641d085b2bf4c2",
+          "engine_accepted": false,
+          "accepted_ts_identity": null,
+          "source_not_explicitly_excluded": true,
+          "intended_identity_eligible": null,
+          "path_status": "operator_stopped_for_band_diagnostic",
+          "endpoint_converged": null,
+          "neb_converged": false,
+          "provisional_neb_initial_guess": null,
+          "source_identity": null,
+          "endpoint_identity": null,
+          "hessian_mode_restart": null,
+          "attempts": [],
+          "failure_reasons": [
+            "Operator stopped this newly started provisional dimer continuation to follow the requested fixed original-band image 3 full-Hessian diagnostic first; no acceptance or barrier is inferred"
+          ],
+          "full_hessian_files": [],
+          "stage_history": [
+            "endpoint_0",
+            "endpoint_1",
+            "neb",
+            "unconverged_band_provisional_guess",
+            "dimer_guess_selected",
+            "dimer_start"
+          ],
+          "progress_parse_errors": [],
+          "required_gates": {
+            "ts_fmax_ev_a": 0.03,
+            "imaginary_noise_cm1": 0.0,
+            "imaginary_window_cm1": [
+              -1800,
+              -300
+            ],
+            "minimum_transfer_overlap": 0.15,
+            "minimum_combined_overlap": 0.3
+          },
+          "forward_electronic_barrier_ev": null,
+          "raw_engine_forward_electronic_barrier_ev": null,
+          "free_energy_barrier_available": false,
+          "result_sha256": "79f09422e3fed79623947356ad8afeb5b1e5b40c8d5436f42a82a75ca0c9e35e"
+        },
+        {
+          "directory": "Ru_macho_pnp_iPr_retry_endpoints_1789240154_14800",
+          "status": "deadline_exhausted",
+          "accepted": false,
+          "started_utc": "2026-09-12T19:09:14.175151+00:00",
+          "finished_utc": "2026-09-12T19:29:14.367385+00:00",
+          "successful_archived_gradient_records": 1141,
+          "gradient_archives": [
+            {
+              "file": "evaluations_endpoint_0.jsonl.gz",
+              "sha256": "32bececd2161a606ee436690cd6d4dfd75d97fbf0058961e4b13a66f224705fd",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_endpoint_1.jsonl.gz",
+              "sha256": "6c8123b431fc723d10b457848078354c5816e7bf3d3fa2a8a6451ee9b25d0ce8",
+              "successful_gradient_records": 179,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_01.jsonl.gz",
+              "sha256": "d9158e6dbac4d12ced53fe2756efb39fff80a6e1de7903afa6497bcea290c099",
+              "successful_gradient_records": 84,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_02.jsonl.gz",
+              "sha256": "077a4c7093fe72adae95526774fd9c38edc9e653ac1712baa2a161bb60ef9e8c",
+              "successful_gradient_records": 107,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_03.jsonl.gz",
+              "sha256": "4f9ae046539fa5b1171908ac1e457cff77e889e0749e0994a4c8f34bc78843a2",
+              "successful_gradient_records": 128,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_04.jsonl.gz",
+              "sha256": "4aa53f4e7292a3744f7127f6a3298c5a13c45a70c2fcb85d34e32afaf071bef8",
+              "successful_gradient_records": 152,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_05.jsonl.gz",
+              "sha256": "5f9b43f3f9f56f68fd5d6051dba9839952c7b324cd236e2ade1d89bd5984e696",
+              "successful_gradient_records": 160,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_06.jsonl.gz",
+              "sha256": "f0744b0902d432d973a80e389ab7309d1798e8be65337f814456fd65c71d40c8",
+              "successful_gradient_records": 160,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_07.jsonl.gz",
+              "sha256": "d0734a2d8606f8564f5a6d1d453ef15fef0d53e9ebb0d024a45b7fb6f53cc18c",
+              "successful_gradient_records": 170,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Ru_macho_pnp_iPr_search_1789239312_42784",
+          "identity_exclusion": null,
+          "source_geometry_sha256": null,
+          "source_trajectory_sha256": null,
+          "source_endpoint_sha256": [
+            "97686faec9f805b4bea1d45bc4a43145134c8541d3dfa257cf25b95741fb7b1c",
+            "0acbe182ef109f5b1ed26324c27f37ff7e92db0d308e1aa224f701afbea935a7"
+          ],
+          "task_or_diagnostic_sha256": "78eae6679516ae5beaafbd4200fd733fc095c5b2f950016f13b6c0fac909d2d2",
+          "engine_accepted": false,
+          "accepted_ts_identity": null,
+          "source_not_explicitly_excluded": true,
+          "intended_identity_eligible": null,
+          "path_status": "deadline_exhausted",
+          "endpoint_converged": [
+            true,
+            true
+          ],
+          "neb_converged": false,
+          "provisional_neb_initial_guess": false,
+          "source_identity": null,
+          "endpoint_identity": [
+            {
+              "retained": true,
+              "ligand_retained": true,
+              "original_nonmetal_graph_retained": true,
+              "lost_bonds": [],
+              "new_bonds": [],
+              "ligand_lost_bonds": [],
+              "ligand_new_bonds": [],
+              "ancillary_coordination_retained": true,
+              "metal_hydride_distances_A": [
+                1.5705011894540024
+              ],
+              "metal_carbonyl_distances_A": [
+                1.8372190830219
+              ],
+              "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+              "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+            },
+            {
+              "retained": true,
+              "ligand_retained": true,
+              "original_nonmetal_graph_retained": true,
+              "lost_bonds": [],
+              "new_bonds": [],
+              "ligand_lost_bonds": [],
+              "ligand_new_bonds": [],
+              "ancillary_coordination_retained": true,
+              "metal_hydride_distances_A": [
+                1.5650442777820726
+              ],
+              "metal_carbonyl_distances_A": [
+                1.8315455266092326
+              ],
+              "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+              "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+            }
+          ],
+          "hessian_mode_restart": null,
+          "attempts": [],
+          "failure_reasons": [
+            "TimeoutError: Campaign calculation deadline reached"
+          ],
+          "full_hessian_files": [],
+          "stage_history": [
+            "endpoint_0",
+            "endpoint_1",
+            "neb"
+          ],
+          "progress_parse_errors": [],
+          "required_gates": {
+            "ts_fmax_ev_a": 0.03,
+            "imaginary_noise_cm1": 0.0,
+            "imaginary_window_cm1": [
+              -1800,
+              -300
+            ],
+            "minimum_transfer_overlap": 0.15,
+            "minimum_combined_overlap": 0.3
+          },
+          "forward_electronic_barrier_ev": null,
+          "raw_engine_forward_electronic_barrier_ev": null,
+          "free_energy_barrier_available": false,
+          "result_sha256": "50453bc2318f09e4c5c395911733a4eec0cb752faca7e1096622bfbced6dcbba"
+        },
+        {
+          "directory": "Ru_macho_pnp_iPr_search_1789233435_15024",
+          "status": "failed",
+          "accepted": false,
+          "started_utc": "2026-09-12T17:17:15.342245+00:00",
+          "finished_utc": "2026-09-12T17:36:51.613141+00:00",
+          "successful_archived_gradient_records": 1828,
+          "gradient_archives": [
+            {
+              "file": "evaluations_endpoint_0.jsonl.gz",
+              "sha256": "d5df2f55428a7aade47041d0a1eb3d80464b504e37e216672680fa62c0bf4b2f",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_endpoint_1.jsonl.gz",
+              "sha256": "f2d2578cfe242955d73567a20fadc969c562487773fe86992d3161f0a593825b",
+              "successful_gradient_records": 282,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_01.jsonl.gz",
+              "sha256": "127f9f63a599544fec9194a7754a0902f9422fe33088071b271660074492ef97",
+              "successful_gradient_records": 151,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_02.jsonl.gz",
+              "sha256": "6ee85804f7784f5cec351137c9836c79e91a6be49476cedb804c0c1f4feca944",
+              "successful_gradient_records": 172,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_03.jsonl.gz",
+              "sha256": "7db0560200b307b6c50a3ce2ceab7a552df99f98fe5640370e67605623a084fa",
+              "successful_gradient_records": 206,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_04.jsonl.gz",
+              "sha256": "7c806323eef11c2224e2171eb98c80d750b9599a995a5fde12553b7176cc1437",
+              "successful_gradient_records": 230,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_05.jsonl.gz",
+              "sha256": "0b86c4f75940b9ab7116585bf17a341fbe8bfe9ef27b95823a86763873476682",
+              "successful_gradient_records": 245,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_06.jsonl.gz",
+              "sha256": "1fc0b0d769fdbd7af80292b5f36231adc85e2d81edac661e02b3c210b8806bae",
+              "successful_gradient_records": 265,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_07.jsonl.gz",
+              "sha256": "72f55d80ce0f7569aac90ed3e6891859cec0130b297abc60b7b121a6dde69f77",
+              "successful_gradient_records": 276,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": null,
+          "identity_exclusion": {
+            "route": "Ru_macho_pnp_iPr_search_1789233435_15024",
+            "task_sha256_at_audit": "808e9cbdc9517623db3b9858068a4c61cb174ac7bc3f7f86186942e5e9fc5952",
+            "excluded_from_requested_catalyst_identity": true,
+            "reason": "Source active ligand underwent unintended intraligand C-H cleavage and transfer to Ru; assigned active amido catalyst topology was not retained",
+            "scope": "Coordinates, energies and failures remain genuine calculations of the rearranged composition; they are not valid training/barrier records for the intended catalyst identity"
+          },
+          "source_geometry_sha256": "5b6a6b404c2b3cb7994e2f795dea365da3939c4b95b6adc65011a69c6d6e8edd",
+          "source_trajectory_sha256": null,
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "808e9cbdc9517623db3b9858068a4c61cb174ac7bc3f7f86186942e5e9fc5952",
+          "engine_accepted": false,
+          "accepted_ts_identity": null,
+          "source_not_explicitly_excluded": false,
+          "intended_identity_eligible": false,
+          "path_status": "failed",
+          "endpoint_converged": [
+            true,
+            true
+          ],
+          "neb_converged": false,
+          "provisional_neb_initial_guess": null,
+          "source_identity": null,
+          "endpoint_identity": null,
+          "hessian_mode_restart": null,
+          "attempts": [],
+          "failure_reasons": [
+            "ValueError: CI-NEB did not converge within the step allowance",
+            "Source or fixed accepted geometry fails the full intended catalyst/substrate identity screen"
+          ],
+          "full_hessian_files": [],
+          "stage_history": [
+            "endpoint_0",
+            "endpoint_1",
+            "neb"
+          ],
+          "progress_parse_errors": [],
+          "required_gates": {
+            "ts_fmax_ev_a": 0.03,
+            "imaginary_noise_cm1": 0.0,
+            "imaginary_window_cm1": [
+              -1800,
+              -300
+            ],
+            "minimum_transfer_overlap": 0.15,
+            "minimum_combined_overlap": 0.3
+          },
+          "forward_electronic_barrier_ev": null,
+          "raw_engine_forward_electronic_barrier_ev": null,
+          "free_energy_barrier_available": false,
+          "result_sha256": "575b3eb621899b75aa04fa8bec0b479d07adf24a24b3aac157d8b2edef906a3f"
+        },
+        {
+          "directory": "Ru_macho_pnp_iPr_search_1789239312_42784",
+          "status": "failed",
+          "accepted": false,
+          "started_utc": "2026-09-12T18:55:12.343765+00:00",
+          "finished_utc": "2026-09-12T19:07:42.677945+00:00",
+          "successful_archived_gradient_records": 383,
+          "gradient_archives": [
+            {
+              "file": "evaluations_endpoint_0.jsonl.gz",
+              "sha256": "038484c444e8951a977538bb71ab1ebda8898eda14810bf03359bb30f59580cb",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_endpoint_1.jsonl.gz",
+              "sha256": "fbbcbba05416702f26c99bf30f34359f1c2a04f8b8691520083cc21f21e60951",
+              "successful_gradient_records": 201,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_product_preconditioning.jsonl.gz",
+              "sha256": "1c62d882f30ce9767d23a6cbed825d36565bd3da963e3692fef24bf696575992",
+              "successful_gradient_records": 181,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": null,
+          "identity_exclusion": null,
+          "source_geometry_sha256": "d599b95371078e32b63b56c9700a63d59ba56a10758fdfbcf4b02accf7f80a6c",
+          "source_trajectory_sha256": null,
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "ee9e0a9f9d23998c385c21a489e59b1a5ebb397ac91c0c5e62df9369f9da7c44",
+          "engine_accepted": false,
+          "accepted_ts_identity": null,
+          "source_not_explicitly_excluded": true,
+          "intended_identity_eligible": null,
+          "path_status": "failed",
+          "endpoint_converged": [
+            true,
+            false
+          ],
+          "neb_converged": false,
+          "provisional_neb_initial_guess": false,
+          "source_identity": {
+            "retained": true,
+            "ligand_retained": true,
+            "original_nonmetal_graph_retained": true,
+            "lost_bonds": [],
+            "new_bonds": [],
+            "ligand_lost_bonds": [],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [
+              1.5630276715308244
+            ],
+            "metal_carbonyl_distances_A": [
+              1.8372455842609938
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          },
+          "endpoint_identity": null,
+          "hessian_mode_restart": null,
+          "attempts": [],
+          "failure_reasons": [
+            "ValueError: endpoint optimization did not converge within the step allowance"
+          ],
+          "full_hessian_files": [],
+          "stage_history": [
+            "endpoint_0",
+            "endpoint_1"
+          ],
+          "progress_parse_errors": [],
+          "required_gates": {
+            "ts_fmax_ev_a": 0.03,
+            "imaginary_noise_cm1": 0.0,
+            "imaginary_window_cm1": [
+              -1800,
+              -300
+            ],
+            "minimum_transfer_overlap": 0.15,
+            "minimum_combined_overlap": 0.3
+          },
+          "forward_electronic_barrier_ev": null,
+          "raw_engine_forward_electronic_barrier_ev": null,
+          "free_energy_barrier_available": false,
+          "result_sha256": "80d08f219909f93d3b240fdff1c3d05afea09c83662f42d155a971a460912c5c"
+        }
+      ],
+      "diagnostics": [
+        {
+          "directory": "Ru_macho_pnp_iPr_diagnostic_1789242098_36280",
+          "status": "diagnostic_complete",
+          "accepted": false,
+          "started_utc": "2026-09-12T19:41:38.963079+00:00",
+          "finished_utc": "2026-09-12T19:44:30.438713+00:00",
+          "successful_archived_gradient_records": 1,
+          "gradient_archives": [
+            {
+              "file": "fresh_gradient.jsonl.gz",
+              "sha256": "f9cfda44002a4fa4aa98e79962f9546dbcc3d5259485fcc62ddaa1b391db1d91",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Ru_macho_pnp_iPr_retry_endpoints_1789240154_14800",
+          "identity_exclusion": null,
+          "source_geometry_sha256": null,
+          "source_trajectory_sha256": "6c88ad2668d0877d240fe5bab04ee4d1cf2df33b7fa89fa21d52ac21a3e86589",
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "5bc6708a10a4b10032efef487f1ec08a1d6d44ed750ae66ed16a8eb565855f09",
+          "scope": "Full nonstationary-candidate curvature diagnostic; no TS certificate, thermochemistry, or barrier is emitted",
+          "true_fmax_eV_A": 0.3868654391926063,
+          "negative_mode_count": 5,
+          "negative_mode_transfer_coordinates": [
+            {
+              "frequency_cm1": -778.9129747219678,
+              "proton_overlap": 0.822922670772784,
+              "hydride_overlap": 0.03974066033796516,
+              "combined_overlap": 0.5537933104817738,
+              "concerted_direction": false
+            },
+            {
+              "frequency_cm1": -245.56016684308437,
+              "proton_overlap": 0.0004224188296643224,
+              "hydride_overlap": 0.6438538956672841,
+              "combined_overlap": 0.4549747605007559,
+              "concerted_direction": false
+            },
+            {
+              "frequency_cm1": -91.60875109538937,
+              "proton_overlap": 0.004092724205179226,
+              "hydride_overlap": 0.013590203273129221,
+              "combined_overlap": 0.012503717931141838,
+              "concerted_direction": true
+            },
+            {
+              "frequency_cm1": -85.67493535314996,
+              "proton_overlap": 0.0008243010913416182,
+              "hydride_overlap": 0.02253701681710581,
+              "combined_overlap": 0.01651894631051791,
+              "concerted_direction": true
+            },
+            {
+              "frequency_cm1": -24.852552545766237,
+              "proton_overlap": 0.002026678532887424,
+              "hydride_overlap": 0.049838305405215416,
+              "combined_overlap": 0.03667408184876389,
+              "concerted_direction": true
+            }
+          ],
+          "chemical_identity": {
+            "retained": true,
+            "ligand_retained": true,
+            "original_nonmetal_graph_retained": true,
+            "lost_bonds": [],
+            "new_bonds": [],
+            "ligand_lost_bonds": [],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [
+              1.534983654271464
+            ],
+            "metal_carbonyl_distances_A": [
+              1.818768398805495
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          },
+          "full_nonreacting_graph": {
+            "retained": true,
+            "lost_nonreacting_bonds": [],
+            "unexpected_nonmetal_bonds": [],
+            "allowed_variable_transfer_pairs": [
+              [
+                1,
+                67
+              ],
+              [
+                59,
+                67
+              ],
+              [
+                60,
+                68
+              ]
+            ]
+          },
+          "source_frame": 669,
+          "selected_band_image": 3,
+          "selection_reason": "Explicit actual band peak between donor-bound and acceptor-bound double-H images; diagnostic only",
+          "transfer_distances_A": {
+            "proton": {
+              "donor_H": 1.108683911581963,
+              "acceptor_H": 1.6275483250032048
+            },
+            "hydride": {
+              "donor_H": 2.119399430520868,
+              "acceptor_H": 2.759013244606563
+            }
+          },
+          "full_matrix_shape": [
+            225,
+            225
+          ],
+          "native_gradient_energy_difference_eV": 2.7480382414069027e-09,
+          "native_hessian_provider_sha256": "c5b1becd5ba10dd912007615d8d7bb274f597324fbab03184c53f77c0e7b1afb",
+          "hessian_npz_sha256": "51065ff6d2fb250c3e4f68a9392f44d92a1dc6d4d0d3ad44becff2e35ae22ee7",
+          "error": null
+        }
+      ],
+      "route_count": 5,
+      "diagnostic_count": 1,
+      "successful_archived_gradient_records": 4569,
+      "accepted_route_count": 0,
+      "identity_excluded_route_count": 2
+    },
+    {
+      "catalyst_id": "Mn_macho_pnp_Ph",
+      "routes": [
+        {
+          "directory": "Mn_macho_pnp_Ph_resume_1789234998_33472",
+          "status": "operator_stopped",
+          "accepted": false,
+          "started_utc": "2026-09-12T17:43:18.792107+00:00",
+          "finished_utc": "2026-09-12T18:22:18.953721+00:00",
+          "successful_archived_gradient_records": 3002,
+          "gradient_archives": [
+            {
+              "file": "evaluations_endpoint_0.jsonl.gz",
+              "sha256": "71338bca9fa77a4ec53e3d1a1032834b901bcc58ae241089355b363bdfc67e7a",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_endpoint_1.jsonl.gz",
+              "sha256": "833e48133c8cb90b85bcb0fd50e34ab4f9105c663d6fcef394080a6bb1ca2fc8",
+              "successful_gradient_records": 127,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_01.jsonl.gz",
+              "sha256": "e967db399444b1a5da6846ea77435707c8cffc03cb64f08471f8bf4306587647",
+              "successful_gradient_records": 56,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_02.jsonl.gz",
+              "sha256": "3194a341a68815a3400117bb5680e7558e6c3c4e8213ddad09ef25f911792fcd",
+              "successful_gradient_records": 63,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_03.jsonl.gz",
+              "sha256": "6f05c8bc5ab0c161f1cd82c5859c3ec977fa1b0309342e000ed8f47407b08ce9",
+              "successful_gradient_records": 76,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_04.jsonl.gz",
+              "sha256": "ed44b3a31b21d780f71bb6a7b5493065c457e86bd69c82206cb32e1f60489a49",
+              "successful_gradient_records": 90,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_05.jsonl.gz",
+              "sha256": "4791676b6323d4df6fb8f97e0be8012f0c766c035b7737add9b775b1ae368fc6",
+              "successful_gradient_records": 104,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_06.jsonl.gz",
+              "sha256": "7aa6358df86ad11b686e31b13fb1aaab866c36de9fffbfafa7c19abc1028c595",
+              "successful_gradient_records": 116,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_07.jsonl.gz",
+              "sha256": "f5a4445aca2551f7177fd8f207a55b2a825a9d319ba8bca21ac85bbb5d96f2bf",
+              "successful_gradient_records": 115,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_ts_attempt_00.jsonl.gz",
+              "sha256": "beb8836f0e56fec5dbbb0e1cbbb817ad3bd364b6af12b078a88338d624357617",
+              "successful_gradient_records": 2178,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_ts_attempt_01.jsonl.gz",
+              "sha256": "57144b3f9474523e74e8c242179ecfdad8505fee5bae709f057a4b118cf40dc9",
+              "successful_gradient_records": 76,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Mn_macho_pnp_Ph_search_1789233521_31856",
+          "identity_exclusion": null,
+          "source_geometry_sha256": null,
+          "source_trajectory_sha256": "7bc674fc142479a364789aa775a1288827edd0ba4b0f705dad39137e311bc4fd",
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "b2056cf8e50aa708dd69edf9047b2ce5b17e873ffb3a2b4b3bf72bb1a7790c3d",
+          "engine_accepted": false,
+          "accepted_ts_identity": null,
+          "source_not_explicitly_excluded": true,
+          "intended_identity_eligible": null,
+          "path_status": "operator_stopped",
+          "endpoint_converged": [
+            true,
+            true
+          ],
+          "neb_converged": true,
+          "provisional_neb_initial_guess": false,
+          "source_identity": null,
+          "endpoint_identity": null,
+          "hessian_mode_restart": null,
+          "attempts": [
+            {
+              "attempt": 0,
+              "accepted": false,
+              "status": "dimer_not_converged",
+              "dimer_converged": false,
+              "true_fmax_ev_a": 0.19704294825388774,
+              "energy_ev": -3282.3453152463417,
+              "completed_dimer_steps": 120
+            },
+            {
+              "attempt": 1,
+              "accepted": false,
+              "status": "operator_stopped_after_first_complete_failed_attempt"
+            }
+          ],
+          "failure_reasons": [
+            "The 120-step global-peak dimer did not meet true-force convergence. Its geometry lies beyond both transfers; a separate reactive local-image search will use the saved converged band."
+          ],
+          "full_hessian_files": [],
+          "stage_history": [
+            "endpoint_0",
+            "endpoint_1",
+            "neb",
+            "dimer_start",
+            "dimer_complete"
+          ],
+          "progress_parse_errors": [],
+          "required_gates": {
+            "ts_fmax_ev_a": 0.03,
+            "imaginary_noise_cm1": 0.0,
+            "imaginary_window_cm1": [
+              -1800,
+              -300
+            ],
+            "minimum_transfer_overlap": 0.15,
+            "minimum_combined_overlap": 0.3
+          },
+          "forward_electronic_barrier_ev": null,
+          "raw_engine_forward_electronic_barrier_ev": null,
+          "free_energy_barrier_available": false,
+          "result_sha256": "612abf0cc77e9674d2a4d435144ca6f6e11b0741be54b3623f54883c8645e117"
+        },
+        {
+          "directory": "Mn_macho_pnp_Ph_resume_1789237349_19436",
+          "status": "deadline_exhausted",
+          "accepted": false,
+          "started_utc": "2026-09-12T18:22:29.741731+00:00",
+          "finished_utc": "2026-09-12T19:07:29.894634+00:00",
+          "successful_archived_gradient_records": 1999,
+          "gradient_archives": [
+            {
+              "file": "evaluations_endpoint_0.jsonl.gz",
+              "sha256": "37d39e6feb18a34848c0dc659b237ffc534a4de39a603c04f3aaa94be9c6dfd3",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_endpoint_1.jsonl.gz",
+              "sha256": "07adc7278663d4c112c3e950a8de9c8153c71b0eb460a95185debefc7dc8bb61",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_01.jsonl.gz",
+              "sha256": "5c53d28b4029561e1267f52c764a07f1be50beff0a283020086f768085138afc",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_02.jsonl.gz",
+              "sha256": "8586eebdf5cca00407d0deab3d8d26d79343f166a16ccf16dec9c4621a4d769f",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_03.jsonl.gz",
+              "sha256": "7a1f51b9535f198af3271e4839ab9623e8ac13dc7aa511c2d0ffe3f71cc39971",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_04.jsonl.gz",
+              "sha256": "f83aa541829e8ddc91dfbf305f776b4e6aaf85d34767a8d9cc1257a1fa4f7cb3",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_05.jsonl.gz",
+              "sha256": "4be31fe775158d52dd5d08d331bace3ee7360ee006335a60b6fb8781ce89c360",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_06.jsonl.gz",
+              "sha256": "19f1f7548fcb9bc1448179fec6d84727beb6fbc813426b42aeb216b8046d6038",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_07.jsonl.gz",
+              "sha256": "f9fc7f93dc0b069602a5f8acb541f7b3a09f705ffc94c16e02ba08a638724e41",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_ts_attempt_00.jsonl.gz",
+              "sha256": "f212e42e75fa92028ab2711f5858c25942064b2bb0f961427ecefbc116971f11",
+              "successful_gradient_records": 1990,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Mn_macho_pnp_Ph_resume_1789234998_33472",
+          "identity_exclusion": null,
+          "source_geometry_sha256": null,
+          "source_trajectory_sha256": "ac1d502e3652c651d4f1b99065631b5a9fc9ce7e6cec32b85608c6f7b50dda3f",
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "bc27f279af76c78f0a9e29a3c4d6cc623d2aa3e8373fc57f31fdeb4587173638",
+          "engine_accepted": false,
+          "accepted_ts_identity": null,
+          "source_not_explicitly_excluded": true,
+          "intended_identity_eligible": null,
+          "path_status": "deadline_exhausted",
+          "endpoint_converged": [
+            true,
+            true
+          ],
+          "neb_converged": true,
+          "provisional_neb_initial_guess": false,
+          "source_identity": null,
+          "endpoint_identity": [
+            {
+              "retained": true,
+              "lost_bonds": [],
+              "new_bonds": [],
+              "criterion": "1.28 times ASE covalent-radius sum within the original ligand; geometric identity screen"
+            },
+            {
+              "retained": true,
+              "lost_bonds": [],
+              "new_bonds": [],
+              "criterion": "1.28 times ASE covalent-radius sum within the original ligand; geometric identity screen"
+            }
+          ],
+          "hessian_mode_restart": null,
+          "attempts": [
+            {
+              "attempt": 0,
+              "accepted": false,
+              "status": "deadline_exhausted",
+              "initial_guess_from_unconverged_band": false,
+              "selected_initial_image": 2,
+              "global_peak_image": 4,
+              "error": "Campaign deadline exhausted during electronic retries"
+            }
+          ],
+          "failure_reasons": [
+            "TimeoutError: Campaign deadline exhausted during electronic retries"
+          ],
+          "full_hessian_files": [],
+          "stage_history": [
+            "endpoint_0",
+            "endpoint_1",
+            "neb",
+            "dimer_guess_selected",
+            "dimer_start"
+          ],
+          "progress_parse_errors": [],
+          "required_gates": {
+            "ts_fmax_ev_a": 0.03,
+            "imaginary_noise_cm1": 0.0,
+            "imaginary_window_cm1": [
+              -1800,
+              -300
+            ],
+            "minimum_transfer_overlap": 0.15,
+            "minimum_combined_overlap": 0.3
+          },
+          "forward_electronic_barrier_ev": null,
+          "raw_engine_forward_electronic_barrier_ev": null,
+          "free_energy_barrier_available": false,
+          "result_sha256": "e282bb9fb76e5cb3025980781710f582f0f4758d91e18e6ae13cce0e01ffbfaa"
+        },
+        {
+          "directory": "Mn_macho_pnp_Ph_resume_1789241312_28160",
+          "status": "operator_stopped_for_final_diagnostic",
+          "accepted": false,
+          "started_utc": "2026-09-12T19:28:32.302508+00:00",
+          "finished_utc": "2026-09-12T19:53:12.053161+00:00",
+          "successful_archived_gradient_records": 1125,
+          "gradient_archives": [
+            {
+              "file": "evaluations_endpoint_0.jsonl.gz",
+              "sha256": "7547c7d9cfbfe652601b7cc8b88743af1c8c4000af84bf4d8f297eea23a80c23",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_endpoint_1.jsonl.gz",
+              "sha256": "bf837dd2b4ed1307ed4d0eb471ee7dc64334f0776d61858d4799106213813a5a",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_01.jsonl.gz",
+              "sha256": "41f0fd59de2690ae1ff2b1229a14d0c5afd1385e084ae898aac66bf4206fca96",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_02.jsonl.gz",
+              "sha256": "e4f6b3837eb6bdd8b66e2fc4fc652be1f89ee8f78e83b590f334f7092d5cb76f",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_03.jsonl.gz",
+              "sha256": "4754bc034a2eb437f71f139b7ecaa202f4b71de0e4ddfc43b1581a323b99b314",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_04.jsonl.gz",
+              "sha256": "a0806709bd857b4518a71d8bdbd18401e974562c5a7a068fe9d56a764a3c831d",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_05.jsonl.gz",
+              "sha256": "4d3ec912fd6c63fa8021e0104620a29e27bbc55382f9cd24fc669818f2762f69",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_06.jsonl.gz",
+              "sha256": "e9efd6993473a3898d1b9bb12b08a4d309dc2532706ac1e7742756e50a68b0b8",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_07.jsonl.gz",
+              "sha256": "6c5b71955d15e51f885b3e60f2abc8f5eeead942b8955b464516b3e9ea41fd07",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_ts_attempt_00.jsonl.gz",
+              "sha256": "1fa6687984995ca794d3b44c9811dba2561749d98cba45da67ec5a3b9c4e4978",
+              "successful_gradient_records": 1116,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Mn_macho_pnp_Ph_resume_1789237349_19436",
+          "identity_exclusion": null,
+          "source_geometry_sha256": null,
+          "source_trajectory_sha256": "b68b49d2154e35f66e56d63c5bc5040a44a105c026b4f09b3d016e9b8613a7cb",
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "b01457157ed05049847f0b39287322b9026bb9ca2c5e8748cdd792db5c471edd",
+          "engine_accepted": false,
+          "accepted_ts_identity": null,
+          "source_not_explicitly_excluded": true,
+          "intended_identity_eligible": null,
+          "path_status": "operator_stopped_for_final_diagnostic",
+          "endpoint_converged": [
+            true,
+            true
+          ],
+          "neb_converged": true,
+          "provisional_neb_initial_guess": null,
+          "source_identity": null,
+          "endpoint_identity": null,
+          "hessian_mode_restart": {
+            "source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Mn_macho_pnp_Ph_diagnostic_1789240138_30924\\diagnostic_full_hessian.npz",
+            "source_sha256": "1bc6685382200448c63089b3dad89e859646678818a2184bc3088bb3c7b7bcf0",
+            "selection": "Largest combined mapped proton/hydride overlap among independently reprojected negative internal modes",
+            "negative_modes": [
+              {
+                "index": 0,
+                "frequency_cm1": -378.9758851170447,
+                "proton_overlap": 0.10609906294509744,
+                "hydride_overlap": 0.8215832031343593,
+                "combined_overlap": 0.6559704211312871,
+                "concerted_direction": true
+              },
+              {
+                "index": 1,
+                "frequency_cm1": -27.724721505835536,
+                "proton_overlap": 0.00592960287463261,
+                "hydride_overlap": 0.013073127163683008,
+                "combined_overlap": 0.013436959271150278,
+                "concerted_direction": true
+              },
+              {
+                "index": 2,
+                "frequency_cm1": -18.992833510004576,
+                "proton_overlap": 0.005942327469868426,
+                "hydride_overlap": 0.009134529474581043,
+                "combined_overlap": 0.010660947784399707,
+                "concerted_direction": true
+              },
+              {
+                "index": 3,
+                "frequency_cm1": -7.731691300013083,
+                "proton_overlap": 0.0009892476173773519,
+                "hydride_overlap": 0.0018386420609759063,
+                "combined_overlap": 0.001999619968011033,
+                "concerted_direction": true
+              }
+            ],
+            "selected_mode": {
+              "index": 0,
+              "frequency_cm1": -378.9758851170447,
+              "proton_overlap": 0.10609906294509744,
+              "hydride_overlap": 0.8215832031343593,
+              "combined_overlap": 0.6559704211312871,
+              "concerted_direction": true
+            },
+            "scope": "Dimer initialization only; source may be nonstationary and fail every final TS gate"
+          },
+          "attempts": [
+            {
+              "attempt": 0,
+              "accepted": false,
+              "status": "operator_stopped_for_final_diagnostic"
+            }
+          ],
+          "failure_reasons": [
+            "Operator stopped the continued nonconverged dimer geometry to obtain a final complete Hessian diagnostic within the immutable overall campaign deadline; no TS or barrier inferred"
+          ],
+          "full_hessian_files": [],
+          "stage_history": [
+            "endpoint_0",
+            "endpoint_1",
+            "neb",
+            "dimer_guess_selected",
+            "dimer_start"
+          ],
+          "progress_parse_errors": [],
+          "required_gates": {
+            "ts_fmax_ev_a": 0.03,
+            "imaginary_noise_cm1": 0.0,
+            "imaginary_window_cm1": [
+              -1800,
+              -300
+            ],
+            "minimum_transfer_overlap": 0.15,
+            "minimum_combined_overlap": 0.3
+          },
+          "forward_electronic_barrier_ev": null,
+          "raw_engine_forward_electronic_barrier_ev": null,
+          "free_energy_barrier_available": false,
+          "result_sha256": "045628f681c72436642f97698ed2f4d7a328ae4bd900e8e3fe1a8aa4fd84760f"
+        },
+        {
+          "directory": "Mn_macho_pnp_Ph_search_1789233521_31856",
+          "status": "failed",
+          "accepted": false,
+          "started_utc": "2026-09-12T17:18:41.868307+00:00",
+          "finished_utc": "2026-09-12T17:38:49.858175+00:00",
+          "successful_archived_gradient_records": 1469,
+          "gradient_archives": [
+            {
+              "file": "evaluations_endpoint_0.jsonl.gz",
+              "sha256": "536fb0afeb3924b5dea6870b27eaa3b8a52723d075a54b700577c61097462c38",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_endpoint_1.jsonl.gz",
+              "sha256": "9050ad23b8d7e4a18f3b1102d86a80c274056bc82c1e3c9d5bb46278ac539821",
+              "successful_gradient_records": 246,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_01.jsonl.gz",
+              "sha256": "81dac2f87ce0f8ddcaff2cff5c6b1b60c55b80d8d32943d31db5755141a37199",
+              "successful_gradient_records": 113,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_02.jsonl.gz",
+              "sha256": "181c44d3934c376e7bda6222a2db1b3ae4da9d7734072a84286a3180c2a232ec",
+              "successful_gradient_records": 119,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_03.jsonl.gz",
+              "sha256": "90e481979e2b72ae72a450c276557bd0c3a675826896efec5083b6e2497d2044",
+              "successful_gradient_records": 150,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_04.jsonl.gz",
+              "sha256": "a17d21f666195d03d1a6661811cd9854353d2bf0145401f17f591ec7c73ece05",
+              "successful_gradient_records": 175,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_05.jsonl.gz",
+              "sha256": "84d29be84353a79b02506d5769b161831e9bd4bbcc378a6c9c2b88165fd347fe",
+              "successful_gradient_records": 200,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_06.jsonl.gz",
+              "sha256": "5f19c20981c68a7c86546f70c1d530eef0645925435709de38872323cb48edbb",
+              "successful_gradient_records": 224,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_07.jsonl.gz",
+              "sha256": "1b13eaa41ad3212a5e98222c47a17b14284324290cfe0c4d84ba69e63287deb2",
+              "successful_gradient_records": 241,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": null,
+          "identity_exclusion": null,
+          "source_geometry_sha256": "ef47b7d2a7dd0e3f2fc9e780ab3607ec24548abe4c09d0363253578344032b8d",
+          "source_trajectory_sha256": null,
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "d7410991ecf6b0cfdf1c30ae3bd8d088aa391fa1b7425e86e5b595b774c83af7",
+          "engine_accepted": false,
+          "accepted_ts_identity": null,
+          "source_not_explicitly_excluded": true,
+          "intended_identity_eligible": null,
+          "path_status": "failed",
+          "endpoint_converged": [
+            true,
+            true
+          ],
+          "neb_converged": false,
+          "provisional_neb_initial_guess": null,
+          "source_identity": null,
+          "endpoint_identity": null,
+          "hessian_mode_restart": null,
+          "attempts": [],
+          "failure_reasons": [
+            "RuntimeError: Real xTB energy/gradient evaluation failed; inspect attempt records"
+          ],
+          "full_hessian_files": [],
+          "stage_history": [
+            "endpoint_0",
+            "endpoint_1",
+            "neb"
+          ],
+          "progress_parse_errors": [],
+          "required_gates": {
+            "ts_fmax_ev_a": 0.03,
+            "imaginary_noise_cm1": 0.0,
+            "imaginary_window_cm1": [
+              -1800,
+              -300
+            ],
+            "minimum_transfer_overlap": 0.15,
+            "minimum_combined_overlap": 0.3
+          },
+          "forward_electronic_barrier_ev": null,
+          "raw_engine_forward_electronic_barrier_ev": null,
+          "free_energy_barrier_available": false,
+          "result_sha256": "89726acb1794d67e573ce53d52f505fc2821c0b75fbe0ef63cbe6d4c954f63db"
+        }
+      ],
+      "diagnostics": [
+        {
+          "directory": "Mn_macho_pnp_Ph_diagnostic_1789240138_30924",
+          "status": "diagnostic_complete",
+          "accepted": false,
+          "started_utc": "2026-09-12T19:08:58.432817+00:00",
+          "finished_utc": "2026-09-12T19:13:22.364291+00:00",
+          "successful_archived_gradient_records": 1,
+          "gradient_archives": [
+            {
+              "file": "fresh_gradient.jsonl.gz",
+              "sha256": "689ef87c00944c010524cab388ebcdfacff8275ec39db621295c2618820ad66c",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Mn_macho_pnp_Ph_resume_1789237349_19436",
+          "identity_exclusion": null,
+          "source_geometry_sha256": null,
+          "source_trajectory_sha256": "767a9c94470e66cc087895ee5fb11e98bc333db7a94a590a9c9f4ffd69982887",
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "6168d5f354748f071a1a0e38777d581de9511633c61ae0ccc5c7592e0a0bbd63",
+          "scope": "Full nonstationary-candidate curvature diagnostic; no TS certificate, thermochemistry, or barrier is emitted",
+          "true_fmax_eV_A": 0.2800260986220467,
+          "negative_mode_count": 4,
+          "negative_mode_transfer_coordinates": [
+            {
+              "frequency_cm1": -378.9758851170447,
+              "proton_overlap": 0.10609906294509744,
+              "hydride_overlap": 0.8215832031343593,
+              "combined_overlap": 0.6559704211312871,
+              "concerted_direction": true
+            },
+            {
+              "frequency_cm1": -27.724721505835536,
+              "proton_overlap": 0.00592960287463261,
+              "hydride_overlap": 0.013073127163683008,
+              "combined_overlap": 0.013436959271150278,
+              "concerted_direction": true
+            },
+            {
+              "frequency_cm1": -18.992833510004576,
+              "proton_overlap": 0.005942327469868426,
+              "hydride_overlap": 0.009134529474581043,
+              "combined_overlap": 0.010660947784399707,
+              "concerted_direction": true
+            },
+            {
+              "frequency_cm1": -7.731691300013083,
+              "proton_overlap": 0.0009892476173773519,
+              "hydride_overlap": 0.0018386420609759063,
+              "combined_overlap": 0.001999619968011033,
+              "concerted_direction": true
+            }
+          ],
+          "chemical_identity": {
+            "retained": true,
+            "ligand_retained": true,
+            "original_nonmetal_graph_retained": true,
+            "lost_bonds": [],
+            "new_bonds": [],
+            "ligand_lost_bonds": [],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [],
+            "metal_carbonyl_distances_A": [
+              1.7576779816006274,
+              1.764113103840737
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          },
+          "full_nonreacting_graph": null,
+          "source_frame": 110,
+          "selected_band_image": null,
+          "selection_reason": null,
+          "transfer_distances_A": null,
+          "full_matrix_shape": [
+            240,
+            240
+          ],
+          "native_gradient_energy_difference_eV": -3.287095751147717e-08,
+          "native_hessian_provider_sha256": "82d0f47c68045534d7a944a865868c8aef41dc9c6d3c1670d9720dcee5c5a4c2",
+          "hessian_npz_sha256": "1bc6685382200448c63089b3dad89e859646678818a2184bc3088bb3c7b7bcf0",
+          "error": null
+        },
+        {
+          "directory": "Mn_macho_pnp_Ph_diagnostic_1789242795_42836",
+          "status": "diagnostic_complete",
+          "accepted": false,
+          "started_utc": "2026-09-12T19:53:15.692692+00:00",
+          "finished_utc": "2026-09-12T19:56:03.173598+00:00",
+          "successful_archived_gradient_records": 1,
+          "gradient_archives": [
+            {
+              "file": "fresh_gradient.jsonl.gz",
+              "sha256": "2f1e2601a3014f12ee1af10197dc052ee42164ead1446cd0e30088b65df20552",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Mn_macho_pnp_Ph_resume_1789241312_28160",
+          "identity_exclusion": null,
+          "source_geometry_sha256": null,
+          "source_trajectory_sha256": "a241dc956743d281e9bbe6bb4c81279742dc96e71fcd13dbd56b3470ac5f2ad3",
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "24489a09aab0a5a748d0839228a2cdaf8524fec47a0d5ee37de80521d64fcba5",
+          "scope": "Full nonstationary-candidate curvature diagnostic; no TS certificate, thermochemistry, or barrier is emitted",
+          "true_fmax_eV_A": 0.22198268205344437,
+          "negative_mode_count": 2,
+          "negative_mode_transfer_coordinates": [
+            {
+              "frequency_cm1": -338.8625958880934,
+              "proton_overlap": 0.11736260883691833,
+              "hydride_overlap": 0.8220151452644319,
+              "combined_overlap": 0.664240380020854,
+              "concerted_direction": true
+            },
+            {
+              "frequency_cm1": -20.51427846827774,
+              "proton_overlap": 0.007326434871817247,
+              "hydride_overlap": 0.010343656304868104,
+              "combined_overlap": 0.012494641295218795,
+              "concerted_direction": true
+            }
+          ],
+          "chemical_identity": {
+            "retained": true,
+            "ligand_retained": true,
+            "original_nonmetal_graph_retained": true,
+            "lost_bonds": [],
+            "new_bonds": [],
+            "ligand_lost_bonds": [],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [],
+            "metal_carbonyl_distances_A": [
+              1.7589595904994189,
+              1.764264895188161
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          },
+          "full_nonreacting_graph": {
+            "retained": true,
+            "lost_nonreacting_bonds": [],
+            "unexpected_nonmetal_bonds": [],
+            "allowed_variable_transfer_pairs": [
+              [
+                1,
+                72
+              ],
+              [
+                64,
+                72
+              ],
+              [
+                65,
+                73
+              ]
+            ]
+          },
+          "source_frame": 61,
+          "selected_band_image": null,
+          "selection_reason": "Actual last saved dimer candidate",
+          "transfer_distances_A": {
+            "proton": {
+              "donor_H": 1.6430170034556977,
+              "acceptor_H": 1.050961310821079
+            },
+            "hydride": {
+              "donor_H": 1.54504939558818,
+              "acceptor_H": 1.6552045166873475
+            }
+          },
+          "full_matrix_shape": [
+            240,
+            240
+          ],
+          "native_gradient_energy_difference_eV": 6.035497790435329e-08,
+          "native_hessian_provider_sha256": "0a8b821b874a7a519e6b463606acbf8b210415a34bd94323986780cb899d6eb2",
+          "hessian_npz_sha256": "7709452deda42f968a2773904c890a464dce42080c4ac382694f6ed619b12e3b",
+          "error": null
+        }
+      ],
+      "route_count": 4,
+      "diagnostic_count": 2,
+      "successful_archived_gradient_records": 7597,
+      "accepted_route_count": 0,
+      "identity_excluded_route_count": 0
+    },
+    {
+      "catalyst_id": "Mn_macho_pnp_iPr",
+      "routes": [
+        {
+          "directory": "Mn_macho_pnp_iPr_search_1789234611_15024",
+          "status": "failed",
+          "accepted": false,
+          "started_utc": "2026-09-12T17:36:51.638256+00:00",
+          "finished_utc": "2026-09-12T17:39:03.736888+00:00",
+          "successful_archived_gradient_records": 7,
+          "gradient_archives": [
+            {
+              "file": "evaluations_endpoint_0.jsonl.gz",
+              "sha256": "9888b2cbcf95048ceaf63f2fe60e650188d24bc867cfab222caf82efa7aa5322",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_endpoint_1.jsonl.gz",
+              "sha256": "bb17dada72762d33264b57b6adebd46311e9d34b4adb79b4f201709c79766c04",
+              "successful_gradient_records": 2,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_01.jsonl.gz",
+              "sha256": "ad3ed046964fce5f54d59aec4b84c0ceec75139608acec75ec2cc89b8baa605a",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_02.jsonl.gz",
+              "sha256": "86b8a933f42cc99aa6d3c3c72ba59a70982e74557d520bca2a2ae77d41815019",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_03.jsonl.gz",
+              "sha256": "c2b047e31ad108967dca0668e84c71a18105de953c6e74b56e37581c05036e06",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_04.jsonl.gz",
+              "sha256": "720204deef9a5fd33a268054a036dff1b01b61b4b077e94a41d923e2f01e927a",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": null,
+          "identity_exclusion": null,
+          "source_geometry_sha256": "dd1b45779970656786217ccde05173a086428d5c25b2afea2c9c1cc6e91ff543",
+          "source_trajectory_sha256": null,
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "dcedcdda129810f0b9377bbb4f82481ab9a42e2729e16a00658d42db6a4e2f70",
+          "engine_accepted": false,
+          "accepted_ts_identity": null,
+          "source_not_explicitly_excluded": true,
+          "intended_identity_eligible": null,
+          "path_status": "failed",
+          "endpoint_converged": [
+            true,
+            true
+          ],
+          "neb_converged": false,
+          "provisional_neb_initial_guess": null,
+          "source_identity": null,
+          "endpoint_identity": null,
+          "hessian_mode_restart": null,
+          "attempts": [],
+          "failure_reasons": [
+            "RuntimeError: Real xTB energy/gradient evaluation failed; inspect attempt records"
+          ],
+          "full_hessian_files": [],
+          "stage_history": [
+            "endpoint_0",
+            "endpoint_1"
+          ],
+          "progress_parse_errors": [],
+          "required_gates": {
+            "ts_fmax_ev_a": 0.03,
+            "imaginary_noise_cm1": 0.0,
+            "imaginary_window_cm1": [
+              -1800,
+              -300
+            ],
+            "minimum_transfer_overlap": 0.15,
+            "minimum_combined_overlap": 0.3
+          },
+          "forward_electronic_barrier_ev": null,
+          "raw_engine_forward_electronic_barrier_ev": null,
+          "free_energy_barrier_available": false,
+          "result_sha256": "415f7aca51d37c67bc44b58e685563e03bc09dad0b06e5ee6445fb9dede06b69"
+        }
+      ],
+      "diagnostics": [],
+      "route_count": 1,
+      "diagnostic_count": 0,
+      "successful_archived_gradient_records": 7,
+      "accepted_route_count": 0,
+      "identity_excluded_route_count": 0
+    },
+    {
+      "catalyst_id": "Co_macho_pnp_Ph",
+      "routes": [
+        {
+          "directory": "Co_macho_pnp_Ph_retry_endpoints_1789240349_36692",
+          "status": "failed",
+          "accepted": false,
+          "started_utc": "2026-09-12T19:12:29.852674+00:00",
+          "finished_utc": "2026-09-12T19:14:33.924450+00:00",
+          "successful_archived_gradient_records": 8,
+          "gradient_archives": [
+            {
+              "file": "evaluations_endpoint_0.jsonl.gz",
+              "sha256": "a3f17b21faee25dd24521969ebba57425746ffe4ba2a0a43b54d113d34c899a4",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_endpoint_1.jsonl.gz",
+              "sha256": "3929308e4311ebdf08b4e7194b811fd4bcba6aaeef7ff70242352094ac7906b3",
+              "successful_gradient_records": 2,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_01.jsonl.gz",
+              "sha256": "91588c86c71202cad84e42308fbb775c673feff9a7811521b6b0d7a43eb8f974",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_02.jsonl.gz",
+              "sha256": "af3ac00b0a78ecf8a23eec7ac46854f48147ac7ee2a340ed20cdf45444bf744b",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_03.jsonl.gz",
+              "sha256": "2b085123cf2f41b7a0f6de9d738d882039024440cb6738a3be1924fe22506e8b",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_04.jsonl.gz",
+              "sha256": "be2ba0e9f1f8301016f915b349facb4ab9fd6ad28227bd36ef689058e054f7fd",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_05.jsonl.gz",
+              "sha256": "ea8f33c96de5a22049e8cfcecfd5d0ede4f6898838ef40f21d4e9639d4ced5fd",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Co_macho_pnp_Ph_search_1789234729_31856",
+          "identity_exclusion": null,
+          "source_geometry_sha256": null,
+          "source_trajectory_sha256": null,
+          "source_endpoint_sha256": [
+            "df77cb78e2c96bd447c0a3e1677e7e7956a979366df77702b639fb125d60b9b8",
+            "cd64159117b66bd635e0c43b2f13daee82f6d46cb8898f3a631cbc1f256eb70a"
+          ],
+          "task_or_diagnostic_sha256": "ac19eaa3299066869bf3562545b2d548d416533a628eb431d8246cc28d078e5f",
+          "engine_accepted": false,
+          "accepted_ts_identity": null,
+          "source_not_explicitly_excluded": true,
+          "intended_identity_eligible": null,
+          "path_status": "failed",
+          "endpoint_converged": [
+            true,
+            true
+          ],
+          "neb_converged": false,
+          "provisional_neb_initial_guess": false,
+          "source_identity": null,
+          "endpoint_identity": [
+            {
+              "retained": true,
+              "ligand_retained": true,
+              "original_nonmetal_graph_retained": true,
+              "lost_bonds": [],
+              "new_bonds": [],
+              "ligand_lost_bonds": [],
+              "ligand_new_bonds": [],
+              "ancillary_coordination_retained": true,
+              "metal_hydride_distances_A": [],
+              "metal_carbonyl_distances_A": [
+                1.7223822803711746
+              ],
+              "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+              "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+            },
+            {
+              "retained": true,
+              "ligand_retained": true,
+              "original_nonmetal_graph_retained": true,
+              "lost_bonds": [],
+              "new_bonds": [],
+              "ligand_lost_bonds": [],
+              "ligand_new_bonds": [],
+              "ancillary_coordination_retained": true,
+              "metal_hydride_distances_A": [],
+              "metal_carbonyl_distances_A": [
+                1.7469521713723026
+              ],
+              "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+              "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+            }
+          ],
+          "hessian_mode_restart": null,
+          "attempts": [],
+          "failure_reasons": [
+            "RuntimeError: Real xTB energy/gradient evaluation failed; inspect attempt records"
+          ],
+          "full_hessian_files": [],
+          "stage_history": [
+            "endpoint_0",
+            "endpoint_1"
+          ],
+          "progress_parse_errors": [],
+          "required_gates": {
+            "ts_fmax_ev_a": 0.03,
+            "imaginary_noise_cm1": 0.0,
+            "imaginary_window_cm1": [
+              -1800,
+              -300
+            ],
+            "minimum_transfer_overlap": 0.15,
+            "minimum_combined_overlap": 0.3
+          },
+          "forward_electronic_barrier_ev": null,
+          "raw_engine_forward_electronic_barrier_ev": null,
+          "free_energy_barrier_available": false,
+          "result_sha256": "34edef075c32cb306ea581d19d70cae211cbf4d0020fee07604d5b19c3b462c4"
+        },
+        {
+          "directory": "Co_macho_pnp_Ph_search_1789234729_31856",
+          "status": "failed",
+          "accepted": false,
+          "started_utc": "2026-09-12T17:38:49.881362+00:00",
+          "finished_utc": "2026-09-12T17:40:48.586980+00:00",
+          "successful_archived_gradient_records": 8,
+          "gradient_archives": [
+            {
+              "file": "evaluations_endpoint_0.jsonl.gz",
+              "sha256": "789c9fb4a6a1d1240414ad09891a9a9b5d7066610c0be3a059e67fc0f4cf772f",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_endpoint_1.jsonl.gz",
+              "sha256": "3080dd8d95023848bd608d8a081ccd21cf92b31704db14f9855c8f9818e4ffea",
+              "successful_gradient_records": 2,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_01.jsonl.gz",
+              "sha256": "a22cf3ee19e237d41d571f96d4f8ccc295c62d420c5302272f306a0246c95327",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_02.jsonl.gz",
+              "sha256": "bb6b722fc346b1d7a31480980dd7110db5b7dd53eb9111170b735e784cda6a33",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_03.jsonl.gz",
+              "sha256": "81329f053d1e38a4d1b229406988fcd28c316125a97fe2c2cb3f72836ce8979d",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_04.jsonl.gz",
+              "sha256": "ffd86e0a027af7399c421a27a7995005e372bee6fb2c82b9458f5ab5478f8a29",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_05.jsonl.gz",
+              "sha256": "8273f57cec1359096105a684280090ae9900b701eb83e48db855be68be84db42",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": null,
+          "identity_exclusion": null,
+          "source_geometry_sha256": "5e58200831ee057d95e69c74dfc827efe1514e8e6db07a292b7757ac497e8adb",
+          "source_trajectory_sha256": null,
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "41e6a49f2fb30a36795b8a4c02775c7d9c3074d0e89342b52b0c3ff7a2fcba26",
+          "engine_accepted": false,
+          "accepted_ts_identity": null,
+          "source_not_explicitly_excluded": true,
+          "intended_identity_eligible": null,
+          "path_status": "failed",
+          "endpoint_converged": [
+            true,
+            true
+          ],
+          "neb_converged": false,
+          "provisional_neb_initial_guess": null,
+          "source_identity": null,
+          "endpoint_identity": null,
+          "hessian_mode_restart": null,
+          "attempts": [],
+          "failure_reasons": [
+            "RuntimeError: Real xTB energy/gradient evaluation failed; inspect attempt records"
+          ],
+          "full_hessian_files": [],
+          "stage_history": [
+            "endpoint_0",
+            "endpoint_1"
+          ],
+          "progress_parse_errors": [],
+          "required_gates": {
+            "ts_fmax_ev_a": 0.03,
+            "imaginary_noise_cm1": 0.0,
+            "imaginary_window_cm1": [
+              -1800,
+              -300
+            ],
+            "minimum_transfer_overlap": 0.15,
+            "minimum_combined_overlap": 0.3
+          },
+          "forward_electronic_barrier_ev": null,
+          "raw_engine_forward_electronic_barrier_ev": null,
+          "free_energy_barrier_available": false,
+          "result_sha256": "9ed2df519e813a5f181f8fe5e292fcfb2d080d768253149d3b5668bdbc5e381b"
+        }
+      ],
+      "diagnostics": [],
+      "route_count": 2,
+      "diagnostic_count": 0,
+      "successful_archived_gradient_records": 16,
+      "accepted_route_count": 0,
+      "identity_excluded_route_count": 0
+    },
+    {
+      "catalyst_id": "Co_macho_pnp_iPr",
+      "routes": [
+        {
+          "directory": "Co_macho_pnp_iPr_resume_1789240249_44628",
+          "status": "failed",
+          "accepted": false,
+          "started_utc": "2026-09-12T19:10:49.236573+00:00",
+          "finished_utc": "2026-09-12T19:12:12.413669+00:00",
+          "successful_archived_gradient_records": 13,
+          "gradient_archives": [
+            {
+              "file": "evaluations_endpoint_0.jsonl.gz",
+              "sha256": "ad3e904286d2cdcab305a6c9789775763be8ebbd212dd3ab6c37c1425f9f03bd",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_endpoint_1.jsonl.gz",
+              "sha256": "67aa77a698fdbb2eb84c34192f22c85c99c79f2fff058e9134e7c9552424760a",
+              "successful_gradient_records": 2,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_01.jsonl.gz",
+              "sha256": "77a68dcb9e4b4f6e56b529545384a90e30d60863eabc76134f53e7e5c7c8a5ab",
+              "successful_gradient_records": 2,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_02.jsonl.gz",
+              "sha256": "7d076515e3f1e8e9c454e5a3f841464616571a094af4a4566bfb89038febf520",
+              "successful_gradient_records": 2,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_03.jsonl.gz",
+              "sha256": "d5ef8fed017195f9f5c1e45ad38129685a99a4d7a38c2e706fb905eba0298f3e",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_04.jsonl.gz",
+              "sha256": "a113e78a331267c5fa707f2b5be36d95ec06ca1c7d4499b84035707e1d5e79ef",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_05.jsonl.gz",
+              "sha256": "eb83ae871bf85e7e3448ad17a41ebf871b60dee74524eb5b5f3954f01b2404cb",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_06.jsonl.gz",
+              "sha256": "5d31866b39637c486c78f37493371385161a76b0c38d97bbe1c3ea1ae35b1b7c",
+              "successful_gradient_records": 2,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_07.jsonl.gz",
+              "sha256": "c2e899c6a7ba6d0c4fa1203695a6c0922a7ec2fb476c6c0184514fac2a618d50",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Co_macho_pnp_iPr_search_1789234743_15024",
+          "identity_exclusion": null,
+          "source_geometry_sha256": null,
+          "source_trajectory_sha256": "4c181fbacc55ea41e24648efc8c7e096e5eb6f86cd6784341c500ba7bcafc164",
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "8c1be6fbf79ea52d47b648f5468dbd5c583047bc484a179b879606a5c4d1d746",
+          "engine_accepted": false,
+          "accepted_ts_identity": null,
+          "source_not_explicitly_excluded": true,
+          "intended_identity_eligible": null,
+          "path_status": "failed",
+          "endpoint_converged": [
+            true,
+            true
+          ],
+          "neb_converged": false,
+          "provisional_neb_initial_guess": false,
+          "source_identity": null,
+          "endpoint_identity": [
+            {
+              "retained": true,
+              "ligand_retained": true,
+              "original_nonmetal_graph_retained": true,
+              "lost_bonds": [],
+              "new_bonds": [],
+              "ligand_lost_bonds": [],
+              "ligand_new_bonds": [],
+              "ancillary_coordination_retained": true,
+              "metal_hydride_distances_A": [],
+              "metal_carbonyl_distances_A": [
+                1.7205701374885918
+              ],
+              "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+              "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+            },
+            {
+              "retained": true,
+              "ligand_retained": true,
+              "original_nonmetal_graph_retained": true,
+              "lost_bonds": [],
+              "new_bonds": [],
+              "ligand_lost_bonds": [],
+              "ligand_new_bonds": [],
+              "ancillary_coordination_retained": true,
+              "metal_hydride_distances_A": [],
+              "metal_carbonyl_distances_A": [
+                1.7187186703980202
+              ],
+              "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+              "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+            }
+          ],
+          "hessian_mode_restart": null,
+          "attempts": [],
+          "failure_reasons": [
+            "RuntimeError: Real xTB energy/gradient evaluation failed; inspect attempt records"
+          ],
+          "full_hessian_files": [],
+          "stage_history": [
+            "endpoint_0",
+            "endpoint_1",
+            "neb"
+          ],
+          "progress_parse_errors": [],
+          "required_gates": {
+            "ts_fmax_ev_a": 0.03,
+            "imaginary_noise_cm1": 0.0,
+            "imaginary_window_cm1": [
+              -1800,
+              -300
+            ],
+            "minimum_transfer_overlap": 0.15,
+            "minimum_combined_overlap": 0.3
+          },
+          "forward_electronic_barrier_ev": null,
+          "raw_engine_forward_electronic_barrier_ev": null,
+          "free_energy_barrier_available": false,
+          "result_sha256": "fa84fecc457b01af7786b70ec751938499bee36873af25b7d12d2efdb38f5805"
+        },
+        {
+          "directory": "Co_macho_pnp_iPr_search_1789234743_15024",
+          "status": "failed",
+          "accepted": false,
+          "started_utc": "2026-09-12T17:39:03.755460+00:00",
+          "finished_utc": "2026-09-12T17:40:57.006143+00:00",
+          "successful_archived_gradient_records": 14,
+          "gradient_archives": [
+            {
+              "file": "evaluations_endpoint_0.jsonl.gz",
+              "sha256": "2aab948da5c44526776ea94d41d1f5edc4837d64e77c8fa6b871d28e12f4a5fd",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_endpoint_1.jsonl.gz",
+              "sha256": "0175b9e7aeb091f483d9765c2c89a389c5f082beba8e8d5887370d8f6440b9c6",
+              "successful_gradient_records": 3,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_01.jsonl.gz",
+              "sha256": "b25c1ef633d0628154c37b1806f7a289001c1e16ffbb8fdc81555545fd73cf85",
+              "successful_gradient_records": 2,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_02.jsonl.gz",
+              "sha256": "a6f41304efe8bed3a76999223dc2bd61c626b3ccc6eadde3c8db675d72b1c661",
+              "successful_gradient_records": 2,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_03.jsonl.gz",
+              "sha256": "9a538a52279c5aa1e7b6cdaaadb99cab695e05c90452af6613b167f360075820",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_04.jsonl.gz",
+              "sha256": "07f83b32cf69efbb265b5e7ea55bb3ae0646571cce5b54d0ac6ce5e60a5f87d3",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_05.jsonl.gz",
+              "sha256": "62b1e3ab8733e2cbab0205cd6bcde978c040251163c3dc904539bcd49c780ab8",
+              "successful_gradient_records": 2,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_06.jsonl.gz",
+              "sha256": "d9eff84b5a05d7cf2d8205c9d71bba038a0d3db7c14698376f0044cfd9bcf3ff",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            },
+            {
+              "file": "evaluations_neb_image_07.jsonl.gz",
+              "sha256": "c21383e5251217268b0bf5a6090a35324cd1b40e4963560cffd3cbe04c939eca",
+              "successful_gradient_records": 1,
+              "read_errors": []
+            }
+          ],
+          "solvent": "toluene",
+          "solvation_state": "gsolv",
+          "source_route": null,
+          "identity_exclusion": null,
+          "source_geometry_sha256": "5438d330dc592be8dda7ddbbf8c24c857ecf4fa156cfb30135ddbcfd719b438a",
+          "source_trajectory_sha256": null,
+          "source_endpoint_sha256": null,
+          "task_or_diagnostic_sha256": "5f6c6b81abb09b2c22fb5242a989448963c6b0b820d37a5aa776ea49f3d245de",
+          "engine_accepted": false,
+          "accepted_ts_identity": null,
+          "source_not_explicitly_excluded": true,
+          "intended_identity_eligible": null,
+          "path_status": "failed",
+          "endpoint_converged": [
+            true,
+            true
+          ],
+          "neb_converged": false,
+          "provisional_neb_initial_guess": null,
+          "source_identity": null,
+          "endpoint_identity": null,
+          "hessian_mode_restart": null,
+          "attempts": [],
+          "failure_reasons": [
+            "RuntimeError: Real xTB energy/gradient evaluation failed; inspect attempt records"
+          ],
+          "full_hessian_files": [],
+          "stage_history": [
+            "endpoint_0",
+            "endpoint_1",
+            "neb"
+          ],
+          "progress_parse_errors": [],
+          "required_gates": {
+            "ts_fmax_ev_a": 0.03,
+            "imaginary_noise_cm1": 0.0,
+            "imaginary_window_cm1": [
+              -1800,
+              -300
+            ],
+            "minimum_transfer_overlap": 0.15,
+            "minimum_combined_overlap": 0.3
+          },
+          "forward_electronic_barrier_ev": null,
+          "raw_engine_forward_electronic_barrier_ev": null,
+          "free_energy_barrier_available": false,
+          "result_sha256": "30db942ced2decc18abfce78f6a1a53789a33f4102b6d768075d0735bd114e7d"
+        }
+      ],
+      "diagnostics": [],
+      "route_count": 2,
+      "diagnostic_count": 0,
+      "successful_archived_gradient_records": 27,
+      "accepted_route_count": 0,
+      "identity_excluded_route_count": 0
+    }
+  ]
+}

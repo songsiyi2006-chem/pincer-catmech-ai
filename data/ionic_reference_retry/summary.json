@@ -1,0 +1,48 @@
+{
+  "started_utc": "2026-09-12T18:21:34.443462+00:00",
+  "source_geometry_sha256": "d212e4231d6b932ee1d5bcd7336d05f49a5bd740e5762fb2e2806c3cb8018b82",
+  "method": "GFN2-xTB/ALPB toluene gsolv",
+  "attempts": [
+    {
+      "initial_K_O_distance_A": 2.2,
+      "warm_electronic_temperature_K": 1000.0,
+      "status": "converged",
+      "utc": "2026-09-12T18:21:34.445464+00:00",
+      "warm_returncode": 0,
+      "warm_wall_seconds": 0.34399999999732245,
+      "warm_output_sha256": "2fc3b14c318dcae146d76519f7c95295f89fadc08807cde1802979c61f24372a",
+      "cooled_returncode": 0,
+      "cooled_wall_seconds": 0.1870000000053551,
+      "cooled_output_sha256": "e197b6611351dc1c39cafbb76cd281c469c52cdf02072432af81c7efa4c78cc2",
+      "optimization": {
+        "status": "converged",
+        "energy_eV": -474.85214161640386,
+        "max_force_eV_A": 0.0008172459867741168,
+        "wall_seconds": 1.1560000000026776,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\ionic-reference-scratch\\distance2.2_warm1000\\optimization",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 15,
+        "output_sha256": "1f0124f78885cf6921ac32e72b5d491b30d68709509a55b73cf2c1bec8d85546",
+        "error": null
+      },
+      "stationarity_status": "verified_minimum",
+      "accepted": true
+    }
+  ],
+  "accepted": true,
+  "interpretation": "Single contact-pair model; not dissolved salt speciation or solubility",
+  "accepted_stationarity_file": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\ionic_reference_retry\\distance2.2_warm1000\\result.json",
+  "finished_utc": "2026-09-12T18:21:39.064817+00:00",
+  "chemical_identity_audit": {
+    "connectivity": {
+      "retained": true,
+      "lost_bonds": [],
+      "new_bonds": [],
+      "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+    },
+    "K_O_distance_A": 2.1517125462376354,
+    "geometry_sha256": "aea00cc9a5cfc0c6683af0442f662e8551d8d1b9591e17e5afdf8315a17930be"
+  }
+}

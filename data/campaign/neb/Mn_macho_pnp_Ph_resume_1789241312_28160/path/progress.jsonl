@@ -1,0 +1,5 @@
+{"stage": "endpoint_0", "elapsed_seconds": 1.6089999999967404, "calculator_evaluations": 1, "step": 0, "energy_ev": -3282.490691595651, "fmax_ev_a": 0.008316077245695226}
+{"stage": "endpoint_1", "elapsed_seconds": 3.2969999999913853, "calculator_evaluations": 2, "step": 0, "energy_ev": -3282.7940621743764, "fmax_ev_a": 0.005759791332852869}
+{"stage": "neb", "elapsed_seconds": 14.280999999988126, "calculator_evaluations": 9, "step": 0, "image_energies_ev": [-3282.490691595651, -3282.5974983391407, -3282.2389666288764, -3282.264273638757, -3282.2085527207896, -3282.4528773675397, -3282.631587627558, -3282.750473490147, -3282.7940621743764]}
+{"stage": "dimer_guess_selected", "elapsed_seconds": 14.35899999999674, "calculator_evaluations": 9, "global_peak_image": 4, "global_peak_energy_ev": -3282.2085527207896, "selected_image": null, "selected_energy_ev": null, "initial_tangent_image": 2, "selection": "saved dimer candidate"}
+{"stage": "dimer_start", "elapsed_seconds": 14.375, "calculator_evaluations": 9, "attempt": 0}

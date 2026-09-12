@@ -1,0 +1,69 @@
+[
+  {
+    "id": "Ru_macho_pnp_iPr",
+    "conformer": 0,
+    "solvent": null,
+    "energy_eV": -1921.694288151127,
+    "connectivity": {
+      "retained": false,
+      "lost_bonds": [
+        [
+          10,
+          37
+        ]
+      ],
+      "new_bonds": [],
+      "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+    },
+    "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs\\Ru_macho_pnp_iPr\\active\\conformer_0000"
+  },
+  {
+    "id": "Ru_macho_pnp_Ph",
+    "conformer": 0,
+    "solvent": null,
+    "energy_eV": -2508.1855764812103,
+    "connectivity": {
+      "retained": false,
+      "lost_bonds": [
+        [
+          1,
+          32
+        ]
+      ],
+      "new_bonds": [],
+      "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+    },
+    "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs\\Ru_macho_pnp_Ph\\active\\conformer_0000"
+  },
+  {
+    "id": "Ru_macho_pnp_Ph",
+    "conformer": 1,
+    "solvent": null,
+    "energy_eV": -2507.0199268707393,
+    "connectivity": {
+      "retained": true,
+      "lost_bonds": [],
+      "new_bonds": [],
+      "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+    },
+    "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs\\Ru_macho_pnp_Ph\\active\\conformer_0001"
+  },
+  {
+    "id": "Ru_macho_pnp_iPr",
+    "conformer": 1,
+    "solvent": null,
+    "energy_eV": -1921.7589337958357,
+    "connectivity": {
+      "retained": false,
+      "lost_bonds": [
+        [
+          1,
+          20
+        ]
+      ],
+      "new_bonds": [],
+      "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+    },
+    "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs\\Ru_macho_pnp_iPr\\active\\conformer_0001"
+  }
+]

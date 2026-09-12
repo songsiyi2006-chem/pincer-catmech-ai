@@ -1,0 +1,71 @@
+{
+  "catalyst_id": "Mn_macho_pnp_iPr",
+  "mode": "search",
+  "started_utc": "2026-09-12T17:36:51.638256+00:00",
+  "pid": 15024,
+  "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Mn_macho_pnp_iPr_search_1789234611_15024",
+  "source_geometry": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Mn_macho_pnp_iPr\\active\\conformer_0000\\xtbopt.xyz",
+  "source_geometry_sha256": "dd1b45779970656786217ccde05173a086428d5c25b2afea2c9c1cc6e91ff543",
+  "source_conformer": 0,
+  "threads": 2,
+  "solvent": "toluene",
+  "solvation_model": "ALPB",
+  "solvation_state": "gsolv",
+  "source_geometry_role": "Preoptimization only; both complete endpoints reevaluated under the declared solvent convention",
+  "no_free_energy_barrier": true,
+  "status": "failed",
+  "assembly_retries": [],
+  "endpoint_preoptimization": [
+    {
+      "status": "converged",
+      "energy_eV": -2696.126396099522,
+      "max_force_eV_A": 0.006408314991383398,
+      "wall_seconds": 46.671999999991385,
+      "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Mn_macho_pnp_iPr_search_1789234611_15024\\native_endpoint_0",
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "converged": true,
+      "atoms_count": 76,
+      "output_sha256": "e02769732784d49308995762230d6a1f9773b3c7529edfe3242778c80becc0a2",
+      "error": null
+    },
+    {
+      "status": "converged",
+      "energy_eV": -2695.035642307821,
+      "max_force_eV_A": 0.011594626487496151,
+      "wall_seconds": 50.187000000005355,
+      "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Mn_macho_pnp_iPr_search_1789234611_15024\\native_endpoint_1",
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "converged": true,
+      "atoms_count": 76,
+      "output_sha256": "2710db87326801d479ec3c204b0ca9aee6c8ae6a78355695a693288ab7d081ec",
+      "error": null
+    }
+  ],
+  "accepted": false,
+  "path_result": {
+    "status": "failed",
+    "accepted": false,
+    "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Mn_macho_pnp_iPr_search_1789234611_15024\\path",
+    "n_internal_images": 7,
+    "neb_converged": false,
+    "endpoint_converged": [
+      true,
+      true
+    ],
+    "image_energies_ev": [],
+    "attempts": [],
+    "failure_reasons": [
+      "RuntimeError: Real xTB energy/gradient evaluation failed; inspect attempt records"
+    ],
+    "accepted_ts_energy_ev": null,
+    "forward_electronic_barrier_ev": null,
+    "reverse_electronic_barrier_ev": null,
+    "elapsed_seconds": 30.313000000009197,
+    "calculator_evaluations": 7,
+    "evidence": "Injected-calculator electronic potential; no free-energy barrier inferred"
+  },
+  "finished_utc": "2026-09-12T17:39:03.736888+00:00",
+  "elapsed_seconds": 132.09863233566284
+}

@@ -1,0 +1,7 @@
+{
+  "finished_utc": "2026-09-12T18:16:39.322284+00:00",
+  "attempts": 24,
+  "accepted_species": 0,
+  "method": "GFN2-xTB/ALPB toluene gsolv",
+  "scope": "Alternative initial CO placements only; unrestricted optimized-identity gate unchanged"
+}

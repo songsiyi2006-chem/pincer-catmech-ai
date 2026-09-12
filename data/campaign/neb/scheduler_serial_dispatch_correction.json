@@ -1,0 +1,9 @@
+{
+  "recorded_at_utc": "2026-09-12T18:47:36.035392+00:00",
+  "source_scheduler": "scheduler_1789236048_18040.json",
+  "affected_catalyst": "Ru_macho_pnp_iPr",
+  "actual_source_available": "ru_identity_preserved_sources.json",
+  "issue": "The initial30minute wait allowance incorrectly ended dispatch after the first45minute search despite an already available queued catalyst. The reported missing_active_minima entry is a scheduler condition, not a missing/failed active geometry.",
+  "fix": "Wait allowance now only limits absent-source waiting; available queued catalysts may dispatch until the unchanged global deadline.",
+  "original_scheduler_preserved": true
+}

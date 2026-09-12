@@ -1,0 +1,96 @@
+[
+  {
+    "route": "Ru_macho_pnp_Ph_search_1789236051_21844",
+    "endpoint": 0,
+    "screen": {
+      "retained": true,
+      "ligand_retained": true,
+      "original_nonmetal_graph_retained": true,
+      "lost_bonds": [],
+      "new_bonds": [],
+      "ligand_lost_bonds": [],
+      "ligand_new_bonds": [],
+      "ancillary_coordination_retained": true,
+      "metal_hydride_distances_A": [
+        1.5753800918593175
+      ],
+      "metal_carbonyl_distances_A": [
+        1.8429605088976355
+      ],
+      "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+      "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+    },
+    "old_to_new_hydride_distances_A": [
+      5.470522834650484
+    ]
+  },
+  {
+    "route": "Ru_macho_pnp_Ph_search_1789236051_21844",
+    "endpoint": 1,
+    "screen": {
+      "retained": true,
+      "ligand_retained": true,
+      "original_nonmetal_graph_retained": true,
+      "lost_bonds": [],
+      "new_bonds": [],
+      "ligand_lost_bonds": [],
+      "ligand_new_bonds": [],
+      "ancillary_coordination_retained": true,
+      "metal_hydride_distances_A": [
+        1.5630252067072927
+      ],
+      "metal_carbonyl_distances_A": [
+        1.8319471487133279
+      ],
+      "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+      "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+    },
+    "old_to_new_hydride_distances_A": [
+      3.1226913353299084
+    ]
+  },
+  {
+    "route": "Mn_macho_pnp_Ph_resume_1789237349_19436",
+    "endpoint": 0,
+    "screen": {
+      "retained": true,
+      "ligand_retained": true,
+      "original_nonmetal_graph_retained": true,
+      "lost_bonds": [],
+      "new_bonds": [],
+      "ligand_lost_bonds": [],
+      "ligand_new_bonds": [],
+      "ancillary_coordination_retained": true,
+      "metal_hydride_distances_A": [],
+      "metal_carbonyl_distances_A": [
+        1.7645239992358033,
+        1.7608167784449615
+      ],
+      "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+      "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+    },
+    "old_to_new_hydride_distances_A": []
+  },
+  {
+    "route": "Mn_macho_pnp_Ph_resume_1789237349_19436",
+    "endpoint": 1,
+    "screen": {
+      "retained": true,
+      "ligand_retained": true,
+      "original_nonmetal_graph_retained": true,
+      "lost_bonds": [],
+      "new_bonds": [],
+      "ligand_lost_bonds": [],
+      "ligand_new_bonds": [],
+      "ancillary_coordination_retained": true,
+      "metal_hydride_distances_A": [],
+      "metal_carbonyl_distances_A": [
+        1.7612055053835816,
+        1.747566416718026
+      ],
+      "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+      "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+    },
+    "old_to_new_hydride_distances_A": []
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-12T18:06:53.129164+00:00",
+  "terminated_only_owned_pids": [26164, 10888, 37256, 11456, 33140],
+  "reason": "Replace donor-distance-only selection with full covalent and ancillary identity screen",
+  "raw_records_preserved": true,
+  "derived_audited_records": "records_with_identity.jsonl",
+  "resumed_controller_pid": 28056,
+  "original_deadline_epoch_preserved": 1789243277.8901894,
+  "other_quantum_workers_continued": true,
+  "interpretation": "Historical geometric optimization records remain valid calculations, but altered chemical identities are excluded from intended-catalyst ranking"
+}

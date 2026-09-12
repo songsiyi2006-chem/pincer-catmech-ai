@@ -1,0 +1,302 @@
+[
+  {
+    "catalyst_id": "Co_macho_pnp_iPr",
+    "task": "data/campaign/neb/Co_macho_pnp_iPr_resume_1789240249_44628/task.json",
+    "task_sha256": "8c1be6fbf79ea52d47b648f5468dbd5c583047bc484a179b879606a5c4d1d746",
+    "status": "failed",
+    "mode": "resume",
+    "accepted": false,
+    "engine_accepted": false,
+    "intended_identity_eligible": null,
+    "identity_exclusion": null,
+    "neb_converged": false,
+    "calculator_evaluations": 13,
+    "failure_reasons": [
+      "RuntimeError: Real xTB energy/gradient evaluation failed; inspect attempt records"
+    ]
+  },
+  {
+    "catalyst_id": "Co_macho_pnp_iPr",
+    "task": "data/campaign/neb/Co_macho_pnp_iPr_search_1789234743_15024/task.json",
+    "task_sha256": "5f6c6b81abb09b2c22fb5242a989448963c6b0b820d37a5aa776ea49f3d245de",
+    "status": "failed",
+    "mode": "search",
+    "accepted": false,
+    "engine_accepted": false,
+    "intended_identity_eligible": null,
+    "identity_exclusion": null,
+    "neb_converged": false,
+    "calculator_evaluations": 14,
+    "failure_reasons": [
+      "RuntimeError: Real xTB energy/gradient evaluation failed; inspect attempt records"
+    ]
+  },
+  {
+    "catalyst_id": "Co_macho_pnp_Ph",
+    "task": "data/campaign/neb/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/task.json",
+    "task_sha256": "ac19eaa3299066869bf3562545b2d548d416533a628eb431d8246cc28d078e5f",
+    "status": "failed",
+    "mode": "retry_endpoints",
+    "accepted": false,
+    "engine_accepted": false,
+    "intended_identity_eligible": null,
+    "identity_exclusion": null,
+    "neb_converged": false,
+    "calculator_evaluations": 8,
+    "failure_reasons": [
+      "RuntimeError: Real xTB energy/gradient evaluation failed; inspect attempt records"
+    ]
+  },
+  {
+    "catalyst_id": "Co_macho_pnp_Ph",
+    "task": "data/campaign/neb/Co_macho_pnp_Ph_search_1789234729_31856/task.json",
+    "task_sha256": "41e6a49f2fb30a36795b8a4c02775c7d9c3074d0e89342b52b0c3ff7a2fcba26",
+    "status": "failed",
+    "mode": "search",
+    "accepted": false,
+    "engine_accepted": false,
+    "intended_identity_eligible": null,
+    "identity_exclusion": null,
+    "neb_converged": false,
+    "calculator_evaluations": 8,
+    "failure_reasons": [
+      "RuntimeError: Real xTB energy/gradient evaluation failed; inspect attempt records"
+    ]
+  },
+  {
+    "catalyst_id": "Mn_macho_pnp_iPr",
+    "task": "data/campaign/neb/Mn_macho_pnp_iPr_search_1789234611_15024/task.json",
+    "task_sha256": "dcedcdda129810f0b9377bbb4f82481ab9a42e2729e16a00658d42db6a4e2f70",
+    "status": "failed",
+    "mode": "search",
+    "accepted": false,
+    "engine_accepted": false,
+    "intended_identity_eligible": null,
+    "identity_exclusion": null,
+    "neb_converged": false,
+    "calculator_evaluations": 7,
+    "failure_reasons": [
+      "RuntimeError: Real xTB energy/gradient evaluation failed; inspect attempt records"
+    ]
+  },
+  {
+    "catalyst_id": "Mn_macho_pnp_Ph",
+    "task": "data/campaign/neb/Mn_macho_pnp_Ph_resume_1789234998_33472/task.json",
+    "task_sha256": "b2056cf8e50aa708dd69edf9047b2ce5b17e873ffb3a2b4b3bf72bb1a7790c3d",
+    "status": "operator_stopped",
+    "mode": "resume",
+    "accepted": false,
+    "engine_accepted": false,
+    "intended_identity_eligible": null,
+    "identity_exclusion": null,
+    "neb_converged": true,
+    "calculator_evaluations": 3002,
+    "failure_reasons": [
+      "The 120-step global-peak dimer did not meet true-force convergence. Its geometry lies beyond both transfers; a separate reactive local-image search will use the saved converged band."
+    ]
+  },
+  {
+    "catalyst_id": "Mn_macho_pnp_Ph",
+    "task": "data/campaign/neb/Mn_macho_pnp_Ph_resume_1789237349_19436/task.json",
+    "task_sha256": "bc27f279af76c78f0a9e29a3c4d6cc623d2aa3e8373fc57f31fdeb4587173638",
+    "status": "deadline_exhausted",
+    "mode": "resume",
+    "accepted": false,
+    "engine_accepted": false,
+    "intended_identity_eligible": null,
+    "identity_exclusion": null,
+    "neb_converged": true,
+    "calculator_evaluations": 1999,
+    "failure_reasons": [
+      "TimeoutError: Campaign deadline exhausted during electronic retries"
+    ]
+  },
+  {
+    "catalyst_id": "Mn_macho_pnp_Ph",
+    "task": "data/campaign/neb/Mn_macho_pnp_Ph_resume_1789241312_28160/task.json",
+    "task_sha256": "b01457157ed05049847f0b39287322b9026bb9ca2c5e8748cdd792db5c471edd",
+    "status": "operator_stopped_for_final_diagnostic",
+    "mode": "resume",
+    "accepted": false,
+    "engine_accepted": false,
+    "intended_identity_eligible": null,
+    "identity_exclusion": null,
+    "neb_converged": true,
+    "calculator_evaluations": 1125,
+    "failure_reasons": [
+      "Operator stopped the continued nonconverged dimer geometry to obtain a final complete Hessian diagnostic within the immutable overall campaign deadline; no TS or barrier inferred"
+    ]
+  },
+  {
+    "catalyst_id": "Mn_macho_pnp_Ph",
+    "task": "data/campaign/neb/Mn_macho_pnp_Ph_search_1789233521_31856/task.json",
+    "task_sha256": "d7410991ecf6b0cfdf1c30ae3bd8d088aa391fa1b7425e86e5b595b774c83af7",
+    "status": "failed",
+    "mode": "search",
+    "accepted": false,
+    "engine_accepted": false,
+    "intended_identity_eligible": null,
+    "identity_exclusion": null,
+    "neb_converged": false,
+    "calculator_evaluations": 1469,
+    "failure_reasons": [
+      "RuntimeError: Real xTB energy/gradient evaluation failed; inspect attempt records"
+    ]
+  },
+  {
+    "catalyst_id": "Ru_macho_pnp_iPr",
+    "task": "data/campaign/neb/Ru_macho_pnp_iPr_resume_1789234998_22112/task.json",
+    "task_sha256": "a9ee01a2d8b5452c8a55b244c45c7042af4f6cf7dc2058c198b16fb315e98ddb",
+    "status": "failed",
+    "mode": "resume",
+    "accepted": false,
+    "engine_accepted": false,
+    "intended_identity_eligible": false,
+    "identity_exclusion": {
+      "route": "Ru_macho_pnp_iPr_resume_1789234998_22112",
+      "task_sha256_at_audit": "a9ee01a2d8b5452c8a55b244c45c7042af4f6cf7dc2058c198b16fb315e98ddb",
+      "excluded_from_requested_catalyst_identity": true,
+      "reason": "Source active ligand underwent unintended intraligand C-H cleavage and transfer to Ru; assigned active amido catalyst topology was not retained",
+      "scope": "Coordinates, energies and failures remain genuine calculations of the rearranged composition; they are not valid training/barrier records for the intended catalyst identity"
+    },
+    "neb_converged": false,
+    "calculator_evaluations": 1136,
+    "failure_reasons": [
+      "RuntimeError: Real xTB energy/gradient evaluation failed; inspect attempt records",
+      "Source or fixed accepted geometry fails the full intended catalyst/substrate identity screen"
+    ]
+  },
+  {
+    "catalyst_id": "Ru_macho_pnp_iPr",
+    "task": "data/campaign/neb/Ru_macho_pnp_iPr_resume_1789241914_42216/task.json",
+    "task_sha256": "8162862e345faaadcdc3bf894f02e419c064aa44df98154d1d641d085b2bf4c2",
+    "status": "operator_stopped_for_band_diagnostic",
+    "mode": "resume",
+    "accepted": false,
+    "engine_accepted": false,
+    "intended_identity_eligible": null,
+    "identity_exclusion": null,
+    "neb_converged": false,
+    "calculator_evaluations": 0,
+    "failure_reasons": [
+      "Operator stopped this newly started provisional dimer continuation to follow the requested fixed original-band image 3 full-Hessian diagnostic first; no acceptance or barrier is inferred"
+    ]
+  },
+  {
+    "catalyst_id": "Ru_macho_pnp_iPr",
+    "task": "data/campaign/neb/Ru_macho_pnp_iPr_retry_endpoints_1789240154_14800/task.json",
+    "task_sha256": "78eae6679516ae5beaafbd4200fd733fc095c5b2f950016f13b6c0fac909d2d2",
+    "status": "deadline_exhausted",
+    "mode": "retry_endpoints",
+    "accepted": false,
+    "engine_accepted": false,
+    "intended_identity_eligible": null,
+    "identity_exclusion": null,
+    "neb_converged": false,
+    "calculator_evaluations": 1141,
+    "failure_reasons": [
+      "TimeoutError: Campaign calculation deadline reached"
+    ]
+  },
+  {
+    "catalyst_id": "Ru_macho_pnp_iPr",
+    "task": "data/campaign/neb/Ru_macho_pnp_iPr_search_1789233435_15024/task.json",
+    "task_sha256": "808e9cbdc9517623db3b9858068a4c61cb174ac7bc3f7f86186942e5e9fc5952",
+    "status": "failed",
+    "mode": "search",
+    "accepted": false,
+    "engine_accepted": false,
+    "intended_identity_eligible": false,
+    "identity_exclusion": {
+      "route": "Ru_macho_pnp_iPr_search_1789233435_15024",
+      "task_sha256_at_audit": "808e9cbdc9517623db3b9858068a4c61cb174ac7bc3f7f86186942e5e9fc5952",
+      "excluded_from_requested_catalyst_identity": true,
+      "reason": "Source active ligand underwent unintended intraligand C-H cleavage and transfer to Ru; assigned active amido catalyst topology was not retained",
+      "scope": "Coordinates, energies and failures remain genuine calculations of the rearranged composition; they are not valid training/barrier records for the intended catalyst identity"
+    },
+    "neb_converged": false,
+    "calculator_evaluations": 1828,
+    "failure_reasons": [
+      "ValueError: CI-NEB did not converge within the step allowance",
+      "Source or fixed accepted geometry fails the full intended catalyst/substrate identity screen"
+    ]
+  },
+  {
+    "catalyst_id": "Ru_macho_pnp_iPr",
+    "task": "data/campaign/neb/Ru_macho_pnp_iPr_search_1789239312_42784/task.json",
+    "task_sha256": "ee9e0a9f9d23998c385c21a489e59b1a5ebb397ac91c0c5e62df9369f9da7c44",
+    "status": "failed",
+    "mode": "search",
+    "accepted": false,
+    "engine_accepted": false,
+    "intended_identity_eligible": null,
+    "identity_exclusion": null,
+    "neb_converged": false,
+    "calculator_evaluations": 202,
+    "failure_reasons": [
+      "ValueError: endpoint optimization did not converge within the step allowance"
+    ]
+  },
+  {
+    "catalyst_id": "Ru_macho_pnp_Ph",
+    "task": "data/campaign/neb/Ru_macho_pnp_Ph_pilot_1789233262_18280/task.json",
+    "task_sha256": "85a7e16971c4dcc0bc0a2431370b8c9083f3ecb27b7ffe2d06cce997070e4391",
+    "status": "failed",
+    "mode": "pilot",
+    "accepted": false,
+    "engine_accepted": false,
+    "intended_identity_eligible": false,
+    "identity_exclusion": {
+      "route": "Ru_macho_pnp_Ph_pilot_1789233262_18280",
+      "task_sha256_at_audit": "85a7e16971c4dcc0bc0a2431370b8c9083f3ecb27b7ffe2d06cce997070e4391",
+      "excluded_from_requested_catalyst_identity": true,
+      "reason": "Source active ligand underwent unintended intraligand C-H cleavage and transfer to Ru; assigned active amido catalyst topology was not retained",
+      "scope": "Coordinates, energies and failures remain genuine calculations of the rearranged composition; they are not valid training/barrier records for the intended catalyst identity"
+    },
+    "neb_converged": false,
+    "calculator_evaluations": 18,
+    "failure_reasons": [
+      "ValueError: endpoint optimization did not converge within the step allowance",
+      "Source or fixed accepted geometry fails the full intended catalyst/substrate identity screen"
+    ]
+  },
+  {
+    "catalyst_id": "Ru_macho_pnp_Ph",
+    "task": "data/campaign/neb/Ru_macho_pnp_Ph_search_1789233435_31856/task.json",
+    "task_sha256": "29b237d61c0c3ffbe22d190022920202f868dd8a9331d54d5a0dbc2883234fcd",
+    "status": "failed",
+    "mode": "search",
+    "accepted": false,
+    "engine_accepted": false,
+    "intended_identity_eligible": false,
+    "identity_exclusion": {
+      "route": "Ru_macho_pnp_Ph_search_1789233435_31856",
+      "task_sha256_at_audit": "29b237d61c0c3ffbe22d190022920202f868dd8a9331d54d5a0dbc2883234fcd",
+      "excluded_from_requested_catalyst_identity": true,
+      "reason": "Source active ligand underwent unintended intraligand C-H cleavage and transfer to Ru; assigned active amido catalyst topology was not retained",
+      "scope": "Coordinates, energies and failures remain genuine calculations of the rearranged composition; they are not valid training/barrier records for the intended catalyst identity"
+    },
+    "neb_converged": false,
+    "calculator_evaluations": 2,
+    "failure_reasons": [
+      "ValueError: optimized endpoints do not bracket the annotated hydride transfer",
+      "Source or fixed accepted geometry fails the full intended catalyst/substrate identity screen"
+    ]
+  },
+  {
+    "catalyst_id": "Ru_macho_pnp_Ph",
+    "task": "data/campaign/neb/Ru_macho_pnp_Ph_search_1789236051_21844/task.json",
+    "task_sha256": "cee0428e8f2db996a15516889edb0c322b3c07128f86846e0d9f259e7f335276",
+    "status": "deadline_exhausted",
+    "mode": "search",
+    "accepted": false,
+    "engine_accepted": false,
+    "intended_identity_eligible": null,
+    "identity_exclusion": null,
+    "neb_converged": false,
+    "calculator_evaluations": 2590,
+    "failure_reasons": [
+      "TimeoutError: Campaign deadline exhausted during electronic retries"
+    ]
+  }
+]

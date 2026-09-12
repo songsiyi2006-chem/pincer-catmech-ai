@@ -1,0 +1,2 @@
+{"stage": "endpoint_0", "elapsed_seconds": 0.7819999999919673, "calculator_evaluations": 1, "step": 0, "energy_ev": -3134.9411660417813, "fmax_ev_a": 0.011217180971116868}
+{"stage": "endpoint_1", "elapsed_seconds": 1.6719999999913853, "calculator_evaluations": 2, "step": 0, "energy_ev": -3133.972940710029, "fmax_ev_a": 0.007101172144307978}

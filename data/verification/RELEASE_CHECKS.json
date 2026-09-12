@@ -1,0 +1,253 @@
+{
+  "status": "passed",
+  "scientific_status": "partial_results_with_unmet_transition_state_kinetic_and_surrogate_targets",
+  "test_results": {
+    "tests": 205,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "pytest_xml_sha256": "3eae066d38d6a538a20abc4af21ee8d0702b960c5ab97872b480eb38719262f5",
+  "pdf_build": [
+    {
+      "source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\docs\\MONOGRAPH_BORROWING_HYDROGEN_EN.md",
+      "pdf": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\outputs\\MONOGRAPH_BORROWING_HYDROGEN_EN.pdf",
+      "language": "EN",
+      "source_sha256": "6e83fdca4c049919692311dd53347462add8c8efeb4bf7114f5a56ad624d7ea8",
+      "pdf_sha256": "8a3eb0ca81ffffc19087a44971511ff233ede3921d283ffd72880d3d42cecfea",
+      "word_count": 8845,
+      "word_count_method": "English lexical word regex excluding equations",
+      "CJK_characters": 0,
+      "display_equations": 25,
+      "pages": 28,
+      "unicode_prose_fallback": "Embedded Times for scientific Unicode signs not present in SimSun; missing fallback glyphs are fatal",
+      "inline_math_layout": "autoLeading=max; tall activity and flux products are separate display equations",
+      "figure_caption_layout": "KeepTogether group"
+    },
+    {
+      "source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\docs\\MONOGRAPH_BORROWING_HYDROGEN_ZH.md",
+      "pdf": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\outputs\\MONOGRAPH_BORROWING_HYDROGEN_ZH.pdf",
+      "language": "ZH",
+      "source_sha256": "f4af755b3a5a70c1a78a7a558b87a7b1960482d65441592e9fdb5eeca28f2dbf",
+      "pdf_sha256": "1a517cc616db86e70afaafd09bba7e3064922fb86bc815888aa3c3276424b087",
+      "word_count": 10194,
+      "word_count_method": "jieba 0.42.1 segmented lexical tokens",
+      "CJK_characters": 16443,
+      "display_equations": 25,
+      "pages": 29,
+      "unicode_prose_fallback": "Embedded Times for scientific Unicode signs not present in SimSun; missing fallback glyphs are fatal",
+      "inline_math_layout": "autoLeading=max; tall activity and flux products are separate display equations",
+      "figure_caption_layout": "KeepTogether group"
+    }
+  ],
+  "pdf_qa": [
+    {
+      "pdf": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\outputs\\MONOGRAPH_BORROWING_HYDROGEN_EN.pdf",
+      "sha256": "8a3eb0ca81ffffc19087a44971511ff233ede3921d283ffd72880d3d42cecfea",
+      "render_runtime": {
+        "pypdf": "6.10.0",
+        "pypdfium2": "5.13.0",
+        "Pillow": "12.3.0"
+      },
+      "pdfium_pages": 28,
+      "pypdf_pages": 28,
+      "all_pages_rendered": true,
+      "outside_page_text_count": 0
+    },
+    {
+      "pdf": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\outputs\\MONOGRAPH_BORROWING_HYDROGEN_ZH.pdf",
+      "sha256": "1a517cc616db86e70afaafd09bba7e3064922fb86bc815888aa3c3276424b087",
+      "render_runtime": {
+        "pypdf": "6.10.0",
+        "pypdfium2": "5.13.0",
+        "Pillow": "12.3.0"
+      },
+      "pdfium_pages": 29,
+      "pypdf_pages": 29,
+      "all_pages_rendered": true,
+      "outside_page_text_count": 0
+    }
+  ],
+  "visual_review": {
+    "status": "passed",
+    "all_pages_inspected": true,
+    "reviewer": "Codex visual inspection",
+    "documents": [
+      {
+        "pdf": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\outputs\\MONOGRAPH_BORROWING_HYDROGEN_EN.pdf",
+        "sha256": "8a3eb0ca81ffffc19087a44971511ff233ede3921d283ffd72880d3d42cecfea",
+        "pages_inspected": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "contact_sheets": [
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\contact_01.png",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\contact_02.png",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\contact_03.png",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\contact_04.png",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\contact_05.png"
+        ],
+        "full_pages_inspected": [
+          16,
+          17,
+          18,
+          24
+        ],
+        "full_page_images": [
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_016.png",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_017.png",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_018.png",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_024.png"
+        ],
+        "reviewed_utc": "2026-09-12T20:21:34.349062+00:00",
+        "observations": [
+          "All five contact sheets were visually inspected at original detail, covering every page 1 through 28 of this exact final PDF.",
+          "Full-page images 16, 17, 18 and 24 were additionally inspected. The earlier inline equation overlaps on pages 16, 17 and 24 are resolved; both product formulas now have clear separation from adjacent prose.",
+          "The continued thermochemistry table repeats its header on page 18, retains complete visible rows, and leaves the endpoint figure and its caption together on the same page.",
+          "No actionable clipping, overlapping text, blank-page artifact, broken table, missing-glyph box, or detached figure caption was observed. Running headers, footers and page numbering are visible and consistent.",
+          "The endpoint plot labels transition-state free energy as unavailable, and the kinetic-grid figure explicitly states TOF NOT COMPUTED; the visual review does not certify new scientific calculations or experimental validity."
+        ],
+        "inspected_image_sha256": {
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\contact_01.png": "203a42ec9f6472e18a383deb4f3cfc631da3a12f3f36bc4eca5e1f8493c6a168",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\contact_02.png": "896927253142139151951cfd59c32ce40ea8da576afe42ab044027f36136cbfa",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\contact_03.png": "5d65131ddc04ca65373bc98d037feddd7a64c623ec410fc596a6a9292fa560f6",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\contact_04.png": "e9337aa669b6333ca2388d8f86d29f024dca8608f5f5d6b27009cc73a26c36af",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\contact_05.png": "4b363354bdc5db4fd47ab547d59f221ef43be267eb7c2f8a3506091761c759b8",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_016.png": "c1d93486b797327dc134a9a711c658738730b86794668a4abbb510a0e0c0e1fb",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_017.png": "0c403751823d0bf0a2c5325084eb228ca1743f93566a64ac498c81884409a298",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_018.png": "74b3f579eb2b0506ad53f1d864e82630fbdfa91b3c1dac7f938cd0b110c99316",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_024.png": "3304e656e08d5818a035843b62067401592a0f2cabae43c183f24c6c5db040ca"
+        }
+      },
+      {
+        "pdf": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\outputs\\MONOGRAPH_BORROWING_HYDROGEN_ZH.pdf",
+        "sha256": "1a517cc616db86e70afaafd09bba7e3064922fb86bc815888aa3c3276424b087",
+        "pages_inspected": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "reviewed_at_utc": "2026-09-12T20:21:18.625656+00:00",
+        "contact_sheets": [
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\contact_01.png",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\contact_02.png",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\contact_03.png",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\contact_04.png",
+          "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\contact_05.png"
+        ],
+        "full_pages_inspected": [
+          16,
+          17,
+          20,
+          24,
+          26
+        ],
+        "observations": [
+          "All 29 pages of this exact PDF were visually reinspected through all five contact sheets at original resolution after the final rebuild.",
+          "Full-resolution pages 17 and 24 confirm that both product expressions now occupy standalone display equations with clear spacing and no text overlap.",
+          "Negative reference energies and molecule-count signs are visible on page 16; the negative native energy difference and exponent minus eight are visible on page 20. Negative diagnostic frequencies and inverse units also remain visible in the all-page review.",
+          "The TOF availability figure and its caption remain together on page 26; no isolated caption-only page remains.",
+          "Tables, figures, matrix equations, chapter transitions, running headers and page numbers show no actionable clipping, overlap or missing-glyph defects in the final inspected rendering.",
+          "The PDF SHA256 and all 29 rendered-page hashes match the current PDF_QA.json records."
+        ]
+      }
+    ],
+    "repairs": [
+      "Tall activity and flux products promoted to display equations",
+      "Embedded font fallback preserves Unicode minus signs and superscripts",
+      "Figure and caption kept in one layout group"
+    ],
+    "numeric_sign_regression": {
+      "status": "passed",
+      "pdf_sha256": "1a517cc616db86e70afaafd09bba7e3064922fb86bc815888aa3c3276424b087",
+      "scope": "Regression check for the six inspected numeric signs/exponents affected by missing SimSun glyphs; not a complete numeric equivalence proof",
+      "exact_strings_after_whitespace_removal": {
+        "\u22127.51178867": true,
+        "\u22124.23531646": true,
+        "\u22121.98581207": true,
+        "\u2212378.9759": true,
+        "\u22123.2871": true,
+        "10\u207b\u2078": true
+      }
+    },
+    "plot_review": [
+      {
+        "stem": "steric_buried_volume_map",
+        "png_sha256": "dddf2796831ed4540a3a7ea62e4fd6d3a1b2411d7e64b517d3f4995905c63fc3",
+        "reviewed": true
+      },
+      {
+        "stem": "pes_comparison_ru_vs_mn",
+        "png_sha256": "0fa74995528cd560c1c04e56846db8b260521f442515a231fcd014c6326f2c05",
+        "reviewed": true
+      },
+      {
+        "stem": "microkinetic_tof_heatmap",
+        "png_sha256": "b0be91ca48dd787b54519c8468b07f81be31d05e362241bac87cc166bff648bf",
+        "reviewed": true
+      }
+    ]
+  },
+  "native_archive_count": 23,
+  "native_archived_file_count": 153956,
+  "native_archive_validation": "All members read back and CRC/SHA256 checked during packaging; archive SHA256 rechecked before publication",
+  "scientific_computation_and_analytical_test_fixtures_are_separate": true,
+  "source_status_sha256": "7428ee879340881feb5e2c59310fa09660045fe53bc7dbf0394bbe81f324d1a7",
+  "publication_commit": "Bound to the Git commit in the final local CAMPAIGN_DELIVERY.json to avoid a self-referential commit hash"
+}

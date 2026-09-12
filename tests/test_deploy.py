@@ -62,17 +62,32 @@ def deployment(request):
         'exit 91\n', encoding="utf-8", newline="\n"
     )
     runner.chmod(0o755)
-    env = dict(os.environ, PINCER_VENV=venv.as_posix(), GIT_TERMINAL_PROMPT="0")
+    env = dict(os.environ, PINCER_VENV=venv.as_posix(), GIT_TERMINAL_PROMPT="0",
+               PINCER_INSTALL_EXTRAS="test",
+               PINCER_COMMIT_MESSAGE="feat(core): implement quasi-rrho thermodynamics, steric profiling, and bilingual docs")
 
-    def run(exit_code=0):
+    def run(exit_code=0, commit_message=None):
         command = [bash, "--noprofile", "--norc", (scripts / "deploy.sh").as_posix()]
         return subprocess.run(
             command,
-            env=dict(env, GATE_EXIT=str(exit_code)), capture_output=True,
+            env=dict(env, GATE_EXIT=str(exit_code),
+                     PINCER_COMMIT_MESSAGE=commit_message or env["PINCER_COMMIT_MESSAGE"]), capture_output=True,
             text=True, encoding="utf-8", errors="replace", timeout=60,
         )
 
     return checkout, remote, run
+
+
+def test_campaign_data_and_explicit_message_are_published(deployment):
+    checkout, remote, run = deployment
+    data = checkout / "data"
+    data.mkdir()
+    (data / "artifact.txt").write_text("Deployment fixture; no chemistry data.\n", newline="\n")
+    message = "feat(campaign): verified dataset publication"
+    result = run(commit_message=message)
+    assert result.returncode == 0, result.stdout + result.stderr
+    assert _git(checkout, "log", "-1", "--format=%s") == message
+    assert _git(remote, "show", "main:data/artifact.txt") == "Deployment fixture; no chemistry data."
 
 
 def test_failed_tests_never_stage_commit_or_push(deployment):

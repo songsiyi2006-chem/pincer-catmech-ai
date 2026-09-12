@@ -1,0 +1,32 @@
+[
+  {
+    "source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\docs\\MONOGRAPH_BORROWING_HYDROGEN_EN.md",
+    "pdf": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\outputs\\MONOGRAPH_BORROWING_HYDROGEN_EN.pdf",
+    "language": "EN",
+    "source_sha256": "6e83fdca4c049919692311dd53347462add8c8efeb4bf7114f5a56ad624d7ea8",
+    "pdf_sha256": "8a3eb0ca81ffffc19087a44971511ff233ede3921d283ffd72880d3d42cecfea",
+    "word_count": 8845,
+    "word_count_method": "English lexical word regex excluding equations",
+    "CJK_characters": 0,
+    "display_equations": 25,
+    "pages": 28,
+    "unicode_prose_fallback": "Embedded Times for scientific Unicode signs not present in SimSun; missing fallback glyphs are fatal",
+    "inline_math_layout": "autoLeading=max; tall activity and flux products are separate display equations",
+    "figure_caption_layout": "KeepTogether group"
+  },
+  {
+    "source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\docs\\MONOGRAPH_BORROWING_HYDROGEN_ZH.md",
+    "pdf": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\outputs\\MONOGRAPH_BORROWING_HYDROGEN_ZH.pdf",
+    "language": "ZH",
+    "source_sha256": "f4af755b3a5a70c1a78a7a558b87a7b1960482d65441592e9fdb5eeca28f2dbf",
+    "pdf_sha256": "1a517cc616db86e70afaafd09bba7e3064922fb86bc815888aa3c3276424b087",
+    "word_count": 10194,
+    "word_count_method": "jieba 0.42.1 segmented lexical tokens",
+    "CJK_characters": 16443,
+    "display_equations": 25,
+    "pages": 29,
+    "unicode_prose_fallback": "Embedded Times for scientific Unicode signs not present in SimSun; missing fallback glyphs are fatal",
+    "inline_math_layout": "autoLeading=max; tall activity and flux products are separate display equations",
+    "figure_caption_layout": "KeepTogether group"
+  }
+]

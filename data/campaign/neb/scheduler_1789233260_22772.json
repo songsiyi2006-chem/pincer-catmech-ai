@@ -1,0 +1,61 @@
+{
+  "pid": 22772,
+  "started_utc": "2026-09-12T17:14:20.515046+00:00",
+  "requested": [
+    "Ru_macho_pnp_Ph"
+  ],
+  "mode": "pilot",
+  "deadline_epoch": 1789243277.8901894,
+  "workers": 1,
+  "threads_per_worker": 2,
+  "status": "finished",
+  "results": [
+    {
+      "catalyst_id": "Ru_macho_pnp_Ph",
+      "mode": "pilot",
+      "started_utc": "2026-09-12T17:14:22.071138+00:00",
+      "pid": 18280,
+      "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Ru_macho_pnp_Ph_pilot_1789233262_18280",
+      "source_geometry": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs\\Ru_macho_pnp_Ph\\active\\conformer_0000\\xtbopt.xyz",
+      "source_geometry_sha256": "caeb5c3373d813b277741dfe955cb72c23be1a4ac0413ec6ac6e34719348b57a",
+      "source_conformer": 0,
+      "threads": 2,
+      "solvent": "toluene",
+      "solvation_model": "ALPB",
+      "solvation_state": "gsolv",
+      "source_geometry_role": "Preoptimization only; both complete endpoints reevaluated under the declared solvent convention",
+      "no_free_energy_barrier": true,
+      "status": "failed",
+      "accepted": false,
+      "path_result": {
+        "status": "failed",
+        "accepted": false,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Ru_macho_pnp_Ph_pilot_1789233262_18280\\path",
+        "n_internal_images": 7,
+        "neb_converged": false,
+        "endpoint_converged": [
+          false,
+          false
+        ],
+        "image_energies_ev": [],
+        "attempts": [],
+        "failure_reasons": [
+          "ValueError: endpoint optimization did not converge within the step allowance"
+        ],
+        "accepted_ts_energy_ev": null,
+        "forward_electronic_barrier_ev": null,
+        "reverse_electronic_barrier_ev": null,
+        "elapsed_seconds": 8.25,
+        "calculator_evaluations": 18,
+        "evidence": "Injected-calculator electronic potential; no free-energy barrier inferred"
+      },
+      "finished_utc": "2026-09-12T17:14:32.004339+00:00",
+      "elapsed_seconds": 9.933200597763062
+    }
+  ],
+  "waiting_for_active_minima": [],
+  "active": [],
+  "updated_utc": "2026-09-12T17:14:32.007495+00:00",
+  "finished_utc": "2026-09-12T17:14:32.131280+00:00",
+  "missing_active_minima": []
+}

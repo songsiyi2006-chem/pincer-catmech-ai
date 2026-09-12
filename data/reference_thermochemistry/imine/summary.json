@@ -1,0 +1,117 @@
+{
+  "species": "imine",
+  "smiles": "c1ccc(/C=N/c2ccccc2)cc1",
+  "conformers": [
+    {
+      "conformer": 0,
+      "smiles": "c1ccc(/C=N/c2ccccc2)cc1",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -988.8662443170085,
+        "max_force_eV_A": 0.0003811249868973701,
+        "wall_seconds": 1.4539999999979045,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\imine\\conformer_00",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 25,
+        "output_sha256": "7014275aa59512b49a2446a8e30e45012b4dfa1404cdb555a37ae1042f18d0ad",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 1,
+      "smiles": "c1ccc(/C=N/c2ccccc2)cc1",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -988.866677694005,
+        "max_force_eV_A": 0.0006720113907858669,
+        "wall_seconds": 1.2809999999881256,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\imine\\conformer_01",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 25,
+        "output_sha256": "2f98a609182080f7f3e1b871bac9a3f216b98e454387488a2d466b12f798026f",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 2,
+      "smiles": "c1ccc(/C=N/c2ccccc2)cc1",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -988.8661833247276,
+        "max_force_eV_A": 0.0005919610403653269,
+        "wall_seconds": 1.4220000000059372,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\imine\\conformer_02",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 25,
+        "output_sha256": "107fd288c92cb270507b6f9e27428878596987b6dd941741683e8bdbab7e523e",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 3,
+      "smiles": "c1ccc(/C=N/c2ccccc2)cc1",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -988.866556840049,
+        "max_force_eV_A": 0.000753290348799745,
+        "wall_seconds": 1.4679999999934807,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\imine\\conformer_03",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 25,
+        "output_sha256": "a78d1540c389a815792c253a781b955e1c77c4dfbe977504ee31f92b5b174c16",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    }
+  ],
+  "status": "verified_minimum",
+  "accepted": true,
+  "best_conformer": 1,
+  "best_geometry_sha256": "bcd457104fad23ecca403460e44ad1653e0d0a75f2b5cf7cdcb84985ba4f1dc2",
+  "thermochemistry_file": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\imine\\stationarity\\result.json",
+  "final_connectivity": {
+    "retained": true,
+    "lost_bonds": [],
+    "new_bonds": [],
+    "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+  }
+}

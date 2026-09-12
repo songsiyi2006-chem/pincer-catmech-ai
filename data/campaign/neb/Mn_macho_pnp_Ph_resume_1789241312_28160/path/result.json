@@ -1,0 +1,29 @@
+{
+  "status": "operator_stopped_for_final_diagnostic",
+  "accepted": false,
+  "n_internal_images": 7,
+  "neb_converged": true,
+  "endpoint_converged": [
+    true,
+    true
+  ],
+  "restarted_ts_candidate": true,
+  "selected_initial_image": null,
+  "global_peak_image": 4,
+  "attempts": [
+    {
+      "attempt": 0,
+      "accepted": false,
+      "status": "operator_stopped_for_final_diagnostic"
+    }
+  ],
+  "failure_reasons": [
+    "Operator stopped the continued nonconverged dimer geometry to obtain a final complete Hessian diagnostic within the immutable overall campaign deadline; no TS or barrier inferred"
+  ],
+  "forward_electronic_barrier_ev": null,
+  "reverse_electronic_barrier_ev": null,
+  "accepted_ts_energy_ev": null,
+  "calculator_evaluations": 1125,
+  "elapsed_seconds": 1479.750653,
+  "evidence": "Operator interruption record with actual archived gradient counts; native internal calls are not counted"
+}

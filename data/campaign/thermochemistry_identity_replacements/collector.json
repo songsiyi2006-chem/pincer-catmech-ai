@@ -1,0 +1,38 @@
+{
+  "status": "completed_available_inputs",
+  "started_utc": "2026-09-12T18:51:23.874358+00:00",
+  "worker_count": 1,
+  "threads": 1,
+  "solvent": "toluene",
+  "solvation_state": "gsolv",
+  "states": [
+    "active"
+  ],
+  "excluded_catalysts": [],
+  "items": [
+    {
+      "key": "Fe_macho_pnp_iPr|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry_identity_replacements\\Fe_macho_pnp_iPr__active\\result.json",
+      "wall_seconds": 129.93700000000536
+    },
+    {
+      "key": "Ru_macho_pnp_iPr|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry_identity_replacements\\Ru_macho_pnp_iPr__active\\result.json",
+      "wall_seconds": 132.40600000000268
+    },
+    {
+      "key": "Ru_macho_pnp_Ph|active",
+      "status": "verified_minimum",
+      "accepted": true,
+      "result_file": "data\\campaign\\thermochemistry_identity_replacements\\Ru_macho_pnp_Ph__active\\result.json",
+      "wall_seconds": 218.10899999999674
+    }
+  ],
+  "deadline_epoch": 1789243277.8901894,
+  "finished_utc": "2026-09-12T18:59:24.586395+00:00",
+  "accepted_minima": 3
+}

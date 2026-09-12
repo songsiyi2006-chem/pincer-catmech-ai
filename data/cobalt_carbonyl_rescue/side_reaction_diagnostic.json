@@ -1,0 +1,20 @@
+{
+  "catalyst_id": "Co_bipyridine_pnnoh_Ph",
+  "state_requested": "active",
+  "state_classification": "new ligand-O to ancillary-CO bond in this GFN2-xTB optimized model",
+  "indices_zero_based": [
+    25,
+    46
+  ],
+  "symbols": [
+    "O",
+    "C"
+  ],
+  "distance_A": 1.4963004063533683,
+  "Wiberg_bond_order": 0.8337126678327648,
+  "native_wbo_indexing": "one-based, converted to zero-based above",
+  "geometry_sha256": "4f76068d431017a1fb88efd2e45ae7dd05d662df04b7492295a5f7693af50143",
+  "wbo_sha256": "21e934f00ba3bbda2ef93858bfeae06ac7bbffff3419e05c216a5cd716fd0f26",
+  "original_native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\targeted-rescue-scratch\\Co_bipyridine_pnnoh_Ph__active__seed20270817",
+  "interpretation": "Computed side-reaction geometry, not experimental evidence; excluded from the intended active-state ranking"
+}

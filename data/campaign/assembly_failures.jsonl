@@ -1,0 +1,62 @@
+{"label": ["Ru", "macho_pnp", "iPr", "active", 0], "utc": "2026-09-12T17:01:37.055445+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "pyridine_pnn", "Ph", "active", 0], "utc": "2026-09-12T17:01:51.226999+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "pyridine_pnn", "iPr", "active", 0], "utc": "2026-09-12T17:01:57.156610+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "macho_pnp", "Ph", "active", 0], "utc": "2026-09-12T17:02:04.206855+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "bipyridine_pnnoh", "Ph", "active", 0], "utc": "2026-09-12T17:02:08.060550+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "bipyridine_pnnoh", "iPr", "active", 0], "utc": "2026-09-12T17:02:08.404196+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Mn", "macho_pnp", "iPr", "active", 0], "utc": "2026-09-12T17:02:22.995712+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Mn", "macho_pnp", "Ph", "active", 0], "utc": "2026-09-12T17:02:28.041860+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Mn", "pyridine_pnn", "Ph", "active", 0], "utc": "2026-09-12T17:02:39.755885+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Mn", "pyridine_pnn", "iPr", "active", 0], "utc": "2026-09-12T17:02:42.748312+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Mn", "bipyridine_pnnoh", "iPr", "active", 0], "utc": "2026-09-12T17:02:46.803343+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Mn", "bipyridine_pnnoh", "Ph", "active", 0], "utc": "2026-09-12T17:03:01.064687+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Fe", "macho_pnp", "Ph", "active", 0], "utc": "2026-09-12T17:03:09.129595+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Fe", "macho_pnp", "iPr", "active", 0], "utc": "2026-09-12T17:03:18.227564+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Fe", "pyridine_pnn", "Ph", "active", 0], "utc": "2026-09-12T17:03:19.303076+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Fe", "bipyridine_pnnoh", "Ph", "active", 0], "utc": "2026-09-12T17:03:27.488232+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Fe", "pyridine_pnn", "iPr", "active", 0], "utc": "2026-09-12T17:03:28.160995+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Fe", "bipyridine_pnnoh", "iPr", "active", 0], "utc": "2026-09-12T17:03:31.247892+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Co", "macho_pnp", "Ph", "active", 0], "utc": "2026-09-12T17:03:36.810279+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Co", "macho_pnp", "iPr", "active", 0], "utc": "2026-09-12T17:03:37.475708+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Co", "pyridine_pnn", "iPr", "active", 0], "utc": "2026-09-12T17:03:45.470554+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Co", "pyridine_pnn", "Ph", "active", 0], "utc": "2026-09-12T17:03:46.690893+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Co", "bipyridine_pnnoh", "iPr", "active", 0], "utc": "2026-09-12T17:03:51.959344+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Co", "bipyridine_pnnoh", "Ph", "active", 0], "utc": "2026-09-12T17:03:55.161470+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "macho_pnp", "Ph", "hydrogenated", 0], "utc": "2026-09-12T17:04:11.872032+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "macho_pnp", "iPr", "hydrogenated", 0], "utc": "2026-09-12T17:04:13.888531+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "pyridine_pnn", "Ph", "hydrogenated", 0], "utc": "2026-09-12T17:04:19.780891+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "pyridine_pnn", "iPr", "hydrogenated", 0], "utc": "2026-09-12T17:04:25.883986+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "bipyridine_pnnoh", "iPr", "hydrogenated", 0], "utc": "2026-09-12T17:04:29.532219+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "bipyridine_pnnoh", "Ph", "hydrogenated", 0], "utc": "2026-09-12T17:04:33.887922+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Mn", "macho_pnp", "Ph", "hydrogenated", 0], "utc": "2026-09-12T17:04:39.769154+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Mn", "pyridine_pnn", "Ph", "hydrogenated", 0], "utc": "2026-09-12T17:04:48.029035+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Mn", "macho_pnp", "iPr", "hydrogenated", 0], "utc": "2026-09-12T17:04:54.900960+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Mn", "pyridine_pnn", "iPr", "hydrogenated", 0], "utc": "2026-09-12T17:05:01.051363+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Mn", "bipyridine_pnnoh", "iPr", "hydrogenated", 0], "utc": "2026-09-12T17:05:04.931330+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Mn", "bipyridine_pnnoh", "Ph", "hydrogenated", 0], "utc": "2026-09-12T17:05:18.062721+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Fe", "macho_pnp", "Ph", "hydrogenated", 0], "utc": "2026-09-12T17:05:27.301385+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Fe", "macho_pnp", "iPr", "hydrogenated", 0], "utc": "2026-09-12T17:05:34.207551+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Fe", "pyridine_pnn", "Ph", "hydrogenated", 0], "utc": "2026-09-12T17:05:35.813665+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Fe", "pyridine_pnn", "iPr", "hydrogenated", 0], "utc": "2026-09-12T17:05:46.299144+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Fe", "bipyridine_pnnoh", "iPr", "hydrogenated", 0], "utc": "2026-09-12T17:05:50.322903+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Fe", "bipyridine_pnnoh", "Ph", "hydrogenated", 0], "utc": "2026-09-12T17:05:51.401508+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Co", "macho_pnp", "iPr", "hydrogenated", 0], "utc": "2026-09-12T17:05:58.859203+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Co", "macho_pnp", "Ph", "hydrogenated", 0], "utc": "2026-09-12T17:06:05.920633+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Co", "pyridine_pnn", "iPr", "hydrogenated", 0], "utc": "2026-09-12T17:06:12.014015+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Co", "pyridine_pnn", "Ph", "hydrogenated", 0], "utc": "2026-09-12T17:06:17.249584+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Co", "bipyridine_pnnoh", "Ph", "hydrogenated", 0], "utc": "2026-09-12T17:06:22.075030+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Co", "bipyridine_pnnoh", "iPr", "hydrogenated", 0], "utc": "2026-09-12T17:06:24.930495+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "macho_pnp", "iPr", "protonated_reference", 0], "utc": "2026-09-12T17:06:42.416102+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "macho_pnp", "Ph", "protonated_reference", 0], "utc": "2026-09-12T17:06:49.865515+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "pyridine_pnn", "iPr", "protonated_reference", 0], "utc": "2026-09-12T17:06:56.047868+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "pyridine_pnn", "Ph", "protonated_reference", 0], "utc": "2026-09-12T17:07:02.309522+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "bipyridine_pnnoh", "Ph", "protonated_reference", 0], "utc": "2026-09-12T17:07:03.292870+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "bipyridine_pnnoh", "iPr", "protonated_reference", 0], "utc": "2026-09-12T17:07:07.325189+00:00", "error": "IndexError('too many indices for array: array is 2-dimensional, but 3 were indexed')"}
+{"label": ["Ru", "bipyridine_pnnoh", "Ph", "active", 1], "utc": "2026-09-12T17:09:58.788342+00:00", "error": "ValueError('Generated conformer has an interatomic separation below 0.75 angstrom; try another seed or torsion')"}
+{"label": ["Mn", "bipyridine_pnnoh", "Ph", "active", 1], "utc": "2026-09-12T17:10:39.844874+00:00", "error": "ValueError('Generated conformer has an interatomic separation below 0.75 angstrom; try another seed or torsion')"}
+{"label": ["Fe", "bipyridine_pnnoh", "Ph", "active", 1], "utc": "2026-09-12T17:11:11.038010+00:00", "error": "ValueError('Generated conformer has an interatomic separation below 0.75 angstrom; try another seed or torsion')"}
+{"label": ["Co", "bipyridine_pnnoh", "Ph", "active", 1], "utc": "2026-09-12T17:11:32.730002+00:00", "error": "ValueError('Generated conformer has an interatomic separation below 0.75 angstrom; try another seed or torsion')"}
+{"label": ["Ru", "bipyridine_pnnoh", "Ph", "hydrogenated", 1], "utc": "2026-09-12T17:11:58.758426+00:00", "error": "ValueError('Generated conformer has an interatomic separation below 0.75 angstrom; try another seed or torsion')"}
+{"label": ["Mn", "bipyridine_pnnoh", "Ph", "hydrogenated", 1], "utc": "2026-09-12T17:12:25.185606+00:00", "error": "ValueError('Generated conformer has an interatomic separation below 0.75 angstrom; try another seed or torsion')"}
+{"label": ["Fe", "bipyridine_pnnoh", "Ph", "hydrogenated", 1], "utc": "2026-09-12T17:12:53.694911+00:00", "error": "ValueError('Generated conformer has an interatomic separation below 0.75 angstrom; try another seed or torsion')"}
+{"label": ["Co", "bipyridine_pnnoh", "Ph", "hydrogenated", 1], "utc": "2026-09-12T17:13:12.940276+00:00", "error": "ValueError('Generated conformer has an interatomic separation below 0.75 angstrom; try another seed or torsion')"}

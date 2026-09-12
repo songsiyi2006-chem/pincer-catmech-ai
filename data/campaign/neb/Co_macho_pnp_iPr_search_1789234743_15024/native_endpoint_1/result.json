@@ -1,0 +1,13 @@
+{
+  "status": "converged",
+  "energy_eV": -2548.363815678931,
+  "max_force_eV_A": 0.001974423144472372,
+  "wall_seconds": 40.125,
+  "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Co_macho_pnp_iPr_search_1789234743_15024\\native_endpoint_1",
+  "charge": 0,
+  "unpaired_electrons": 0,
+  "converged": true,
+  "atoms_count": 74,
+  "output_sha256": "4f74d2b369039875498a8ab986033952a0b5b47cdaacbe0e5338715e962911fd",
+  "error": null
+}

@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "accepted": false,
+  "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Ru_macho_pnp_Ph_pilot_1789233262_18280\\path",
+  "n_internal_images": 7,
+  "neb_converged": false,
+  "endpoint_converged": [
+    false,
+    false
+  ],
+  "image_energies_ev": [],
+  "attempts": [],
+  "failure_reasons": [
+    "ValueError: endpoint optimization did not converge within the step allowance"
+  ],
+  "accepted_ts_energy_ev": null,
+  "forward_electronic_barrier_ev": null,
+  "reverse_electronic_barrier_ev": null,
+  "elapsed_seconds": 8.25,
+  "calculator_evaluations": 18,
+  "evidence": "Injected-calculator electronic potential; no free-energy barrier inferred"
+}

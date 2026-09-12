@@ -1,0 +1,33 @@
+{
+  "status": "operator_stopped_for_final_diagnostic",
+  "accepted": false,
+  "finished_utc": "2026-09-12T19:53:12.053161+00:00",
+  "reason": "Operator stopped the continued nonconverged dimer geometry to obtain a final complete Hessian diagnostic within the immutable overall campaign deadline; no TS or barrier inferred",
+  "scheduler_pid": 26672,
+  "worker_pid": 28160,
+  "last_recorded_progress": {
+    "stage": "dimer_start",
+    "elapsed_seconds": 14.375,
+    "calculator_evaluations": 9,
+    "attempt": 0
+  },
+  "preserved_original_task": "task_before_operator_stop.json",
+  "successful_gradient_records_by_archive": {
+    "evaluations_endpoint_0.jsonl.gz": 1,
+    "evaluations_endpoint_1.jsonl.gz": 1,
+    "evaluations_neb_image_01.jsonl.gz": 1,
+    "evaluations_neb_image_02.jsonl.gz": 1,
+    "evaluations_neb_image_03.jsonl.gz": 1,
+    "evaluations_neb_image_04.jsonl.gz": 1,
+    "evaluations_neb_image_05.jsonl.gz": 1,
+    "evaluations_neb_image_06.jsonl.gz": 1,
+    "evaluations_neb_image_07.jsonl.gz": 1,
+    "evaluations_ts_attempt_00.jsonl.gz": 1116
+  },
+  "endpoint_fmax_eV_A": [
+    0.008316077245695226,
+    0.005759791332852869
+  ],
+  "saved_band_fmax_eV_A": 0.049092,
+  "gate_evidence": "Actual saved endpoint progress and last complete NEB FIRE log; no TS-stage convergence inferred"
+}

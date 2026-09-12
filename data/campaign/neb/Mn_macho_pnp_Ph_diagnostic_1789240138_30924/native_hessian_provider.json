@@ -1,0 +1,51 @@
+{
+  "provider": "native unbiased GFN2-xTB numerical full Hessian",
+  "scratch_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\neb-scratch\\Mn_macho_pnp_Ph_diagnostic_1789240138_30924\\native_hessian\\Mn_macho_pnp_Ph_diagnostic_1789240138_30924",
+  "native_electronic_energy_eV": -3282.1657301989844,
+  "gradient_electronic_energy_eV": -3282.1657301661135,
+  "energy_difference_eV": -3.287095751147717e-08,
+  "energy_consistency_tolerance_eV": 0.001,
+  "wall_seconds": 261.39000000001397,
+  "full_matrix_shape": [
+    240,
+    240
+  ],
+  "finite_difference_step_A": 0.0026458860528192057,
+  "solvent": "toluene",
+  "solvation_state": "gsolv",
+  "required_native_checks": "Normal termination; full unbiased Hessian; zero frozen atoms; scale 1.0; finite full (3N)^2 unprojected matrix",
+  "native_archives": {
+    "input.xyz": {
+      "file": "native_input.xyz",
+      "source_sha256": "f136f37aab5474865edede5ec35bab6ac639aaa58a9fb3747de02331b8114da8",
+      "archive_sha256": "f136f37aab5474865edede5ec35bab6ac639aaa58a9fb3747de02331b8114da8"
+    },
+    "hessian.inp": {
+      "file": "native_hessian.inp",
+      "source_sha256": "ffebe27d59f3148f614a471cce397c1815fe700a43b38ad2e0127494defad2a6",
+      "archive_sha256": "ffebe27d59f3148f614a471cce397c1815fe700a43b38ad2e0127494defad2a6"
+    },
+    "command.json": {
+      "file": "native_command.json",
+      "source_sha256": "1b7f040a8a703d0e8c5c228a17fa6296e82ef6905a2aec00e6b75a553326ffc8",
+      "archive_sha256": "1b7f040a8a703d0e8c5c228a17fa6296e82ef6905a2aec00e6b75a553326ffc8"
+    },
+    "xtb.out": {
+      "file": "native_xtb.out.gz",
+      "source_sha256": "61a8dd44c99ec80dd31c62a3b76eccd766d0b251dcb914422de1952fe662beaf",
+      "archive_sha256": "6ac16886db38485e8256bcd42834905c3f5dabc618233c238a0a968e2a70d149"
+    },
+    "hessian.out": {
+      "file": "native_hessian.out.gz",
+      "source_sha256": "102afd9af28df9155426b02b3f00bbe54d6da2bb34c74cf2058ce0cc105fb7d1",
+      "archive_sha256": "9ae07f969bc523e5eb75439f43936d5a7e676bc3e2f61cea6495596a36548cf3"
+    }
+  },
+  "native_sha256": {
+    "input.xyz": "f136f37aab5474865edede5ec35bab6ac639aaa58a9fb3747de02331b8114da8",
+    "hessian.inp": "ffebe27d59f3148f614a471cce397c1815fe700a43b38ad2e0127494defad2a6",
+    "command.json": "1b7f040a8a703d0e8c5c228a17fa6296e82ef6905a2aec00e6b75a553326ffc8",
+    "xtb.out": "61a8dd44c99ec80dd31c62a3b76eccd766d0b251dcb914422de1952fe662beaf",
+    "hessian.out": "102afd9af28df9155426b02b3f00bbe54d6da2bb34c74cf2058ce0cc105fb7d1"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-09-12T17:41:39.691496+00:00",
+  "seed": 2026,
+  "sources": [
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\hemiaminal\\stationarity\\accepted_geometry.xyz",
+      "sha256": "43c120f6fa5106717960454234119afe3ec98c29b1709477c98d887599f3c399"
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\tert_butanol\\stationarity\\accepted_geometry.xyz",
+      "sha256": "528ce6cef516220b49746927b16e66a325ccc5797a749a09e16cf5dfe6b1bd99"
+    }
+  ],
+  "assembly_geometric_score_only": 3.8422241905604997,
+  "potassium_explicit": false,
+  "interpretation": "Neutral tBuOH proton shuttle; no base kinetic order or tBuOK speciation inferred",
+  "mapped_indices": {
+    "C": 1,
+    "N": 2,
+    "leaving_O": 0,
+    "N_H": 17,
+    "original_O_H": 15,
+    "shuttle_O": 32,
+    "shuttle_H": 42
+  },
+  "total_atoms": 43,
+  "total_charge": 0
+}

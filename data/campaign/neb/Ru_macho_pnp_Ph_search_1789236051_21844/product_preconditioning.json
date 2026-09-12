@@ -1,0 +1,21 @@
+{
+  "method": "ASE FixBondLengths plus FIRE on real ALPB GFN2-xTB potential",
+  "fixed_pairs_zero_based": [
+    [
+      0,
+      73
+    ],
+    [
+      1,
+      71
+    ]
+  ],
+  "bond_lengths_A": [
+    1.6000000000000003,
+    1.02
+  ],
+  "energy_use": "Preparation only; excluded from accepted barrier/free-energy results",
+  "projected_force_converged": false,
+  "steps": 180,
+  "constraints_removed_before_validation": true
+}

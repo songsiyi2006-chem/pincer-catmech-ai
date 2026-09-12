@@ -1,0 +1,51 @@
+{
+  "seed": 4346,
+  "catalyst_id": "Mn_macho_pnp_iPr",
+  "catalyst_atom_count": 60,
+  "complete_atom_count": 76,
+  "reactant_formula": "C25H44MnNO3P2",
+  "product_formula": "C25H44MnNO3P2",
+  "transfer_indices": {
+    "proton": 68,
+    "proton_donor": 60,
+    "proton_acceptor": 1,
+    "hydride": 70,
+    "hydride_donor": 61,
+    "hydride_acceptor": 0
+  },
+  "substrate_oxygen_index": 60,
+  "substrate_carbonyl_carbon_index": 61,
+  "electronic_state": {
+    "charge": 0,
+    "unpaired": 0,
+    "uhf": 0
+  },
+  "placement_score": 0.0004969942858668845,
+  "placement_score_units": "geometric penalty; NOT an energy",
+  "minimum_initial_interfragment_distance_A": 1.075716269400378,
+  "input_transfer_distances": {
+    "reactant": {
+      "proton": {
+        "donor_H_A": 0.9930215885064116,
+        "acceptor_H_A": 1.751700740398197
+      },
+      "hydride": {
+        "donor_H_A": 1.1140945290917144,
+        "acceptor_H_A": 1.8002883417544329
+      }
+    },
+    "product": {
+      "proton": {
+        "donor_H_A": 1.5963594976340543,
+        "acceptor_H_A": 1.02
+      },
+      "hydride": {
+        "donor_H_A": 1.9025590895145805,
+        "acceptor_H_A": 1.6000000000000003
+      }
+    }
+  },
+  "aldehyde_rigid_departure_A": 0.35,
+  "construction_status": "Mapped geometric hypotheses; endpoint optimization and basin validation are mandatory",
+  "substrate_preparation": "RDKit ETKDG plus organic UFF geometry preparation; no UFF energies used as quantum data"
+}

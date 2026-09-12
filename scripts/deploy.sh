@@ -40,8 +40,10 @@ else
     fail "Existing environment has no Python interpreter: $venv"
 fi
 
-log 'Installing package and test dependencies.'
-"$runner" -m pip install -e '.[test]'
+extras="${PINCER_INSTALL_EXTRAS:-test}"
+[[ "$extras" =~ ^[a-zA-Z0-9_,]+$ ]] || fail 'Invalid dependency extras.'
+log 'Installing package and requested verification dependencies.'
+"$runner" -m pip install -e ".[${extras}]"
 log 'Running the full verification gate.'
 if ! "$runner" -m pytest tests/ -v; then
     fail 'Pytest failed; no staging, commit, or push was attempted.'
@@ -49,7 +51,7 @@ fi
 git diff --check
 git diff --cached --check
 
-paths=(src tests docs scripts examples .github README.md pyproject.toml .gitignore .gitattributes)
+paths=(src tests docs scripts examples data .github README.md pyproject.toml .gitignore .gitattributes)
 for path in "${paths[@]}"; do
     if [[ -e "$path" ]] || git ls-files --error-unmatch -- "$path" >/dev/null 2>&1; then
         git add --all -- "$path"
@@ -57,13 +59,13 @@ for path in "${paths[@]}"; do
 done
 while IFS= read -r -d '' staged; do
     case "$staged" in
-        src/*|tests/*|docs/*|scripts/*|examples/*|.github/*|README.md|pyproject.toml|.gitignore|.gitattributes) ;;
+        src/*|tests/*|docs/*|scripts/*|examples/*|data/*|.github/*|README.md|pyproject.toml|.gitignore|.gitattributes) ;;
         *) fail "Staged path is outside the deployment file set: $staged" ;;
     esac
 done < <(git diff --cached --name-only -z)
 git diff --cached --check
 if ! git diff --cached --quiet; then
-    git commit -m 'feat(core): implement quasi-rrho thermodynamics, steric profiling, and bilingual docs'
+    git commit -m "${PINCER_COMMIT_MESSAGE:-feat(core): implement quasi-rrho thermodynamics, steric profiling, and bilingual docs}"
 else
     log 'No staged changes; reusing the verified commit.'
 fi

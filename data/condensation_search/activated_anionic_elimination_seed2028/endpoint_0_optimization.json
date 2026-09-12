@@ -1,0 +1,13 @@
+{
+  "status": "converged",
+  "energy_eV": -2087.1697018351497,
+  "max_force_eV_A": 0.005681034383642645,
+  "wall_seconds": 0.5939999999973224,
+  "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\condensation-scratch\\activated_anionic_elimination_seed2028\\endpoint_0",
+  "charge": -1,
+  "unpaired_electrons": 0,
+  "converged": true,
+  "atoms_count": 57,
+  "output_sha256": "30187e135593831dfa1d46610abcb7d11a79c4b4f315466422be66306a61e320",
+  "error": null
+}

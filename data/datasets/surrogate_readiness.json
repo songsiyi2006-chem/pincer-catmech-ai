@@ -1,0 +1,14 @@
+{
+  "status": "insufficient_computed_data",
+  "reasons": [
+    "Need >= 10 accepted labels from distinct catalysts; found 0 labels/0 catalysts",
+    "Need >= 5 independent ligand groups; found 0"
+  ],
+  "accepted_samples": 0,
+  "independent_catalysts": 0,
+  "ligand_groups": 0,
+  "trained": false,
+  "model_file": null,
+  "Pareto_front": null,
+  "available_validated_barrier_labels": 0
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "pdf_sha256": "1a517cc616db86e70afaafd09bba7e3064922fb86bc815888aa3c3276424b087",
+  "scope": "Regression check for the six inspected numeric signs/exponents affected by missing SimSun glyphs; not a complete numeric equivalence proof",
+  "exact_strings_after_whitespace_removal": {
+    "\u22127.51178867": true,
+    "\u22124.23531646": true,
+    "\u22121.98581207": true,
+    "\u2212378.9759": true,
+    "\u22123.2871": true,
+    "10\u207b\u2078": true
+  }
+}

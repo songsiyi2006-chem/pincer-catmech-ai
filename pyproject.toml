@@ -4,14 +4,16 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pincer-catmech-ai"
-version = "0.1.0"
-description = "Auditable qRRHO thermochemistry and pincer steric descriptors"
+version = "0.2.0"
+description = "Auditable pincer GFN2-xTB searches, qRRHO thermochemistry, and evidence-gated kinetics"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["numpy>=1.24,<3", "ase>=3.22,<4", "pydantic>=2.6,<3"]
 
 [project.optional-dependencies]
 test = ["pytest>=8,<10"]
+campaign = ["ase>=3.23,<4", "scipy>=1.11,<2", "rdkit>=2023.9", "scikit-learn>=1.3,<2", "psutil>=5.9,<8"]
+documents = ["reportlab>=4,<6", "matplotlib>=3.8,<4", "pillow>=10", "jieba==0.42.1", "pypdf>=5,<7", "pypdfium2>=4,<6"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

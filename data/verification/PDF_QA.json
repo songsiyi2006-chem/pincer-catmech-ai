@@ -1,0 +1,431 @@
+[
+  {
+    "pdf": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\outputs\\MONOGRAPH_BORROWING_HYDROGEN_EN.pdf",
+    "sha256": "8a3eb0ca81ffffc19087a44971511ff233ede3921d283ffd72880d3d42cecfea",
+    "render_runtime": {
+      "pypdf": "6.10.0",
+      "pypdfium2": "5.13.0",
+      "Pillow": "12.3.0"
+    },
+    "pdfium_pages": 28,
+    "pypdf_pages": 28,
+    "all_pages_rendered": true,
+    "outside_page_text_count": 0,
+    "pages": [
+      {
+        "page": 1,
+        "characters": 489,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_001.png",
+        "render_sha256": "bdafc3d78e25f15b0e5ecd03c01001f6131dc63c8b8f36617ef6e8e54ec35ad4"
+      },
+      {
+        "page": 2,
+        "characters": 1342,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_002.png",
+        "render_sha256": "1421d0a893a53e343d9bfb7aab33c7a96511f9f023e34f2faa68bd0d074e572d"
+      },
+      {
+        "page": 3,
+        "characters": 2776,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_003.png",
+        "render_sha256": "4d7b1d8315706e31afa501b27ad7759e7874c173781fbc2ad68ff0a2c8db0cc9"
+      },
+      {
+        "page": 4,
+        "characters": 2599,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_004.png",
+        "render_sha256": "c370e6aca3422570475116f98292632abcc66e752c365e3cec0d04b4b34e2a1e"
+      },
+      {
+        "page": 5,
+        "characters": 2388,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_005.png",
+        "render_sha256": "6f8e4e1761c7ff3cf308514be563c2a44c61f0c1c8c5d2e4ced21006b359cf2f"
+      },
+      {
+        "page": 6,
+        "characters": 3334,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_006.png",
+        "render_sha256": "0cfdbdfdc8e7d1ef7bb64fee93230c0104d6056c5e16734c8df2d39c8ad74d79"
+      },
+      {
+        "page": 7,
+        "characters": 4354,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_007.png",
+        "render_sha256": "6b3a98f5f6f6eb562531159f70b403801132e471502dd58473214ed6547c2f91"
+      },
+      {
+        "page": 8,
+        "characters": 2216,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_008.png",
+        "render_sha256": "3e7fd2df42f4ac423e926de5adb8cabee38dfc2fdef8090f80f4d430319f719f"
+      },
+      {
+        "page": 9,
+        "characters": 2638,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_009.png",
+        "render_sha256": "7bc5d2bbd1d2d4a18b1c22d236331aef39b5a82069f5666a532cef9287d0080d"
+      },
+      {
+        "page": 10,
+        "characters": 4434,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_010.png",
+        "render_sha256": "39e4fa3dbbe85d78eeda91bcd8c15dd74f2c05000694e77d7e4914bdc838465a"
+      },
+      {
+        "page": 11,
+        "characters": 1594,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_011.png",
+        "render_sha256": "c6afe03083e46ac0f28fcdb17b7188b2f8eae5abf0ea41ac2243cb9abb38cb7a"
+      },
+      {
+        "page": 12,
+        "characters": 2047,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_012.png",
+        "render_sha256": "fb74d2b1e6a3279458705df56855f86bfaba56506fa562e7ddf5f26c9623fbcd"
+      },
+      {
+        "page": 13,
+        "characters": 1588,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_013.png",
+        "render_sha256": "e13ef0c15c7f771349840ac2cf7885dd6e8d8c209c0843a84f2a62bab61b211f"
+      },
+      {
+        "page": 14,
+        "characters": 2663,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_014.png",
+        "render_sha256": "a80165100220e921697fb38095e0c5e0465facd732968ac71f31e253e78bb832"
+      },
+      {
+        "page": 15,
+        "characters": 1706,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_015.png",
+        "render_sha256": "25c8965914b7ff9551abce5cbca3632a0788166dd8b35d5a7d0204223ebd092a"
+      },
+      {
+        "page": 16,
+        "characters": 3642,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_016.png",
+        "render_sha256": "c1d93486b797327dc134a9a711c658738730b86794668a4abbb510a0e0c0e1fb"
+      },
+      {
+        "page": 17,
+        "characters": 3678,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_017.png",
+        "render_sha256": "0c403751823d0bf0a2c5325084eb228ca1743f93566a64ac498c81884409a298"
+      },
+      {
+        "page": 18,
+        "characters": 1052,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_018.png",
+        "render_sha256": "74b3f579eb2b0506ad53f1d864e82630fbdfa91b3c1dac7f938cd0b110c99316"
+      },
+      {
+        "page": 19,
+        "characters": 4034,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_019.png",
+        "render_sha256": "b77f9b05e5c0c6cddd34ae211956af5089d621a7d1effa2a9d83a82c9824f549"
+      },
+      {
+        "page": 20,
+        "characters": 2493,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_020.png",
+        "render_sha256": "3baf8c9e45a93b8b770055cca9764ac56e48e49dddfbf44f87aa678be867feff"
+      },
+      {
+        "page": 21,
+        "characters": 3054,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_021.png",
+        "render_sha256": "147e45173acf1f6f386cb7846c35f6ae332c21e2eba8fcd433f149f8bebb4107"
+      },
+      {
+        "page": 22,
+        "characters": 1761,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_022.png",
+        "render_sha256": "d3fccafad0402fb39c3658dc27676781dcfe6ee5c98a1f319dc29ec3342ff80a"
+      },
+      {
+        "page": 23,
+        "characters": 2574,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_023.png",
+        "render_sha256": "38c9104ea454e6573ade057c8dc8eda8d4915a716d706100177adfef9005ecb8"
+      },
+      {
+        "page": 24,
+        "characters": 2818,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_024.png",
+        "render_sha256": "3304e656e08d5818a035843b62067401592a0f2cabae43c183f24c6c5db040ca"
+      },
+      {
+        "page": 25,
+        "characters": 2219,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_025.png",
+        "render_sha256": "0fd64677b4fd29401a17d81eb6b34e3ec8c9ed2312d4d91c9f2fc343d13bd1c7"
+      },
+      {
+        "page": 26,
+        "characters": 2803,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_026.png",
+        "render_sha256": "e169582e2b41e80f4d91e2adc5b2862b67fec3bdba96c9828ab4846c91c8e12e"
+      },
+      {
+        "page": 27,
+        "characters": 3446,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_027.png",
+        "render_sha256": "efe837362e374859b782ed56caaeb1a0a1e85b57835c521d52c6f966500d9420"
+      },
+      {
+        "page": 28,
+        "characters": 3133,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_EN\\page_028.png",
+        "render_sha256": "b2f722c4492e3ab6d4c44e0b55b38f17de35fd018e7b906f0328646fb32b7495"
+      }
+    ]
+  },
+  {
+    "pdf": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\outputs\\MONOGRAPH_BORROWING_HYDROGEN_ZH.pdf",
+    "sha256": "1a517cc616db86e70afaafd09bba7e3064922fb86bc815888aa3c3276424b087",
+    "render_runtime": {
+      "pypdf": "6.10.0",
+      "pypdfium2": "5.13.0",
+      "Pillow": "12.3.0"
+    },
+    "pdfium_pages": 29,
+    "pypdf_pages": 29,
+    "all_pages_rendered": true,
+    "outside_page_text_count": 0,
+    "pages": [
+      {
+        "page": 1,
+        "characters": 343,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_001.png",
+        "render_sha256": "00edb09fe92bcff573948fa365279e38b17c03c5e871bcaa8eb573e68fa1dd62"
+      },
+      {
+        "page": 2,
+        "characters": 607,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_002.png",
+        "render_sha256": "a81f37a1e77594ce81f0d00dea9b952d5aaf4f925eb70895aa84fc7dc616751b"
+      },
+      {
+        "page": 3,
+        "characters": 1074,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_003.png",
+        "render_sha256": "204de579dfad5009dd3757830ff060b4ffce198d36041ad948e17a5c82e2fcbf"
+      },
+      {
+        "page": 4,
+        "characters": 959,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_004.png",
+        "render_sha256": "35292051bb55903d661b6098e478961f17615aeed6f01c1f77d5e68ad4a27acf"
+      },
+      {
+        "page": 5,
+        "characters": 1035,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_005.png",
+        "render_sha256": "220ec44989513db2d41292091c9d423b0bb7978a99d07e91d14485c593500968"
+      },
+      {
+        "page": 6,
+        "characters": 1290,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_006.png",
+        "render_sha256": "f39d5dc1508258a2554c57e70dd397a58a5d64a82c46ffe4db0025da562f3342"
+      },
+      {
+        "page": 7,
+        "characters": 1728,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_007.png",
+        "render_sha256": "7be149c64aa199fd93451cbdba7573e8fb469b2875f97da40752b1c441504dd1"
+      },
+      {
+        "page": 8,
+        "characters": 844,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_008.png",
+        "render_sha256": "3e0fe87aacaa83ac65557470d7d8f4e744fc68bb0c0fa6af827af2878e9031fc"
+      },
+      {
+        "page": 9,
+        "characters": 948,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_009.png",
+        "render_sha256": "33010fb7810c2d8a74473ff329f9b804f4eed0c4a14a271eb1d9361f173215c5"
+      },
+      {
+        "page": 10,
+        "characters": 1955,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_010.png",
+        "render_sha256": "dce87084be96d533cb2c82eb5885779773e9b33a71ecec91be9d363bb82f801d"
+      },
+      {
+        "page": 11,
+        "characters": 479,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_011.png",
+        "render_sha256": "6aeeb4d224410bd12a3a5fa8eb4cbe5d6cdb00e75cd069d9014a211d3468406d"
+      },
+      {
+        "page": 12,
+        "characters": 1382,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_012.png",
+        "render_sha256": "dcca5a6f232f03f1995b48654c6e8053dc179e021dd024c8b04b89adaaa49e89"
+      },
+      {
+        "page": 13,
+        "characters": 580,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_013.png",
+        "render_sha256": "4357a6408dc582dfc83aabcb35b929928b21ced98d8059e7b479dce621afc806"
+      },
+      {
+        "page": 14,
+        "characters": 998,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_014.png",
+        "render_sha256": "75b6baa3422559442e0a43ab131ec89069d06f8d15ad1b75836c4b31ca66e72a"
+      },
+      {
+        "page": 15,
+        "characters": 728,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_015.png",
+        "render_sha256": "e63b5b9b374c55b5245f1cda42fa6732f06fb061f7fcfbcb90e5b21d15734693"
+      },
+      {
+        "page": 16,
+        "characters": 1378,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_016.png",
+        "render_sha256": "2c80928b359d23ec95b6035fd24efe3fa37d93678fd540f0b2f36e32508bac7f"
+      },
+      {
+        "page": 17,
+        "characters": 1564,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_017.png",
+        "render_sha256": "35a7e2a93cda907146a7d3ef2d7cfedcb2c9b248c4e26764cc11f1abdeafb00a"
+      },
+      {
+        "page": 18,
+        "characters": 673,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_018.png",
+        "render_sha256": "91411e9c99a26ae80236ab63aba0a0ead8a26507038965c3f8551e51cdfea886"
+      },
+      {
+        "page": 19,
+        "characters": 1632,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_019.png",
+        "render_sha256": "99d51a79de2c3275568b811542834b5ee9680929fb2a49339c76a7f37a335372"
+      },
+      {
+        "page": 20,
+        "characters": 1064,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_020.png",
+        "render_sha256": "8232201d4e99588f4f01bffc1e6a8f75734e78eb32ee226c65f550b6808ffbd9"
+      },
+      {
+        "page": 21,
+        "characters": 1081,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_021.png",
+        "render_sha256": "19d3b4e48d7b6d4456860b7cce8fdf35c7c13d0b0d1566f75a49ee6f11a231d8"
+      },
+      {
+        "page": 22,
+        "characters": 854,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_022.png",
+        "render_sha256": "b2d495622f221b1733497df090626d82d4c420b2a099bdb88640d8beba09e581"
+      },
+      {
+        "page": 23,
+        "characters": 844,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_023.png",
+        "render_sha256": "3e3398e6ad59a7de6fe63207c6cafa4af5f0648ccb4c6ea1c2761d305dd4b290"
+      },
+      {
+        "page": 24,
+        "characters": 1038,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_024.png",
+        "render_sha256": "cf020ccea27f962f3f5cf6890047c71ac1e0d5fcf76e34ad863e305c614fbffd"
+      },
+      {
+        "page": 25,
+        "characters": 876,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_025.png",
+        "render_sha256": "9d024cc70a6029e782883595c47173c44542cb188c1ab089970c265dc394e4ff"
+      },
+      {
+        "page": 26,
+        "characters": 142,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_026.png",
+        "render_sha256": "39c2bd5bf1cb023ec955db77e6c6d0d9309c52cfdf2507a8cbc6adaa89dd167c"
+      },
+      {
+        "page": 27,
+        "characters": 1149,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_027.png",
+        "render_sha256": "4ad87c04eecc829b4555896bf2a96c9b11df11fdaf96525a6a7d4ec4957ccde5"
+      },
+      {
+        "page": 28,
+        "characters": 1206,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_028.png",
+        "render_sha256": "2e6df31070c9b0089f8b9c0c760e2834011ba679b2e5bd037506eb337b2cfedd"
+      },
+      {
+        "page": 29,
+        "characters": 1003,
+        "outside_page_characters": 0,
+        "render": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pdf-qa-final\\MONOGRAPH_BORROWING_HYDROGEN_ZH\\page_029.png",
+        "render_sha256": "0db0f3f8e838791b4cbe69962c8e0ad0d6e08e120334ad55dbc5c2d99d39f779"
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "status": "converged",
+  "energy_eV": -1610.152546085758,
+  "max_force_eV_A": 0.011212059134830228,
+  "wall_seconds": 4.7189999999973224,
+  "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\condensation-scratch\\neutral_tBuOH_seed2026\\endpoint_1",
+  "charge": 0,
+  "unpaired_electrons": 0,
+  "converged": true,
+  "atoms_count": 43,
+  "output_sha256": "a0d503f296746dd4db1d8bdd8a1df74af1bf1f23bf41e3fe0b38d4e8e37ef55c",
+  "error": null
+}

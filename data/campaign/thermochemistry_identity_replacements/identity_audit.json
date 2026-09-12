@@ -1,0 +1,106 @@
+{
+  "created_utc": "2026-09-12T18:59:28.009439+00:00",
+  "scope": "Intended catalyst identity is a separate necessary screen from mathematical stationarity; no calculated values are altered.",
+  "history_source": "data\\campaign_alpb_toluene\\records.jsonl",
+  "history_snapshot_sha256": "363ad96fd888b7f47910c06770b7b1eb51e81651bc9d729640ffc614cea5abdd",
+  "history_snapshot_bytes": 2215842,
+  "rows": [
+    {
+      "result_file": "data\\campaign\\thermochemistry_identity_replacements\\Fe_macho_pnp_iPr__active\\result.json",
+      "result_file_sha256": "47b14eed972d6ef3db8ae2e40708953e5f44bf6d28a9400eafb92952db4adbf1",
+      "index_key": "Fe_macho_pnp_iPr|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "9bbf653e502e7e1ca1db71256c16780550398e10e840941c903195e00461e354",
+      "accepted_geometry_sha256": "482211776866964d0723ae4e386827f05a91295f37e5023cc616450bc494ab12",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.4771067744775257
+        ],
+        "metal_carbonyl_distances_A": [
+          1.735466759678257
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry_identity_replacements\\Ru_macho_pnp_iPr__active\\result.json",
+      "result_file_sha256": "54788936ac8dcb7035b3861d390aa6761d8300ac1ced25ff219b8ba39e714ead",
+      "index_key": "Ru_macho_pnp_iPr|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "b0a99314b484d53f00e8a3039b06c76e4535d4bcb1ebf51da045556478d05e26",
+      "accepted_geometry_sha256": "e0971ea8d5eda3d6d26542411fbad974084e5b45eef04ae53e8f83cf3c80a835",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.5630276687821976
+        ],
+        "metal_carbonyl_distances_A": [
+          1.8372455879838532
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry_identity_replacements\\Ru_macho_pnp_Ph__active\\result.json",
+      "result_file_sha256": "848e83a4a19895b46164c3665a96fa1702df17f0808a05318d72b89c7f628721",
+      "index_key": "Ru_macho_pnp_Ph|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "b4b55296bcc1f1406eed6363a051ab34e9ad9e9755494ef55b417d5e12bf2b3b",
+      "accepted_geometry_sha256": "f2c030ea3b04d2b043627d9cc29c7ff4e476300cf82e7d5e7136b8d39ac1a650",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.5683251573276138
+        ],
+        "metal_carbonyl_distances_A": [
+          1.8423746873062146
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    }
+  ],
+  "eligible_count": 3
+}

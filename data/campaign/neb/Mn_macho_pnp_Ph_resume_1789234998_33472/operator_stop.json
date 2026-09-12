@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-12T18:22:18.953721+00:00",
+  "stopped_scheduler_pid": 18876,
+  "stopped_worker_pids": [
+    22112,
+    33472
+  ],
+  "stopped_xtb_pid": 26132,
+  "reason": "The 120-step global-peak dimer did not meet true-force convergence. Its geometry lies beyond both transfers; a separate reactive local-image search will use the saved converged band.",
+  "first_attempt_candidate_sha256": "e9cfdfa8a7b049a89a9d9a3285eead82d42d4c310ca6314575a0922ce336b08c",
+  "source_band_sha256": "ac1d502e3652c651d4f1b99065631b5a9fc9ce7e6cec32b85608c6f7b50dda3f",
+  "successful_gradient_trace_records": 3002,
+  "separate_Ru_scheduler_18040_left_running": true
+}

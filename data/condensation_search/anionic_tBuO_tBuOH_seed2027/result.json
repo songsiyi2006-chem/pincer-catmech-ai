@@ -1,0 +1,200 @@
+{
+  "status": "failed",
+  "accepted": false,
+  "started_utc": "2026-09-12T17:58:11.785775+00:00",
+  "model": "Isolated anionic tBuO-/tBuOH cluster without potassium; N-H protonates the original tBuO- while original tBuOH protonates leaving O; mapped shuttle carbon skeletons exchange protonation states",
+  "charge": -1,
+  "unpaired_electrons": 0,
+  "method": "GFN2-xTB",
+  "solvent": "toluene",
+  "solvation_state": "gsolv",
+  "threads": 1,
+  "n_total_images": 9,
+  "n_internal_images": 7,
+  "atom_mapping": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+  ],
+  "endpoints": [
+    {
+      "index": 0,
+      "energy_eV": -2087.1697018288637,
+      "identity": {
+        "retained": false,
+        "lost_bonds": [
+          [
+            2,
+            17
+          ]
+        ],
+        "new_bonds": [
+          [
+            17,
+            47
+          ]
+        ],
+        "C_N_distance_angstrom": 1.4281592181604181,
+        "C_N_allowed_interval": [
+          1.35,
+          1.7
+        ],
+        "criterion": "1.28 times ASE covalent radius sum plus specified C-N distance interval"
+      },
+      "native": {
+        "status": "converged",
+        "energy_eV": -2087.169701835068,
+        "max_force_eV_A": 0.005688244250632744,
+        "wall_seconds": 8.438000000009197,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\condensation-scratch\\anionic_tBuO_tBuOH_seed2027\\endpoint_0",
+        "charge": -1,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 57,
+        "output_sha256": "042ac961969c9abc1f9e525b1e9568fda37c2ccb9c0c95e559b52eb0710b15dc",
+        "error": null
+      }
+    }
+  ],
+  "stages": [
+    {
+      "stage": "endpoint",
+      "utc": "2026-09-12T17:58:20.658970+00:00",
+      "elapsed_seconds": 8.873194932937622,
+      "index": 0,
+      "identity": {
+        "retained": false,
+        "lost_bonds": [
+          [
+            2,
+            17
+          ]
+        ],
+        "new_bonds": [
+          [
+            17,
+            47
+          ]
+        ],
+        "C_N_distance_angstrom": 1.4281592181604181,
+        "C_N_allowed_interval": [
+          1.35,
+          1.7
+        ],
+        "criterion": "1.28 times ASE covalent radius sum plus specified C-N distance interval"
+      }
+    }
+  ],
+  "reaction_coordinates": {
+    "N_H_to_acceptor_O": {
+      "terms": [
+        [
+          2,
+          17,
+          1
+        ],
+        [
+          47,
+          17,
+          -1
+        ]
+      ],
+      "minimum_overlap": 0.1
+    },
+    "shuttle_H_to_leaving_O": {
+      "terms": [
+        [
+          32,
+          42,
+          1
+        ],
+        [
+          0,
+          42,
+          -1
+        ]
+      ],
+      "minimum_overlap": 0.1
+    },
+    "C_O_cleavage": {
+      "terms": [
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "minimum_overlap": 0.05
+    },
+    "C_N_contraction": {
+      "terms": [
+        [
+          1,
+          2,
+          -1
+        ]
+      ],
+      "minimum_overlap": 0.03
+    }
+  },
+  "failure_reasons": [
+    "ValueError: Endpoint 0 optimized into another chemical basin"
+  ],
+  "free_energy_barrier_computed": false,
+  "finished_utc": "2026-09-12T17:58:20.667184+00:00",
+  "elapsed_seconds": 8.881408929824829
+}

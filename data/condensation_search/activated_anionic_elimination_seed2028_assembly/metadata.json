@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-09-12T18:02:17.671014+00:00",
+  "total_charge": -1,
+  "potassium_explicit": false,
+  "interpretation": "Isolated anionic elimination from N-deprotonated hemiaminal plus two mapped tBuOH molecules to imine/water/tBuOH/tBuO-. Requires a separate preceding acid-base equilibrium; not the original neutral-hemiaminal elementary step or a total-base rate law.",
+  "actual_activated_source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\condensation_search\\anionic_tBuO_tBuOH_seed2027\\endpoint_0.xyz",
+  "actual_activated_source_sha256": "699a7aaa01f39e4579d7f50936fbbb2163db886fcb3e073df4ddbc92e606faef",
+  "product_seed_source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\condensation_search\\anionic_tBuO_tBuOH_seed2027_assembly\\product_seed.xyz",
+  "product_seed_source_sha256": "047e6cf74da4b81d8a16281f6e63a9e9c69a846fb630033f12d2957eaca5f291",
+  "explicit_proton_transfer": {
+    "donor": 2,
+    "hydrogen": 17,
+    "acceptor": 47
+  }
+}

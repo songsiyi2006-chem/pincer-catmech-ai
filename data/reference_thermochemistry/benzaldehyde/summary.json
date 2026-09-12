@@ -1,0 +1,117 @@
+{
+  "species": "benzaldehyde",
+  "smiles": "O=Cc1ccccc1",
+  "conformers": [
+    {
+      "conformer": 0,
+      "smiles": "O=Cc1ccccc1",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -600.8955332675711,
+        "max_force_eV_A": 0.0007637679360449372,
+        "wall_seconds": 0.2970000000059372,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\benzaldehyde\\conformer_00",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 14,
+        "output_sha256": "c942e2ab8794c7ebf777576d89f397adde737678e7f2a43d9b81be2a3a4cc74f",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 1,
+      "smiles": "O=Cc1ccccc1",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -600.8955738698162,
+        "max_force_eV_A": 0.0004186776440770312,
+        "wall_seconds": 0.28099999998812564,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\benzaldehyde\\conformer_01",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 14,
+        "output_sha256": "b417fcede1565ea39ae3fa9748ad172cd4fc3a6d3e56e72d8d03f795a7150e35",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 2,
+      "smiles": "O=Cc1ccccc1",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -600.8955956168566,
+        "max_force_eV_A": 0.0005676770016467563,
+        "wall_seconds": 0.28100000000267755,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\benzaldehyde\\conformer_02",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 14,
+        "output_sha256": "e7eb0c181cf6e5d73db0901135484c80e2d1fb5f3eef7382c0c86e734beacce4",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 3,
+      "smiles": "O=Cc1ccccc1",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -600.8956501678487,
+        "max_force_eV_A": 0.0005485105970231527,
+        "wall_seconds": 0.29699999999138527,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\benzaldehyde\\conformer_03",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 14,
+        "output_sha256": "09b1f8ba6e033c1a019e8a831c6485de912149fee0aa070baa82ac69771b2eb0",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    }
+  ],
+  "status": "verified_minimum",
+  "accepted": true,
+  "best_conformer": 3,
+  "best_geometry_sha256": "df4838356cb907c447db614e6750dd624b2bfbd0117d701e6e2f1fded6a37862",
+  "thermochemistry_file": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\benzaldehyde\\stationarity\\result.json",
+  "final_connectivity": {
+    "retained": true,
+    "lost_bonds": [],
+    "new_bonds": [],
+    "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+  }
+}

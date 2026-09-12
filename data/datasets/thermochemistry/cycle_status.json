@@ -1,0 +1,1964 @@
+[
+  {
+    "catalyst_id": "Ru_macho_pnp_Ph",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Ru_macho_pnp_Ph|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Ru_macho_pnp_Ph|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Ru_macho_pnp_Ph|hydrogenated",
+          "imine"
+        ],
+        [
+          "Ru_macho_pnp_Ph|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Ru_macho_pnp_iPr",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Ru_macho_pnp_iPr|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Ru_macho_pnp_iPr|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Ru_macho_pnp_iPr|hydrogenated",
+          "imine"
+        ],
+        [
+          "Ru_macho_pnp_iPr|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Ru_pyridine_pnn_Ph",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Ru_pyridine_pnn_Ph|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Ru_pyridine_pnn_Ph|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Ru_pyridine_pnn_Ph|hydrogenated",
+          "imine"
+        ],
+        [
+          "Ru_pyridine_pnn_Ph|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Ru_pyridine_pnn_iPr",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Ru_pyridine_pnn_iPr|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Ru_pyridine_pnn_iPr|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Ru_pyridine_pnn_iPr|hydrogenated",
+          "imine"
+        ],
+        [
+          "Ru_pyridine_pnn_iPr|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Ru_bipyridine_pnnoh_Ph",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Ru_bipyridine_pnnoh_Ph|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Ru_bipyridine_pnnoh_Ph|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Ru_bipyridine_pnnoh_Ph|hydrogenated",
+          "imine"
+        ],
+        [
+          "Ru_bipyridine_pnnoh_Ph|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Ru_bipyridine_pnnoh_iPr",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Ru_bipyridine_pnnoh_iPr|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Ru_bipyridine_pnnoh_iPr|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Ru_bipyridine_pnnoh_iPr|hydrogenated",
+          "imine"
+        ],
+        [
+          "Ru_bipyridine_pnnoh_iPr|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Mn_macho_pnp_Ph",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Mn_macho_pnp_Ph|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Mn_macho_pnp_Ph|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Mn_macho_pnp_Ph|hydrogenated",
+          "imine"
+        ],
+        [
+          "Mn_macho_pnp_Ph|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Mn_macho_pnp_iPr",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Mn_macho_pnp_iPr|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Mn_macho_pnp_iPr|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Mn_macho_pnp_iPr|hydrogenated",
+          "imine"
+        ],
+        [
+          "Mn_macho_pnp_iPr|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Mn_pyridine_pnn_Ph",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Mn_pyridine_pnn_Ph|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Mn_pyridine_pnn_Ph|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Mn_pyridine_pnn_Ph|hydrogenated",
+          "imine"
+        ],
+        [
+          "Mn_pyridine_pnn_Ph|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Mn_pyridine_pnn_iPr",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Mn_pyridine_pnn_iPr|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Mn_pyridine_pnn_iPr|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Mn_pyridine_pnn_iPr|hydrogenated",
+          "imine"
+        ],
+        [
+          "Mn_pyridine_pnn_iPr|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Mn_bipyridine_pnnoh_Ph",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Mn_bipyridine_pnnoh_Ph|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Mn_bipyridine_pnnoh_Ph|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Mn_bipyridine_pnnoh_Ph|hydrogenated",
+          "imine"
+        ],
+        [
+          "Mn_bipyridine_pnnoh_Ph|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Mn_bipyridine_pnnoh_iPr",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Mn_bipyridine_pnnoh_iPr|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Mn_bipyridine_pnnoh_iPr|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Mn_bipyridine_pnnoh_iPr|hydrogenated",
+          "imine"
+        ],
+        [
+          "Mn_bipyridine_pnnoh_iPr|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Fe_macho_pnp_Ph",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Fe_macho_pnp_Ph|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Fe_macho_pnp_Ph|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Fe_macho_pnp_Ph|hydrogenated",
+          "imine"
+        ],
+        [
+          "Fe_macho_pnp_Ph|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Fe_macho_pnp_iPr",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Fe_macho_pnp_iPr|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Fe_macho_pnp_iPr|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Fe_macho_pnp_iPr|hydrogenated",
+          "imine"
+        ],
+        [
+          "Fe_macho_pnp_iPr|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Fe_pyridine_pnn_Ph",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Fe_pyridine_pnn_Ph|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Fe_pyridine_pnn_Ph|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Fe_pyridine_pnn_Ph|hydrogenated",
+          "imine"
+        ],
+        [
+          "Fe_pyridine_pnn_Ph|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Fe_pyridine_pnn_iPr",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Fe_pyridine_pnn_iPr|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Fe_pyridine_pnn_iPr|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Fe_pyridine_pnn_iPr|hydrogenated",
+          "imine"
+        ],
+        [
+          "Fe_pyridine_pnn_iPr|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Fe_bipyridine_pnnoh_Ph",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Fe_bipyridine_pnnoh_Ph|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Fe_bipyridine_pnnoh_Ph|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Fe_bipyridine_pnnoh_Ph|hydrogenated",
+          "imine"
+        ],
+        [
+          "Fe_bipyridine_pnnoh_Ph|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Fe_bipyridine_pnnoh_iPr",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Fe_bipyridine_pnnoh_iPr|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Fe_bipyridine_pnnoh_iPr|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Fe_bipyridine_pnnoh_iPr|hydrogenated",
+          "imine"
+        ],
+        [
+          "Fe_bipyridine_pnnoh_iPr|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Co_macho_pnp_Ph",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Co_macho_pnp_Ph|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Co_macho_pnp_Ph|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Co_macho_pnp_Ph|hydrogenated",
+          "imine"
+        ],
+        [
+          "Co_macho_pnp_Ph|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Co_macho_pnp_iPr",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Co_macho_pnp_iPr|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Co_macho_pnp_iPr|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Co_macho_pnp_iPr|hydrogenated",
+          "imine"
+        ],
+        [
+          "Co_macho_pnp_iPr|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Co_pyridine_pnn_Ph",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Co_pyridine_pnn_Ph|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Co_pyridine_pnn_Ph|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Co_pyridine_pnn_Ph|hydrogenated",
+          "imine"
+        ],
+        [
+          "Co_pyridine_pnn_Ph|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Co_pyridine_pnn_iPr",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Co_pyridine_pnn_iPr|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Co_pyridine_pnn_iPr|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Co_pyridine_pnn_iPr|hydrogenated",
+          "imine"
+        ],
+        [
+          "Co_pyridine_pnn_iPr|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [],
+    "balances": {
+      "alcohol_dehydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "hemiaminal_formation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "dehydration": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "imine_hydrogenation": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      },
+      "net_reaction": {
+        "balanced": true,
+        "product_minus_reactant_atoms": {},
+        "product_minus_reactant_charge": 0
+      }
+    },
+    "species_cancellation_exact": true,
+    "status": "exported",
+    "maximum_absolute_residual_kcal_mol": 0.0
+  },
+  {
+    "catalyst_id": "Co_bipyridine_pnnoh_Ph",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Co_bipyridine_pnnoh_Ph|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Co_bipyridine_pnnoh_Ph|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Co_bipyridine_pnnoh_Ph|hydrogenated",
+          "imine"
+        ],
+        [
+          "Co_bipyridine_pnnoh_Ph|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [
+      "Co_bipyridine_pnnoh_Ph|active"
+    ],
+    "status": "missing_eligible_certificate"
+  },
+  {
+    "catalyst_id": "Co_bipyridine_pnnoh_iPr",
+    "steps": {
+      "alcohol_dehydrogenation": [
+        [
+          "Co_bipyridine_pnnoh_iPr|active",
+          "benzyl_alcohol"
+        ],
+        [
+          "Co_bipyridine_pnnoh_iPr|hydrogenated",
+          "benzaldehyde"
+        ]
+      ],
+      "hemiaminal_formation": [
+        [
+          "benzaldehyde",
+          "aniline"
+        ],
+        [
+          "hemiaminal"
+        ]
+      ],
+      "dehydration": [
+        [
+          "hemiaminal"
+        ],
+        [
+          "imine",
+          "water"
+        ]
+      ],
+      "imine_hydrogenation": [
+        [
+          "Co_bipyridine_pnnoh_iPr|hydrogenated",
+          "imine"
+        ],
+        [
+          "Co_bipyridine_pnnoh_iPr|active",
+          "product_amine"
+        ]
+      ]
+    },
+    "net_reaction": [
+      [
+        "benzyl_alcohol",
+        "aniline"
+      ],
+      [
+        "product_amine",
+        "water"
+      ]
+    ],
+    "missing_species": [
+      "Co_bipyridine_pnnoh_iPr|active"
+    ],
+    "status": "missing_eligible_certificate"
+  }
+]

@@ -1,0 +1,1950 @@
+{
+  "created_utc": "2026-09-12T18:51:16.980505+00:00",
+  "scope": "Intended catalyst identity is a separate necessary screen from mathematical stationarity; no calculated values are altered.",
+  "history_source": "data\\campaign_alpb_toluene\\records.jsonl",
+  "history_snapshot_sha256": "c3a38ade96727c91222dbf15442c6d2705cadb9135c30263ed5d905624bfa803",
+  "history_snapshot_bytes": 2102061,
+  "rows": [
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Co_bipyridine_pnnoh_iPr__active\\result.json",
+      "result_file_sha256": "df29953fcf63c71493c5f7243192502bdd5f123346f76212390383d3eed7e29a",
+      "index_key": "Co_bipyridine_pnnoh_iPr|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": false,
+      "state": "active",
+      "identity_metadata_sha256": "db22d83fe2d4c594c5297e02223b8c8188e8de06ca06f3b4bdeb139e66f3173c",
+      "accepted_geometry_sha256": "91e41ec767613420fc8ea27e85ec8a14f21ab5b8e3e28c991e70f85b5d41aac8",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": false,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": false,
+        "lost_bonds": [],
+        "new_bonds": [
+          [
+            19,
+            44
+          ]
+        ],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.872237725372969
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "identity_or_provenance_rejected"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Co_bipyridine_pnnoh_iPr__hydrogenated\\result.json",
+      "result_file_sha256": "17bf4eecc8096015f95638b3e5e9e176eda8208edd074b10dcf697f39e67bc24",
+      "index_key": "Co_bipyridine_pnnoh_iPr|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "a16ba06b98ec9e595019fcf4e48f722c10d65517aa54256b6a49e4cb9f229721",
+      "accepted_geometry_sha256": "34f3b93f6ea744c3cb9723c70878d0cee728ba6d33f9f2ec0fff42d135a8d684",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.4964778966784351
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7208757080294204
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Co_bipyridine_pnnoh_iPr__protonated_reference\\result.json",
+      "result_file_sha256": "fd94c88ff5065fcf54e4a99364c177d9e626864679a416e7dcf6eaf1bc743856",
+      "index_key": "Co_bipyridine_pnnoh_iPr|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "fd7bebb50e1bf0216088dc11103f832786bd69d0d05b84737a145d59a6a65ade",
+      "accepted_geometry_sha256": "bed89509a0514ec43d3f561e84c107a03c6e7a9a5d629f71bd82d79eef6ca371",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7404946182487462
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Co_macho_pnp_iPr__active\\result.json",
+      "result_file_sha256": "e37311359f23e676c3331e6fbcf0ec3996a1d5c674120f0698ad9beb77380b89",
+      "index_key": "Co_macho_pnp_iPr|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "b8d774fec952f06445414916154d120bbe67177a8839277568458a7f514e519a",
+      "accepted_geometry_sha256": "f9e1cc284d85c75cd17197b5234eb9a49f1470fcb2e30384c56f78c5e1cc0e29",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7164301186913853
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Co_macho_pnp_iPr__hydrogenated\\result.json",
+      "result_file_sha256": "8984681993ecfb72037160d2f986acda4caf68794127e2a041ad754f9d8f4a94",
+      "index_key": "Co_macho_pnp_iPr|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "9334cf53de45cb12a1fc2bf47d8eb1ce99480ff09caa5db999869fb9bb78ba10",
+      "accepted_geometry_sha256": "980437b80d652615b0ef2f057c984bfc6952f150c4bd6882ad0f874a295f04b8",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.450624081056877
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7322611341130372
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Co_macho_pnp_iPr__protonated_reference\\result.json",
+      "result_file_sha256": "995cb767a7127cfd30e0a1767bc5d54eeaf89f8ea5bbb81ec9c1f093714c9745",
+      "index_key": "Co_macho_pnp_iPr|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "6f9c3ae38ebd17faefef6b2dab4064d774bd304a83902aa055e6a19e6f2edbe1",
+      "accepted_geometry_sha256": "bbdb815919dcf493a9b116254f5556dbcd7ddfcae6352d8d39c1f89a6856b794",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7277582713170896
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Co_macho_pnp_Ph__active\\result.json",
+      "result_file_sha256": "f55b53a63bdbaea17390261eaa57ae2b43048a7594eae81e79c47951979ae480",
+      "index_key": "Co_macho_pnp_Ph|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "b836b9d799444943ea930c4510afff5386a55ba1cb72e67d7e566a8f099f82bf",
+      "accepted_geometry_sha256": "c45a6445213eef391df5a721a1d920025855c13b32205588b88eeb027ce4b6ee",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7213016204962606
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Co_macho_pnp_Ph__hydrogenated\\result.json",
+      "result_file_sha256": "5e699cf088d91f1485d99eda0bd17fb45bf9bf77904082b77391ad58a4549a90",
+      "index_key": "Co_macho_pnp_Ph|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "ac7cb4e7d197cc328bdb968a6ca6f2eee54347dbe4cd5105d3c43aac38572f78",
+      "accepted_geometry_sha256": "d47d39d2f9cd8725a350991f6cb6b49fe32dabc00ea593b1964ee69d27706917",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.4503466595000052
+        ],
+        "metal_carbonyl_distances_A": [
+          1.727709136100223
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Co_macho_pnp_Ph__protonated_reference\\result.json",
+      "result_file_sha256": "1491b8648e463a8610b0980fb7f3877d91344604ff190de119bf7d073815259f",
+      "index_key": "Co_macho_pnp_Ph|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "1d9ef4e668bb3192ed2b600e3923f325a276a159ca1702977f876a60153e98ae",
+      "accepted_geometry_sha256": "471dbbebf392a1b8fa31dc10d9b1fde03dee3d22214661e084eab670acfbc798",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.733399993614073
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Co_pyridine_pnn_iPr__active\\result.json",
+      "result_file_sha256": "616df2d20249a29b5ebe19d8fe6c83f983df1bb4a512a53e5514cb85a58cdc43",
+      "index_key": "Co_pyridine_pnn_iPr|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "0df54102d97a28542d59d03831b0bd2a97f748ccf7af063f580a4f1be0b93786",
+      "accepted_geometry_sha256": "b8719933a77162560d4dfa566e09739785ecbefa51f5a33c43bc51b436da274d",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7220555873404986
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Co_pyridine_pnn_iPr__hydrogenated\\result.json",
+      "result_file_sha256": "d6c5193c155c8ca7ca498611b0e1bf99e4a648b72f0ec4a662cf6128a85ca361",
+      "index_key": "Co_pyridine_pnn_iPr|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "594e8c68f5f250792300f163199effd1045437597e880226083557136c8c5fb0",
+      "accepted_geometry_sha256": "3483096d95ef86f0a41ac8fd9fedb46a9f32fc5029ff32732bdd09c8ca39e45f",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.4537883908802234
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7378573280512721
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Co_pyridine_pnn_iPr__protonated_reference\\result.json",
+      "result_file_sha256": "d0987107827b73fe02febb6b94dcf55216e906a6763f855674aa22ad4db7c862",
+      "index_key": "Co_pyridine_pnn_iPr|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "1b49defff3435d2cb2c88df1e9e4700e13e6a1064785c83623b3a47ed200fb65",
+      "accepted_geometry_sha256": "865895a77f49e6a569f59b2085c1899577b627d1994a99b5e1dab2ceafc338e0",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7352340711353902
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Co_pyridine_pnn_Ph__active\\result.json",
+      "result_file_sha256": "8cc389ec96422c62988975cbf91b56cfc15f975b10e56a0c9d1bff2af315720b",
+      "index_key": "Co_pyridine_pnn_Ph|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "e7c795ce2ac5fa8bd5f26755880e94ec9d0bcc7291e1c5af21132e0cbd81a425",
+      "accepted_geometry_sha256": "4a98443b7f854f18c1b7fdbcfbcd55e808df0bac1325ee582da7569402312078",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7276737424803976
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Co_pyridine_pnn_Ph__hydrogenated\\result.json",
+      "result_file_sha256": "a4b88781772df90348b17178b49d28846dfb7955fe6978d9d8467f89d74e53bd",
+      "index_key": "Co_pyridine_pnn_Ph|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "441eb90f590879a1ce34be2b7a3100ce89d3750d6cc0f0e5052bc775be78250e",
+      "accepted_geometry_sha256": "9ac8ecbbbfa1d5b29e35ba743ea52089dc5ef134f908169ac7b79bd8f50f0955",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.4499548411861654
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7329222428263178
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Co_pyridine_pnn_Ph__protonated_reference\\result.json",
+      "result_file_sha256": "672c49fb31d8d641a3ec20b0c9d113a1045b50ec2f319f7bd8afa905970a964a",
+      "index_key": "Co_pyridine_pnn_Ph|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "a82b0b0093aeddfd36983b7f8511832ce9e251a4e3ab45aeeb1bab89d3ff9603",
+      "accepted_geometry_sha256": "8859be59e5ad54a13d2fe2c10da191fc607be8b820b3ac3594911dbe01156d45",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7411130218024007
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Fe_bipyridine_pnnoh_iPr__active\\result.json",
+      "result_file_sha256": "abfa2f382dc7ac3454ddebb8817ebf3e2aaf920c6448b4fa648d03b1696852bc",
+      "index_key": "Fe_bipyridine_pnnoh_iPr|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "f98336ea58baf50c92aa7641ea190f2d193093ac96585d8c4f4e0dc103e5153f",
+      "accepted_geometry_sha256": "dc0c47d276cd94423cb2fc3683486aa9e7be98cbd95e897cc4b3c575c885c7c3",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.4739938549578813
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7497540522794583
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Fe_bipyridine_pnnoh_iPr__hydrogenated\\result.json",
+      "result_file_sha256": "550c25921fdf969fd62c314b3c8845a67293573a242dde6f9ad0502a63dec757",
+      "index_key": "Fe_bipyridine_pnnoh_iPr|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "c9fb814662dffd73d4e6ce31d19d5c1bae6ed577fbcc901717aaa3254f2cef67",
+      "accepted_geometry_sha256": "7d7757e49cf86b6afbdfd11e476eee7d1733be171a7bc151b75d168b32e74de1",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.4746744406914793,
+          1.4740841478709263
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7438788289229388
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Fe_bipyridine_pnnoh_iPr__protonated_reference\\result.json",
+      "result_file_sha256": "0f7f70aeadc4531bed6e4887ee00ecfe5316be39fa1b04ee4b30c1f4fead2396",
+      "index_key": "Fe_bipyridine_pnnoh_iPr|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "31f52066520e24f82c11c56f4099d11c629177efa5c99f92b54a5c64a6d5f7b2",
+      "accepted_geometry_sha256": "b37ffacf0657895634a931b7041336836ec525e033f18cd0dcbc45c38551f9a3",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.4113318060119717
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7577604025505127
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Fe_macho_pnp_iPr__active\\result.json",
+      "result_file_sha256": "fb1816f6bb54162bed4e2e08ebaf8f9431703a6a8d83441ebe428b273cb49325",
+      "index_key": "Fe_macho_pnp_iPr|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": false,
+      "state": "active",
+      "identity_metadata_sha256": "76f73e3673b631c422cd1ec54b36e4fe842e8cf6122e1c3ad884fc9bf0589a13",
+      "accepted_geometry_sha256": "b6a1d02a4c2b66c35d915523533db58ae0b6d18c9767d190f54737747cb22b11",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": false,
+        "ligand_retained": false,
+        "original_nonmetal_graph_retained": false,
+        "lost_bonds": [],
+        "new_bonds": [
+          [
+            1,
+            4
+          ]
+        ],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [
+          [
+            1,
+            4
+          ]
+        ],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.4631129885580825
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7320185296911585
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "identity_or_provenance_rejected"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Fe_macho_pnp_iPr__hydrogenated\\result.json",
+      "result_file_sha256": "05e763fb0edc24a5c26b28976ec2b592a75f17310ec5994ee8dd6d7d7f9b1ea1",
+      "index_key": "Fe_macho_pnp_iPr|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "eae1b766d2464a4d6e938230f2090006a3331fe9fa053d6b07cf8cbc3f281c58",
+      "accepted_geometry_sha256": "0758f1daa4f890a37ec77d90b7e595bb46f4dafd3ec7d836667740c0f1c3d2e0",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.4661874032878854,
+          1.4646767218281076
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7268737020111369
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Fe_macho_pnp_iPr__protonated_reference\\result.json",
+      "result_file_sha256": "5cf9aca1ef66bde91e500d55abdfb3f02c385df6f90ced3e0b43a4c15792b112",
+      "index_key": "Fe_macho_pnp_iPr|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "9f1d210294d6e10f31bd6a89f277fdd3d75eb8ad69ac9b2058ebc3ca40ca5ba0",
+      "accepted_geometry_sha256": "23eb790ddaff88badb6b0c8085a17716c2fb051cee5acad392493fb28530ef3d",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.4042058016121388
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7489605715677845
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Fe_macho_pnp_Ph__active\\result.json",
+      "result_file_sha256": "9337bb7bac1a8af48fa370f38953992a2f9becaebca900dfcde618638cc88f8c",
+      "index_key": "Fe_macho_pnp_Ph|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "8b06d6d6765aa62d79ce34a8390daad08dd60974f776d8a8dd6680211ad94073",
+      "accepted_geometry_sha256": "ec55524bc2bfeb59790d0b4935d6f41cd7fa80fcc1e713213625f7301743a54e",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.4850593094406979
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7395801880363022
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Fe_macho_pnp_Ph__hydrogenated\\result.json",
+      "result_file_sha256": "ed509aea96d35aea4822ea54ce1513d3a7d34418beac8e5c851781dc2fea9453",
+      "index_key": "Fe_macho_pnp_Ph|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "5786e89b9f6f1808335ac9aad07f2f86a1bbb4983da51257fdfaeb5a100ee27a",
+      "accepted_geometry_sha256": "686a75e8d62faf50c535b3956a3841b5f3301084cdbc07fb145921368ddb27fb",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.4717005151815885,
+          1.4712260857930133
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7328144762292117
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Fe_macho_pnp_Ph__protonated_reference\\result.json",
+      "result_file_sha256": "3dd697591ce59cfdf268fb2072afe9aaff8796f2d833fd29f9ae68d8279dcc4e",
+      "index_key": "Fe_macho_pnp_Ph|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "1a7e038ea2e8991e95bb8c39c110d54c06d7d5d65305978bb6b9929343082063",
+      "accepted_geometry_sha256": "215d68e400636c6ddb321c0f34a32977da0049a8062dd0cdbd8ab183ed3df0e5",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.4159937293321805
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7539115130523473
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Fe_pyridine_pnn_iPr__active\\result.json",
+      "result_file_sha256": "77656e9f57205f0cfad801cf6dc41d704c664c0a244dc67e96869dbac6a62fbe",
+      "index_key": "Fe_pyridine_pnn_iPr|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "4cf0598b5965b7b73a16820c2256e1796985d3a6ab6918b34780273c1e191a52",
+      "accepted_geometry_sha256": "e86671950a63cee8ad913469c398c0a38c6413830c659f0b071ec23d3408c93f",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.4596291365769964
+        ],
+        "metal_carbonyl_distances_A": [
+          1.738574514934775
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Fe_pyridine_pnn_iPr__hydrogenated\\result.json",
+      "result_file_sha256": "497604e48ea69dae4c3b5a7cb4064ae2432c4880e4ffb27da9e6ff50611de96f",
+      "index_key": "Fe_pyridine_pnn_iPr|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "6ed44306069291ee4e9a20c4ed111a2f9098bdf74ba5fe7b767049d581334107",
+      "accepted_geometry_sha256": "23e5cb2c3c6e0b0f69afad7fc72a6a679d3171012da4fb0889cc3898c6da1be9",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.45979003469419,
+          1.4628707183380791
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7385629622624361
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Fe_pyridine_pnn_iPr__protonated_reference\\result.json",
+      "result_file_sha256": "236f3deba353dc7290193aed4047c2646dc4e2e810ee370928221e666e253fae",
+      "index_key": "Fe_pyridine_pnn_iPr|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "47c663262e3777fbac7abeeff8bbf2842a2e1fde9fc0f0dae3d6dd4e5d84a026",
+      "accepted_geometry_sha256": "d6312bd23dc56dfb1652a88eeeb489c3ed119d1b3abcec5b1e96f98dbbe7741a",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.3984631730454014
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7550601870428677
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Fe_pyridine_pnn_Ph__active\\result.json",
+      "result_file_sha256": "ab3d9266c3150b087009dcc007fc21fcea618011764664f68483af3629101dae",
+      "index_key": "Fe_pyridine_pnn_Ph|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "982cb996ba4ce00042e06724b2c800425d0b3112cd47af82c0d021c262a04051",
+      "accepted_geometry_sha256": "671a0eae0187357794cb66dc90c7e505770786186572d92c0f93d4ee563beb35",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.4634196852724595
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7417524412670005
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Fe_pyridine_pnn_Ph__hydrogenated\\result.json",
+      "result_file_sha256": "ff2ae39a0ffe4c0bc43efac0e91dc06ed35b4c82e9a51beeee632a7b088d595f",
+      "index_key": "Fe_pyridine_pnn_Ph|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "accd3ca63114465de5c5d2ef674adf7dfd891acb96932a929f745e60c0d4dde4",
+      "accepted_geometry_sha256": "761400515eaae15e4e389b05de7a3032b690ce42fa3f51a75b9d76d27978fd21",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.4741727153196205,
+          1.4702645317633734
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7404778223586281
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Fe_pyridine_pnn_Ph__protonated_reference\\result.json",
+      "result_file_sha256": "40c9d9dff8c8151b5466c62497089c0d83670acf1e443bcd45b93ee148457384",
+      "index_key": "Fe_pyridine_pnn_Ph|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "3afcf6dead0fb90d0d278c941e92a5bdfdc58c26c043567251a940d884b512fe",
+      "accepted_geometry_sha256": "a6e6a432bdbd08c4ad1b903c3a1296b9fc258c7da8fa8a6e9f2b1da24db58a29",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.379576502990394
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7358885066889858
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Mn_bipyridine_pnnoh_iPr__active\\result.json",
+      "result_file_sha256": "0c2a0b70c6becb291b7f50995b6a4732bea60639d41cb39fa8180a1843f095fe",
+      "index_key": "Mn_bipyridine_pnnoh_iPr|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "9eb8c5032b4793608dab9df7768f6d2c643ca18c18cd4cb30e90d4b6f6d71464",
+      "accepted_geometry_sha256": "cc5aa3b881737dc1808eeebafdd7a650a57b30f216ee56eb8cd03d22c19999a9",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.790078628943676,
+          1.7836153605339828
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Mn_bipyridine_pnnoh_iPr__hydrogenated\\result.json",
+      "result_file_sha256": "03d0506101bb76dc9da24ee03fd1f445d7fb4249bf953aa23a13a8d2001b0945",
+      "index_key": "Mn_bipyridine_pnnoh_iPr|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "9b934deb420b3bff7a472cec8d2c7dff3cfbb8df01b8999f7295545c5aa7500d",
+      "accepted_geometry_sha256": "507fa2dd8efd96a1537ae40f832d4e9dfc7ee3b2fcae02308725c798b2aeca06",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.5627615381170745
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7825653826178638,
+          1.7802267935960576
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Mn_bipyridine_pnnoh_iPr__protonated_reference\\result.json",
+      "result_file_sha256": "a1af831cc3951288d29bb0dc6a218962f2324b148e721d9e702f081db59a6886",
+      "index_key": "Mn_bipyridine_pnnoh_iPr|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "47a1e24c53bb51820e6b1ed69c9bd425f1f5212774c9feb0b17e3e7d19b99341",
+      "accepted_geometry_sha256": "a2654db6a310fef2276a0d5df59e7c2d0f0f11f12314e6953620f99d4a8e7344",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7983224980901067,
+          1.7930578906294796
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Mn_macho_pnp_iPr__active\\result.json",
+      "result_file_sha256": "b64e9650ac3d1f88412eb4c7d0a00a6b73bb98c181f01881ae896ddd6a862b96",
+      "index_key": "Mn_macho_pnp_iPr|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "ff0f7adf74daf9d4322c2f26234995894677ed61d041d21fd62ce75de8620900",
+      "accepted_geometry_sha256": "1d1f93991abde9df16e9b079544e3fda884186628b523280073cf146f5cb3d7a",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7628212851037395,
+          1.7659430913121124
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Mn_macho_pnp_iPr__hydrogenated\\result.json",
+      "result_file_sha256": "328254e10a4c144db8ffcb3ecd012152f561c528617439c88775a7e7756c7f39",
+      "index_key": "Mn_macho_pnp_iPr|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "3845711885ea9e56923f7fd470c6739afee57bfe30cb98c923700e99d6ae1fd2",
+      "accepted_geometry_sha256": "37720869e088e04aabc401db3f1ac7fa6597021a1620509dafa595dd356da31b",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.57422283196004
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7655213109853436,
+          1.767298825599186
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Mn_macho_pnp_iPr__protonated_reference\\result.json",
+      "result_file_sha256": "34958185225e0a0f6e259c20a5f854a080032b7dda90619082b15749837e70a3",
+      "index_key": "Mn_macho_pnp_iPr|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "425e2a20cfb5e236ddd41cfc11c2e0b462ed01ffe9a66ddffafe5b5cb8cb9549",
+      "accepted_geometry_sha256": "4d6ecfaf98a6ca62a7c7c64cfbe3f1c3eb8c454672878b2d295b6aaed50327b6",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7791032027870861,
+          1.7801349313119756
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Mn_macho_pnp_Ph__active\\result.json",
+      "result_file_sha256": "ee044cc3efc74cf83be101bc2cfe6eac202f4850dc1ebfe7cfc0e860dc5e6dca",
+      "index_key": "Mn_macho_pnp_Ph|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "9814f33995bc1b58884c22272b9b45e7a2fe86414a86a905e7b3a0fbc653c9d0",
+      "accepted_geometry_sha256": "c71b779af5dd714d318a72889d362e1c43d3fb0c021b86fc1ac004f1242b6172",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.771097052149227,
+          1.7711272094283912
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Mn_macho_pnp_Ph__hydrogenated\\result.json",
+      "result_file_sha256": "35ee2d97346607f6e24d2d7dfa77f11e3c314ad0fedb92c3693d49c1411c86bd",
+      "index_key": "Mn_macho_pnp_Ph|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "3344966900487c68fb1b4abffeae22b7d1e06abfe2839fa6a7495662665163a8",
+      "accepted_geometry_sha256": "f667fd9d44bb8f9a90ca38eb86d9b6e1e60cb9750c89885e170ef1deb4b0f0cf",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.5852085230461768
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7736206218690147,
+          1.770534168852743
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Mn_macho_pnp_Ph__protonated_reference\\result.json",
+      "result_file_sha256": "cd7f0703e8538056858b8cda3d5370a69726d41735e4081c98ff77b051cfd13b",
+      "index_key": "Mn_macho_pnp_Ph|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "284c14ebab3506cb2545c24be93fb807bf21261878abdf18abcbdf0737817fe2",
+      "accepted_geometry_sha256": "e90d1b84e83115a5ae1ebbd5468df5217cb6c23d391669611a3c686df508ac2d",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7879732265906645,
+          1.7831728612110844
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Mn_pyridine_pnn_iPr__active\\result.json",
+      "result_file_sha256": "da2969febe0cdc8a7001f009ec32a66cdbb866743f3a40f58dc3617d66da71d0",
+      "index_key": "Mn_pyridine_pnn_iPr|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "869d9e711e2ee13190eeacc337637306393e8bd7c9472b667a2e8a294b4e79ca",
+      "accepted_geometry_sha256": "b844103087cd9e8c0da67a688b59269df0cff040098d591148e65bacbdd429ee",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7788959897363814,
+          1.7741807516466865
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Mn_pyridine_pnn_iPr__hydrogenated\\result.json",
+      "result_file_sha256": "578089fd8cdcbf9d382676c755e53328d70efd6445632d79f3cf487a1f4110a0",
+      "index_key": "Mn_pyridine_pnn_iPr|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "78be3209102dab3e3f2404ac6eb4b35bb3dfbf6d3fc0ca29b9bb63860661fcc9",
+      "accepted_geometry_sha256": "2e4c24d7c17e277be06ed3fd4d5fbe5f11d813f002540d280235767cb54a3915",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.5593942741661122
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7720753491431378,
+          1.7760881634718328
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Mn_pyridine_pnn_iPr__protonated_reference\\result.json",
+      "result_file_sha256": "75a1cb52689f88a0027af0f5105d0afef99ad263031428462ebc4df4bebb9f3e",
+      "index_key": "Mn_pyridine_pnn_iPr|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "560a0572cb7d1b14204187524d19603716cf7db247dbe28d49c8f6c15071cb9f",
+      "accepted_geometry_sha256": "4fe5f3e362a9b4a25051608afc2a775e0e2ee199a7d4dbb3c2ab6020ace8fa73",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7868828367761398,
+          1.7946333416911548
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Mn_pyridine_pnn_Ph__active\\result.json",
+      "result_file_sha256": "ce80a05bb137754aa01fc61cc381d998dfb582e79f2a09b5dd0681f3b1fcab2f",
+      "index_key": "Mn_pyridine_pnn_Ph|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "d09923f9701954acaf6ec6534a4e78952befe4b284de98ffe700b8d1106be18d",
+      "accepted_geometry_sha256": "330f73d7aa8f9370604897da42b049aa9c4ff1819868444525b76b543f86ede1",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7802172766780788,
+          1.778595786813944
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Mn_pyridine_pnn_Ph__hydrogenated\\result.json",
+      "result_file_sha256": "c3b183bfcd9ea18e10c3601adc1ed7f28e6293862a934a4303294a3b7d4cf5b0",
+      "index_key": "Mn_pyridine_pnn_Ph|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "b50d38d31bedcabe40506bb1da9983c0825a9f4859a735540a43313483172ee5",
+      "accepted_geometry_sha256": "879ca1f632c36ce52e15780bea4d97ef6fef912e43527daacd54fa5f9a5595da",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.5614262850399638
+        ],
+        "metal_carbonyl_distances_A": [
+          1.7777727087942623,
+          1.776722754773184
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Mn_pyridine_pnn_Ph__protonated_reference\\result.json",
+      "result_file_sha256": "6469edf4c7184f19aa31f2e0dea04097906acb96c5983e6263f2f874723a1473",
+      "index_key": "Mn_pyridine_pnn_Ph|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "c413d1806eaff067ebb5fd49ddf1f32ea317007f818b6b8829146f8ea1cf9ca5",
+      "accepted_geometry_sha256": "71b957adc5d9b5f4a4698c955344d027111295447059c28aa0930f8481c5d4ee",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7994247113079973,
+          1.7877055020447752
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Ru_bipyridine_pnnoh_iPr__active\\result.json",
+      "result_file_sha256": "6bec958cc8c907d1b2131b67f79e4d7b9b0da73555a2ce8dd150e219673a0b4d",
+      "index_key": "Ru_bipyridine_pnnoh_iPr|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "7282975aef6468307bb142a3e182750a7573ef6f398a97417cd898ee7f252469",
+      "accepted_geometry_sha256": "7805c631b15cdeb0e11ee5632222c65f920955a3d623f1c2c980dddb26e5b0e1",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.5628831893450736
+        ],
+        "metal_carbonyl_distances_A": [
+          1.8552965694426857
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Ru_bipyridine_pnnoh_iPr__hydrogenated\\result.json",
+      "result_file_sha256": "5c5fb047959ce54e8b02b0c73d09a7109e75d099d687c0db70b6ca363f04121a",
+      "index_key": "Ru_bipyridine_pnnoh_iPr|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "8a643b59fb569cc012950194f86b3496133328a1fd73cabea9829a6434a836ed",
+      "accepted_geometry_sha256": "b38f4d1bbfb5d3cf36717d9617b0ce046f4d5bfa3a09ced8c1eeab47fb81bd65",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.5836453950448048,
+          1.5828931955788985
+        ],
+        "metal_carbonyl_distances_A": [
+          1.8462056138654626
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Ru_bipyridine_pnnoh_iPr__protonated_reference\\result.json",
+      "result_file_sha256": "76efd00867e6a9b2f6653fd105091ab40bc5a3bd6d1063d5a2d62e74a617e0b9",
+      "index_key": "Ru_bipyridine_pnnoh_iPr|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "ce6d9fa289b8cd4e3ea3468bdeb1c519a7c8a5aab4dd19da300e160c888a1a46",
+      "accepted_geometry_sha256": "d8d4fe38a461951245a12794d691e6383d30fa89c4e6659c32d29969e3f0540f",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.546733988176534
+        ],
+        "metal_carbonyl_distances_A": [
+          1.8391024545246064
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Ru_macho_pnp_iPr__active\\result.json",
+      "result_file_sha256": "483fde331461b0e95ca22f371f6bfebadd6cba5c767b94d5223a807382cd18f1",
+      "index_key": "Ru_macho_pnp_iPr|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": false,
+      "state": "active",
+      "identity_metadata_sha256": "8926c2e90f11f098e506c3ac766e3726123e6b5524224dc11a5aad0a6edef794",
+      "accepted_geometry_sha256": "27f4ae2a0bacaa172600ce2cc311f3ea54a345e198f518c32b88c2cabedf0004",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": false,
+        "ligand_retained": false,
+        "original_nonmetal_graph_retained": false,
+        "lost_bonds": [
+          [
+            2,
+            21
+          ]
+        ],
+        "new_bonds": [],
+        "ligand_lost_bonds": [
+          [
+            2,
+            21
+          ]
+        ],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.5508699348776516
+        ],
+        "metal_carbonyl_distances_A": [
+          1.844238018318221
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "identity_or_provenance_rejected"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Ru_macho_pnp_iPr__hydrogenated\\result.json",
+      "result_file_sha256": "730bdace9c693a34966db2eaa75346b2bdd8ac7686107dadaf81e9004378b5f5",
+      "index_key": "Ru_macho_pnp_iPr|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "3103089ca88e0430a64ffbcba93e73b36dd7a45f00490af53e27cfb8f36f2f9e",
+      "accepted_geometry_sha256": "0e6be1b8bcf955f5350a5f300fc23e2501cf76f25fd43385d55dbc5434add995",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.5771255147237921,
+          1.5669439778040921
+        ],
+        "metal_carbonyl_distances_A": [
+          1.8298478134518266
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Ru_macho_pnp_iPr__protonated_reference\\result.json",
+      "result_file_sha256": "58c868f460c7ca23adb505edd18e9d2f95b9a621a6076dbe62b34e4c4956879b",
+      "index_key": "Ru_macho_pnp_iPr|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "2cdfff591d8929fc9aada2327c1e8767ef0033e9e76ccaeb9602821124844a60",
+      "accepted_geometry_sha256": "fbfb8fdce70d6b134be106fb78fe93f5de1f5edfce805368691a0873fc5247dc",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.5394435942487634
+        ],
+        "metal_carbonyl_distances_A": [
+          1.8546575331934971
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Ru_macho_pnp_Ph__active\\result.json",
+      "result_file_sha256": "9741166332121b352961ad0ee4db127b37b7f592b8e1a95560a4b5666f4bf30f",
+      "index_key": "Ru_macho_pnp_Ph|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": false,
+      "state": "active",
+      "identity_metadata_sha256": "7520a9757f30c75103c6b6bfda8e263558747645c4e8d02a435428a2bb1dedd8",
+      "accepted_geometry_sha256": "e45816fd8ce6f2ef857203ffc9dbbbe191c963248f169492acbc378242fb7a97",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": false,
+        "ligand_retained": false,
+        "original_nonmetal_graph_retained": false,
+        "lost_bonds": [
+          [
+            2,
+            33
+          ]
+        ],
+        "new_bonds": [],
+        "ligand_lost_bonds": [
+          [
+            2,
+            33
+          ]
+        ],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.5522994764114961
+        ],
+        "metal_carbonyl_distances_A": [
+          1.8491720054608023
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "identity_or_provenance_rejected"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Ru_macho_pnp_Ph__hydrogenated\\result.json",
+      "result_file_sha256": "5d4e79a6b7b2778cfccfca6e6b33e70880f9abdb4eb2972464612e98112410be",
+      "index_key": "Ru_macho_pnp_Ph|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "d9a2102e331d3aba09da728347ed70f9fd1af6cd4890d1b8a5489dbe614d99cb",
+      "accepted_geometry_sha256": "1f4305273d2ba9284908608c402b090e6670d7b2fc0bf4e0c1c02c719c0e3e7d",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.575596352966338,
+          1.5700170352599114
+        ],
+        "metal_carbonyl_distances_A": [
+          1.8365557365445129
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Ru_macho_pnp_Ph__protonated_reference\\result.json",
+      "result_file_sha256": "c14bcbc48907d405277a762343f8c57b57543c59cb5229ea8dd0a5ac5319f8c5",
+      "index_key": "Ru_macho_pnp_Ph|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "7543e0528c0e95ccc73e4caa2958b1c571b5e17e783af4bdcf71c0fe8617f486",
+      "accepted_geometry_sha256": "a1a87a76fe80e76b5f6ec96d65b9d3343035ea5d7c5a5b6dca8006d85a9ad471",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.5409620255678824
+        ],
+        "metal_carbonyl_distances_A": [
+          1.836647669197341
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Ru_pyridine_pnn_iPr__active\\result.json",
+      "result_file_sha256": "b353fdc23b2f3c8029f2cc1e3b0210541e7cf81b7efe3b86a5824afec54ad757",
+      "index_key": "Ru_pyridine_pnn_iPr|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "8d49eab8dca90b70f96aec083ed65402b5eff88af5201d7d34df3a2859797473",
+      "accepted_geometry_sha256": "0676988afaa0ae6d8f020f390b16ceb07981c0706677d83ad19202f53583a020",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.5700435519235334
+        ],
+        "metal_carbonyl_distances_A": [
+          1.8200963389648237
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Ru_pyridine_pnn_iPr__hydrogenated\\result.json",
+      "result_file_sha256": "7a14b39c9f5b1093c3222fd16395f45e92fed4f118982f8936716b6df2bdbf0b",
+      "index_key": "Ru_pyridine_pnn_iPr|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "932552a2487a5f4d04728f15ce6c607896e120652f5affa0c65d7b61db5331ef",
+      "accepted_geometry_sha256": "8519a5f7127456f380d1b3c982742fc752958c478587fab0fdd297b68e0f63fe",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.5703101268574193,
+          1.5806045458031386
+        ],
+        "metal_carbonyl_distances_A": [
+          1.8398638715488531
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Ru_pyridine_pnn_iPr__protonated_reference\\result.json",
+      "result_file_sha256": "948c02d75d19abbd0c9d5115b5ec74af1972de26ae24a6b65b9d430db97b9f4e",
+      "index_key": "Ru_pyridine_pnn_iPr|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "9a9d8bb29af1efa24bcd55e968a36cbb67cca1e87cc681d10aaafff819e37008",
+      "accepted_geometry_sha256": "62a4c08afd3b47ee87c8191475aa88e600c6050f33e2899d1389ac9af350c462",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.5460968253968086
+        ],
+        "metal_carbonyl_distances_A": [
+          1.8317237215421671
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Ru_pyridine_pnn_Ph__active\\result.json",
+      "result_file_sha256": "ab43da869b276fed6d6dcd63a057e8d1c6dbe850386b72952d5f28a83a173ade",
+      "index_key": "Ru_pyridine_pnn_Ph|active",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "active",
+      "identity_metadata_sha256": "c0593c4ad149a1d597d21d64961a262e2fd157e2239a9ae63a8392907bca751e",
+      "accepted_geometry_sha256": "dd3dc073aaaa7286e03e56f6976ac022aef2a0cea92518c3fa08cf48e41e7b96",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.574379514951007
+        ],
+        "metal_carbonyl_distances_A": [
+          1.8235293322103265
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Ru_pyridine_pnn_Ph__hydrogenated\\result.json",
+      "result_file_sha256": "037fa2b962bd8e7e4a5ef9e7cf106f0d4dc3533449e9f83d584f663694c34854",
+      "index_key": "Ru_pyridine_pnn_Ph|hydrogenated",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "hydrogenated",
+      "identity_metadata_sha256": "e4c4fd5dd3f44278c053db7e5a0aea82a57ec242a2d887531412c2038f25b46c",
+      "accepted_geometry_sha256": "808134131d2b258463deb9515e4b678c992065ff08521f0b833de022acdf5976",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.583533799248425,
+          1.5817266331475066
+        ],
+        "metal_carbonyl_distances_A": [
+          1.841595886041798
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    },
+    {
+      "result_file": "data\\campaign\\thermochemistry\\Ru_pyridine_pnn_Ph__protonated_reference\\result.json",
+      "result_file_sha256": "88ee61db50d7bef06f93f02783e50ff4c06f989cbfb344ef20a1f2782bcbe2c4",
+      "index_key": "Ru_pyridine_pnn_Ph|protonated_reference",
+      "mathematical_status": "verified_minimum",
+      "mathematical_minimum_accepted": true,
+      "eligible_for_intended_catalyst_thermochemistry": true,
+      "state": "protonated_reference",
+      "identity_metadata_sha256": "7b6a6f509675132a8e5063e1d964beb368382fbf679ac2f4a13476551cab5b94",
+      "accepted_geometry_sha256": "dcacbe4d09b79a0dd7e2dea2c059260813254a567dd0c0686d24764fd1d1642d",
+      "geometry_hash_matches_record": true,
+      "chemical_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [
+          1.5356837039522402
+        ],
+        "metal_carbonyl_distances_A": [
+          1.839936083386735
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "thermochemistry_source_hashes_valid": true,
+      "audit_status": "eligible"
+    }
+  ],
+  "eligible_count": 56
+}

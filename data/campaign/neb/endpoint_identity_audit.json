@@ -1,0 +1,342 @@
+{
+  "scope": "Read-only geometry screen of mapped ligand bonds and donors; not chemical validation or a Hessian/TS certificate",
+  "rows": [
+    {
+      "route": "Co_macho_pnp_iPr_search_1789234743_15024",
+      "endpoint": 0,
+      "ligand_bond_count": 54,
+      "ligand_long_bonds_above_1p45_covalent_radii": [],
+      "metal_donor_distances": [
+        {
+          "index": 4,
+          "distance_A": 2.1832833083726317
+        },
+        {
+          "index": 1,
+          "distance_A": 1.8663401878323198
+        },
+        {
+          "index": 13,
+          "distance_A": 2.188096298030923
+        }
+      ],
+      "existing_hydride_distances_A": [],
+      "maximum_ligand_bond_radii_ratio": 1.0343108775760357
+    },
+    {
+      "route": "Co_macho_pnp_iPr_search_1789234743_15024",
+      "endpoint": 1,
+      "ligand_bond_count": 54,
+      "ligand_long_bonds_above_1p45_covalent_radii": [],
+      "metal_donor_distances": [
+        {
+          "index": 4,
+          "distance_A": 2.208389092400545
+        },
+        {
+          "index": 1,
+          "distance_A": 2.002379212036751
+        },
+        {
+          "index": 13,
+          "distance_A": 2.212757537419412
+        }
+      ],
+      "existing_hydride_distances_A": [],
+      "maximum_ligand_bond_radii_ratio": 1.0282179400943319
+    },
+    {
+      "route": "Co_macho_pnp_Ph_search_1789234729_31856",
+      "endpoint": 0,
+      "ligand_bond_count": 62,
+      "ligand_long_bonds_above_1p45_covalent_radii": [],
+      "metal_donor_distances": [
+        {
+          "index": 4,
+          "distance_A": 2.1721225888262516
+        },
+        {
+          "index": 1,
+          "distance_A": 1.847493249343041
+        },
+        {
+          "index": 19,
+          "distance_A": 2.15966116715655
+        }
+      ],
+      "existing_hydride_distances_A": [],
+      "maximum_ligand_bond_radii_ratio": 1.0366382673263173
+    },
+    {
+      "route": "Co_macho_pnp_Ph_search_1789234729_31856",
+      "endpoint": 1,
+      "ligand_bond_count": 62,
+      "ligand_long_bonds_above_1p45_covalent_radii": [],
+      "metal_donor_distances": [
+        {
+          "index": 4,
+          "distance_A": 2.165885394157995
+        },
+        {
+          "index": 1,
+          "distance_A": 2.164762512401019
+        },
+        {
+          "index": 19,
+          "distance_A": 2.167809462553368
+        }
+      ],
+      "existing_hydride_distances_A": [],
+      "maximum_ligand_bond_radii_ratio": 1.034085883970805
+    },
+    {
+      "route": "Mn_macho_pnp_iPr_search_1789234611_15024",
+      "endpoint": 0,
+      "ligand_bond_count": 54,
+      "ligand_long_bonds_above_1p45_covalent_radii": [],
+      "metal_donor_distances": [
+        {
+          "index": 4,
+          "distance_A": 2.2442842005903376
+        },
+        {
+          "index": 1,
+          "distance_A": 1.8414504275269667
+        },
+        {
+          "index": 13,
+          "distance_A": 2.2250749642595733
+        }
+      ],
+      "existing_hydride_distances_A": [],
+      "maximum_ligand_bond_radii_ratio": 1.0320052453066306
+    },
+    {
+      "route": "Mn_macho_pnp_iPr_search_1789234611_15024",
+      "endpoint": 1,
+      "ligand_bond_count": 54,
+      "ligand_long_bonds_above_1p45_covalent_radii": [],
+      "metal_donor_distances": [
+        {
+          "index": 4,
+          "distance_A": 2.2859029390885985
+        },
+        {
+          "index": 1,
+          "distance_A": 2.3047567706985093
+        },
+        {
+          "index": 13,
+          "distance_A": 2.2739738113756705
+        }
+      ],
+      "existing_hydride_distances_A": [],
+      "maximum_ligand_bond_radii_ratio": 1.0317459421426836
+    },
+    {
+      "route": "Mn_macho_pnp_Ph_search_1789233521_31856",
+      "endpoint": 0,
+      "ligand_bond_count": 62,
+      "ligand_long_bonds_above_1p45_covalent_radii": [],
+      "metal_donor_distances": [
+        {
+          "index": 4,
+          "distance_A": 2.2571637330842935
+        },
+        {
+          "index": 1,
+          "distance_A": 2.0063608743728425
+        },
+        {
+          "index": 19,
+          "distance_A": 2.2506806460137008
+        }
+      ],
+      "existing_hydride_distances_A": [],
+      "maximum_ligand_bond_radii_ratio": 1.035482172762859
+    },
+    {
+      "route": "Mn_macho_pnp_Ph_search_1789233521_31856",
+      "endpoint": 1,
+      "ligand_bond_count": 62,
+      "ligand_long_bonds_above_1p45_covalent_radii": [],
+      "metal_donor_distances": [
+        {
+          "index": 4,
+          "distance_A": 2.210088985618233
+        },
+        {
+          "index": 1,
+          "distance_A": 2.2734402797729207
+        },
+        {
+          "index": 19,
+          "distance_A": 2.2069402392159865
+        }
+      ],
+      "existing_hydride_distances_A": [],
+      "maximum_ligand_bond_radii_ratio": 1.0296392261901652
+    },
+    {
+      "route": "Ru_macho_pnp_iPr_search_1789233435_15024",
+      "endpoint": 0,
+      "ligand_bond_count": 54,
+      "ligand_long_bonds_above_1p45_covalent_radii": [
+        {
+          "pair": [
+            11,
+            38
+          ],
+          "elements": [
+            "C",
+            "H"
+          ],
+          "distance_A": 2.3388403501139168,
+          "radii_ratio": 2.1858321029102026
+        }
+      ],
+      "metal_donor_distances": [
+        {
+          "index": 4,
+          "distance_A": 2.312114767625576
+        },
+        {
+          "index": 1,
+          "distance_A": 2.2231286032244983
+        },
+        {
+          "index": 13,
+          "distance_A": 2.3166828983231027
+        }
+      ],
+      "existing_hydride_distances_A": [
+        1.551132601361148
+      ],
+      "maximum_ligand_bond_radii_ratio": 2.1858321029102026
+    },
+    {
+      "route": "Ru_macho_pnp_iPr_search_1789233435_15024",
+      "endpoint": 1,
+      "ligand_bond_count": 54,
+      "ligand_long_bonds_above_1p45_covalent_radii": [
+        {
+          "pair": [
+            11,
+            38
+          ],
+          "elements": [
+            "C",
+            "H"
+          ],
+          "distance_A": 2.4158655004453173,
+          "radii_ratio": 2.25781822471525
+        }
+      ],
+      "metal_donor_distances": [
+        {
+          "index": 4,
+          "distance_A": 2.3402765027104495
+        },
+        {
+          "index": 1,
+          "distance_A": 3.0950276544153774
+        },
+        {
+          "index": 13,
+          "distance_A": 2.3605219125816945
+        }
+      ],
+      "existing_hydride_distances_A": [
+        1.5730808149838906
+      ],
+      "maximum_ligand_bond_radii_ratio": 2.25781822471525
+    },
+    {
+      "route": "Ru_macho_pnp_Ph_search_1789233435_31856",
+      "endpoint": 0,
+      "ligand_bond_count": 62,
+      "ligand_long_bonds_above_1p45_covalent_radii": [
+        {
+          "pair": [
+            2,
+            33
+          ],
+          "elements": [
+            "C",
+            "H"
+          ],
+          "distance_A": 2.3989785089669424,
+          "radii_ratio": 2.242035989688731
+        }
+      ],
+      "metal_donor_distances": [
+        {
+          "index": 4,
+          "distance_A": 2.3019795231106115
+        },
+        {
+          "index": 1,
+          "distance_A": 2.2111222690718852
+        },
+        {
+          "index": 19,
+          "distance_A": 2.2919163777942293
+        }
+      ],
+      "existing_hydride_distances_A": [
+        1.5510626882060274
+      ],
+      "maximum_ligand_bond_radii_ratio": 2.242035989688731
+    },
+    {
+      "route": "Ru_macho_pnp_Ph_search_1789233435_31856",
+      "endpoint": 1,
+      "ligand_bond_count": 62,
+      "ligand_long_bonds_above_1p45_covalent_radii": [
+        {
+          "pair": [
+            2,
+            33
+          ],
+          "elements": [
+            "C",
+            "H"
+          ],
+          "distance_A": 3.305710987166439,
+          "radii_ratio": 3.089449520716298
+        },
+        {
+          "pair": [
+            3,
+            35
+          ],
+          "elements": [
+            "C",
+            "H"
+          ],
+          "distance_A": 2.8399732333592187,
+          "radii_ratio": 2.6541805919245034
+        }
+      ],
+      "metal_donor_distances": [
+        {
+          "index": 4,
+          "distance_A": 2.297190309144966
+        },
+        {
+          "index": 1,
+          "distance_A": 2.27936492521554
+        },
+        {
+          "index": 19,
+          "distance_A": 2.28599839748934
+        }
+      ],
+      "existing_hydride_distances_A": [
+        1.5566413820970246
+      ],
+      "maximum_ligand_bond_radii_ratio": 3.089449520716298
+    }
+  ],
+  "graph_source": "Current generator exact explicit-H ligand topology; same catalyst/state atom ordering as the original generated source"
+}

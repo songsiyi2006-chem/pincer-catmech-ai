@@ -1,0 +1,848 @@
+[
+  {
+    "catalyst_id": "Ru_macho_pnp_Ph",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Ru_macho_pnp_Ph",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Ru_macho_pnp_Ph",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Ru_macho_pnp_iPr",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Ru_macho_pnp_iPr",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Ru_macho_pnp_iPr",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Ru_pyridine_pnn_Ph",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Ru_pyridine_pnn_Ph",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Ru_pyridine_pnn_Ph",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Ru_pyridine_pnn_iPr",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Ru_pyridine_pnn_iPr",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Ru_pyridine_pnn_iPr",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Ru_bipyridine_pnnoh_Ph",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Ru_bipyridine_pnnoh_Ph",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Ru_bipyridine_pnnoh_Ph",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Ru_bipyridine_pnnoh_iPr",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Ru_bipyridine_pnnoh_iPr",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Ru_bipyridine_pnnoh_iPr",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_macho_pnp_Ph",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_macho_pnp_Ph",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_macho_pnp_Ph",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_macho_pnp_iPr",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_macho_pnp_iPr",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_macho_pnp_iPr",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_pyridine_pnn_Ph",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_pyridine_pnn_Ph",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_pyridine_pnn_Ph",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_pyridine_pnn_iPr",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_pyridine_pnn_iPr",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_pyridine_pnn_iPr",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_bipyridine_pnnoh_Ph",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_bipyridine_pnnoh_Ph",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_bipyridine_pnnoh_Ph",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_bipyridine_pnnoh_iPr",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_bipyridine_pnnoh_iPr",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Mn_bipyridine_pnnoh_iPr",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_macho_pnp_Ph",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_macho_pnp_Ph",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_macho_pnp_Ph",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_macho_pnp_iPr",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_macho_pnp_iPr",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_macho_pnp_iPr",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_pyridine_pnn_Ph",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_pyridine_pnn_Ph",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_pyridine_pnn_Ph",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_pyridine_pnn_iPr",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_pyridine_pnn_iPr",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_pyridine_pnn_iPr",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_bipyridine_pnnoh_Ph",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_bipyridine_pnnoh_Ph",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_bipyridine_pnnoh_Ph",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_bipyridine_pnnoh_iPr",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_bipyridine_pnnoh_iPr",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Fe_bipyridine_pnnoh_iPr",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Co_macho_pnp_Ph",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Co_macho_pnp_Ph",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Co_macho_pnp_Ph",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Co_macho_pnp_iPr",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Co_macho_pnp_iPr",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Co_macho_pnp_iPr",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Co_pyridine_pnn_Ph",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Co_pyridine_pnn_Ph",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Co_pyridine_pnn_Ph",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Co_pyridine_pnn_iPr",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Co_pyridine_pnn_iPr",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Co_pyridine_pnn_iPr",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [],
+    "status": "exported",
+    "balance": {
+      "balanced": true,
+      "product_minus_reactant_atoms": {},
+      "product_minus_reactant_charge": 0
+    }
+  },
+  {
+    "catalyst_id": "Co_bipyridine_pnnoh_Ph",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [
+      "Co_bipyridine_pnnoh_Ph|active"
+    ],
+    "status": "missing_eligible_certificate"
+  },
+  {
+    "catalyst_id": "Co_bipyridine_pnnoh_Ph",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [
+      "Co_bipyridine_pnnoh_Ph|active"
+    ],
+    "status": "missing_eligible_certificate"
+  },
+  {
+    "catalyst_id": "Co_bipyridine_pnnoh_Ph",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [
+      "Co_bipyridine_pnnoh_Ph|active"
+    ],
+    "status": "missing_eligible_certificate"
+  },
+  {
+    "catalyst_id": "Co_bipyridine_pnnoh_iPr",
+    "reaction": "alcohol_dehydrogenation",
+    "equation": "active_cat + benzyl_alcohol -> hydrogenated_cat + benzaldehyde",
+    "missing_species": [
+      "Co_bipyridine_pnnoh_iPr|active"
+    ],
+    "status": "missing_eligible_certificate"
+  },
+  {
+    "catalyst_id": "Co_bipyridine_pnnoh_iPr",
+    "reaction": "separated_ion_deprotonation",
+    "equation": "protonated_cat(+) + tert_butoxide(-) -> active_cat + tert_butanol",
+    "missing_species": [
+      "Co_bipyridine_pnnoh_iPr|active"
+    ],
+    "status": "missing_eligible_certificate"
+  },
+  {
+    "catalyst_id": "Co_bipyridine_pnnoh_iPr",
+    "reaction": "imine_hydrogenation",
+    "equation": "hydrogenated_cat + imine -> active_cat + product_amine",
+    "missing_species": [
+      "Co_bipyridine_pnnoh_iPr|active"
+    ],
+    "status": "missing_eligible_certificate"
+  }
+]

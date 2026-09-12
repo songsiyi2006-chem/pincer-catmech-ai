@@ -1,0 +1,117 @@
+{
+  "species": "hemiaminal",
+  "smiles": "OC(Nc1ccccc1)c1ccccc1",
+  "conformers": [
+    {
+      "conformer": 0,
+      "smiles": "OC(Nc1ccccc1)c1ccccc1",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -1127.7257692551216,
+        "max_force_eV_A": 0.0006348354292910495,
+        "wall_seconds": 2.375,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\hemiaminal\\conformer_00",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 28,
+        "output_sha256": "8ac8f93d586544bc4053fdd2fe95c5167ded30f5b6b153e3526b526415b17e86",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 1,
+      "smiles": "OC(Nc1ccccc1)c1ccccc1",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -1127.825703169917,
+        "max_force_eV_A": 0.0006387584216026718,
+        "wall_seconds": 1.75,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\hemiaminal\\conformer_01",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 28,
+        "output_sha256": "5a61f68b863699b30308faf1bb7009972621d451c03420ea4aba29416007be73",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 2,
+      "smiles": "OC(Nc1ccccc1)c1ccccc1",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -1127.8257373632277,
+        "max_force_eV_A": 0.0006708121951778931,
+        "wall_seconds": 1.9060000000026776,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\hemiaminal\\conformer_02",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 28,
+        "output_sha256": "ff3e42743f6082ea55d634b09f0ab3c9f7f8dd05525958ead5369fc0b023a57e",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    },
+    {
+      "conformer": 3,
+      "smiles": "OC(Nc1ccccc1)c1ccccc1",
+      "native_result": {
+        "status": "converged",
+        "energy_eV": -1127.6846553527625,
+        "max_force_eV_A": 0.0003531038870554833,
+        "wall_seconds": 2.8289999999979045,
+        "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\reference-scratch\\hemiaminal\\conformer_03",
+        "charge": 0,
+        "unpaired_electrons": 0,
+        "converged": true,
+        "atoms_count": 28,
+        "output_sha256": "f270d1fd28ea04825e370f12f22e5e836575d73c91ae3f474cf48ca1a676df83",
+        "error": null
+      },
+      "charge": 0,
+      "unpaired_electrons": 0,
+      "connectivity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+      }
+    }
+  ],
+  "status": "verified_minimum",
+  "accepted": true,
+  "best_conformer": 2,
+  "best_geometry_sha256": "7c9e815d19eaa4808917c5b80235e34b9c6308d74437168a50f7b31c1988e8d3",
+  "thermochemistry_file": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\reference_thermochemistry\\hemiaminal\\stationarity\\result.json",
+  "final_connectivity": {
+    "retained": true,
+    "lost_bonds": [],
+    "new_bonds": [],
+    "criterion": "1.28 times ASE covalent-radius sum, excluding K coordination"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "seed": 4180,
+  "catalyst_id": "Ru_macho_pnp_iPr",
+  "catalyst_atom_count": 59,
+  "complete_atom_count": 75,
+  "reactant_formula": "C24H45NO2P2Ru",
+  "product_formula": "C24H45NO2P2Ru",
+  "transfer_indices": {
+    "proton": 67,
+    "proton_donor": 59,
+    "proton_acceptor": 1,
+    "hydride": 68,
+    "hydride_donor": 60,
+    "hydride_acceptor": 0
+  },
+  "substrate_oxygen_index": 59,
+  "substrate_carbonyl_carbon_index": 60,
+  "electronic_state": {
+    "charge": 0,
+    "unpaired": 0,
+    "uhf": 0
+  },
+  "placement_score": 0.053044302333176946,
+  "placement_score_units": "geometric penalty; NOT an energy",
+  "minimum_initial_interfragment_distance_A": 0.8498698318414191,
+  "input_transfer_distances": {
+    "reactant": {
+      "proton": {
+        "donor_H_A": 0.9930213202179917,
+        "acceptor_H_A": 1.760342314709133
+      },
+      "hydride": {
+        "donor_H_A": 1.1140947863412236,
+        "acceptor_H_A": 1.822470830590192
+      }
+    },
+    "product": {
+      "proton": {
+        "donor_H_A": 2.856619909244447,
+        "acceptor_H_A": 1.0199999999999998
+      },
+      "hydride": {
+        "donor_H_A": 2.351202364699207,
+        "acceptor_H_A": 1.5999999999999999
+      }
+    }
+  },
+  "aldehyde_rigid_departure_A": 1.05,
+  "construction_status": "Mapped geometric hypotheses; endpoint optimization and basin validation are mandatory",
+  "substrate_preparation": "RDKit ETKDG plus organic UFF geometry preparation; no UFF energies used as quantum data"
+}

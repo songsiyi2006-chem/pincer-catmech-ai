@@ -1,0 +1,1240 @@
+{
+  "schema_version": 1,
+  "archive_format": "ZIP/deflate; work-root-relative members",
+  "original_work_root": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work",
+  "families": [
+    "co-neb-retry-scratch"
+  ],
+  "selection": {
+    "exact_names": [
+      "charges",
+      "energy",
+      "gradient",
+      "hessian",
+      "vibspectrum",
+      "wbo",
+      "xtbhess.coord"
+    ],
+    "suffixes": [
+      ".engrad",
+      ".in",
+      ".inp",
+      ".json",
+      ".jsonl",
+      ".log",
+      ".out",
+      ".txt",
+      ".xyz"
+    ]
+  },
+  "omitted": "Installed runtimes, executables, binary restart/cache files, xtbtopo.mol topology caches, .xtboptok sentinels and all names/extensions outside the explicit selection. Restart provenance and hashes remain in launch JSON; energies/forces/geometries/native outputs are included. Molecular identity is audited with saved XYZ, expected graph metadata, native WBO and full output, not the omitted topology cache.",
+  "integrity": "All archived members read back; CRC and full SHA256 verified",
+  "archives": [
+    {
+      "file": "native-co-neb-retry-scratch-001.zip",
+      "bytes": 604250,
+      "sha256": "987befde392f102565fb3c887b5a2c4b9d3ce4834ae39a09061c81c9a46cb14c",
+      "verified_members": 199
+    }
+  ],
+  "files": [
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_0/evaluation_000001_0/charges",
+      "bytes": 1184,
+      "sha256": "e2919b0851c7074b3baed3fbaf168547af6e260737191a6802e5d708a9a52bc4"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_0/evaluation_000001_0/energy",
+      "bytes": 77,
+      "sha256": "1b26ba8ad5ebcdcf61f4f409b26569652b89de2e8b2a92b8f83436b7f135309b"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_0/evaluation_000001_0/gradient",
+      "bytes": 10597,
+      "sha256": "04d09e6ad028e315eccbaa47f58411587aaf6b033a6838e0ede337da090f3ce3"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_0/evaluation_000001_0/input.engrad",
+      "bytes": 8710,
+      "sha256": "f143e455d27584870f028d3c328d42b3e771f7b44642f0de4c6bc5e3107d31ce"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_0/evaluation_000001_0/input.xyz",
+      "bytes": 5408,
+      "sha256": "bb6ed85e8822694ef4b7c1f687ec088004de6ab4bbc96c35b4cd7f124cee6deb"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_0/evaluation_000001_0/launch.json",
+      "bytes": 431,
+      "sha256": "b05ea60e74c1ca0a6ec9bd2e13d18268159de2fddd4bfef11aed58607892c244"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_0/evaluation_000001_0/wbo",
+      "bytes": 4108,
+      "sha256": "a3695ab24bfd5bc4f3d886b389dbc811ee2f7ea3e9fb7924e869bcca6699b7cd"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_0/evaluation_000001_0/xtb.out",
+      "bytes": 27884,
+      "sha256": "5fe181eb899a67820495816fc144d165cec1cb20cff7b38a07cbccfcaba9c163"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_1/evaluation_000001_0/charges",
+      "bytes": 1184,
+      "sha256": "66f6fa61e7ae3ef295c2a58a010f733513f0a9ac5b6026f8e4227cbcc7532515"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_1/evaluation_000001_0/energy",
+      "bytes": 77,
+      "sha256": "cb6777428eb7a35825c56b975f21024f85330a94693e0c275e4a8ed7fa371149"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_1/evaluation_000001_0/gradient",
+      "bytes": 10597,
+      "sha256": "1d45ef8f484b4e5ad8f107b314ef0cbaacac349db2609d93148f3338ad762da0"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_1/evaluation_000001_0/input.engrad",
+      "bytes": 8710,
+      "sha256": "0b69c20259316512aca9295fa1011361c936f9814f5bbffc22bd5766829eaf4d"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_1/evaluation_000001_0/input.xyz",
+      "bytes": 5408,
+      "sha256": "d9514e18d0b4ca997953e864e1aab0473b931dfcfcd80f713824bc07101efdf0"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_1/evaluation_000001_0/launch.json",
+      "bytes": 431,
+      "sha256": "fb1a1c2b644deeae550554d75d489e48e3a5b2eec1f7fd33e1291396aa2b0595"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_1/evaluation_000001_0/wbo",
+      "bytes": 4108,
+      "sha256": "1bdfce74b4a1ca66124c2df818fdae63d31659856d7fcdd4a86928e5811165c4"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_1/evaluation_000001_0/xtb.out",
+      "bytes": 28219,
+      "sha256": "c29f1b513fa18db7d50ebadc395aa9e45b96e4ee9a5a07b065918ffb2a12e162"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_1/evaluation_000002_0/charges",
+      "bytes": 1184,
+      "sha256": "938bd73b5fd6a504260ad84021b7ab3d50636353ea250879d4f2583390866274"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_1/evaluation_000002_0/energy",
+      "bytes": 77,
+      "sha256": "8ef0c9f826fe952d431e700157950904ee1d474607a6da0be6b91c1498758fd9"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_1/evaluation_000002_0/gradient",
+      "bytes": 10597,
+      "sha256": "cd4fddc63ef7564bee1558884c404c32ac9ad44b3c89fa442d4fa71f237b4469"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_1/evaluation_000002_0/input.engrad",
+      "bytes": 8710,
+      "sha256": "2a805b20cde934e29e7ba36a523cdbe2ed97ad212fea74302bc9802e5244d42e"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_1/evaluation_000002_0/input.xyz",
+      "bytes": 5408,
+      "sha256": "8d0bb9245fde04686f0ce7226561a37e815c41644af6326a16e7913f82251dc8"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_1/evaluation_000002_0/launch.json",
+      "bytes": 431,
+      "sha256": "9e0b0faca30ea6c7a62a2e325af2ba4f37f11224b68f8400adce222bc9206c29"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_1/evaluation_000002_0/wbo",
+      "bytes": 4108,
+      "sha256": "f93dcd260595d95013cbfbb0b89cf73a770fe8112ba4f7cd3ae07d2cf860ee46"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/endpoint_1/evaluation_000002_0/xtb.out",
+      "bytes": 28219,
+      "sha256": "3d4f283bce2392afd5b007250a26ede75243fdee77480a5a6cca2641547af35e"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_01/evaluation_000001_0/charges",
+      "bytes": 1184,
+      "sha256": "ea2000d121766dc856291f6ee51ef921a0419b795d0143a7dd5aabdb8cb5503e"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_01/evaluation_000001_0/energy",
+      "bytes": 77,
+      "sha256": "9ababe808b473d9c0d1fae2516c44817cf62da011f0eb27ce618b03465bfe0e8"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_01/evaluation_000001_0/gradient",
+      "bytes": 10597,
+      "sha256": "13579ebbb3997e5b6a0ac628f819b7393e9b20763f189741396dfbad36a21e53"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_01/evaluation_000001_0/input.engrad",
+      "bytes": 8710,
+      "sha256": "734c70993cf9a21779c2edcf663be69ca15a9ee6ff2a4fe158211a94438cce90"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_01/evaluation_000001_0/input.xyz",
+      "bytes": 5408,
+      "sha256": "c41ee60e50b8cbb07c56deb7414fd8b0e18aba7ba9c155c1a9b8abbd7d94e031"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_01/evaluation_000001_0/launch.json",
+      "bytes": 431,
+      "sha256": "10c9cf8f831b0e17424b08733340ff046342df66dcd4ed322bbe4f6366083f8e"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_01/evaluation_000001_0/wbo",
+      "bytes": 4212,
+      "sha256": "63bfb38d6c92689ac0de37add45d631935c74c19c7f205539913c01fec828537"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_01/evaluation_000001_0/xtb.out",
+      "bytes": 27978,
+      "sha256": "0f3d0b7d64fc5703264bc2ea814f73d7a3522d0416ba06e1b8194a85a0616cb1"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_01/evaluation_000002_0/charges",
+      "bytes": 1184,
+      "sha256": "b535d631e539054435c30404f87b11e2e78521d39aacdd156ebee04bac14cb02"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_01/evaluation_000002_0/energy",
+      "bytes": 77,
+      "sha256": "4906a99550feab04a6fc02dbd65e255fb18ccc96614d221535789d957f9708d4"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_01/evaluation_000002_0/gradient",
+      "bytes": 10597,
+      "sha256": "c2e3e715422c78c5c48f0940b98046df501a660850b3b96d2ea17b96b478120b"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_01/evaluation_000002_0/input.engrad",
+      "bytes": 8710,
+      "sha256": "e80d1d4d6bf5956b96413c682f99a6cd88af8cc1c12335254ca9e7c5fc8f02b5"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_01/evaluation_000002_0/input.xyz",
+      "bytes": 5408,
+      "sha256": "cc357a7af105c0290c87e27b4d4d6d12846b61b87b4196c27dd97ac946078f9d"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_01/evaluation_000002_0/launch.json",
+      "bytes": 431,
+      "sha256": "338a523bfbfdce32ce84d29bad935be4946ee630ca9528184eed3be2284bdc1b"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_01/evaluation_000002_0/wbo",
+      "bytes": 4212,
+      "sha256": "cfcd0fa65949c742a7daf6636e0658e2b8da229c55254c5f8ebe6ae52a67e038"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_01/evaluation_000002_0/xtb.out",
+      "bytes": 27978,
+      "sha256": "603d5da6a9e17998b93e85ea5dddaf2e5e00b2753f1572342d21deba145e8ffd"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_02/evaluation_000001_0/charges",
+      "bytes": 1184,
+      "sha256": "370cbb4fddffa1b298fc0cb1a4db644404fc93425b385c616cd24911431afec3"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_02/evaluation_000001_0/energy",
+      "bytes": 77,
+      "sha256": "e536e38e3d48cd882dac1d1dab7e5d35cb3738f95f98dac07e92487a48ba6203"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_02/evaluation_000001_0/gradient",
+      "bytes": 10597,
+      "sha256": "6879e0eff7d293a232f8cc529aad97197aaeb8dcc424cc01ed0784c8e448342f"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_02/evaluation_000001_0/input.engrad",
+      "bytes": 8710,
+      "sha256": "6d7331bc8ab2095a8f95bc81eeea97bb65206e485a31dc00e438c3e82d82867d"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_02/evaluation_000001_0/input.xyz",
+      "bytes": 5408,
+      "sha256": "8acd9c00d7b7a8ea9f6442b35c1a18670e97d2dee4953c5281f9092b586bbecb"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_02/evaluation_000001_0/launch.json",
+      "bytes": 431,
+      "sha256": "bf7983c347549b83176a1ce392bbcc451b5f81f96662e81b5556aa4e73c610ab"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_02/evaluation_000001_0/wbo",
+      "bytes": 4160,
+      "sha256": "349bd3cadeead326352cbc100aac768c6ce63d6452306ff74d5af4ede1e78cfa"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_02/evaluation_000001_0/xtb.out",
+      "bytes": 27907,
+      "sha256": "cc5ade4a0d92840618ecdfaab9699bd18c4ddd9fd65c030af77cbef220bb7ab0"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_02/evaluation_000002_0/charges",
+      "bytes": 1184,
+      "sha256": "f8c82923a41edce1be87418cd6de2474095d6cef0d43fcd8158ae0e030963eaa"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_02/evaluation_000002_0/energy",
+      "bytes": 77,
+      "sha256": "29a01d4acdee2ec553e6957436d46c0a706ee5a9fb1042713b9ca1b379548351"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_02/evaluation_000002_0/gradient",
+      "bytes": 10597,
+      "sha256": "0f0fcc7a6bcb1b4408f61a61813f0d98174bdd5be872b9ca66b3b0c1571d3fa6"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_02/evaluation_000002_0/input.engrad",
+      "bytes": 8710,
+      "sha256": "45dadfbc4ba81d57bc861ec3edcf0a519fb61eea513033558e88a47fe17ff5db"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_02/evaluation_000002_0/input.xyz",
+      "bytes": 5408,
+      "sha256": "ceb046bd4092b23bcf41832387f645a0ee0eab111612799ca2db140070b6844a"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_02/evaluation_000002_0/launch.json",
+      "bytes": 431,
+      "sha256": "d58e3f09d958a438906b9779a47fd274cb19b28d501110025c899877fef2c492"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_02/evaluation_000002_0/wbo",
+      "bytes": 4160,
+      "sha256": "1722e24c60441c6655ab2acfb61c598149b9a74facc2964730208c21f3608047"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_02/evaluation_000002_0/xtb.out",
+      "bytes": 27907,
+      "sha256": "7b6ce37132d270c7f9d738174c8cb90dfdca18d08b74a5af026752bd018f9f44"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/evaluation_000001_0/charges",
+      "bytes": 1184,
+      "sha256": "0992c201650229f33df925e23dd7c07994b7cce7477df1c616f5696c62bf9be2"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/evaluation_000001_0/energy",
+      "bytes": 77,
+      "sha256": "6b3b6dff4838e6f385cc9d3bca40dd9617962197dd459a974deb3d220e956aba"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/evaluation_000001_0/gradient",
+      "bytes": 10597,
+      "sha256": "5142db17ff37f3c0680a1569ebb26dbc61d1783b49fb9a4cd8df67d709d6ae6d"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/evaluation_000001_0/input.engrad",
+      "bytes": 8710,
+      "sha256": "b70b0c3df50704837789280f30ae334e744e906ec80d5389ddabefa90fb45671"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/evaluation_000001_0/input.xyz",
+      "bytes": 5408,
+      "sha256": "083f03bcc963a68a785cd26f4b90bdd987ad75cc70ed0fd89681b7ca1819cd07"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/evaluation_000001_0/launch.json",
+      "bytes": 431,
+      "sha256": "6f7994089447bfa3f0ed17e8a49fa55d8d26ed4b2fc54f7089072b79b029d2f8"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/evaluation_000001_0/wbo",
+      "bytes": 4160,
+      "sha256": "996577195d8a525e9f459cffe5825b25cd83947b1cc9ecd2530418419887f4e4"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/evaluation_000001_0/xtb.out",
+      "bytes": 28067,
+      "sha256": "94d76c8805edd3b5f790d08e538b5675cb404f4c674b6e4538fa56a193eac092"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/evaluation_000002_0/input.xyz",
+      "bytes": 5408,
+      "sha256": "d8774cb92d9001a9cd2768ef22c2598a966683d84482dce01fb771baed6f7242"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/evaluation_000002_0/launch.json",
+      "bytes": 431,
+      "sha256": "70d0685a2fce76faf281c167569b230c625dd4ecb3519867cf287c8299529d09"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/evaluation_000002_0/xtb.out",
+      "bytes": 45693,
+      "sha256": "e25fb11e6969d31973baee5acc07089da9278baf43769dd1da7136e0d3a23d31"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/evaluation_000002_1/input.xyz",
+      "bytes": 5408,
+      "sha256": "d8774cb92d9001a9cd2768ef22c2598a966683d84482dce01fb771baed6f7242"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/evaluation_000002_1/launch.json",
+      "bytes": 432,
+      "sha256": "ef3a86f42691319630d2bffdefb2f385ee3b296b1b69f6ff2eed4f75f5f7c5f1"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/evaluation_000002_1/xtb.out",
+      "bytes": 45676,
+      "sha256": "94237a787e8df55a4de21eef6c7d063c69a620264b5642b81aebb6934660faa0"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/evaluation_000002_2/input.xyz",
+      "bytes": 5408,
+      "sha256": "d8774cb92d9001a9cd2768ef22c2598a966683d84482dce01fb771baed6f7242"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/evaluation_000002_2/launch.json",
+      "bytes": 431,
+      "sha256": "ce0c5697920b1bd150aa3550d2f1d7805241685c85e6d7f46d28fba56997cc44"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/evaluation_000002_2/xtb.out",
+      "bytes": 45693,
+      "sha256": "376acfd1b562ce36764d3b3b3c88cb1d6862961cad3e900bebae73e78c76b63a"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_03/failed_000002.json",
+      "bytes": 736,
+      "sha256": "35c779cf6d9490cf3389176bfccf4a4e8d5e7549598e4ef7a9b4c16c3d8f5e60"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_04/evaluation_000001_0/charges",
+      "bytes": 1184,
+      "sha256": "f5796af70fa4e80964881d432eba2aaa8be8d356e7f2d630691ad0ed99869769"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_04/evaluation_000001_0/energy",
+      "bytes": 77,
+      "sha256": "162bbf7762ae8a41ca556865142cefdbc4a0f7ca8d8a9d10ca1c98535a27b989"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_04/evaluation_000001_0/gradient",
+      "bytes": 10597,
+      "sha256": "d19d7c5e67ec62d2e9ccfba4e4fcac6324319856ebb8f15583a0b1ef84c20b16"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_04/evaluation_000001_0/input.engrad",
+      "bytes": 8710,
+      "sha256": "09af3ceda54f0e5fcb86221e44387aae89a13288c1ac36adbc201ad24d211f64"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_04/evaluation_000001_0/input.xyz",
+      "bytes": 5408,
+      "sha256": "af22bffd1d1708dfd09fbd1465d1b393e8190354449f5a50130371d03e241371"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_04/evaluation_000001_0/launch.json",
+      "bytes": 431,
+      "sha256": "d498b35998e0af65c4e231a44c412dfc635e0b3d80f3ca26345294067b0b7c81"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_04/evaluation_000001_0/wbo",
+      "bytes": 4056,
+      "sha256": "ea1e11d634ed6f55091353ed9070b3458a235c53cdcdf92bceeac58b6304ef11"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_04/evaluation_000001_0/xtb.out",
+      "bytes": 28844,
+      "sha256": "d1423413e5d151b70525f17d22d88348dad6f7828b95aecd0c83f4941f49522b"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_05/evaluation_000001_0/charges",
+      "bytes": 1184,
+      "sha256": "bf5d63d905f2398222bf0290ac4d1cb9bf79be6e43993039a5eb5c5109f84973"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_05/evaluation_000001_0/energy",
+      "bytes": 77,
+      "sha256": "af832616699a5421fb116a73fb7998e7fedf2516cbd384d13816c5ae6ba52a3e"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_05/evaluation_000001_0/gradient",
+      "bytes": 10597,
+      "sha256": "b241b6b5a4970337e7763e9401eff22e3e831397c2205e6d666cc4031c9b5a10"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_05/evaluation_000001_0/input.engrad",
+      "bytes": 8710,
+      "sha256": "45efc3c293cb1f425cc104fbc08aafc22631b2b1a437c1be87c4724e74a5e175"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_05/evaluation_000001_0/input.xyz",
+      "bytes": 5408,
+      "sha256": "1740d6c9b970ca10879378a3a8b8d558779b684b98b28ef4634d3d9b60b45b3a"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_05/evaluation_000001_0/launch.json",
+      "bytes": 431,
+      "sha256": "171834cf87eeaebe508815b1932761879d520c0857d385bc06cf41856c5c17dd"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_05/evaluation_000001_0/wbo",
+      "bytes": 4108,
+      "sha256": "f8391bcd8a7f3e20a901b4580e2391ec719417c4de699a7055791e69bdf17eee"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_05/evaluation_000001_0/xtb.out",
+      "bytes": 28796,
+      "sha256": "db94942b3eb8ef358e7b79246ccfac2d1cf05820a669ec8ec07a2f8c8873d936"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_06/evaluation_000001_0/charges",
+      "bytes": 1184,
+      "sha256": "68c4ef7693e6a64606e714400e49b16d2a05044e24a801d9b18c811475804167"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_06/evaluation_000001_0/energy",
+      "bytes": 77,
+      "sha256": "5a6f1cfa86a9666c15ee70c762b8d4c554b982e18df7f57aeea8e2473d5e43c3"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_06/evaluation_000001_0/gradient",
+      "bytes": 10597,
+      "sha256": "58179dd20ba126ccdaa892af3457b24a419e75bd1d3b8cd9a3da3c72ab2736a2"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_06/evaluation_000001_0/input.engrad",
+      "bytes": 8710,
+      "sha256": "ac520761cc52c0b349cff80da59cfa1386b2dbb50e252fab4f1b03503679c4b0"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_06/evaluation_000001_0/input.xyz",
+      "bytes": 5408,
+      "sha256": "5b5d8540d7bd7857a60b9d1ed54d2f8556417e6175c8d486fe43b54d03dcfcb7"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_06/evaluation_000001_0/launch.json",
+      "bytes": 431,
+      "sha256": "9671b041384a6f9ed56d7c3bd5cae94e5c833e9bd7e43881944bf09a935d3bea"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_06/evaluation_000001_0/wbo",
+      "bytes": 4108,
+      "sha256": "572f18fdb1d54ca5c1536a0cf73f7838b45e876b732a9c92f28cde465d6512d6"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_06/evaluation_000001_0/xtb.out",
+      "bytes": 28420,
+      "sha256": "350c80249de6457c53e6d1c3b817378c5422fc70301a93983fc7c3d9a2804512"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_06/evaluation_000002_0/charges",
+      "bytes": 1184,
+      "sha256": "68c4ef7693e6a64606e714400e49b16d2a05044e24a801d9b18c811475804167"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_06/evaluation_000002_0/energy",
+      "bytes": 77,
+      "sha256": "5a6f1cfa86a9666c15ee70c762b8d4c554b982e18df7f57aeea8e2473d5e43c3"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_06/evaluation_000002_0/gradient",
+      "bytes": 10597,
+      "sha256": "496d2d10689090cb031f9f6fcfb706404797bd93998a7fb72be6a50f2c7d4093"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_06/evaluation_000002_0/input.engrad",
+      "bytes": 8710,
+      "sha256": "ac520761cc52c0b349cff80da59cfa1386b2dbb50e252fab4f1b03503679c4b0"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_06/evaluation_000002_0/input.xyz",
+      "bytes": 5408,
+      "sha256": "89a472b014114fef14cb535af1253d4758f58c4492a1dacaa35331ef7b85495c"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_06/evaluation_000002_0/launch.json",
+      "bytes": 431,
+      "sha256": "2af034737e2bca05c0740d3b8c6f44f9243dc032333e3072e836c4b572ded298"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_06/evaluation_000002_0/wbo",
+      "bytes": 4108,
+      "sha256": "4390c4ad759201107c488640452d656b410aa13864cb42a632ecc3ec1f72c19a"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_06/evaluation_000002_0/xtb.out",
+      "bytes": 28420,
+      "sha256": "f57317f6d7f7eb472c5b84c1addb8618ebdf800b852f729b44636311d91c030a"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_07/evaluation_000001_0/charges",
+      "bytes": 1184,
+      "sha256": "be539a1ed50982c2bbf102789eec13e0a0aa0234ae27ba3250d4068874f56b31"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_07/evaluation_000001_0/energy",
+      "bytes": 77,
+      "sha256": "b9ab0656d1ff4c6f7b208f835cfcf497ed039e02f5af9ee3f0c559f3a6a9e8a9"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_07/evaluation_000001_0/gradient",
+      "bytes": 10597,
+      "sha256": "883bc827eaa58f42b8afcc22fcf7b789df23adceb9d3296ea4a9b49ed72ecdaa"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_07/evaluation_000001_0/input.engrad",
+      "bytes": 8710,
+      "sha256": "9d7eafe193a9cba459ce4ed89c6d463726eafac099cf0265284b9dde2150d9a4"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_07/evaluation_000001_0/input.xyz",
+      "bytes": 5408,
+      "sha256": "8277d20c9c0364a66ac2d87e7a82a43141a9f36a946e2bb62eee4431932be876"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_07/evaluation_000001_0/launch.json",
+      "bytes": 431,
+      "sha256": "d9877092ee8b1c69c7d9dd058b66fed8fdf11c384a6d86eef1f5ae1ad096d016"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_07/evaluation_000001_0/wbo",
+      "bytes": 4108,
+      "sha256": "2190492c558c225dd7c7403034c1546c33e6f7250622a204fb194c0ddfec4122"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_iPr_resume_1789240249_44628/neb_image_07/evaluation_000001_0/xtb.out",
+      "bytes": 28219,
+      "sha256": "d537101a8ca6e5d1d83ef5d49ec6a71467821922a2dcf9621ca947aa2b71891c"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_0/evaluation_000001_0/charges",
+      "bytes": 1248,
+      "sha256": "6091de561dc0c1eeba183b61a0d41ab9e70e9da0b1be20e214343e7f7e242478"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_0/evaluation_000001_0/energy",
+      "bytes": 77,
+      "sha256": "62ddc22de130568db4699ba4e42e07e4490324e5ec0f6e3e506842552a73859b"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_0/evaluation_000001_0/gradient",
+      "bytes": 11165,
+      "sha256": "7e8cae75a5381c65bc90fe489dd5d7529734a6127fb859c2c5bd939f8e586ada"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_0/evaluation_000001_0/input.engrad",
+      "bytes": 9170,
+      "sha256": "e661f02e142ed664e5d0dc2f74aad3877f9ab14aa06c4d8a7829b971a88bf3e2"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_0/evaluation_000001_0/input.xyz",
+      "bytes": 5700,
+      "sha256": "9f51db670ffec85b2ec6075e9c82a1983fbb479589fa272e401644caba89c133"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_0/evaluation_000001_0/launch.json",
+      "bytes": 431,
+      "sha256": "ddc5408b906b764ed1761c735f19ae8e7e976d4c0289d0484e0243225794425b"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_0/evaluation_000001_0/wbo",
+      "bytes": 5252,
+      "sha256": "d7016bce3d735ff4d74219fbee380b86c0a2fbc988783b5ad8dcf1c53bed46dd"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_0/evaluation_000001_0/xtb.out",
+      "bytes": 29373,
+      "sha256": "e29982f9d3e473bf80a9953c5bcbe92a473eb51f3ea5b6fbee7cf5afbf77e164"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_1/evaluation_000001_0/charges",
+      "bytes": 1248,
+      "sha256": "d265885339796386ea44b884c05df232f34fe4001d67edff83347b7728a1b737"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_1/evaluation_000001_0/energy",
+      "bytes": 77,
+      "sha256": "31cc229287e18861f288bd5d54b82e3271dcae404040208a3b37541eb2611205"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_1/evaluation_000001_0/gradient",
+      "bytes": 11165,
+      "sha256": "2454fdca470cd682385e8cc6df8b622537e33717695e75e77fc34c390b2c2395"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_1/evaluation_000001_0/input.engrad",
+      "bytes": 9170,
+      "sha256": "a65ef699efd2ae0b64b5f3647efaef851b900b2361a17247cc5f7db987c0a9ba"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_1/evaluation_000001_0/input.xyz",
+      "bytes": 5700,
+      "sha256": "d56d1834dbc85996fb0cc91657f794a607ade22f43abb8efaa18c4059741f836"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_1/evaluation_000001_0/launch.json",
+      "bytes": 431,
+      "sha256": "6ac5ef4856bc70333cfdb46f5c49a2f92c9a1bf5a2efbd464ee6d60316604156"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_1/evaluation_000001_0/wbo",
+      "bytes": 5148,
+      "sha256": "834a985902113c1e8cc2776a8a7faeab923d4aade33564987fa4499ead432980"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_1/evaluation_000001_0/xtb.out",
+      "bytes": 29387,
+      "sha256": "dd62bb0c763a07220a7faa38be7e7334d13ba30c1d32b857e54e1919b4002b11"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_1/evaluation_000002_0/charges",
+      "bytes": 1248,
+      "sha256": "f8b8d1fe02c21b4046f1d3629f3398d9d209693070cf38ac91cadd6c8b7cde94"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_1/evaluation_000002_0/energy",
+      "bytes": 77,
+      "sha256": "0ea24592eab54cca61ac988619622003c59bedccb7026bfd1f7f011a38243ed9"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_1/evaluation_000002_0/gradient",
+      "bytes": 11165,
+      "sha256": "ea7e2ee8606be67c282de910f250f26b5bb4bf3eaf19198670cc1190d442d8d0"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_1/evaluation_000002_0/input.engrad",
+      "bytes": 9170,
+      "sha256": "6ea15305a85460202c84c2fafb0a985bacf161f076c1f73d6ae735a982f463b9"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_1/evaluation_000002_0/input.xyz",
+      "bytes": 5700,
+      "sha256": "f693da97abaf26bab7bdd7d3b0990a7ec2d99179c7dc0f1573928c947d9148e5"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_1/evaluation_000002_0/launch.json",
+      "bytes": 431,
+      "sha256": "0fc5c02f0f86d0f1543e48eb8dd9b3d26d42a19a878f9672db2db74d5f6ab242"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_1/evaluation_000002_0/wbo",
+      "bytes": 5148,
+      "sha256": "65423eb1c2dc91df7bcc065c2c33f498d0fee55d8b583b1cd149d6247c65223f"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/endpoint_1/evaluation_000002_0/xtb.out",
+      "bytes": 29387,
+      "sha256": "0fa2f0a9c64ae3d0e5a7bb0669de0fb88e0ad4e9dbad82d774569bbbb69c0f7e"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_01/evaluation_000001_0/charges",
+      "bytes": 1248,
+      "sha256": "943db531d8a3a7375fb128147485510fe2e39bcd63dd86c500490df9d0f86fa3"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_01/evaluation_000001_0/energy",
+      "bytes": 77,
+      "sha256": "3de1e0dd22337819f822b655f935fe4b04a0bf7c44bebadcae83f492c70749b9"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_01/evaluation_000001_0/gradient",
+      "bytes": 11165,
+      "sha256": "1a91b4d79e3136afdb333db421b6f3a600aff5683a60e449fe0bcd968a88e4b5"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_01/evaluation_000001_0/input.engrad",
+      "bytes": 9170,
+      "sha256": "bf9513cb482ad61f61eb5f0c9ae3f18d2ec8d91926f68eb248d28edb35e6fae4"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_01/evaluation_000001_0/input.xyz",
+      "bytes": 5700,
+      "sha256": "f4cec5a5e4abebddf936154776f543162432e436b5df1cfecd08ee6bde9555fe"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_01/evaluation_000001_0/launch.json",
+      "bytes": 431,
+      "sha256": "9387aef0884f00c6a9dc73d65c189913811cac79c3deb24f2f3a2df303454475"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_01/evaluation_000001_0/wbo",
+      "bytes": 5252,
+      "sha256": "3a1a7bbd4aa85d0c84df953cfc4dd867461049adc72d2321dbe2b07ada472440"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_01/evaluation_000001_0/xtb.out",
+      "bytes": 29373,
+      "sha256": "925db7def50a0f27499a2930a388b6790c8dfade9fe7d6deb398fcd99eddf8ed"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_02/evaluation_000001_0/charges",
+      "bytes": 1248,
+      "sha256": "8057bb60149f0c12cc6d0352ab17caf59244c158edb1827cdacb275ba6ea2c70"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_02/evaluation_000001_0/energy",
+      "bytes": 77,
+      "sha256": "408d803085b87217c63ebd5cd3693a8f596166211c6142c6bab5667833e6053b"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_02/evaluation_000001_0/gradient",
+      "bytes": 11165,
+      "sha256": "75ed6d5ae2beb7ef07245a41cd3b2d51a24243bf7ac99bcbd5b3af48bf8dc2e3"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_02/evaluation_000001_0/input.engrad",
+      "bytes": 9170,
+      "sha256": "bbd2b5b4613c6583a2278d77cc97c4fef1f8860cbdefed7293a996b8ac9dae41"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_02/evaluation_000001_0/input.xyz",
+      "bytes": 5700,
+      "sha256": "4b5191ebb7a790deab7aeb5ef574db575fae2f6623b5cd526f93ec7778c09827"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_02/evaluation_000001_0/launch.json",
+      "bytes": 431,
+      "sha256": "11ee8d79fedd367ac2b2163503475e48f6b25ee218062fd72df36960d428315a"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_02/evaluation_000001_0/wbo",
+      "bytes": 5148,
+      "sha256": "2f69f621fa0b537f9d782a3b0904d0e1bbb2e78931994548c2dce2c69bcd7475"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_02/evaluation_000001_0/xtb.out",
+      "bytes": 29361,
+      "sha256": "af84af60fa4118968917dd9bdb2ffe98c7ff325c159d9ec787b961b415c71654"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_03/evaluation_000001_0/charges",
+      "bytes": 1248,
+      "sha256": "90493e79d9e72f3065f89bdfdcba82e8eedc6de9d8c7ae6e30f8c57a12ac805e"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_03/evaluation_000001_0/energy",
+      "bytes": 77,
+      "sha256": "0967d75806960462f0ef41fc9d4f7ad5a90c0faaefb61d29b577b707ea4e85ba"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_03/evaluation_000001_0/gradient",
+      "bytes": 11165,
+      "sha256": "bbdf3fcd0f23f53508dccde4242a356973dd0c041f48e3b2deed2209c72af16d"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_03/evaluation_000001_0/input.engrad",
+      "bytes": 9170,
+      "sha256": "54080b1d4c0db3c656e02769be25738be92bca5294482085eaac81bbf7e80686"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_03/evaluation_000001_0/input.xyz",
+      "bytes": 5700,
+      "sha256": "0d793ee5b5005622321a8d757a821d1ea7a654fa1134370d9c3638ebf19da567"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_03/evaluation_000001_0/launch.json",
+      "bytes": 431,
+      "sha256": "4ff0babb293513172c7a24365088239538aff67684a1c4f7071480167517a60a"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_03/evaluation_000001_0/wbo",
+      "bytes": 5148,
+      "sha256": "db1d30b66a47ce98ede0d1012042fe8e643961acf99d058497e8a7fa41242913"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_03/evaluation_000001_0/xtb.out",
+      "bytes": 29454,
+      "sha256": "9d4ca354dc988df54baf1a10a3227c73fb58e06523fe2a31105f5bb992a3cc74"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_04/evaluation_000001_0/charges",
+      "bytes": 1248,
+      "sha256": "e75cfbb0767761c81f485f6c766d0e81107d80d4afc0286b0adc2570b33279b1"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_04/evaluation_000001_0/energy",
+      "bytes": 77,
+      "sha256": "511527fa2508f06473b4487fb15939fee8ffd17770eea129410265f042ab3243"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_04/evaluation_000001_0/gradient",
+      "bytes": 11165,
+      "sha256": "a9275629fa35df6c56d4b63a4d1545ad34b7cb6852071b469960a6251c70636e"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_04/evaluation_000001_0/input.engrad",
+      "bytes": 9170,
+      "sha256": "fafeadc9ff857c601d58955a6ab6f7fce1d279b48bfd138c6e12b3645d15feb1"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_04/evaluation_000001_0/input.xyz",
+      "bytes": 5700,
+      "sha256": "4915e9fe26d570a3a76e3e4622a5e61092c304ccddfdf421dcfd4843de0cd6eb"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_04/evaluation_000001_0/launch.json",
+      "bytes": 431,
+      "sha256": "4dcadb597479f28f9c152efd3ede61e9e903f157697d1b61067346e479bcf6f1"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_04/evaluation_000001_0/wbo",
+      "bytes": 5148,
+      "sha256": "44bb936d0dd4662e54aa788c5b0421c55f33d74c504d5b349e639aef9f6e102a"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_04/evaluation_000001_0/xtb.out",
+      "bytes": 29320,
+      "sha256": "3fae41f5467d9ef66f3d699c69edeb3b62fe2b9f4d63fe9a78c351430cae2d56"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_0/input.xyz",
+      "bytes": 5700,
+      "sha256": "142925b9ed014e6b891fbb0d3fc1d8acf38197bc840035eac9275fc1961ded28"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_0/launch.json",
+      "bytes": 431,
+      "sha256": "c84e9a4e416b9b15b74885897d45544c275a9b02d678780360c2ba5b2220533c"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_0/xtb.out",
+      "bytes": 45679,
+      "sha256": "448f23e432629583eddc648c53b4a3a3244e376c69fea8727434d643fa06d9c8"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_1/charges",
+      "bytes": 1248,
+      "sha256": "65649254d6bd0804efafda610a92a00093ff366f4d301a558e01ea0fed1fbf8e"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_1/energy",
+      "bytes": 77,
+      "sha256": "2b371ac3a433ce12ad823d125ce193668b373de6508c9796a785ae9c49049bfa"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_1/gradient",
+      "bytes": 11165,
+      "sha256": "b025056f505b0d310b657af1af0cd9fe8aae6fb96ce109ffd294ba53402e8d41"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_1/input.engrad",
+      "bytes": 9170,
+      "sha256": "b98852a538bc89b8457610de9131df98a3fd9205c4739294a26da797496117b0"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_1/input.xyz",
+      "bytes": 5700,
+      "sha256": "142925b9ed014e6b891fbb0d3fc1d8acf38197bc840035eac9275fc1961ded28"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_1/launch.json",
+      "bytes": 432,
+      "sha256": "c810aadbbb1feb622517cc004d2c423aef487208f66463540b703520cb083160"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_1/wbo",
+      "bytes": 5148,
+      "sha256": "ea6c308988b0defcdadb9cbbcd4a2835edce5662137ce6b23e666776358e4e8c"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_1/xtb.out",
+      "bytes": 30728,
+      "sha256": "d932177df26d9c9ced9aea986c43323e993da9849e5369d7e9178d675a4b0e7f"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_2/charges",
+      "bytes": 1248,
+      "sha256": "f387c28e62ccf149aa0d67301668f3bff8f75fc792d45695761f444cc5bb1631"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_2/energy",
+      "bytes": 77,
+      "sha256": "1e96171c6e5504852851fa599b15c44c49e8a5cc3e4165bb952e595c527f5dc9"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_2/gradient",
+      "bytes": 11165,
+      "sha256": "3f0864d2fe4efa457e1aba7202099845ee0d80e7ebe879dc2d473466fdd8228c"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_2/input.engrad",
+      "bytes": 9170,
+      "sha256": "d6756e207ec1b97d014bff7f6d34ef7bbeda615e9c95af32b294318da100de46"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_2/input.xyz",
+      "bytes": 5700,
+      "sha256": "142925b9ed014e6b891fbb0d3fc1d8acf38197bc840035eac9275fc1961ded28"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_2/launch.json",
+      "bytes": 673,
+      "sha256": "bacc995f4a7beb3a1688a6d454cd89b658ee0fac52a82ca300ad8aab605e3ee3"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_2/wbo",
+      "bytes": 5148,
+      "sha256": "4260f55e5140a06b98a0fc87d8aa24d6b131e752c5a21be864e2d837a975a00b"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_05/evaluation_000001_2/xtb.out",
+      "bytes": 28927,
+      "sha256": "98b55cf77541880bda011e278fc5d6810ad7aa9a05bdbed30ca0c3ae98818155"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_06/evaluation_000001_0/input.xyz",
+      "bytes": 5700,
+      "sha256": "6ad041517f2df705348775499054ab34c92bc490c921a088f9a45517f17ea498"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_06/evaluation_000001_0/launch.json",
+      "bytes": 431,
+      "sha256": "1d982cdab7a5975d03aef4fa307889d9ce1a3fd630fde331909134dc863634c6"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_06/evaluation_000001_0/xtb.out",
+      "bytes": 45679,
+      "sha256": "7fb26dbfa0c43b91a0cd2cfd0f6ba5a0201f64afd23c4e8935a2629cc582c9f9"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_06/evaluation_000001_1/input.xyz",
+      "bytes": 5700,
+      "sha256": "6ad041517f2df705348775499054ab34c92bc490c921a088f9a45517f17ea498"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_06/evaluation_000001_1/launch.json",
+      "bytes": 432,
+      "sha256": "81f9c297fabf72dcb32af0218e2fb2dd982e3f76777aca5f5cadcef4928cd264"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_06/evaluation_000001_1/xtb.out",
+      "bytes": 45698,
+      "sha256": "500ee1af6fd8d849883c828da1bd46a8a62a7584fe07856ffe81a2d102929409"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_06/evaluation_000001_2/input.xyz",
+      "bytes": 5700,
+      "sha256": "6ad041517f2df705348775499054ab34c92bc490c921a088f9a45517f17ea498"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_06/evaluation_000001_2/launch.json",
+      "bytes": 431,
+      "sha256": "e9095c76481623347b768a37ce97007c07e0e923b571d7f23938613e46d13e2a"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_06/evaluation_000001_2/xtb.out",
+      "bytes": 45679,
+      "sha256": "f3ab1197bd5c6a7aca9365e557d5f7e875f1e5ddbea6a08ed09481c9c4cc264f"
+    },
+    {
+      "archive": "native-co-neb-retry-scratch-001.zip",
+      "member": "co-neb-retry-scratch/Co_macho_pnp_Ph_retry_endpoints_1789240349_36692/neb_image_06/failed_000001.json",
+      "bytes": 736,
+      "sha256": "e7389ba013043876670b4efe3b7f823f32d757722af26fe39f31e5af8a140c3c"
+    }
+  ],
+  "file_count": 199,
+  "uncompressed_bytes_by_family": {
+    "co-neb-retry-scratch": 1689389
+  }
+}

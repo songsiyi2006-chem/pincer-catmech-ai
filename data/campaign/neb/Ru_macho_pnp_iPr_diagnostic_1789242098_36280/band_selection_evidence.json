@@ -1,0 +1,182 @@
+{
+  "created_utc": "2026-09-12T19:48:08.811133+00:00",
+  "source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign\\neb\\Ru_macho_pnp_iPr_retry_endpoints_1789240154_14800\\path\\neb.traj",
+  "source_sha256": "6c88ad2668d0877d240fe5bab04ee4d1cf2df33b7fa89fa21d52ac21a3e86589",
+  "selected_image": 3,
+  "actual_recorded_global_peak_image": 3,
+  "selection_basis": "Image 3 has both hydrogen progress coordinates negative but near their sign change; image 4 has both positive",
+  "scope": "Selection provenance for a nonstationary image Hessian diagnostic; the band is not converged and no energy difference here is a barrier",
+  "images": [
+    {
+      "image": 0,
+      "source_frame": 666,
+      "recorded_electronic_energy_eV": -2551.64578491358,
+      "transfer_distances": {
+        "proton": {
+          "donor_H_A": 0.9785007980862067,
+          "acceptor_H_A": 2.6844624125204315
+        },
+        "hydride": {
+          "donor_H_A": 1.101952787272201,
+          "acceptor_H_A": 4.338182851025381
+        }
+      },
+      "progress_q_A": {
+        "proton": -1.7059616144342247,
+        "hydride": -3.2362300637531796
+      }
+    },
+    {
+      "image": 1,
+      "source_frame": 667,
+      "recorded_electronic_energy_eV": -2551.579909083117,
+      "transfer_distances": {
+        "proton": {
+          "donor_H_A": 0.9788275104413584,
+          "acceptor_H_A": 2.4245756544477253
+        },
+        "hydride": {
+          "donor_H_A": 1.1011497274200948,
+          "acceptor_H_A": 4.045724008357447
+        }
+      },
+      "progress_q_A": {
+        "proton": -1.4457481440063669,
+        "hydride": -2.9445742809373523
+      }
+    },
+    {
+      "image": 2,
+      "source_frame": 668,
+      "recorded_electronic_energy_eV": -2551.416533842877,
+      "transfer_distances": {
+        "proton": {
+          "donor_H_A": 0.9792663736226673,
+          "acceptor_H_A": 2.1930393688168475
+        },
+        "hydride": {
+          "donor_H_A": 1.103105691295216,
+          "acceptor_H_A": 3.7967975602028146
+        }
+      },
+      "progress_q_A": {
+        "proton": -1.21377299519418,
+        "hydride": -2.6936918689075986
+      }
+    },
+    {
+      "image": 3,
+      "source_frame": 669,
+      "recorded_electronic_energy_eV": -2549.5867810193026,
+      "transfer_distances": {
+        "proton": {
+          "donor_H_A": 1.108683911581963,
+          "acceptor_H_A": 1.6275483250032048
+        },
+        "hydride": {
+          "donor_H_A": 2.119399430520868,
+          "acceptor_H_A": 2.759013244606563
+        }
+      },
+      "progress_q_A": {
+        "proton": -0.5188644134212417,
+        "hydride": -0.6396138140856951
+      }
+    },
+    {
+      "image": 4,
+      "source_frame": 670,
+      "recorded_electronic_energy_eV": -2551.589045849114,
+      "transfer_distances": {
+        "proton": {
+          "donor_H_A": 2.200857465898044,
+          "acceptor_H_A": 1.0250098446267673
+        },
+        "hydride": {
+          "donor_H_A": 2.8968391811031613,
+          "acceptor_H_A": 2.1784594446107666
+        }
+      },
+      "progress_q_A": {
+        "proton": 1.175847621271277,
+        "hydride": 0.7183797364923947
+      }
+    },
+    {
+      "image": 5,
+      "source_frame": 671,
+      "recorded_electronic_energy_eV": -2551.2405686810866,
+      "transfer_distances": {
+        "proton": {
+          "donor_H_A": 1.9124997154388226,
+          "acceptor_H_A": 1.026019938782962
+        },
+        "hydride": {
+          "donor_H_A": 3.4470661983132693,
+          "acceptor_H_A": 2.1156848911213246
+        }
+      },
+      "progress_q_A": {
+        "proton": 0.8864797766558605,
+        "hydride": 1.3313813071919447
+      }
+    },
+    {
+      "image": 6,
+      "source_frame": 672,
+      "recorded_electronic_energy_eV": -2551.8269640532103,
+      "transfer_distances": {
+        "proton": {
+          "donor_H_A": 2.0775697401096496,
+          "acceptor_H_A": 1.0264877596125448
+        },
+        "hydride": {
+          "donor_H_A": 3.376600900754695,
+          "acceptor_H_A": 2.139222232940589
+        }
+      },
+      "progress_q_A": {
+        "proton": 1.0510819804971048,
+        "hydride": 1.2373786678141059
+      }
+    },
+    {
+      "image": 7,
+      "source_frame": 673,
+      "recorded_electronic_energy_eV": -2552.1432666666783,
+      "transfer_distances": {
+        "proton": {
+          "donor_H_A": 1.9333143521070157,
+          "acceptor_H_A": 1.029398649170353
+        },
+        "hydride": {
+          "donor_H_A": 3.895430588363514,
+          "acceptor_H_A": 1.589786156569254
+        }
+      },
+      "progress_q_A": {
+        "proton": 0.9039157029366627,
+        "hydride": 2.30564443179426
+      }
+    },
+    {
+      "image": 8,
+      "source_frame": 674,
+      "recorded_electronic_energy_eV": -2552.223642919111,
+      "transfer_distances": {
+        "proton": {
+          "donor_H_A": 1.9308517502972946,
+          "acceptor_H_A": 1.0294624166305626
+        },
+        "hydride": {
+          "donor_H_A": 4.084068516513525,
+          "acceptor_H_A": 1.582434220505167
+        }
+      },
+      "progress_q_A": {
+        "proton": 0.901389333666732,
+        "hydride": 2.5016342960083575
+      }
+    }
+  ]
+}

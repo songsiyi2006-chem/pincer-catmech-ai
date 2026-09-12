@@ -1,0 +1,1629 @@
+{
+  "recorded_at_utc": "2026-09-12T18:37:36.455641+00:00",
+  "clarification": "The legacy conformer audit omitted its ligand-subset indexing convention. For these structures full ASE index equals ligand-local index plus one because metal occupies full index0. The old missing SHA cannot itself establish file immutability; current source hashes are compared against original campaign records below. No geometry replacement is alleged.",
+  "sections": [
+    {
+      "legacy_audit": "data\\campaign\\neb\\ru_active_conformer_identity_audit_alpb.json",
+      "legacy_audit_sha256": "54d470dd009231226cc3b47a270773317878410ab69a1a2aeac7ba331191fb89",
+      "legacy_audit_preserved": true,
+      "rows": [
+        {
+          "catalyst_id": "Ru_macho_pnp_iPr",
+          "conformer": 0,
+          "legacy_indexing": "zero-based within atoms[metadata.ligand_indices], not the full ASE molecule",
+          "legacy_ligand_local_lost_bonds": [
+            [
+              10,
+              37
+            ]
+          ],
+          "ligand_local_to_full_ASE_index": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "full_ASE_lost_bonds": [
+            [
+              11,
+              38
+            ]
+          ],
+          "source_xyz": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_iPr\\active\\conformer_0000\\xtbopt.xyz",
+          "current_source_xyz_sha256": "5b6a6b404c2b3cb7994e2f795dea365da3939c4b95b6adc65011a69c6d6e8edd",
+          "recorded_optimized_geometry_sha256": "5b6a6b404c2b3cb7994e2f795dea365da3939c4b95b6adc65011a69c6d6e8edd",
+          "current_hash_matches_original_record": true,
+          "remeasured_lost_bond_distances_A": [
+            {
+              "full_ASE_pair": [
+                11,
+                38
+              ],
+              "distance_A": 2.3311859567137176,
+              "elements": [
+                "C",
+                "H"
+              ],
+              "second_atom_metal_distance_A": 1.5615935617915564
+            }
+          ],
+          "full_public_identity_screen": {
+            "retained": false,
+            "ligand_retained": false,
+            "original_nonmetal_graph_retained": false,
+            "lost_bonds": [
+              [
+                11,
+                38
+              ]
+            ],
+            "new_bonds": [],
+            "ligand_lost_bonds": [
+              [
+                11,
+                38
+              ]
+            ],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [
+              1.552900515567029
+            ],
+            "metal_carbonyl_distances_A": [
+              1.8446538693298165
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          }
+        },
+        {
+          "catalyst_id": "Ru_macho_pnp_Ph",
+          "conformer": 0,
+          "legacy_indexing": "zero-based within atoms[metadata.ligand_indices], not the full ASE molecule",
+          "legacy_ligand_local_lost_bonds": [
+            [
+              1,
+              32
+            ]
+          ],
+          "ligand_local_to_full_ASE_index": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "full_ASE_lost_bonds": [
+            [
+              2,
+              33
+            ]
+          ],
+          "source_xyz": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_Ph\\active\\conformer_0000\\xtbopt.xyz",
+          "current_source_xyz_sha256": "f8072e3a2fc3f7513547e006ad5a7e8bc79fa092c7be3f6006d1d83623a572ad",
+          "recorded_optimized_geometry_sha256": "f8072e3a2fc3f7513547e006ad5a7e8bc79fa092c7be3f6006d1d83623a572ad",
+          "current_hash_matches_original_record": true,
+          "remeasured_lost_bond_distances_A": [
+            {
+              "full_ASE_pair": [
+                2,
+                33
+              ],
+              "distance_A": 2.3699263372633337,
+              "elements": [
+                "C",
+                "H"
+              ],
+              "second_atom_metal_distance_A": 1.571848142531735
+            }
+          ],
+          "full_public_identity_screen": {
+            "retained": false,
+            "ligand_retained": false,
+            "original_nonmetal_graph_retained": false,
+            "lost_bonds": [
+              [
+                2,
+                33
+              ]
+            ],
+            "new_bonds": [],
+            "ligand_lost_bonds": [
+              [
+                2,
+                33
+              ]
+            ],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [
+              1.5522994808062152
+            ],
+            "metal_carbonyl_distances_A": [
+              1.8491720109325887
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          }
+        },
+        {
+          "catalyst_id": "Ru_macho_pnp_iPr",
+          "conformer": 1,
+          "legacy_indexing": "zero-based within atoms[metadata.ligand_indices], not the full ASE molecule",
+          "legacy_ligand_local_lost_bonds": [
+            [
+              1,
+              20
+            ]
+          ],
+          "ligand_local_to_full_ASE_index": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "full_ASE_lost_bonds": [
+            [
+              2,
+              21
+            ]
+          ],
+          "source_xyz": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_iPr\\active\\conformer_0001\\xtbopt.xyz",
+          "current_source_xyz_sha256": "74c808cb68c4c0e05d8a9df1bcb90dcbd0390b5cfb08d7f2560b03c44c70cfcc",
+          "recorded_optimized_geometry_sha256": "74c808cb68c4c0e05d8a9df1bcb90dcbd0390b5cfb08d7f2560b03c44c70cfcc",
+          "current_hash_matches_original_record": true,
+          "remeasured_lost_bond_distances_A": [
+            {
+              "full_ASE_pair": [
+                2,
+                21
+              ],
+              "distance_A": 2.3498538655246066,
+              "elements": [
+                "C",
+                "H"
+              ],
+              "second_atom_metal_distance_A": 1.5628111070320452
+            }
+          ],
+          "full_public_identity_screen": {
+            "retained": false,
+            "ligand_retained": false,
+            "original_nonmetal_graph_retained": false,
+            "lost_bonds": [
+              [
+                2,
+                21
+              ]
+            ],
+            "new_bonds": [],
+            "ligand_lost_bonds": [
+              [
+                2,
+                21
+              ]
+            ],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [
+              1.5508699306490363
+            ],
+            "metal_carbonyl_distances_A": [
+              1.84423802669935
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          }
+        },
+        {
+          "catalyst_id": "Ru_macho_pnp_Ph",
+          "conformer": 1,
+          "legacy_indexing": "zero-based within atoms[metadata.ligand_indices], not the full ASE molecule",
+          "legacy_ligand_local_lost_bonds": [
+            [
+              1,
+              31
+            ]
+          ],
+          "ligand_local_to_full_ASE_index": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "full_ASE_lost_bonds": [
+            [
+              2,
+              32
+            ]
+          ],
+          "source_xyz": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_Ph\\active\\conformer_0001\\xtbopt.xyz",
+          "current_source_xyz_sha256": "16b2e9ebfd440c624089cd8f1888aae3bfcc81dda27592bc069741f4c413cd67",
+          "recorded_optimized_geometry_sha256": "16b2e9ebfd440c624089cd8f1888aae3bfcc81dda27592bc069741f4c413cd67",
+          "current_hash_matches_original_record": true,
+          "remeasured_lost_bond_distances_A": [
+            {
+              "full_ASE_pair": [
+                2,
+                32
+              ],
+              "distance_A": 2.3748563742194677,
+              "elements": [
+                "C",
+                "H"
+              ],
+              "second_atom_metal_distance_A": 1.568571099616623
+            }
+          ],
+          "full_public_identity_screen": {
+            "retained": false,
+            "ligand_retained": false,
+            "original_nonmetal_graph_retained": false,
+            "lost_bonds": [
+              [
+                2,
+                32
+              ]
+            ],
+            "new_bonds": [],
+            "ligand_lost_bonds": [
+              [
+                2,
+                32
+              ]
+            ],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [
+              1.54688575809729
+            ],
+            "metal_carbonyl_distances_A": [
+              1.8475216888313788
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          }
+        },
+        {
+          "catalyst_id": "Ru_macho_pnp_iPr",
+          "conformer": 2,
+          "legacy_indexing": "zero-based within atoms[metadata.ligand_indices], not the full ASE molecule",
+          "legacy_ligand_local_lost_bonds": [],
+          "ligand_local_to_full_ASE_index": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "full_ASE_lost_bonds": [],
+          "source_xyz": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_iPr\\active\\conformer_0002\\xtbopt.xyz",
+          "current_source_xyz_sha256": "d599b95371078e32b63b56c9700a63d59ba56a10758fdfbcf4b02accf7f80a6c",
+          "recorded_optimized_geometry_sha256": "d599b95371078e32b63b56c9700a63d59ba56a10758fdfbcf4b02accf7f80a6c",
+          "current_hash_matches_original_record": true,
+          "remeasured_lost_bond_distances_A": [],
+          "full_public_identity_screen": {
+            "retained": true,
+            "ligand_retained": true,
+            "original_nonmetal_graph_retained": true,
+            "lost_bonds": [],
+            "new_bonds": [],
+            "ligand_lost_bonds": [],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [
+              1.5630276715308244
+            ],
+            "metal_carbonyl_distances_A": [
+              1.8372455842609938
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          }
+        },
+        {
+          "catalyst_id": "Ru_macho_pnp_Ph",
+          "conformer": 2,
+          "legacy_indexing": "zero-based within atoms[metadata.ligand_indices], not the full ASE molecule",
+          "legacy_ligand_local_lost_bonds": [
+            [
+              1,
+              31
+            ]
+          ],
+          "ligand_local_to_full_ASE_index": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "full_ASE_lost_bonds": [
+            [
+              2,
+              32
+            ]
+          ],
+          "source_xyz": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_Ph\\active\\conformer_0002\\xtbopt.xyz",
+          "current_source_xyz_sha256": "ab08d9af92623e1b6847397d84bc8e4255835f5bfa7a31118e425e9f61c0a4c2",
+          "recorded_optimized_geometry_sha256": "ab08d9af92623e1b6847397d84bc8e4255835f5bfa7a31118e425e9f61c0a4c2",
+          "current_hash_matches_original_record": true,
+          "remeasured_lost_bond_distances_A": [
+            {
+              "full_ASE_pair": [
+                2,
+                32
+              ],
+              "distance_A": 2.3503762257609027,
+              "elements": [
+                "C",
+                "H"
+              ],
+              "second_atom_metal_distance_A": 1.5703432625991205
+            }
+          ],
+          "full_public_identity_screen": {
+            "retained": false,
+            "ligand_retained": false,
+            "original_nonmetal_graph_retained": false,
+            "lost_bonds": [
+              [
+                2,
+                32
+              ]
+            ],
+            "new_bonds": [],
+            "ligand_lost_bonds": [
+              [
+                2,
+                32
+              ]
+            ],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [
+              1.5522592384820517
+            ],
+            "metal_carbonyl_distances_A": [
+              1.84918238391624
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          }
+        },
+        {
+          "catalyst_id": "Ru_macho_pnp_Ph",
+          "conformer": 3,
+          "legacy_indexing": "zero-based within atoms[metadata.ligand_indices], not the full ASE molecule",
+          "legacy_ligand_local_lost_bonds": [
+            [
+              1,
+              31
+            ]
+          ],
+          "ligand_local_to_full_ASE_index": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "full_ASE_lost_bonds": [
+            [
+              2,
+              32
+            ]
+          ],
+          "source_xyz": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_Ph\\active\\conformer_0003\\xtbopt.xyz",
+          "current_source_xyz_sha256": "47f4c578e6f0235520cb07c19316d49caf0e1b7cba03cd76c4b831e65473997d",
+          "recorded_optimized_geometry_sha256": "47f4c578e6f0235520cb07c19316d49caf0e1b7cba03cd76c4b831e65473997d",
+          "current_hash_matches_original_record": true,
+          "remeasured_lost_bond_distances_A": [
+            {
+              "full_ASE_pair": [
+                2,
+                32
+              ],
+              "distance_A": 2.3740527591073803,
+              "elements": [
+                "C",
+                "H"
+              ],
+              "second_atom_metal_distance_A": 1.5688059396260092
+            }
+          ],
+          "full_public_identity_screen": {
+            "retained": false,
+            "ligand_retained": false,
+            "original_nonmetal_graph_retained": false,
+            "lost_bonds": [
+              [
+                2,
+                32
+              ]
+            ],
+            "new_bonds": [],
+            "ligand_lost_bonds": [
+              [
+                2,
+                32
+              ]
+            ],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [
+              1.5468594513496874
+            ],
+            "metal_carbonyl_distances_A": [
+              1.847543832284281
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          }
+        },
+        {
+          "catalyst_id": "Ru_macho_pnp_iPr",
+          "conformer": 3,
+          "legacy_indexing": "zero-based within atoms[metadata.ligand_indices], not the full ASE molecule",
+          "legacy_ligand_local_lost_bonds": [
+            [
+              1,
+              19
+            ]
+          ],
+          "ligand_local_to_full_ASE_index": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "full_ASE_lost_bonds": [
+            [
+              2,
+              20
+            ]
+          ],
+          "source_xyz": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_iPr\\active\\conformer_0003\\xtbopt.xyz",
+          "current_source_xyz_sha256": "85d9122463d3db26777fd58e857ffbe644ab050c6508947b035deec6f96a6beb",
+          "recorded_optimized_geometry_sha256": "85d9122463d3db26777fd58e857ffbe644ab050c6508947b035deec6f96a6beb",
+          "current_hash_matches_original_record": true,
+          "remeasured_lost_bond_distances_A": [
+            {
+              "full_ASE_pair": [
+                2,
+                20
+              ],
+              "distance_A": 2.9363002908758435,
+              "elements": [
+                "C",
+                "H"
+              ],
+              "second_atom_metal_distance_A": 1.5385309179616555
+            }
+          ],
+          "full_public_identity_screen": {
+            "retained": false,
+            "ligand_retained": false,
+            "original_nonmetal_graph_retained": false,
+            "lost_bonds": [
+              [
+                2,
+                20
+              ]
+            ],
+            "new_bonds": [],
+            "ligand_lost_bonds": [
+              [
+                2,
+                20
+              ]
+            ],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [
+              1.583004850310559
+            ],
+            "metal_carbonyl_distances_A": [
+              1.8261411404176988
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          }
+        },
+        {
+          "catalyst_id": "Ru_macho_pnp_Ph",
+          "conformer": 4,
+          "legacy_indexing": "zero-based within atoms[metadata.ligand_indices], not the full ASE molecule",
+          "legacy_ligand_local_lost_bonds": [],
+          "ligand_local_to_full_ASE_index": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "full_ASE_lost_bonds": [],
+          "source_xyz": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_Ph\\active\\conformer_0004\\xtbopt.xyz",
+          "current_source_xyz_sha256": "6534cee7b407f87e3f52fd2a9bf5cb12f654f8b4bc8a8c2976fdb455ff787274",
+          "recorded_optimized_geometry_sha256": "6534cee7b407f87e3f52fd2a9bf5cb12f654f8b4bc8a8c2976fdb455ff787274",
+          "current_hash_matches_original_record": true,
+          "remeasured_lost_bond_distances_A": [],
+          "full_public_identity_screen": {
+            "retained": true,
+            "ligand_retained": true,
+            "original_nonmetal_graph_retained": true,
+            "lost_bonds": [],
+            "new_bonds": [],
+            "ligand_lost_bonds": [],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [
+              1.5836342373179102
+            ],
+            "metal_carbonyl_distances_A": [
+              1.8384954550770665
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          }
+        },
+        {
+          "catalyst_id": "Ru_macho_pnp_iPr",
+          "conformer": 4,
+          "legacy_indexing": "zero-based within atoms[metadata.ligand_indices], not the full ASE molecule",
+          "legacy_ligand_local_lost_bonds": [
+            [
+              10,
+              38
+            ]
+          ],
+          "ligand_local_to_full_ASE_index": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "full_ASE_lost_bonds": [
+            [
+              11,
+              39
+            ]
+          ],
+          "source_xyz": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs-alpb-toluene\\Ru_macho_pnp_iPr\\active\\conformer_0004\\xtbopt.xyz",
+          "current_source_xyz_sha256": "1b5d8684aa8a0aff794493f1a7954aac866f259552bf010ed7ca965501d69cd8",
+          "recorded_optimized_geometry_sha256": "1b5d8684aa8a0aff794493f1a7954aac866f259552bf010ed7ca965501d69cd8",
+          "current_hash_matches_original_record": true,
+          "remeasured_lost_bond_distances_A": [
+            {
+              "full_ASE_pair": [
+                11,
+                39
+              ],
+              "distance_A": 2.319590012472453,
+              "elements": [
+                "C",
+                "H"
+              ],
+              "second_atom_metal_distance_A": 1.5661740914801772
+            }
+          ],
+          "full_public_identity_screen": {
+            "retained": false,
+            "ligand_retained": false,
+            "original_nonmetal_graph_retained": false,
+            "lost_bonds": [
+              [
+                11,
+                39
+              ]
+            ],
+            "new_bonds": [],
+            "ligand_lost_bonds": [
+              [
+                11,
+                39
+              ]
+            ],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [
+              1.5457330501640119
+            ],
+            "metal_carbonyl_distances_A": [
+              1.843908700329601
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          }
+        }
+      ]
+    },
+    {
+      "legacy_audit": "data\\campaign\\neb\\ru_active_conformer_identity_audit.json",
+      "legacy_audit_sha256": "8a66c4daac10d249aabaf58c78257e8853467d0fac0f61933fdfabc658e5bab8",
+      "legacy_audit_preserved": true,
+      "rows": [
+        {
+          "catalyst_id": "Ru_macho_pnp_iPr",
+          "conformer": 0,
+          "legacy_indexing": "zero-based within atoms[metadata.ligand_indices], not the full ASE molecule",
+          "legacy_ligand_local_lost_bonds": [
+            [
+              10,
+              37
+            ]
+          ],
+          "ligand_local_to_full_ASE_index": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "full_ASE_lost_bonds": [
+            [
+              11,
+              38
+            ]
+          ],
+          "source_xyz": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs\\Ru_macho_pnp_iPr\\active\\conformer_0000\\xtbopt.xyz",
+          "current_source_xyz_sha256": "bb2a31da6c5844923e66724ef02a777f6f5112c6476e05a264127091d0e04d75",
+          "recorded_optimized_geometry_sha256": "bb2a31da6c5844923e66724ef02a777f6f5112c6476e05a264127091d0e04d75",
+          "current_hash_matches_original_record": true,
+          "remeasured_lost_bond_distances_A": [
+            {
+              "full_ASE_pair": [
+                11,
+                38
+              ],
+              "distance_A": 2.310614293838186,
+              "elements": [
+                "C",
+                "H"
+              ],
+              "second_atom_metal_distance_A": 1.5553551362736213
+            }
+          ],
+          "full_public_identity_screen": {
+            "retained": false,
+            "ligand_retained": false,
+            "original_nonmetal_graph_retained": false,
+            "lost_bonds": [
+              [
+                11,
+                38
+              ]
+            ],
+            "new_bonds": [],
+            "ligand_lost_bonds": [
+              [
+                11,
+                38
+              ]
+            ],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [
+              1.5465869025434058
+            ],
+            "metal_carbonyl_distances_A": [
+              1.8467121230645482
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          }
+        },
+        {
+          "catalyst_id": "Ru_macho_pnp_Ph",
+          "conformer": 0,
+          "legacy_indexing": "zero-based within atoms[metadata.ligand_indices], not the full ASE molecule",
+          "legacy_ligand_local_lost_bonds": [
+            [
+              1,
+              32
+            ]
+          ],
+          "ligand_local_to_full_ASE_index": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "full_ASE_lost_bonds": [
+            [
+              2,
+              33
+            ]
+          ],
+          "source_xyz": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs\\Ru_macho_pnp_Ph\\active\\conformer_0000\\xtbopt.xyz",
+          "current_source_xyz_sha256": "caeb5c3373d813b277741dfe955cb72c23be1a4ac0413ec6ac6e34719348b57a",
+          "recorded_optimized_geometry_sha256": "caeb5c3373d813b277741dfe955cb72c23be1a4ac0413ec6ac6e34719348b57a",
+          "current_hash_matches_original_record": true,
+          "remeasured_lost_bond_distances_A": [
+            {
+              "full_ASE_pair": [
+                2,
+                33
+              ],
+              "distance_A": 2.3492425714123533,
+              "elements": [
+                "C",
+                "H"
+              ],
+              "second_atom_metal_distance_A": 1.5646736075364496
+            }
+          ],
+          "full_public_identity_screen": {
+            "retained": false,
+            "ligand_retained": false,
+            "original_nonmetal_graph_retained": false,
+            "lost_bonds": [
+              [
+                2,
+                33
+              ]
+            ],
+            "new_bonds": [],
+            "ligand_lost_bonds": [
+              [
+                2,
+                33
+              ]
+            ],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [
+              1.5464681496936492
+            ],
+            "metal_carbonyl_distances_A": [
+              1.8517625875403052
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          }
+        },
+        {
+          "catalyst_id": "Ru_macho_pnp_Ph",
+          "conformer": 1,
+          "legacy_indexing": "zero-based within atoms[metadata.ligand_indices], not the full ASE molecule",
+          "legacy_ligand_local_lost_bonds": [],
+          "ligand_local_to_full_ASE_index": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "full_ASE_lost_bonds": [],
+          "source_xyz": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs\\Ru_macho_pnp_Ph\\active\\conformer_0001\\xtbopt.xyz",
+          "current_source_xyz_sha256": "f2b9e51dc70432808b5dfeeb9568d981c4348cdc4af600c53973bd8d36e6d426",
+          "recorded_optimized_geometry_sha256": "f2b9e51dc70432808b5dfeeb9568d981c4348cdc4af600c53973bd8d36e6d426",
+          "current_hash_matches_original_record": true,
+          "remeasured_lost_bond_distances_A": [],
+          "full_public_identity_screen": {
+            "retained": true,
+            "ligand_retained": true,
+            "original_nonmetal_graph_retained": true,
+            "lost_bonds": [],
+            "new_bonds": [],
+            "ligand_lost_bonds": [],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [
+              1.5866632835268186
+            ],
+            "metal_carbonyl_distances_A": [
+              1.8367029445308087
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          }
+        },
+        {
+          "catalyst_id": "Ru_macho_pnp_iPr",
+          "conformer": 1,
+          "legacy_indexing": "zero-based within atoms[metadata.ligand_indices], not the full ASE molecule",
+          "legacy_ligand_local_lost_bonds": [
+            [
+              1,
+              20
+            ]
+          ],
+          "ligand_local_to_full_ASE_index": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "full_ASE_lost_bonds": [
+            [
+              2,
+              21
+            ]
+          ],
+          "source_xyz": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\campaign-runs\\Ru_macho_pnp_iPr\\active\\conformer_0001\\xtbopt.xyz",
+          "current_source_xyz_sha256": "2d703d05bef514c580be9f71d5581ce7b79fcc4edc7ba7692dec62f79036a629",
+          "recorded_optimized_geometry_sha256": "2d703d05bef514c580be9f71d5581ce7b79fcc4edc7ba7692dec62f79036a629",
+          "current_hash_matches_original_record": true,
+          "remeasured_lost_bond_distances_A": [
+            {
+              "full_ASE_pair": [
+                2,
+                21
+              ],
+              "distance_A": 2.330829612649109,
+              "elements": [
+                "C",
+                "H"
+              ],
+              "second_atom_metal_distance_A": 1.5576300509991072
+            }
+          ],
+          "full_public_identity_screen": {
+            "retained": false,
+            "ligand_retained": false,
+            "original_nonmetal_graph_retained": false,
+            "lost_bonds": [
+              [
+                2,
+                21
+              ]
+            ],
+            "new_bonds": [],
+            "ligand_lost_bonds": [
+              [
+                2,
+                21
+              ]
+            ],
+            "ligand_new_bonds": [],
+            "ancillary_coordination_retained": true,
+            "metal_hydride_distances_A": [
+              1.5451978486258464
+            ],
+            "metal_carbonyl_distances_A": [
+              1.8457270154267815
+            ],
+            "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+            "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+          }
+        }
+      ]
+    }
+  ]
+}

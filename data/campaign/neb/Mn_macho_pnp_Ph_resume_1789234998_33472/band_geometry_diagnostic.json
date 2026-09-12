@@ -1,0 +1,175 @@
+{
+  "created_utc": "2026-09-12T18:12:18.851677+00:00",
+  "source_route": "data\\campaign\\neb\\Mn_macho_pnp_Ph_resume_1789234998_33472",
+  "source_band_sha256": "ac1d502e3652c651d4f1b99065631b5a9fc9ce7e6cec32b85608c6f7b50dda3f",
+  "method": "GFN2-xTB/ALPB(toluene),gsolv",
+  "CI_NEB_converged": true,
+  "NEB_final_fmax_eV_A": 0.049092,
+  "global_peak_image": 4,
+  "suggested_separate_reactive_local_guess_image": 2,
+  "interpretation": "Global band peak is already beyond both mapped transfers; local image2 spans the reactive region. Separate strict saddle certification is required. No barrier is reported here.",
+  "rows": [
+    {
+      "image": 0,
+      "electronic_energy_eV": -3282.490691595651,
+      "unprojected_true_fmax_eV_A": 0.008316077245694754,
+      "transfer_distances_A": {
+        "proton": {
+          "donor_H": 1.0222353976025922,
+          "acceptor_H": 1.6371174782617035,
+          "progress_donor_minus_acceptor": -0.6148820806591113
+        },
+        "hydride": {
+          "donor_H": 1.1354747144856274,
+          "acceptor_H": 1.583221243134929,
+          "progress_donor_minus_acceptor": -0.44774652864930164
+        }
+      },
+      "C_O_A": 1.3854534196634698
+    },
+    {
+      "image": 1,
+      "electronic_energy_eV": -3282.5974983391407,
+      "unprojected_true_fmax_eV_A": 0.04988479490354889,
+      "transfer_distances_A": {
+        "proton": {
+          "donor_H": 0.9850591204227723,
+          "acceptor_H": 1.8888893250466334,
+          "progress_donor_minus_acceptor": -0.9038302046238611
+        },
+        "hydride": {
+          "donor_H": 1.1149736930165397,
+          "acceptor_H": 2.3078891232990295,
+          "progress_donor_minus_acceptor": -1.1929154302824898
+        }
+      },
+      "C_O_A": 1.4052800378216308
+    },
+    {
+      "image": 2,
+      "electronic_energy_eV": -3282.2389666288764,
+      "unprojected_true_fmax_eV_A": 0.03167980464398227,
+      "transfer_distances_A": {
+        "proton": {
+          "donor_H": 1.4806525277433493,
+          "acceptor_H": 1.0991005225251118,
+          "progress_donor_minus_acceptor": 0.3815520052182375
+        },
+        "hydride": {
+          "donor_H": 1.239112161959376,
+          "acceptor_H": 1.9077332606385904,
+          "progress_donor_minus_acceptor": -0.6686210986792145
+        }
+      },
+      "C_O_A": 1.3139079121906898
+    },
+    {
+      "image": 3,
+      "electronic_energy_eV": -3282.264273638757,
+      "unprojected_true_fmax_eV_A": 0.041191117618731704,
+      "transfer_distances_A": {
+        "proton": {
+          "donor_H": 1.950859845459171,
+          "acceptor_H": 1.027435556693006,
+          "progress_donor_minus_acceptor": 0.923424288766165
+        },
+        "hydride": {
+          "donor_H": 2.38383533792828,
+          "acceptor_H": 1.5169307996042947,
+          "progress_donor_minus_acceptor": 0.8669045383239853
+        }
+      },
+      "C_O_A": 1.2159087435779585
+    },
+    {
+      "image": 4,
+      "electronic_energy_eV": -3282.2085527207896,
+      "unprojected_true_fmax_eV_A": 0.03865885155527979,
+      "transfer_distances_A": {
+        "proton": {
+          "donor_H": 1.8995129738253997,
+          "acceptor_H": 1.0264586078567062,
+          "progress_donor_minus_acceptor": 0.8730543659686936
+        },
+        "hydride": {
+          "donor_H": 2.709565386783756,
+          "acceptor_H": 1.5323012024545375,
+          "progress_donor_minus_acceptor": 1.1772641843292186
+        }
+      },
+      "C_O_A": 1.2095715523492656
+    },
+    {
+      "image": 5,
+      "electronic_energy_eV": -3282.4528773675397,
+      "unprojected_true_fmax_eV_A": 0.09948201503448756,
+      "transfer_distances_A": {
+        "proton": {
+          "donor_H": 1.8369004735487129,
+          "acceptor_H": 1.0253520191836327,
+          "progress_donor_minus_acceptor": 0.8115484543650802
+        },
+        "hydride": {
+          "donor_H": 3.2794034785548125,
+          "acceptor_H": 1.529625922590005,
+          "progress_donor_minus_acceptor": 1.7497775559648074
+        }
+      },
+      "C_O_A": 1.212873288007068
+    },
+    {
+      "image": 6,
+      "electronic_energy_eV": -3282.631587627558,
+      "unprojected_true_fmax_eV_A": 0.04759069113617895,
+      "transfer_distances_A": {
+        "proton": {
+          "donor_H": 1.8251463406644668,
+          "acceptor_H": 1.0258066920504658,
+          "progress_donor_minus_acceptor": 0.799339648614001
+        },
+        "hydride": {
+          "donor_H": 3.468875734557304,
+          "acceptor_H": 1.5278716874136045,
+          "progress_donor_minus_acceptor": 1.9410040471436996
+        }
+      },
+      "C_O_A": 1.214868746779863
+    },
+    {
+      "image": 7,
+      "electronic_energy_eV": -3282.750473490147,
+      "unprojected_true_fmax_eV_A": 0.023329058494045297,
+      "transfer_distances_A": {
+        "proton": {
+          "donor_H": 1.8390813824826455,
+          "acceptor_H": 1.0266121629931748,
+          "progress_donor_minus_acceptor": 0.8124692194894707
+        },
+        "hydride": {
+          "donor_H": 3.52898101243423,
+          "acceptor_H": 1.5260748592504227,
+          "progress_donor_minus_acceptor": 2.0029061531838073
+        }
+      },
+      "C_O_A": 1.2148447264792428
+    },
+    {
+      "image": 8,
+      "electronic_energy_eV": -3282.7940621743764,
+      "unprojected_true_fmax_eV_A": 0.005759791332822278,
+      "transfer_distances_A": {
+        "proton": {
+          "donor_H": 1.919188540075438,
+          "acceptor_H": 1.027168561929508,
+          "progress_donor_minus_acceptor": 0.8920199781459301
+        },
+        "hydride": {
+          "donor_H": 3.657219152907213,
+          "acceptor_H": 1.526326285475764,
+          "progress_donor_minus_acceptor": 2.130892867431449
+        }
+      },
+      "C_O_A": 1.2142179347986826
+    }
+  ]
+}

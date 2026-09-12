@@ -2,3 +2,10 @@
 *.sh text eol=lf
 *.py text eol=lf
 *.md text eol=lf
+*.pdf binary
+*.png binary
+*.zip binary
+*.npz binary
+# Scientific source hashes cover original bytes, including native line endings.
+# Do not normalize archived geometries, spectra, command records or datasets.
+data/** -text whitespace=-blank-at-eol,-blank-at-eof

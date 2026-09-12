@@ -1,0 +1,122 @@
+{
+  "created_utc": "2026-09-12T19:09:50.277878+00:00",
+  "scope": "Full intended nonmetal covalent graph including substrate and mapped transferred H; geometric screen, not a TS certificate",
+  "rows": [
+    {
+      "route": "Co_macho_pnp_iPr_search_1789234743_15024",
+      "endpoint": 0,
+      "geometry_sha256": "009b1447582dfc57852ceab89c080237334616450d95ada1a95e9cb4a6e3eee1",
+      "intended_catalyst_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7205701378595066
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "full_nonmetal_graph_retained": true,
+      "lost_bonds": [],
+      "new_bonds": [],
+      "transfer_progress_A": {
+        "proton": -0.8286307941202596,
+        "hydride": -1.5202918432201236
+      },
+      "eligible_for_retry": true
+    },
+    {
+      "route": "Co_macho_pnp_iPr_search_1789234743_15024",
+      "endpoint": 1,
+      "geometry_sha256": "f04eaea4afe1f7cff76e243811943b07b3d51ca537245cf8f13ea1bdc4f77232",
+      "intended_catalyst_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7187186633766143
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "full_nonmetal_graph_retained": true,
+      "lost_bonds": [],
+      "new_bonds": [],
+      "transfer_progress_A": {
+        "proton": 3.545608041246841,
+        "hydride": 0.6181944384551601
+      },
+      "eligible_for_retry": true
+    },
+    {
+      "route": "Co_macho_pnp_Ph_search_1789234729_31856",
+      "endpoint": 0,
+      "geometry_sha256": "df77cb78e2c96bd447c0a3e1677e7e7956a979366df77702b639fb125d60b9b8",
+      "intended_catalyst_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7223822803711746
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "full_nonmetal_graph_retained": true,
+      "lost_bonds": [],
+      "new_bonds": [],
+      "transfer_progress_A": {
+        "proton": -2.1976931144168037,
+        "hydride": -3.014125121326054
+      },
+      "eligible_for_retry": true
+    },
+    {
+      "route": "Co_macho_pnp_Ph_search_1789234729_31856",
+      "endpoint": 1,
+      "geometry_sha256": "cd64159117b66bd635e0c43b2f13daee82f6d46cb8898f3a631cbc1f256eb70a",
+      "intended_catalyst_identity": {
+        "retained": true,
+        "ligand_retained": true,
+        "original_nonmetal_graph_retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "ligand_lost_bonds": [],
+        "ligand_new_bonds": [],
+        "ancillary_coordination_retained": true,
+        "metal_hydride_distances_A": [],
+        "metal_carbonyl_distances_A": [
+          1.7469521713723026
+        ],
+        "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+        "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+      },
+      "full_nonmetal_graph_retained": true,
+      "lost_bonds": [],
+      "new_bonds": [],
+      "transfer_progress_A": {
+        "proton": 3.756412341172471,
+        "hydride": 3.5507251594885085
+      },
+      "eligible_for_retry": true
+    }
+  ]
+}

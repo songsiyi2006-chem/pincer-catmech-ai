@@ -1,0 +1,24 @@
+{
+  "scope": "Read-only audit of actual source-certified thermochemistry; no new electronic calculations",
+  "reaction_rows": 858,
+  "reaction_counts": {
+    "alcohol_dehydrogenation": 286,
+    "separated_ion_deprotonation": 286,
+    "imine_hydrogenation": 286
+  },
+  "cycle_rows": 286,
+  "cycle_max_abs_residual_kcal_mol": 0.0,
+  "net_reaction_delta_G_at_383p15_kcal_mol": -4.235316464914376,
+  "imine_hydrogenation_delta_G_range_at_383p15_kcal_mol": [
+    -12.625334609176207,
+    32.10041789718525
+  ],
+  "checks": [
+    "every export SHA256",
+    "22 catalysts times 13 unique temperatures",
+    "cycle components agree with reaction table",
+    "net delta G independently reconstructed from reference table",
+    "all cycle residuals within 1e-8 kcal/mol"
+  ],
+  "export_protocol_sha256": "9a57bf0d14a3c66501d45a1945087035158fe0738cf1eda2e54aebd7ade41122"
+}
