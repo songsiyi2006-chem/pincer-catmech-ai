@@ -1,0 +1,61 @@
+{
+  "checked_at_utc": "2026-09-12T16:39:18.364163+00:00",
+  "scope": "External output-format conformance only; existing third-party calculations, no Gaussian/ORCA execution and no chemical-accuracy validation",
+  "repository": "https://github.com/cclib/cclib-data",
+  "pinned_commit_sha": "a16cc80ea29e8baec60abd0df346ce6862f52531",
+  "licensing": {
+    "github_api_license": null,
+    "license_files_found": [],
+    "conclusion": "No explicit corpus license found in repository metadata/tree. Inputs retained only as external local verification files, not vendored or redistributed in the deliverable repository. cclib software's license is not assumed to license its separate data corpus.",
+    "metadata_source": "https://api.github.com/repos/cclib/cclib-data",
+    "tree_source": "https://api.github.com/repos/cclib/cclib-data/git/trees/a16cc80ea29e8baec60abd0df346ce6862f52531?recursive=1"
+  },
+  "checks": [
+    {
+      "upstream_path": "Gaussian/Gaussian16/mp2_avdz_freq_tight.log",
+      "observed_program_version": "Gaussian 16 C.01",
+      "source_url": "https://raw.githubusercontent.com/cclib/cclib-data/a16cc80ea29e8baec60abd0df346ce6862f52531/Gaussian/Gaussian16/mp2_avdz_freq_tight.log",
+      "browse_url": "https://github.com/cclib/cclib-data/blob/a16cc80ea29e8baec60abd0df346ce6862f52531/Gaussian/Gaussian16/mp2_avdz_freq_tight.log",
+      "sha256": "bdeda0e5e9c43ca3a1637c5311a15b265d026725bf8a49eeeecbbe25304e90c7",
+      "bytes": 162408,
+      "git_blob_sha": "d61d127281efefde38b02c29fbcd76239697e667",
+      "status": "passed",
+      "positive_vibrational_modes": 57,
+      "summary": {
+        "E_elec": -346107.8799079375,
+        "ZPVE": 105.33374031623197,
+        "H_298": -345994.1080477235,
+        "S_harmonic": 111.48,
+        "S_qRRHO": 107.01437863178081,
+        "G_298_qRRHO_sol": -346024.1200562671,
+        "temperature": 298.15,
+        "energy_unit": "kcal/mol",
+        "entropy_unit": "cal/(mol K)",
+        "solvation_correction_added": false
+      }
+    },
+    {
+      "upstream_path": "ORCA/ORCA4.0/hydrogen_fluoride_usesym_anfreq.out",
+      "observed_program_version": "ORCA 4.0.1",
+      "source_url": "https://raw.githubusercontent.com/cclib/cclib-data/a16cc80ea29e8baec60abd0df346ce6862f52531/ORCA/ORCA4.0/hydrogen_fluoride_usesym_anfreq.out",
+      "browse_url": "https://github.com/cclib/cclib-data/blob/a16cc80ea29e8baec60abd0df346ce6862f52531/ORCA/ORCA4.0/hydrogen_fluoride_usesym_anfreq.out",
+      "sha256": "66a05342f4389d760f6ab0f277bea609ab1640503f20d9b69ee65c88bdc0fff3",
+      "bytes": 33933,
+      "git_blob_sha": "c682b1e9f0a5af9f99bccabe9ccca55d54b377d7",
+      "status": "passed",
+      "positive_vibrational_modes": 1,
+      "summary": {
+        "E_elec": -61855.39559122564,
+        "ZPVE": 6.395752262303853,
+        "H_298": -61846.926133504785,
+        "S_harmonic": 40.249255357900395,
+        "S_qRRHO": 40.24925512787338,
+        "G_298_qRRHO_sol": -61857.03212047567,
+        "temperature": 298.15,
+        "energy_unit": "kcal/mol",
+        "entropy_unit": "cal/(mol K)",
+        "solvation_correction_added": false
+      }
+    }
+  ]
+}

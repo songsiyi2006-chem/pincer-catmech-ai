@@ -1,0 +1,111 @@
+{
+  "verified_at_utc": "2026-09-12T16:47:18.153615+00:00",
+  "scope": "Software/numerical verification and limited external format conformance; no DFT run or experimental catalyst validation",
+  "python_version": "3.12.14",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "packages": {
+    "numpy": "2.5.3",
+    "ase": "3.29.0",
+    "pydantic": "2.13.5",
+    "pytest": "8.4.2"
+  },
+  "pytest": {
+    "tests": "79",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "12.393"
+  },
+  "command": "python -m pytest tests/ -v",
+  "external_format_checks": "EXTERNAL_FORMAT_CHECKS.json",
+  "demo": {
+    "evidence_level": "synthetic software demonstration",
+    "charge_and_spin": "not assigned; no electronic structure calculation",
+    "thermochemistry": {
+      "E_elec": -1000000.0,
+      "ZPVE": 25.0,
+      "H_298": -999970.0,
+      "S_harmonic": 86.60499287902442,
+      "S_qRRHO": 83.72479367772125,
+      "G_298_qRRHO_sol": -999993.0682187894,
+      "temperature": 298.15,
+      "pressure_pa": 101325.0,
+      "concentration_mol_l": 1.0,
+      "cutoff_cm1": 100.0,
+      "rotor_inertia": "grimme",
+      "frequencies_cm1": [
+        25.4,
+        68.2,
+        120.5,
+        160.0,
+        210.0,
+        300.0,
+        420.0,
+        550.0,
+        700.0,
+        850.0,
+        1000.0,
+        1100.0,
+        1250.0,
+        1400.0,
+        1500.0,
+        1650.0,
+        3000.0,
+        3100.0
+      ],
+      "S_vib_harmonic": 21.60499287902443,
+      "S_vib_qRRHO": 18.724793677721248,
+      "delta_G_concentration": 1.894328445494145,
+      "G_qRRHO_gas": -999994.962547235,
+      "source": "Synthetic Ru-PNP-like unit fixture; not quantum chemistry output",
+      "warnings": [
+        "Concentration standard-state correction only; no solvation free energy added"
+      ],
+      "source_sha256": null,
+      "program": "manual",
+      "job_index": null,
+      "entropy_provenance": "User-supplied full molecular harmonic entropy",
+      "energy_unit": "kcal/mol",
+      "entropy_unit": "cal/(mol K)",
+      "frequency_unit": "cm^-1",
+      "temperature_unit": "K",
+      "solvation_correction_added": false
+    },
+    "bite_angle_P_Ru_P_degrees": 180.0,
+    "bite_angle_P_Ru_N_degrees": 90.0,
+    "steric": {
+      "percent_buried_volume": 51.662,
+      "standard_error_percent": 0.15802650904199586,
+      "confidence_interval_percent": [
+        51.35221583333415,
+        51.97165648147962
+      ],
+      "confidence_level": 0.95,
+      "n_samples": 100000,
+      "n_buried": 51662,
+      "seed": 2026,
+      "chunk_size": 10000,
+      "metal_index": 0,
+      "atom_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "effective_radii": [
+        2.106,
+        2.106,
+        1.8135,
+        1.9889999999999999,
+        1.9889999999999999
+      ],
+      "sphere_radius": 3.5,
+      "radius_scale": 1.17,
+      "include_hydrogens": false,
+      "coordinate_units": "angstrom",
+      "sampling_method": "uniform sphere; NumPy PCG64",
+      "interval_method": "Wilson score"
+    }
+  }
+}
