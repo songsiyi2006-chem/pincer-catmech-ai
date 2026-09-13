@@ -1,0 +1,41 @@
+{
+  "evidence_kind": "software_fixture_not_chemical_prediction",
+  "grid_count": 40,
+  "timepoints_per_grid": 500,
+  "temperature_K": [
+    360.0,
+    370.0,
+    380.0,
+    383.15,
+    390.0,
+    400.0,
+    410.0,
+    420.0
+  ],
+  "initial_free_base_equiv": [
+    0.01,
+    0.025,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "maximum_jacobian_central_difference_error": 9.630873876176338e-11,
+  "maximum_metal_error_M": 3.642919299551295e-17,
+  "maximum_base_equivalent_error_M": 4.996003610813204e-16,
+  "maximum_metal_sensitivity_residual_M": 5.72390984436566e-17,
+  "physical_catalyst_predictions": 0,
+  "limitations": [
+    "Arbitrary rates test solver behavior only",
+    "Free base is not total added tBuOK",
+    "Neutral tBuOH reservoir activity 0.1 is a software fixture assumption",
+    "Batch sensitivities are not verified steady-state Campbell DRC",
+    "No activation/deactivation barrier inferred from reaction free energies"
+  ],
+  "files": {
+    "baseline_control_coefficients.csv": "6d4503f733abda2746c5c5df21e18879a6370c58d6b87f47a66eb78bf86c2c78",
+    "baseline_trajectory.csv": "6e9e567336b32d5ee666064156429c723ff8c9a7d022ac996f035c4c659f06c6",
+    "full_40_grid_500_timepoints.npz": "4b19776bd8ff6915016e0f2db64d0d1acd7fc6a006ac695c9d91ec12050b3847",
+    "grid_summary.csv": "70b493277b6dd88a440d00f7e57832abc05543c8afe1c3367692e7a08cbf39af",
+    "stoichiometry.csv": "1c491dbdcb3f515c79590302392eb2a79508e07a8f658ed1e96152714ad93bc4"
+  }
+}

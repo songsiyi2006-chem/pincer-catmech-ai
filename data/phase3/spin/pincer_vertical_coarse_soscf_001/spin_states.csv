@@ -1,0 +1,2 @@
+catalyst_id,multiplicity,charge,status,energy_hartree,spin_squared,spin_contamination,spin_contamination_flag,wall_seconds,peak_rss_mib,source_xyz_sha256,signature_sha256,failure
+Fe_bipyridine_pnnoh_iPr,3,0,timeout,,,,,120.125,470.7578125,9ffa23dd9988166a60dd4d31c8b8626a6d953441d12fd9ecfeeab712e87d2851,32962f471d29faead76153239dfc30fd94bb322e26b3c53c7dc0a91334438518,Per-state wall-time limit

@@ -1,0 +1,68 @@
+{
+  "verified_utc": "2026-09-13T15:29:12.917125+00:00",
+  "status": "passed",
+  "archive_members_verified": 51322,
+  "archives_verified": [
+    {
+      "name": "native_evidence_001.zip",
+      "sha256": "00bb3323067a4ed184fd0476044264c0b3ef310400b93b7b43ee8a40db6f2736",
+      "bytes": 58459139,
+      "member_count": 24797
+    },
+    {
+      "name": "native_evidence_002.zip",
+      "sha256": "13ea4731df22be76c40c0872df90092b76f466d0c123c7fe03386fbc4abad9af",
+      "bytes": 61211675,
+      "member_count": 26525
+    }
+  ],
+  "driver_sha256": "f37a25cc24239a790274d9290be11da54e56902b8e146e7f4952b3f183fe6b0a",
+  "native_protocol_workers": 1,
+  "native_threads": 1,
+  "completed_path_runs": 3,
+  "distinct_initial_seed_attempts": 2,
+  "continuation_count": 1,
+  "accepted_TS_count": 0,
+  "activation_free_energy_barrier_count": 0,
+  "verified_endpoint_minimum_certifications": 6,
+  "initial_seed_endpoint_certifications": 4,
+  "endpoint_thermochemistry_rows": 78,
+  "actual_band_image_rows": 27,
+  "baseline_temperature_K": 383.15,
+  "attempts": [
+    {
+      "attempt": "attempt_01_cluster_seed_02",
+      "status": "failed",
+      "accepted_TS": false,
+      "last_NEB_step": 100,
+      "last_NEB_fmax_eV_A": 0.375882,
+      "NEB_fmax_target_eV_A": 0.07,
+      "last_band_max_above_reactant_eV": 1.795701748051897,
+      "is_activation_free_energy": false,
+      "product_seed_graph_retained": false
+    },
+    {
+      "attempt": "attempt_02_cluster_seed_01",
+      "status": "failed",
+      "accepted_TS": false,
+      "last_NEB_step": 100,
+      "last_NEB_fmax_eV_A": 1.347282,
+      "NEB_fmax_target_eV_A": 0.07,
+      "last_band_max_above_reactant_eV": 4.568801850331056,
+      "is_activation_free_energy": false,
+      "product_seed_graph_retained": true
+    },
+    {
+      "attempt": "attempt_01_continuation",
+      "status": "failed",
+      "accepted_TS": false,
+      "last_NEB_step": 200,
+      "last_NEB_fmax_eV_A": 1.20663,
+      "NEB_fmax_target_eV_A": 0.07,
+      "last_band_max_above_reactant_eV": 2.3914683853258794,
+      "is_activation_free_energy": false,
+      "product_seed_graph_retained": false
+    }
+  ],
+  "limits": "Unconverged band maxima are potential-energy diagnostics only. Closed proton-wire TS and tBuOK speciation remain unestablished."
+}

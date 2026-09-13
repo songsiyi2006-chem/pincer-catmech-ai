@@ -1,0 +1,206 @@
+{
+  "status": "budget_exhausted",
+  "converged": false,
+  "positions_bohr": [
+    [
+      -2.883819155539864e-08,
+      9.378137611677507e-07,
+      -0.1623925166449626
+    ],
+    [
+      1.973839422207369,
+      -1.7638159197037995e-06,
+      1.815852886406107
+    ],
+    [
+      -1.973839392517008,
+      8.244895844797398e-07,
+      1.815852808836947
+    ]
+  ],
+  "energy1_hartree": -1264.377006495134,
+  "energy2_hartree": -1264.376848629108,
+  "gap_hartree": -0.00015786602602929634,
+  "projected_gradient_max": 0.014041321278182552,
+  "lagrange_multiplier": 0.7332234539844427,
+  "difference_gradient_norm": 0.05376071234162804,
+  "iterations": 11,
+  "evaluations": 34,
+  "wall_seconds": 300.2039999999979,
+  "history": [
+    {
+      "iteration": 0,
+      "evaluations": 1,
+      "energy1_hartree": -1264.3764441396077,
+      "energy2_hartree": -1264.400749806418,
+      "gap_hartree": 0.024305666810278126,
+      "projected_gradient_max": 0.013951614824506436,
+      "difference_gradient_norm": 0.03108816403124952,
+      "lagrange_multiplier": -0.16314612508354928,
+      "penalty_alpha": 1.0,
+      "merit_rho": 1.0
+    },
+    {
+      "iteration": 1,
+      "evaluations": 2,
+      "energy1_hartree": -1264.3784006672054,
+      "energy2_hartree": -1264.3965214247023,
+      "gap_hartree": 0.01812075749694486,
+      "projected_gradient_max": 0.0027223385803400463,
+      "difference_gradient_norm": 0.037830743006817436,
+      "lagrange_multiplier": 0.5257077685601398,
+      "penalty_alpha": 1.0,
+      "merit_rho": 19.61688617987909
+    },
+    {
+      "iteration": 2,
+      "evaluations": 3,
+      "energy1_hartree": -1264.3753399213385,
+      "energy2_hartree": -1264.3859511317446,
+      "gap_hartree": 0.010611210406068494,
+      "projected_gradient_max": 0.010531799648167299,
+      "difference_gradient_norm": 0.04592964576880044,
+      "lagrange_multiplier": 1.2668118800640007,
+      "penalty_alpha": 1.0,
+      "merit_rho": 19.61688617987909
+    },
+    {
+      "iteration": 3,
+      "evaluations": 4,
+      "energy1_hartree": -1264.3668580483877,
+      "energy2_hartree": -1264.368795973423,
+      "gap_hartree": 0.0019379250352358213,
+      "projected_gradient_max": 0.020313114103522385,
+      "difference_gradient_norm": 0.05464637999618973,
+      "lagrange_multiplier": 1.92462322531394,
+      "penalty_alpha": 1.0,
+      "merit_rho": 19.61688617987909
+    },
+    {
+      "iteration": 4,
+      "evaluations": 5,
+      "energy1_hartree": -1264.3660567539994,
+      "energy2_hartree": -1264.366100574957,
+      "gap_hartree": 4.382095767141436e-05,
+      "projected_gradient_max": 0.020871536750587318,
+      "difference_gradient_norm": 0.0556018589608384,
+      "lagrange_multiplier": 1.9534436043628631,
+      "penalty_alpha": 1.0,
+      "merit_rho": 19.61688617987909
+    },
+    {
+      "iteration": 5,
+      "evaluations": 7,
+      "energy1_hartree": -1264.3687256183543,
+      "energy2_hartree": -1264.3686297545642,
+      "gap_hartree": -9.586379019310698e-05,
+      "projected_gradient_max": 0.026136202652449328,
+      "difference_gradient_norm": 0.05440470960814053,
+      "lagrange_multiplier": 1.7040818746768112,
+      "penalty_alpha": 1.0,
+      "merit_rho": 19.61688617987909
+    },
+    {
+      "iteration": 6,
+      "evaluations": 10,
+      "energy1_hartree": -1264.3703398252126,
+      "energy2_hartree": -1264.3701831899095,
+      "gap_hartree": -0.00015663530302845174,
+      "projected_gradient_max": 0.029343030089099494,
+      "difference_gradient_norm": 0.0544039391785897,
+      "lagrange_multiplier": 1.5123830634344972,
+      "penalty_alpha": 2.0,
+      "merit_rho": 19.61688617987909
+    },
+    {
+      "iteration": 7,
+      "evaluations": 12,
+      "energy1_hartree": -1264.3736642027015,
+      "energy2_hartree": -1264.373379257957,
+      "gap_hartree": -0.0002849447446351405,
+      "projected_gradient_max": 0.02704232974415203,
+      "difference_gradient_norm": 0.0547744597153606,
+      "lagrange_multiplier": 1.139395127102627,
+      "penalty_alpha": 4.0,
+      "merit_rho": 19.61688617987909
+    },
+    {
+      "iteration": 8,
+      "evaluations": 14,
+      "energy1_hartree": -1264.3763398298408,
+      "energy2_hartree": -1264.3761408986327,
+      "gap_hartree": -0.00019893120816050214,
+      "projected_gradient_max": 0.017682999529967845,
+      "difference_gradient_norm": 0.05414502620079696,
+      "lagrange_multiplier": 0.8319174063989233,
+      "penalty_alpha": 4.0,
+      "merit_rho": 19.61688617987909
+    },
+    {
+      "iteration": 9,
+      "evaluations": 18,
+      "energy1_hartree": -1264.3768190000744,
+      "energy2_hartree": -1264.3766483311567,
+      "gap_hartree": -0.000170668917689909,
+      "projected_gradient_max": 0.01515700128199032,
+      "difference_gradient_norm": 0.05388502296151298,
+      "lagrange_multiplier": 0.7629906105272155,
+      "penalty_alpha": 8.0,
+      "merit_rho": 19.61688617987909
+    },
+    {
+      "iteration": 10,
+      "evaluations": 23,
+      "energy1_hartree": -1264.3769878455666,
+      "energy2_hartree": -1264.3768286782054,
+      "gap_hartree": -0.00015916736128929188,
+      "projected_gradient_max": 0.014156231420586644,
+      "difference_gradient_norm": 0.05377376267506083,
+      "lagrange_multiplier": 0.736274033143329,
+      "penalty_alpha": 16.0,
+      "merit_rho": 19.61688617987909
+    },
+    {
+      "iteration": 11,
+      "evaluations": 31,
+      "energy1_hartree": -1264.377006495134,
+      "energy2_hartree": -1264.376848629108,
+      "gap_hartree": -0.00015786602602929634,
+      "projected_gradient_max": 0.014041321278182552,
+      "difference_gradient_norm": 0.05376071234162804,
+      "lagrange_multiplier": 0.7332234539844427,
+      "penalty_alpha": 32.0,
+      "merit_rho": 19.61688617987909
+    }
+  ],
+  "minimum_verified": false,
+  "error": "MECP evaluation or wall-time budget exhausted",
+  "method": "PBE/def2-SVP; RKS if singlet, UKS otherwise; no solvent; 75x194 integration grid",
+  "evidence": "first-order crossing search; no spin-orbit or rate calculation",
+  "system": "FeH2, neutral, artificial starting geometry 1.6 A / 110 degrees",
+  "chemical_scope": "Small Fe(II) dihydride model; not a pincer catalyst and not a catalyst benchmark label",
+  "multiplicities": [
+    3,
+    5
+  ],
+  "initial_positions_bohr": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.476756829013622,
+      0.0,
+      1.7342438019877153
+    ],
+    [
+      -2.476756829013622,
+      0.0,
+      1.7342438019877153
+    ]
+  ],
+  "wall_seconds_total": 300.2039999999979,
+  "state_continuity": "fresh SAD guesses; SCF continuity and spin contamination require explicit inspection",
+  "nonadiabatic_rate_calculated": false
+}

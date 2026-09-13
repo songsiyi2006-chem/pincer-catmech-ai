@@ -1,0 +1,402 @@
+{
+  "catalyst_id": "Co_pyridine_pnn_iPr",
+  "family": "pyridine_pnn",
+  "metal": "Co",
+  "chemical_state": "active",
+  "multiplicity": 1,
+  "charge": 0,
+  "signature_sha256": "a581008747276b9336bce461a5b1a91aeaf2032f56dc032d2c562d973a97f4eb",
+  "geometry_sha256": "cc1abec99f3364375baecd5ff01cd809f62609a4c06368c6c3ddca4f79b66b41",
+  "source_xyz": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\structures\\Co_pyridine_pnn_iPr\\active\\best_found.xyz",
+  "source_xyz_sha256": "ea9649224a7ff0e481751b238f2f19281afbe62f80e7ba68964199fb9cd71818",
+  "symbols": [
+    "Co",
+    "C",
+    "P",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "N",
+    "C",
+    "C",
+    "C",
+    "C",
+    "N",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "C",
+    "O"
+  ],
+  "positions_bohr": [
+    [
+      0.2838866375714159,
+      -0.5496059371563252,
+      -0.48756115070783745
+    ],
+    [
+      4.202690751695581,
+      -4.665286734174265,
+      0.47980266015399176
+    ],
+    [
+      4.312383052473804,
+      -1.4799550406112736,
+      -0.4391820146428662
+    ],
+    [
+      6.417971701686177,
+      0.2418599686197548,
+      1.8146563930557629
+    ],
+    [
+      9.018218583067886,
+      -0.9739838987700318,
+      2.0687588366190006
+    ],
+    [
+      5.051186779956365,
+      0.311958610926281,
+      4.352579623958024
+    ],
+    [
+      6.089574501496176,
+      -1.3746458551662268,
+      -3.492238301684652
+    ],
+    [
+      6.781592007777885,
+      1.2988366054495666,
+      -4.310245311909552
+    ],
+    [
+      4.409686141358049,
+      -2.657657124933373,
+      -5.45365419317371
+    ],
+    [
+      1.779867375617872,
+      -5.6101321901702965,
+      0.6140111578827918
+    ],
+    [
+      1.2268793998365783,
+      -8.163410480604226,
+      1.3025907423321874
+    ],
+    [
+      -1.204452929576502,
+      -8.981719853515377,
+      1.4307410664396514
+    ],
+    [
+      -3.1781061196430267,
+      -7.3001555639871984,
+      0.8481085872610453
+    ],
+    [
+      -2.562149815441248,
+      -4.864033284643528,
+      0.17108589366819998
+    ],
+    [
+      -4.575032733452445,
+      -3.0241496302333015,
+      -0.6322511213144852
+    ],
+    [
+      -3.6899164003818745,
+      -0.3892212318873314,
+      -0.44942734495547226
+    ],
+    [
+      -4.457781720864244,
+      0.6965890982420321,
+      1.9935505894756014
+    ],
+    [
+      -3.0732337007985744,
+      -0.5071536629194516,
+      4.21092935642562
+    ],
+    [
+      -4.779742468836695,
+      1.1185471549897945,
+      -2.5191466572486587
+    ],
+    [
+      -3.5808665186752093,
+      0.4807432533136625,
+      -5.0614426223502145
+    ],
+    [
+      -0.1939124192252992,
+      -3.9990213366441596,
+      0.06223870975746907
+    ],
+    [
+      5.850607778558957,
+      -5.824393512805261,
+      0.791191084286876
+    ],
+    [
+      6.620703734965598,
+      2.1805223147635586,
+      1.113933689678016
+    ],
+    [
+      10.037092878891409,
+      -0.9568730743624155,
+      0.2833356155795404
+    ],
+    [
+      8.836298173963032,
+      -2.9207802915233896,
+      2.7049960570786142
+    ],
+    [
+      10.142452665608857,
+      0.051022529129422255,
+      3.457352810888043
+    ],
+    [
+      4.680432851117812,
+      -1.6060369486743018,
+      5.005661024286292
+    ],
+    [
+      6.178708558705504,
+      1.2859674246001422,
+      5.772873622068714
+    ],
+    [
+      3.2510390696740705,
+      1.2953849385448377,
+      4.153868515340254
+    ],
+    [
+      7.808474302081945,
+      -2.508883933675371,
+      -3.2367726029270503
+    ],
+    [
+      5.103719726794173,
+      2.4892234379927913,
+      -4.339944219754798
+    ],
+    [
+      8.159189102858953,
+      2.1434792287368314,
+      -3.0396470566441662
+    ],
+    [
+      7.590770628308013,
+      1.2727339149943557,
+      -6.2041275321241205
+    ],
+    [
+      5.359184943560383,
+      -2.785272806788256,
+      -7.275687257621541
+    ],
+    [
+      2.668970126428375,
+      -1.578757023385818,
+      -5.687903457704511
+    ],
+    [
+      3.9135003969911275,
+      -4.557241587070218,
+      -4.832253295576291
+    ],
+    [
+      2.7936418171780675,
+      -9.402994144612208,
+      1.7226661323205132
+    ],
+    [
+      -1.63758010229508,
+      -10.906852248952347,
+      1.9648690092534897
+    ],
+    [
+      -5.124962518705322,
+      -7.902037497160236,
+      0.9076567110542719
+    ],
+    [
+      -5.0277795030610655,
+      -3.448215716096965,
+      -2.6030974478960394
+    ],
+    [
+      -6.31036726777664,
+      -3.301790282106697,
+      0.4727584252964699
+    ],
+    [
+      -4.010874384203741,
+      2.7134624575813993,
+      1.9596172296994747
+    ],
+    [
+      -6.514252961951396,
+      0.4971151171085883,
+      2.2439698051334966
+    ],
+    [
+      -1.0351208128209382,
+      -0.47044363905581743,
+      3.841901140229032
+    ],
+    [
+      -3.649866021969739,
+      -2.458001590362324,
+      4.502297294476362
+    ],
+    [
+      -3.4549333989453292,
+      0.5527001316964026,
+      5.93005342741361
+    ],
+    [
+      -4.411552032897497,
+      3.1080461165922957,
+      -2.107895636687286
+    ],
+    [
+      -6.839060830392934,
+      0.8488228844943431,
+      -2.5949161286547837
+    ],
+    [
+      -1.5396360322017455,
+      0.2649654828961201,
+      -4.79107735064434
+    ],
+    [
+      -4.322917214115081,
+      -1.256291181144538,
+      -5.870533791288483
+    ],
+    [
+      -3.9148803669059924,
+      2.002598625353164,
+      -6.399780395626846
+    ],
+    [
+      0.8255386564968232,
+      2.6459944576742815,
+      -0.7956046180416487
+    ],
+    [
+      1.317113323284042,
+      4.777312558712788,
+      -0.9082140379555113
+    ]
+  ],
+  "source_metadata_path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\structures\\Co_pyridine_pnn_iPr\\active\\metadata.json",
+  "source_metadata_sha256": "76556f4db2cc78c2b727c89d876c7f7a4c4d9c865e05c058769c1543393fc0c5",
+  "protocol": {
+    "provider": "psi4",
+    "method": "pbe",
+    "basis": "sto-3g",
+    "solvent": null,
+    "scf_type": "df",
+    "e_convergence": 1e-08,
+    "d_convergence": 1e-06,
+    "scf_max_iterations": 120,
+    "grid_radial": 35,
+    "grid_spherical": 110,
+    "scf_algorithm": "soscf",
+    "soscf_start_convergence": 0.0001,
+    "soscf_max_iter": 5,
+    "engine_fingerprint": {
+      "conda-meta\\psi4-1.11-py312h951063d_1.json": "18bb7451a1131c0bdfbef36926f2d4a934f6020de582bdcebe386f7a2eec3718",
+      "Lib\\site-packages\\psi4\\core.cp312-win_amd64.pyd": "3c5a39b87bb6f7d26d5ea014bf602b80674145506b931cd7b46d5b8c0bbfc0c2"
+    },
+    "reference": "rks",
+    "executable_sha256": "13d31fc5014b339e70c78add27d247d39542f84a2e8c0d7d9beb374bb34deb25",
+    "provider_source_sha256": "abecbe895473afaa6190038dee023ee9a2dec45cdfb2def90d41bdc2204ee03d"
+  },
+  "protocol_sha256": "53c1a3ba089c8970f44199d88ba8c155f22da4df3ef5361f58318c2cf6166692",
+  "paired_protocol_sha256": "06dd8abc9e45ec3bcbfa05d72e682318e844bc7ecbc01365c1df9b7b4829052d",
+  "identity_validation": {
+    "retained": true,
+    "ligand_retained": true,
+    "original_nonmetal_graph_retained": true,
+    "lost_bonds": [],
+    "new_bonds": [],
+    "ligand_lost_bonds": [],
+    "ligand_new_bonds": [],
+    "ancillary_coordination_retained": true,
+    "metal_hydride_distances_A": [],
+    "metal_carbonyl_distances_A": [
+      1.7228875174305518
+    ],
+    "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+    "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+  },
+  "status": "timeout",
+  "failure": "Per-state wall-time limit",
+  "returncode": 1,
+  "intended_catalyst_identity_pass": true,
+  "wall_seconds": 120.125,
+  "peak_rss_mib": 488.68359375,
+  "memory_configured_mib": 500,
+  "timeout_seconds": 120.0,
+  "started_utc": "2026-09-13T15:30:59.726750+00:00",
+  "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\Co_pyridine_pnn_iPr\\multiplicity_1\\a581008747276b9336bce461a5b1a91aeaf2032f56dc032d2c562d973a97f4eb\\attempt_06a036d047194930b740a499c0b845f3",
+  "native_evidence": [
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\Co_pyridine_pnn_iPr\\multiplicity_1\\a581008747276b9336bce461a5b1a91aeaf2032f56dc032d2c562d973a97f4eb\\attempt_06a036d047194930b740a499c0b845f3\\native\\pair_1b0cbe14b9b34646928aed4a267a0d96\\multiplicity_1\\psi4.out",
+      "sha256": "cf04372e4c04eb61ee6466b08e1997a677247d6b0593b995a0a717aec14ca1b9"
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\Co_pyridine_pnn_iPr\\multiplicity_1\\a581008747276b9336bce461a5b1a91aeaf2032f56dc032d2c562d973a97f4eb\\attempt_06a036d047194930b740a499c0b845f3\\native\\pair_1b0cbe14b9b34646928aed4a267a0d96\\request.json",
+      "sha256": "83dfc8cc85dc81263a7c5f4683c5fbdb1640e950b290adc3f27b62697b48d8e3"
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\Co_pyridine_pnn_iPr\\multiplicity_1\\a581008747276b9336bce461a5b1a91aeaf2032f56dc032d2c562d973a97f4eb\\attempt_06a036d047194930b740a499c0b845f3\\worker.out",
+      "sha256": "9b70cab210935dbcebe315615fe75beff0e0d36614db08ad82c3a5ee5bbec468"
+    }
+  ],
+  "reused_verified_cache": false,
+  "evidence": "vertical electronic spin diagnostic; no free-energy barrier, MECP, or experiment"
+}

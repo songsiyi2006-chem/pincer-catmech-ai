@@ -1,0 +1,41 @@
+{
+  "symbols": [
+    "Fe",
+    "H",
+    "H"
+  ],
+  "positions_bohr": [
+    [
+      -5.024930029860686e-08,
+      9.477786854633443e-07,
+      -0.186956283554979
+    ],
+    [
+      1.9666021504106528,
+      -1.3612418223528473e-06,
+      1.8279604985884175
+    ],
+    [
+      -1.9666021039894086,
+      4.1179893714333675e-07,
+      1.827960432475272
+    ]
+  ],
+  "charge": 0,
+  "multiplicities": [
+    3,
+    5
+  ],
+  "method": "pbe",
+  "basis": "def2-svp",
+  "configured_memory_mib": 500,
+  "threads": 2,
+  "psi4_version": "1.11",
+  "coordinate_units": "bohr",
+  "energy_units": "hartree",
+  "gradient_units": "hartree/bohr",
+  "scf_e_convergence": 1e-09,
+  "scf_d_convergence": 1e-08,
+  "scf_max_iterations": 120,
+  "geometry_sha256": "c19b1d88d7ed389a46859e85ff96c3b36c6aac9dc397286ec37012ec9078b18a"
+}

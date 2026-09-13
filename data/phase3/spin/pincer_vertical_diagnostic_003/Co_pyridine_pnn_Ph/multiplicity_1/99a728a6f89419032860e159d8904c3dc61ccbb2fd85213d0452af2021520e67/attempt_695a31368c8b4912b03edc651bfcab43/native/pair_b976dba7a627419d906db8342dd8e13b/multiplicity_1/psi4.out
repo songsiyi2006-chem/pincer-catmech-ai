@@ -1,0 +1,313 @@
+
+Scratch directory: C:\Users\HUIWEI\Documents\Codex\2026-09-13\files-pasted-by-the-user-mission\work\pincer-catmech-ai\data\phase3\spin\pincer_vertical_diagnostic_003\Co_pyridine_pnn_Ph\multiplicity_1\99a728a6f89419032860e159d8904c3dc61ccbb2fd85213d0452af2021520e67\attempt_695a31368c8b4912b03edc651bfcab43\native\pair_b976dba7a627419d906db8342dd8e13b\multiplicity_1\/
+gradient() will perform analytic gradient computation.
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  7, 6, -
+    Auxiliary basis highest AM E, G, H:  7, 7, -
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on LAPTOP-257FNSVV
+*** at Sun Sep 13 23:25:01 2026
+
+   => Loading Basis Set <=
+
+    Name: STO-3G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1                  entry CO         line   391 file C:\Users\HUIWEI\miniconda3\envs\phase7\Library\share\psi4\basis\sto-3g.gbs 
+    atoms 2, 4-21, 23-26, 54 entry C          line    61 file C:\Users\HUIWEI\miniconda3\envs\phase7\Library\share\psi4\basis\sto-3g.gbs 
+    atoms 3                  entry P          line   167 file C:\Users\HUIWEI\miniconda3\envs\phase7\Library\share\psi4\basis\sto-3g.gbs 
+    atoms 22, 27             entry N          line    71 file C:\Users\HUIWEI\miniconda3\envs\phase7\Library\share\psi4\basis\sto-3g.gbs 
+    atoms 28-53              entry H          line    19 file C:\Users\HUIWEI\miniconda3\envs\phase7\Library\share\psi4\basis\sto-3g.gbs 
+    atoms 55                 entry O          line    81 file C:\Users\HUIWEI\miniconda3\envs\phase7\Library\share\psi4\basis\sto-3g.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RKS Reference
+                        2 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C1
+
+    Geometry (in Bohr), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         CO           0.064623233935    -0.586114960798     0.545238676116    58.933194290000
+         C            3.991440434233    -4.360026794862     2.439047067811    12.000000000000
+         P            3.935240826688    -1.093682395737     1.869445251811    30.973761998420
+         C            6.609812355544    -0.269938405103    -0.147423721737    12.000000000000
+         C            7.674940307016    -2.085709021021    -1.717990026979    12.000000000000
+         C            9.661329251911    -1.457944082930    -3.297837344847    12.000000000000
+         C           10.580869363298     0.993369655925    -3.332947169226    12.000000000000
+         C            9.504063096192     2.820304960028    -1.792731665989    12.000000000000
+         C            7.522033933554     2.197089371981    -0.209856130320    12.000000000000
+         C            4.892126334010     0.420063089854     4.819116391627    12.000000000000
+         C            7.352299405269     0.135166446963     5.706898900402    12.000000000000
+         C            8.034568169236     1.131964942003     8.023298027802    12.000000000000
+         C            6.268038803764     2.409320521124     9.477374888371    12.000000000000
+         C            3.812470230606     2.683344354637     8.611186554865    12.000000000000
+         C            3.126139419109     1.686431820865     6.293745578852    12.000000000000
+         C            1.746684988512    -5.539597406251     1.824371181321    12.000000000000
+         C            1.304965687851    -8.174846953369     2.198553515677    12.000000000000
+         C           -0.925294056830    -9.234925604134     1.483613194474    12.000000000000
+         C           -2.789233875208    -7.719059112071     0.349338737142    12.000000000000
+         C           -2.286408056395    -5.186673968968     0.026058897389    12.000000000000
+         C           -4.121370041641    -3.472927317520    -1.306531804788    12.000000000000
+         N           -3.722190312285    -0.807141403086    -0.606065916445    14.003074004430
+         C           -4.333968729918     0.859145545886    -2.759954764345    12.000000000000
+         C           -7.042633224642     0.690081115528    -3.760475951407    12.000000000000
+         C           -5.263761743121    -0.133042513557     1.613337592810    12.000000000000
+         C           -4.244238585082    -1.267447337551     4.056717356390    12.000000000000
+         N           -0.130240474737    -4.091686018395     0.748826230099    14.003074004430
+         H            5.545540181833    -5.310841980548     3.354793792304     1.007825032230
+         H            6.931481499696    -3.990974952406    -1.674151605537     1.007825032230
+         H           10.496036686227    -2.879678211125    -4.504641481191     1.007825032230
+         H           12.134996393802     1.484140408321    -4.563679827117     1.007825032230
+         H           10.215923333196     4.734716570779    -1.830771836814     1.007825032230
+         H            6.671677847726     3.613906359891     0.995459739941     1.007825032230
+         H            8.726433400016    -0.859002398697     4.564070849503     1.007825032230
+         H            9.949529372212     0.915390268109     8.701264545594     1.007825032230
+         H            6.808009437835     3.190671333139    11.285068890071     1.007825032230
+         H            2.435158725298     3.679785870638     9.743538987861     1.007825032230
+         H            1.217778999621     1.905746149200     5.585429844160     1.007825032230
+         H            2.786480538339    -9.282967888610     3.059860713169     1.007825032230
+         H           -1.276554994490   -11.227747585929     1.769049483461     1.007825032230
+         H           -4.561013994217    -8.515835461560    -0.266862964709     1.007825032230
+         H           -6.072860034461    -4.069542831261    -0.933031579983     1.007825032230
+         H           -3.770904633238    -3.676277721862    -3.337234093704     1.007825032230
+         H           -3.968426193747     2.807007829256    -2.181904095546     1.007825032230
+         H           -3.014682356968     0.407232772527    -4.286149258406     1.007825032230
+         H           -7.222241881062     1.950137129130    -5.373955181581     1.007825032230
+         H           -7.511648782668    -1.209876581112    -4.385119837939     1.007825032230
+         H           -8.407455930991     1.281012973029    -2.343809802344     1.007825032230
+         H           -5.243024811140     1.925755904096     1.782202072139     1.007825032230
+         H           -7.227460169399    -0.750586716385     1.344478343416     1.007825032230
+         H           -2.214218722328    -0.855662560355     4.222978493244     1.007825032230
+         H           -4.503897072697    -3.305698871793     4.110236454975     1.007825032230
+         H           -5.219916421082    -0.442383584989     5.667156293200     1.007825032230
+         C            0.475463417425     2.633773517652     0.222344098761    12.000000000000
+         O            0.978756567869     4.745580257520    -0.031200404861    15.994914619570
+
+  Running in c1 symmetry.
+
+  Rotational constants: A =      0.00607  B =      0.00347  C =      0.00331 [cm^-1]
+  Rotational constants: A =    182.05193  B =    104.16826  C =     99.23921 [MHz]
+  Nuclear repulsion = 3625.791788514505697
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 234
+  Nalpha       = 117
+  Nbeta        = 117
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-08
+  Density threshold  = 1.00e-06
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: STO-3G
+    Blend: STO-3G
+    Number of shells: 120
+    Number of basis functions: 188
+    Number of Cartesian functions: 189
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+  ==> DFT Potential <==
+
+   => LibXC <=
+
+    Version 7.1.2
+    S. Lehtola, C. Steigemann, M. J. T. Oliveira, and M. A. L. Marques,  SoftwareX 7, 1–5 (2018) (10.1016/j.softx.2017.11.002)
+
+   => Composite Functional: PBE <= 
+
+    PBE GGA Exchange-Correlation Functional
+
+    J.P. Perdew et. al., Phys. Rev. Lett., 77(18), 3865-3868, 1996
+
+
+    Deriv               =              1
+    GGA                 =           TRUE
+    Meta                =          FALSE
+
+    Exchange Hybrid     =          FALSE
+    MP2 Hybrid          =          FALSE
+
+   => Exchange Functionals <=
+
+    1.0000     XC_GGA_X_PBE
+
+   => Correlation Functionals <=
+
+    1.0000     XC_GGA_C_PBE
+
+   => LibXC Density Thresholds  <==
+
+    XC_GGA_C_PBE:  1.00E-12 
+    XC_GGA_X_PBE:  1.00E-15 
+
+   => Molecular Quadrature <=
+
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           NONE
+    Nuclear Scheme         =       TREUTLER
+
+    Blocking Scheme        =         OCTREE
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             35
+    Spherical Points       =            110
+    Total Points           =         194161
+    Total Blocks           =           1673
+    Max Points             =            256
+    Max Functions          =            163
+    Weights Tolerance      =       1.00E-15
+
+   => Loading Basis Set <=
+
+    Name: (STO-3G AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1                  entry CO         line  2104 file C:\Users\HUIWEI\miniconda3\envs\phase7\Library\share\psi4\basis\def2-universal-jkfit.gbs 
+    atoms 2, 4-21, 23-26, 54 entry C          line   198 file C:\Users\HUIWEI\miniconda3\envs\phase7\Library\share\psi4\basis\def2-universal-jkfit.gbs 
+    atoms 3                  entry P          line   820 file C:\Users\HUIWEI\miniconda3\envs\phase7\Library\share\psi4\basis\def2-universal-jkfit.gbs 
+    atoms 22, 27             entry N          line   258 file C:\Users\HUIWEI\miniconda3\envs\phase7\Library\share\psi4\basis\def2-universal-jkfit.gbs 
+    atoms 28-53              entry H          line    18 file C:\Users\HUIWEI\miniconda3\envs\phase7\Library\share\psi4\basis\def2-universal-jkfit.gbs 
+    atoms 55                 entry O          line   318 file C:\Users\HUIWEI\miniconda3\envs\phase7\Library\share\psi4\basis\def2-universal-jkfit.gbs 
+
+  ==> Integral Setup <==
+
+  ==> DiskDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                   No
+    wK tasked:                  No
+    OpenMP threads:              2
+    Integrals threads:           2
+    Memory [MiB]:              337
+    Algorithm:                Disk
+    Integral Cache:           NONE
+    Schwarz Cutoff:          1E-12
+    Fitting Condition:       1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (STO-3G AUX)
+    Blend: DEF2-UNIVERSAL-JKFIT
+    Number of shells: 927
+    Number of basis functions: 2891
+    Number of Cartesian functions: 3467
+    Spherical Harmonics?: true
+    Max angular momentum: 6
+
+  Cached 6.7% of DFT collocation blocks in 0.036 [GiB].
+
+  Minimum eigenvalue in the overlap matrix is 1.4628328700E-01.
+  Reciprocal condition number of the overlap matrix is 5.0998171543E-02.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A        188     188 
+   -------------------------
+    Total     188     188
+   -------------------------
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-RKS iter SAD: -2794.42369283957669   -2.79442e+03   0.00000e+00 
+   @DF-RKS iter   1: -2796.80430016654100   -2.38061e+00   1.03665e-02 DIIS/ADIIS
+   @DF-RKS iter   2: -2681.75423515694047    1.15050e+02   5.22946e-02 DIIS/ADIIS
+   @DF-RKS iter   3: -2782.66159519351640   -1.00907e+02   2.59879e-02 DIIS/ADIIS
+   @DF-RKS iter   4: -2780.18156458365502    2.48003e+00   1.94930e-02 DIIS/ADIIS
+   @DF-RKS iter   5: -2788.20869725716148   -8.02713e+00   1.68345e-02 DIIS/ADIIS
+   @DF-RKS iter   6: -2797.59416395003791   -9.38547e+00   1.95324e-02 DIIS/ADIIS
+   @DF-RKS iter   7: -2789.53585368277618    8.05831e+00   1.77439e-02 DIIS/ADIIS
+   @DF-RKS iter   8: -2790.94181395672786   -1.40596e+00   1.87488e-02 DIIS/ADIIS
+   @DF-RKS iter   9: -2791.62642338181058   -6.84609e-01   1.97431e-02 DIIS/ADIIS
+   @DF-RKS iter  10: -2792.01015878360249   -3.83735e-01   1.99512e-02 DIIS/ADIIS
+   @DF-RKS iter  11: -2791.99745330608357    1.27055e-02   1.99861e-02 DIIS/ADIIS
+   @DF-RKS iter  12: -2755.14987742299900    3.68476e+01   2.86701e-02 DIIS/ADIIS
+   @DF-RKS iter  13: -2790.86322186251255   -3.57133e+01   1.44658e-02 DIIS/ADIIS
+   @DF-RKS iter  14: -2782.75543722637258    8.10778e+00   2.05366e-02 DIIS/ADIIS
+   @DF-RKS iter  15: -2782.24327914237483    5.12158e-01   1.93835e-02 DIIS/ADIIS
+   @DF-RKS iter  16: -2782.24220477473273    1.07437e-03   1.93962e-02 DIIS/ADIIS
+   @DF-RKS iter  17: -2781.87851200099658    3.63693e-01   1.90435e-02 DIIS/ADIIS
+   @DF-RKS iter  18: -2785.34944770284301   -3.47094e+00   1.82787e-02 DIIS/ADIIS
+   @DF-RKS iter  19: -2784.43208850137580    9.17359e-01   1.78028e-02 DIIS/ADIIS
+   @DF-RKS iter  20: -2786.13593573228991   -1.70385e+00   1.75236e-02 DIIS/ADIIS
+   @DF-RKS iter  21: -2782.55856690797418    3.57737e+00   1.89536e-02 DIIS/ADIIS
+   @DF-RKS iter  22: -2787.03987421493139   -4.48131e+00   1.71482e-02 DIIS/ADIIS
+   @DF-RKS iter  23: -2766.05402979454129    2.09858e+01   3.16415e-02 DIIS/ADIIS
+   @DF-RKS iter  24: -2775.65303277672774   -9.59900e+00   2.36525e-02 DIIS/ADIIS
+   @DF-RKS iter  25: -2794.70860247411110   -1.90556e+01   1.15094e-02 DIIS/ADIIS
+   @DF-RKS iter  26: -2786.76328815887655    7.94531e+00   1.86699e-02 DIIS/ADIIS
+   @DF-RKS iter  27: -2786.51725693897561    2.46031e-01   1.72211e-02 DIIS/ADIIS
+   @DF-RKS iter  28: -2789.70366606650214   -3.18641e+00   1.86422e-02 DIIS/ADIIS
+   @DF-RKS iter  29: -2789.75636603186604   -5.27000e-02   1.85509e-02 DIIS/ADIIS
+   @DF-RKS iter  30: -2788.42748867519003    1.32888e+00   1.72390e-02 DIIS/ADIIS
+   @DF-RKS iter  31: -2788.51646411717184   -8.89754e-02   1.71110e-02 DIIS/ADIIS
+   @DF-RKS iter  32: -2785.54629629416831    2.97017e+00   1.71158e-02 DIIS/ADIIS
+   @DF-RKS iter  33: -2788.42551019237453   -2.87921e+00   1.78826e-02 DIIS/ADIIS
+   @DF-RKS iter  34: -2789.56069157769844   -1.13518e+00   1.80895e-02 DIIS/ADIIS
+   @DF-RKS iter  35: -2790.72070521770365   -1.16001e+00   2.20125e-02 DIIS/ADIIS
+   @DF-RKS iter  36: -2693.88603681681798    9.68347e+01   3.48166e-02 DIIS/ADIIS
+   @DF-RKS iter  37: -2746.16976097408497   -5.22837e+01   2.87296e-02 DIIS/ADIIS
+   @DF-RKS iter  38: -2794.54788065383218   -4.83781e+01   1.08790e-02 DIIS/ADIIS
+   @DF-RKS iter  39: -2783.29577364474653    1.12521e+01   1.68618e-02 DIIS/ADIIS
+   @DF-RKS iter  40: -2788.75752092413813   -5.46175e+00   1.73414e-02 DIIS/ADIIS
+   @DF-RKS iter  41: -2786.78245943410457    1.97506e+00   1.64487e-02 DIIS/ADIIS
+   @DF-RKS iter  42: -2787.67928712642151   -8.96828e-01   1.66017e-02 DIIS/ADIIS
+   @DF-RKS iter  43: -2787.38834981166019    2.90937e-01   1.66977e-02 DIIS/ADIIS
+   @DF-RKS iter  44: -2787.00943114362417    3.78919e-01   1.65399e-02 DIIS/ADIIS
+   @DF-RKS iter  45: -2787.51778831446336   -5.08357e-01   1.64830e-02 DIIS/ADIIS
+   @DF-RKS iter  46: -2786.39913991312778    1.11865e+00   1.67680e-02 DIIS/ADIIS
+   @DF-RKS iter  47: -2791.16391455355370   -4.76477e+00   1.90573e-02 DIIS/ADIIS
+   @DF-RKS iter  48: -2789.73390077712475    1.43001e+00   1.90587e-02 DIIS/ADIIS
+   @DF-RKS iter  49: -2670.93005748722726    1.18804e+02   3.69377e-02 DIIS/ADIIS
+   @DF-RKS iter  50: -2748.46800185218035   -7.75379e+01   3.36182e-02 DIIS/ADIIS
+   @DF-RKS iter  51: -2791.05270896614365   -4.25847e+01   1.32735e-02 DIIS/ADIIS
+   @DF-RKS iter  52: -2789.39793729313442    1.65477e+00   2.25895e-02 DIIS/ADIIS
+   @DF-RKS iter  53: -2794.67457855715065   -5.27664e+00   1.94755e-02 DIIS/ADIIS
+   @DF-RKS iter  54: -2789.25201615991409    5.42256e+00   1.96127e-02 DIIS/ADIIS
+   @DF-RKS iter  55: -2789.06370878086318    1.88307e-01   1.93239e-02 DIIS/ADIIS
+   @DF-RKS iter  56: -2788.15326520492090    9.10444e-01   1.83380e-02 DIIS/ADIIS
+   @DF-RKS iter  57: -2785.22498347102055    2.92828e+00   1.81514e-02 DIIS/ADIIS
+   @DF-RKS iter  58: -2787.91429023831643   -2.68931e+00   1.80343e-02 DIIS/ADIIS
+   @DF-RKS iter  59: -2786.14215126718636    1.77214e+00   1.88291e-02 DIIS/ADIIS
+   @DF-RKS iter  60: -2800.97796471509218   -1.48358e+01   1.00877e-02 DIIS/ADIIS
+   @DF-RKS iter  61: -2784.51097347846780    1.64670e+01   2.01771e-02 DIIS/ADIIS
+   @DF-RKS iter  62: -2776.97813268061509    7.53284e+00   1.86102e-02 DIIS/ADIIS
+   @DF-RKS iter  63: -2802.43179750954823   -2.54537e+01   7.42824e-03 DIIS/ADIIS
+   @DF-RKS iter  64: -2790.11414025888234    1.23177e+01   2.13787e-02 DIIS/ADIIS
+   @DF-RKS iter  65: -2793.43598221868933   -3.32184e+00   2.16494e-02 DIIS/ADIIS
+   @DF-RKS iter  66: -2793.73688773014283   -3.00906e-01   2.21647e-02 DIIS/ADIIS
+   @DF-RKS iter  67: -2794.14494886260036   -4.08061e-01   2.30671e-02 DIIS/ADIIS
+   @DF-RKS iter  68: -2789.95788389328709    4.18706e+00   2.04526e-02 DIIS/ADIIS
+   @DF-RKS iter  69: -2794.89341603956427   -4.93553e+00   2.05303e-02 DIIS/ADIIS
+   @DF-RKS iter  70: -2800.01772218319638   -5.12431e+00   1.53780e-02 DIIS/ADIIS

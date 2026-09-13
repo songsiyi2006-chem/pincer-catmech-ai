@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "expected_hash_source": "../summary.json",
+  "expected_hash_field": "source_files_sha256",
+  "artifact_binding": {
+    "model_sha256": "625c2d699edb28c193a58885487b731c6616d16daed17a71a22573e6ed7207dd",
+    "dataset_manifest_sha256": "80e45275bd6119e24995bfe292f555985eda8caad49e4b04b7a95da829ed1098",
+    "split_sha256": "75839e7593913a010ed1a8de79c67127e30cab8d0e132fd7b1d61fd053248dbc"
+  },
+  "all_recorded_sources_present_and_hash_verified": true,
+  "scope": "Exact bytes for the three source files fingerprinted by the original auxiliary EGNN benchmark; not a complete dependency or environment archive. Historical sources are preserved, not executed.",
+  "recovery": {
+    "scripts/train_phase3_egnn.py": "Reconstructed in memory from recorded pre-edit source reads in the original review session; written only after exact agreement with the existing summary SHA256. Exact matching bytes use LF line endings and one final newline.",
+    "other_files": "Copied from unchanged current files only after their bytes matched the original summary SHA256."
+  },
+  "source_files_sha256": {
+    "scripts\\train_phase3_egnn.py": "8e2373fd976ebbb2eb48fbc40105236b52f26f68c407e4215fbb0cc27a8c9142",
+    "src\\pincer_catmech\\models\\pincer_egnn.py": "f95ae5d3d6dbb8c633493aabf6f6b90f0822e43791f3308fa33a212c505ff6be",
+    "tests\\test_pincer_egnn.py": "f4e65d84a56489a00af979ebccd7fbf297066fb0fb4360302b2bbfdb52d10cd4"
+  },
+  "files": [
+    {
+      "source_path": "scripts/train_phase3_egnn.py",
+      "archive_path": "scripts/train_phase3_egnn.py",
+      "sha256": "8e2373fd976ebbb2eb48fbc40105236b52f26f68c407e4215fbb0cc27a8c9142",
+      "size_bytes": 31584,
+      "lf_count": 463,
+      "crlf_count": 0
+    },
+    {
+      "source_path": "src/pincer_catmech/models/pincer_egnn.py",
+      "archive_path": "src/pincer_catmech/models/pincer_egnn.py",
+      "sha256": "f95ae5d3d6dbb8c633493aabf6f6b90f0822e43791f3308fa33a212c505ff6be",
+      "size_bytes": 16560,
+      "lf_count": 264,
+      "crlf_count": 0
+    },
+    {
+      "source_path": "tests/test_pincer_egnn.py",
+      "archive_path": "tests/test_pincer_egnn.py",
+      "sha256": "f4e65d84a56489a00af979ebccd7fbf297066fb0fb4360302b2bbfdb52d10cd4",
+      "size_bytes": 11807,
+      "lf_count": 207,
+      "crlf_count": 0
+    }
+  ]
+}

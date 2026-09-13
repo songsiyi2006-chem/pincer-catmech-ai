@@ -1,0 +1,13 @@
+{
+  "status": "converged",
+  "energy_eV": -1610.3536575152827,
+  "max_force_eV_A": 0.0045277354345960264,
+  "wall_seconds": 7.703000000008615,
+  "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase3\\proton_wire\\attempt_01_cluster_seed_02\\endpoint_1",
+  "charge": 0,
+  "unpaired_electrons": 0,
+  "converged": true,
+  "atoms_count": 43,
+  "output_sha256": "075f06229c7b11c630dc375e5fbcc4c4d3af13fc7e99fd804d0a1e8e057b6bf8",
+  "error": null
+}

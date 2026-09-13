@@ -1,0 +1,380 @@
+{
+  "catalyst_id": "Fe_bipyridine_pnnoh_Ph",
+  "family": "bipyridine_pnnoh",
+  "metal": "Fe",
+  "chemical_state": "active",
+  "multiplicity": 3,
+  "charge": 0,
+  "signature_sha256": "669c5d0daf87fe711f168736e9eed75c87d1e7b23a47e3e449a3eaf7fdd76000",
+  "geometry_sha256": "de15955c9247b080443063b54c304ec1b6b1f40d92164492a0edd522c531d5da",
+  "source_xyz": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\structures\\Fe_bipyridine_pnnoh_Ph\\active\\best_found.xyz",
+  "source_xyz_sha256": "ebbe9c2b1b9f699275c0a89a27a973288f2d14ff43bd9b2089fa753304299421",
+  "symbols": [
+    "Fe",
+    "C",
+    "P",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "O",
+    "N",
+    "N",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "C",
+    "O",
+    "H"
+  ],
+  "positions_bohr": [
+    [
+      0.005420760976183294,
+      -0.8632632239130758,
+      1.1997746655289023
+    ],
+    [
+      4.0210265808143735,
+      -4.972415325053071,
+      2.1056019572391733
+    ],
+    [
+      3.8958506192202216,
+      -1.431514499140738,
+      2.2578333703213533
+    ],
+    [
+      5.290840056675281,
+      -0.8550317742255149,
+      5.350994644219484
+    ],
+    [
+      7.633982397782789,
+      -1.8344411932358096,
+      6.044383264593723
+    ],
+    [
+      8.589084439368829,
+      -1.341086202815311,
+      8.425756615084484
+    ],
+    [
+      7.223498423255253,
+      0.12980033107486474,
+      10.112753500902096
+    ],
+    [
+      4.8965929121208935,
+      1.1125344550419836,
+      9.422334385650359
+    ],
+    [
+      3.9278748431612582,
+      0.6224127012473915,
+      7.0415997075075785
+    ],
+    [
+      6.494607408579713,
+      -0.5971323728028881,
+      0.14063399418243044
+    ],
+    [
+      8.141325693466534,
+      1.3707508904738248,
+      0.7133547053199462
+    ],
+    [
+      9.9892959413177,
+      2.076178007170557,
+      -0.9969782267010188
+    ],
+    [
+      10.190016378086463,
+      0.8450635140698302,
+      -3.2987901012638403
+    ],
+    [
+      8.52373579733622,
+      -1.084801586748122,
+      -3.900432465738473
+    ],
+    [
+      6.675404889952313,
+      -1.7948997338971224,
+      -2.1961984653938194
+    ],
+    [
+      1.836392232240456,
+      -5.970217364352947,
+      0.5918560604562263
+    ],
+    [
+      1.723595846272151,
+      -8.448865899225162,
+      -0.24755490130028154
+    ],
+    [
+      -0.4603709469313766,
+      -9.321414212648486,
+      -1.4208047633560066
+    ],
+    [
+      -2.5128284400448835,
+      -7.718618248602968,
+      -1.6417781321389255
+    ],
+    [
+      -2.3009013044857642,
+      -5.243089159916261,
+      -0.7891833406741495
+    ],
+    [
+      -4.263943388431814,
+      -3.3102155926990395,
+      -0.7435756406073335
+    ],
+    [
+      -6.792803729218776,
+      -3.2804669751467146,
+      -1.465911401147772
+    ],
+    [
+      -8.13892661051378,
+      -1.04904806245863,
+      -1.0523370881065326
+    ],
+    [
+      -7.064039581032418,
+      1.081607007910536,
+      0.017448650072877728
+    ],
+    [
+      -4.487241415315237,
+      0.9796743461940268,
+      0.7111052542241372
+    ],
+    [
+      -2.979607635970443,
+      2.587029928386062,
+      1.6709862879158555
+    ],
+    [
+      -3.2884306596712425,
+      -1.22721086997945,
+      0.27464036432479105
+    ],
+    [
+      -0.09070241861146712,
+      -4.369219984477382,
+      0.2191545963735506
+    ],
+    [
+      3.7563200707424307,
+      -5.605700523288985,
+      4.063724559901369
+    ],
+    [
+      5.839219689653468,
+      -5.686012576949473,
+      1.4274221230830797
+    ],
+    [
+      8.701369715888614,
+      -2.960808380933307,
+      4.713657706727102
+    ],
+    [
+      10.404870080562532,
+      -2.099410730576919,
+      8.97212742154392
+    ],
+    [
+      7.981051543646286,
+      0.5112389792710507,
+      11.9702875852619
+    ],
+    [
+      3.8397372731761035,
+      2.260198678483956,
+      10.739614172556909
+    ],
+    [
+      2.1067728235805068,
+      1.350961615010163,
+      6.454527085958335
+    ],
+    [
+      7.969562837267959,
+      2.3445686862811717,
+      2.5032061433881276
+    ],
+    [
+      11.270871993955424,
+      3.5981946959410815,
+      -0.5371581112795053
+    ],
+    [
+      11.63303884782193,
+      1.3997949036512136,
+      -4.632248578503519
+    ],
+    [
+      8.661020626986375,
+      -2.0276232703178443,
+      -5.706871371688004
+    ],
+    [
+      5.346674770659691,
+      -3.2754934660246273,
+      -2.6801052919954285
+    ],
+    [
+      3.3158254204790514,
+      -9.690037321331655,
+      0.040675045495375234
+    ],
+    [
+      -0.565922795061109,
+      -11.241923280605908,
+      -2.098053666423996
+    ],
+    [
+      -4.270968505312562,
+      -8.3523430559826,
+      -2.4541147382773514
+    ],
+    [
+      -7.689218449327519,
+      -4.90680790209412,
+      -2.3013428591879235
+    ],
+    [
+      -10.10904684620901,
+      -0.986248184817885,
+      -1.592518133290156
+    ],
+    [
+      -8.150755076842309,
+      2.7804741021770463,
+      0.3151868575540785
+    ],
+    [
+      0.8498926518282893,
+      0.3499285502802849,
+      -1.7593953983465587
+    ],
+    [
+      1.381145136013177,
+      1.1517658825494148,
+      -3.7070656704056355
+    ],
+    [
+      -0.6028820448952068,
+      -1.7245460203082064,
+      3.77935389934592
+    ]
+  ],
+  "source_metadata_path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\structures\\Fe_bipyridine_pnnoh_Ph\\active\\metadata.json",
+  "source_metadata_sha256": "817c48bf661db45da074d920df738bd1c3418bce87d47400551cb5e7e0f56124",
+  "protocol": {
+    "provider": "psi4",
+    "method": "pbe",
+    "basis": "sto-3g",
+    "solvent": null,
+    "scf_type": "df",
+    "e_convergence": 1e-08,
+    "d_convergence": 1e-06,
+    "scf_max_iterations": 120,
+    "grid_radial": 35,
+    "grid_spherical": 110,
+    "scf_algorithm": "soscf",
+    "soscf_start_convergence": 0.0001,
+    "soscf_max_iter": 5,
+    "engine_fingerprint": {
+      "conda-meta\\psi4-1.11-py312h951063d_1.json": "18bb7451a1131c0bdfbef36926f2d4a934f6020de582bdcebe386f7a2eec3718",
+      "Lib\\site-packages\\psi4\\core.cp312-win_amd64.pyd": "3c5a39b87bb6f7d26d5ea014bf602b80674145506b931cd7b46d5b8c0bbfc0c2"
+    },
+    "reference": "uks",
+    "executable_sha256": "13d31fc5014b339e70c78add27d247d39542f84a2e8c0d7d9beb374bb34deb25",
+    "provider_source_sha256": "abecbe895473afaa6190038dee023ee9a2dec45cdfb2def90d41bdc2204ee03d"
+  },
+  "protocol_sha256": "76d5e1cc027586b741990e6fe5733fd49e026b99d9758b297d44845f810a1f49",
+  "paired_protocol_sha256": "06dd8abc9e45ec3bcbfa05d72e682318e844bc7ecbc01365c1df9b7b4829052d",
+  "identity_validation": {
+    "retained": true,
+    "ligand_retained": true,
+    "original_nonmetal_graph_retained": true,
+    "lost_bonds": [],
+    "new_bonds": [],
+    "ligand_lost_bonds": [],
+    "ligand_new_bonds": [],
+    "ancillary_coordination_retained": true,
+    "metal_hydride_distances_A": [
+      1.4746934992764076
+    ],
+    "metal_carbonyl_distances_A": [
+      1.7504214704507268
+    ],
+    "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+    "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+  },
+  "status": "timeout",
+  "failure": "Per-state wall-time limit",
+  "returncode": 1,
+  "intended_catalyst_identity_pass": true,
+  "wall_seconds": 120.10899999999674,
+  "peak_rss_mib": 499.6484375,
+  "memory_configured_mib": 500,
+  "timeout_seconds": 120.0,
+  "started_utc": "2026-09-13T15:38:25.169128+00:00",
+  "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\Fe_bipyridine_pnnoh_Ph\\multiplicity_3\\669c5d0daf87fe711f168736e9eed75c87d1e7b23a47e3e449a3eaf7fdd76000\\attempt_dea0df228efc4343afd6f0150e651cbc",
+  "native_evidence": [
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\Fe_bipyridine_pnnoh_Ph\\multiplicity_3\\669c5d0daf87fe711f168736e9eed75c87d1e7b23a47e3e449a3eaf7fdd76000\\attempt_dea0df228efc4343afd6f0150e651cbc\\native\\pair_465a8c72dd63495483e194eef89d3480\\multiplicity_3\\psi4.out",
+      "sha256": "2d1a0d2e30e915d4a3682c0884018a7eb875c36faf2cd1a0cc7beb1c758c23e6"
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\Fe_bipyridine_pnnoh_Ph\\multiplicity_3\\669c5d0daf87fe711f168736e9eed75c87d1e7b23a47e3e449a3eaf7fdd76000\\attempt_dea0df228efc4343afd6f0150e651cbc\\native\\pair_465a8c72dd63495483e194eef89d3480\\request.json",
+      "sha256": "4ed25bc921aefcd1ec0281a19ab151c70a6322a5e3588483225f079714760bf7"
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\Fe_bipyridine_pnnoh_Ph\\multiplicity_3\\669c5d0daf87fe711f168736e9eed75c87d1e7b23a47e3e449a3eaf7fdd76000\\attempt_dea0df228efc4343afd6f0150e651cbc\\worker.out",
+      "sha256": "9b70cab210935dbcebe315615fe75beff0e0d36614db08ad82c3a5ee5bbec468"
+    }
+  ],
+  "reused_verified_cache": false,
+  "evidence": "vertical electronic spin diagnostic; no free-energy barrier, MECP, or experiment"
+}

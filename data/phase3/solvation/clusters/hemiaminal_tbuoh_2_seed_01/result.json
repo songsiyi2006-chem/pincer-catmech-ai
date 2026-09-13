@@ -1,0 +1,121 @@
+{
+  "name": "hemiaminal_tbuoh_2_seed_01",
+  "n_solvent": 2,
+  "seed": 1,
+  "topology": "open_dual_anchor",
+  "native_result": {
+    "status": "converged",
+    "energy_eV": -2094.147399852977,
+    "max_force_eV_A": 0.0005475089917830917,
+    "wall_seconds": 13.171999999991385,
+    "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase3\\solvation\\optimizations\\hemiaminal_tbuoh_2_seed_01",
+    "charge": 0,
+    "unpaired_electrons": 0,
+    "converged": true,
+    "atoms_count": 58,
+    "output_sha256": "4fd31623aeda8206c192a31d12e6948558ecf6d619b843b919bfeb1a70693191",
+    "error": null
+  },
+  "protocol": {
+    "method": "GFN2-xTB",
+    "solvent": "toluene",
+    "solvation_state": "gsolv",
+    "charge": 0,
+    "unpaired_electrons": 0,
+    "electronic_temperature_K": 300.0,
+    "optimization_convergence": "extreme",
+    "accuracy": 0.5,
+    "energy_unit": "eV",
+    "energy_description": "GFN2 total model energy including ALPB excess solvation"
+  },
+  "native_output_file": {
+    "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase3\\solvation\\optimizations\\hemiaminal_tbuoh_2_seed_01\\xtb.out",
+    "sha256": "469c215d7018e208c5487ab0f7f8084f94b59fb97291cc84d44449d3359423fd",
+    "bytes": 327059
+  },
+  "initial_geometry": {
+    "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\solvation\\clusters\\hemiaminal_tbuoh_2_seed_01\\initial.xyz",
+    "sha256": "7b326affb4207b5643e425226126a9ede53842910f7726e6162ea803d636480a",
+    "bytes": 4240
+  },
+  "mapping": {
+    "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\solvation\\clusters\\hemiaminal_tbuoh_2_seed_01\\mapping.json",
+    "sha256": "843e1c2d08c168741c107c63f4e22d05659801adffa0dc9ee3eeb4cc2859f8af",
+    "bytes": 14512
+  },
+  "accepted_for_association": true,
+  "thermochemistry_status": "verified_minimum",
+  "connectivity": {
+    "retained": true,
+    "lost_bonds": [],
+    "new_bonds": [],
+    "criterion": "1.28 times ASE covalent-radius sum; all mapped atoms"
+  },
+  "selected_hbond_metrics": [
+    {
+      "donor": 2,
+      "hydrogen": 17,
+      "acceptor": 32,
+      "label": "substrate_anchor",
+      "H_acceptor_distance_A": 1.9676376477242974,
+      "donor_H_acceptor_angle_deg": 168.3718759027783,
+      "within_initial_window": true,
+      "retained_after_optimization": true
+    },
+    {
+      "donor": 0,
+      "hydrogen": 15,
+      "acceptor": 47,
+      "label": "substrate_anchor",
+      "H_acceptor_distance_A": 1.9860971153945348,
+      "donor_H_acceptor_angle_deg": 151.51764860463857,
+      "within_initial_window": true,
+      "retained_after_optimization": true
+    }
+  ],
+  "final_hbond_topology": {
+    "all_fragments_H_bond_connected": true,
+    "substrate_connected_fragments": [
+      0,
+      1,
+      2
+    ],
+    "observed_hydrogen_bonds": [
+      {
+        "donor": 0,
+        "hydrogen": 15,
+        "acceptor": 47,
+        "H_acceptor_distance_A": 1.9860971153945348,
+        "donor_H_acceptor_angle_deg": 151.51764860463857,
+        "within_initial_window": true,
+        "retained_after_optimization": true
+      },
+      {
+        "donor": 2,
+        "hydrogen": 17,
+        "acceptor": 32,
+        "H_acceptor_distance_A": 1.9676376477242974,
+        "donor_H_acceptor_angle_deg": 168.3718759027783,
+        "within_initial_window": true,
+        "retained_after_optimization": true
+      },
+      {
+        "donor": 47,
+        "hydrogen": 57,
+        "acceptor": 2,
+        "H_acceptor_distance_A": 1.9388931061601955,
+        "donor_H_acceptor_angle_deg": 153.07592214061793,
+        "within_initial_window": true,
+        "retained_after_optimization": true
+      }
+    ]
+  },
+  "optimized_geometry": {
+    "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\solvation\\clusters\\hemiaminal_tbuoh_2_seed_01\\optimized.xyz",
+    "sha256": "f50a74524fb72b70b689934a2d3fb67295ee3b864ad026a7211172b40f7254f5",
+    "bytes": 4240
+  },
+  "association_energy_eV": -0.9178559101596875,
+  "association_energy_kcal_mol": -21.16626011785381,
+  "energy_hartree": -76.958498107289
+}

@@ -1,0 +1,112 @@
+{
+  "name": "hemiaminal_tbuoh_2_seed_02",
+  "n_solvent": 2,
+  "seed": 2,
+  "topology": "open_dual_anchor",
+  "native_result": {
+    "status": "converged",
+    "energy_eV": -2094.132699191288,
+    "max_force_eV_A": 0.0004249347323023834,
+    "wall_seconds": 6.922000000020489,
+    "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase3\\solvation\\optimizations\\hemiaminal_tbuoh_2_seed_02",
+    "charge": 0,
+    "unpaired_electrons": 0,
+    "converged": true,
+    "atoms_count": 58,
+    "output_sha256": "c515d126e734e1974dfe699840c385d86b50e54ae3499f31bbc3ea9a1a2ae6c3",
+    "error": null
+  },
+  "protocol": {
+    "method": "GFN2-xTB",
+    "solvent": "toluene",
+    "solvation_state": "gsolv",
+    "charge": 0,
+    "unpaired_electrons": 0,
+    "electronic_temperature_K": 300.0,
+    "optimization_convergence": "extreme",
+    "accuracy": 0.5,
+    "energy_unit": "eV",
+    "energy_description": "GFN2 total model energy including ALPB excess solvation"
+  },
+  "native_output_file": {
+    "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase3\\solvation\\optimizations\\hemiaminal_tbuoh_2_seed_02\\xtb.out",
+    "sha256": "7e76bb2b1869dfeec0a0da81fe0607f2fb8ea80a8825636952361754bd0d4a25",
+    "bytes": 187595
+  },
+  "initial_geometry": {
+    "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\solvation\\clusters\\hemiaminal_tbuoh_2_seed_02\\initial.xyz",
+    "sha256": "7aa15c977f66653fe2157900a99af67f1734caf9edf2d6325dd50c3e20c3ab1d",
+    "bytes": 4240
+  },
+  "mapping": {
+    "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\solvation\\clusters\\hemiaminal_tbuoh_2_seed_02\\mapping.json",
+    "sha256": "c2ed706ea26edb6404fcff1d11be93d3694cb0be4454cd9b6b90692051f7c2dc",
+    "bytes": 14497
+  },
+  "accepted_for_association": true,
+  "thermochemistry_status": "not_selected_for_hessian",
+  "connectivity": {
+    "retained": true,
+    "lost_bonds": [],
+    "new_bonds": [],
+    "criterion": "1.28 times ASE covalent-radius sum; all mapped atoms"
+  },
+  "selected_hbond_metrics": [
+    {
+      "donor": 0,
+      "hydrogen": 15,
+      "acceptor": 32,
+      "label": "substrate_anchor",
+      "H_acceptor_distance_A": 1.8728977717468236,
+      "donor_H_acceptor_angle_deg": 160.23798438925783,
+      "within_initial_window": true,
+      "retained_after_optimization": true
+    },
+    {
+      "donor": 2,
+      "hydrogen": 17,
+      "acceptor": 47,
+      "label": "substrate_anchor",
+      "H_acceptor_distance_A": 1.970188069553865,
+      "donor_H_acceptor_angle_deg": 175.4209815694368,
+      "within_initial_window": true,
+      "retained_after_optimization": true
+    }
+  ],
+  "final_hbond_topology": {
+    "all_fragments_H_bond_connected": true,
+    "substrate_connected_fragments": [
+      0,
+      1,
+      2
+    ],
+    "observed_hydrogen_bonds": [
+      {
+        "donor": 0,
+        "hydrogen": 15,
+        "acceptor": 32,
+        "H_acceptor_distance_A": 1.8728977717468236,
+        "donor_H_acceptor_angle_deg": 160.23798438925783,
+        "within_initial_window": true,
+        "retained_after_optimization": true
+      },
+      {
+        "donor": 2,
+        "hydrogen": 17,
+        "acceptor": 47,
+        "H_acceptor_distance_A": 1.970188069553865,
+        "donor_H_acceptor_angle_deg": 175.4209815694368,
+        "within_initial_window": true,
+        "retained_after_optimization": true
+      }
+    ]
+  },
+  "optimized_geometry": {
+    "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\solvation\\clusters\\hemiaminal_tbuoh_2_seed_02\\optimized.xyz",
+    "sha256": "1f8e2b936d5fe5feeced35d9719d0b84309cfe9bb1e4bcb7386c081d15d1dd78",
+    "bytes": 4240
+  },
+  "association_energy_eV": -0.903155248470739,
+  "association_energy_kcal_mol": -20.827254805834066,
+  "energy_hartree": -76.957957867932
+}

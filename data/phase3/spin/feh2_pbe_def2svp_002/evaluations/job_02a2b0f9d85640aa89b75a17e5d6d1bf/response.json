@@ -1,0 +1,150 @@
+{
+  "energy1_hartree": -1264.3783144802296,
+  "energy2_hartree": -1264.3778208139418,
+  "gradient1_hartree_bohr": [
+    [
+      -1.2624635796834593e-08,
+      1.0466100423989543e-08,
+      -0.00900784828470158
+    ],
+    [
+      -0.009983926777189872,
+      -2.939114539942225e-09,
+      0.0045911287145460195
+    ],
+    [
+      0.009983935067013283,
+      -7.702703759223696e-09,
+      0.004591103665977855
+    ]
+  ],
+  "gradient2_hartree_bohr": [
+    [
+      -1.908571430715364e-08,
+      -1.595517786309933e-08,
+      0.022882039119827446
+    ],
+    [
+      -0.034247418340252314,
+      1.6355406146705875e-08,
+      -0.011389139039555837
+    ],
+    [
+      0.03424742957746489,
+      -4.718485654616035e-10,
+      -0.01138916499269585
+    ]
+  ],
+  "state1": "multiplicity_3",
+  "state2": "multiplicity_5",
+  "spin_dependent": true,
+  "metadata": {
+    "symbols": [
+      "Fe",
+      "H",
+      "H"
+    ],
+    "positions_bohr": [
+      [
+        -7.166040904181507e-08,
+        9.57743609758938e-07,
+        -0.2115200504649954
+      ],
+      [
+        1.9593648786139368,
+        -9.58667725001895e-07,
+        1.840068110770728
+      ],
+      [
+        -1.959364815461809,
+        -8.917101930662967e-10,
+        1.8400680561135971
+      ]
+    ],
+    "charge": 0,
+    "multiplicities": [
+      3,
+      5
+    ],
+    "method": "pbe",
+    "basis": "def2-svp",
+    "configured_memory_mib": 500,
+    "threads": 2,
+    "psi4_version": "1.11",
+    "coordinate_units": "bohr",
+    "energy_units": "hartree",
+    "gradient_units": "hartree/bohr",
+    "scf_e_convergence": 1e-09,
+    "scf_d_convergence": 1e-08,
+    "scf_max_iterations": 120,
+    "geometry_sha256": "a766f92a93e54802dc9684ec89b0afc0d3e45801e3120fa0f810dbd2d1e37bfd",
+    "states": [
+      {
+        "multiplicity": 3,
+        "reference": "uks",
+        "energy_hartree": -1264.3783144802296,
+        "gradient_hartree_bohr": [
+          [
+            -1.2624635796834593e-08,
+            1.0466100423989543e-08,
+            -0.00900784828470158
+          ],
+          [
+            -0.009983926777189872,
+            -2.939114539942225e-09,
+            0.0045911287145460195
+          ],
+          [
+            0.009983935067013283,
+            -7.702703759223696e-09,
+            0.004591103665977855
+          ]
+        ],
+        "spin_squared": 2.0580984632294133,
+        "expected_spin_squared": 2.0,
+        "nalpha": 15,
+        "nbeta": 13,
+        "basis_functions": 41,
+        "scf_converged": true,
+        "gradient_kind": "analytic",
+        "wall_seconds": 4.110000000015134,
+        "output_sha256": "f2ed295b0293a33902153bfc1c859c54f1ef63e6dc3ca879cdadc6d169f85026"
+      },
+      {
+        "multiplicity": 5,
+        "reference": "uks",
+        "energy_hartree": -1264.3778208139418,
+        "gradient_hartree_bohr": [
+          [
+            -1.908571430715364e-08,
+            -1.595517786309933e-08,
+            0.022882039119827446
+          ],
+          [
+            -0.034247418340252314,
+            1.6355406146705875e-08,
+            -0.011389139039555837
+          ],
+          [
+            0.03424742957746489,
+            -4.718485654616035e-10,
+            -0.01138916499269585
+          ]
+        ],
+        "spin_squared": 6.0176300244223295,
+        "expected_spin_squared": 6.0,
+        "nalpha": 16,
+        "nbeta": 12,
+        "basis_functions": 41,
+        "scf_converged": true,
+        "gradient_kind": "analytic",
+        "wall_seconds": 3.062999999994645,
+        "output_sha256": "44bd5114c0316f0abeb374a5524c8b3adfc411b3e3d82590c4194f9eb0687bc6"
+      }
+    ],
+    "wall_seconds": 7.202999999979511,
+    "evidence": "spin-sensitive electronic-structure calculation; no experimental validation",
+    "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\feh2_pbe_def2svp_002\\evaluations\\job_02a2b0f9d85640aa89b75a17e5d6d1bf\\native\\pair_d336f8df0a53487bba2484d102538a42",
+    "status": "completed"
+  }
+}

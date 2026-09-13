@@ -1,0 +1,31 @@
+{
+  "multiplicity": 5,
+  "reference": "uks",
+  "energy_hartree": -1264.370942263383,
+  "gradient_hartree_bohr": [
+    [
+      -8.02682532594079e-09,
+      -3.5102962645818406e-08,
+      0.05989630956678749
+    ],
+    [
+      -0.05750734348360302,
+      5.449103558103861e-08,
+      -0.02996124869390583
+    ],
+    [
+      0.05750735155003925,
+      -1.9369742494131186e-08,
+      -0.029961253742784466
+    ]
+  ],
+  "spin_squared": 6.014335079501333,
+  "expected_spin_squared": 6.0,
+  "nalpha": 16,
+  "nbeta": 12,
+  "basis_functions": 41,
+  "scf_converged": true,
+  "gradient_kind": "analytic",
+  "wall_seconds": 3.1710000000020955,
+  "output_sha256": "eb9de5457c35baba41b3c8387a7313da7fb04cb244119305f37c21f07de1fd68"
+}

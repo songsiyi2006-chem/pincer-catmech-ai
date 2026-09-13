@@ -1,0 +1,276 @@
+{
+  "started_utc": "2026-09-13T16:43:54.530408+00:00",
+  "quantum_pair_evaluations": 0,
+  "quantum_state_attempts": 0,
+  "max_pair_evaluations": 8,
+  "wall_budget_seconds": 1920.0,
+  "per_state_timeout_seconds": 120,
+  "configured_memory_mib": 500,
+  "observed_rss_limit_mib": 600,
+  "threads": 2,
+  "first_order_crossing": false,
+  "minimum_verified": false,
+  "validated_catalyst_label": false,
+  "provider_source_sha256": "abecbe895473afaa6190038dee023ee9a2dec45cdfb2def90d41bdc2204ee03d",
+  "runner_source_sha256": "c40856ca77123867b3c69538d61f6308c1df0b3b60548dacc979bc735865a047",
+  "optimizer_source_sha256": "c04f79edda9bd1a3edb8085da775c6f0b685995506077dde5de9996fd9be1a4a",
+  "evidence": "prospective bounded pincer crossing search; no SOC, rate, experiment or global minimum claim",
+  "readiness": {
+    "matrix_summary": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\summary.json",
+    "matrix_sha256": "c8fafbc4ee951f0eefaf4e8e764f23e4b7e7119ab738f55032d1c9d266aa3a30",
+    "matrix_run_complete": true,
+    "planned_target_states": 54,
+    "state_records": 54,
+    "eligible_pairs": [],
+    "rejected_states": [
+      {
+        "catalyst_id": "Fe_bipyridine_pnnoh_iPr",
+        "multiplicity": 3,
+        "reason": "spin_quality_not_passed"
+      },
+      {
+        "catalyst_id": "Fe_bipyridine_pnnoh_iPr",
+        "multiplicity": 5,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Co_bipyridine_pnnoh_Ph",
+        "multiplicity": 1,
+        "reason": "active_catalyst_seed_required"
+      },
+      {
+        "catalyst_id": "Co_bipyridine_pnnoh_Ph",
+        "multiplicity": 3,
+        "reason": "active_catalyst_seed_required"
+      },
+      {
+        "catalyst_id": "Co_bipyridine_pnnoh_Ph",
+        "multiplicity": 5,
+        "reason": "active_catalyst_seed_required"
+      },
+      {
+        "catalyst_id": "Co_bipyridine_pnnoh_iPr",
+        "multiplicity": 1,
+        "reason": "active_catalyst_seed_required"
+      },
+      {
+        "catalyst_id": "Co_bipyridine_pnnoh_iPr",
+        "multiplicity": 3,
+        "reason": "active_catalyst_seed_required"
+      },
+      {
+        "catalyst_id": "Co_bipyridine_pnnoh_iPr",
+        "multiplicity": 5,
+        "reason": "active_catalyst_seed_required"
+      },
+      {
+        "catalyst_id": "Co_macho_pnp_Ph",
+        "multiplicity": 1,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Co_macho_pnp_Ph",
+        "multiplicity": 3,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Co_macho_pnp_Ph",
+        "multiplicity": 5,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Co_macho_pnp_iPr",
+        "multiplicity": 1,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Co_macho_pnp_iPr",
+        "multiplicity": 3,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Co_macho_pnp_iPr",
+        "multiplicity": 5,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Co_pyridine_pnn_Ph",
+        "multiplicity": 1,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Co_pyridine_pnn_Ph",
+        "multiplicity": 3,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Co_pyridine_pnn_Ph",
+        "multiplicity": 5,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Co_pyridine_pnn_iPr",
+        "multiplicity": 1,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Co_pyridine_pnn_iPr",
+        "multiplicity": 3,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Co_pyridine_pnn_iPr",
+        "multiplicity": 5,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Fe_bipyridine_pnnoh_Ph",
+        "multiplicity": 3,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Fe_bipyridine_pnnoh_Ph",
+        "multiplicity": 5,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Fe_macho_pnp_Ph",
+        "multiplicity": 1,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Fe_macho_pnp_Ph",
+        "multiplicity": 3,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Fe_macho_pnp_Ph",
+        "multiplicity": 5,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Fe_macho_pnp_iPr",
+        "multiplicity": 1,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Fe_macho_pnp_iPr",
+        "multiplicity": 3,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Fe_macho_pnp_iPr",
+        "multiplicity": 5,
+        "reason": "spin_quality_not_passed"
+      },
+      {
+        "catalyst_id": "Fe_pyridine_pnn_Ph",
+        "multiplicity": 1,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Fe_pyridine_pnn_Ph",
+        "multiplicity": 3,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Fe_pyridine_pnn_Ph",
+        "multiplicity": 5,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Fe_pyridine_pnn_iPr",
+        "multiplicity": 1,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Fe_pyridine_pnn_iPr",
+        "multiplicity": 3,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Fe_pyridine_pnn_iPr",
+        "multiplicity": 5,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Mn_bipyridine_pnnoh_Ph",
+        "multiplicity": 3,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Mn_bipyridine_pnnoh_Ph",
+        "multiplicity": 5,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Mn_bipyridine_pnnoh_iPr",
+        "multiplicity": 3,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Mn_bipyridine_pnnoh_iPr",
+        "multiplicity": 5,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Mn_macho_pnp_Ph",
+        "multiplicity": 1,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Mn_macho_pnp_Ph",
+        "multiplicity": 3,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Mn_macho_pnp_Ph",
+        "multiplicity": 5,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Mn_macho_pnp_iPr",
+        "multiplicity": 1,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Mn_macho_pnp_iPr",
+        "multiplicity": 3,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Mn_macho_pnp_iPr",
+        "multiplicity": 5,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Mn_pyridine_pnn_Ph",
+        "multiplicity": 3,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Mn_pyridine_pnn_Ph",
+        "multiplicity": 5,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Mn_pyridine_pnn_iPr",
+        "multiplicity": 3,
+        "reason": "state_not_converged_or_missing"
+      },
+      {
+        "catalyst_id": "Mn_pyridine_pnn_iPr",
+        "multiplicity": 5,
+        "reason": "state_not_converged_or_missing"
+      }
+    ],
+    "selected_seed": null,
+    "status": "no_eligible_pair",
+    "reason": "No two currently verified states pass all seed gates at matched geometry/protocol"
+  },
+  "status": "no_eligible_pair",
+  "completed_utc": "2026-09-13T16:43:57.464697+00:00",
+  "native_evidence": [],
+  "attempt_result": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_mecp_from_matrix_001\\attempt_8f3c1889e13c4583a145f0758c75d08e\\result.json",
+  "attempt_result_sha256": "767af08c82410fd6e79151fb57b16ba907a2750d25913553b5690f976cd5e0f2"
+}

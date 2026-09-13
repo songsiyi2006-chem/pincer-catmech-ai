@@ -14,10 +14,11 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("directory", type=Path)
     parser.add_argument("output", type=Path)
+    parser.add_argument("--pattern", default="MONOGRAPH*.pdf")
     args = parser.parse_args()
     args.output.mkdir(parents=True, exist_ok=True)
     reports = []
-    for pdf in args.directory.glob("MONOGRAPH*.pdf"):
+    for pdf in args.directory.glob(args.pattern):
         document = pdfium.PdfDocument(pdf)
         reader = PdfReader(pdf)
         folder = args.output / pdf.stem

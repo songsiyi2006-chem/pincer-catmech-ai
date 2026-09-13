@@ -1,0 +1,109 @@
+{
+  "symbols": [
+    "Fe",
+    "H",
+    "H"
+  ],
+  "positions_bohr": [
+    [
+      -1.5316715817945883e-07,
+      3.478482967986038e-07,
+      0.13242364525337233
+    ],
+    [
+      2.1147327602792783,
+      -7.624722922677505e-07,
+      1.6681812424135138
+    ],
+    [
+      -2.114732605840979,
+      4.139734806098019e-07,
+      1.6681810534501622
+    ]
+  ],
+  "charge": 0,
+  "multiplicities": [
+    3,
+    5
+  ],
+  "method": "pbe",
+  "basis": "def2-svp",
+  "configured_memory_mib": 500,
+  "threads": 2,
+  "psi4_version": "1.11",
+  "coordinate_units": "bohr",
+  "energy_units": "hartree",
+  "gradient_units": "hartree/bohr",
+  "scf_e_convergence": 1e-09,
+  "scf_d_convergence": 1e-08,
+  "scf_max_iterations": 120,
+  "geometry_sha256": "79434ba2e2faa0070dec28fe6574a0dcc9604bc090200c7097c2e1b5110b56cb",
+  "states": [
+    {
+      "multiplicity": 3,
+      "reference": "uks",
+      "energy_hartree": -1264.3668580483877,
+      "gradient_hartree_bohr": [
+        [
+          -8.977579318315831e-08,
+          -1.6961839705670098e-08,
+          0.049942491321647964
+        ],
+        [
+          -0.03943152372293293,
+          1.020548593747425e-07,
+          -0.024986254682001746
+        ],
+        [
+          0.039431613159350995,
+          -8.508269489271592e-08,
+          -0.024986321316155094
+        ]
+      ],
+      "spin_squared": 2.0323910413648356,
+      "expected_spin_squared": 2.0,
+      "nalpha": 15,
+      "nbeta": 13,
+      "basis_functions": 41,
+      "scf_converged": true,
+      "gradient_kind": "analytic",
+      "wall_seconds": 3.875,
+      "output_sha256": "767e24e43b59e88b6967289152b448b11183570a32c975ac40bd27e7a848bafb"
+    },
+    {
+      "multiplicity": 5,
+      "reference": "uks",
+      "energy_hartree": -1264.368795973423,
+      "gradient_hartree_bohr": [
+        [
+          -9.911971988432917e-08,
+          -2.399851034228559e-08,
+          0.07074053580923256
+        ],
+        [
+          -0.07361948009843522,
+          3.268508457513391e-08,
+          -0.035379394627645847
+        ],
+        [
+          0.07361957889009962,
+          -8.680684589281075e-09,
+          -0.0353794667639874
+        ]
+      ],
+      "spin_squared": 6.011984859645674,
+      "expected_spin_squared": 6.0,
+      "nalpha": 16,
+      "nbeta": 12,
+      "basis_functions": 41,
+      "scf_converged": true,
+      "gradient_kind": "analytic",
+      "wall_seconds": 3.4059999999881256,
+      "output_sha256": "0535e75a2d0289b9a4a7658bd01fb6186d6a3d2a6b9d1081180d16d707298752"
+    }
+  ],
+  "wall_seconds": 7.296999999991385,
+  "evidence": "spin-sensitive electronic-structure calculation; no experimental validation",
+  "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\feh2_pbe_def2svp_002\\evaluations\\job_1b244052836b437eb0051b9c924bf5d4\\native\\pair_2cbb248b945541148a901a5fe122a69b",
+  "status": "completed"
+}

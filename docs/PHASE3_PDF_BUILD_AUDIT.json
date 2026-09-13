@@ -1,0 +1,44 @@
+[
+  {
+    "source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\docs\\MAGNUM_OPUS_CATMECH_EN.md",
+    "pdf": "docs\\MAGNUM_OPUS_CATMECH_EN.pdf",
+    "language": "EN",
+    "source_sha256": "55a633c983245004309fbd7fe1154c6b473a09ebcdf69bab174c243d592d5d87",
+    "figure_source_sha256": {
+      "examples/plots/phase3_spin_diagnostics.png": "a8c1eddfe13d57ecdaa26886795b8af470cbe52fa9a7cbc2a0c1d76b1e9389a7",
+      "examples/plots/phase3_micro_solvation.png": "3ab6f88ab0e89ae7b6c478ae6debcf5851d6d0bed7036ec67647eddb568caff4",
+      "examples/plots/phase3_solver_verification.png": "3017667cc623572050d37218d96b23a2fbcbcf7e648b43ae38bfaa433173637f",
+      "examples/plots/phase3_egnn_auxiliary.png": "76f38925861986befbc8c53ea0784a3c6905b0fba57a26aeccea8f454208861d"
+    },
+    "pdf_sha256": "4fb5a3c094abd7abf078ed1725a59799c189c45d885de90d39c8cad3664a21e3",
+    "word_count": 11799,
+    "word_count_method": "English lexical word regex excluding equations",
+    "CJK_characters": 0,
+    "display_equations": 130,
+    "pages": 43,
+    "unicode_prose_fallback": "Embedded Times for scientific Unicode signs not present in SimSun; missing fallback glyphs are fatal",
+    "inline_math_layout": "autoLeading=max; tall activity and flux products are separate display equations",
+    "figure_caption_layout": "KeepTogether group"
+  },
+  {
+    "source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\docs\\MAGNUM_OPUS_CATMECH_ZH.md",
+    "pdf": "docs\\MAGNUM_OPUS_CATMECH_ZH.pdf",
+    "language": "ZH",
+    "source_sha256": "705929ebcf4799ca270d06f6893ed82e8bee2b4c1ba8ef854a4983d32acfb268",
+    "figure_source_sha256": {
+      "examples/plots/phase3_spin_diagnostics.png": "a8c1eddfe13d57ecdaa26886795b8af470cbe52fa9a7cbc2a0c1d76b1e9389a7",
+      "examples/plots/phase3_micro_solvation.png": "3ab6f88ab0e89ae7b6c478ae6debcf5851d6d0bed7036ec67647eddb568caff4",
+      "examples/plots/phase3_solver_verification.png": "3017667cc623572050d37218d96b23a2fbcbcf7e648b43ae38bfaa433173637f",
+      "examples/plots/phase3_egnn_auxiliary.png": "76f38925861986befbc8c53ea0784a3c6905b0fba57a26aeccea8f454208861d"
+    },
+    "pdf_sha256": "45524ced2180064759a98be1bb15818def310792995cc268f97c1bb51d4b9d56",
+    "word_count": 13642,
+    "word_count_method": "jieba 0.42.1 segmented lexical tokens",
+    "CJK_characters": 21433,
+    "display_equations": 172,
+    "pages": 44,
+    "unicode_prose_fallback": "Embedded Times for scientific Unicode signs not present in SimSun; missing fallback glyphs are fatal",
+    "inline_math_layout": "autoLeading=max; tall activity and flux products are separate display equations",
+    "figure_caption_layout": "KeepTogether group"
+  }
+]

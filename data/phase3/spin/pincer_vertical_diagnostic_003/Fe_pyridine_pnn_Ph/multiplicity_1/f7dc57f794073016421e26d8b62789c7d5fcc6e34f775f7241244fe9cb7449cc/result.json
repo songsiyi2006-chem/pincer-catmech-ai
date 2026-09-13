@@ -1,0 +1,422 @@
+{
+  "catalyst_id": "Fe_pyridine_pnn_Ph",
+  "family": "pyridine_pnn",
+  "metal": "Fe",
+  "chemical_state": "active",
+  "multiplicity": 1,
+  "charge": 0,
+  "signature_sha256": "f7dc57f794073016421e26d8b62789c7d5fcc6e34f775f7241244fe9cb7449cc",
+  "geometry_sha256": "347b5b320c72312d217d83d6674529f1ae82973f20ce56e738b25880982f5224",
+  "source_xyz": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\structures\\Fe_pyridine_pnn_Ph\\active\\best_found.xyz",
+  "source_xyz_sha256": "e78c3fd68aff56e7d90edf98ef897c3266296157c45849ba688658c0c97ccec8",
+  "symbols": [
+    "Fe",
+    "C",
+    "P",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "N",
+    "C",
+    "C",
+    "C",
+    "C",
+    "N",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "C",
+    "O",
+    "H"
+  ],
+  "positions_bohr": [
+    [
+      0.012247659366026488,
+      -0.46657724250140054,
+      0.494506232966981
+    ],
+    [
+      3.876833941854377,
+      -4.315259213882187,
+      2.327671284340463
+    ],
+    [
+      3.807451451761995,
+      -1.0092401179735213,
+      1.9416374760749142
+    ],
+    [
+      6.642940366249572,
+      -0.11797437230709765,
+      0.18678153284980825
+    ],
+    [
+      7.6385448133669325,
+      -1.7880936956042555,
+      -1.5817207258277635
+    ],
+    [
+      9.734376958415211,
+      -1.1206304344980436,
+      -2.992866470904158
+    ],
+    [
+      10.843201688031154,
+      1.2278568591970047,
+      -2.6578776314014148
+    ],
+    [
+      9.842615730315083,
+      2.91187746827348,
+      -0.9181868244500145
+    ],
+    [
+      7.747298427354486,
+      2.248840271808061,
+      0.49510098238743444
+    ],
+    [
+      4.63846006558957,
+      0.3531218520172578,
+      5.0298664744932875
+    ],
+    [
+      6.7543941752219725,
+      -0.5225008466411706,
+      6.32402866157241
+    ],
+    [
+      7.33843057019472,
+      0.43375289472878525,
+      8.683850237579975
+    ],
+    [
+      5.816634046134001,
+      2.2701760660824024,
+      9.771022445618408
+    ],
+    [
+      3.7156409452374164,
+      3.157790829911643,
+      8.486465238867982
+    ],
+    [
+      3.12638463680525,
+      2.2009486293453278,
+      6.123564685430977
+    ],
+    [
+      1.684679149170008,
+      -5.527059835467246,
+      1.6001025133525995
+    ],
+    [
+      1.277808164518478,
+      -8.18298507499453,
+      1.8331631045450865
+    ],
+    [
+      -0.9583371899378095,
+      -9.226098336341517,
+      1.1078170073662794
+    ],
+    [
+      -2.8718770254624677,
+      -7.679142668058936,
+      0.10107044599613865
+    ],
+    [
+      -2.387349482605712,
+      -5.134565740467717,
+      -0.13076288225315014
+    ],
+    [
+      -4.242023081184927,
+      -3.3476927859623493,
+      -1.3459461430301016
+    ],
+    [
+      -3.810509059018789,
+      -0.7094550675287397,
+      -0.5599542084974611
+    ],
+    [
+      -4.600021589614334,
+      1.0689927514442994,
+      -2.5557966157733
+    ],
+    [
+      -7.409831021092863,
+      1.0107876481138263,
+      -3.222034950493624
+    ],
+    [
+      -5.082774498000533,
+      -0.12792856684504347,
+      1.8528181985153043
+    ],
+    [
+      -3.5292997392056917,
+      -1.0044403559988253,
+      4.127977383940526
+    ],
+    [
+      -0.21908003368299564,
+      -4.069041532912721,
+      0.5934682636871836
+    ],
+    [
+      5.4787440680596555,
+      -5.323169466057198,
+      3.0896555955791727
+    ],
+    [
+      6.746613634815852,
+      -3.612708202728603,
+      -1.831694688351668
+    ],
+    [
+      10.506629282214215,
+      -2.4282328820249695,
+      -4.360483147347521
+    ],
+    [
+      12.483347713827575,
+      1.750185380774738,
+      -3.758365632109362
+    ],
+    [
+      10.700975819304972,
+      4.74984782094314,
+      -0.6704340261108972
+    ],
+    [
+      6.949747923194928,
+      3.5622232108054726,
+      1.8436280118976147
+    ],
+    [
+      7.943070193704751,
+      -1.9432472549488615,
+      5.459096523436028
+    ],
+    [
+      8.986280107213622,
+      -0.24668310768676133,
+      9.682757979016563
+    ],
+    [
+      6.278148423470469,
+      3.0150140391043503,
+      11.616461406887082
+    ],
+    [
+      2.5417547668046665,
+      4.6033501807906125,
+      9.328022182546688
+    ],
+    [
+      1.5228570487250586,
+      2.910170697183739,
+      5.069737950268538
+    ],
+    [
+      2.7847741283412977,
+      -9.322413749800978,
+      2.6050462511479053
+    ],
+    [
+      -1.2801909174137065,
+      -11.235815674923746,
+      1.2917497102244038
+    ],
+    [
+      -4.650359205699554,
+      -8.464874654569487,
+      -0.5083686583123276
+    ],
+    [
+      -6.187419889902719,
+      -3.944394924576812,
+      -0.9442802999698833
+    ],
+    [
+      -3.9372099543354655,
+      -3.4567029714458766,
+      -3.3894891161552603
+    ],
+    [
+      -4.060008334138709,
+      2.9580302765471718,
+      -1.9288968861399352
+    ],
+    [
+      -3.4761600373215957,
+      0.6449823995087627,
+      -4.234670458959029
+    ],
+    [
+      -7.761253329628984,
+      2.379586634396521,
+      -4.713403081748568
+    ],
+    [
+      -7.9844838846426125,
+      -0.8377725681608233,
+      -3.9109831982564156
+    ],
+    [
+      -8.580653428781172,
+      1.514504196329657,
+      -1.6107950975037217
+    ],
+    [
+      -5.283274999332912,
+      1.925567911441605,
+      1.9615223483614932
+    ],
+    [
+      -6.9722763429263965,
+      -0.987610367701029,
+      1.9203075810062977
+    ],
+    [
+      -1.5673222757245144,
+      -0.26066508706424885,
+      4.024163797840993
+    ],
+    [
+      -3.4835503108081904,
+      -3.057519655828762,
+      4.284132298277112
+    ],
+    [
+      -4.359333359880234,
+      -0.24979157561340792,
+      5.853851412469516
+    ],
+    [
+      1.3197680900701307,
+      -0.18200610633875836,
+      -2.4889042432132014
+    ],
+    [
+      2.272848566098178,
+      0.15839339204791394,
+      -4.421076845867786
+    ],
+    [
+      0.062363578384671645,
+      2.2895912528471785,
+      0.5937689007154119
+    ]
+  ],
+  "source_metadata_path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\structures\\Fe_pyridine_pnn_Ph\\active\\metadata.json",
+  "source_metadata_sha256": "0df766080dbe3537d6a5b431779a51e04b3099df200c46f837f9811f3663e395",
+  "protocol": {
+    "provider": "psi4",
+    "method": "pbe",
+    "basis": "sto-3g",
+    "solvent": null,
+    "scf_type": "df",
+    "e_convergence": 1e-08,
+    "d_convergence": 1e-06,
+    "scf_max_iterations": 120,
+    "grid_radial": 35,
+    "grid_spherical": 110,
+    "scf_algorithm": "soscf",
+    "soscf_start_convergence": 0.0001,
+    "soscf_max_iter": 5,
+    "engine_fingerprint": {
+      "conda-meta\\psi4-1.11-py312h951063d_1.json": "18bb7451a1131c0bdfbef36926f2d4a934f6020de582bdcebe386f7a2eec3718",
+      "Lib\\site-packages\\psi4\\core.cp312-win_amd64.pyd": "3c5a39b87bb6f7d26d5ea014bf602b80674145506b931cd7b46d5b8c0bbfc0c2"
+    },
+    "reference": "rks",
+    "executable_sha256": "13d31fc5014b339e70c78add27d247d39542f84a2e8c0d7d9beb374bb34deb25",
+    "provider_source_sha256": "abecbe895473afaa6190038dee023ee9a2dec45cdfb2def90d41bdc2204ee03d"
+  },
+  "protocol_sha256": "53c1a3ba089c8970f44199d88ba8c155f22da4df3ef5361f58318c2cf6166692",
+  "paired_protocol_sha256": "06dd8abc9e45ec3bcbfa05d72e682318e844bc7ecbc01365c1df9b7b4829052d",
+  "identity_validation": {
+    "retained": true,
+    "ligand_retained": true,
+    "original_nonmetal_graph_retained": true,
+    "lost_bonds": [],
+    "new_bonds": [],
+    "ligand_lost_bonds": [],
+    "ligand_new_bonds": [],
+    "ancillary_coordination_retained": true,
+    "metal_hydride_distances_A": [
+      1.4596880670987864
+    ],
+    "metal_carbonyl_distances_A": [
+      1.7302823157940457
+    ],
+    "criterion": "Covalent graph at 1.28 times ASE covalent radii; original M-H 1.0-2.3 A and M-C(CO) 1.3-2.8 A",
+    "interpretation": "Geometric intended-state screen; not bond-order, oxidation-state, spin or stability proof"
+  },
+  "status": "timeout",
+  "failure": "Per-state wall-time limit",
+  "returncode": 1,
+  "intended_catalyst_identity_pass": true,
+  "wall_seconds": 120.14099999997416,
+  "peak_rss_mib": 503.16015625,
+  "memory_configured_mib": 500,
+  "timeout_seconds": 120.0,
+  "started_utc": "2026-09-13T15:54:18.487294+00:00",
+  "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\Fe_pyridine_pnn_Ph\\multiplicity_1\\f7dc57f794073016421e26d8b62789c7d5fcc6e34f775f7241244fe9cb7449cc\\attempt_07b25e60ae474007a900ae7e4870753b",
+  "native_evidence": [
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\Fe_pyridine_pnn_Ph\\multiplicity_1\\f7dc57f794073016421e26d8b62789c7d5fcc6e34f775f7241244fe9cb7449cc\\attempt_07b25e60ae474007a900ae7e4870753b\\native\\pair_7b4eba5220614c4c978462472381f6d8\\multiplicity_1\\psi4.out",
+      "sha256": "739d21add540723c9b22f2b2431e0b7a3a5f9d78f0c63e3a7bf29fbeaf479565"
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\Fe_pyridine_pnn_Ph\\multiplicity_1\\f7dc57f794073016421e26d8b62789c7d5fcc6e34f775f7241244fe9cb7449cc\\attempt_07b25e60ae474007a900ae7e4870753b\\native\\pair_7b4eba5220614c4c978462472381f6d8\\request.json",
+      "sha256": "126c6ab8ca33cbc46dc97a65b6780f8c63b51937b2449a97b4b639c33bb9b315"
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\Fe_pyridine_pnn_Ph\\multiplicity_1\\f7dc57f794073016421e26d8b62789c7d5fcc6e34f775f7241244fe9cb7449cc\\attempt_07b25e60ae474007a900ae7e4870753b\\worker.out",
+      "sha256": "9b70cab210935dbcebe315615fe75beff0e0d36614db08ad82c3a5ee5bbec468"
+    }
+  ],
+  "reused_verified_cache": false,
+  "evidence": "vertical electronic spin diagnostic; no free-energy barrier, MECP, or experiment"
+}

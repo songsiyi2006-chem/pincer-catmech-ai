@@ -1,0 +1,98 @@
+{
+  "status": "auxiliary_benchmark_trained",
+  "created_utc": "2026-09-13T14:46:26.180946+00:00",
+  "torch_version": "2.10.0",
+  "device": "CPU",
+  "threads": 2,
+  "configuration": {
+    "node_feature_dim": 12,
+    "graph_feature_dim": 5,
+    "hidden_dim": 24,
+    "num_layers": 2,
+    "heads": [
+      "activation_barrier_ev",
+      "mecp_gap_ev",
+      "aux_conformer_relative_electronic_energy_ev"
+    ]
+  },
+  "parameter_count": 12675,
+  "peak_process_rss_bytes": 392376320,
+  "elapsed_seconds": 85.03200000000652,
+  "best_validation_epoch": 0,
+  "completed_or_partial_epochs": 9,
+  "split_policy": "Entire backbone|substituent family across metals, states and all conformers stays in one split",
+  "normalization": {
+    "fit_split": "train",
+    "mean": [
+      0.0,
+      0.0,
+      -0.1295655369758606
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      0.42901018261909485
+    ],
+    "supported": [
+      false,
+      false,
+      true
+    ],
+    "counts": [
+      0,
+      0,
+      374
+    ]
+  },
+  "metrics": {
+    "test": {
+      "samples": 86,
+      "mae_eV": 0.19519976927396127,
+      "rmse_eV": 0.3845663866708711,
+      "equal_reference_energy_baseline_mae_eV": 0.19399893976147659,
+      "training_mean_baseline_mae_eV": 0.26041599713544944
+    },
+    "validation": {
+      "samples": 80,
+      "mae_eV": 0.26161685215060687,
+      "rmse_eV": 0.5239917853352366,
+      "equal_reference_energy_baseline_mae_eV": 0.2593926172348887,
+      "training_mean_baseline_mae_eV": 0.33752075069047294
+    },
+    "train": {
+      "samples": 374,
+      "mae_eV": 0.28666436116765864,
+      "rmse_eV": 0.44369871212215684,
+      "equal_reference_energy_baseline_mae_eV": 0.28643788568535244,
+      "training_mean_baseline_mae_eV": 0.29779824822909773
+    }
+  },
+  "heads": {
+    "activation_barrier_ev": {
+      "trained": false,
+      "observed_labels": 0,
+      "reason": "No validated TS free-energy barriers"
+    },
+    "mecp_gap_ev": {
+      "trained": false,
+      "observed_labels": 0,
+      "reason": "No independent spin-dependent gap training dataset"
+    },
+    "aux_conformer_relative_electronic_energy_ev": {
+      "trained": true,
+      "observed_pairs": 540,
+      "pair_only": true
+    }
+  },
+  "scope": "Small-family auxiliary conformer-energy benchmark, not trained activation barriers, spin gaps, catalytic ranking or chemical accuracy validation",
+  "limitations": [
+    "Only six backbone/substituent families; one validation and one test family is a weak statistical sample",
+    "Related backbone types can occur in different substituent families; this is not leave-one-backbone-out validation",
+    "Conformer optimizations were not individually Hessian-certified; GFN2 spin occupancy cannot supply spin gaps",
+    "Validation selects the checkpoint; test labels are not used in fitting, normalization or model selection"
+  ],
+  "dataset_manifest_sha256": "80e45275bd6119e24995bfe292f555985eda8caad49e4b04b7a95da829ed1098",
+  "model_sha256": "625c2d699edb28c193a58885487b731c6616d16daed17a71a22573e6ed7207dd",
+  "split_sha256": "75839e7593913a010ed1a8de79c67127e30cab8d0e132fd7b1d61fd053248dbc",
+  "run_directory": "runs\\seed_20260913_1789310701"
+}

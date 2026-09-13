@@ -1,0 +1,38 @@
+{
+  "scope": "Software symmetry of actual trained auxiliary checkpoint; not chemical accuracy or barrier/gap training",
+  "dtype": "float64",
+  "angles_radians": [
+    0.371,
+    -0.893,
+    1.247
+  ],
+  "model_sha256": "625c2d699edb28c193a58885487b731c6616d16daed17a71a22573e6ed7207dd",
+  "structure_ids": [
+    "b835dd478491473b5bbe904d",
+    "c7b0641bc8a56912dc231510"
+  ],
+  "errors": {
+    "SO3": {
+      "determinant": 1.0,
+      "max_scalar_absolute_difference_eV": 1.7763568394002505e-15,
+      "max_coordinate_equivariance_difference_A": 1.7763568394002505e-15
+    },
+    "O3_improper": {
+      "determinant": -1.0,
+      "max_scalar_absolute_difference_eV": 8.881784197001252e-16,
+      "max_coordinate_equivariance_difference_A": 1.7763568394002505e-15
+    },
+    "permutation": {
+      "max_scalar_absolute_difference_eV": 1.3322676295501878e-15,
+      "max_coordinate_equivariance_difference_A": 0.0
+    },
+    "batching": {
+      "max_scalar_absolute_difference_eV": 1.3322676295501878e-15
+    }
+  },
+  "scalar_tolerance_eV": 1e-06,
+  "max_scalar_error_eV": 1.7763568394002505e-15,
+  "coordinate_tolerance_A": 1e-10,
+  "max_coordinate_error_A": 1.7763568394002505e-15,
+  "passed": true
+}

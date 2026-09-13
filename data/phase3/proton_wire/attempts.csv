@@ -1,0 +1,4 @@
+attempt,status,accepted_TS,last_NEB_step,last_NEB_fmax_eV_A,NEB_fmax_target_eV_A,last_band_max_above_reactant_eV,is_activation_free_energy,product_seed_graph_retained
+attempt_01_cluster_seed_02,failed,False,100,0.375882,0.07,1.795701748051897,False,False
+attempt_02_cluster_seed_01,failed,False,100,1.347282,0.07,4.568801850331056,False,True
+attempt_01_continuation,failed,False,200,1.20663,0.07,2.3914683853258794,False,False

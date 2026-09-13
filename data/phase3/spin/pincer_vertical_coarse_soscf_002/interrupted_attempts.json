@@ -1,0 +1,13 @@
+{
+  "stopped_worker_pids": [
+    25988
+  ],
+  "status": "interrupted_before_matrix",
+  "reason": "Replaced strict SCF protocol with separately identified E1e-8 D1e-6 vertical diagnostic before launching the full matrix",
+  "accepted": false,
+  "utc": "2026-09-13T14:58:13.5524319Z",
+  "stopped_matrix_pids": [
+    32984,
+    1232
+  ]
+}

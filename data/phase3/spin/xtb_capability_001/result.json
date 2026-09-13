@@ -1,0 +1,110 @@
+{
+  "system": "O2 at 1.21 angstrom",
+  "scope": "backend spin capability diagnostic, not catalyst evidence",
+  "calculations": [
+    {
+      "mode": "native_gfn2",
+      "unpaired_electrons": 0,
+      "multiplicity": 1,
+      "argv": [
+        "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+        "input.xyz",
+        "--gfn",
+        "2",
+        "--uhf",
+        "0",
+        "--grad"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.14100000000325963,
+      "output_sha256": "98788145d34ea927fdae643920be5f372755fde5796671b6c46b1a1aa7c57e23",
+      "geometry_sha256": "17465e5b7121e5d6a040c589558eb4321d7a0eeae183165f48fd6c49d77c33ae",
+      "energy_hartree": -7.90675235288,
+      "gradient_hartree_bohr": [
+        [
+          -4.8889629591212e-17,
+          -3.5112766817745996e-16,
+          -0.00028371028613113
+        ],
+        [
+          4.8889629591212e-17,
+          3.5112766817745996e-16,
+          0.00028371028613112
+        ]
+      ]
+    },
+    {
+      "mode": "native_gfn2",
+      "unpaired_electrons": 2,
+      "multiplicity": 3,
+      "argv": [
+        "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+        "input.xyz",
+        "--gfn",
+        "2",
+        "--uhf",
+        "2",
+        "--grad"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.09399999998277053,
+      "output_sha256": "0571f924eb731c06494bb1904a8087243c371c33b2ce914ebba6b43a85437432",
+      "geometry_sha256": "17465e5b7121e5d6a040c589558eb4321d7a0eeae183165f48fd6c49d77c33ae",
+      "energy_hartree": -7.904118275554,
+      "gradient_hartree_bohr": [
+        [
+          -2.2857058881473e-17,
+          1.9130855317972e-16,
+          -0.00028371028612515
+        ],
+        [
+          2.2857058881473e-17,
+          -1.9130855317972e-16,
+          0.00028371028612515
+        ]
+      ]
+    },
+    {
+      "mode": "spgfn2_tblite",
+      "unpaired_electrons": 0,
+      "multiplicity": 1,
+      "argv": [
+        "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+        "input.xyz",
+        "--gfn",
+        "2",
+        "--uhf",
+        "0",
+        "--grad",
+        "--spinpol",
+        "--tblite"
+      ],
+      "returncode": 3,
+      "wall_seconds": 0.07800000000861473,
+      "output_sha256": "7e843fe27e0f9ee8b4f8c65861f7a95ff817330c56727d44e0e7c09aa48cb1e8",
+      "geometry_sha256": "17465e5b7121e5d6a040c589558eb4321d7a0eeae183165f48fd6c49d77c33ae",
+      "failure_excerpt": "ulations refer to:\n   * S. Spicher and S. Grimme, J. Chem. Theory Comput., 2021, 17, 1701-1714\n     DOI: 10.1021/acs.jctc.0c01306\n   \n   for ONIOM refer to:\n   * C. Plett, A. Katbashev, S. Ehlert, S. Grimme, M. Bursch,\n     Phys. Chem. Chem. Phys., 2023, 25, 17860-17868. DOI: 10.1039/D3CP02178E\n   \n   for DIPRO refer to:\n   * J. Kohn, N. Gildemeister, S. Grimme, D. Fazzi, A. Hansen,\n     J. Chem. Phys., 2023, just accepted.\n   \n   for PTB refer to:\n   * S. Grimme, M. Mueller, A. Hansen, J. Chem. Phys., 2023, 158, 124111.\n     DOI: 10.1063/5.0137838\n   \n   with help from (in alphabetical order)\n   P. Atkinson, C. Bannwarth, F. Bohle, G. Brandenburg, E. Caldeweyher\n   M. Checinski, S. Dohm, S. Ehlert, S. Ehrlich, I. Gerasimov, C. H\u00f6lzer\n   A. Katbashev, J. Kohn, J. Koopman, C. Lavigne, S. Lehtola, F. M\u00e4rz, M. M\u00fcller,\n   F. Musil, H. Neugebauer, J. Pisarek, C. Plett, P. Pracht, F. Pultar,\n   J. Seibert, P. Shushkov, S. Spicher, M. Stahn, M. Steiner, T. Strunk,\n   J. St\u00fcckrath, T. Rose, and J. Unsleber\n   \n * started run on 2026/09/13 at 22:23:34.308     \n   ID    Z sym.   atoms\n    1    8 O      1, 2\n\n           -------------------------------------------------\n          |                Calculation Setup                |\n           -------------------------------------------------\n\n          program call               : C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe input.xyz --gfn 2 --uhf 0 --grad --spinpol --tblite\n          coordinate file            : input.xyz\n          omp threads                :                     1\n\nrepulsion energy          8.1894272424582E-03 Eh\n\n\nProgram received signal SIGSEGV: Segmentation fault - invalid memory reference.\n\nBacktrace for this error:\n#0  0x4e1387f3\n#1  0x4e0a1cb3\n#2  0x31dd1c11\n#3  0x4d3a7eff\n#4  0x50255e9e\n#5  0x501ce8c5\n#6  0x50254e9d\n#7  0xe002e34e\n#8  0x6096926b\n#9  0x60aad146\n#10  0x4f717595\n#11  0x31dc4bfb\n#12  0x31dd2999\n#13  0x31db12fd\n#14  0x31db1415\n#15  0x4ed2259c\n#16  0x5020af77\n#17  0xffffffff\n"
+    },
+    {
+      "mode": "spgfn2_tblite",
+      "unpaired_electrons": 2,
+      "multiplicity": 3,
+      "argv": [
+        "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+        "input.xyz",
+        "--gfn",
+        "2",
+        "--uhf",
+        "2",
+        "--grad",
+        "--spinpol",
+        "--tblite"
+      ],
+      "returncode": 3,
+      "wall_seconds": 0.07800000000861473,
+      "output_sha256": "7d513da15d578010dad80fe867dae52a861f58d3313cb684ff7dc13335fcc880",
+      "geometry_sha256": "17465e5b7121e5d6a040c589558eb4321d7a0eeae183165f48fd6c49d77c33ae",
+      "failure_excerpt": "ulations refer to:\n   * S. Spicher and S. Grimme, J. Chem. Theory Comput., 2021, 17, 1701-1714\n     DOI: 10.1021/acs.jctc.0c01306\n   \n   for ONIOM refer to:\n   * C. Plett, A. Katbashev, S. Ehlert, S. Grimme, M. Bursch,\n     Phys. Chem. Chem. Phys., 2023, 25, 17860-17868. DOI: 10.1039/D3CP02178E\n   \n   for DIPRO refer to:\n   * J. Kohn, N. Gildemeister, S. Grimme, D. Fazzi, A. Hansen,\n     J. Chem. Phys., 2023, just accepted.\n   \n   for PTB refer to:\n   * S. Grimme, M. Mueller, A. Hansen, J. Chem. Phys., 2023, 158, 124111.\n     DOI: 10.1063/5.0137838\n   \n   with help from (in alphabetical order)\n   P. Atkinson, C. Bannwarth, F. Bohle, G. Brandenburg, E. Caldeweyher\n   M. Checinski, S. Dohm, S. Ehlert, S. Ehrlich, I. Gerasimov, C. H\u00f6lzer\n   A. Katbashev, J. Kohn, J. Koopman, C. Lavigne, S. Lehtola, F. M\u00e4rz, M. M\u00fcller,\n   F. Musil, H. Neugebauer, J. Pisarek, C. Plett, P. Pracht, F. Pultar,\n   J. Seibert, P. Shushkov, S. Spicher, M. Stahn, M. Steiner, T. Strunk,\n   J. St\u00fcckrath, T. Rose, and J. Unsleber\n   \n * started run on 2026/09/13 at 22:23:34.390     \n   ID    Z sym.   atoms\n    1    8 O      1, 2\n\n           -------------------------------------------------\n          |                Calculation Setup                |\n           -------------------------------------------------\n\n          program call               : C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe input.xyz --gfn 2 --uhf 2 --grad --spinpol --tblite\n          coordinate file            : input.xyz\n          omp threads                :                     1\n\nrepulsion energy          8.1894272424582E-03 Eh\n\n\nProgram received signal SIGSEGV: Segmentation fault - invalid memory reference.\n\nBacktrace for this error:\n#0  0x4f6287f3\n#1  0x4f591cb3\n#2  0x31dd1c11\n#3  0x4d3a7eff\n#4  0x50255e9e\n#5  0x501ce8c5\n#6  0x50254e9d\n#7  0xcfa8e34e\n#8  0x6096926b\n#9  0x60aad146\n#10  0x4e227595\n#11  0x31dc4bfb\n#12  0x31dd2999\n#13  0x31db12fd\n#14  0x31db1415\n#15  0x4ed2259c\n#16  0x5020af77\n#17  0xffffffff\n"
+    }
+  ]
+}

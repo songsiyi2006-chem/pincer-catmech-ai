@@ -10,6 +10,7 @@ import hashlib
 import html
 import json
 import re
+import textwrap
 
 import jieba
 import matplotlib
@@ -24,7 +25,7 @@ from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import (BaseDocTemplate, Frame, PageTemplate, Paragraph,
-    Spacer, PageBreak, Table, TableStyle, Image, Flowable, KeepTogether)
+    Spacer, PageBreak, CondPageBreak, Table, TableStyle, Image, Flowable, KeepTogether, Preformatted)
 from reportlab.platypus.tableofcontents import TableOfContents
 
 REPO = Path(__file__).resolve().parents[1]
@@ -58,10 +59,11 @@ class Matrix(Flowable):
 
 
 class Document(BaseDocTemplate):
-    def __init__(self, output, language, **kwargs):
+    def __init__(self, output, language, phase3=False, **kwargs):
         super().__init__(str(output), pagesize=A4, leftMargin=48, rightMargin=48,
                          topMargin=62, bottomMargin=52, **kwargs)
         self.language = language
+        self.phase3 = phase3
         self.section_counter = 0
         self.addPageTemplates(PageTemplate(id="paper", frames=[Frame(
             self.leftMargin, self.bottomMargin, self.width, self.height,
@@ -76,7 +78,8 @@ class Document(BaseDocTemplate):
         canvas.setFillColor(GRAY)
         canvas.drawString(48, A4[1] - 30, "PINCER-CATMECH-AI  |  COMPUTATIONAL RESEARCH RECORD")
         canvas.drawRightString(A4[0] - 48, 31, str(doc.page))
-        canvas.drawString(48, 31, "GFN2-xTB / ALPB toluene  |  Model evidence; no experimental validation")
+        footer = "Phase 3: DFT / xTB / kinetics / EGNN  |  Model evidence; no experimental validation" if self.phase3 else "GFN2-xTB / ALPB toluene  |  Model evidence; no experimental validation"
+        canvas.drawString(48, 31, footer)
         canvas.restoreState()
 
     def afterFlowable(self, flowable):
@@ -90,10 +93,11 @@ class Document(BaseDocTemplate):
             self.notify("TOCEntry", (0, text, self.page, key))
 
 
-def styles(language):
+def styles(language, phase3=False):
     family = "Song" if language == "ZH" else "Times"
     body = ParagraphStyle("Body", fontName=family, fontSize=10.3,
-        leading=17 if language == "ZH" else 15, spaceAfter=8, textColor=NAVY,
+        leading=(16.5 if language == "ZH" else 14.5) if phase3 else (17 if language == "ZH" else 15),
+        spaceAfter=7 if phase3 else 8, textColor=NAVY,
         wordWrap=None, splitLongWords=True, autoLeading="max",
         allowWidows=0, allowOrphans=0)
     return {"body": body,
@@ -105,13 +109,18 @@ def styles(language):
             fontSize=12, leading=18, spaceBefore=12, spaceAfter=8, keepWithNext=True),
         "small": ParagraphStyle("Small", parent=body, fontSize=8, leading=12, spaceAfter=4),
         "table": ParagraphStyle("Table", parent=body, fontSize=7.4, leading=11, spaceAfter=0),
-        "caption": ParagraphStyle("Caption", parent=body, fontSize=8.3, leading=12, textColor=GRAY)}
+        "caption": ParagraphStyle("Caption", parent=body, fontSize=8.3, leading=12, textColor=GRAY),
+        "code": ParagraphStyle("Code", fontName="Courier", fontSize=8, leading=11,
+            spaceBefore=6, spaceAfter=10, backColor=colors.HexColor("#F4F7F9")),
+        "reference": ParagraphStyle("Reference", parent=body, leftIndent=16, firstLineIndent=-16)}
 
 
 def math_image(expression, cache, inline=False):
     expression = expression.replace("\n", " ").replace("≈", "\\approx ")
     expression = expression.replace("\\rm ", "\\mathrm ").replace("\\text{", "\\mathrm{")
-    expression = re.sub(r"\\(mathbf|mathrm|mathit)\s+([A-Za-z]+)", r"\\\1{\2}", expression)
+    expression = re.sub(r"\\(mathbf|mathrm|mathit|mathbb|mathcal|boldsymbol)\s*([A-Za-z0-9]+)", r"\\\1{\2}", expression)
+    for alias, supported in (("le", "leq"), ("ge", "geq"), ("ne", "neq"), ("dfrac", "frac"), ("tfrac", "frac")):
+        expression = re.sub(r"\\" + alias + r"(?![A-Za-z])", lambda match, name=supported: "\\"+name, expression)
     expression = re.sub(r"\\(dot|hat|tilde|widetilde)\s+([A-Za-z])", r"\\\1{\2}", expression)
     expression = re.sub(r"\\frac(\d)(\d)", r"\\frac{\1}{\2}", expression)
     key = hashlib.sha256((str(inline) + expression).encode()).hexdigest()
@@ -167,10 +176,11 @@ def render(source, output, cache):
     language = "ZH" if source.stem.endswith("ZH") else "EN"
     source_text = source.read_text(encoding="utf-8")
     lines = source_text.splitlines()
-    sty = styles(language)
     title = lines[0].lstrip("# ")
+    phase3 = source.stem.startswith("MAGNUM_OPUS")
+    sty = styles(language, phase3)
     story = [Spacer(1, 80), Paragraph(escaped_prose(title), sty["title"]), Spacer(1, 18),
-        Paragraph("GFN2-xTB · ALPB / Toluene · 383.15 K", sty["subheading"]),
+        Paragraph("Spin surfaces · Explicit solvent · Analytic kinetics · E(3)" if phase3 else "GFN2-xTB · ALPB / Toluene · 383.15 K", sty["subheading"]),
         Paragraph("24 designed catalysts | 4 metals × 3 backbones × 2 substituents", sty["body"]),
         Spacer(1, 26), Paragraph("可追溯的计算研究记录" if language == "ZH" else "An auditable computational research record", sty["body"]),
         Paragraph("模型结果、计算失败与尚缺证据分别记录。" if language == "ZH" else "Calculated results, rejected searches and missing evidence are documented separately.", sty["body"]),
@@ -180,6 +190,7 @@ def render(source, output, cache):
     toc.levelStyles = [ParagraphStyle("TOC", parent=sty["body"], fontSize=9.2, leading=15, spaceBefore=3)]
     story.extend([toc])
     index, paragraphs, formula_count = 1, [], 0
+    figure_sources = {}
     def flush():
         if paragraphs:
             story.append(Paragraph(inline_markup(" ".join(paragraphs), cache), sty["body"]))
@@ -188,8 +199,25 @@ def render(source, output, cache):
         line = lines[index].strip()
         if not line:
             flush(); index += 1; continue
+        if line == "<!-- pagebreak -->":
+            flush(); story.append(PageBreak()); index += 1; continue
+        if line.startswith("```"):
+            flush(); code_lines = []; index += 1
+            while index < len(lines) and not lines[index].strip().startswith("```"):
+                code_lines.extend(textwrap.wrap(lines[index], width=98, subsequent_indent="    ",
+                    replace_whitespace=False, drop_whitespace=False, break_long_words=True,
+                    break_on_hyphens=False) or [""])
+                index += 1
+            if index == len(lines):
+                raise ValueError("Unclosed fenced code block")
+            story.append(Preformatted("\n".join(code_lines), sty["code"]))
+            index += 1; continue
         if line.startswith("## "):
-            flush(); story.extend([PageBreak(), Paragraph(escaped_prose(line[3:]), sty["section"])])
+            flush()
+            # Short continuation paragraphs may share their page with the next
+            # section. Substantial sections still begin on a fresh page.
+            story.extend(([Spacer(1, 12), CondPageBreak(500)] if phase3 else [PageBreak()])
+                         + [Paragraph(escaped_prose(line[3:]), sty["section"])])
             index += 1; continue
         if line.startswith("### "):
             flush(); story.append(Paragraph(escaped_prose(line[4:]), sty["subheading"])); index += 1; continue
@@ -208,7 +236,7 @@ def render(source, output, cache):
                 path, width, height = math_image(expression, cache)
                 equation = Image(str(path), width=width, height=height)
                 equation.hAlign = "CENTER"
-            story.extend([Spacer(1, 5), equation, Spacer(1, 11)])
+            story.extend([Spacer(1, 3 if phase3 else 5), equation, Spacer(1, 8 if phase3 else 11)])
             formula_count += 1; index += 1; continue
         if line.startswith("|"):
             flush(); rows = []
@@ -227,13 +255,15 @@ def render(source, output, cache):
                 ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#F4F7F9")]),
                 ("VALIGN", (0, 0), (-1, -1), "TOP"), ("LINEBELOW", (0, 0), (-1, 0), .7, TEAL),
                 ("LEFTPADDING", (0, 0), (-1, -1), 5), ("RIGHTPADDING", (0, 0), (-1, -1), 5),
-                ("TOPPADDING", (0, 0), (-1, -1), 5), ("BOTTOMPADDING", (0, 0), (-1, -1), 5)]))
+                ("TOPPADDING", (0, 0), (-1, -1), 3.5 if phase3 else 5),
+                ("BOTTOMPADDING", (0, 0), (-1, -1), 3.5 if phase3 else 5)]))
             story.extend([table, Spacer(1, 12)]); continue
         image_match = re.fullmatch(r"!\[([^\]]*)\]\(([^)]+)\)", line)
         if image_match:
             flush(); image_path = (source.parent / image_match.group(2)).resolve()
             if image_path.suffix == ".svg":
                 image_path = image_path.with_suffix(".png")
+            figure_sources[image_path.relative_to(REPO).as_posix()] = hashlib.sha256(image_path.read_bytes()).hexdigest()
             with PILImage.open(image_path) as bitmap:
                 width, height = bitmap.size
             story.append(KeepTogether([Image(str(image_path), width=489, height=489 * height / width),
@@ -241,15 +271,19 @@ def render(source, output, cache):
         if line.startswith("- "):
             flush(); story.append(Paragraph(inline_markup(line[2:], cache), sty["body"], bulletText="•"))
             index += 1; continue
+        if re.match(r"^\d+[.)] ", line):
+            flush(); story.append(Paragraph(inline_markup(line, cache), sty["reference"]))
+            index += 1; continue
         paragraphs.append(line); index += 1
     flush()
-    doc = Document(output, language, title=title, author="Pincer-CatMech-AI computational campaign")
+    doc = Document(output, language, phase3=phase3, title=title, author="Pincer-CatMech-AI computational campaign")
     doc.multiBuild(story)
     # Chinese words are explicitly segmented, not equated with whitespace tokens.
     prose = re.sub(r"\$\$.*?\$\$|\$[^$]+\$", " ", source_text, flags=re.S)
     words = [w for w in jieba.cut(prose) if re.search(r"[A-Za-z\u4e00-\u9fff]", w)] if language == "ZH" else re.findall(r"\b[A-Za-z]+(?:[-'][A-Za-z]+)*\b", prose)
     return {"source": str(source), "pdf": str(output), "language": language,
             "source_sha256": hashlib.sha256(source.read_bytes()).hexdigest(),
+            "figure_source_sha256": figure_sources,
             "pdf_sha256": hashlib.sha256(output.read_bytes()).hexdigest(),
             "word_count": len(words), "word_count_method": "jieba 0.42.1 segmented lexical tokens" if language == "ZH" else "English lexical word regex excluding equations",
             "CJK_characters": len(re.findall(r"[\u4e00-\u9fff]", source_text)),
@@ -262,6 +296,8 @@ def render(source, output, cache):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output-directory", required=True, type=Path)
+    parser.add_argument("--source-prefix", default="MONOGRAPH_BORROWING_HYDROGEN")
+    parser.add_argument("--audit-name", default="PDF_BUILD_AUDIT.json")
     parser.add_argument("--font-directory", type=Path, default=Path("C:/Windows/Fonts"))
     args = parser.parse_args()
     fonts = args.font_directory
@@ -275,9 +311,9 @@ def main():
     args.output_directory.mkdir(parents=True, exist_ok=True)
     results = []
     for language in ("EN", "ZH"):
-        source = REPO / "docs" / f"MONOGRAPH_BORROWING_HYDROGEN_{language}.md"
+        source = REPO / "docs" / f"{args.source_prefix}_{language}.md"
         results.append(render(source, args.output_directory / (source.stem + ".pdf"), cache))
-    (args.output_directory / "PDF_BUILD_AUDIT.json").write_text(json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8")
+    (args.output_directory / args.audit_name).write_text(json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8")
     print(json.dumps(results, indent=2, ensure_ascii=False))
 
 

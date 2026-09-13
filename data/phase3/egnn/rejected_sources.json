@@ -1,0 +1,1214 @@
+[
+  {
+    "record": "Ru_macho_pnp_iPr|active|0000",
+    "source_record_line": 1,
+    "source_record_line_sha256": "a07e068754e3a0c260c7db3fcbcbf80c1763f1ffb82f30daf4ee1007bbdc0b46",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_Ph|active|0000",
+    "source_record_line": 4,
+    "source_record_line_sha256": "03f48ccda599bc042566015aac95a6b91cc9beae003b619161770c2cd2ae689d",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|active|0000",
+    "source_record_line": 6,
+    "source_record_line_sha256": "5df45cba37d4c7d9a5d506d670213a5d9e14ff1cb15d179cb7928122dde405dd",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|active|0000",
+    "source_record_line": 12,
+    "source_record_line_sha256": "7a280c384d2b04692c5e4ddf55f54876b6061697b86fcf7d7b2adcc4098de628",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_bipyridine_pnnoh_Ph|active|0000",
+    "source_record_line": 18,
+    "source_record_line_sha256": "536480357cec0e92d63924bf8bb36669314f54b8cb51f8e1181cf8f30bec7476",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_iPr|active|0000",
+    "source_record_line": 23,
+    "source_record_line_sha256": "5620ad6df9e39749fad90db88544db1f6f8ae4cea9533ab43875f774bfb70cbc",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|active|0000",
+    "source_record_line": 24,
+    "source_record_line_sha256": "5b8ff8c0680662502c4efe5261c497a903e7568b71318068c9866d15754c8d62",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|hydrogenated|0000",
+    "source_record_line": 30,
+    "source_record_line_sha256": "041cba96a906a4256b0fd8155305235cbb2b289d8910acb08d41447364fcac55",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_iPr|hydrogenated|0000",
+    "source_record_line": 33,
+    "source_record_line_sha256": "13fd7f834dd1498f413de3a56dedad0eab67bb336a7fcf65a4f79faf00a8898b",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|hydrogenated|0000",
+    "source_record_line": 36,
+    "source_record_line_sha256": "2dd740df4bcdefa6f676fd91753aa79f3d94ecf9c0511f74210e9f14a9b24937",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_bipyridine_pnnoh_Ph|hydrogenated|0000",
+    "source_record_line": 42,
+    "source_record_line_sha256": "caf935570717a0da632a06c08e56506974e2eb0ed03d840429aada4ddfe97aee",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|hydrogenated|0000",
+    "source_record_line": 47,
+    "source_record_line_sha256": "2840c30a6ef9ed5ad50ce362192addfed7d561ab34c8cf4c35bdc2e5436cf297",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|protonated_reference|0000",
+    "source_record_line": 53,
+    "source_record_line_sha256": "708f90986369a6fd3fb67a272ad169e1c584eda3a3f18cfda2ede860ca07863c",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|protonated_reference|0000",
+    "source_record_line": 60,
+    "source_record_line_sha256": "b0f918a58581cd3df52e253fdf587333bcf18c770209f9e59f07211bfe390ac3",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_bipyridine_pnnoh_Ph|protonated_reference|0000",
+    "source_record_line": 66,
+    "source_record_line_sha256": "54deea246f406ef558456fd99d014f1b2ddcd56f40cd8e0c4d6d43fb82f87b00",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|protonated_reference|0000",
+    "source_record_line": 71,
+    "source_record_line_sha256": "5faff7e3391ec805e7dab137f4fe3099181966d526cd03832a69bee31c3d43c8",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_iPr|active|0001",
+    "source_record_line": 73,
+    "source_record_line_sha256": "af21546209b0d2525ceb77f60cdd90d760f7dc8c94bd68f916ffb93fdad4dac5",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_Ph|active|0001",
+    "source_record_line": 74,
+    "source_record_line_sha256": "3f120400fc4ff93ab4196245c77d2c42b4e21f62661912d8099eecdf437c4993",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_Ph|active|0001",
+    "source_record_line": 80,
+    "source_record_line_sha256": "d980c0075e9a035c94db7876c9346f83ff53a1eee3084443817f302df731e11d",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_iPr|active|0001",
+    "source_record_line": 83,
+    "source_record_line_sha256": "c23437db980c584d2560ed479398fb778d5eab7b61170cbc7e83aa5e8e69f756",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_iPr|active|0001",
+    "source_record_line": 92,
+    "source_record_line_sha256": "2c8e6b914ce0f55fa2e7b00aca671d9c6f4218a709f5e3705348b10cd6182d03",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_macho_pnp_Ph|hydrogenated|0001",
+    "source_record_line": 110,
+    "source_record_line_sha256": "49cadfe90bb5141b9e3634e61e9b508c8addb51cf987e6dcf025cac293a1542f",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_Ph|protonated_reference|0001",
+    "source_record_line": 119,
+    "source_record_line_sha256": "eee05a18da78062f4320859b3260a837d6ce26c71d8ea5539c2d13b994397994",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_pyridine_pnn_Ph|active|0002",
+    "source_record_line": 134,
+    "source_record_line_sha256": "f5817f4455003d0bd45cf0528faeb13b92fdf79b8b12d6221609a6eb69c42a16",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_Ph|active|0002",
+    "source_record_line": 136,
+    "source_record_line_sha256": "22305e14da8e5f224660f7e98ad00858464f6c3f7f783c2cdc1c885890e8ce18",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|active|0002",
+    "source_record_line": 137,
+    "source_record_line_sha256": "b85caadf0960d2677690f94f07a129ce5f8e3e24dad9c494e17f56e21049a263",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_pyridine_pnn_Ph|active|0002",
+    "source_record_line": 140,
+    "source_record_line_sha256": "d17d12a351eb8fe05c79ef9bfde6b9644581f23967bb7807db848f7cb1bf3807",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|active|0002",
+    "source_record_line": 143,
+    "source_record_line_sha256": "b938e659a26a6f418fb385382cd927e460081559214d0b0e00418dfa1aa7076b",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_pyridine_pnn_Ph|active|0002",
+    "source_record_line": 147,
+    "source_record_line_sha256": "7fd94b662a91f5a672b65a0285c3c3b993285fa29ca8bdf2875ea0fcee7869f0",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_bipyridine_pnnoh_Ph|active|0002",
+    "source_record_line": 149,
+    "source_record_line_sha256": "a13582d774b87dc91cc16076a6f36ea5fcb49ce7c4100fb8a0eff66322141220",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_pyridine_pnn_Ph|active|0002",
+    "source_record_line": 154,
+    "source_record_line_sha256": "9e87d1d59652a64a9fa4ef438d85778edc29f7b7452c121bdd252938fb6a4d05",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|active|0002",
+    "source_record_line": 155,
+    "source_record_line_sha256": "561eb6f5214ec1b50e48df8428d97db2301d98a38682f25579be754318c5e521",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_iPr|active|0002",
+    "source_record_line": 156,
+    "source_record_line_sha256": "5ba605fc647311b431bcc856aa636ebe187c2dfc2b2d667c1a7971e9a8c31afd",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_pyridine_pnn_Ph|hydrogenated|0002",
+    "source_record_line": 159,
+    "source_record_line_sha256": "dacc5a68b7d54bbc75d9a64cbb25dff35aaa62d206fcf2e6359c9496ffe2fc9b",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|hydrogenated|0002",
+    "source_record_line": 161,
+    "source_record_line_sha256": "0694ae8b4065ebd966422c2f2e5b69cd4fbcf69e7925cdf395e8899363ccbcfd",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_pyridine_pnn_Ph|hydrogenated|0002",
+    "source_record_line": 166,
+    "source_record_line_sha256": "384266db0b02443c0f8fadfa3cb60d15ccf49f300e8488d399eb43d6e8b4f259",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|hydrogenated|0002",
+    "source_record_line": 168,
+    "source_record_line_sha256": "a57a2581c7aa748078d0b7e0916915d7891f9f51c2b73a1d42488c902d04a752",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_pyridine_pnn_Ph|hydrogenated|0002",
+    "source_record_line": 171,
+    "source_record_line_sha256": "7c4c869b07ddcc496a3030416b676ec30d08525866916d78c29542b15d95437d",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_bipyridine_pnnoh_Ph|hydrogenated|0002",
+    "source_record_line": 174,
+    "source_record_line_sha256": "adcb596616e0f7ca9d5e284d79683fe502a77018e4e8cdcc7cf17ed519768c13",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_pyridine_pnn_Ph|hydrogenated|0002",
+    "source_record_line": 177,
+    "source_record_line_sha256": "200aad19eae4472b4ee9b4f0cdf2550ed92dd8e1650ad61a00f6b2c5f4ea2a06",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|hydrogenated|0002",
+    "source_record_line": 178,
+    "source_record_line_sha256": "4145711c702203388c10c0813978844efbe56cb28ce5e8de84a7ff93f6523ebf",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_pyridine_pnn_Ph|protonated_reference|0002",
+    "source_record_line": 183,
+    "source_record_line_sha256": "07c91b653fbc7069eaa5507e6b04a9eba1a24b49e12e78d1f41de1dc05de57d2",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|protonated_reference|0002",
+    "source_record_line": 185,
+    "source_record_line_sha256": "81ab5a40fc4ec60d25e7f45af2369a1eb40468a0b2f5dec272053174633b3a59",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_pyridine_pnn_Ph|protonated_reference|0002",
+    "source_record_line": 189,
+    "source_record_line_sha256": "2ec32fe2bf4693b84d7982640068ff867c83ae0118a3b10251d28c64fd4f5e1b",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|protonated_reference|0002",
+    "source_record_line": 190,
+    "source_record_line_sha256": "36e707519293dce6658bcdfd3889206948f724ab9f60551abe06bcb8c6d22cca",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_pyridine_pnn_Ph|protonated_reference|0002",
+    "source_record_line": 195,
+    "source_record_line_sha256": "7249bd90c9cfd1211552ec4ae0c5459b308602621a27df9bb68024dff1d1d901",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_pyridine_pnn_Ph|protonated_reference|0002",
+    "source_record_line": 201,
+    "source_record_line_sha256": "d08f33ea50efa4b7d831943cd6683c2596eead4e8ce80cbf24097b5007b3fe79",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|protonated_reference|0002",
+    "source_record_line": 204,
+    "source_record_line_sha256": "d3970ad1243f2b0c7d833d7a3f6376763792c7d4ad948375f5ca95ad6723189b",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_Ph|active|0003",
+    "source_record_line": 205,
+    "source_record_line_sha256": "76b40bfb32738ffc76c4c611676fff6e660222216e46b56a7213d00f880a6fe6",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_iPr|active|0003",
+    "source_record_line": 206,
+    "source_record_line_sha256": "8983b6060af32609fdc3dfdfd20867f69d5d8228bcd2cfd08b18f3e201aced41",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|active|0003",
+    "source_record_line": 210,
+    "source_record_line_sha256": "502b0d323ab6ec42b272596b7154cb74043a17b112e41309da91a33d3f33523f",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_iPr|active|0003",
+    "source_record_line": 213,
+    "source_record_line_sha256": "9f8dc3a62b4acd51d193f9c192d1f66598d31e6866a60af49974f5013857780c",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|active|0003",
+    "source_record_line": 214,
+    "source_record_line_sha256": "e3fcab47f4dac9a50c5f79134e456867db8b0fd8dd5895f835828763021c6399",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_iPr|active|0003",
+    "source_record_line": 217,
+    "source_record_line_sha256": "a981f3733580747a08c40a4e33c6cf602757042a446406628f3e967e2d3ba4be",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_bipyridine_pnnoh_Ph|active|0003",
+    "source_record_line": 222,
+    "source_record_line_sha256": "27fd210f9d71da57f0ed437ffa2b3d94389a312b50d4823890a5f2ffaa6e93e0",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_macho_pnp_iPr|active|0003",
+    "source_record_line": 223,
+    "source_record_line_sha256": "44e36d39714b0e997191327ab4ef9051021cf2d2b098869e9627c05f2deaa9eb",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_iPr|active|0003",
+    "source_record_line": 227,
+    "source_record_line_sha256": "b77a7790514a9ccc351012716f3d18b372c8769c427a2b498d5031732c07f6fa",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|active|0003",
+    "source_record_line": 228,
+    "source_record_line_sha256": "9cf8a3031a4701eed034e1857bf3edf4a2a4f6e32c6bf27a95c8803aa285d257",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|hydrogenated|0003",
+    "source_record_line": 233,
+    "source_record_line_sha256": "31bf4766ce1318b3dfad08f148fab0bffe88ad473226d829026ab7dba7443dac",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|hydrogenated|0003",
+    "source_record_line": 238,
+    "source_record_line_sha256": "e02c256bb60bd8d9c64cf9848f7d3cf527bfe8fe0bb74bfbcd5c218115188ee2",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_bipyridine_pnnoh_Ph|hydrogenated|0003",
+    "source_record_line": 242,
+    "source_record_line_sha256": "5ffe114a773b38f066a7c49fbdbc987a8eb3241dfbd200bba4684be068fc1fa2",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|hydrogenated|0003",
+    "source_record_line": 248,
+    "source_record_line_sha256": "1076a26844be0b1798518faed18a35c8563a4d3578c768305b5848807b833e01",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_iPr|protonated_reference|0003",
+    "source_record_line": 249,
+    "source_record_line_sha256": "e9b088f3e9ef10e0304c7cb818478a74f0462744b17ef77d4b4675f9cfc6098f",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|protonated_reference|0003",
+    "source_record_line": 253,
+    "source_record_line_sha256": "56f64cf2e209ed416eba541a15a09476e2749d59eb1bc48e8d4ebe4d90b0c5d3",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_iPr|protonated_reference|0003",
+    "source_record_line": 256,
+    "source_record_line_sha256": "e27e20af133fc6eb000a60fbb84689a77400b58e40da4bdd28c4273857114eb5",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|protonated_reference|0003",
+    "source_record_line": 260,
+    "source_record_line_sha256": "68f84f8c71f17360fe2f78ed81bdea16e9e7ec5301b4358460a7d0bb19850c11",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_iPr|protonated_reference|0003",
+    "source_record_line": 261,
+    "source_record_line_sha256": "3e1a0754e863e35e9039ee92898ee61c82e188b421835c39000f5e4fef72cde5",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_iPr|active|0004",
+    "source_record_line": 274,
+    "source_record_line_sha256": "3bf0483a1d0016f414ebcb504d4c658fcca361f40b5515df1bd66d2eb1892cce",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_iPr|active|0004",
+    "source_record_line": 279,
+    "source_record_line_sha256": "330cf29950af446ac2dbf5a03261a1aff38a441f4387a38181e0847c04fffb6f",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_iPr|active|0004",
+    "source_record_line": 285,
+    "source_record_line_sha256": "38da1591f1461d2ad012b96139ba67fe631c9737fad4503f8b628770a56dbbb9",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_Ph|active|0004",
+    "source_record_line": 286,
+    "source_record_line_sha256": "33d56a0edba4632f89aa923b79a2f245222287423403d02e5395cf7e4ce9277a",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_macho_pnp_iPr|active|0004",
+    "source_record_line": 291,
+    "source_record_line_sha256": "8b2634bbe9c77d06eb912d5721bde466b9504832d7c2017a7730c20fd1127665",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|active|0004",
+    "source_record_line": 295,
+    "source_record_line_sha256": "9184144b0a1904ad653a834dfbafb1b43998dc39f9b2ab18195bc22282cd4d4e",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_iPr|active|0004",
+    "source_record_line": 296,
+    "source_record_line_sha256": "e47ac8f2eaf4bba7608855128c458bfde4104cbaccfdc25a2c6194a97b1c855f",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_iPr|hydrogenated|0004",
+    "source_record_line": 297,
+    "source_record_line_sha256": "94eb51ae8bbff1d81d91301d8690d614f82372e4708348a0663b1c8d161844a3",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_iPr|hydrogenated|0004",
+    "source_record_line": 303,
+    "source_record_line_sha256": "0916e19d3b1a570bfdf03fd0b2106f0e3f9d07667292df5d9d7b7f737fd22796",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_iPr|hydrogenated|0004",
+    "source_record_line": 309,
+    "source_record_line_sha256": "6101ab7baea8166a7be238ece1153bfe43217d3fe734b496c865a8a0ad966472",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_macho_pnp_iPr|hydrogenated|0004",
+    "source_record_line": 315,
+    "source_record_line_sha256": "a09d8bf47221a05ea33a9b70f6deb32faa21ebde228c68ad81319063cb5439c4",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_iPr|protonated_reference|0004",
+    "source_record_line": 322,
+    "source_record_line_sha256": "74551a92e9d0c8f3c8df1766ec7850462954ed975edd38d5b6e6197da02d591e",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_iPr|protonated_reference|0004",
+    "source_record_line": 328,
+    "source_record_line_sha256": "c3f574329c9a8f4e52d4321d38891383d3858b46adcd9d0ff086933be36a0a22",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_iPr|protonated_reference|0004",
+    "source_record_line": 334,
+    "source_record_line_sha256": "bce3d7db2e4680590fa99b5dc22df6c50a9aa14628e4e16cc2e5f8ee4b30e862",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_macho_pnp_iPr|protonated_reference|0004",
+    "source_record_line": 339,
+    "source_record_line_sha256": "74693812d501ee3588c17faf15a5ac13061b8cbb709199cfac5a6f95edc2e986",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|active|0005",
+    "source_record_line": 348,
+    "source_record_line_sha256": "146b570d62912607414d9d218e1c0192c7bbad3014de2e0da6ac87c778391296",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|active|0005",
+    "source_record_line": 355,
+    "source_record_line_sha256": "53bdf8b570533e3e49da3f7ce5cdf3bb5a67e615d991f075a797d85fdd3277a2",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_bipyridine_pnnoh_Ph|active|0005",
+    "source_record_line": 361,
+    "source_record_line_sha256": "ed013c31df26873411c26d41a3fe5fe278adba0a5135e59ffae8c0b5987f9a08",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|active|0005",
+    "source_record_line": 367,
+    "source_record_line_sha256": "2ca35074ad9e22864e4f35f3309a71a22be22661bca80c0e4ce33ba8aa798c7f",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_iPr|active|0005",
+    "source_record_line": 368,
+    "source_record_line_sha256": "c0d53811d7fcf62186047f81ac13ebd822286dcb3ec24b7f3f2fed196442c4b5",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_iPr|hydrogenated|0005",
+    "source_record_line": 369,
+    "source_record_line_sha256": "cbe4055e26cf688c4a68c00123088d2c68e6f569d06737515ed1989a04d31e50",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|hydrogenated|0005",
+    "source_record_line": 372,
+    "source_record_line_sha256": "e690efe4c4847ba3b7433c5ac35143243bc9f6ab9b8b1347c106b232bc83d008",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|hydrogenated|0005",
+    "source_record_line": 380,
+    "source_record_line_sha256": "80d720dee5f9b868965657d5cb279722d04f8f8551895c5512e2991b71c5eea2",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_iPr|hydrogenated|0005",
+    "source_record_line": 382,
+    "source_record_line_sha256": "e0e18117fe4919a22c0bb25a3545fac18d9ab919fe7f51b50526796e053967f1",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_bipyridine_pnnoh_Ph|hydrogenated|0005",
+    "source_record_line": 386,
+    "source_record_line_sha256": "095f95ee805d5365caa5d025f530ea82022c66248b41e9e2cbc8d3598856c6a7",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|hydrogenated|0005",
+    "source_record_line": 391,
+    "source_record_line_sha256": "d00412c0bd70b556c7a1a3c0ea3f398e528c08d0b67c54ccd9527e7598c4b371",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|protonated_reference|0005",
+    "source_record_line": 397,
+    "source_record_line_sha256": "d167146dba661ddd8d860bb245134caa8d7a8f8248f093d2d506f6cac6532f5a",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|protonated_reference|0005",
+    "source_record_line": 404,
+    "source_record_line_sha256": "1efceded71438a31c7e05920f832ed5cdd2303add1bec806127843fdf18f8b78",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_bipyridine_pnnoh_Ph|protonated_reference|0005",
+    "source_record_line": 409,
+    "source_record_line_sha256": "00274cc124bcd58717bf5d3bab83b31665d4bfc9ca494c6eb81a498066e4eaec",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_iPr|active|0006",
+    "source_record_line": 417,
+    "source_record_line_sha256": "9bcd56244463eb3bebf0f5ae6da2d3ee7a2de78f9adf981df67dc659e0021fcc",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_Ph|active|0006",
+    "source_record_line": 418,
+    "source_record_line_sha256": "83d9179468d92b9c70be97ec40d5b9ec621f3bf8c5ffb58fd42ebb45e7720436",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_pyridine_pnn_Ph|active|0006",
+    "source_record_line": 420,
+    "source_record_line_sha256": "33724d30eefde0870e15bee4dfa41b62856418b0df9f74f3f7309771bdfbf686",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|active|0006",
+    "source_record_line": 422,
+    "source_record_line_sha256": "915c7808eceabe1795bf495081fc77cbbd0e51d8178578e8572fe08cdb84c521",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_Ph|active|0006",
+    "source_record_line": 424,
+    "source_record_line_sha256": "88dd9ff90e6c7191daf7d0df87a0a8d00038771f7d1d08f93d2415e1c4c20488",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_pyridine_pnn_Ph|active|0006",
+    "source_record_line": 425,
+    "source_record_line_sha256": "27821e075959807e8afb0b03c430a411934f9e51e038cbbb0da5252d9a708c97",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|active|0006",
+    "source_record_line": 427,
+    "source_record_line_sha256": "f5cd5d79d1428d0480e99f52943c069e5351119f8abdd48c552057ba14ffe6a8",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_Ph|active|0006",
+    "source_record_line": 430,
+    "source_record_line_sha256": "995e1ea06eb297e31f566ed09d953a1605bf6190e17ae6c62af89c4a89812529",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_pyridine_pnn_Ph|active|0006",
+    "source_record_line": 432,
+    "source_record_line_sha256": "4ea7e24a20706ccd3b50b67e6d65740826e66b71070245e19b86d5577d34f28a",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_bipyridine_pnnoh_Ph|active|0006",
+    "source_record_line": 433,
+    "source_record_line_sha256": "c84adc8de171646fbaac1e7d71984be514dc7718cee9edf054a1bd1e5b4fbbe0",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|active|0006",
+    "source_record_line": 438,
+    "source_record_line_sha256": "470f2fbb0fab645757c03eef49538b45019170db5142c7cef034332f77d7ada8",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_pyridine_pnn_Ph|active|0006",
+    "source_record_line": 439,
+    "source_record_line_sha256": "b252f40480b4298bfdb5f73d9d6056e6bec333b8ceb651dae30dac88e53db23a",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_iPr|active|0006",
+    "source_record_line": 440,
+    "source_record_line_sha256": "df9b5ac38c556f255b614a029bd93c86749857a40963f81eae02734e03bf1dda",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_pyridine_pnn_Ph|hydrogenated|0006",
+    "source_record_line": 442,
+    "source_record_line_sha256": "cc00a955ccae5e5867dc296e26034ecebb5ac823a03955c3c73760e67f719946",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|hydrogenated|0006",
+    "source_record_line": 446,
+    "source_record_line_sha256": "3ae399dc7aea1529edbdbcbc4e5846cb42ceb7c9293974dff0ba81d818953692",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_pyridine_pnn_Ph|hydrogenated|0006",
+    "source_record_line": 450,
+    "source_record_line_sha256": "49a984de01e030aac03fd678b6d37ead8774e8c41cce5c9fae05752eae3d4ea1",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|hydrogenated|0006",
+    "source_record_line": 452,
+    "source_record_line_sha256": "e9e9b00ebd0fabc23ebfd83147a1abf15e40f4ce2b5d5e33d8bfd19618e40bad",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_pyridine_pnn_Ph|hydrogenated|0006",
+    "source_record_line": 455,
+    "source_record_line_sha256": "aea83da51c1c263cd900cc737949724f572981f820ae9aa6a973a64a1a5838e0",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_bipyridine_pnnoh_Ph|hydrogenated|0006",
+    "source_record_line": 458,
+    "source_record_line_sha256": "c741b5b4fbcead712af59ffce38754595693ee67685a90fe8c2c0bcaa30da997",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_pyridine_pnn_Ph|hydrogenated|0006",
+    "source_record_line": 462,
+    "source_record_line_sha256": "efad396219e55ff182c46f5a410913870ed675abe46cc8e52a5f6f5b5866556d",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|hydrogenated|0006",
+    "source_record_line": 464,
+    "source_record_line_sha256": "cd85c6b6eaf287de7561951cf98145fefd8a6f58843e28cc36fc6be768b787e9",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_pyridine_pnn_Ph|protonated_reference|0006",
+    "source_record_line": 467,
+    "source_record_line_sha256": "74dd4a35d69eb76347091a4150599a17266b8248f13fc76c8cd9fe1630a76476",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|protonated_reference|0006",
+    "source_record_line": 469,
+    "source_record_line_sha256": "69eff16d752ef2a8abda5ec991530e20c6353f0547a2cfc0b34339201e83f86a",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_pyridine_pnn_Ph|protonated_reference|0006",
+    "source_record_line": 473,
+    "source_record_line_sha256": "eb7988db976386232293b63ab2bfd5b1e955929a05c5630f296187fa0681503d",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|protonated_reference|0006",
+    "source_record_line": 475,
+    "source_record_line_sha256": "ca8295fefa7016bbecf6d8e0de9677d130260f5332a833a527d1521d5eb6f63d",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_pyridine_pnn_Ph|protonated_reference|0006",
+    "source_record_line": 478,
+    "source_record_line_sha256": "359f1bfd473029fbcb94fe49761b97fbb6cfc7bc8b7d1a24db647d82f517107f",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_pyridine_pnn_Ph|protonated_reference|0006",
+    "source_record_line": 484,
+    "source_record_line_sha256": "0b803f373bc70e0195c7b2da1be5e1a04b31c6abc36877a4196719cd37dedc9d",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_Ph|active|0007",
+    "source_record_line": 493,
+    "source_record_line_sha256": "49c5862315c667051af817d9acebf7855b0a3b71ca20a40dd7a6c7093cff2204",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_iPr|active|0007",
+    "source_record_line": 494,
+    "source_record_line_sha256": "fada4346a10cdbdaa9550c1fa29c3b707e164f2c7cc0a2c24b6ce7da62d4ba61",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|active|0007",
+    "source_record_line": 507,
+    "source_record_line_sha256": "9e53649efc24c29402f2f1137ebf3db90e16c155f99c04bb4f8fa088583e81ab",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_Ph|active|0008",
+    "source_record_line": 550,
+    "source_record_line_sha256": "e8e147b0b4dd84621be094d9cb0bd15e1b01ebb4c623709858962928b35d0f4d",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_Ph|active|0008",
+    "source_record_line": 556,
+    "source_record_line_sha256": "aa37ff5d7946a9c254cf86ddf2f15b8615a2a1a519b8d215f50611e969ac36b6",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_iPr|active|0008",
+    "source_record_line": 561,
+    "source_record_line_sha256": "237fc50e25114fc0ad639c1673266ca1fea096e8cf88a58ca8654a350905a445",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_Ph|active|0008",
+    "source_record_line": 562,
+    "source_record_line_sha256": "f7f8615a73981e1451bdc3b1da6b95a5dc000b96261e333403d19d291b06cc05",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_macho_pnp_iPr|active|0008",
+    "source_record_line": 567,
+    "source_record_line_sha256": "3d2378533b9d8726e27687d12a04ae0213b0d111e2d55ae83b0f7a061be8aafc",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_macho_pnp_Ph|active|0008",
+    "source_record_line": 568,
+    "source_record_line_sha256": "3653e98e4fb52b67b72269ace8e697c9297fe6796f4f87f221f8ebef355ee496",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|active|0008",
+    "source_record_line": 571,
+    "source_record_line_sha256": "da1e7fe96ba6c2a864be020723df1927b2974c1b853f61e0638bcd6c503da57c",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_iPr|active|0008",
+    "source_record_line": 572,
+    "source_record_line_sha256": "f985e70f503324717c1cc160ad33c3920002f1afe642d4cffd58b06be9fb1bfb",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_iPr|hydrogenated|0008",
+    "source_record_line": 573,
+    "source_record_line_sha256": "8365190cd4bef3e4dd662df4ae97f200016f10116c5363ddf1538117c88fe1b0",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_Ph|hydrogenated|0008",
+    "source_record_line": 577,
+    "source_record_line_sha256": "6cd55306ca63c3915085f15b5a649b4aa7c7df00bce4d5e2346183f5b0573dd4",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_iPr|hydrogenated|0008",
+    "source_record_line": 579,
+    "source_record_line_sha256": "ae58e7b98d6c3dfaaa2dc32ce5fea6bb341ffac2907784d0a73a0b46ee1abcbc",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_Ph|hydrogenated|0008",
+    "source_record_line": 581,
+    "source_record_line_sha256": "99ce2903546bd36636876143e3b33fb709f1c0732ca5a01029cac2f973a1839b",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_iPr|hydrogenated|0008",
+    "source_record_line": 585,
+    "source_record_line_sha256": "7c2398237839216d2864be97a4ed74a768a560b14c8169f1f4d4dd7f17e40ffc",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_Ph|hydrogenated|0008",
+    "source_record_line": 586,
+    "source_record_line_sha256": "8006eb23f9a75da900cc51a79dee11dfe014d58bdf4865992a02d06adcd9360f",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_macho_pnp_Ph|hydrogenated|0008",
+    "source_record_line": 591,
+    "source_record_line_sha256": "06c7bf9ad07a9199b25fa474db14a2945521a16520c97d2b3dd00505dd2ffa34",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_macho_pnp_iPr|hydrogenated|0008",
+    "source_record_line": 592,
+    "source_record_line_sha256": "772259bb8775af699a6f07f62a5f64716b85d75b1fd87d3910641e8783c58b96",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_Ph|protonated_reference|0008",
+    "source_record_line": 599,
+    "source_record_line_sha256": "e222de0b177ebee27e5dfca248a6ad96f95db11f6abd56fdde576cd91bf2fb63",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_Ph|protonated_reference|0008",
+    "source_record_line": 604,
+    "source_record_line_sha256": "e583b750886cfb29ceeb28f19cb837fd5aade40ba6d92904d5c103f705604750",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_Ph|protonated_reference|0008",
+    "source_record_line": 611,
+    "source_record_line_sha256": "92f155ed49da9099af0a6cccaa871c3f58911f8e4e3804530d781fe6fc2a7aeb",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_macho_pnp_iPr|protonated_reference|0008",
+    "source_record_line": 615,
+    "source_record_line_sha256": "8da7fbdcee2fab53e5b317ec774f240b8d98118a76a8827031bb3dea9b3cf1ed",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_macho_pnp_Ph|protonated_reference|0008",
+    "source_record_line": 616,
+    "source_record_line_sha256": "974e1347475516d32ec037e90251a2330644b059b99d7eb53963e323a107cf57",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_Ph|active|0009",
+    "source_record_line": 621,
+    "source_record_line_sha256": "9f52059477cc9debdae4d67999d7d7c48a797c0fb2f00345336e1d8e03deffdc",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|active|0009",
+    "source_record_line": 625,
+    "source_record_line_sha256": "dea5e8f696b568c15b1131a454ca296cf091930b49f19142818eb8de368fdb21",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_Ph|active|0009",
+    "source_record_line": 627,
+    "source_record_line_sha256": "cab89022917e5ca4a68a80069500075424ffdd626cd99618eb37abbadea52bb1",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|active|0009",
+    "source_record_line": 629,
+    "source_record_line_sha256": "a86839942dee36fa848c9fee7647913e00482e067264e545cefeebb20b86684f",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_Ph|active|0009",
+    "source_record_line": 632,
+    "source_record_line_sha256": "1dbf9830e194028b294bd5441d7774d2040abfe2475f940f5def1e0b7d2fb002",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_bipyridine_pnnoh_Ph|active|0009",
+    "source_record_line": 635,
+    "source_record_line_sha256": "fea1b5a3b78d5911d7eaedc7ef42153fa7827f2e6888a75690ac9b35a763cb2f",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_macho_pnp_Ph|active|0009",
+    "source_record_line": 637,
+    "source_record_line_sha256": "a2466a473df731184b6e027805b94f2080f3c19f3ed22d775dbbc1f5ac76015a",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|active|0009",
+    "source_record_line": 640,
+    "source_record_line_sha256": "855b973d7f8979fab1337434a3596cdb902aec376a4c0f0115c09290fd1abcaf",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_Ph|hydrogenated|0009",
+    "source_record_line": 641,
+    "source_record_line_sha256": "c43b37c0538e102b64e537232c3c282ea57464d3a09758862cbb415a815abcc5",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|hydrogenated|0009",
+    "source_record_line": 645,
+    "source_record_line_sha256": "b7af04931db857e070faf79205ec47118c95030f1d7c08e39b05eb9796bad879",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_Ph|hydrogenated|0009",
+    "source_record_line": 647,
+    "source_record_line_sha256": "1aad49f358e2081777f65f36a2366b74b194a4ce5a515b310bcdd46399f6e2ed",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|hydrogenated|0009",
+    "source_record_line": 650,
+    "source_record_line_sha256": "a9a81a1921ee61d71e0093d1621ac40fc64042048019585f2b98277ad5743227",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_Ph|hydrogenated|0009",
+    "source_record_line": 651,
+    "source_record_line_sha256": "3d6cc91729bb75d24a3c9234537d86eb64e308c003f129fb774cf5306874aaba",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_bipyridine_pnnoh_Ph|hydrogenated|0009",
+    "source_record_line": 655,
+    "source_record_line_sha256": "74d751cbea0195555efa10d30ae71574028f12221e49bd6517bc1bb599a76170",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_macho_pnp_Ph|hydrogenated|0009",
+    "source_record_line": 656,
+    "source_record_line_sha256": "55d453a0c518db1506e8c3c9d2cce5e8228bd57bf66c9d286a856abce8a8a8e3",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|hydrogenated|0009",
+    "source_record_line": 660,
+    "source_record_line_sha256": "c5800a1c9c6076c9858e642c61bbc80e3b8622f2ba825db38b834a98571edcf2",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_Ph|protonated_reference|0009",
+    "source_record_line": 662,
+    "source_record_line_sha256": "5adf371a764032a067d81360c479a431cf31fdfb5cd3da6fcafa0dce0918144e",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_bipyridine_pnnoh_Ph|protonated_reference|0009",
+    "source_record_line": 665,
+    "source_record_line_sha256": "d05eddb1f010b80ce96b814dc399112b12285aae08cf41cf5bbcda5ee15c5fb8",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_Ph|protonated_reference|0009",
+    "source_record_line": 668,
+    "source_record_line_sha256": "45c8d688dbf989f3dfd47804585a5d2cafe71e19b88383d35ba032f7d22f8e2e",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_bipyridine_pnnoh_Ph|protonated_reference|0009",
+    "source_record_line": 670,
+    "source_record_line_sha256": "91947a01773dc7822ed2dc24453d9eff91404f0a11995310627165df6a9eeb1d",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_Ph|protonated_reference|0009",
+    "source_record_line": 671,
+    "source_record_line_sha256": "58a730385b5e795c8f3299ea71edc19ef043c57c21dacece28c002797ec8ec61",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_bipyridine_pnnoh_Ph|protonated_reference|0009",
+    "source_record_line": 675,
+    "source_record_line_sha256": "517da7d3a2adb204bc41938b8f6fa90ba2789f2f1e5f988d4050f0edac4604fc",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|protonated_reference|0009",
+    "source_record_line": 680,
+    "source_record_line_sha256": "14f1e1bd4ce4c3410fe65eebf1d2e94ec2ee0afbe2840e5b43c322f558ca83ea",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_Ph|active|0010",
+    "source_record_line": 681,
+    "source_record_line_sha256": "89b601502d59f2c7a66aa1a8aeae940e80e1a5fab2f69d3519252f72ffe7f3e2",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_Ph|active|0010",
+    "source_record_line": 687,
+    "source_record_line_sha256": "314eae7c829cb8237befdae33dfc2cc4ab67cd9876b4430bef135be6e48a70ab",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_Ph|active|0010",
+    "source_record_line": 692,
+    "source_record_line_sha256": "48833614a1e10c46b5f30a04ed1e343cd31eb08946112b606376b8d78b7b9df9",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_macho_pnp_Ph|active|0010",
+    "source_record_line": 694,
+    "source_record_line_sha256": "58522beb3c2dae12846612af60d4297fee3d4a7b17d1e38dcffc5bd9e5d3a5d5",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|active|0010",
+    "source_record_line": 696,
+    "source_record_line_sha256": "fbf191781d385b51eb760aca8a918f6579358e64955c025919457c9449a7bfaa",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_Ph|hydrogenated|0010",
+    "source_record_line": 697,
+    "source_record_line_sha256": "71f87855d5451b4951cc4a019617b5696ada4a4f79ce8113dc02a430d117b153",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_Ph|hydrogenated|0010",
+    "source_record_line": 701,
+    "source_record_line_sha256": "eb80a70d522d3cfa2d26a8080fbb7fb7b618a1565c86f580edbff58a2d79c9ca",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_Ph|hydrogenated|0010",
+    "source_record_line": 707,
+    "source_record_line_sha256": "014b1e056ae507693ec1b1d8a80f99c49403d90f2c4ddb0145a0f75a41158f23",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_macho_pnp_Ph|hydrogenated|0010",
+    "source_record_line": 709,
+    "source_record_line_sha256": "668a75bc1e002fa8ae9e856c289d1719ff7ceaa47111799d6de9f41cb0fe3158",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_Ph|protonated_reference|0010",
+    "source_record_line": 713,
+    "source_record_line_sha256": "e5e6c53b2141301c0c283cb8bf9108465563d5130d9df02f49ab22b611380f40",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_macho_pnp_Ph|protonated_reference|0010",
+    "source_record_line": 717,
+    "source_record_line_sha256": "4a76d595160a6342003abae9173eee399a9e4071754c4e6bff59682369cea584",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_Ph|protonated_reference|0010",
+    "source_record_line": 722,
+    "source_record_line_sha256": "4710d9d4966ee5b009eb0f5aae39b0c5c6f28ff2dbd4dcc019cd14bc45e34ed8",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_macho_pnp_Ph|protonated_reference|0010",
+    "source_record_line": 726,
+    "source_record_line_sha256": "94fb33f2c8a4874659c856f2e374226e9d3b913b1d757ccdc51abf02a3737fac",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_iPr|active|0011",
+    "source_record_line": 729,
+    "source_record_line_sha256": "d37ba940a8aca36e3bc48d8bf0a76a235da9245be9ba249bfcb6976a38b425ee",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_pyridine_pnn_Ph|active|0011",
+    "source_record_line": 737,
+    "source_record_line_sha256": "520747b595ba15e707cee9f8a5831f74214451d65ca2358c8e05132e1f6b594b",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_iPr|active|0011",
+    "source_record_line": 741,
+    "source_record_line_sha256": "b7f1b10d6ca9579e139a1473ba438bfc07aed7b3ade96c35d5aa5a85747c0761",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_pyridine_pnn_Ph|active|0011",
+    "source_record_line": 742,
+    "source_record_line_sha256": "7899a0f348a9cd5c46cc208c8b881e3bf7a55152817e2099544616070a8308e0",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_pyridine_pnn_Ph|active|0011",
+    "source_record_line": 749,
+    "source_record_line_sha256": "de78d6e4fd3b4ba7b86934a888359489f637fedd2e1ef13e4a3ece265bd4c873",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_iPr|active|0011",
+    "source_record_line": 751,
+    "source_record_line_sha256": "196a8ef80ae7cd9e022036d25e87fbe0b59c32388c3ef7a9ca7825b6ffe6088a",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_bipyridine_pnnoh_Ph|active|0011",
+    "source_record_line": 752,
+    "source_record_line_sha256": "17e246270bb1f55713f48824f1ec0c6beec3074b84f0cf6152c5e5c0978b2fd1",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_pyridine_pnn_Ph|hydrogenated|0011",
+    "source_record_line": 755,
+    "source_record_line_sha256": "b1fac578367e0cb26d2aaa73c97adcc78ba8a9ffa12044e45b43033e9b11286c",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_pyridine_pnn_Ph|hydrogenated|0011",
+    "source_record_line": 762,
+    "source_record_line_sha256": "1eb0c19aa89cc51fb81caa26d7d6378243923addc2e40f8831f293790ee06e81",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_pyridine_pnn_Ph|hydrogenated|0011",
+    "source_record_line": 770,
+    "source_record_line_sha256": "f12bea364cfc8161e867eefdc8b7f44ed420f466f0723b9260d3641b6371a0b5",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_macho_pnp_iPr|hydrogenated|0011",
+    "source_record_line": 771,
+    "source_record_line_sha256": "6281c1dd2cd0974a44b519a30bea70bfdd57920db1625de082541e462e1c6425",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Co_pyridine_pnn_Ph|hydrogenated|0011",
+    "source_record_line": 773,
+    "source_record_line_sha256": "6b5bb497616f1d3819b3288223cd7edf9ba95c9b4aceec6cd6e94adaeac7f76e",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_pyridine_pnn_Ph|protonated_reference|0011",
+    "source_record_line": 780,
+    "source_record_line_sha256": "985a9c1ce0c983390db1960a4c4871e25391c188fc156c60bc8f5c8f9aded373",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Mn_pyridine_pnn_Ph|protonated_reference|0011",
+    "source_record_line": 785,
+    "source_record_line_sha256": "425e192ed42bc6d9725f8ed227a04f184ec11a58f8a4d348f1d56cd47a04fd44",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_pyridine_pnn_Ph|protonated_reference|0011",
+    "source_record_line": 791,
+    "source_record_line_sha256": "4afe0eabd302f1c1f38973e419a1e89e165ee78fe79f323947bfa37d44505b52",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_iPr|active|0012",
+    "source_record_line": 801,
+    "source_record_line_sha256": "3f59d79417a4458a50937633516c30d36138519650aa214e50e4431fc1e33e25",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Ru_macho_pnp_Ph|active|0012",
+    "source_record_line": 802,
+    "source_record_line_sha256": "ec76b0c4475c822d3f0187f67eaa294b3e6930c4469326d77d42ff8831a83548",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_iPr|active|0012",
+    "source_record_line": 811,
+    "source_record_line_sha256": "ead2133a67937fbb632d0f2713afdf8b8e683610ccefb335e5568096399638d2",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  },
+  {
+    "record": "Fe_macho_pnp_Ph|active|0012",
+    "source_record_line": 812,
+    "source_record_line_sha256": "3c0ff1d0726803b9990bef839fb1ce30c534c3ab7f64609ed775a0ff932e52f7",
+    "reason": "ValueError: Native convergence, donor coordination or complete identity gate failed"
+  }
+]

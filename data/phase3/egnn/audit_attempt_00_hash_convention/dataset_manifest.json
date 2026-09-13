@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-09-13T14:40:11.027337+00:00",
+  "records_source": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\campaign_alpb_toluene\\records_with_identity.jsonl",
+  "records_source_sha256": "47d1f2d4f80bb3f55bafad32e4e492846f14b2c643504a027f49a17b8b8bf70a",
+  "source_record_line_hash_convention": "SHA256 of exact source bytes excluding line-ending bytes",
+  "eligible_structures": 0,
+  "rejected_records": 812,
+  "auxiliary_pairs": 0,
+  "families": {},
+  "composition_groups": 0,
+  "reference_policy": "Deterministic lowest original conformer index; self-pairs excluded; no energy-based baseline selection",
+  "scientific_scope": "Converged electronic optimizations, not Hessian-certified minima; pairwise auxiliary energies only",
+  "unsupported_targets": {
+    "activation_barrier_ev": "Zero validated TS activation-free-energy labels in Phase2",
+    "mecp_gap_ev": "GFN2 energies do not discriminate spin; new independent spin-gap labels required"
+  },
+  "dataset_files_sha256": {
+    "structures.jsonl": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "pairs.jsonl": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "rejected_sources.json": "94b5800ee2427ab2c3bd799e59c26c052c6ae3027bbc8446954654c2fb413ccc",
+    "reference_selection.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+  }
+}

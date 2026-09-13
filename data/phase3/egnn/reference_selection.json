@@ -1,0 +1,352 @@
+[
+  {
+    "composition_group": "Co_bipyridine_pnnoh_Ph|hydrogenated|C24H20CoN2O2P|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "b296b569c0cc0701f16aec91",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Co_bipyridine_pnnoh_Ph|protonated_reference|C24H19CoN2O2P|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "29ce6c0c3ea90fbeb168ec48",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Co_bipyridine_pnnoh_iPr|hydrogenated|C18H24CoN2O2P|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "4978f35e453010792dd5b407",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Co_bipyridine_pnnoh_iPr|protonated_reference|C18H23CoN2O2P|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "e9e28dfd0aa0da28c8855529",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Co_macho_pnp_Ph|active|C29H28CoNOP2|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "081abc77ac048fe826d1da36",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Co_macho_pnp_Ph|hydrogenated|C29H30CoNOP2|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "82e051078092bdfe9aeb4b1a",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Co_macho_pnp_Ph|protonated_reference|C29H29CoNOP2|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "76a02865222cce45ac56785f",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Co_macho_pnp_iPr|active|C17H36CoNOP2|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "27fece51fbe9a88ca7a1f804",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Co_macho_pnp_iPr|hydrogenated|C17H38CoNOP2|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "43a400fe79133e4c869ab78a",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Co_macho_pnp_iPr|protonated_reference|C17H37CoNOP2|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "386e802182a50bda3b5ba34a",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Co_pyridine_pnn_Ph|active|C24H26CoN2OP|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "54554c7af4cb6b1d7a8d520b",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Co_pyridine_pnn_Ph|hydrogenated|C24H28CoN2OP|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "acbf67cb26f5940cb9cb6ec3",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Co_pyridine_pnn_Ph|protonated_reference|C24H27CoN2OP|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "c501bb8107a506b2a3f01290",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Co_pyridine_pnn_iPr|active|C18H30CoN2OP|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "251a80f13a199be69ccd8a93",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Co_pyridine_pnn_iPr|hydrogenated|C18H32CoN2OP|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "bac12864486000e250dbb094",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Co_pyridine_pnn_iPr|protonated_reference|C18H31CoN2OP|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "6956cf2435459ef20e37c74d",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_bipyridine_pnnoh_Ph|active|C24H19FeN2O2P|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "d491032402c230fd2004bd9e",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_bipyridine_pnnoh_Ph|hydrogenated|C24H21FeN2O2P|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "bb24ab920d911860aa55bf83",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_bipyridine_pnnoh_Ph|protonated_reference|C24H20FeN2O2P|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "d9a933f400789a16de3b887c",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_bipyridine_pnnoh_iPr|active|C18H23FeN2O2P|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "f82462b16da95f9cdce84a29",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_bipyridine_pnnoh_iPr|hydrogenated|C18H25FeN2O2P|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "8330e3ab963c39b97a969229",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_bipyridine_pnnoh_iPr|protonated_reference|C18H24FeN2O2P|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "09c37783408ce343ec212a16",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_macho_pnp_Ph|active|C29H29FeNOP2|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "590427723937cdf356c62b33",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_macho_pnp_Ph|hydrogenated|C29H31FeNOP2|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "92aa1f86618fd61179ef9e42",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_macho_pnp_Ph|protonated_reference|C29H30FeNOP2|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "3e8b9301a32e768c312cdddd",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_macho_pnp_iPr|active|C17H37FeNOP2|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "a78f65f27c374bea4d21043a",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_macho_pnp_iPr|hydrogenated|C17H39FeNOP2|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "a21cea6fd5cd9765524855a0",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_macho_pnp_iPr|protonated_reference|C17H38FeNOP2|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "afe47386dfb48609feac0856",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_pyridine_pnn_Ph|active|C24H27FeN2OP|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "eeb219db07e55a701e65eee7",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_pyridine_pnn_Ph|hydrogenated|C24H29FeN2OP|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "29906b7134131ce7a8a5e58a",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_pyridine_pnn_Ph|protonated_reference|C24H28FeN2OP|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "e644e78fb184791f5d74babf",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_pyridine_pnn_iPr|active|C18H31FeN2OP|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "793368cd7dc62191d6072417",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_pyridine_pnn_iPr|hydrogenated|C18H33FeN2OP|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "0c1348574e338e9e66f3492a",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Fe_pyridine_pnn_iPr|protonated_reference|C18H32FeN2OP|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "449be90e4d013da730bdc64c",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_bipyridine_pnnoh_Ph|active|C25H18MnN2O3P|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "ce4f6cc912901049353dd461",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_bipyridine_pnnoh_Ph|hydrogenated|C25H20MnN2O3P|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "a79b36e9c634bd93fb14c147",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_bipyridine_pnnoh_Ph|protonated_reference|C25H19MnN2O3P|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "512d31e073c05df03926ec52",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_bipyridine_pnnoh_iPr|active|C19H22MnN2O3P|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "f725f04426f42ac71f316bd7",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_bipyridine_pnnoh_iPr|hydrogenated|C19H24MnN2O3P|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "35406d04b21fdafe50a69e35",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_bipyridine_pnnoh_iPr|protonated_reference|C19H23MnN2O3P|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "10e32ead2e16922db7fcfdd4",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_macho_pnp_Ph|active|C30H28MnNO2P2|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "99f230515a42fb871cbdf397",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_macho_pnp_Ph|hydrogenated|C30H30MnNO2P2|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "bdfefb422cb73e58cb37812d",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_macho_pnp_Ph|protonated_reference|C30H29MnNO2P2|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "2764bf0dc92215dc8171cfdf",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_macho_pnp_iPr|active|C18H36MnNO2P2|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "13e46906808270be574411d6",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_macho_pnp_iPr|hydrogenated|C18H38MnNO2P2|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "699f93fac08d2dc72e4848f8",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_macho_pnp_iPr|protonated_reference|C18H37MnNO2P2|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "be95b8d54e44cba4888dbae5",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_pyridine_pnn_Ph|active|C25H26MnN2O2P|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "1cce9552571c942112fc1642",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_pyridine_pnn_Ph|hydrogenated|C25H28MnN2O2P|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "140e815b00cd05a40572931d",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_pyridine_pnn_Ph|protonated_reference|C25H27MnN2O2P|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "68e7ad1ff2540fe1a62633ce",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_pyridine_pnn_iPr|active|C19H30MnN2O2P|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "b9c7659cc011c344a648ada3",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_pyridine_pnn_iPr|hydrogenated|C19H32MnN2O2P|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "57eeeff4e3860dcd4bf8e2e2",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Mn_pyridine_pnn_iPr|protonated_reference|C19H31MnN2O2P|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "9b9d4e1f8ecf3888ff022bdf",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_bipyridine_pnnoh_Ph|active|C24H19N2O2PRu|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "4dcd6643b719e7d0d7ad4ccc",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_bipyridine_pnnoh_Ph|hydrogenated|C24H21N2O2PRu|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "f02366592a5c48abd9e9992d",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_bipyridine_pnnoh_Ph|protonated_reference|C24H20N2O2PRu|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "65c584174959093a223afe6a",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_bipyridine_pnnoh_iPr|active|C18H23N2O2PRu|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "bbd3198f1ce0bea40de576c4",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_bipyridine_pnnoh_iPr|hydrogenated|C18H25N2O2PRu|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "289044313189e24a7dd14be5",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_bipyridine_pnnoh_iPr|protonated_reference|C18H24N2O2PRu|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "051c1f56c2e135f3be805358",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_macho_pnp_Ph|active|C29H29NOP2Ru|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "5dae665afb3361d0e3b3187d",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_macho_pnp_Ph|hydrogenated|C29H31NOP2Ru|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "e8b24e4cbccc542a20475019",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_macho_pnp_Ph|protonated_reference|C29H30NOP2Ru|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "b9eab34a7a98ab30a4cfa620",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_macho_pnp_iPr|active|C17H37NOP2Ru|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "a05667e8bb7d2ca96dbd0ffe",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_macho_pnp_iPr|hydrogenated|C17H39NOP2Ru|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "64bf26e3867f26a46b58167d",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_macho_pnp_iPr|protonated_reference|C17H38NOP2Ru|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "473a8e57c60cf7c8441629d5",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_pyridine_pnn_Ph|active|C24H27N2OPRu|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "b835dd478491473b5bbe904d",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_pyridine_pnn_Ph|hydrogenated|C24H29N2OPRu|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "b08f0013fc83439eaf76cf15",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_pyridine_pnn_Ph|protonated_reference|C24H28N2OPRu|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "39665d5bd4de88e02ab7ec38",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_pyridine_pnn_iPr|active|C18H31N2OPRu|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "e27a7a37cb2f0e561e681f03",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_pyridine_pnn_iPr|hydrogenated|C18H33N2OPRu|q0|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "9d11ca9cda6719223fa20a61",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  },
+  {
+    "composition_group": "Ru_pyridine_pnn_iPr|protonated_reference|C18H32N2OPRu|q1|uhf0|2c9e1e911af6c5bfac7c3a55a4acfaad253768b40ec37a6423c083edd37e52f2",
+    "reference_id": "5a5e2bf4ba482cc8a19f5cc9",
+    "selection": "Lowest original conformer index, then ID; independent of energy"
+  }
+]

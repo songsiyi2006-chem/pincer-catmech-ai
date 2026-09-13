@@ -1,0 +1,35 @@
+{
+  "symbols": [
+    "Fe",
+    "H",
+    "H"
+  ],
+  "positions_bohr": [
+    [
+      -2.8663580536324784e-08,
+      9.395207741995256e-07,
+      -0.1631688688883369
+    ],
+    [
+      1.973610430037325,
+      -1.764925439240635e-06,
+      1.8162371616954094
+    ],
+    [
+      -1.9736104006234745,
+      8.238978857186324e-07,
+      1.8162370844046658
+    ]
+  ],
+  "charge": 0,
+  "multiplicities": [
+    3,
+    5
+  ],
+  "method": "pbe",
+  "basis": "def2-svp",
+  "memory_mib": 500,
+  "threads": 2,
+  "scf_max_iterations": 120,
+  "workdir": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\feh2_pbe_def2svp_002\\evaluations\\job_8bb963e120174eb091a72c7a6a9a5708\\native"
+}

@@ -1,0 +1,103 @@
+{
+  "started_utc": "2026-09-13T15:06:39.132479+00:00",
+  "status": "completed_bounded_exploration",
+  "method": "GFN2-xTB",
+  "solvent": "toluene",
+  "solvation_state": "gsolv",
+  "physical_workers": 1,
+  "threads": 1,
+  "charge": 0,
+  "unpaired_electrons": 0,
+  "thermodynamic_baseline_temperature_K": 383.15,
+  "electronic_smearing_temperature_K": 300.0,
+  "tBuOK_total_base_equivalent_baseline": 0.05,
+  "total_base_speciation_resolved": false,
+  "potassium_explicit": false,
+  "tert_butoxide_explicit": false,
+  "scope": "Neutral micro-solvated dehydration hypothesis; no base kinetic order or activation free energy inferred",
+  "deadline_epoch": 1789313199.1319773,
+  "attempts": [
+    {
+      "directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\proton_wire\\attempt_01_cluster_seed_02",
+      "status": "failed",
+      "accepted_TS": false,
+      "failure_reasons": [
+        "ValueError: CI-NEB did not converge within the bounded step allowance"
+      ],
+      "actual_NEB_evaluation_reached": true,
+      "last_reported_NEB_step": 100,
+      "neb_converged": false,
+      "last_sampled_band_potential_max_above_reactant_eV": 1.795701748051897,
+      "sampled_band_potential_is_activation_free_energy": false,
+      "accepted_endpoint_minima": 2,
+      "imaginary_frequency_count": null,
+      "free_energy_barrier_computed": false,
+      "elapsed_seconds": 272.6290338039398,
+      "result": {
+        "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\proton_wire\\attempt_01_cluster_seed_02\\result.json",
+        "sha256": "11f00cee35df95a839d8b573442da5f0688c93b36f25a56b5250aecce0dd649e",
+        "bytes": 174041
+      }
+    },
+    {
+      "directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\proton_wire\\attempt_02_cluster_seed_01",
+      "status": "failed",
+      "accepted_TS": false,
+      "failure_reasons": [
+        "ValueError: CI-NEB did not converge within the bounded step allowance"
+      ],
+      "actual_NEB_evaluation_reached": true,
+      "last_reported_NEB_step": 100,
+      "neb_converged": false,
+      "last_sampled_band_potential_max_above_reactant_eV": 4.568801850331056,
+      "sampled_band_potential_is_activation_free_energy": false,
+      "accepted_endpoint_minima": 2,
+      "imaginary_frequency_count": null,
+      "free_energy_barrier_computed": false,
+      "elapsed_seconds": 259.65734004974365,
+      "result": {
+        "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\proton_wire\\attempt_02_cluster_seed_01\\result.json",
+        "sha256": "a5921637042bc6868fea5d8ca6dcea79383c784ed0aac45d53f2767f901d70b6",
+        "bytes": 173895
+      }
+    },
+    {
+      "directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\proton_wire\\attempt_01_continuation",
+      "status": "failed",
+      "accepted_TS": false,
+      "failure_reasons": [
+        "ValueError: CI-NEB did not converge within the bounded step allowance"
+      ],
+      "actual_NEB_evaluation_reached": true,
+      "last_reported_NEB_step": 200,
+      "neb_converged": false,
+      "last_sampled_band_potential_max_above_reactant_eV": 2.3914683853258794,
+      "sampled_band_potential_is_activation_free_energy": false,
+      "accepted_endpoint_minima": 2,
+      "imaginary_frequency_count": null,
+      "free_energy_barrier_computed": false,
+      "elapsed_seconds": 524.4436120986938,
+      "result": {
+        "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\proton_wire\\attempt_01_continuation\\result.json",
+        "sha256": "d0945520ef41c6864bbb91778511448b6fab47ce134cab4a3c80a509c805946d",
+        "bytes": 182304
+      }
+    }
+  ],
+  "accepted_TS_count": 0,
+  "activation_free_energy_barrier_count": 0,
+  "finished_utc": "2026-09-13T15:26:21.223474+00:00",
+  "elapsed_seconds": 1182.0914974212646,
+  "native_evidence": {
+    "archive": {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\proton_wire\\native_evidence.zip",
+      "sha256": "28278440df6340a6e87fd5a45394bd0ec3cbee5ff4f7d7c35845b1a7dfe2e605",
+      "bytes": 119668177
+    },
+    "member_count": 51321
+  },
+  "continuation_count": 1,
+  "distinct_seed_attempt_count": 2,
+  "continuation_started_utc": "2026-09-13T15:17:36.763690+00:00",
+  "original_physical_deadline_preserved": true
+}

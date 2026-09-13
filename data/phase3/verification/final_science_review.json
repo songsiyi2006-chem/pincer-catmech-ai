@@ -1,0 +1,159 @@
+{
+  "review": "Independent read-only final spin and MECP science/evidence audit",
+  "reviewed_utc": "2026-09-13T16:53:34.948727+00:00",
+  "inputs_sha256": {
+    "data\\phase3\\spin\\pincer_vertical_diagnostic_003\\summary.json": "c8fafbc4ee951f0eefaf4e8e764f23e4b7e7119ab738f55032d1c9d266aa3a30",
+    "data\\phase3\\spin\\pincer_mecp_from_matrix_001\\summary.json": "5c6f338267e5812fb668ff885349b3008977aa864df48a2486af17bcc0df2d2a",
+    "data\\phase3\\spin\\summary.json": "349ff3442ec1a58a4b211ece011f00575c4603239074f2982f32930418c10601",
+    "data\\phase3\\spin\\evidence_publication.json": "e18fda46c1b06008231952530821834b59b4f3b10c28c0d87c9ffba06e85c0a3"
+  },
+  "counts": {
+    "unique_designs": 18,
+    "unique_slots": 54,
+    "actual_geometry_attempts": 48,
+    "missing_geometry_slots": 6,
+    "converged": 8,
+    "timeout": 40,
+    "S2_rejected_converged": 2,
+    "screen_eligible_states": 6,
+    "raw_matched_gaps": 1,
+    "eligible_pairs": 0,
+    "accepted_MECP": 0
+  },
+  "converged_states": [
+    {
+      "catalyst_id": "Fe_bipyridine_pnnoh_iPr",
+      "multiplicity": 1,
+      "S2": -7.105427357601002e-14,
+      "nominal_S2": 0.0,
+      "screen_eligible": true,
+      "native_files_verified": 4
+    },
+    {
+      "catalyst_id": "Fe_bipyridine_pnnoh_iPr",
+      "multiplicity": 3,
+      "S2": 2.661445763547917,
+      "nominal_S2": 2.0,
+      "screen_eligible": false,
+      "native_files_verified": 4
+    },
+    {
+      "catalyst_id": "Fe_bipyridine_pnnoh_Ph",
+      "multiplicity": 1,
+      "S2": -1.9895196601282805e-13,
+      "nominal_S2": 0.0,
+      "screen_eligible": true,
+      "native_files_verified": 4
+    },
+    {
+      "catalyst_id": "Fe_macho_pnp_iPr",
+      "multiplicity": 5,
+      "S2": 6.166902016475518,
+      "nominal_S2": 6.0,
+      "screen_eligible": false,
+      "native_files_verified": 4
+    },
+    {
+      "catalyst_id": "Mn_bipyridine_pnnoh_Ph",
+      "multiplicity": 1,
+      "S2": 8.526512829121202e-14,
+      "nominal_S2": 0.0,
+      "screen_eligible": true,
+      "native_files_verified": 4
+    },
+    {
+      "catalyst_id": "Mn_bipyridine_pnnoh_iPr",
+      "multiplicity": 1,
+      "S2": 3.979039320256561e-13,
+      "nominal_S2": 0.0,
+      "screen_eligible": true,
+      "native_files_verified": 4
+    },
+    {
+      "catalyst_id": "Mn_pyridine_pnn_Ph",
+      "multiplicity": 1,
+      "S2": 2.842170943040401e-14,
+      "nominal_S2": 0.0,
+      "screen_eligible": true,
+      "native_files_verified": 4
+    },
+    {
+      "catalyst_id": "Mn_pyridine_pnn_iPr",
+      "multiplicity": 1,
+      "S2": 2.7000623958883807e-13,
+      "nominal_S2": 0.0,
+      "screen_eligible": true,
+      "native_files_verified": 4
+    }
+  ],
+  "missing_designs": [
+    "Co_bipyridine_pnnoh_Ph",
+    "Co_bipyridine_pnnoh_iPr"
+  ],
+  "raw_gap": {
+    "catalyst_id": "Fe_bipyridine_pnnoh_iPr",
+    "multiplicities": [
+      1,
+      3
+    ],
+    "hartree": -0.0314591288624797,
+    "eligible": false,
+    "reason": "Triplet S2=2.66144576 exceeds nominal 2 by 0.66144576; retained raw number is not accepted label"
+  },
+  "mecp": {
+    "status": "no_eligible_pair",
+    "quantum_pair_evaluations": 0,
+    "quantum_state_attempts": 0,
+    "first_order_crossing": false,
+    "minimum_verified": false,
+    "matrix_hash_matches": true,
+    "attempt_hash_matches": true,
+    "current_source_hashes_match": {
+      "provider_source_sha256": true,
+      "runner_source_sha256": true,
+      "optimizer_source_sha256": true
+    },
+    "rejection_reason_counts": {
+      "spin_quality_not_passed": 2,
+      "state_not_converged_or_missing": 40,
+      "active_catalyst_seed_required": 6
+    }
+  },
+  "checks_passed": [
+    "54 unique design/multiplicity slots, all designs have 1/3/5",
+    "All 8 converged protocol and paired-protocol hashes match",
+    "All 16 converged input XYZ/metadata bindings match",
+    "All 32 small native files for converged states match hashes",
+    "Native state energies, gradients, S2 and flags exactly match all converged summary rows",
+    "Raw gap reconstructs from matching-state energies/geometry/protocol",
+    "Aggregate and MECP bind exact final matrix; MECP attempt and three source hashes match",
+    "No eligible pair follows independently: six eligible states are singlets in distinct designs",
+    "Current EN/ZH status and energy tables agree with actual final counts and unvalidated status"
+  ],
+  "publication": {
+    "published_file_count": 794,
+    "local_cache_count": 93,
+    "local_cache_bytes": 18136488536,
+    "large_cache_bytes_rehashed_by_this_review": false
+  },
+  "findings": [
+    {
+      "severity": "minor_factual_wording",
+      "files": [
+        "docs/MAGNUM_OPUS_CATMECH_EN.md:268",
+        "docs/MAGNUM_OPUS_CATMECH_ZH.md:287"
+      ],
+      "claim": "Missing and rejected values remain blank in CSVs",
+      "observed": "Missing/failed numeric values are blank, but 2 converged S2-rejected raw state energies and 1 rejected raw gap are correctly retained with flags.",
+      "recommendation": "Specify missing/failed values are blank and quality-rejected raw values are retained with flags."
+    }
+  ],
+  "limitations": [
+    "No quantum calculation was launched by this review.",
+    "Current-state quality checks are diagnostic screens, not proof of pure spin or full chemical identity.",
+    "No eligible pair means no admitted MECP start; it does not prove absent crossings.",
+    "PBE/STO-3G gas-phase vertical energies do not establish solution free energies, barriers, ISC rates, TOF or catalyst ranking.",
+    "Publication cache byte counts are read from manifest; large local-only caches were not rehashed.",
+    "This JSON is a data/code/document-source review, not final PDF visual QA."
+  ]
+}

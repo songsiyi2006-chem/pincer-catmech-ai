@@ -1,0 +1,107 @@
+{
+  "active_matrix_summary": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\summary.json",
+  "active_matrix_summary_sha256": "c8fafbc4ee951f0eefaf4e8e764f23e4b7e7119ab738f55032d1c9d266aa3a30",
+  "run_complete": true,
+  "planned_target_states": 54,
+  "pending_target_states": 0,
+  "target_states_recorded": 54,
+  "physical_state_attempts": 48,
+  "states_converged": 8,
+  "states_failed_or_missing": 46,
+  "missing_geometry_slots": 6,
+  "s2_and_identity_eligible_states": 6,
+  "computed_vertical_gaps": 1,
+  "eligible_diagnostic_gaps": 0,
+  "mecp_accepted": 0,
+  "validated_catalyst_gaps": 0,
+  "diagnostics": [
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\feh2_pbe_def2svp_001\\result.json",
+      "sha256": "0c6e5976eb4adf2fb556857308132ca4df3fe0f7ef58cff2df7abbbb4f73af22",
+      "system": "FeH2, neutral, artificial starting geometry 1.6 A / 110 degrees",
+      "method": "PBE/def2-SVP with RKS singlet and UKS triplet; no solvent; 75x194 integration grid",
+      "status": "invalid_surfaces_or_backend_failure",
+      "converged": false,
+      "evaluations": 1,
+      "minimum_verified": false
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\feh2_pbe_def2svp_002\\result.json",
+      "sha256": "48ebf7a66bfbafbdbd91d9abc686acae65b236432accf92037e505f84da3102a",
+      "system": "FeH2, neutral, artificial starting geometry 1.6 A / 110 degrees",
+      "method": "PBE/def2-SVP; RKS if singlet, UKS otherwise; no solvent; 75x194 integration grid",
+      "status": "budget_exhausted",
+      "converged": false,
+      "evaluations": 34,
+      "minimum_verified": false
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\xtb_capability_001\\result.json",
+      "sha256": "a534c0a83d5d731b4202062bb8b028f0d2658a11c5b9431919af9d7df83c1ee3",
+      "system": "O2 at 1.21 angstrom",
+      "method": null,
+      "status": "capability_diagnostic",
+      "converged": false,
+      "evaluations": null,
+      "minimum_verified": false
+    }
+  ],
+  "target_protocol_runs": [
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_def2svp_resource_pilot_001\\summary.json",
+      "method": "pbe",
+      "basis": "def2-svp",
+      "grid_radial": null,
+      "grid_spherical": null,
+      "scf_algorithm": null,
+      "states_converged": 0,
+      "target_states": 1,
+      "sha256": "97158a75c2e6c5ff495e4f87070dd73f6df9c11021b3c300d1d887c77a6ada04"
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_coarse_soscf_001\\summary.json",
+      "method": "pbe",
+      "basis": "sto-3g",
+      "grid_radial": 35,
+      "grid_spherical": 110,
+      "scf_algorithm": "soscf",
+      "states_converged": 0,
+      "target_states": 1,
+      "sha256": "60d3a3c52b1bc14f38de0f4b647672ff6651fce4ca9ee5ecdcc7e57857decc50"
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_coarse_soscf_002\\summary.json",
+      "method": "pbe",
+      "basis": "sto-3g",
+      "grid_radial": 35,
+      "grid_spherical": 110,
+      "scf_algorithm": "soscf",
+      "states_converged": 0,
+      "target_states": 1,
+      "sha256": "6d1aeca2ebe75736283dea2a1673be3ef22332f26e260d81f4908df0183e9f79"
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\summary.json",
+      "method": "pbe",
+      "basis": "sto-3g",
+      "grid_radial": 35,
+      "grid_spherical": 110,
+      "scf_algorithm": "soscf",
+      "states_converged": 8,
+      "target_states": 54,
+      "sha256": "c8fafbc4ee951f0eefaf4e8e764f23e4b7e7119ab738f55032d1c9d266aa3a30"
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_pbe_sto3g_001\\summary.json",
+      "method": "pbe",
+      "basis": "sto-3g",
+      "grid_radial": null,
+      "grid_spherical": null,
+      "scf_algorithm": null,
+      "states_converged": 0,
+      "target_states": 3,
+      "sha256": "d97b5d68c3e42722edb95b7430e3f4a2d3343b18e561846d69fd4619f9f1820c"
+    }
+  ],
+  "interpretation": "Distinct protocols retained separately. Engine examples are not pincer labels; vertical gaps are not MECPs."
+}

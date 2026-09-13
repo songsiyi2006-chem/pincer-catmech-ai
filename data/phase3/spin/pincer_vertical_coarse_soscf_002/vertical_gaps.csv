@@ -1,0 +1,4 @@
+catalyst_id,multiplicity_low,multiplicity_high,status,gap_high_minus_low_hartree,spin_contamination_flag,mecp_status
+Fe_bipyridine_pnnoh_iPr,1,3,missing_or_failed_state,,,not_searched
+Fe_bipyridine_pnnoh_iPr,1,5,missing_or_failed_state,,,not_searched
+Fe_bipyridine_pnnoh_iPr,3,5,missing_or_failed_state,,,not_searched

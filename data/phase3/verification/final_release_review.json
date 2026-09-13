@@ -1,0 +1,56 @@
+{
+  "schema": "phase3-read-only-release-audit-v1",
+  "reviewed_at_utc": "2026-09-13T16:48:50.456458+00:00",
+  "reviewer": "proton_wire agent",
+  "scope": "Read-only release code, documented commands, deployment preflight, artifact presence and spin publication policy. No source edits, real staging, commits, push, archive, physical calculations or output export were performed by this reviewer.",
+  "status": "no_concrete_blockers_remaining_after_root_fixes",
+  "release_ready": false,
+  "release_ready_note": "Final PDF build and six-PDF QA, final pytest XML/source snapshot, commit/push and final export remain root-owned work in progress; this audit is not release acceptance.",
+  "active_blockers": [],
+  "resolved_findings": [
+    {
+      "id": "windows_long_paths",
+      "original_evidence": "core.longpaths unset; git add --dry-run -- data/phase3/spin exited 128 with Filename too long; command-specific core.longpaths=true made the same dry run pass.",
+      "root_resolution_verified": "Repository-local core.longpaths now true; ordinary git add --dry-run exits 0 with no stderr. No reviewer config mutation."
+    },
+    {
+      "id": "paper_source_path_shadowing",
+      "original_evidence": "validate_pdf_evidence reused outer relative for bound figure paths, causing paper repository_source receipt metadata to identify the final image.",
+      "root_resolution_verified": "Inner variable is now figure_relative; final repository_source still uses the outer PDF path. Source inspected after root fix."
+    }
+  ],
+  "checks": {
+    "deploy_phase3_bash_syntax": "passed",
+    "existing_default_venv_python": true,
+    "main_branch_preflight": "requires main and no active merge/rebase; fetch precedes regeneration; remote-ahead dirty tree rejected; ff-only integration; tests precede staging; no-force push verifies remote main equality",
+    "default_master_command": "--stage all performs software benchmark plus strict physical-evidence collection; does not launch quantum jobs without --execute-physical",
+    "physical_command_requirements": "Existing Psi4 and xTB executable required; --output and --scratch support fresh prospective runs",
+    "export_prior_outputs": "Existing destination is rejected; staging outside repository; final clean HEAD and remote equality rechecked before rename",
+    "export_membership": "Exactly two paper PDFs plus four plot PDFs required for QA/visual receipts; Git archive every member hash checked against committed blobs",
+    "paper_figure_assets_present": 16,
+    "spin_published_files_verified": 794,
+    "spin_caches_ignored": 93,
+    "spin_cache_kinds": [
+      "PSIF_DFSCF_BJ",
+      "PSIF_LIBDIIS"
+    ],
+    "spin_cache_bytes_recorded": 18136488536,
+    "ignore_manifest_membership_exact": true,
+    "published_spin_files_accidentally_ignored": [],
+    "published_spin_files_at_or_above_100MiB": [],
+    "spin_local_cache_payload_rehashed_in_this_review": false,
+    "spin_publication_manifest_sha256": "e18fda46c1b06008231952530821834b59b4f3b10c28c0d87c9ffba06e85c0a3",
+    "current_spin_git_staging_dry_run_exit": 0,
+    "current_spin_git_staging_dry_run_stderr": ""
+  },
+  "reviewed_source_sha256": {
+    "scripts/deploy_phase3.sh": "098d3d59cbd7006ae1ad3b78433b47bd74bf712bacb718faa15d6e112f13dd88",
+    "scripts/deploy.sh": "de97b0f3fb674a56f4ebd422efe74b97996e8b5b438331a309c9db7e714e192a",
+    "scripts/export_phase3_delivery.py": "e06246d35f7dab0c7865908a0ec362866bb5d3c573e90b4b690256398f26f7f9",
+    "scripts/run_advanced_campaign.py": "0abc97ca5f010f5f4cb3081a667bbed4815fa8bd1b576ad46027f51a52c85b63",
+    "scripts/publish_phase3_spin_evidence.py": "5c934867b258d04edd5e92286899ddde9cc9515bf12e0d02401b4f6767096937",
+    "README.md": "6ca728b746b44bdadec5e3bf626b18aaae3a6e41b59f10fca3cf0608a15d12eb",
+    ".gitignore": "0e7a93b385d16236967f369c0fce08337e81a02fb14fa9538c0333c4001d82c6",
+    ".gitattributes": "bdaff7a721d01ed8e43ee5fd7e9a954aa10fff25b053a7e1807573b311c05bd3"
+  }
+}

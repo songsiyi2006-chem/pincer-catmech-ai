@@ -1,0 +1,729 @@
+[
+  {
+    "pdf": "docs\\MAGNUM_OPUS_CATMECH_EN.pdf",
+    "sha256": "4fb5a3c094abd7abf078ed1725a59799c189c45d885de90d39c8cad3664a21e3",
+    "render_runtime": {
+      "pypdf": "6.10.0",
+      "pypdfium2": "5.13.0",
+      "Pillow": "12.3.0"
+    },
+    "pdfium_pages": 43,
+    "pypdf_pages": 43,
+    "all_pages_rendered": true,
+    "outside_page_text_count": 0,
+    "pages": [
+      {
+        "page": 1,
+        "characters": 512,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_001.png",
+        "render_sha256": "b12ed1a176b02b4d739047a03817142cc1bff59811adb4013298357d8f08b298"
+      },
+      {
+        "page": 2,
+        "characters": 1485,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_002.png",
+        "render_sha256": "05bdbf4ff788f2ca54339e92cf80cfde13c5df8c26bb3034d252cfab3d30e390"
+      },
+      {
+        "page": 3,
+        "characters": 1079,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_003.png",
+        "render_sha256": "171459b0eb38c0bd8a9d26a844460193f31fb08ffab8048e9c78fc10120ef462"
+      },
+      {
+        "page": 4,
+        "characters": 2755,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_004.png",
+        "render_sha256": "c479522c10e769d8689b3ec1e2e1019fb4c93cbd62d1c9d26d82cb8e7b21bf10"
+      },
+      {
+        "page": 5,
+        "characters": 2195,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_005.png",
+        "render_sha256": "bb46085f5cd060d97fd9880742c6002b54b923e21c6fe534ff8c3d139ecf6cae"
+      },
+      {
+        "page": 6,
+        "characters": 1820,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_006.png",
+        "render_sha256": "58f2ced7922c018d8221f8848268e309beaff17dea3faccd8f534c1e7c65f98a"
+      },
+      {
+        "page": 7,
+        "characters": 1866,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_007.png",
+        "render_sha256": "57090619f7b251b3de59ca7d13ff8366c944c51ab6d24aee27879b8f32f277fd"
+      },
+      {
+        "page": 8,
+        "characters": 1812,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_008.png",
+        "render_sha256": "7926e9d3f07a04e2b6053f109d9117016c7fd0886374f2433e8c375dce7a2ef7"
+      },
+      {
+        "page": 9,
+        "characters": 1675,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_009.png",
+        "render_sha256": "f9bddd5a07cff1932a6e5406f726e81300b4a3b36ed3cd8e7a0d0ab234be1fa3"
+      },
+      {
+        "page": 10,
+        "characters": 2895,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_010.png",
+        "render_sha256": "d21825d594612939bbf8795d5a88672748d739eb01765213f3ec4d821a6c85a7"
+      },
+      {
+        "page": 11,
+        "characters": 4142,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_011.png",
+        "render_sha256": "850772622ec12f0bc2fc96b1f2c3eb1b8e59e058a2f4540a8c19e7ce1c1a3685"
+      },
+      {
+        "page": 12,
+        "characters": 2156,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_012.png",
+        "render_sha256": "95d6ea509e975a2c46921006b5830de8241e793a52a5286968b0325996cac1d9"
+      },
+      {
+        "page": 13,
+        "characters": 421,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_013.png",
+        "render_sha256": "5b47301f0e092a32a5a34c941f244c48249de07b0e5df89e8ec459c83ad4975a"
+      },
+      {
+        "page": 14,
+        "characters": 4368,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_014.png",
+        "render_sha256": "3dc37cfb54d3f62a8eafb083b4c5843385663a5ce43ea4af19e81cf82fea6fc7"
+      },
+      {
+        "page": 15,
+        "characters": 2613,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_015.png",
+        "render_sha256": "9ca9ea5998a7eb1eddf817d1e225f2c9fe472a2a5ceacc62c7a1917bec064128"
+      },
+      {
+        "page": 16,
+        "characters": 1977,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_016.png",
+        "render_sha256": "2b38a201ff4d5ef239ad3958e83678b5c2c4e2f7e1dbb608ad7a1b31006cf7fa"
+      },
+      {
+        "page": 17,
+        "characters": 2063,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_017.png",
+        "render_sha256": "b30bf67b55ae9a40b80957f48a626e8d68f160b3db3e584a4ab046ba227da374"
+      },
+      {
+        "page": 18,
+        "characters": 1885,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_018.png",
+        "render_sha256": "2536db7e23a88cf325c637a1a15880848e23c1dc16bbcd623487883299d60737"
+      },
+      {
+        "page": 19,
+        "characters": 2264,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_019.png",
+        "render_sha256": "7fc4c82fe23e456c13ef16b3ae578be811809cb8843fee146e3b005153e6877f"
+      },
+      {
+        "page": 20,
+        "characters": 2480,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_020.png",
+        "render_sha256": "161ebfbfe780fb92aba3461263e85c882c8c4f07606d5606464ea37c6f1fdddf"
+      },
+      {
+        "page": 21,
+        "characters": 1755,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_021.png",
+        "render_sha256": "f2e0a8cb554506860d71872a7cb385417590cb9a84847f76daf0b93ec26831d7"
+      },
+      {
+        "page": 22,
+        "characters": 2306,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_022.png",
+        "render_sha256": "2f37778bf61109cd32f20eae1510f8516243942c4fd4486de080b82c4260cbb2"
+      },
+      {
+        "page": 23,
+        "characters": 3696,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_023.png",
+        "render_sha256": "e0be1f8aaf30944eb73e88e80c6960b2610e03ef4b03747022595c2b3ca56a28"
+      },
+      {
+        "page": 24,
+        "characters": 2076,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_024.png",
+        "render_sha256": "769d8f30f0d51813d74240fbe38bdcc5d9ee1769bac0faeee2c1335f81e1c8ac"
+      },
+      {
+        "page": 25,
+        "characters": 1950,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_025.png",
+        "render_sha256": "61f1d847db51fb881bb10344874b09ca3074dc457209aa2e1d242cb3383b5f36"
+      },
+      {
+        "page": 26,
+        "characters": 1464,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_026.png",
+        "render_sha256": "e4db470ab78d869354a98a930bf3a99d91adad8d6809823fb5706e5c2a4f98e6"
+      },
+      {
+        "page": 27,
+        "characters": 1974,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_027.png",
+        "render_sha256": "b4bf5ab9963598ba907827d909727e5730c4bc8b75d5ccf013a31e09dccd69a9"
+      },
+      {
+        "page": 28,
+        "characters": 2641,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_028.png",
+        "render_sha256": "8f2aa10707a5026393017a77809b15281fa2262b7c83cd7c2f7ed1e34cbad9a1"
+      },
+      {
+        "page": 29,
+        "characters": 2180,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_029.png",
+        "render_sha256": "531f2febce4340fea66a5c73723a3395574a2d7fa79533c0d8b298dc1efbf93f"
+      },
+      {
+        "page": 30,
+        "characters": 2361,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_030.png",
+        "render_sha256": "8f9d6ed1d4b9f1e5bba2b58cba08834fac90b3796e93aed19537aef14b84c24b"
+      },
+      {
+        "page": 31,
+        "characters": 2605,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_031.png",
+        "render_sha256": "d220a04e14ec53e4eb227a1b075b00341afc3651e8224c767319a4818ea03d5b"
+      },
+      {
+        "page": 32,
+        "characters": 2005,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_032.png",
+        "render_sha256": "a8a50539b629e480a2d2afd14cee914a6a12ee292667cd2738dc9f2eafa82e32"
+      },
+      {
+        "page": 33,
+        "characters": 2468,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_033.png",
+        "render_sha256": "dd6be88e8598f86febf2ab3ff4e1a5e276e0aa74c636048eed9d34a388e64e43"
+      },
+      {
+        "page": 34,
+        "characters": 2210,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_034.png",
+        "render_sha256": "b86de5532783a33b533709e6e8b618b78b32c3c71227c900104c9fe1c4671667"
+      },
+      {
+        "page": 35,
+        "characters": 2240,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_035.png",
+        "render_sha256": "7c7af95a9e09aac00f299247564f9552af828d6edf7408832cbe4d8319a84427"
+      },
+      {
+        "page": 36,
+        "characters": 1896,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_036.png",
+        "render_sha256": "0aef38812201e911af1c5e9f6d66326cbd6b2d6f91860779b9764655dda2b25b"
+      },
+      {
+        "page": 37,
+        "characters": 1777,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_037.png",
+        "render_sha256": "f767477615d3db894f300c3090fe82c1c6b64548ef3cb102e1ab5be6d5103f80"
+      },
+      {
+        "page": 38,
+        "characters": 2131,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_038.png",
+        "render_sha256": "a7a3d61d88e393efbab83876561d23b1e7720dd6b2fbea8951b612513854846c"
+      },
+      {
+        "page": 39,
+        "characters": 2774,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_039.png",
+        "render_sha256": "c27146169cda1e7b0c00868dff63c3e2ce009c698184131b2bb6814ae34ab2ed"
+      },
+      {
+        "page": 40,
+        "characters": 2148,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_040.png",
+        "render_sha256": "47e922c956137b044e0a0e7cddc373ab79952e067b70f2592512044c35f1e3d8"
+      },
+      {
+        "page": 41,
+        "characters": 2620,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_041.png",
+        "render_sha256": "e1320907bb1c0488198f72b46ade8bf9b847ac10b9dfc3cf2163f864fd0a5c63"
+      },
+      {
+        "page": 42,
+        "characters": 4464,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_042.png",
+        "render_sha256": "688b941b2d0632e68a37e58c987cad09d93240d94e78a4e7c181cf2e172a9416"
+      },
+      {
+        "page": 43,
+        "characters": 3459,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN\\page_043.png",
+        "render_sha256": "b622cb9dcb77c99e3107f319fce007ed385c2fa99f84ae3669f0c92bef85c82d"
+      }
+    ]
+  },
+  {
+    "pdf": "docs\\MAGNUM_OPUS_CATMECH_ZH.pdf",
+    "sha256": "45524ced2180064759a98be1bb15818def310792995cc268f97c1bb51d4b9d56",
+    "render_runtime": {
+      "pypdf": "6.10.0",
+      "pypdfium2": "5.13.0",
+      "Pillow": "12.3.0"
+    },
+    "pdfium_pages": 44,
+    "pypdf_pages": 44,
+    "all_pages_rendered": true,
+    "outside_page_text_count": 0,
+    "pages": [
+      {
+        "page": 1,
+        "characters": 374,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_001.png",
+        "render_sha256": "61dc4036943bd016984f0ba4df2c6171cfa779336acce33c2154479ba639941d"
+      },
+      {
+        "page": 2,
+        "characters": 706,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_002.png",
+        "render_sha256": "365bb607ebdb13d3e19d6120e78b17e2a85c982dd866a27bfb1d141bcdb01af9"
+      },
+      {
+        "page": 3,
+        "characters": 1032,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_003.png",
+        "render_sha256": "694c25730bbd7de789e463b0fdab3a43a10f93d8c9d19801d8dee40bb599162f"
+      },
+      {
+        "page": 4,
+        "characters": 946,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_004.png",
+        "render_sha256": "95e399c5df03aea954db7e5d6ae561e549d40c2129d9a2a4cca316db853d57f8"
+      },
+      {
+        "page": 5,
+        "characters": 840,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_005.png",
+        "render_sha256": "217c19dc972b35714b675d283e67c1429f9a91f95e246b943bdafab64a0fa871"
+      },
+      {
+        "page": 6,
+        "characters": 794,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_006.png",
+        "render_sha256": "62fee7280372cbaa4c95d70e340dc43ba3d30a7c9f8be06fb7fd85135bc5fe5b"
+      },
+      {
+        "page": 7,
+        "characters": 647,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_007.png",
+        "render_sha256": "6a7c54d262239d6f20777e7a4aadf961c85791d015edcc4a6c5df07ae5984f7e"
+      },
+      {
+        "page": 8,
+        "characters": 692,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_008.png",
+        "render_sha256": "9190db274b527399379167d65dedab591803f688aecb60c070e674725cded6c6"
+      },
+      {
+        "page": 9,
+        "characters": 609,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_009.png",
+        "render_sha256": "ddb0c0205ffc3a327b5ea1d63fa90123c0fa3bf22451b1c24e5e8e1a72407e95"
+      },
+      {
+        "page": 10,
+        "characters": 1187,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_010.png",
+        "render_sha256": "5b20b63955ab4a79021ee06e2acef9b614c4df85bab4041d4f54abb661ddc479"
+      },
+      {
+        "page": 11,
+        "characters": 1613,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_011.png",
+        "render_sha256": "c8e7015c3260a5232ef98492c509034efc26a9203344f95a127ec0063a6ff296"
+      },
+      {
+        "page": 12,
+        "characters": 1489,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_012.png",
+        "render_sha256": "d8ff1ae3a9552bcf37d5c3e4fb61d967af89fdda9ba505359380c5bb2f55e67a"
+      },
+      {
+        "page": 13,
+        "characters": 214,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_013.png",
+        "render_sha256": "09b2e2496654bb7b283b33fead31f6559318e3d512dc2aa8e9dcc22cc386e709"
+      },
+      {
+        "page": 14,
+        "characters": 1570,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_014.png",
+        "render_sha256": "7862d46afa1a85966ef2b4e0c5fe50285906bcc7ccd228bbc0a05b5fc44f449b"
+      },
+      {
+        "page": 15,
+        "characters": 851,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_015.png",
+        "render_sha256": "da921f89cc55dae04ea94138938015a8a87d63727479bea4279a2e8ca3684791"
+      },
+      {
+        "page": 16,
+        "characters": 795,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_016.png",
+        "render_sha256": "a0cb0c08d17996d965e7acd95c9235de31cbbbdc026941e4d5331b4a598d9164"
+      },
+      {
+        "page": 17,
+        "characters": 736,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_017.png",
+        "render_sha256": "db81957667abab7f5c539696d6a2d54732f519488e576c82f638dfe54fe86b6e"
+      },
+      {
+        "page": 18,
+        "characters": 798,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_018.png",
+        "render_sha256": "de58cdb51e589825971119228aeaa2a23c1ece1f3a2118b4556ac9333b62ee78"
+      },
+      {
+        "page": 19,
+        "characters": 1044,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_019.png",
+        "render_sha256": "90d4fc721903547e473f3cb590ceaf87c26d62f6ffbffc7fe9b8a0192f1b5f4c"
+      },
+      {
+        "page": 20,
+        "characters": 833,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_020.png",
+        "render_sha256": "158435ea74ee4e98fc117cc0194a8febaa5603eb06cbce3c6635814ec7561d06"
+      },
+      {
+        "page": 21,
+        "characters": 592,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_021.png",
+        "render_sha256": "1f73f0cd3e5b05b34c55bf588d6f6e23eee8867b5d921f4373a0aefc8aee917d"
+      },
+      {
+        "page": 22,
+        "characters": 1073,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_022.png",
+        "render_sha256": "e703cb16df3db920b556e63e9016211ed0245a7f21da229b7018a5890cbfb387"
+      },
+      {
+        "page": 23,
+        "characters": 1554,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_023.png",
+        "render_sha256": "7048a94b786f5b423647c647ea58203c6d731268916a5bd65d81381ba4fd990e"
+      },
+      {
+        "page": 24,
+        "characters": 1223,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_024.png",
+        "render_sha256": "3c96d98d3148b59b6568015f1031a940336ced4247fa72c9f1340d91bb0b81d3"
+      },
+      {
+        "page": 25,
+        "characters": 892,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_025.png",
+        "render_sha256": "bfff37e6c74df2676aec18f234251639794ef0d3067bc9c920f755b16c849c5f"
+      },
+      {
+        "page": 26,
+        "characters": 527,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_026.png",
+        "render_sha256": "f2d98b49b21bd42fd061d60548d0bf866f99b68af1a47f2e971f521321401d53"
+      },
+      {
+        "page": 27,
+        "characters": 726,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_027.png",
+        "render_sha256": "8e2402afeaec5c9ba54e963a1ee276a44993e31368245efe66f4021048c5c316"
+      },
+      {
+        "page": 28,
+        "characters": 406,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_028.png",
+        "render_sha256": "4afeb7186afa8164cd92438590fa4512c443f6dbb1e6ca6730ab6ad2d9bb4dd9"
+      },
+      {
+        "page": 29,
+        "characters": 912,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_029.png",
+        "render_sha256": "1b0bd7ce5d927b6a3347902224bd127ecbceab1fc230113c1eef9de2cd96c08e"
+      },
+      {
+        "page": 30,
+        "characters": 883,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_030.png",
+        "render_sha256": "9d42a6160a324f7a307bdc2e45533bd2e57c0600a78aa77ac7f17cf9e24639f2"
+      },
+      {
+        "page": 31,
+        "characters": 720,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_031.png",
+        "render_sha256": "6a131aac3abb6177f347349bad0d5dc2ead4826b07f6d920d3e5412d82f60721"
+      },
+      {
+        "page": 32,
+        "characters": 1274,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_032.png",
+        "render_sha256": "5433aa61173afdd299d9e4d33337a81bdee6a8d349458501c6411460f0991258"
+      },
+      {
+        "page": 33,
+        "characters": 1072,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_033.png",
+        "render_sha256": "59cc3d502d0731c16b84764389ff8c730670e614b9002856da85e6ef24297e1e"
+      },
+      {
+        "page": 34,
+        "characters": 817,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_034.png",
+        "render_sha256": "04196ef2b292f593034d1833b2ee775ba0cab4e45af5dc30d8c8abd87d5d5519"
+      },
+      {
+        "page": 35,
+        "characters": 671,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_035.png",
+        "render_sha256": "256213b8d7c3f25b85c6ec48a7fb883c737b8550b231afb6185f8fc04cf40f84"
+      },
+      {
+        "page": 36,
+        "characters": 640,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_036.png",
+        "render_sha256": "ee62268a09f6076363609098dcb0bcdf4f62840698a2d1589438d7c213b1d2a9"
+      },
+      {
+        "page": 37,
+        "characters": 801,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_037.png",
+        "render_sha256": "83f2b82a01397e082da5747790939bbb6d66f5fef463c2bf19c05462dbffb761"
+      },
+      {
+        "page": 38,
+        "characters": 981,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_038.png",
+        "render_sha256": "37147593384075b00a23a4d7406af05117e03baf01adc195e28df26fdaecf423"
+      },
+      {
+        "page": 39,
+        "characters": 820,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_039.png",
+        "render_sha256": "6b7dca3f1508838c3b77575c7b43a72ffa6ffe9bb1d4d6e6fdb69200c2ad6fde"
+      },
+      {
+        "page": 40,
+        "characters": 1088,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_040.png",
+        "render_sha256": "cc3f725c243bc83a5eb49d8f92162ca8cfafff6b0c09a8a6f1e5bbe9b2cfa932"
+      },
+      {
+        "page": 41,
+        "characters": 1896,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_041.png",
+        "render_sha256": "5f15181f5181e2bfac681bf14ffa6a0884413ec509fdf249b7274a5187891c3c"
+      },
+      {
+        "page": 42,
+        "characters": 949,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_042.png",
+        "render_sha256": "ece22f26cd9667b1ea08210d4dcd7fdf7f16b2a711c88c660fd62932a149e9a7"
+      },
+      {
+        "page": 43,
+        "characters": 878,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_043.png",
+        "render_sha256": "6faae241a726a8c2488e5118ba889cc7c565a231941a74165a208d144c085a72"
+      },
+      {
+        "page": 44,
+        "characters": 1188,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_ZH\\page_044.png",
+        "render_sha256": "aec80d84439dbba498645283f51f2367f77523a3e4f1e49be8c9ea972f4f2b85"
+      }
+    ]
+  },
+  {
+    "pdf": "examples\\plots\\phase3_egnn_auxiliary.pdf",
+    "sha256": "368a75eb4b67c1bc8211ed0412e921f7f4ab85ece3836408412b6b9050f2899e",
+    "render_runtime": {
+      "pypdf": "6.10.0",
+      "pypdfium2": "5.13.0",
+      "Pillow": "12.3.0"
+    },
+    "pdfium_pages": 1,
+    "pypdf_pages": 1,
+    "all_pages_rendered": true,
+    "outside_page_text_count": 0,
+    "pages": [
+      {
+        "page": 1,
+        "characters": 399,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\plot_qa_final\\phase3_egnn_auxiliary\\page_001.png",
+        "render_sha256": "b63e3202ee49c5779f658e33f373441376c41f82d9c5984e01f7383975ae8e37"
+      }
+    ]
+  },
+  {
+    "pdf": "examples\\plots\\phase3_micro_solvation.pdf",
+    "sha256": "4ec7ed989e8681db416dea4ca90ac3fd4c06bbd34382d6af9c97e20162fc0cfd",
+    "render_runtime": {
+      "pypdf": "6.10.0",
+      "pypdfium2": "5.13.0",
+      "Pillow": "12.3.0"
+    },
+    "pdfium_pages": 1,
+    "pypdf_pages": 1,
+    "all_pages_rendered": true,
+    "outside_page_text_count": 0,
+    "pages": [
+      {
+        "page": 1,
+        "characters": 368,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\plot_qa_final\\phase3_micro_solvation\\page_001.png",
+        "render_sha256": "4aedc1a0c636d9252eccf6529e2e36b16501896df84a88f9ef327d1af039b3a0"
+      }
+    ]
+  },
+  {
+    "pdf": "examples\\plots\\phase3_solver_verification.pdf",
+    "sha256": "6dbf8d894cd0eb802d90ce04551b8e206fdf2f8af245fcb2869fc012576e5318",
+    "render_runtime": {
+      "pypdf": "6.10.0",
+      "pypdfium2": "5.13.0",
+      "Pillow": "12.3.0"
+    },
+    "pdfium_pages": 1,
+    "pypdf_pages": 1,
+    "all_pages_rendered": true,
+    "outside_page_text_count": 0,
+    "pages": [
+      {
+        "page": 1,
+        "characters": 420,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\plot_qa_final\\phase3_solver_verification\\page_001.png",
+        "render_sha256": "4b1f895bc1d8579bbef9661ae30e90fbc648f7ad4513ac3fb552e2761502b549"
+      }
+    ]
+  },
+  {
+    "pdf": "examples\\plots\\phase3_spin_diagnostics.pdf",
+    "sha256": "01b54c3c7a18dd442962a036e7f5f6d34aa45f1824e147cc994bb4eb83467cd7",
+    "render_runtime": {
+      "pypdf": "6.10.0",
+      "pypdfium2": "5.13.0",
+      "Pillow": "12.3.0"
+    },
+    "pdfium_pages": 1,
+    "pypdf_pages": 1,
+    "all_pages_rendered": true,
+    "outside_page_text_count": 0,
+    "pages": [
+      {
+        "page": 1,
+        "characters": 428,
+        "outside_page_characters": 0,
+        "render": "..\\phase3\\plot_qa_final\\phase3_spin_diagnostics\\page_001.png",
+        "render_sha256": "18eb1972103b85808fb05bab8128dacfa4d9c377be69545400fd871d5b0e2eec"
+      }
+    ]
+  }
+]

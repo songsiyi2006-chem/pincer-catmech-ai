@@ -1,0 +1,61 @@
+{
+  "reviewer": "/root/final_kinetics_audit",
+  "created_utc": "2026-09-13T16:48:42.649405+00:00",
+  "status": "pass_with_declared_scientific_limits",
+  "release_blockers": [],
+  "scope": "Independent read-only review of current kinetics and native Torch EGNN code, tests, bilingual claims and retained auxiliary evidence; no expensive calculation or source/data mutation.",
+  "kinetics_checks": {
+    "species_count": 18,
+    "rate_count": 18,
+    "independent_formula_states": 50,
+    "maximum_explicit_rhs_vs_stoichiometric_product_difference": 1.4210854715202004e-14,
+    "maximum_rate_derivative_vs_central_difference_error": 6.085087989049498e-10,
+    "metal_and_free_base_plus_degraded_ledgers_exact": true,
+    "dimer_consumes_two_hydrogenated_metal_entities": true,
+    "theta_TS_perturbation_scales_both_directions": true,
+    "tangent_equation_and_column_major_kronecker_jacobian_consistent": true,
+    "finite_time_batch_control_distinguished_from_steady_state_Campbell_DRC": true,
+    "physical_rate_intake_requires_all_20_reference_states_and_18_TS_certificates": true
+  },
+  "egnn_checks": {
+    "architecture_uses_native_torch_and_scalar_weighted_relative_vectors": true,
+    "unsupported_barrier_and_gap_trained_prediction_APIs_reject": true,
+    "pair_only_api_rejects_absolute_energy_use": true,
+    "dataset_checkpoint_split_hashes_verified": true,
+    "structures": 610,
+    "pairs": 540,
+    "family_and_coordinate_leakage_absent_across_declared_splits": true,
+    "maximum_pair_target_arithmetic_error_eV": 0.0,
+    "maximum_metric_recalculation_errors_eV": {
+      "test": 5.551115123125783e-17,
+      "validation": 0.0,
+      "train": 0.0
+    },
+    "test_mae_eV": 0.19519976927396127,
+    "test_equal_reference_baseline_mae_eV": 0.19399893976147659,
+    "predictive_improvement_demonstrated": false,
+    "test_family": [
+      "macho_pnp|Ph"
+    ]
+  },
+  "bounded_caveats": [
+    "The 18-rate mechanism is a hypothesis; no complete certified TS network or physical catalyst TOF is available.",
+    "Initial free tert-butoxide and fixed tBuOH activity are conditional model inputs, not a solved tBuOK ion-pairing/activation equilibrium.",
+    "The tangent controls are finite-time batch derivatives; two-flux selectivity excludes bound material and cleavage products.",
+    "The trained model predicts auxiliary matched electronic energy differences only and does not improve the zero-difference test baseline.",
+    "One held-out backbone/substituent family is not broad chemical, barrier, spin-gap or catalyst-ranking validation.",
+    "The low-level pair API delegates composition, charge and protocol matching to its caller; the actual campaign builder verifies these conditions.",
+    "This audit checks current Markdown claims, not the subsequently rebuilt final PDF pagination or final full-suite result."
+  ],
+  "reviewed_files_sha256": {
+    "src/pincer_catmech/kinetics/master_kinetics.py": "18fa67423059cf5172054d16bbf58997642bb497388ee163df786bf279273d1a",
+    "src/pincer_catmech/models/pincer_egnn.py": "f95ae5d3d6dbb8c633493aabf6f6b90f0822e43791f3308fa33a212c505ff6be",
+    "scripts/train_phase3_egnn.py": "7e46321410d168680c2478a93d94620b8b13c9c9dcd80217995b64543b88657a",
+    "tests/test_master_kinetics.py": "9e54749aed646430ca83a45bda13953fdd490bf016596203363c5bb41d89e28c",
+    "tests/test_master_kinetics_review.py": "42fbe036b4b78073b519f775ec1b1ca0d079565887843454d7e5261a26b19343",
+    "tests/test_pincer_egnn.py": "f4e65d84a56489a00af979ebccd7fbf297066fb0fb4360302b2bbfdb52d10cd4",
+    "tests/test_pincer_egnn_review.py": "2912225c49b45ebfd309ed55290e66bd3a64625ec7c4e88dfdb9e4cc6bad9f29",
+    "docs/MAGNUM_OPUS_CATMECH_EN.md": "049d449b226f17223728e649850876b6b3001b677dee94ba85353b48c49d96bd",
+    "docs/MAGNUM_OPUS_CATMECH_ZH.md": "1720a3537a7a0bba1aadda573d6c6893d73a82be423b17c00efb510cdfa4f3af"
+  }
+}

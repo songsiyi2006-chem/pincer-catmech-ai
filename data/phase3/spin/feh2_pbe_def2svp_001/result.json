@@ -1,0 +1,57 @@
+{
+  "status": "invalid_surfaces_or_backend_failure",
+  "converged": false,
+  "positions_bohr": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.476756829013622,
+      0.0,
+      1.7342438019877153
+    ],
+    [
+      -2.476756829013622,
+      0.0,
+      1.7342438019877153
+    ]
+  ],
+  "energy1_hartree": null,
+  "energy2_hartree": null,
+  "gap_hartree": null,
+  "projected_gradient_max": null,
+  "lagrange_multiplier": null,
+  "difference_gradient_norm": null,
+  "iterations": 0,
+  "evaluations": 1,
+  "wall_seconds": 12.780999999988126,
+  "history": [],
+  "minimum_verified": false,
+  "error": "Psi4 worker failed with exit 1; inspect C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\feh2_pbe_def2svp_001\\evaluations\\job_4c99ee6cc9494080b083a48762476f42",
+  "method": "PBE/def2-SVP with RKS singlet and UKS triplet; no solvent; 75x194 integration grid",
+  "evidence": "first-order crossing search; no spin-orbit or rate calculation",
+  "system": "FeH2, neutral, artificial starting geometry 1.6 A / 110 degrees",
+  "chemical_scope": "Small Fe(II) dihydride model; not a pincer catalyst and not a catalyst benchmark label",
+  "initial_positions_bohr": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.476756829013622,
+      0.0,
+      1.7342438019877153
+    ],
+    [
+      -2.476756829013622,
+      0.0,
+      1.7342438019877153
+    ]
+  ],
+  "wall_seconds_total": 12.780999999988126,
+  "state_continuity": "fresh SAD guesses; SCF continuity and spin contamination require explicit inspection",
+  "nonadiabatic_rate_calculated": false
+}

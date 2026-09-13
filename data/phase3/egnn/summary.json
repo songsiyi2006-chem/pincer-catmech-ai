@@ -1,0 +1,201 @@
+{
+  "status": "auxiliary_benchmark_trained",
+  "created_utc": "2026-09-13T14:46:26.180946+00:00",
+  "torch_version": "2.10.0",
+  "device": "CPU",
+  "threads": 2,
+  "configuration": {
+    "node_feature_dim": 12,
+    "graph_feature_dim": 5,
+    "hidden_dim": 24,
+    "num_layers": 2,
+    "heads": [
+      "activation_barrier_ev",
+      "mecp_gap_ev",
+      "aux_conformer_relative_electronic_energy_ev"
+    ]
+  },
+  "parameter_count": 12675,
+  "peak_process_rss_bytes": 392376320,
+  "elapsed_seconds": 85.03200000000652,
+  "best_validation_epoch": 0,
+  "completed_or_partial_epochs": 9,
+  "split_policy": "Entire backbone|substituent family across metals, states and all conformers stays in one split",
+  "normalization": {
+    "fit_split": "train",
+    "mean": [
+      0.0,
+      0.0,
+      -0.1295655369758606
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      0.42901018261909485
+    ],
+    "supported": [
+      false,
+      false,
+      true
+    ],
+    "counts": [
+      0,
+      0,
+      374
+    ]
+  },
+  "metrics": {
+    "test": {
+      "samples": 86,
+      "mae_eV": 0.19519976927396127,
+      "rmse_eV": 0.3845663866708711,
+      "equal_reference_energy_baseline_mae_eV": 0.19399893976147659,
+      "training_mean_baseline_mae_eV": 0.26041599713544944
+    },
+    "validation": {
+      "samples": 80,
+      "mae_eV": 0.26161685215060687,
+      "rmse_eV": 0.5239917853352366,
+      "equal_reference_energy_baseline_mae_eV": 0.2593926172348887,
+      "training_mean_baseline_mae_eV": 0.33752075069047294
+    },
+    "train": {
+      "samples": 374,
+      "mae_eV": 0.28666436116765864,
+      "rmse_eV": 0.44369871212215684,
+      "equal_reference_energy_baseline_mae_eV": 0.28643788568535244,
+      "training_mean_baseline_mae_eV": 0.29779824822909773
+    }
+  },
+  "heads": {
+    "activation_barrier_ev": {
+      "trained": false,
+      "observed_labels": 0,
+      "reason": "No validated TS free-energy barriers"
+    },
+    "mecp_gap_ev": {
+      "trained": false,
+      "observed_labels": 0,
+      "reason": "No independent spin-dependent gap training dataset"
+    },
+    "aux_conformer_relative_electronic_energy_ev": {
+      "trained": true,
+      "observed_pairs": 540,
+      "pair_only": true
+    }
+  },
+  "scope": "Small-family auxiliary conformer-energy benchmark, not trained activation barriers, spin gaps, catalytic ranking or chemical accuracy validation",
+  "limitations": [
+    "Only six backbone/substituent families; one validation and one test family is a weak statistical sample",
+    "Related backbone types can occur in different substituent families; this is not leave-one-backbone-out validation",
+    "Conformer optimizations were not individually Hessian-certified; GFN2 spin occupancy cannot supply spin gaps",
+    "Validation selects the checkpoint; test labels are not used in fitting, normalization or model selection"
+  ],
+  "dataset_manifest_sha256": "80e45275bd6119e24995bfe292f555985eda8caad49e4b04b7a95da829ed1098",
+  "model_sha256": "625c2d699edb28c193a58885487b731c6616d16daed17a71a22573e6ed7207dd",
+  "split_sha256": "75839e7593913a010ed1a8de79c67127e30cab8d0e132fd7b1d61fd053248dbc",
+  "run_directory": "runs\\seed_20260913_1789310701",
+  "eligible_structures": 610,
+  "rejected_records": 202,
+  "auxiliary_pairs": 540,
+  "composition_groups": 70,
+  "families": {
+    "bipyridine_pnnoh|Ph": 52,
+    "bipyridine_pnnoh|iPr": 90,
+    "macho_pnp|Ph": 86,
+    "macho_pnp|iPr": 80,
+    "pyridine_pnn|Ph": 98,
+    "pyridine_pnn|iPr": 134
+  },
+  "symmetry": {
+    "scope": "Software symmetry of actual trained auxiliary checkpoint; not chemical accuracy or barrier/gap training",
+    "dtype": "float64",
+    "angles_radians": [
+      0.371,
+      -0.893,
+      1.247
+    ],
+    "model_sha256": "625c2d699edb28c193a58885487b731c6616d16daed17a71a22573e6ed7207dd",
+    "structure_ids": [
+      "b835dd478491473b5bbe904d",
+      "c7b0641bc8a56912dc231510"
+    ],
+    "errors": {
+      "SO3": {
+        "determinant": 1.0,
+        "max_scalar_absolute_difference_eV": 1.7763568394002505e-15,
+        "max_coordinate_equivariance_difference_A": 1.7763568394002505e-15
+      },
+      "O3_improper": {
+        "determinant": -1.0,
+        "max_scalar_absolute_difference_eV": 8.881784197001252e-16,
+        "max_coordinate_equivariance_difference_A": 1.7763568394002505e-15
+      },
+      "permutation": {
+        "max_scalar_absolute_difference_eV": 1.3322676295501878e-15,
+        "max_coordinate_equivariance_difference_A": 0.0
+      },
+      "batching": {
+        "max_scalar_absolute_difference_eV": 1.3322676295501878e-15
+      }
+    },
+    "scalar_tolerance_eV": 1e-06,
+    "max_scalar_error_eV": 1.7763568394002505e-15,
+    "coordinate_tolerance_A": 1e-10,
+    "max_coordinate_error_A": 1.7763568394002505e-15,
+    "passed": true
+  },
+  "predictive_assessment": {
+    "test_mae_improvement_over_equal_reference_eV": -0.0012008295124846802,
+    "predictive_improvement_demonstrated": false,
+    "interpretation": "This run did not improve the simple equal-reference-energy baseline; no catalyst screening accuracy is demonstrated"
+  },
+  "finished_utc": "2026-09-13T14:52:24.241269+00:00",
+  "verification_utc": "2026-09-13T16:21:21.607176+00:00",
+  "computation_finished": true,
+  "split": {
+    "test": {
+      "pairs": 86,
+      "family_ids": [
+        "macho_pnp|Ph"
+      ]
+    },
+    "validation": {
+      "pairs": 80,
+      "family_ids": [
+        "macho_pnp|iPr"
+      ]
+    },
+    "train": {
+      "pairs": 374,
+      "family_ids": [
+        "bipyridine_pnnoh|Ph",
+        "bipyridine_pnnoh|iPr",
+        "pyridine_pnn|Ph",
+        "pyridine_pnn|iPr"
+      ]
+    }
+  },
+  "source_files_sha256": {
+    "scripts\\train_phase3_egnn.py": "8e2373fd976ebbb2eb48fbc40105236b52f26f68c407e4215fbb0cc27a8c9142",
+    "src\\pincer_catmech\\models\\pincer_egnn.py": "f95ae5d3d6dbb8c633493aabf6f6b90f0822e43791f3308fa33a212c505ff6be",
+    "tests\\test_pincer_egnn.py": "f4e65d84a56489a00af979ebccd7fbf297066fb0fb4360302b2bbfdb52d10cd4"
+  },
+  "training_source_files_sha256": {
+    "scripts\\train_phase3_egnn.py": "8e2373fd976ebbb2eb48fbc40105236b52f26f68c407e4215fbb0cc27a8c9142",
+    "src\\pincer_catmech\\models\\pincer_egnn.py": "f95ae5d3d6dbb8c633493aabf6f6b90f0822e43791f3308fa33a212c505ff6be",
+    "tests\\test_pincer_egnn.py": "f4e65d84a56489a00af979ebccd7fbf297066fb0fb4360302b2bbfdb52d10cd4"
+  },
+  "training_source_provenance": "retained from the existing summary with matching checkpoint, manifest and split hashes",
+  "verification_source_files_sha256": {
+    "scripts\\train_phase3_egnn.py": "7e46321410d168680c2478a93d94620b8b13c9c9dcd80217995b64543b88657a",
+    "src\\pincer_catmech\\models\\pincer_egnn.py": "f95ae5d3d6dbb8c633493aabf6f6b90f0822e43791f3308fa33a212c505ff6be",
+    "tests\\test_pincer_egnn.py": "f4e65d84a56489a00af979ebccd7fbf297066fb0fb4360302b2bbfdb52d10cd4"
+  },
+  "evidence_binding": {
+    "verified": true,
+    "checkpoint_manifest_dataset_split": true,
+    "normalizer_configuration_and_head_readiness": true,
+    "scope": "Artifact consistency; not chemical or predictive validation"
+  }
+}

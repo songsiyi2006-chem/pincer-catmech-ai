@@ -1,0 +1,448 @@
+
+Scratch directory: C:\Users\HUIWEI\Documents\Codex\2026-09-13\files-pasted-by-the-user-mission\work\pincer-catmech-ai\data\phase3\spin\feh2_pbe_def2svp_002\evaluations\job_1b244052836b437eb0051b9c924bf5d4\native\pair_2cbb248b945541148a901a5fe122a69b\multiplicity_5\/
+gradient() will perform analytic gradient computation.
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  7, 6, -
+    Auxiliary basis highest AM E, G, H:  7, 7, -
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on LAPTOP-257FNSVV
+*** at Sun Sep 13 22:32:56 2026
+
+   => Loading Basis Set <=
+
+    Name: DEF2-SVP
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1   entry FE         line   698 file C:\Users\HUIWEI\miniconda3\envs\phase7\Library\share\psi4\basis\def2-svp.gbs 
+    atoms 2-3 entry H          line    15 file C:\Users\HUIWEI\miniconda3\envs\phase7\Library\share\psi4\basis\def2-svp.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              UKS Reference
+                        2 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C1
+
+    Geometry (in Bohr), charge = 0, multiplicity = 5:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         FE          -0.000000153167     0.000000347848     0.132423645253    55.934936330000
+         H            2.114732760279    -0.000000762472     1.668181242414     1.007825032230
+         H           -2.114732605841     0.000000413973     1.668181053450     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A =      9.13489  B =      6.67833  C =      3.85790 [cm^-1]
+  Rotational constants: A = 273857.07021  B = 200211.41838  C = 115656.94363 [MHz]
+  Nuclear repulsion =   20.132743461595052
+
+  Charge       = 0
+  Multiplicity = 5
+  Electrons    = 28
+  Nalpha       = 16
+  Nbeta        = 12
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-09
+  Density threshold  = 1.00e-08
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: DEF2-SVP
+    Blend: DEF2-SVP
+    Number of shells: 17
+    Number of basis functions: 41
+    Number of Cartesian functions: 46
+    Spherical Harmonics?: true
+    Max angular momentum: 3
+
+  ==> DFT Potential <==
+
+   => LibXC <=
+
+    Version 7.1.2
+    S. Lehtola, C. Steigemann, M. J. T. Oliveira, and M. A. L. Marques,  SoftwareX 7, 1–5 (2018) (10.1016/j.softx.2017.11.002)
+
+   => Composite Functional: PBE <= 
+
+    PBE GGA Exchange-Correlation Functional
+
+    J.P. Perdew et. al., Phys. Rev. Lett., 77(18), 3865-3868, 1996
+
+
+    Deriv               =              1
+    GGA                 =           TRUE
+    Meta                =          FALSE
+
+    Exchange Hybrid     =          FALSE
+    MP2 Hybrid          =          FALSE
+
+   => Exchange Functionals <=
+
+    1.0000     XC_GGA_X_PBE
+
+   => Correlation Functionals <=
+
+    1.0000     XC_GGA_C_PBE
+
+   => LibXC Density Thresholds  <==
+
+    XC_GGA_C_PBE:  1.00E-12 
+    XC_GGA_X_PBE:  1.00E-15 
+
+   => Molecular Quadrature <=
+
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           NONE
+    Nuclear Scheme         =       TREUTLER
+
+    Blocking Scheme        =         OCTREE
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            194
+    Total Points           =          42344
+    Total Blocks           =            373
+    Max Points             =            255
+    Max Functions          =             41
+    Weights Tolerance      =       1.00E-15
+
+   => Loading Basis Set <=
+
+    Name: (DEF2-SVP AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1   entry FE         line  1978 file C:\Users\HUIWEI\miniconda3\envs\phase7\Library\share\psi4\basis\def2-universal-jkfit.gbs 
+    atoms 2-3 entry H          line    18 file C:\Users\HUIWEI\miniconda3\envs\phase7\Library\share\psi4\basis\def2-universal-jkfit.gbs 
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.005 GiB; user supplied 0.322 GiB. 
+  SCF_SUBTYPE=INCORE selected. In-core MEM_DF algorithm will be used.
+  Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                    No
+    wK tasked:                   No
+    OpenMP threads:               2
+    Memory [MiB]:               329
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       0.0000
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (DEF2-SVP AUX)
+    Blend: DEF2-UNIVERSAL-JKFIT
+    Number of shells: 70
+    Number of basis functions: 300
+    Number of Cartesian functions: 417
+    Spherical Harmonics?: true
+    Max angular momentum: 6
+
+  Cached 100.0% of DFT collocation blocks in 0.044 [GiB].
+
+  Minimum eigenvalue in the overlap matrix is 3.6134140958E-02.
+  Reciprocal condition number of the overlap matrix is 9.9932526226E-03.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A         41      41 
+   -------------------------
+    Total      41      41
+   -------------------------
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-UKS iter SAD: -1263.54325151838384   -1.26354e+03   0.00000e+00 
+   @DF-UKS iter   1: -1262.17656405013554    1.36669e+00   5.03943e-02 ADIIS/DIIS
+   @DF-UKS iter   2: -1250.95079260027092    1.12258e+01   9.69073e-02 ADIIS/DIIS
+   @DF-UKS iter   3: -1263.01043001442076   -1.20596e+01   4.34998e-02 ADIIS/DIIS
+   @DF-UKS iter   4: -1264.34435495311413   -1.33392e+00   4.93019e-03 ADIIS/DIIS
+   @DF-UKS iter   5: -1264.35570307318039   -1.13481e-02   4.37517e-03 ADIIS/DIIS
+   @DF-UKS iter   6: -1264.36807393172262   -1.23709e-02   9.84659e-04 ADIIS/DIIS
+   @DF-UKS iter   7: -1264.36871546031762   -6.41529e-04   3.24938e-04 ADIIS/DIIS
+   @DF-UKS iter   8: -1264.36875855221865   -4.30919e-05   2.23222e-04 ADIIS/DIIS
+   @DF-UKS iter   9: -1264.36879473638874   -3.61842e-05   3.91370e-05 DIIS
+   @DF-UKS iter  10: -1264.36879588808870   -1.15170e-06   1.06218e-05 DIIS
+   @DF-UKS iter  11: -1264.36879595802793   -6.99392e-08   4.70976e-06 DIIS
+   @DF-UKS iter  12: -1264.36879596950166   -1.14737e-08   2.37331e-06 DIIS
+   @DF-UKS iter  13: -1264.36879597340476   -3.90310e-09   1.43630e-07 DIIS
+   @DF-UKS iter  14: -1264.36879597342204   -1.72804e-11   2.47878e-08 DIIS
+   @DF-UKS iter  15: -1264.36879597342295   -9.09495e-13   1.90042e-09 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+   Electrons on quadrature grid:
+      Nalpha   =   16.0000021600 ; deviation = 2.160e-06
+      Nbeta    =   12.0000002353 ; deviation = 2.353e-07
+      Ntotal   =   28.0000023953 ; deviation = 2.395e-06 
+
+   @Spin Contamination Metric:   1.198485965E-02
+   @S^2 Expected:                6.000000000E+00
+   @S^2 Observed:                6.011984860E+00
+   @S   Expected:                2.000000000E+00
+   @S   Observed:                2.000000000E+00
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Alpha Occupied:                                                       
+
+       1A   -254.721882     2A    -29.586385     3A    -25.536753  
+       4A    -25.532540     5A    -25.523484     6A     -3.358180  
+       7A     -2.188186     8A     -2.178734     9A     -2.154081  
+      10A     -0.339586    11A     -0.335723    12A     -0.284596  
+      13A     -0.277754    14A     -0.274402    15A     -0.220127  
+      16A     -0.153090  
+
+    Alpha Virtual:                                                        
+
+      17A     -0.079197    18A      0.007989    19A      0.045285  
+      20A      0.175137    21A      0.203166    22A      0.447497  
+      23A      0.507317    24A      0.813752    25A      0.818490  
+      26A      0.842899    27A      1.084094    28A      1.291457  
+      29A      1.377497    30A      1.562899    31A      1.570772  
+      32A      1.669415    33A      1.739692    34A      1.809190  
+      35A      3.886359    36A      3.915790    37A      3.952927  
+      38A      3.967713    39A      3.974444    40A      4.086613  
+      41A      4.184329  
+
+    Beta Occupied:                                                        
+
+       1A   -254.720987     2A    -29.528057     3A    -25.489627  
+       4A    -25.487773     5A    -25.482780     6A     -3.219533  
+       7A     -2.044628     8A     -2.040410     9A     -2.027007  
+      10A     -0.296453    11A     -0.278923    12A     -0.162437  
+
+    Beta Virtual:                                                         
+
+      13A     -0.145027    14A     -0.128013    15A     -0.121884  
+      16A     -0.087659    17A     -0.040816    18A      0.032864  
+      19A      0.058620    20A      0.212491    21A      0.231273  
+      22A      0.475125    23A      0.528046    24A      0.889437  
+      25A      0.900124    26A      0.924406    27A      1.130777  
+      28A      1.340314    29A      1.409395    30A      1.589814  
+      31A      1.606282    32A      1.693010    33A      1.765183  
+      34A      1.844193    35A      4.043204    36A      4.047553  
+      37A      4.081535    38A      4.087284    39A      4.096513  
+      40A      4.193213    41A      4.286248  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [    12 ]
+    SOCC [     4 ]
+    NA   [    16 ]
+    NB   [    12 ]
+
+  @DF-UKS Final Energy: -1264.36879597342295
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =             20.1327434615950516
+    One-Electron Energy =               -1786.1262376446356939
+    Two-Electron Energy =                 557.7842904565382014
+    DFT Exchange-Correlation Energy =     -56.1595922469206243
+    Empirical Dispersion Energy =           0.0000000000000000
+    VV10 Nonlocal Energy =                  0.0000000000000000
+    Total Energy =                      -1264.3687959734229480
+
+  UHF NO Occupations:
+  HONO-2 :   14  A 1.0000000
+  HONO-1 :   15  A 1.0000000
+  HONO-0 :   16  A 1.0000000
+  LUNO+0 :   17  A 0.0042085
+  LUNO+1 :   18  A 0.0008612
+  LUNO+2 :   19  A 0.0008395
+  LUNO+3 :   20  A 0.0000489
+
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :          0.0000036           -0.0000038           -0.0000002
+ Dipole Y            :         -0.0000084            0.0000087            0.0000003
+ Dipole Z            :         -7.7407631            6.7793771           -0.9613860
+ Magnitude           :                                                    0.9613860
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on LAPTOP-257FNSVV at Sun Sep 13 22:32:59 2026
+Module time:
+	user time   =        nan seconds =        nan minutes
+	system time =        nan seconds =        nan minutes
+	total time  =          3 seconds =       0.05 minutes
+Total time:
+	user time   =        nan seconds =        nan minutes
+	system time =        nan seconds =        nan minutes
+	total time  =          7 seconds =       0.12 minutes
+
+*** tstart() called on LAPTOP-257FNSVV
+*** at Sun Sep 13 22:32:59 2026
+
+
+         ------------------------------------------------------------
+                                   SCF GRAD                          
+                          Rob Parrish, Justin Turney,                
+                       Andy Simmonett, and Alex Sokolov              
+         ------------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C1
+
+    Geometry (in Bohr), charge = 0, multiplicity = 5:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         FE          -0.000000153167     0.000000347848     0.132423645253    55.934936330000
+         H            2.114732760279    -0.000000762472     1.668181242414     1.007825032230
+         H           -2.114732605841     0.000000413973     1.668181053450     1.007825032230
+
+  Nuclear repulsion =   20.132743461595052
+
+  ==> Basis Set <==
+
+  Basis Set: DEF2-SVP
+    Blend: DEF2-SVP
+    Number of shells: 17
+    Number of basis functions: 41
+    Number of Cartesian functions: 46
+    Spherical Harmonics?: true
+    Max angular momentum: 3
+
+  ==> DFJKGrad: Density-Fitted SCF Gradients <==
+
+    Gradient:                    1
+    J tasked:                  Yes
+    K tasked:                   No
+    wK tasked:                  No
+    OpenMP threads:              2
+    Integrals threads:           2
+    Memory [MiB]:              375
+    Schwarz Cutoff:          1E-12
+    Fitting Condition:       1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (DEF2-SVP AUX)
+    Blend: DEF2-UNIVERSAL-JKFIT
+    Number of shells: 70
+    Number of basis functions: 300
+    Number of Cartesian functions: 417
+    Spherical Harmonics?: true
+    Max angular momentum: 6
+
+  ==> DFT Potential <==
+
+   => LibXC <=
+
+    Version 7.1.2
+    S. Lehtola, C. Steigemann, M. J. T. Oliveira, and M. A. L. Marques,  SoftwareX 7, 1–5 (2018) (10.1016/j.softx.2017.11.002)
+
+   => Composite Functional: PBE <= 
+
+    PBE GGA Exchange-Correlation Functional
+
+    J.P. Perdew et. al., Phys. Rev. Lett., 77(18), 3865-3868, 1996
+
+
+    Deriv               =              1
+    GGA                 =           TRUE
+    Meta                =          FALSE
+
+    Exchange Hybrid     =          FALSE
+    MP2 Hybrid          =          FALSE
+
+   => Exchange Functionals <=
+
+    1.0000     XC_GGA_X_PBE
+
+   => Correlation Functionals <=
+
+    1.0000     XC_GGA_C_PBE
+
+   => LibXC Density Thresholds  <==
+
+    XC_GGA_C_PBE:  1.00E-12 
+    XC_GGA_X_PBE:  1.00E-15 
+
+   => Molecular Quadrature <=
+
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           NONE
+    Nuclear Scheme         =       TREUTLER
+
+    Blocking Scheme        =         OCTREE
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            194
+    Total Points           =          42344
+    Total Blocks           =            373
+    Max Points             =            255
+    Max Functions          =             41
+    Weights Tolerance      =       1.00E-15
+
+
+  -Total Gradient:
+     Atom            X                  Y                   Z
+    ------   -----------------  -----------------  -----------------
+       1       -0.000000099120    -0.000000023999     0.070740535809
+       2       -0.073619480098     0.000000032685    -0.035379394628
+       3        0.073619578890    -0.000000008681    -0.035379466764
+
+
+*** tstop() called on LAPTOP-257FNSVV at Sun Sep 13 22:32:59 2026
+Module time:
+	user time   =        nan seconds =        nan minutes
+	system time =        nan seconds =        nan minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =        nan seconds =        nan minutes
+	system time =        nan seconds =        nan minutes
+	total time  =          7 seconds =       0.12 minutes

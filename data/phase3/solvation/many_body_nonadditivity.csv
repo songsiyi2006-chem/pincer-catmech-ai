@@ -1,0 +1,4 @@
+name,n_solvent,frozen_interaction_eV,pair_sum_eV,beyond_pair_nonadditivity_eV,deformation_energy_eV,beyond_pair_nonadditivity_kcal_mol,interpretation
+hemiaminal_tbuoh_1_seed_02,1,-0.49891763880827966,-0.49891763880827966,0.0,0.022168649437162458,0.0,Frozen-geometry beyond-pair remainder includes ALPB cavity and reaction-field nonadditivity
+hemiaminal_tbuoh_2_seed_01,2,-0.9529920930613116,-1.0200795115757728,0.0670874185144612,0.03513618575880173,1.5470726234854872,Frozen-geometry beyond-pair remainder includes ALPB cavity and reaction-field nonadditivity
+hemiaminal_tbuoh_3_seed_00,3,-1.4095253966465862,-1.5638304890707104,0.15430509242412427,0.03416685395677632,3.558359964354603,Frozen-geometry beyond-pair remainder includes ALPB cavity and reaction-field nonadditivity

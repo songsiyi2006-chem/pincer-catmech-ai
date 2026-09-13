@@ -1,0 +1,7 @@
+attempt,endpoint_index,stationarity_status,graph_retained,C_N_distance_A,minimum_frequency_cm1,imaginary_modes,electronic_energy_eV
+attempt_01_cluster_seed_02,0,verified_minimum,True,1.4508091379918449,15.08035786561897,0,-1611.0043896418492
+attempt_01_cluster_seed_02,1,verified_minimum,True,1.269996688835873,9.58939326052582,0,-1610.35365751365
+attempt_02_cluster_seed_01,0,verified_minimum,True,1.4384610562477442,12.808536627297396,0,-1610.9145781927195
+attempt_02_cluster_seed_01,1,verified_minimum,True,1.270161471841887,12.533306749557118,0,-1610.2613594474935
+attempt_01_continuation,0,verified_minimum,True,1.4508091379918449,15.08035786561897,0,-1611.0043896418492
+attempt_01_continuation,1,verified_minimum,True,1.2699966868468777,11.67914557825821,0,-1610.354107613785

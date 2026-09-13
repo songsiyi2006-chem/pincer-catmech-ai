@@ -1,0 +1,790 @@
+{
+  "schema": "phase3_final_visual_review_v1",
+  "documents": [
+    {
+      "name": "MAGNUM_OPUS_CATMECH_EN.pdf",
+      "sha256": "4fb5a3c094abd7abf078ed1725a59799c189c45d885de90d39c8cad3664a21e3",
+      "page_count": 43,
+      "reviewed_utc": "2026-09-13T17:05:14.522513+00:00",
+      "reviewer": "/root/pdf_en_review",
+      "render_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase3\\pdf_qa_final_v2\\MAGNUM_OPUS_CATMECH_EN",
+      "all_pages_visually_reviewed": true,
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "contact_reviewed": [
+        {
+          "file": "contact_01.png",
+          "sha256": "b84cbfbdbe020060d1dba7a696f526a0c34ec6981a8d6cd05a4b8591f77cbbe5",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "file": "contact_02.png",
+          "sha256": "20b5c2bd35f318e11516e8291de041544d878146f6e35b79babcba496897292e",
+          "pages": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "file": "contact_03.png",
+          "sha256": "7c67199721320dfce473d422ef201e45999cc695561ecd0adf7b3f08a2eb3d1d",
+          "pages": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        },
+        {
+          "file": "contact_04.png",
+          "sha256": "31ab5d1b2d3678c36797db44454c37ee3579952bcb5eff4e945066a25236ee28",
+          "pages": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "file": "contact_05.png",
+          "sha256": "0dc58d616b166afd1b19928aa21bf660aed421120b5286ffcf9286870c6eeb4f",
+          "pages": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        },
+        {
+          "file": "contact_06.png",
+          "sha256": "ccfc042435150bd21315802ea759c2a0edac354193eb99f19bb8214f68294f93",
+          "pages": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ]
+        },
+        {
+          "file": "contact_07.png",
+          "sha256": "c73caa2c314001e4bf465f783535a27724d0ba97d6cc4faec8750bb51a855357",
+          "pages": [
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ]
+        },
+        {
+          "file": "contact_08.png",
+          "sha256": "7f71a70332876503b6177a2f6c28e414d5da8cd0f1c16a612100a24cb48708f9",
+          "pages": [
+            43
+          ]
+        }
+      ],
+      "fullpage_reviewed": [
+        {
+          "page": 10,
+          "sha256": "d21825d594612939bbf8795d5a88672748d739eb01765213f3ec4d821a6c85a7",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 11,
+          "sha256": "850772622ec12f0bc2fc96b1f2c3eb1b8e59e058a2f4540a8c19e7ce1c1a3685",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 12,
+          "sha256": "95d6ea509e975a2c46921006b5830de8241e793a52a5286968b0325996cac1d9",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 13,
+          "sha256": "5b47301f0e092a32a5a34c941f244c48249de07b0e5df89e8ec459c83ad4975a",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 14,
+          "sha256": "3dc37cfb54d3f62a8eafb083b4c5843385663a5ce43ea4af19e81cf82fea6fc7",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 15,
+          "sha256": "9ca9ea5998a7eb1eddf817d1e225f2c9fe472a2a5ceacc62c7a1917bec064128",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 16,
+          "sha256": "2b38a201ff4d5ef239ad3958e83678b5c2c4e2f7e1dbb608ad7a1b31006cf7fa",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 17,
+          "sha256": "b30bf67b55ae9a40b80957f48a626e8d68f160b3db3e584a4ab046ba227da374",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 18,
+          "sha256": "2536db7e23a88cf325c637a1a15880848e23c1dc16bbcd623487883299d60737",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 19,
+          "sha256": "7fc4c82fe23e456c13ef16b3ae578be811809cb8843fee146e3b005153e6877f",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 20,
+          "sha256": "161ebfbfe780fb92aba3461263e85c882c8c4f07606d5606464ea37c6f1fdddf",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 21,
+          "sha256": "f2e0a8cb554506860d71872a7cb385417590cb9a84847f76daf0b93ec26831d7",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 22,
+          "sha256": "2f37778bf61109cd32f20eae1510f8516243942c4fd4486de080b82c4260cbb2",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 23,
+          "sha256": "e0be1f8aaf30944eb73e88e80c6960b2610e03ef4b03747022595c2b3ca56a28",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 24,
+          "sha256": "769d8f30f0d51813d74240fbe38bdcc5d9ee1769bac0faeee2c1335f81e1c8ac",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 25,
+          "sha256": "61f1d847db51fb881bb10344874b09ca3074dc457209aa2e1d242cb3383b5f36",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 26,
+          "sha256": "e4db470ab78d869354a98a930bf3a99d91adad8d6809823fb5706e5c2a4f98e6",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 27,
+          "sha256": "b4bf5ab9963598ba907827d909727e5730c4bc8b75d5ccf013a31e09dccd69a9",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 28,
+          "sha256": "8f2aa10707a5026393017a77809b15281fa2262b7c83cd7c2f7ed1e34cbad9a1",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 29,
+          "sha256": "531f2febce4340fea66a5c73723a3395574a2d7fa79533c0d8b298dc1efbf93f",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 30,
+          "sha256": "8f9d6ed1d4b9f1e5bba2b58cba08834fac90b3796e93aed19537aef14b84c24b",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 31,
+          "sha256": "d220a04e14ec53e4eb227a1b075b00341afc3651e8224c767319a4818ea03d5b",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 32,
+          "sha256": "a8a50539b629e480a2d2afd14cee914a6a12ee292667cd2738dc9f2eafa82e32",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 33,
+          "sha256": "dd6be88e8598f86febf2ab3ff4e1a5e276e0aa74c636048eed9d34a388e64e43",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 34,
+          "sha256": "b86de5532783a33b533709e6e8b618b78b32c3c71227c900104c9fe1c4671667",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 35,
+          "sha256": "7c7af95a9e09aac00f299247564f9552af828d6edf7408832cbe4d8319a84427",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 36,
+          "sha256": "0aef38812201e911af1c5e9f6d66326cbd6b2d6f91860779b9764655dda2b25b",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 37,
+          "sha256": "f767477615d3db894f300c3090fe82c1c6b64548ef3cb102e1ab5be6d5103f80",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 38,
+          "sha256": "a7a3d61d88e393efbab83876561d23b1e7720dd6b2fbea8951b612513854846c",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 39,
+          "sha256": "c27146169cda1e7b0c00868dff63c3e2ce009c698184131b2bb6814ae34ab2ed",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 40,
+          "sha256": "47e922c956137b044e0a0e7cddc373ab79952e067b70f2592512044c35f1e3d8",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 41,
+          "sha256": "e1320907bb1c0488198f72b46ade8bf9b847ac10b9dfc3cf2163f864fd0a5c63",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 42,
+          "sha256": "688b941b2d0632e68a37e58c987cad09d93240d94e78a4e7c181cf2e172a9416",
+          "reviewer": "/root/pdf_en_review"
+        },
+        {
+          "page": 43,
+          "sha256": "b622cb9dcb77c99e3107f319fce007ed385c2fa99f84ae3669f0c92bef85c82d",
+          "reviewer": "/root/pdf_en_review"
+        }
+      ],
+      "secondary_fullpage_reviewed": [
+        {
+          "page": 4,
+          "sha256": "c479522c10e769d8689b3ec1e2e1019fb4c93cbd62d1c9d26d82cb8e7b21bf10",
+          "reviewer": "/root",
+          "result": "Root explicitly reported individually viewed full-size final v2 pages 4-9: PASS spacing, superscripts, fractions, projections, merit equations, no overlap/clipping/missing glyphs; coherent header/footer."
+        },
+        {
+          "page": 5,
+          "sha256": "bb46085f5cd060d97fd9880742c6002b54b923e21c6fe534ff8c3d139ecf6cae",
+          "reviewer": "/root",
+          "result": "Root explicitly reported individually viewed full-size final v2 pages 4-9: PASS spacing, superscripts, fractions, projections, merit equations, no overlap/clipping/missing glyphs; coherent header/footer."
+        },
+        {
+          "page": 6,
+          "sha256": "58f2ced7922c018d8221f8848268e309beaff17dea3faccd8f534c1e7c65f98a",
+          "reviewer": "/root",
+          "result": "Root explicitly reported individually viewed full-size final v2 pages 4-9: PASS spacing, superscripts, fractions, projections, merit equations, no overlap/clipping/missing glyphs; coherent header/footer."
+        },
+        {
+          "page": 7,
+          "sha256": "57090619f7b251b3de59ca7d13ff8366c944c51ab6d24aee27879b8f32f277fd",
+          "reviewer": "/root",
+          "result": "Root explicitly reported individually viewed full-size final v2 pages 4-9: PASS spacing, superscripts, fractions, projections, merit equations, no overlap/clipping/missing glyphs; coherent header/footer."
+        },
+        {
+          "page": 8,
+          "sha256": "7926e9d3f07a04e2b6053f109d9117016c7fd0886374f2433e8c375dce7a2ef7",
+          "reviewer": "/root",
+          "result": "Root explicitly reported individually viewed full-size final v2 pages 4-9: PASS spacing, superscripts, fractions, projections, merit equations, no overlap/clipping/missing glyphs; coherent header/footer."
+        },
+        {
+          "page": 9,
+          "sha256": "f9bddd5a07cff1932a6e5406f726e81300b4a3b36ed3cd8e7a0d0ab234be1fa3",
+          "reviewer": "/root",
+          "result": "Root explicitly reported individually viewed full-size final v2 pages 4-9: PASS spacing, superscripts, fractions, projections, merit equations, no overlap/clipping/missing glyphs; coherent header/footer."
+        }
+      ],
+      "overview_only_pages": [
+        1,
+        2,
+        3
+      ],
+      "all_page_render_sha256": {
+        "1": "b12ed1a176b02b4d739047a03817142cc1bff59811adb4013298357d8f08b298",
+        "2": "05bdbf4ff788f2ca54339e92cf80cfde13c5df8c26bb3034d252cfab3d30e390",
+        "3": "171459b0eb38c0bd8a9d26a844460193f31fb08ffab8048e9c78fc10120ef462",
+        "4": "c479522c10e769d8689b3ec1e2e1019fb4c93cbd62d1c9d26d82cb8e7b21bf10",
+        "5": "bb46085f5cd060d97fd9880742c6002b54b923e21c6fe534ff8c3d139ecf6cae",
+        "6": "58f2ced7922c018d8221f8848268e309beaff17dea3faccd8f534c1e7c65f98a",
+        "7": "57090619f7b251b3de59ca7d13ff8366c944c51ab6d24aee27879b8f32f277fd",
+        "8": "7926e9d3f07a04e2b6053f109d9117016c7fd0886374f2433e8c375dce7a2ef7",
+        "9": "f9bddd5a07cff1932a6e5406f726e81300b4a3b36ed3cd8e7a0d0ab234be1fa3",
+        "10": "d21825d594612939bbf8795d5a88672748d739eb01765213f3ec4d821a6c85a7",
+        "11": "850772622ec12f0bc2fc96b1f2c3eb1b8e59e058a2f4540a8c19e7ce1c1a3685",
+        "12": "95d6ea509e975a2c46921006b5830de8241e793a52a5286968b0325996cac1d9",
+        "13": "5b47301f0e092a32a5a34c941f244c48249de07b0e5df89e8ec459c83ad4975a",
+        "14": "3dc37cfb54d3f62a8eafb083b4c5843385663a5ce43ea4af19e81cf82fea6fc7",
+        "15": "9ca9ea5998a7eb1eddf817d1e225f2c9fe472a2a5ceacc62c7a1917bec064128",
+        "16": "2b38a201ff4d5ef239ad3958e83678b5c2c4e2f7e1dbb608ad7a1b31006cf7fa",
+        "17": "b30bf67b55ae9a40b80957f48a626e8d68f160b3db3e584a4ab046ba227da374",
+        "18": "2536db7e23a88cf325c637a1a15880848e23c1dc16bbcd623487883299d60737",
+        "19": "7fc4c82fe23e456c13ef16b3ae578be811809cb8843fee146e3b005153e6877f",
+        "20": "161ebfbfe780fb92aba3461263e85c882c8c4f07606d5606464ea37c6f1fdddf",
+        "21": "f2e0a8cb554506860d71872a7cb385417590cb9a84847f76daf0b93ec26831d7",
+        "22": "2f37778bf61109cd32f20eae1510f8516243942c4fd4486de080b82c4260cbb2",
+        "23": "e0be1f8aaf30944eb73e88e80c6960b2610e03ef4b03747022595c2b3ca56a28",
+        "24": "769d8f30f0d51813d74240fbe38bdcc5d9ee1769bac0faeee2c1335f81e1c8ac",
+        "25": "61f1d847db51fb881bb10344874b09ca3074dc457209aa2e1d242cb3383b5f36",
+        "26": "e4db470ab78d869354a98a930bf3a99d91adad8d6809823fb5706e5c2a4f98e6",
+        "27": "b4bf5ab9963598ba907827d909727e5730c4bc8b75d5ccf013a31e09dccd69a9",
+        "28": "8f2aa10707a5026393017a77809b15281fa2262b7c83cd7c2f7ed1e34cbad9a1",
+        "29": "531f2febce4340fea66a5c73723a3395574a2d7fa79533c0d8b298dc1efbf93f",
+        "30": "8f9d6ed1d4b9f1e5bba2b58cba08834fac90b3796e93aed19537aef14b84c24b",
+        "31": "d220a04e14ec53e4eb227a1b075b00341afc3651e8224c767319a4818ea03d5b",
+        "32": "a8a50539b629e480a2d2afd14cee914a6a12ee292667cd2738dc9f2eafa82e32",
+        "33": "dd6be88e8598f86febf2ab3ff4e1a5e276e0aa74c636048eed9d34a388e64e43",
+        "34": "b86de5532783a33b533709e6e8b618b78b32c3c71227c900104c9fe1c4671667",
+        "35": "7c7af95a9e09aac00f299247564f9552af828d6edf7408832cbe4d8319a84427",
+        "36": "0aef38812201e911af1c5e9f6d66326cbd6b2d6f91860779b9764655dda2b25b",
+        "37": "f767477615d3db894f300c3090fe82c1c6b64548ef3cb102e1ab5be6d5103f80",
+        "38": "a7a3d61d88e393efbab83876561d23b1e7720dd6b2fbea8951b612513854846c",
+        "39": "c27146169cda1e7b0c00868dff63c3e2ce009c698184131b2bb6814ae34ab2ed",
+        "40": "47e922c956137b044e0a0e7cddc373ab79952e067b70f2592512044c35f1e3d8",
+        "41": "e1320907bb1c0488198f72b46ade8bf9b847ac10b9dfc3cf2163f864fd0a5c63",
+        "42": "688b941b2d0632e68a37e58c987cad09d93240d94e78a4e7c181cf2e172a9416",
+        "43": "b622cb9dcb77c99e3107f319fce007ed385c2fa99f84ae3669f0c92bef85c82d"
+      },
+      "structural_checks": {
+        "pypdf_pages": 43,
+        "pdfium_pages": 43,
+        "all_pages_rendered": true,
+        "outside_page_text_count": 0,
+        "all_current_render_hashes_match": true
+      },
+      "checks_passed": [
+        "All 43 pages viewed on eight final-v2 contact sheets; title and contents legible.",
+        "All 40 scientific body pages reviewed individually at full page size across primary and secondary reviewers.",
+        "Page 12 complete 54-slot spin matrix and all 8 converged energies/S2/quality flags legible and unclipped.",
+        "Pages 10-11 constrained-curvature equations and numerical limits intact.",
+        "Page 13 raw rejected spin-gap plot has explicit quality-failure legend and no validated MECP claim.",
+        "Pages 19-24 nine-cluster data, positive free-energy table and failed proton-wire outcomes stay distinct.",
+        "Pages 26-29 all 18 rate laws, 18 ODEs and all nonzero rate derivatives visible; no cutoff fraction, sign or subscript.",
+        "Pages 31-34 thermochemical gate, tangent equations and 18-row split control table readable; table continuation repeats header.",
+        "Pages 35-40 E(3), permutation and gradient-covariance derivations and normalized-loss equations intact.",
+        "Pages 41-43 checkpoint-selected metrics, baseline underperformance, 556-test statement, historical training source preservation and current verification hashes are clearly separated.",
+        "No overlapping text, clipped equations, missing glyphs, blank pages or orphaned figure captions detected."
+      ],
+      "findings": [
+        {
+          "severity": "cosmetic_nonblocking",
+          "page": 23,
+          "render_sha256": "e0be1f8aaf30944eb73e88e80c6960b2610e03ef4b03747022595c2b3ca56a28",
+          "description": "Final-status cells wrap Unconverged as Unconverge + d on a second line. Word remains readable, row boundaries preserved, no clipping or scientific ambiguity.",
+          "recommendation": "Optional future typography polish: widen final-status column or abbreviate status with an explained label; no release rebuild required."
+        },
+        {
+          "severity": "layout_observation_nonblocking",
+          "pages": [
+            13,
+            24
+          ],
+          "description": "Page 13 is a figure plus its caption/caveat; page 24 has three continuation paragraphs. Both have substantial white space, coherent reading order and visible complete content; neither is blank or an orphan-caption defect."
+        }
+      ],
+      "release_blockers": [],
+      "result": "PASS_WITH_COSMETIC_OBSERVATIONS",
+      "science_finding_resolution": {
+        "prior_receipt": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase3\\final_science_review.json",
+        "prior_receipt_sha256": "d871dba662c5380aa6147acc048f12501d33789943898ba8b5a209865f36b3ea",
+        "resolved": true,
+        "description": "The EN page 11 source/render now correctly says missing or failed values remain blank while quality-rejected raw values remain with flags. ZH source correction also reviewed; previous science receipt preserved unchanged."
+      },
+      "source_sha256": {
+        "EN_markdown": "55a633c983245004309fbd7fe1154c6b473a09ebcdf69bab174c243d592d5d87",
+        "ZH_markdown": "705929ebcf4799ca270d06f6893ed82e8bee2b4c1ba8ef854a4983d32acfb268",
+        "build_audit": "9e5dc82df8b7aae10d04179eb1c65de01c7e6785b526c1199f73e997064d6db8",
+        "render_audit": "66f64a91942b605ec42b33f704677a98877e9e436f40713213eb6876c5d6cddb"
+      },
+      "limits": [
+        "Layout approval applies only to the exact PDF hash above; any later rebuild requires matching rendered evidence.",
+        "The 556-test count is visually checked against the printed final verification statement; this PDF review did not rerun tests.",
+        "Visual rendering and provenance checks do not validate the physical catalyst mechanism."
+      ]
+    },
+    {
+      "schema": "phase3-final-pdf-visual-review-v1",
+      "reviewed_at_utc": "2026-09-13T16:57:43.559012+00:00",
+      "reviewer": "proton_wire agent",
+      "name": "MAGNUM_OPUS_CATMECH_ZH.pdf",
+      "sha256": "45524ced2180064759a98be1bb15818def310792995cc268f97c1bb51d4b9d56",
+      "page_count": 44,
+      "all_pages_visually_reviewed": true,
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "render_set": "work/phase3/pdf_qa_final_v2/MAGNUM_OPUS_CATMECH_ZH",
+      "contact_sheets_inspected": [
+        {
+          "name": "contact_01.png",
+          "sha256": "aaefd71f3c5ef074d011b0b37c72b02b30d40bd5aa35b8bd597b39d0d3bf712a",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "name": "contact_02.png",
+          "sha256": "48c821f351fd95826567e540f3caba7c140f5404b1476035693ceff6f861a6c1",
+          "pages": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "name": "contact_03.png",
+          "sha256": "b7455eabf527b6a282c724267bea457e8c10eab2cf458780a92b1655208c048d",
+          "pages": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        },
+        {
+          "name": "contact_04.png",
+          "sha256": "f8f15186a23511c11f2667c8d52fca00f142ae39cd23123d8deefc1088d1ffcb",
+          "pages": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "name": "contact_05.png",
+          "sha256": "6a30fe3d692953c71234f6490dc05e49f757b7ff9cdaa5207bae23570f067d3c",
+          "pages": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        },
+        {
+          "name": "contact_06.png",
+          "sha256": "b8af88fbca769e64e733a1cb66d0f3bcf7928bfe53368c259ddcd85852524e5f",
+          "pages": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ]
+        },
+        {
+          "name": "contact_07.png",
+          "sha256": "03004ea81c885714b54bd8e6b2cfc96a496235d825cc12777ae2bfd726b9b018",
+          "pages": [
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ]
+        },
+        {
+          "name": "contact_08.png",
+          "sha256": "c657c19cd0d3fac052eae5bb668e0f7ab6e5d45d1980b86f24fd13fb501ce3e7",
+          "pages": [
+            43,
+            44
+          ]
+        }
+      ],
+      "full_pages_inspected": [
+        {
+          "page": 10,
+          "name": "page_010.png",
+          "sha256": "5b20b63955ab4a79021ee06e2acef9b614c4df85bab4041d4f54abb661ddc479"
+        },
+        {
+          "page": 11,
+          "name": "page_011.png",
+          "sha256": "c8e7015c3260a5232ef98492c509034efc26a9203344f95a127ec0063a6ff296"
+        },
+        {
+          "page": 12,
+          "name": "page_012.png",
+          "sha256": "d8ff1ae3a9552bcf37d5c3e4fb61d967af89fdda9ba505359380c5bb2f55e67a"
+        },
+        {
+          "page": 13,
+          "name": "page_013.png",
+          "sha256": "09b2e2496654bb7b283b33fead31f6559318e3d512dc2aa8e9dcc22cc386e709"
+        },
+        {
+          "page": 14,
+          "name": "page_014.png",
+          "sha256": "7862d46afa1a85966ef2b4e0c5fe50285906bcc7ccd228bbc0a05b5fc44f449b"
+        },
+        {
+          "page": 19,
+          "name": "page_019.png",
+          "sha256": "90d4fc721903547e473f3cb590ceaf87c26d62f6ffbffc7fe9b8a0192f1b5f4c"
+        },
+        {
+          "page": 23,
+          "name": "page_023.png",
+          "sha256": "7048a94b786f5b423647c647ea58203c6d731268916a5bd65d81381ba4fd990e"
+        },
+        {
+          "page": 24,
+          "name": "page_024.png",
+          "sha256": "3c96d98d3148b59b6568015f1031a940336ced4247fa72c9f1340d91bb0b81d3"
+        },
+        {
+          "page": 25,
+          "name": "page_025.png",
+          "sha256": "bfff37e6c74df2676aec18f234251639794ef0d3067bc9c920f755b16c849c5f"
+        },
+        {
+          "page": 28,
+          "name": "page_028.png",
+          "sha256": "4afeb7186afa8164cd92438590fa4512c443f6dbb1e6ca6730ab6ad2d9bb4dd9"
+        },
+        {
+          "page": 32,
+          "name": "page_032.png",
+          "sha256": "5433aa61173afdd299d9e4d33337a81bdee6a8d349458501c6411460f0991258"
+        },
+        {
+          "page": 33,
+          "name": "page_033.png",
+          "sha256": "59cc3d502d0731c16b84764389ff8c730670e614b9002856da85e6ef24297e1e"
+        },
+        {
+          "page": 40,
+          "name": "page_040.png",
+          "sha256": "cc3f725c243bc83a5eb49d8f92162ca8cfafff6b0c09a8a6f1e5bbe9b2cfa932"
+        },
+        {
+          "page": 41,
+          "name": "page_041.png",
+          "sha256": "5f15181f5181e2bfac681bf14ffa6a0884413ec509fdf249b7274a5187891c3c"
+        },
+        {
+          "page": 42,
+          "name": "page_042.png",
+          "sha256": "ece22f26cd9667b1ea08210d4dcd7fdf7f16b2a711c88c660fd62932a149e9a7"
+        },
+        {
+          "page": 44,
+          "name": "page_044.png",
+          "sha256": "aec80d84439dbba498645283f51f2367f77523a3e4f1e49be8c9ea972f4f2b85"
+        }
+      ],
+      "source_sha256": "705929ebcf4799ca270d06f6893ed82e8bee2b4c1ba8ef854a4983d32acfb268",
+      "pdf_build_audit_sha256": "9e5dc82df8b7aae10d04179eb1c65de01c7e6785b526c1199f73e997064d6db8",
+      "pdf_qa_sha256": "66f64a91942b605ec42b33f704677a98877e9e436f40713213eb6876c5d6cddb",
+      "all_44_page_render_hashes_verified": true,
+      "source_pdf_build_qa_hash_binding_verified": true,
+      "all_four_embedded_figure_source_hashes_verified": true,
+      "outside_page_text_count": 0,
+      "findings": [],
+      "layout_status": "pass",
+      "observations": [
+        "Every page was visually inspected on the eight v2 contact sheets; sixteen dense or newly changed pages were additionally inspected individually at original resolution.",
+        "No overlap, cutoff, missing-glyph boxes, broken formulas, clipped code blocks or unintended nearly empty pages were observed.",
+        "Section 8 spans pages 11-13. The corrected missing/failed-versus-quality-rejected wording is visible; the 18-by-3 status matrix and eight raw-energy records are legible with Q/U/T/M flags.",
+        "The page-13 spin diagnostic plot and its caption stay together. Its retained raw rejected gap is explicitly labelled, not shown as an accepted crossing.",
+        "The long rate-equation and Jacobian pages 25 and 28 fit within the page, and the control-coefficient table repeats its header on page 33.",
+        "Section 35 pages 41-42 keeps command lines and source hashes readable. The displayed 556 tests and 794 published files plus 93 local caches totalling 18,136,488,536 bytes match the current XML/publication receipts.",
+        "Page 44 retains all eleven numbered references and the final paragraph. The cover and chapter-ending whitespace are intentional."
+      ],
+      "verification_focus": {
+        "pytest": {
+          "tests": 556,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "spin_published_files": 794,
+        "spin_local_cache_files": 93,
+        "spin_local_cache_bytes": 18136488536
+      },
+      "scope": "Final Chinese PDF visual layout and source/build/render integrity for this exact hash. Scientific validity and whole-release Git/export acceptance are separate review gates. No PDF or Markdown edits were performed."
+    },
+    {
+      "name": "phase3_egnn_auxiliary.pdf",
+      "sha256": "368a75eb4b67c1bc8211ed0412e921f7f4ab85ece3836408412b6b9050f2899e",
+      "page_count": 1,
+      "all_pages_visually_reviewed": true,
+      "pages_reviewed": [
+        1
+      ],
+      "reviewer": "root",
+      "reviewed_utc": "2026-09-13T17:07:09.786901+00:00",
+      "review_method": "Each final PDF page rendered and individually viewed at full page size",
+      "render_sha256": "b63e3202ee49c5779f658e33f373441376c41f82d9c5984e01f7383975ae8e37",
+      "findings": [],
+      "conclusion": "Axes, labels, legends and evidence status are readable; no overlap or clipping"
+    },
+    {
+      "name": "phase3_micro_solvation.pdf",
+      "sha256": "4ec7ed989e8681db416dea4ca90ac3fd4c06bbd34382d6af9c97e20162fc0cfd",
+      "page_count": 1,
+      "all_pages_visually_reviewed": true,
+      "pages_reviewed": [
+        1
+      ],
+      "reviewer": "root",
+      "reviewed_utc": "2026-09-13T17:07:09.786901+00:00",
+      "review_method": "Each final PDF page rendered and individually viewed at full page size",
+      "render_sha256": "4aedc1a0c636d9252eccf6529e2e36b16501896df84a88f9ef327d1af039b3a0",
+      "findings": [],
+      "conclusion": "Axes, labels, legends and evidence status are readable; no overlap or clipping"
+    },
+    {
+      "name": "phase3_solver_verification.pdf",
+      "sha256": "6dbf8d894cd0eb802d90ce04551b8e206fdf2f8af245fcb2869fc012576e5318",
+      "page_count": 1,
+      "all_pages_visually_reviewed": true,
+      "pages_reviewed": [
+        1
+      ],
+      "reviewer": "root",
+      "reviewed_utc": "2026-09-13T17:07:09.786901+00:00",
+      "review_method": "Each final PDF page rendered and individually viewed at full page size",
+      "render_sha256": "4b1f895bc1d8579bbef9661ae30e90fbc648f7ad4513ac3fb552e2761502b549",
+      "findings": [],
+      "conclusion": "Axes, labels, legends and evidence status are readable; no overlap or clipping"
+    },
+    {
+      "name": "phase3_spin_diagnostics.pdf",
+      "sha256": "01b54c3c7a18dd442962a036e7f5f6d34aa45f1824e147cc994bb4eb83467cd7",
+      "page_count": 1,
+      "all_pages_visually_reviewed": true,
+      "pages_reviewed": [
+        1
+      ],
+      "reviewer": "root",
+      "reviewed_utc": "2026-09-13T17:07:09.786901+00:00",
+      "review_method": "Each final PDF page rendered and individually viewed at full page size",
+      "render_sha256": "18eb1972103b85808fb05bab8128dacfa4d9c377be69545400fd871d5b0e2eec",
+      "findings": [],
+      "conclusion": "Axes, labels, legends and evidence status are readable; no overlap or clipping"
+    }
+  ]
+}

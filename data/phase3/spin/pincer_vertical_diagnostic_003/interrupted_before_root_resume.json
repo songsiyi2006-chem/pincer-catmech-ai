@@ -1,0 +1,8 @@
+[
+  {
+    "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\Fe_bipyridine_pnnoh_iPr\\multiplicity_5\\406b38b95b2ac53199fcdc5ebb77cb58d4844f820e4068158ad1fbe90ebba6b3\\attempt_beb57610bce848b19852609b35df1228",
+    "status": "interrupted_without_terminal_record",
+    "observed_utc": "2026-09-13T15:10:55.5235421Z",
+    "evidence": "No matching runner or Psi4 worker was alive at recovery; original partial files preserved."
+  }
+]

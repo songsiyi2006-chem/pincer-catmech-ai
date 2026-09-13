@@ -1,0 +1,6 @@
+{
+  "error_type": "SCFConvergenceError",
+  "error": "Could not converge SCF iterations in 120 iterations.",
+  "states_completed": [],
+  "wall_seconds": 10.89100000000326
+}

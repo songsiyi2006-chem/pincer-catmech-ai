@@ -1,0 +1,150 @@
+{
+  "energy1_hartree": -1264.3660567539994,
+  "energy2_hartree": -1264.366100574957,
+  "gradient1_hartree_bohr": [
+    [
+      -3.23980294033438e-08,
+      -2.3375351628360498e-08,
+      0.053096914565609055
+    ],
+    [
+      -0.03974403899530636,
+      3.367879101077937e-08,
+      -0.026570522934981952
+    ],
+    [
+      0.03974407128133106,
+      -1.028413764919695e-08,
+      -0.026570547346573353
+    ]
+  ],
+  "gradient2_hartree_bohr": [
+    [
+      -3.336315012279767e-08,
+      -3.3039252885565346e-08,
+      0.07526865739642097
+    ],
+    [
+      -0.07405389649628821,
+      5.787881845710169e-08,
+      -0.03765312007708052
+    ],
+    [
+      0.07405392975987247,
+      -2.482307232080369e-08,
+      -0.037653140444542016
+    ]
+  ],
+  "state1": "multiplicity_3",
+  "state2": "multiplicity_5",
+  "spin_dependent": true,
+  "metadata": {
+    "symbols": [
+      "Fe",
+      "H",
+      "H"
+    ],
+    "positions_bohr": [
+      [
+        -4.3641331055340894e-08,
+        4.660295892453585e-07,
+        0.09698678461307811
+      ],
+      [
+        2.070205868054912,
+        -1.3828654619244866e-06,
+        1.6859631796389558
+      ],
+      [
+        -2.0702058222011193,
+        9.159535405151821e-07,
+        1.6859630619545964
+      ]
+    ],
+    "charge": 0,
+    "multiplicities": [
+      3,
+      5
+    ],
+    "method": "pbe",
+    "basis": "def2-svp",
+    "configured_memory_mib": 500,
+    "threads": 2,
+    "psi4_version": "1.11",
+    "coordinate_units": "bohr",
+    "energy_units": "hartree",
+    "gradient_units": "hartree/bohr",
+    "scf_e_convergence": 1e-09,
+    "scf_d_convergence": 1e-08,
+    "scf_max_iterations": 120,
+    "geometry_sha256": "b514e612b0aac663f6d7db15c8ddbc08d2bde29ce409c6bab7e702ff572a871f",
+    "states": [
+      {
+        "multiplicity": 3,
+        "reference": "uks",
+        "energy_hartree": -1264.3660567539994,
+        "gradient_hartree_bohr": [
+          [
+            -3.23980294033438e-08,
+            -2.3375351628360498e-08,
+            0.053096914565609055
+          ],
+          [
+            -0.03974403899530636,
+            3.367879101077937e-08,
+            -0.026570522934981952
+          ],
+          [
+            0.03974407128133106,
+            -1.028413764919695e-08,
+            -0.026570547346573353
+          ]
+        ],
+        "spin_squared": 2.0299205497494324,
+        "expected_spin_squared": 2.0,
+        "nalpha": 15,
+        "nbeta": 13,
+        "basis_functions": 41,
+        "scf_converged": true,
+        "gradient_kind": "analytic",
+        "wall_seconds": 4.344000000011874,
+        "output_sha256": "dd01be9bfb2b3310b7f1b3aec7a06d2d69d5584aca9e23a94ecd68415a432ff1"
+      },
+      {
+        "multiplicity": 5,
+        "reference": "uks",
+        "energy_hartree": -1264.366100574957,
+        "gradient_hartree_bohr": [
+          [
+            -3.336315012279767e-08,
+            -3.3039252885565346e-08,
+            0.07526865739642097
+          ],
+          [
+            -0.07405389649628821,
+            5.787881845710169e-08,
+            -0.03765312007708052
+          ],
+          [
+            0.07405392975987247,
+            -2.482307232080369e-08,
+            -0.037653140444542016
+          ]
+        ],
+        "spin_squared": 6.012423763869766,
+        "expected_spin_squared": 6.0,
+        "nalpha": 16,
+        "nbeta": 12,
+        "basis_functions": 41,
+        "scf_converged": true,
+        "gradient_kind": "analytic",
+        "wall_seconds": 3.297000000020489,
+        "output_sha256": "562538ec71679246007f5b17c3e232b17a56800e8a281fe3019ea57c7e556bf4"
+      }
+    ],
+    "wall_seconds": 7.672000000020489,
+    "evidence": "spin-sensitive electronic-structure calculation; no experimental validation",
+    "native_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\feh2_pbe_def2svp_002\\evaluations\\job_464dfb6cfeb443b8a84a1d753ed30459\\native\\pair_090594ba54204abebcfe562fabe1b874",
+    "status": "completed"
+  }
+}

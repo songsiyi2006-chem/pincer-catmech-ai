@@ -1,0 +1,10 @@
+name,n_solvent,seed,status,connectivity_retained,all_fragments_H_bond_connected,energy_eV,association_energy_kcal_mol,max_force_eV_A,thermochemistry_status
+hemiaminal_tbuoh_1_seed_00,1,0,converged,True,True,-1610.9889734866429,-10.638587888091246,0.0005813360302904542,not_selected_for_hessian
+hemiaminal_tbuoh_1_seed_01,1,1,converged,True,True,-1610.9145781952504,-8.922991712563498,0.0008454840227898442,not_selected_for_hessian
+hemiaminal_tbuoh_1_seed_02,1,2,converged,True,True,-1611.004389644162,-10.994092925927392,0.0004603959927333436,verified_minimum
+hemiaminal_tbuoh_2_seed_00,2,0,converged,True,True,-2094.093995332327,-19.934722615032754,0.0008674240652278539,not_selected_for_hessian
+hemiaminal_tbuoh_2_seed_01,2,1,converged,True,True,-2094.147399852977,-21.16626011785381,0.0005475089917830917,verified_minimum
+hemiaminal_tbuoh_2_seed_02,2,2,converged,True,True,-2094.132699191288,-20.827254805834066,0.0004249347323023834,not_selected_for_hessian
+hemiaminal_tbuoh_3_seed_00,3,0,converged,True,True,-2577.3068057815876,-31.71652159035417,0.0005005694750465999,verified_minimum
+hemiaminal_tbuoh_3_seed_01,3,1,converged,True,True,-2577.282715013694,-31.16097528506885,0.0005936128137174853,not_selected_for_hessian
+hemiaminal_tbuoh_3_seed_02,3,2,converged,True,True,-2577.275422945461,-30.992816196791733,0.0004492957635914273,not_selected_for_hessian
