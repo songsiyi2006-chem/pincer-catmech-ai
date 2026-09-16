@@ -1,0 +1,264 @@
+{
+  "schema": "public_catalyst_import_v1",
+  "started_utc": "2026-09-16T05:06:07.224998+00:00",
+  "status": "structure_extraction_verified",
+  "source_url": "https://ndownloader.figshare.com/files/5467289",
+  "source_doi": "10.1021/jacs.6b03709.s002",
+  "source_sha256": "9704aa1897177a1026ea7a87f57cf2679bd0bd5c6647910ef60cc06696b663cd",
+  "official_metadata_api": "https://api.figshare.com/v2/articles/3472229",
+  "third_party_data_license": {
+    "name": "CC BY-NC 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "verified_from": "https://api.figshare.com/v2/articles/3472229",
+    "verified_date": "2026-09-16"
+  },
+  "parser": "gemmi 0.7.5",
+  "original_modified": false,
+  "normalized_sha256": "40b07b40af922850f21c3e108e09647f2911765cda6c5be6fdc08f886c413123",
+  "blockers": [],
+  "molecules": [
+    {
+      "id": "Mn1",
+      "atoms": 62,
+      "formula": "C18H37BrMnNO2P2",
+      "xyz": "Mn1/crystal_candidate.xyz",
+      "xyz_sha256": "1101d04dd31efe3deb1abe7880428ed75926ac97010967884687e4beff0722b3",
+      "metadata_sha256": "24a838e86284c428ea78b652f0b9a87d8384cd3a291d89d8d0380f35c2f4ab62",
+      "NH_distance_angstrom": 0.8359613708371989,
+      "metal_neighbors": [
+        {
+          "index": 1,
+          "symbol": "Br",
+          "source_label": "Br1",
+          "distance_angstrom": 2.577286113088383
+        },
+        {
+          "index": 54,
+          "symbol": "C",
+          "source_label": "C17",
+          "distance_angstrom": 1.7810210638389254
+        },
+        {
+          "index": 55,
+          "symbol": "C",
+          "source_label": "C18",
+          "distance_angstrom": 1.7508186183303347
+        },
+        {
+          "index": 56,
+          "symbol": "N",
+          "source_label": "N1",
+          "distance_angstrom": 2.1217573372201644
+        },
+        {
+          "index": 59,
+          "symbol": "P",
+          "source_label": "P1",
+          "distance_angstrom": 2.3008228565702864
+        },
+        {
+          "index": 60,
+          "symbol": "P",
+          "source_label": "P2",
+          "distance_angstrom": 2.2988121341217758
+        }
+      ],
+      "graph_matches_published_bonds": true
+    },
+    {
+      "id": "Mn2",
+      "atoms": 62,
+      "formula": "C18H37BrMnNO2P2",
+      "xyz": "Mn2/crystal_candidate.xyz",
+      "xyz_sha256": "b59beea221b95e5382979bf1303d8e9afb4b6cd8043c7f40193037d1f64871c8",
+      "metadata_sha256": "12f4cfee8c131f79a00cc8c3ffbf9a9e4eaf36fd24a0b6a9192640b47005f372",
+      "NH_distance_angstrom": 0.8464989851575945,
+      "metal_neighbors": [
+        {
+          "index": 1,
+          "symbol": "Br",
+          "source_label": "Br2",
+          "distance_angstrom": 2.574537769946709
+        },
+        {
+          "index": 54,
+          "symbol": "C",
+          "source_label": "C35",
+          "distance_angstrom": 1.7770517740714549
+        },
+        {
+          "index": 55,
+          "symbol": "C",
+          "source_label": "C36",
+          "distance_angstrom": 1.755856906796624
+        },
+        {
+          "index": 56,
+          "symbol": "N",
+          "source_label": "N2",
+          "distance_angstrom": 2.119320677246381
+        },
+        {
+          "index": 59,
+          "symbol": "P",
+          "source_label": "P3",
+          "distance_angstrom": 2.3014661432932364
+        },
+        {
+          "index": 60,
+          "symbol": "P",
+          "source_label": "P4",
+          "distance_angstrom": 2.3021288159110544
+        }
+      ],
+      "graph_matches_published_bonds": true
+    }
+  ],
+  "crystallographic_formula": {
+    "C": 18,
+    "H": 37,
+    "Br": 1,
+    "Mn": 1,
+    "N": 1,
+    "O": 2,
+    "P": 2
+  },
+  "cell_parameters": [
+    16.2255,
+    11.5556,
+    24.2092,
+    90.0,
+    91.595,
+    90.0
+  ],
+  "Z": 8,
+  "asymmetric_unit_atom_count": 124,
+  "temperature_K": 150.0,
+  "hydrogen_treatment": "mixed",
+  "R1_all": 0.0371,
+  "R1_observed": 0.0246,
+  "partial_occupancy_sites": [],
+  "disorder_sites": [],
+  "atom_site_calculation_flags": {
+    "d": 52,
+    "calc": 72
+  },
+  "unit_cell_atom_count": 496,
+  "symmetry_operation_count": 4,
+  "periodic_component_count": 8,
+  "infinite_periodic_cycles": [],
+  "connectivity_rule": "1.20 times sum of ASE covalent radii, periodic minimum-image contacts",
+  "components": [
+    {
+      "atom_count": 62,
+      "formula": {
+        "Br": 1,
+        "C": 18,
+        "H": 37,
+        "Mn": 1,
+        "N": 1,
+        "O": 2,
+        "P": 2
+      },
+      "crosses_cell_boundary": true
+    },
+    {
+      "atom_count": 62,
+      "formula": {
+        "Br": 1,
+        "C": 18,
+        "H": 37,
+        "Mn": 1,
+        "N": 1,
+        "O": 2,
+        "P": 2
+      },
+      "crosses_cell_boundary": true
+    },
+    {
+      "atom_count": 62,
+      "formula": {
+        "Br": 1,
+        "C": 18,
+        "H": 37,
+        "Mn": 1,
+        "N": 1,
+        "O": 2,
+        "P": 2
+      },
+      "crosses_cell_boundary": true
+    },
+    {
+      "atom_count": 62,
+      "formula": {
+        "Br": 1,
+        "C": 18,
+        "H": 37,
+        "Mn": 1,
+        "N": 1,
+        "O": 2,
+        "P": 2
+      },
+      "crosses_cell_boundary": true
+    },
+    {
+      "atom_count": 62,
+      "formula": {
+        "Br": 1,
+        "C": 18,
+        "H": 37,
+        "Mn": 1,
+        "N": 1,
+        "O": 2,
+        "P": 2
+      },
+      "crosses_cell_boundary": true
+    },
+    {
+      "atom_count": 62,
+      "formula": {
+        "Br": 1,
+        "C": 18,
+        "H": 37,
+        "Mn": 1,
+        "N": 1,
+        "O": 2,
+        "P": 2
+      },
+      "crosses_cell_boundary": true
+    },
+    {
+      "atom_count": 62,
+      "formula": {
+        "Br": 1,
+        "C": 18,
+        "H": 37,
+        "Mn": 1,
+        "N": 1,
+        "O": 2,
+        "P": 2
+      },
+      "crosses_cell_boundary": true
+    },
+    {
+      "atom_count": 62,
+      "formula": {
+        "Br": 1,
+        "C": 18,
+        "H": 37,
+        "Mn": 1,
+        "N": 1,
+        "O": 2,
+        "P": 2
+      },
+      "crosses_cell_boundary": true
+    }
+  ],
+  "maximum_bond_distance_reconstruction_error_angstrom": 0.0014989851575952784,
+  "complete_molecule_verified": true,
+  "quantum_submission_ready": false,
+  "solution_catalyst_identity_validated": false,
+  "charge_spin_experimentally_verified": false,
+  "next_gate": "Chemist reviews precursor identity, charge/spin candidates and explicit activation chemistry before DFT submission",
+  "finished_utc": "2026-09-16T05:06:08.343569+00:00"
+}

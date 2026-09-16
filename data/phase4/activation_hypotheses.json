@@ -1,0 +1,145 @@
+{
+  "schema": "precursor_activation_hypothesis_ledger_v1",
+  "evidence_class": "balanced_hypotheses_only",
+  "source_metadata": "data/phase4/public_structure/import_v002/Mn1/metadata.json",
+  "source_sha256": "24a838e86284c428ea78b652f0b9a87d8384cd3a291d89d8d0380f35c2f4ab62",
+  "species": {
+    "P0": {
+      "composition": {
+        "C": 18,
+        "H": 37,
+        "Br": 1,
+        "Mn": 1,
+        "N": 1,
+        "O": 2,
+        "P": 2
+      },
+      "charge": 0,
+      "status": "public_crystal_precursor_charge_working_assignment"
+    },
+    "KOtBu_formula_unit": {
+      "composition": {
+        "K": 1,
+        "C": 4,
+        "H": 9,
+        "O": 1
+      },
+      "charge": 0,
+      "status": "stoichiometric_reagent_unit_not_solution_aggregation_claim"
+    },
+    "K_plus": {
+      "composition": {
+        "K": 1
+      },
+      "charge": 1,
+      "status": "hypothetical_explicit_counterion"
+    },
+    "P_minus_H_with_Br": {
+      "composition": {
+        "C": 18,
+        "H": 36,
+        "Br": 1,
+        "Mn": 1,
+        "N": 1,
+        "O": 2,
+        "P": 2
+      },
+      "charge": -1,
+      "status": "hypothetical_deprotonated_Br_retained_state"
+    },
+    "A0_Br_lost": {
+      "composition": {
+        "C": 18,
+        "H": 36,
+        "Mn": 1,
+        "N": 1,
+        "O": 2,
+        "P": 2
+      },
+      "charge": 0,
+      "status": "hypothetical_deprotonated_Br_dissociated_state"
+    },
+    "KBr_formula_unit": {
+      "composition": {
+        "K": 1,
+        "Br": 1
+      },
+      "charge": 0,
+      "status": "stoichiometric_salt_ledger_phase_and_activity_undetermined"
+    },
+    "tBuOH": {
+      "composition": {
+        "C": 4,
+        "H": 10,
+        "O": 1
+      },
+      "charge": 0,
+      "status": "neutral_alcohol_ledger"
+    }
+  },
+  "reactions": [
+    {
+      "id": "H1_Br_retention",
+      "reactants": {
+        "P0": 1,
+        "KOtBu_formula_unit": 1
+      },
+      "products": {
+        "K_plus": 1,
+        "P_minus_H_with_Br": 1,
+        "tBuOH": 1
+      },
+      "note": "Explicit ions specify stoichiometry only; free, paired and aggregated forms require distinct actual models",
+      "element_and_charge_balanced": true,
+      "balanced_atoms": {
+        "C": 22,
+        "H": 46,
+        "Br": 1,
+        "Mn": 1,
+        "N": 1,
+        "O": 3,
+        "P": 2,
+        "K": 1
+      },
+      "balanced_charge": 0,
+      "thermodynamic_or_kinetic_parameters": null,
+      "validated_activation_mechanism": false
+    },
+    {
+      "id": "H2_Br_dissociation",
+      "reactants": {
+        "P0": 1,
+        "KOtBu_formula_unit": 1
+      },
+      "products": {
+        "A0_Br_lost": 1,
+        "KBr_formula_unit": 1,
+        "tBuOH": 1
+      },
+      "note": "Br release and KBr phase must be verified; neutral activated complex is not obtained by deleting H alone",
+      "element_and_charge_balanced": true,
+      "balanced_atoms": {
+        "C": 22,
+        "H": 46,
+        "Br": 1,
+        "Mn": 1,
+        "N": 1,
+        "O": 3,
+        "P": 2,
+        "K": 1
+      },
+      "balanced_charge": 0,
+      "thermodynamic_or_kinetic_parameters": null,
+      "validated_activation_mechanism": false
+    }
+  ],
+  "new_quantum_jobs": 0,
+  "accepted_activation_paths": 0,
+  "limitations": [
+    "Integer balance does not prove existence, kinetics, oxidation state or solution speciation",
+    "No isolated proton reservoir or aqueous pH is assumed",
+    "Ion pairing, aggregation, solubility and KBr solid activity remain unresolved",
+    "Both hypotheses can be wrong; qualified chemistry review precedes path generation"
+  ],
+  "implementation_sha256": "3a38e45bf11618e28fbeef5e744f7be031ddd7f331edfcf844eb5ba7f15f3248"
+}

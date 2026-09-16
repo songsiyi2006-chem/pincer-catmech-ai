@@ -1,0 +1,29 @@
+{
+  "argv": [
+    "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+    "input.xyz",
+    "--gfn",
+    "2",
+    "--chrg",
+    "0",
+    "--uhf",
+    "0",
+    "--etemp",
+    "300.0",
+    "--iterations",
+    "500",
+    "--acc",
+    "0.5",
+    "--opt",
+    "extreme",
+    "--cycles",
+    "500",
+    "--grad",
+    "--alpb",
+    "toluene",
+    "gsolv"
+  ],
+  "started_utc": "2026-09-16T05:56:53.373273+00:00",
+  "restart": null,
+  "threads": 2
+}

@@ -1,0 +1,245 @@
+[
+  {
+    "pdf": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\outputs\\phase4-20260916\\PHASE4_RESEARCH_REPORT_ZH.pdf",
+    "sha256": "28fbe282788478bc27701717a7774fd0c5c5e23e6cab626d528034b1c9ddbe76",
+    "pages": [
+      {
+        "page": 1,
+        "characters": 337,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\ZH\\page_01.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 2,
+        "characters": 1450,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\ZH\\page_02.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 3,
+        "characters": 1213,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\ZH\\page_03.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 4,
+        "characters": 961,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\ZH\\page_04.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 5,
+        "characters": 1528,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\ZH\\page_05.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 6,
+        "characters": 1398,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\ZH\\page_06.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 7,
+        "characters": 1200,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\ZH\\page_07.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 8,
+        "characters": 1104,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\ZH\\page_08.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 9,
+        "characters": 1115,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\ZH\\page_09.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 10,
+        "characters": 1390,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\ZH\\page_10.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 11,
+        "characters": 1349,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\ZH\\page_11.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 12,
+        "characters": 344,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\ZH\\page_12.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      }
+    ],
+    "mechanical_checks": "nonempty text, no replacement glyph, no unresolved result token; all pages rendered",
+    "visual_review": "all rendered pages visually verified; changed pages re-viewed, any carryover bound to identical PNG SHA256",
+    "visual_review_sha256": "3d49b8ce499ced8d3b98d75ab133b605349de61dab0fbd6a97ef0491e650bc88"
+  },
+  {
+    "pdf": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\outputs\\phase4-20260916\\PHASE4_RESEARCH_REPORT_EN.pdf",
+    "sha256": "64f2bb8c04c3237e6a45f824573aed8c7c4bd15cedb2da688b9b4f597bbc2f20",
+    "pages": [
+      {
+        "page": 1,
+        "characters": 544,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\EN\\page_01.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 2,
+        "characters": 4071,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\EN\\page_02.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 3,
+        "characters": 3124,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\EN\\page_03.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 4,
+        "characters": 2338,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\EN\\page_04.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 5,
+        "characters": 2985,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\EN\\page_05.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 6,
+        "characters": 3500,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\EN\\page_06.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 7,
+        "characters": 4016,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\EN\\page_07.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 8,
+        "characters": 2646,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\EN\\page_08.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 9,
+        "characters": 3005,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\EN\\page_09.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 10,
+        "characters": 3022,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\EN\\page_10.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 11,
+        "characters": 3696,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\EN\\page_11.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 12,
+        "characters": 3589,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\EN\\page_12.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      },
+      {
+        "page": 13,
+        "characters": 725,
+        "image": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\pdf-qa\\EN\\page_13.png",
+        "page_size_points": [
+          595.2756,
+          841.8898
+        ]
+      }
+    ],
+    "mechanical_checks": "nonempty text, no replacement glyph, no unresolved result token; all pages rendered",
+    "visual_review": "all rendered pages visually verified; changed pages re-viewed, any carryover bound to identical PNG SHA256",
+    "visual_review_sha256": "dc90b5582f8cf48398962e5d3cea78a30b9ecf5e0423e1bf1f8a3fecc218cea4"
+  }
+]

@@ -1,0 +1,884 @@
+[
+  {
+    "atom_1": "Br1",
+    "atom_2": "Mn1",
+    "reported_distance_angstrom": 2.5774,
+    "recalculated_distance_angstrom": 2.5772861130883813,
+    "absolute_deviation_angstrom": 0.00011388691161862141
+  },
+  {
+    "atom_1": "Br2",
+    "atom_2": "Mn2",
+    "reported_distance_angstrom": 2.5745,
+    "recalculated_distance_angstrom": 2.5745377699467094,
+    "absolute_deviation_angstrom": 3.776994670934286e-05
+  },
+  {
+    "atom_1": "C1",
+    "atom_2": "C2",
+    "reported_distance_angstrom": 1.519,
+    "recalculated_distance_angstrom": 1.5191853230808114,
+    "absolute_deviation_angstrom": 0.00018532308081153914
+  },
+  {
+    "atom_1": "C1",
+    "atom_2": "P1",
+    "reported_distance_angstrom": 1.8439,
+    "recalculated_distance_angstrom": 1.843773927103007,
+    "absolute_deviation_angstrom": 0.00012607289699317903
+  },
+  {
+    "atom_1": "C1",
+    "atom_2": "H1A",
+    "reported_distance_angstrom": 0.99,
+    "recalculated_distance_angstrom": 0.9901589324129589,
+    "absolute_deviation_angstrom": 0.00015893241295894533
+  },
+  {
+    "atom_1": "C1",
+    "atom_2": "H1B",
+    "reported_distance_angstrom": 0.99,
+    "recalculated_distance_angstrom": 0.9894767747108362,
+    "absolute_deviation_angstrom": 0.00052322528916382
+  },
+  {
+    "atom_1": "C2",
+    "atom_2": "N1",
+    "reported_distance_angstrom": 1.482,
+    "recalculated_distance_angstrom": 1.4822626784317736,
+    "absolute_deviation_angstrom": 0.00026267843177363304
+  },
+  {
+    "atom_1": "C2",
+    "atom_2": "H2A",
+    "reported_distance_angstrom": 0.99,
+    "recalculated_distance_angstrom": 0.9908957601657623,
+    "absolute_deviation_angstrom": 0.000895760165762316
+  },
+  {
+    "atom_1": "C2",
+    "atom_2": "H2B",
+    "reported_distance_angstrom": 0.99,
+    "recalculated_distance_angstrom": 0.989801072153622,
+    "absolute_deviation_angstrom": 0.0001989278463779831
+  },
+  {
+    "atom_1": "C3",
+    "atom_2": "N1",
+    "reported_distance_angstrom": 1.48,
+    "recalculated_distance_angstrom": 1.4802836783009663,
+    "absolute_deviation_angstrom": 0.00028367830096631685
+  },
+  {
+    "atom_1": "C3",
+    "atom_2": "C4",
+    "reported_distance_angstrom": 1.519,
+    "recalculated_distance_angstrom": 1.5189335901680376,
+    "absolute_deviation_angstrom": 6.640983196226635e-05
+  },
+  {
+    "atom_1": "C3",
+    "atom_2": "H3A",
+    "reported_distance_angstrom": 0.99,
+    "recalculated_distance_angstrom": 0.9897098814125103,
+    "absolute_deviation_angstrom": 0.0002901185874897294
+  },
+  {
+    "atom_1": "C3",
+    "atom_2": "H3B",
+    "reported_distance_angstrom": 0.99,
+    "recalculated_distance_angstrom": 0.9899018282899014,
+    "absolute_deviation_angstrom": 9.81717100986268e-05
+  },
+  {
+    "atom_1": "C4",
+    "atom_2": "P2",
+    "reported_distance_angstrom": 1.8443,
+    "recalculated_distance_angstrom": 1.8442594462997106,
+    "absolute_deviation_angstrom": 4.055370028943628e-05
+  },
+  {
+    "atom_1": "C4",
+    "atom_2": "H4A",
+    "reported_distance_angstrom": 0.99,
+    "recalculated_distance_angstrom": 0.9891279107835413,
+    "absolute_deviation_angstrom": 0.0008720892164586491
+  },
+  {
+    "atom_1": "C4",
+    "atom_2": "H4B",
+    "reported_distance_angstrom": 0.99,
+    "recalculated_distance_angstrom": 0.9898946097542733,
+    "absolute_deviation_angstrom": 0.00010539024572664424
+  },
+  {
+    "atom_1": "C5",
+    "atom_2": "C6",
+    "reported_distance_angstrom": 1.52,
+    "recalculated_distance_angstrom": 1.5196558847134367,
+    "absolute_deviation_angstrom": 0.0003441152865633068
+  },
+  {
+    "atom_1": "C5",
+    "atom_2": "C7",
+    "reported_distance_angstrom": 1.531,
+    "recalculated_distance_angstrom": 1.5306362525128157,
+    "absolute_deviation_angstrom": 0.00036374748718426275
+  },
+  {
+    "atom_1": "C5",
+    "atom_2": "P1",
+    "reported_distance_angstrom": 1.854,
+    "recalculated_distance_angstrom": 1.8541267418571803,
+    "absolute_deviation_angstrom": 0.00012674185718020148
+  },
+  {
+    "atom_1": "C5",
+    "atom_2": "H5",
+    "reported_distance_angstrom": 1.0,
+    "recalculated_distance_angstrom": 1.0004799716805683,
+    "absolute_deviation_angstrom": 0.0004799716805683474
+  },
+  {
+    "atom_1": "C6",
+    "atom_2": "H6A",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9794151299575288,
+    "absolute_deviation_angstrom": 0.0005848700424712083
+  },
+  {
+    "atom_1": "C6",
+    "atom_2": "H6B",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9801378332083985,
+    "absolute_deviation_angstrom": 0.0001378332083985523
+  },
+  {
+    "atom_1": "C6",
+    "atom_2": "H6C",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9797561972229659,
+    "absolute_deviation_angstrom": 0.0002438027770340634
+  },
+  {
+    "atom_1": "C7",
+    "atom_2": "H7A",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9810045226213943,
+    "absolute_deviation_angstrom": 0.001004522621394277
+  },
+  {
+    "atom_1": "C7",
+    "atom_2": "H7B",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9801675924518041,
+    "absolute_deviation_angstrom": 0.00016759245180408833
+  },
+  {
+    "atom_1": "C7",
+    "atom_2": "H7C",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.981007115278846,
+    "absolute_deviation_angstrom": 0.0010071152788460047
+  },
+  {
+    "atom_1": "C8",
+    "atom_2": "C10",
+    "reported_distance_angstrom": 1.53,
+    "recalculated_distance_angstrom": 1.5301015315453994,
+    "absolute_deviation_angstrom": 0.00010153154539938036
+  },
+  {
+    "atom_1": "C8",
+    "atom_2": "C9",
+    "reported_distance_angstrom": 1.537,
+    "recalculated_distance_angstrom": 1.5365479224151235,
+    "absolute_deviation_angstrom": 0.00045207758487642025
+  },
+  {
+    "atom_1": "C8",
+    "atom_2": "P1",
+    "reported_distance_angstrom": 1.8536,
+    "recalculated_distance_angstrom": 1.8534892163808279,
+    "absolute_deviation_angstrom": 0.00011078361917205015
+  },
+  {
+    "atom_1": "C8",
+    "atom_2": "H8",
+    "reported_distance_angstrom": 1.0,
+    "recalculated_distance_angstrom": 1.0001011829721833,
+    "absolute_deviation_angstrom": 0.00010118297218331129
+  },
+  {
+    "atom_1": "C9",
+    "atom_2": "H9A",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9801862510045465,
+    "absolute_deviation_angstrom": 0.00018625100454650045
+  },
+  {
+    "atom_1": "C9",
+    "atom_2": "H9B",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9798443888339697,
+    "absolute_deviation_angstrom": 0.00015561116603024505
+  },
+  {
+    "atom_1": "C9",
+    "atom_2": "H9C",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9801185530884509,
+    "absolute_deviation_angstrom": 0.00011855308845087897
+  },
+  {
+    "atom_1": "C10",
+    "atom_2": "H10A",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9800509176413089,
+    "absolute_deviation_angstrom": 5.091764130893406e-05
+  },
+  {
+    "atom_1": "C10",
+    "atom_2": "H10B",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9803851670252299,
+    "absolute_deviation_angstrom": 0.00038516702522994883
+  },
+  {
+    "atom_1": "C10",
+    "atom_2": "H10C",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9803337477682001,
+    "absolute_deviation_angstrom": 0.0003337477682001655
+  },
+  {
+    "atom_1": "C11",
+    "atom_2": "C12",
+    "reported_distance_angstrom": 1.526,
+    "recalculated_distance_angstrom": 1.5259709353064896,
+    "absolute_deviation_angstrom": 2.906469351038332e-05
+  },
+  {
+    "atom_1": "C11",
+    "atom_2": "C13",
+    "reported_distance_angstrom": 1.532,
+    "recalculated_distance_angstrom": 1.5323014258544978,
+    "absolute_deviation_angstrom": 0.00030142585449777215
+  },
+  {
+    "atom_1": "C11",
+    "atom_2": "P2",
+    "reported_distance_angstrom": 1.8613,
+    "recalculated_distance_angstrom": 1.8613696875285004,
+    "absolute_deviation_angstrom": 6.968752850045057e-05
+  },
+  {
+    "atom_1": "C11",
+    "atom_2": "H11",
+    "reported_distance_angstrom": 1.0,
+    "recalculated_distance_angstrom": 1.0003497927195322,
+    "absolute_deviation_angstrom": 0.0003497927195321715
+  },
+  {
+    "atom_1": "C12",
+    "atom_2": "H12A",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9794663675038573,
+    "absolute_deviation_angstrom": 0.0005336324961426886
+  },
+  {
+    "atom_1": "C12",
+    "atom_2": "H12B",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9794345494950927,
+    "absolute_deviation_angstrom": 0.0005654505049073055
+  },
+  {
+    "atom_1": "C12",
+    "atom_2": "H12C",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9796236922227264,
+    "absolute_deviation_angstrom": 0.000376307777273599
+  },
+  {
+    "atom_1": "C13",
+    "atom_2": "H13A",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9799458974561612,
+    "absolute_deviation_angstrom": 5.4102543838752126e-05
+  },
+  {
+    "atom_1": "C13",
+    "atom_2": "H13B",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9788200815933081,
+    "absolute_deviation_angstrom": 0.0011799184066918489
+  },
+  {
+    "atom_1": "C13",
+    "atom_2": "H13C",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9799101280688394,
+    "absolute_deviation_angstrom": 8.98719311606122e-05
+  },
+  {
+    "atom_1": "C14",
+    "atom_2": "C15",
+    "reported_distance_angstrom": 1.532,
+    "recalculated_distance_angstrom": 1.5317011299628855,
+    "absolute_deviation_angstrom": 0.0002988700371144848
+  },
+  {
+    "atom_1": "C14",
+    "atom_2": "C16",
+    "reported_distance_angstrom": 1.533,
+    "recalculated_distance_angstrom": 1.5331935716009577,
+    "absolute_deviation_angstrom": 0.00019357160095778703
+  },
+  {
+    "atom_1": "C14",
+    "atom_2": "P2",
+    "reported_distance_angstrom": 1.8585,
+    "recalculated_distance_angstrom": 1.8585508889997902,
+    "absolute_deviation_angstrom": 5.0888999790110745e-05
+  },
+  {
+    "atom_1": "C14",
+    "atom_2": "H14",
+    "reported_distance_angstrom": 1.0,
+    "recalculated_distance_angstrom": 0.9993957461393586,
+    "absolute_deviation_angstrom": 0.000604253860641446
+  },
+  {
+    "atom_1": "C15",
+    "atom_2": "H15A",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9794447718528172,
+    "absolute_deviation_angstrom": 0.0005552281471827847
+  },
+  {
+    "atom_1": "C15",
+    "atom_2": "H15B",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9793360747816978,
+    "absolute_deviation_angstrom": 0.0006639252183021638
+  },
+  {
+    "atom_1": "C15",
+    "atom_2": "H15C",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.980693553527528,
+    "absolute_deviation_angstrom": 0.0006935535275279792
+  },
+  {
+    "atom_1": "C16",
+    "atom_2": "H16A",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9792571302348071,
+    "absolute_deviation_angstrom": 0.0007428697651928884
+  },
+  {
+    "atom_1": "C16",
+    "atom_2": "H16B",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9801169327203724,
+    "absolute_deviation_angstrom": 0.00011693272037238689
+  },
+  {
+    "atom_1": "C16",
+    "atom_2": "H16C",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.979995990406073,
+    "absolute_deviation_angstrom": 4.009593926990185e-06
+  },
+  {
+    "atom_1": "C17",
+    "atom_2": "O1",
+    "reported_distance_angstrom": 1.162,
+    "recalculated_distance_angstrom": 1.161722352085103,
+    "absolute_deviation_angstrom": 0.00027764791489692797
+  },
+  {
+    "atom_1": "C17",
+    "atom_2": "Mn1",
+    "reported_distance_angstrom": 1.781,
+    "recalculated_distance_angstrom": 1.7810210638389259,
+    "absolute_deviation_angstrom": 2.1063838925972078e-05
+  },
+  {
+    "atom_1": "C18",
+    "atom_2": "O2",
+    "reported_distance_angstrom": 1.1649,
+    "recalculated_distance_angstrom": 1.1646543511015721,
+    "absolute_deviation_angstrom": 0.00024564889842793036
+  },
+  {
+    "atom_1": "C18",
+    "atom_2": "Mn1",
+    "reported_distance_angstrom": 1.7507,
+    "recalculated_distance_angstrom": 1.7508186183303345,
+    "absolute_deviation_angstrom": 0.00011861833033455227
+  },
+  {
+    "atom_1": "C19",
+    "atom_2": "C20",
+    "reported_distance_angstrom": 1.517,
+    "recalculated_distance_angstrom": 1.5172805961418718,
+    "absolute_deviation_angstrom": 0.00028059614187192494
+  },
+  {
+    "atom_1": "C19",
+    "atom_2": "P3",
+    "reported_distance_angstrom": 1.846,
+    "recalculated_distance_angstrom": 1.8460598762736629,
+    "absolute_deviation_angstrom": 5.987627366277337e-05
+  },
+  {
+    "atom_1": "C19",
+    "atom_2": "H19A",
+    "reported_distance_angstrom": 0.99,
+    "recalculated_distance_angstrom": 0.9898724334294066,
+    "absolute_deviation_angstrom": 0.00012756657059342924
+  },
+  {
+    "atom_1": "C19",
+    "atom_2": "H19B",
+    "reported_distance_angstrom": 0.99,
+    "recalculated_distance_angstrom": 0.9889447402840013,
+    "absolute_deviation_angstrom": 0.0010552597159987354
+  },
+  {
+    "atom_1": "C20",
+    "atom_2": "N2",
+    "reported_distance_angstrom": 1.483,
+    "recalculated_distance_angstrom": 1.4828906232228256,
+    "absolute_deviation_angstrom": 0.0001093767771744858
+  },
+  {
+    "atom_1": "C20",
+    "atom_2": "H20A",
+    "reported_distance_angstrom": 0.99,
+    "recalculated_distance_angstrom": 0.9911118646996445,
+    "absolute_deviation_angstrom": 0.001111864699644527
+  },
+  {
+    "atom_1": "C20",
+    "atom_2": "H20B",
+    "reported_distance_angstrom": 0.99,
+    "recalculated_distance_angstrom": 0.9899745617703283,
+    "absolute_deviation_angstrom": 2.543822967171483e-05
+  },
+  {
+    "atom_1": "C21",
+    "atom_2": "N2",
+    "reported_distance_angstrom": 1.482,
+    "recalculated_distance_angstrom": 1.482261062796715,
+    "absolute_deviation_angstrom": 0.0002610627967150059
+  },
+  {
+    "atom_1": "C21",
+    "atom_2": "C22",
+    "reported_distance_angstrom": 1.522,
+    "recalculated_distance_angstrom": 1.5216090040520385,
+    "absolute_deviation_angstrom": 0.0003909959479615477
+  },
+  {
+    "atom_1": "C21",
+    "atom_2": "H21A",
+    "reported_distance_angstrom": 0.99,
+    "recalculated_distance_angstrom": 0.9901653158871632,
+    "absolute_deviation_angstrom": 0.00016531588716317547
+  },
+  {
+    "atom_1": "C21",
+    "atom_2": "H21B",
+    "reported_distance_angstrom": 0.99,
+    "recalculated_distance_angstrom": 0.9901722988269225,
+    "absolute_deviation_angstrom": 0.0001722988269224901
+  },
+  {
+    "atom_1": "C22",
+    "atom_2": "P4",
+    "reported_distance_angstrom": 1.8404,
+    "recalculated_distance_angstrom": 1.84034847867833,
+    "absolute_deviation_angstrom": 5.152132167007828e-05
+  },
+  {
+    "atom_1": "C22",
+    "atom_2": "H22A",
+    "reported_distance_angstrom": 0.99,
+    "recalculated_distance_angstrom": 0.9907719099822963,
+    "absolute_deviation_angstrom": 0.0007719099822962594
+  },
+  {
+    "atom_1": "C22",
+    "atom_2": "H22B",
+    "reported_distance_angstrom": 0.99,
+    "recalculated_distance_angstrom": 0.9902409579149555,
+    "absolute_deviation_angstrom": 0.00024095791495548635
+  },
+  {
+    "atom_1": "C23",
+    "atom_2": "C24",
+    "reported_distance_angstrom": 1.52,
+    "recalculated_distance_angstrom": 1.5202831670684074,
+    "absolute_deviation_angstrom": 0.00028316706840736394
+  },
+  {
+    "atom_1": "C23",
+    "atom_2": "C25",
+    "reported_distance_angstrom": 1.533,
+    "recalculated_distance_angstrom": 1.5330376089631987,
+    "absolute_deviation_angstrom": 3.760896319882079e-05
+  },
+  {
+    "atom_1": "C23",
+    "atom_2": "P3",
+    "reported_distance_angstrom": 1.8546,
+    "recalculated_distance_angstrom": 1.854739043399707,
+    "absolute_deviation_angstrom": 0.0001390433997070506
+  },
+  {
+    "atom_1": "C23",
+    "atom_2": "H23",
+    "reported_distance_angstrom": 1.0,
+    "recalculated_distance_angstrom": 0.9999617681313684,
+    "absolute_deviation_angstrom": 3.8231868631610766e-05
+  },
+  {
+    "atom_1": "C24",
+    "atom_2": "H24A",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9801524973277336,
+    "absolute_deviation_angstrom": 0.0001524973277335917
+  },
+  {
+    "atom_1": "C24",
+    "atom_2": "H24B",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9796292235349165,
+    "absolute_deviation_angstrom": 0.0003707764650834333
+  },
+  {
+    "atom_1": "C24",
+    "atom_2": "H24C",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9802184482732389,
+    "absolute_deviation_angstrom": 0.0002184482732389137
+  },
+  {
+    "atom_1": "C25",
+    "atom_2": "H25A",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.979887285678795,
+    "absolute_deviation_angstrom": 0.00011271432120496527
+  },
+  {
+    "atom_1": "C25",
+    "atom_2": "H25B",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9807792187797434,
+    "absolute_deviation_angstrom": 0.0007792187797434069
+  },
+  {
+    "atom_1": "C25",
+    "atom_2": "H25C",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9805037367613874,
+    "absolute_deviation_angstrom": 0.0005037367613873744
+  },
+  {
+    "atom_1": "C26",
+    "atom_2": "C28",
+    "reported_distance_angstrom": 1.529,
+    "recalculated_distance_angstrom": 1.5294593825685951,
+    "absolute_deviation_angstrom": 0.00045938256859523463
+  },
+  {
+    "atom_1": "C26",
+    "atom_2": "C27",
+    "reported_distance_angstrom": 1.535,
+    "recalculated_distance_angstrom": 1.534447090640377,
+    "absolute_deviation_angstrom": 0.0005529093596228218
+  },
+  {
+    "atom_1": "C26",
+    "atom_2": "P3",
+    "reported_distance_angstrom": 1.857,
+    "recalculated_distance_angstrom": 1.8571246408640931,
+    "absolute_deviation_angstrom": 0.00012464086409313957
+  },
+  {
+    "atom_1": "C26",
+    "atom_2": "H26",
+    "reported_distance_angstrom": 1.0,
+    "recalculated_distance_angstrom": 1.0006146706773862,
+    "absolute_deviation_angstrom": 0.0006146706773861865
+  },
+  {
+    "atom_1": "C27",
+    "atom_2": "H27A",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9804159631398905,
+    "absolute_deviation_angstrom": 0.00041596313989056277
+  },
+  {
+    "atom_1": "C27",
+    "atom_2": "H27B",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9803831926998402,
+    "absolute_deviation_angstrom": 0.000383192699840218
+  },
+  {
+    "atom_1": "C27",
+    "atom_2": "H27C",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9788711876565602,
+    "absolute_deviation_angstrom": 0.0011288123434397557
+  },
+  {
+    "atom_1": "C28",
+    "atom_2": "H28A",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.978805736571795,
+    "absolute_deviation_angstrom": 0.0011942634282049447
+  },
+  {
+    "atom_1": "C28",
+    "atom_2": "H28B",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9795048956861859,
+    "absolute_deviation_angstrom": 0.0004951043138140543
+  },
+  {
+    "atom_1": "C28",
+    "atom_2": "H28C",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9798644974055901,
+    "absolute_deviation_angstrom": 0.00013550259440986423
+  },
+  {
+    "atom_1": "C29",
+    "atom_2": "C30",
+    "reported_distance_angstrom": 1.53,
+    "recalculated_distance_angstrom": 1.5304047699039374,
+    "absolute_deviation_angstrom": 0.0004047699039373409
+  },
+  {
+    "atom_1": "C29",
+    "atom_2": "C31",
+    "reported_distance_angstrom": 1.531,
+    "recalculated_distance_angstrom": 1.5309698036321275,
+    "absolute_deviation_angstrom": 3.0196367872381558e-05
+  },
+  {
+    "atom_1": "C29",
+    "atom_2": "P4",
+    "reported_distance_angstrom": 1.863,
+    "recalculated_distance_angstrom": 1.8629379030401292,
+    "absolute_deviation_angstrom": 6.209695987080543e-05
+  },
+  {
+    "atom_1": "C29",
+    "atom_2": "H29",
+    "reported_distance_angstrom": 1.0,
+    "recalculated_distance_angstrom": 0.9994935150339365,
+    "absolute_deviation_angstrom": 0.0005064849660635362
+  },
+  {
+    "atom_1": "C30",
+    "atom_2": "H30A",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9795883145007467,
+    "absolute_deviation_angstrom": 0.00041168549925330034
+  },
+  {
+    "atom_1": "C30",
+    "atom_2": "H30B",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9806325259525493,
+    "absolute_deviation_angstrom": 0.0006325259525493676
+  },
+  {
+    "atom_1": "C30",
+    "atom_2": "H30C",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9800623740987434,
+    "absolute_deviation_angstrom": 6.237409874343403e-05
+  },
+  {
+    "atom_1": "C31",
+    "atom_2": "H31A",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9801324038821951,
+    "absolute_deviation_angstrom": 0.00013240388219515342
+  },
+  {
+    "atom_1": "C31",
+    "atom_2": "H31B",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9798881363143438,
+    "absolute_deviation_angstrom": 0.00011186368565618832
+  },
+  {
+    "atom_1": "C31",
+    "atom_2": "H31C",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9803868927202463,
+    "absolute_deviation_angstrom": 0.0003868927202462791
+  },
+  {
+    "atom_1": "C32",
+    "atom_2": "C34",
+    "reported_distance_angstrom": 1.527,
+    "recalculated_distance_angstrom": 1.527387517343741,
+    "absolute_deviation_angstrom": 0.00038751734374109503
+  },
+  {
+    "atom_1": "C32",
+    "atom_2": "C33",
+    "reported_distance_angstrom": 1.53,
+    "recalculated_distance_angstrom": 1.5302470068241325,
+    "absolute_deviation_angstrom": 0.00024700682413247854
+  },
+  {
+    "atom_1": "C32",
+    "atom_2": "P4",
+    "reported_distance_angstrom": 1.8609,
+    "recalculated_distance_angstrom": 1.8609877197927798,
+    "absolute_deviation_angstrom": 8.771979277977238e-05
+  },
+  {
+    "atom_1": "C32",
+    "atom_2": "H32",
+    "reported_distance_angstrom": 1.0,
+    "recalculated_distance_angstrom": 1.0000516680525184,
+    "absolute_deviation_angstrom": 5.1668052518438756e-05
+  },
+  {
+    "atom_1": "C33",
+    "atom_2": "H33A",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9802577509048446,
+    "absolute_deviation_angstrom": 0.0002577509048445892
+  },
+  {
+    "atom_1": "C33",
+    "atom_2": "H33B",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9805159255043416,
+    "absolute_deviation_angstrom": 0.0005159255043416522
+  },
+  {
+    "atom_1": "C33",
+    "atom_2": "H33C",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9801375018399213,
+    "absolute_deviation_angstrom": 0.00013750183992133902
+  },
+  {
+    "atom_1": "C34",
+    "atom_2": "H34A",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9804585827181582,
+    "absolute_deviation_angstrom": 0.00045858271815824025
+  },
+  {
+    "atom_1": "C34",
+    "atom_2": "H34B",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.9803713078689781,
+    "absolute_deviation_angstrom": 0.0003713078689780991
+  },
+  {
+    "atom_1": "C34",
+    "atom_2": "H34C",
+    "reported_distance_angstrom": 0.98,
+    "recalculated_distance_angstrom": 0.979548289851985,
+    "absolute_deviation_angstrom": 0.0004517101480149277
+  },
+  {
+    "atom_1": "C35",
+    "atom_2": "O3",
+    "reported_distance_angstrom": 1.164,
+    "recalculated_distance_angstrom": 1.1639356604979698,
+    "absolute_deviation_angstrom": 6.433950203010852e-05
+  },
+  {
+    "atom_1": "C35",
+    "atom_2": "Mn2",
+    "reported_distance_angstrom": 1.777,
+    "recalculated_distance_angstrom": 1.777051774071456,
+    "absolute_deviation_angstrom": 5.1774071456067716e-05
+  },
+  {
+    "atom_1": "C36",
+    "atom_2": "O4",
+    "reported_distance_angstrom": 1.1636,
+    "recalculated_distance_angstrom": 1.1635914266853975,
+    "absolute_deviation_angstrom": 8.573314602466908e-06
+  },
+  {
+    "atom_1": "C36",
+    "atom_2": "Mn2",
+    "reported_distance_angstrom": 1.7559,
+    "recalculated_distance_angstrom": 1.7558569067966239,
+    "absolute_deviation_angstrom": 4.309320337614331e-05
+  },
+  {
+    "atom_1": "Mn1",
+    "atom_2": "N1",
+    "reported_distance_angstrom": 2.1217,
+    "recalculated_distance_angstrom": 2.121757337220165,
+    "absolute_deviation_angstrom": 5.733722016465492e-05
+  },
+  {
+    "atom_1": "Mn1",
+    "atom_2": "P2",
+    "reported_distance_angstrom": 2.2988,
+    "recalculated_distance_angstrom": 2.2988121341217758,
+    "absolute_deviation_angstrom": 1.2134121775808637e-05
+  },
+  {
+    "atom_1": "Mn1",
+    "atom_2": "P1",
+    "reported_distance_angstrom": 2.3008,
+    "recalculated_distance_angstrom": 2.3008228565702864,
+    "absolute_deviation_angstrom": 2.2856570286222677e-05
+  },
+  {
+    "atom_1": "Mn2",
+    "atom_2": "N2",
+    "reported_distance_angstrom": 2.1194,
+    "recalculated_distance_angstrom": 2.119320677246379,
+    "absolute_deviation_angstrom": 7.932275362110275e-05
+  },
+  {
+    "atom_1": "Mn2",
+    "atom_2": "P3",
+    "reported_distance_angstrom": 2.3014,
+    "recalculated_distance_angstrom": 2.301466143293235,
+    "absolute_deviation_angstrom": 6.614329323495483e-05
+  },
+  {
+    "atom_1": "Mn2",
+    "atom_2": "P4",
+    "reported_distance_angstrom": 2.3022,
+    "recalculated_distance_angstrom": 2.302128815911054,
+    "absolute_deviation_angstrom": 7.118408894601913e-05
+  },
+  {
+    "atom_1": "N1",
+    "atom_2": "H1",
+    "reported_distance_angstrom": 0.835,
+    "recalculated_distance_angstrom": 0.8359613708371989,
+    "absolute_deviation_angstrom": 0.0009613708371989382
+  },
+  {
+    "atom_1": "N2",
+    "atom_2": "H2",
+    "reported_distance_angstrom": 0.845,
+    "recalculated_distance_angstrom": 0.8464989851575953,
+    "absolute_deviation_angstrom": 0.0014989851575952784
+  }
+]

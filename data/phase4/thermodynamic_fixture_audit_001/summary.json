@@ -1,0 +1,117 @@
+{
+  "schema": "synthetic_thermodynamic_foundation_audit_v1",
+  "created_utc": "2026-09-16T05:39:27.113676+00:00",
+  "evidence_class": "synthetic_mathematical_fixture_only",
+  "physical_rates_validated": false,
+  "experimental_observations": 0,
+  "new_quantum_calculations": 0,
+  "ode_integrations": 0,
+  "species_note": "A/B/C are abstract inventory-preserving labels, not proposed chemical species",
+  "inputs": {
+    "seed": 20260916,
+    "temperature_K": 383.15,
+    "standard_concentration_M": 1.0,
+    "species_mu0_kcal_mol": [
+      0.0,
+      1.0,
+      -1.0
+    ],
+    "transition_mu0_kcal_mol": [
+      22.0,
+      23.0,
+      22.5
+    ],
+    "alpha": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "beta": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "random_positive_states": 200,
+    "concentration_sampling_M": "log-uniform 1e-6 to 1, mathematical stress test only"
+  },
+  "checks": {
+    "max_dissipation_identity_defect_kcal_L_s": 1.4210854715202004e-14,
+    "min_entropy_production_kcal_L_K_s": 5.661088333800199e-08,
+    "max_inventory_derivative_defect_M_s": 8.881784197001252e-16,
+    "max_energy_reference_shift_rhs_defect_M_s": 4.085620730620576e-14,
+    "max_equilibrium_net_flux_M_s": 0.0,
+    "cycle_logK_sum": 0.0,
+    "all_three_zero_concentration_boundaries_point_inward": true
+  },
+  "observation_examples": {
+    "indistinguishable_parallel_parameters": {
+      "numerical_rank": 1,
+      "parameter_count": 2,
+      "observation_count": 3,
+      "singular_values": [
+        5.291502622129181,
+        3.2521923568142675e-16
+      ],
+      "threshold": 5.2915026221291814e-08,
+      "locally_full_column_rank": false,
+      "condition_number": null,
+      "scaled_null_directions": [
+        [
+          0.7071067811865475,
+          -0.7071067811865476
+        ]
+      ],
+      "global_structural_identifiability_established": false,
+      "physical_parameter_estimation_validated": false
+    },
+    "additional_discriminating_observation": {
+      "numerical_rank": 2,
+      "parameter_count": 2,
+      "observation_count": 4,
+      "singular_values": [
+        5.339375031417245,
+        0.7007669183673698
+      ],
+      "threshold": 5.3393750314172456e-08,
+      "locally_full_column_rank": true,
+      "condition_number": 7.619330895152406,
+      "scaled_null_directions": [],
+      "global_structural_identifiability_established": false,
+      "physical_parameter_estimation_validated": false
+    }
+  },
+  "limitations": [
+    "Synthetic fixtures prove no catalytic mechanism or parameter calibration",
+    "Ideal, closed, isothermal interior dissipation only",
+    "Local SVD rank is not global structural identifiability",
+    "No model selection, experimental optimization or real TOF performed"
+  ],
+  "source_sha256": {
+    "scripts/audit_thermodynamic_foundation.py": "8ef690c0a5b59347fc7553451f15e44f3abfebc610215ea5c29b33f06c61c5d7",
+    "src/pincer_catmech/kinetics/thermodynamic_network.py": "cdba4457d073b347ad03c241cecbd47b50b6f192f5123969b778d9ff9d656c2b"
+  }
+}

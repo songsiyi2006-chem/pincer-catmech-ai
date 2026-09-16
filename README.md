@@ -1,5 +1,65 @@
 # PINCER-CATMECH-AI
 
+## Phase 4: a falsifiable research programme and an offline HPC bridge
+
+Updated 16 September 2026. **This project is not CNS-ready.** Nature's
+originality, importance and evidence criteria inform the research plan; they do
+not certify it. No HPC account or private experimental dataset is available.
+The [bilingual research report](docs/PHASE4_RESEARCH_REPORT_ZH.md)
+([English](docs/PHASE4_RESEARCH_REPORT_EN.md)),
+[prior-art review](docs/NATURE_RESEARCH_CASE.md) and
+[human HPC guide](docs/HPC_BRIDGE_ZH.md) distinguish native calculations,
+post-processing, published experiments and proposed work.
+
+The new baseline is an experiment-linked Mn-PNP precursor rather than a claim
+that all 24 design entries are experimentally established. An unchanged public
+CIF, symmetry/occupancy checks and two complete 62-atom molecules are archived
+under [public_structure/import_v002](data/phase4/public_structure/import_v002/README.md).
+Crystal coordinates do not identify the active solution species or ground spin.
+**The CIF and coordinate derivatives are CC BY-NC 4.0, not the code's MIT
+license**; retain [third-party attribution](data/phase4/public_structure/import_v002/THIRD_PARTY_LICENSE.md).
+
+- Native local Psi4 SCF/basis diagnostics are in
+  [local_pilot_001/summary.json](data/phase4/local_pilot_001/summary.json).
+  SCF convergence and spin-quality acceptance remain separate checks.
+- The [405-row microsolvation sensitivity audit](data/phase4/solvation_sensitivity_001/summary.json)
+  exactly reconstructs 27 archived baseline values. It is reanalysis, not 405
+  new quantum jobs. Neutral tBuOH activity is not total tBuOK equivalents.
+- [Six ORCA/Slurm inputs](data/phase4/hpc_bundle_001/README.md) cover two public
+  crystal-derived candidates and multiplicities 1/3/5. They are **prepared,
+  not submitted**, and require chemistry/site review. The protocol is
+  r2SCAN-3c/CPCM(toluene) single points, not ALPB, TS searches or free energies.
+- Broad claims about cation effects, ligand cooperation, alcohol assistance
+  and high-throughput pincer screening overlap prior work. Priority is a
+  discriminating, externally validated prediction on a defined system.
+
+The [CNS innovation charter](docs/CNS_INNOVATION_CHARTER.md) states a still
+unverified shared-species hypothesis and explicit competing explanations.
+The [calculation decision plan](docs/COMPUTATION_DECISION_PLAN.md) and
+[advanced experimental design](docs/ADVANCED_EXPERIMENTS_ZH.md) define what
+could falsify it; additional computation is not a novelty certificate.
+
+- [Public precursor preprocessing](data/phase4/public_precursor_relaxation_002/README.md)
+  executed six native xTB calls. Both crystal-derived endpoints pass full
+  identity, fresh-gradient and Hessian checks on that model; distinct basins,
+  physical spin and active-species assignments are not established.
+- The [thermodynamic network foundation](docs/THERMODYNAMIC_MODEL_FOUNDATION.md)
+  implements shared forward/reverse energies, conservation, ideal closed-system
+  dissipation and local observational rank. Its 200-state audit is explicitly
+  synthetic and supplies no real catalytic rate.
+
+Reuse installed dependencies; the optional `crystallography` extra declares
+Gemmi for CIF import (this execution used 0.7.5). Create fresh output paths for
+any rerun; Phase 3 evidence remains frozen. From a configured environment:
+
+```bash
+python -m pytest tests/ -v
+python scripts/run_phase4_solvation_sensitivity.py --output /path/to/new-sensitivity
+python data/phase4/hpc_bundle_001/bridge.py verify --bundle data/phase4/hpc_bundle_001
+```
+
+The older campaign records below retain their original scope and counts.
+
 Reproducible qRRHO thermochemistry, pincer geometry generation, native GFN2-xTB
 searches, strict saddle-point validation, and evidence-gated microkinetics.
 The core initialization is followed by an actual three-hour local campaign

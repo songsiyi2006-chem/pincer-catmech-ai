@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "relative_path": "native/pair_6f07a0ac1edb438eba42d2ea49af09b0/multiplicity_5/psi.26684.35",
+      "sha256": "92cbc6a59d890d358d1ac59dada459a2ece23596578bf8c2dba0744f7371e97e",
+      "bytes": 893144,
+      "scientific_copy": false,
+      "original_local_path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\local_pilot_001\\def2svp_quintet\\native\\pair_6f07a0ac1edb438eba42d2ea49af09b0\\multiplicity_5\\psi.26684.35"
+    },
+    {
+      "relative_path": "native/pair_6f07a0ac1edb438eba42d2ea49af09b0/multiplicity_5/psi.26684.64",
+      "sha256": "536067803f3f7c5d2ad403a773d3ef1a051236a0213f3516c9d71d3ae6666205",
+      "bytes": 106943048,
+      "scientific_copy": false,
+      "original_local_path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\local_pilot_001\\def2svp_quintet\\native\\pair_6f07a0ac1edb438eba42d2ea49af09b0\\multiplicity_5\\psi.26684.64"
+    },
+    {
+      "relative_path": "native/pair_6f07a0ac1edb438eba42d2ea49af09b0/multiplicity_5/psi.26684.97",
+      "sha256": "fa8429c74193d302790c8d5dab4bbf151d590b4c6a302cac6aefe37df0ee98bf",
+      "bytes": 1674810488,
+      "scientific_copy": false,
+      "original_local_path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\local_pilot_001\\def2svp_quintet\\native\\pair_6f07a0ac1edb438eba42d2ea49af09b0\\multiplicity_5\\psi.26684.97"
+    },
+    {
+      "relative_path": "native/pair_6f07a0ac1edb438eba42d2ea49af09b0/multiplicity_5/psi4.out",
+      "sha256": "fa894a7aec216e66df533d31dc2a402622e91f0f1aa1774f23cf7fb4ebda7970",
+      "bytes": 14321,
+      "scientific_copy": true,
+      "original_local_path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\local_pilot_001\\def2svp_quintet\\native\\pair_6f07a0ac1edb438eba42d2ea49af09b0\\multiplicity_5\\psi4.out",
+      "published_relative_path": "native/native/pair_6f07a0ac1edb438eba42d2ea49af09b0/multiplicity_5/psi4.out"
+    },
+    {
+      "relative_path": "native/pair_6f07a0ac1edb438eba42d2ea49af09b0/request.json",
+      "sha256": "6dda340fa2003688f262d21589dbfd09930acae0e69d1101f67a8543476fd78f",
+      "bytes": 5565,
+      "scientific_copy": true,
+      "original_local_path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\local_pilot_001\\def2svp_quintet\\native\\pair_6f07a0ac1edb438eba42d2ea49af09b0\\request.json",
+      "published_relative_path": "native/native/pair_6f07a0ac1edb438eba42d2ea49af09b0/request.json"
+    },
+    {
+      "relative_path": "psi.26684.clean",
+      "sha256": "30972a91adcf71d45d1373288c9563b19b849302f33f2cf485cd2be90cf1c423",
+      "bytes": 585,
+      "scientific_copy": false,
+      "original_local_path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\local_pilot_001\\def2svp_quintet\\psi.26684.clean"
+    }
+  ],
+  "scratch_files_deleted": false,
+  "note": "Scientific text/arrays copied; PSIO binary intermediates retained locally with hashes."
+}

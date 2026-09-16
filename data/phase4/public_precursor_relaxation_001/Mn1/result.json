@@ -1,0 +1,42 @@
+{
+  "id": "Mn1",
+  "status": "not_started_resource",
+  "source_xyz_sha256": "1101d04dd31efe3deb1abe7880428ed75926ac97010967884687e4beff0722b3",
+  "source_metadata_sha256": "24a838e86284c428ea78b652f0b9a87d8384cd3a291d89d8d0380f35c2f4ab62",
+  "input_identity": {
+    "retained": true,
+    "lost_bonds": [],
+    "new_bonds": [],
+    "essential_bonds_retained": true,
+    "NH_distance_angstrom": 0.8359613708371987,
+    "Mn_Br_distance_angstrom": 2.5772861130883826,
+    "Mn_donor_distances_angstrom": [
+      2.1217573372201644,
+      2.300822856570287,
+      2.298812134121776
+    ],
+    "carbonyl_distances_angstrom": [
+      {
+        "Mn_C": 1.7810210638389252,
+        "C_O": 1.1617223520851032
+      },
+      {
+        "Mn_C": 1.7508186183303345,
+        "C_O": 1.1646543511015721
+      }
+    ],
+    "criterion": "Exact mapped source bond graph under 1.20 times ASE covalent-radii sum; geometric screen, not bond-order or solution-identity proof"
+  },
+  "optimization_converged": false,
+  "minimum_certified": false,
+  "accepted_chemical_label": false,
+  "quantum_wall_seconds": 0.0,
+  "native_calculations_started": 0,
+  "failure_reasons": [],
+  "hessian_status": "not_started",
+  "reason": "Insufficient remaining time or 1 GiB memory reserve",
+  "native_evidence": {
+    "file_count": 0,
+    "manifest_sha256": "69e13060ac6fe33e243154af211a02b161652d4c67b98d3993f02de75a086d2c"
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "schema": "pincer_cns_innovation_sources_v1",
+  "review_date_local": "2026-09-16",
+  "purpose": "Prospective novelty charter, not a discovered mechanism, completed preregistration, exhaustive review or journal acceptance assessment.",
+  "base_evidence_path": "data/phase4/literature_evidence.json",
+  "base_evidence_sha256": "13c989ac82701258cf9b17d2960b52676fbfd5800db98bff1fb6d1f37c6cc657",
+  "primary_paper_count": 12,
+  "new_primary_paper_ids": [
+    "P11",
+    "P12"
+  ],
+  "expanded_prior_art_id": "P07",
+  "search_scope": {
+    "queries": [
+      "manganese amine imine dormant cation",
+      "borrowing hydrogen dormant selectivity",
+      "d5gc05072c formate base",
+      "Kinetic Modeling Enables Understanding of Off-Cycle Processes",
+      "Kinetic Treatments for Catalyst Activation and Deactivation Processes DOI",
+      "site.cell.com/cell experimental biology",
+      "site.elsevier.com Cell publishes",
+      "site.science.org/content/page/science-information-authors Science",
+      "site.aaas.org Science Authors significance"
+    ],
+    "policy": "Only primary research and official publisher or author-institution records support scientific claims. Discovery indexes were not treated as primary mechanistic evidence.",
+    "limitations": [
+      "Targeted audit, not exhaustive systematic prior-art search.",
+      "Missing full text is unknown, not evidence that a question was unstudied.",
+      "Failure to find the exact combined claim does not prove priority.",
+      "Current Science author-information page was not readable during this review."
+    ]
+  },
+  "journal_sources": [
+    {
+      "id": "J_NATURE",
+      "journal": "Nature flagship",
+      "url": "https://www.nature.com/nature/for-referees/policies-and-processes",
+      "status": "Current official page read 2026-09-16",
+      "supports": [
+        "Technically sound data",
+        "Strong evidence for conclusions",
+        "Novelty",
+        "Importance within the field",
+        "Interest to general scientific audience",
+        "Advance in understanding likely to influence thinking"
+      ],
+      "limitation": "Qualitative editorial criteria, not an acceptance checklist."
+    },
+    {
+      "id": "J_SCIENCE",
+      "journal": "Science flagship",
+      "url": "https://promo.aaas.org/images/Publishing/Journals/2019/Authors%20Guide%20Brochure_Final.pdf",
+      "status": "Official AAAS 2019 guide read; Science section printed pages 8-9, PDF index 4",
+      "supports": [
+        "Significant advance in scientific understanding",
+        "Novel and broadly important data, syntheses or concepts",
+        "All scientific fields"
+      ],
+      "current_policy_url": "https://www.science.org/content/page/science-information-authors",
+      "current_policy_access": "403 Forbidden on 2026-09-16",
+      "limitation": "Historical official source explicitly dated 2019; does not verify all current 2026 policies."
+    },
+    {
+      "id": "J_CELL",
+      "journal": "Cell flagship",
+      "url": "https://shop.elsevier.com/journals/cell/0092-8674",
+      "status": "Current official publisher description read 2026-09-16",
+      "supports": [
+        "Experimental biology scope",
+        "Conceptual advances or provocative questions concerning important biological questions"
+      ],
+      "primary_aims_url": "https://www.cell.com/cell/aims",
+      "primary_aims_access": "403 Forbidden; official Elsevier description used instead",
+      "limitation": "Current organometallic project lacks a direct major biological discovery; Cell is not an assumed fit."
+    }
+  ],
+  "papers": [
+    {
+      "id": "P01",
+      "title": "Efficient and selective N-alkylation of amines with alcohols catalysed by manganese pincer complexes",
+      "authors_short": "Elangovan et al.",
+      "year": 2016,
+      "journal": "Nature Communications",
+      "doi": "10.1038/ncomms12641",
+      "url": "https://www.nature.com/articles/ncomms12641",
+      "relevance": "D",
+      "reaction": "N-alkylation of amines with alcohols, including aniline and benzyl alcohol",
+      "full_text_status": "publisher article accessed; public SI downloaded; relevant SI sections checked, not every spectrum",
+      "novelty_constraint": "Established experimental Mn-PNP borrowing-hydrogen entry point; public precursor geometry is not proof of hot-solution species or spin.",
+      "inherited_source_record": "data/phase4/literature_evidence.json#P01"
+    },
+    {
+      "id": "P02",
+      "title": "Manganese-Catalyzed and Base-Switchable Synthesis of Amines or Imines via Borrowing Hydrogen or Dehydrogenative Condensation",
+      "authors_short": "Fertig, Irrgang, Freitag, Zander and Kempe",
+      "year": 2018,
+      "journal": "ACS Catalysis",
+      "doi": "10.1021/acscatal.8b02530",
+      "url": "https://pubs.acs.org/doi/10.1021/acscatal.8b02530",
+      "relevance": "D",
+      "reaction": "Amine/imine-selective coupling of amines and alcohols",
+      "full_text_status": "official abstract and downloaded SI; full main text unknown",
+      "novelty_constraint": "Direct prior art for K/Na-associated amine/imine selectivity. Optimization condition comparisons are confounded; separate hydride experiments must be distinguished.",
+      "inherited_source_record": "data/phase4/literature_evidence.json#P02"
+    },
+    {
+      "id": "P03",
+      "title": "Mechanism of Coupling of Alcohols and Amines To Generate Aldimines and H2 by a Pincer Manganese Catalyst",
+      "authors_short": "Masdemont, Luque-Urrutia, Gimferrer, Milstein and Poater",
+      "year": 2019,
+      "journal": "ACS Catalysis",
+      "doi": "10.1021/acscatal.8b04175",
+      "url": "https://doi.org/10.1021/acscatal.8b04175",
+      "relevance": "A",
+      "reaction": "Acceptorless dehydrogenative coupling to aldimines and hydrogen",
+      "full_text_status": "author-institution accepted manuscript accessed; selected mechanism passages read",
+      "novelty_constraint": "Prior computational alcohol/water assistance in adjacent Mn aldimine/H2 chemistry.",
+      "inherited_source_record": "data/phase4/literature_evidence.json#P03"
+    },
+    {
+      "id": "P04",
+      "title": "Mechanistic insight into borrowing-hydrogen N-alkylation catalyzed by an MLC catalyst with dual proton-responsive sites",
+      "authors_short": "Mei, Du, Zhang and Hou",
+      "year": 2022,
+      "journal": "Dalton Transactions",
+      "doi": "10.1039/D2DT02597C",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2022/dt/d2dt02597c",
+      "relevance": "D",
+      "reaction": "Borrowing-hydrogen N-alkylation with a dual proton-responsive ligand",
+      "full_text_status": "official abstract accessed; full-text details unknown",
+      "novelty_constraint": "Prior Ru dual-NH mechanism; cannot establish the present Mn pathway.",
+      "inherited_source_record": "data/phase4/literature_evidence.json#P04"
+    },
+    {
+      "id": "P05",
+      "title": "Metal-ligand cooperative activation of HX (X=H, Br, OR) bond on Mn based pincer complexes",
+      "authors_short": "Krieger, Sinha, Kalikadien and Pidko",
+      "year": 2021,
+      "journal": "Zeitschrift fuer anorganische und allgemeine Chemie",
+      "doi": "10.1002/zaac.202100078",
+      "url": "https://doi.org/10.1002/zaac.202100078",
+      "relevance": "A",
+      "reaction": "Thermodynamics of HX addition and competing adducts on pincer catalysts",
+      "full_text_status": "full text accessed; methods, screening, xTB limitations and scaling discussion inspected",
+      "novelty_constraint": "Prior systematic MLC/HX computational screening; scale or automation is not novel here.",
+      "inherited_source_record": "data/phase4/literature_evidence.json#P05"
+    },
+    {
+      "id": "P06",
+      "title": "Structure, reactivity and catalytic properties of manganese-hydride amidate complexes",
+      "authors_short": "Wang, Liu, Yang, Li, Lan and Liu",
+      "year": 2022,
+      "journal": "Nature Chemistry",
+      "doi": "10.1038/s41557-022-01036-6",
+      "url": "https://www.nature.com/articles/s41557-022-01036-6",
+      "relevance": "A",
+      "reaction": "Hydrogenation and hydride-transfer reactivity of metal-hydride amidates",
+      "full_text_status": "official abstract, figure descriptions and author contributions accessed; complete text and SI unknown",
+      "novelty_constraint": "Prior alkali-associated Mn hydride cooperation in adjacent transformations.",
+      "inherited_source_record": "data/phase4/literature_evidence.json#P06"
+    },
+    {
+      "id": "P07",
+      "title": "Continuously operated liquid-phase methanol synthesis uncovering the de-/activation pathways of a molecular manganese catalyst system",
+      "authors_short": "Stahl, Steinwachs, Leitner and Vorholt",
+      "year": 2026,
+      "journal": "Green Chemistry",
+      "doi": "10.1039/D5GC05072C",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2026/gc/d5gc05072c",
+      "relevance": "A",
+      "reaction": "Continuous alcohol-assisted methanol synthesis from synthesis gas",
+      "full_text_status": "official abstract and relevant publisher full-text result passages retrieved; complete figure review not performed",
+      "novelty_constraint": "Strong adjacent prior art for base depletion, dormant formate accumulation and base-mediated recovery; same aliphatic Mn-PNP precursor identity, different reaction.",
+      "inherited_source_record": "data/phase4/literature_evidence.json#P07",
+      "online_publication_date": "2025-12-05",
+      "additional_primary_urls": [
+        "https://pubs.rsc.org/en/content/articlepdf/2026/gc/d5gc05072c",
+        "https://www.sciencedirect.com/org/science/article/pii/S1463926225012282"
+      ],
+      "additional_passages_reviewed": [
+        "Base depletion and dormant formate summary",
+        "Base-addition recovery and solvent-only comparison",
+        "Mn(CO)2Br[HN(C2H4PiPr2)2] precursor identity"
+      ],
+      "boundary": "Does not demonstrate formate dormancy, common selectivity/dormancy mediation, or the proposed interventions in borrowing-hydrogen N-alkylation."
+    },
+    {
+      "id": "P08",
+      "title": "Air Stable Iron(II) PNP Pincer Complexes as Efficient Catalysts for the Selective Alkylation of Amines with Alcohols",
+      "authors_short": "Mastalir et al.",
+      "year": 2016,
+      "journal": "Advanced Synthesis & Catalysis",
+      "doi": "10.1002/adsc.201600689",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adsc.201600689",
+      "relevance": "D",
+      "reaction": "N-alkylation of amines with alcohols",
+      "full_text_status": "official abstract accessed; full text and SI unknown",
+      "novelty_constraint": "Different Fe species/ligand compositions confound attributing catalytic activity differences to spin alone.",
+      "inherited_source_record": "data/phase4/literature_evidence.json#P08"
+    },
+    {
+      "id": "P09",
+      "title": "Methylene-Linked Triazolylidenes as Cooperative Ligands in Manganese-Catalyzed N-Alkylation",
+      "authors_short": "Batuecas, Garcia, Saviozzi, Viana, Maseras and Royo",
+      "year": 2026,
+      "journal": "Inorganic Chemistry",
+      "doi": "10.1021/acs.inorgchem.6c01357",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.inorgchem.6c01357",
+      "relevance": "D",
+      "reaction": "Aniline/benzyl-alcohol N-alkylation with a bis-triazolylidene complex",
+      "full_text_status": "official abstract, conclusions and accession-code sections accessed; SI not downloaded",
+      "novelty_constraint": "Recent direct reaction-class prior art for cooperative ligand activation and alcohol assistance.",
+      "inherited_source_record": "data/phase4/literature_evidence.json#P09"
+    },
+    {
+      "id": "P10",
+      "title": "Operando Modeling of Multicomponent Reactive Solutions in Homogeneous Catalysis: from Non-standard Free Energies to Reaction Network Control",
+      "authors_short": "Kuliaev and Pidko",
+      "year": 2020,
+      "journal": "ChemCatChem",
+      "doi": "10.1002/cctc.201901911",
+      "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cctc.201901911",
+      "relevance": "A",
+      "reaction": "CO2 hydrogenation and competing deactivation under non-standard solution conditions",
+      "full_text_status": "official abstract and methodology discussion accessed; numerical workflow not reproduced",
+      "novelty_constraint": "Prior condition-dependent nonstandard free-energy and competing reaction-network treatment.",
+      "inherited_source_record": "data/phase4/literature_evidence.json#P10"
+    },
+    {
+      "id": "P11",
+      "title": "Kinetic Modeling Enables Understanding of Off-Cycle Processes in Pd-Catalyzed Amination of Five-Membered Heteroaryl Halides",
+      "authors_short": "Raguram, Dahl, Jensen and Buchwald",
+      "year": 2024,
+      "journal": "Journal of the American Chemical Society",
+      "doi": "10.1021/jacs.4c10488",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.4c10488",
+      "primary_full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11906019/",
+      "institutional_manuscript_url": "https://dspace.mit.edu/bitstream/1721.1/165100/2/nihms-2060728.pdf",
+      "metadata_verification": "Europe PMC API DOI query verified title, authors, year and PMC11906019 on 2026-09-16.",
+      "relevance": "A",
+      "reaction": "Pd-catalyzed heteroaryl halide amination; not borrowing hydrogen",
+      "full_text_status": "PMC original article indexed passages for model comparisons, extrapolation, catalyst species, and solvent effects read; direct open intermittently returned a browser check; all SI not reviewed.",
+      "supports": [
+        "Predictive testing and competitive kinetic models can distinguish reversible off-cycle from productive pathways.",
+        "Some candidate deactivation branch points remained indistinguishable.",
+        "Catalyst species predictions were compared with experimental observations."
+      ],
+      "novelty_constraint": "Hidden-state modeling, extrapolation, species-aware checks and model-guided optimization are prior art.",
+      "does_not_support": [
+        "A shared ionic/proton-inventory mechanism in Mn borrowing hydrogen",
+        "A universally identifiable reaction network",
+        "Transfer without retraining across arbitrary ligand scaffolds"
+      ]
+    },
+    {
+      "id": "P12",
+      "title": "Kinetic Treatments for Catalyst Activation and Deactivation Processes based on Variable Time Normalization Analysis",
+      "authors_short": "Martinez-Carrion et al.",
+      "year": 2019,
+      "journal": "Angewandte Chemie International Edition",
+      "doi": "10.1002/anie.201903878",
+      "url": "https://doi.org/10.1002/anie.201903878",
+      "primary_full_text_url": "https://eprints.whiterose.ac.uk/id/eprint/168971/1/Martinezcarrion-2019-Kinetic-treatments-for-catalyst-act.pdf",
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6772004/",
+      "relevance": "A",
+      "reaction": "Rh hydroformylation and aminocatalytic Michael addition used to demonstrate kinetic treatments",
+      "full_text_status": "Author-institution original 5-page PDF accessed; abstract and relevant catalyst/time-profile sections read.",
+      "supports": [
+        "VTNA treatments account for changing active catalyst populations during activation/deactivation.",
+        "Catalyst profiles can be measured or inferred under specified assumptions."
+      ],
+      "novelty_constraint": "Induction periods, active-catalyst history, and time-normalization diagnostics are not new principles.",
+      "does_not_support": [
+        "Specific target Mn dormant-species identity",
+        "A unique latent-state inference without observation and model assumptions"
+      ]
+    }
+  ],
+  "candidate": {
+    "id": "C1",
+    "statement": "Test whether measured ionic and exchangeable-proton inventories couple amine/imine branching and reversible catalyst dormancy through shared identified species, enabling locked intervention and second-scaffold predictions.",
+    "status": "unestablished_hypothesis",
+    "prior_art_covers": [
+      "K/Na-associated product selectivity",
+      "Base depletion and catalyst recovery",
+      "Changing active-catalyst populations and history dependence",
+      "Competitive kinetics and predictive off-cycle models",
+      "Nonstandard free energies and operational reaction-network modeling"
+    ],
+    "not_innovation_by_itself": [
+      "Detailed balance",
+      "Mass/charge conservation",
+      "Nonnegative entropy production",
+      "Identifiability analysis",
+      "More instruments",
+      "DFT plus AI",
+      "HPC scale",
+      "Passing software tests"
+    ],
+    "required_new_evidence": [
+      "Identified shared chemical species in the same borrowing-hydrogen system",
+      "Interventions discriminating shared mediation from parallel responses",
+      "Predictions of species and product trajectories",
+      "Frozen mapping to a second chemically distinct ligand scaffold",
+      "Useful control beyond fair same-data baselines"
+    ],
+    "decisive_downgrades": [
+      "Independent-branch baseline predicts equally well",
+      "Observed shared-state sufficiency fails",
+      "Only condition-specific refits succeed",
+      "Second scaffold fails without informative error bounds",
+      "Only already-known cation or base-restoration effects are reproduced"
+    ]
+  },
+  "preregistration_status": "Charter only; numerical margins, sample sizes, final species network and blind-test manifest not yet locked.",
+  "evidence_snapshot_path": "data/phase4/PHASE4_STATUS.json",
+  "document": "docs/CNS_INNOVATION_CHARTER.md"
+}

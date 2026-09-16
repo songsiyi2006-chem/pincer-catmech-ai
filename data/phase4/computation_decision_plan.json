@@ -1,0 +1,701 @@
+{
+  "schema": "pincer_computation_decision_plan_v1",
+  "created_utc": "2026-09-16T05:56:06.565674+00:00",
+  "document": "docs/COMPUTATION_DECISION_PLAN.md",
+  "purpose": "Question-driven calculation plan and stop rules, not completed chemistry or a novelty certificate.",
+  "scope": {
+    "metal": "Mn",
+    "initial_scaffold": "public aliphatic PNP-NH complex 1",
+    "substrates": [
+      "aniline",
+      "benzyl alcohol"
+    ],
+    "solvent": "toluene",
+    "reaction_temperature_K": 383.15,
+    "baseline_base": "KOtBu",
+    "baseline_base_equiv_relative_to_substrate": 0.05,
+    "base_sensitivity_range_equiv": [
+      0.01,
+      0.2
+    ],
+    "catalyst_loading": "must be explicitly fixed and kept distinct from substrate-relative base equivalents",
+    "second_scaffold": "not yet selected; freeze before outcomes",
+    "excluded_default_expansion": [
+      "eight-metal screen",
+      "forced MECP",
+      "large AI model training"
+    ]
+  },
+  "actual_quantum_calculations_executed_by_this_document_task": 0,
+  "native_precursor_snapshot": {
+    "status": "completed_bounded_preprocessing",
+    "started_utc": "2026-09-16T05:48:59.513763+00:00",
+    "finished_utc": "2026-09-16T05:48:59.583334+00:00",
+    "optimizations_converged": 0,
+    "mapped_structures_retained": 0,
+    "verified_model_minima": 0,
+    "native_calculations_started": 0,
+    "validated_solution_mechanism": false,
+    "ground_spin_determined": false,
+    "thermal_free_energy_computed": false,
+    "structures": [
+      {
+        "id": "Mn1",
+        "status": "not_started_resource",
+        "optimization_converged": false,
+        "minimum_certified": false,
+        "hessian_status": "not_started",
+        "reason": "Insufficient remaining time or 1 GiB memory reserve",
+        "failure_reasons": []
+      },
+      {
+        "id": "Mn2",
+        "status": "not_started_resource",
+        "optimization_converged": false,
+        "minimum_certified": false,
+        "hessian_status": "not_started",
+        "reason": "Insufficient remaining time or 1 GiB memory reserve",
+        "failure_reasons": []
+      }
+    ],
+    "source_path": "data/phase4/public_precursor_relaxation_001/summary.json",
+    "source_present": true,
+    "source_sha256": "56368da304dd1d46292bb2f22c6c8aed2a6ac79cf2ba36916139de000dd17b03",
+    "snapshot_utc": "2026-09-16T05:56:06.565674+00:00",
+    "is_live_status": false
+  },
+  "native_driver_budget": {
+    "wall_limit_seconds": 900,
+    "per_structure_quantum_seconds": 420,
+    "optimization_limit_seconds": 210,
+    "physical_workers": 1,
+    "threads": 2,
+    "retry_count": 0,
+    "method": "GFN2-xTB",
+    "solvation": "ALPB(toluene), gsolv",
+    "charge_candidate": 0,
+    "unpaired_electrons_candidate": 0,
+    "electronic_smearing_temperature_K": 300,
+    "thermal_free_energy_computed": false,
+    "ground_spin_determined": false,
+    "validated_solution_mechanism": false
+  },
+  "prior_hpc_bundle": {
+    "path": "data/phase4/hpc_bundle_001/manifest.json",
+    "status": "prepared_not_submitted",
+    "task_count": 6,
+    "purpose": "vertical precursor spin diagnostic, not reaction barriers"
+  },
+  "activation_ledgers": {
+    "species": {
+      "P0": {
+        "formula": "C18H37BrMnNO2P2",
+        "composition": {
+          "C": 18,
+          "H": 37,
+          "Br": 1,
+          "Mn": 1,
+          "N": 1,
+          "O": 2,
+          "P": 2
+        },
+        "charge": 0,
+        "role": "Public-crystal neutral NH/Br precursor candidate",
+        "atom_count": 62,
+        "electron_count": 258,
+        "spin_state_established": false
+      },
+      "KOtBu": {
+        "formula": "C4H9KO",
+        "composition": {
+          "C": 4,
+          "H": 9,
+          "K": 1,
+          "O": 1
+        },
+        "charge": 0,
+        "role": "Stoichiometric formula unit; not a claim that monomeric dissolved KOtBu dominates",
+        "atom_count": 15,
+        "electron_count": 60,
+        "spin_state_established": false
+      },
+      "K_plus": {
+        "formula": "K+",
+        "composition": {
+          "K": 1
+        },
+        "charge": 1,
+        "role": "Formal separated-ion ledger entry; contact pairing and aggregation require explicit treatment",
+        "atom_count": 1,
+        "electron_count": 18,
+        "spin_state_established": false
+      },
+      "P0_minus_H": {
+        "formula": "C18H36BrMnNO2P2-",
+        "composition": {
+          "C": 18,
+          "H": 36,
+          "Br": 1,
+          "Mn": 1,
+          "N": 1,
+          "O": 2,
+          "P": 2
+        },
+        "charge": -1,
+        "role": "NH-deprotonated Br-retaining candidate; not generated or validated by this plan",
+        "atom_count": 61,
+        "electron_count": 258,
+        "spin_state_established": false
+      },
+      "A0": {
+        "formula": "C18H36MnNO2P2",
+        "composition": {
+          "C": 18,
+          "H": 36,
+          "Mn": 1,
+          "N": 1,
+          "O": 2,
+          "P": 2
+        },
+        "charge": 0,
+        "role": "NH-deprotonated Br-released candidate; not identified active catalyst",
+        "atom_count": 60,
+        "electron_count": 222,
+        "spin_state_established": false
+      },
+      "KBr": {
+        "formula": "KBr",
+        "composition": {
+          "K": 1,
+          "Br": 1
+        },
+        "charge": 0,
+        "role": "Salt formula unit; dissolved, ion-paired, aggregated and solid references must not be conflated",
+        "atom_count": 2,
+        "electron_count": 54,
+        "spin_state_established": false
+      },
+      "tBuOH": {
+        "formula": "C4H10O",
+        "composition": {
+          "C": 4,
+          "H": 10,
+          "O": 1
+        },
+        "charge": 0,
+        "role": "Neutral coproduct ledger entry",
+        "atom_count": 15,
+        "electron_count": 42,
+        "spin_state_established": false
+      }
+    },
+    "reactions": [
+      {
+        "id": "H_Br_retained",
+        "reactants": {
+          "P0": 1,
+          "KOtBu": 1
+        },
+        "products": {
+          "K_plus": 1,
+          "P0_minus_H": 1,
+          "tBuOH": 1
+        },
+        "element_residual": {
+          "C": 0,
+          "H": 0,
+          "Br": 0,
+          "Mn": 0,
+          "N": 0,
+          "O": 0,
+          "P": 0,
+          "K": 0
+        },
+        "charge_residual": 0,
+        "electron_count_residual": 0,
+        "left_electron_count": 318,
+        "right_electron_count": 318,
+        "kind": "overall_equilibrium_hypothesis_not_elementary_mechanism",
+        "chemically_validated": false
+      },
+      {
+        "id": "H_Br_released",
+        "reactants": {
+          "P0": 1,
+          "KOtBu": 1
+        },
+        "products": {
+          "A0": 1,
+          "KBr": 1,
+          "tBuOH": 1
+        },
+        "element_residual": {
+          "C": 0,
+          "H": 0,
+          "Br": 0,
+          "Mn": 0,
+          "N": 0,
+          "O": 0,
+          "P": 0,
+          "K": 0
+        },
+        "charge_residual": 0,
+        "electron_count_residual": 0,
+        "left_electron_count": 318,
+        "right_electron_count": 318,
+        "kind": "overall_equilibrium_hypothesis_not_elementary_mechanism",
+        "chemically_validated": false
+      }
+    ],
+    "verification": "Element, charge and electron-count residuals computed exactly as integers.",
+    "chemical_status": "symbolic_balanced_hypotheses_only",
+    "cautions": [
+      "Removing only the NH proton while retaining Br requires the anionic molecular charge in this formal bookkeeping.",
+      "KBr salt phase and KOtBu aggregation are not resolved by the ledger.",
+      "Overall equilibrium equations do not fix elementary activation order or identify the active state."
+    ]
+  },
+  "query_priority": {
+    "criterion": "Expected ability to change a structural, mechanistic or predictive decision per actual resource and audit cost",
+    "formal_option": "E_z KL[p(M|D,z,q) || p(M|D)]",
+    "numerical_EIG_available": false,
+    "reason": "No calibrated model prior, quantum-method error distribution or experimental likelihood exists for this target.",
+    "current_ranking_type": "qualitative_dependency_and_discrimination",
+    "method_error_is_not_experimental_evidence": true
+  },
+  "stages": [
+    {
+      "id": "G0",
+      "priority": "first",
+      "question": "Does the public precursor preserve its mapped chemical identity under bounded native relaxation, and do two crystal starts remain distinct?",
+      "prerequisites": [
+        "Original CIF and atom mapping",
+        "C18H37BrMnNO2P2 identity",
+        "q=0/uhf=0 explicitly tentative"
+      ],
+      "calculations": [
+        "Sequential two-start GFN2-xTB ALPB(toluene) optimization",
+        "Fresh force evaluation after optimization",
+        "Full Hessian only if time and force gates permit"
+      ],
+      "observables": [
+        "Mapped bond/coordination retention",
+        "Maximum force",
+        "Complete vibrational spectrum",
+        "Equivalent-atom-aware geometry comparison"
+      ],
+      "result_decisions": [
+        "Identity changes reject precursor-preserving result, not prove activation",
+        "Verified minimum certifies only the selected model",
+        "Method failure triggers at most a targeted independent DFT diagnostic before expansion"
+      ],
+      "execution_state": "driver_prepared_native_snapshot_attached",
+      "execution_artifacts": [
+        "scripts/run_public_precursor_relaxation.py",
+        "data/phase4/public_precursor_relaxation_001/summary.json"
+      ],
+      "resource_role": {
+        "local": "2 threads, one quantum process, bounded pilot",
+        "hpc": "Independent DFT diagnostic and any production geometry validation"
+      },
+      "stop_rules": [
+        "Native budget or memory reserve exhausted",
+        "Do not repeatedly retry the same failed low-level model",
+        "No Hessian means no minimum certificate"
+      ]
+    },
+    {
+      "id": "G1",
+      "priority": "before_full_cycle",
+      "question": "Is NH deprotonation Br-retaining or coupled to Br release under the specified inventory and phase conditions?",
+      "prerequisites": [
+        "G0 usable geometry or justified replacement",
+        "Catalyst loading and base equivalents relative to both substrate and catalyst",
+        "Halide/base/alcohol/water inventory and salt-phase assumptions"
+      ],
+      "calculations": [
+        "Balanced H_Br_retained and H_Br_released thermodynamic cycles",
+        "Representative contact-ion-pair and conformer checks",
+        "Consistent chemical potential references for K, Br, KOtBu and tBuOH"
+      ],
+      "observables": [
+        "Br inventory/phase",
+        "CO and NH-sensitive spectra",
+        "Candidate equilibrium populations"
+      ],
+      "result_decisions": [
+        "Reject input with wrong charge or missing atoms immediately",
+        "Only a method-robust comparison plus discriminating observations can constrain chemical branches",
+        "If salt-phase/method uncertainty reverses ordering, report unresolved and seek observation"
+      ],
+      "execution_state": "planned_not_run",
+      "resource_role": {
+        "local": "Ledger verification and few low-cost geometry candidates",
+        "hpc": "Critical optimizations, thermal and solvation cross-checks"
+      },
+      "stop_rules": [
+        "No full target-cycle barrier map before active-species uncertainty is addressed",
+        "Gas-phase KBr energy is not a precipitation free energy",
+        "Formal overall equations do not certify an elementary pathway"
+      ]
+    },
+    {
+      "id": "G2",
+      "priority": "after_G1",
+      "question": "Are ion pairing or minimal aggregation needed to explain effective reactive populations?",
+      "prerequisites": [
+        "Surviving G1 species",
+        "Known or bounded soluble ion/proton inventory",
+        "Candidate states distinguishable by feasible observation"
+      ],
+      "calculations": [
+        "K contact vs solvent-separated candidates",
+        "Chemically justified minimal aggregate",
+        "Matched Na control",
+        "Small explicit alcohol/water sets only when inventory-supported",
+        "Spectral discriminants for representative states"
+      ],
+      "observables": [
+        "Concentration/cation response",
+        "CO-IR or NMR discriminants with uncertainty",
+        "Ion and neutral-component inventory"
+      ],
+      "result_decisions": [
+        "Drop aggregation as a necessary explanation if simpler model has equivalent held-out predictions",
+        "Do not compare raw total energies across different atom counts",
+        "Lack of observational discrimination may justify lumping states"
+      ],
+      "execution_state": "planned_not_run",
+      "resource_role": {
+        "local": "Orientation/conformer generation and coarse screening",
+        "hpc": "Decision-critical cluster free energies and method sensitivity"
+      },
+      "stop_rules": [
+        "No exhaustive cluster-size growth without data justification",
+        "No assumed free-ion activities from nominal base equivalents"
+      ]
+    },
+    {
+      "id": "G3",
+      "priority": "after_G1_G2_can_parallel_G4",
+      "question": "Must NH directly shuttle a proton, or are external-shuttle/non-bifunctional metal pathways sufficient?",
+      "prerequisites": [
+        "Chemically coherent active-state candidates",
+        "Balanced endpoints and co-reactants",
+        "Common substrate and solvent conditions"
+      ],
+      "calculations": [
+        "Alcohol dehydrogenation and imine hydrogenation subreactions",
+        "Direct NH, external alcohol/base shuttle and chemically plausible coordination/beta-H routes",
+        "NEB or constrained guesses only as starts",
+        "TS refinement, full modes and endpoint connectivity",
+        "Sensitivity of competing fluxes to barrier uncertainty"
+      ],
+      "observables": [
+        "Subreaction rates",
+        "Properly defined KIE and label-exchange behavior",
+        "Species changes"
+      ],
+      "result_decisions": [
+        "A validated competitive non-NH path can refute exclusive obligatory NH transfer",
+        "One low barrier alone does not establish dominant flux",
+        "Optimization or NEB failure is not chemical exclusion"
+      ],
+      "execution_state": "planned_not_run",
+      "resource_role": {
+        "local": "Few path/end-point guesses",
+        "hpc": "Validated transition structures, connectivity and critical method checks"
+      },
+      "stop_rules": [
+        "No physical rate from unconnected TS or wrong imaginary mode",
+        "No forced MECP campaign before credible ordinary pathways"
+      ]
+    },
+    {
+      "id": "G4",
+      "priority": "after_G1_can_parallel_G3",
+      "question": "Can additive-dependent metal-free condensation plus established hydrogenation explain the selectivity change?",
+      "prerequisites": [
+        "Reliable organic-subbranch controls",
+        "Matched aldehyde/amine/imine/water inventories",
+        "Defined phase and concentration conditions"
+      ],
+      "calculations": [
+        "Direct and plausible alcohol/water/base-assisted condensation candidates",
+        "Consistent comparison with G3 hydrogenation",
+        "Network-level branch competition"
+      ],
+      "observables": [
+        "Aldehyde/imine/amine progress",
+        "Metal-free control response",
+        "Water and alcohol effects"
+      ],
+      "result_decisions": [
+        "If organic branch plus simple hydrogenation predicts data, shared dormant-metal control of selectivity is not necessary",
+        "A bare gas-phase high barrier cannot exclude solvent-assisted chemistry"
+      ],
+      "execution_state": "planned_not_run",
+      "resource_role": {
+        "local": "Small-molecule conformers and coarse path search",
+        "hpc": "Critical proton-transfer barriers and solution free energies"
+      },
+      "stop_rules": [
+        "No mechanistic assignment if organic controls or phase matching are unreliable",
+        "Do not omit the nonmetal branch because project branding emphasizes metal catalysis"
+      ]
+    },
+    {
+      "id": "G5",
+      "priority": "observation_triggered",
+      "question": "Is activity loss a reversible population shift, product inhibition or persistent chemical loss on the observation timescale?",
+      "prerequisites": [
+        "Species or inventory clues",
+        "Recovery and appropriate controls",
+        "Defined experimental time window"
+      ],
+      "calculations": [
+        "Evidence-supported alcohol/alkoxide, amine/imine, water or halide binding",
+        "Entry and exit pathways",
+        "Ligand/CO loss or dimerization only if motivated",
+        "Predicted spectra and recovery timescale intervals"
+      ],
+      "observables": [
+        "Recovery trajectories",
+        "Metal/ligand balance",
+        "Assigned or explicitly mixed spectral signals"
+      ],
+      "result_decisions": [
+        "Stable energy minimum with rapid escape may not explain dormancy",
+        "Failure to reproduce escape/recovery weakens reversible model",
+        "Persistent inventory/ligand change motivates a separate loss mechanism"
+      ],
+      "execution_state": "planned_not_run",
+      "resource_role": {
+        "local": "Candidate/observation organization and timescale sensitivity",
+        "hpc": "Decision-critical escape barriers and spectral calculations"
+      },
+      "stop_rules": [
+        "Do not equate lowest energy with dormancy",
+        "Do not assume CO dissociation is irreversible",
+        "All loss reservoirs retain elemental and charge ledgers"
+      ]
+    },
+    {
+      "id": "G6",
+      "priority": "synthetic_design_early_physical_fit_after_G1_G5",
+      "question": "Is a shared-species model necessary and identifiable relative to physically fair alternative networks?",
+      "prerequisites": [
+        "Consistent species and TS free-energy/experimental constraints",
+        "Observation model and calibrated noise",
+        "Independent trajectories or explicit synthetic-fixture label"
+      ],
+      "calculations": [
+        "B0 cation-related branching, B1 independent selectivity/dormancy, B2 shared species, B3 equal-data empirical baseline",
+        "Shared-energy detailed balance and material ledgers",
+        "Sensitivity, multi-start/profile analysis and predictive uncertainty",
+        "Physically consistent mechanism ablation",
+        "Identify a small number of uncertain barriers that can change decisions"
+      ],
+      "observables": [
+        "Joint species/product trajectories",
+        "Calibration and missingness information",
+        "Hold-out predictions rather than fit score alone"
+      ],
+      "result_decisions": [
+        "Equivalent simpler held-out prediction means no unique common-mechanism claim",
+        "Unresolved parameter combinations require new discriminating data or reduced claims",
+        "Ablation cannot break detailed balance to manufacture a baseline disadvantage"
+      ],
+      "execution_state": "physical_study_planned_synthetic_mathematical_foundation_exists",
+      "resource_role": {
+        "local": "Sensitivity, identifiability, scoring and experiment-design calculations",
+        "hpc": "Only high-value missing barriers selected by sensitivity and distinguishability"
+      },
+      "stop_rules": [
+        "Synthetic parameter recovery is not physical mechanism validation",
+        "Do not expand latent states merely to improve fit",
+        "Existing thermodynamic core is not a completed physical ODE prediction"
+      ]
+    },
+    {
+      "id": "G7",
+      "priority": "after_frozen_protocol",
+      "question": "Can the model predict interventions and a second ligand scaffold without using those outcomes to refit?",
+      "prerequisites": [
+        "Frozen network and structure-to-parameter mapping",
+        "Allowed independent inputs/calibration fixed",
+        "Whole-batch/whole-trajectory/scaffold holdout",
+        "Error margins and useful effect sizes fixed after pilot noise but before blind tests"
+      ],
+      "calculations": [
+        "Prospective species and product trajectories",
+        "Intervention direction, magnitude interval and timescale",
+        "Second-scaffold predictions using only allowed independent inputs",
+        "Equal-information and equal-budget baseline scoring"
+      ],
+      "observables": [
+        "Independent intervention trajectories",
+        "Second-scaffold species/product data",
+        "Practical selectivity, useful turnover, base use and side products"
+      ],
+      "result_decisions": [
+        "Outcome-informed refitting is adaptation, not blind prediction",
+        "No robust advantage over fair baselines means no demonstrated method gain",
+        "Second-scaffold failure limits domain rather than licensing replacement of test set"
+      ],
+      "execution_state": "planned_not_run",
+      "resource_role": {
+        "local": "Freeze/hash protocol and score predictions",
+        "hpc": "Only independent calculations allowed by the locked protocol",
+        "human": "Supervised experiments and retained blind outcomes"
+      },
+      "stop_rules": [
+        "Do not select favorable time points or discard unsuccessful holdouts",
+        "Do not call broad transfer established from two crystal copies of one precursor"
+      ]
+    }
+  ],
+  "status_taxonomy": {
+    "planned_not_run": "Question and acceptance criteria only; no claimed executed quantum task",
+    "prepared_not_submitted": "Inputs exist; no external execution claim",
+    "not_started_resource": "A resource gate prevented execution; not a chemical or SCF failure",
+    "optimization_failed": "Native method did not supply an accepted optimized geometry",
+    "identity_changed": "Relaxation changed the mapped precursor identity; cannot count as precursor success or confirmed activation",
+    "optimized_unverified_minimum": "Optimization may have completed but full minimum gate is incomplete",
+    "verified_model_minimum": "Minimum only for the specified model and candidate occupancy",
+    "chemically_validated": "Requires additional appropriate chemistry and independent evidence; not granted by this plan"
+  },
+  "fallbacks": [
+    {
+      "id": "F_A",
+      "question": "Which bounded inventory/condition domain can a simpler independent-branch model predict, and where is an extra state necessary?",
+      "status": "unestablished_backup_question",
+      "value": "Potential reproducibility or system-specific decision improvement",
+      "novelty_boundary": "Domain-of-validity analysis itself is not new; no CNS claim."
+    },
+    {
+      "id": "F_B",
+      "question": "Which feasible observation or calculation most efficiently resolves competing mechanisms within this one chemical problem?",
+      "status": "unestablished_backup_question",
+      "value": "Auditable negative results and a minimum verifiable network",
+      "novelty_boundary": "Only independent same-budget evidence for a genuinely new reusable method could support a separate method contribution."
+    }
+  ],
+  "sources": [
+    {
+      "doi": "10.1021/acscatal.8b02530",
+      "url": "https://pubs.acs.org/doi/10.1021/acscatal.8b02530",
+      "role": "Known cation-selective borrowing hydrogen",
+      "details_record": "data/phase4/cns_innovation_sources.json#P02"
+    },
+    {
+      "doi": "10.1021/jacs.2c00548",
+      "title": "Basic Promotors Impact Thermodynamics and Catalyst Speciation in Homogeneous Carbonyl Hydrogenation",
+      "authors_short": "Yang et al.",
+      "year": 2022,
+      "url": "https://pure.tudelft.nl/ws/portalfiles/portal/120918272/jacs.2c00548.pdf",
+      "primary_full_text_status": "Author-institution final published PDF read; speciation/product-inhibition passages, Mn-PNP Figure 7 discussion and medium-effect calculations checked.",
+      "supports": [
+        "Base effects beyond initial catalyst activation",
+        "Reversible alcohol binding and catalyst inhibition",
+        "Mn-CNC and Mn-PNP examples",
+        "Composition-dependent thermodynamic interpretation"
+      ],
+      "does_not_support": [
+        "The proposed full borrowing-hydrogen selectivity/dormancy mechanism",
+        "Independent validation of this project",
+        "Novelty merely from using a second Mn ligand scaffold"
+      ]
+    },
+    {
+      "doi": "10.1039/D5GC05072C",
+      "url": "https://pubs.rsc.org/en/content/articlepdf/2026/gc/d5gc05072c",
+      "role": "Known base-depletion/dormancy/recovery and base-dosing strategy in a different Mn reaction",
+      "details_record": "data/phase4/cns_innovation_sources.json#P07"
+    },
+    {
+      "doi": "10.1039/C9SC06140A",
+      "title": "Catalytic resonance theory: parallel reaction pathway control",
+      "authors_short": "Ardagh et al.",
+      "year": 2020,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8152411/",
+      "primary_full_text_status": "Original-paper indexed abstract and computational-method passages read; all figures/SI not audited.",
+      "supports": [
+        "Dynamic control of competing reaction pathways is established as a modeling concept"
+      ],
+      "does_not_support": [
+        "Experimental dynamic control in this homogeneous Mn-PNP system",
+        "Physical validation of a periodic base-addition schedule"
+      ]
+    },
+    {
+      "doi": "10.1021/jacs.4c10488",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11906019/",
+      "role": "Prior predictive testing and competing off-cycle kinetic models",
+      "details_record": "data/phase4/cns_innovation_sources.json#P11"
+    },
+    {
+      "doi": "10.1038/ncomms12641",
+      "url": "https://www.nature.com/articles/ncomms12641",
+      "role": "Public experimental reaction/precursor benchmark",
+      "details_record": "data/phase4/cns_innovation_sources.json#P01"
+    },
+    {
+      "doi": "10.1021/jacs.6b03709.s002",
+      "url": "https://ndownloader.figshare.com/files/5467289",
+      "role": "Public precursor crystal source",
+      "details_record": "data/phase4/public_structure/import_v002/file_manifest.json"
+    }
+  ],
+  "search_scope": "Only targeted checks of promoter/speciation and dynamic-programming prior art; not an exhaustive novelty search.",
+  "final_claims": {
+    "mechanism_discovered": false,
+    "novelty_established": false,
+    "cns_ready": false,
+    "balanced_equations_verified": true,
+    "source_and_execution_boundaries_preserved": true
+  },
+  "latest_native_precursor_run": {
+    "source_path": "data/phase4/public_precursor_relaxation_002/summary.json",
+    "source_sha256": "6f62f5d6981dd4c3fcf5e8382a7305ac03d3f6bd26af3ed3fc02416eb879dded",
+    "reviewed_utc": "2026-09-16T06:12:12.007253+00:00",
+    "source_status": "completed_bounded_preprocessing",
+    "native_calculations_started": 6,
+    "invocation_breakdown": {
+      "optimizations": 2,
+      "fresh_gradients": 2,
+      "full_hessians": 2
+    },
+    "method": "GFN2-xTB",
+    "solvent": "toluene",
+    "charge_candidate": 0,
+    "unpaired_electrons_candidate": 0,
+    "structures": [
+      {
+        "id": "Mn1",
+        "status": "verified_model_minimum",
+        "mapped_identity_retained": true,
+        "vibrational_modes": 180,
+        "positive_modes": 180,
+        "hessian_minimum_pass": true,
+        "fresh_max_force_eV_A": 0.0007802942092995298
+      },
+      {
+        "id": "Mn2",
+        "status": "verified_model_minimum",
+        "mapped_identity_retained": true,
+        "vibrational_modes": 180,
+        "positive_modes": 180,
+        "hessian_minimum_pass": true,
+        "fresh_max_force_eV_A": 0.0007509869895041861
+      }
+    ],
+    "distinct_minima_established": false,
+    "ground_spin_determined": false,
+    "validated_solution_mechanism": false,
+    "thermal_free_energy_computed": false,
+    "is_DFT": false,
+    "is_experimental_validation": false,
+    "earlier_001_snapshot_preserved": true
+  }
+}

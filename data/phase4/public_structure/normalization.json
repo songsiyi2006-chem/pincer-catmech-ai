@@ -1,0 +1,6 @@
+{
+  "changed": true,
+  "operation": "Replace only non-CIF introductory text with a data block identifier",
+  "removed_preamble": " \nCIF files of complex 1\n \n",
+  "added_header": "data_published_complex_1"
+}

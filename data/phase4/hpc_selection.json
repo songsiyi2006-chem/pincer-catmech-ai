@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "xyz": "data/phase4/public_structure/import_v002/Mn1/crystal_candidate.xyz",
+      "metadata": "data/phase4/public_structure/import_v002/Mn1/metadata.json",
+      "charge": 0,
+      "multiplicity": 1,
+      "structure_origin": "public_crystal_derived_candidate",
+      "id": "MnPNP_complex1_Mn1_M1"
+    },
+    {
+      "xyz": "data/phase4/public_structure/import_v002/Mn1/crystal_candidate.xyz",
+      "metadata": "data/phase4/public_structure/import_v002/Mn1/metadata.json",
+      "charge": 0,
+      "multiplicity": 3,
+      "structure_origin": "public_crystal_derived_candidate",
+      "id": "MnPNP_complex1_Mn1_M3"
+    },
+    {
+      "xyz": "data/phase4/public_structure/import_v002/Mn1/crystal_candidate.xyz",
+      "metadata": "data/phase4/public_structure/import_v002/Mn1/metadata.json",
+      "charge": 0,
+      "multiplicity": 5,
+      "structure_origin": "public_crystal_derived_candidate",
+      "id": "MnPNP_complex1_Mn1_M5"
+    },
+    {
+      "xyz": "data/phase4/public_structure/import_v002/Mn2/crystal_candidate.xyz",
+      "metadata": "data/phase4/public_structure/import_v002/Mn2/metadata.json",
+      "charge": 0,
+      "multiplicity": 1,
+      "structure_origin": "public_crystal_derived_candidate",
+      "id": "MnPNP_complex1_Mn2_M1"
+    },
+    {
+      "xyz": "data/phase4/public_structure/import_v002/Mn2/crystal_candidate.xyz",
+      "metadata": "data/phase4/public_structure/import_v002/Mn2/metadata.json",
+      "charge": 0,
+      "multiplicity": 3,
+      "structure_origin": "public_crystal_derived_candidate",
+      "id": "MnPNP_complex1_Mn2_M3"
+    },
+    {
+      "xyz": "data/phase4/public_structure/import_v002/Mn2/crystal_candidate.xyz",
+      "metadata": "data/phase4/public_structure/import_v002/Mn2/metadata.json",
+      "charge": 0,
+      "multiplicity": 5,
+      "structure_origin": "public_crystal_derived_candidate",
+      "id": "MnPNP_complex1_Mn2_M5"
+    }
+  ],
+  "schema": "pincer_hpc_selection_v1"
+}

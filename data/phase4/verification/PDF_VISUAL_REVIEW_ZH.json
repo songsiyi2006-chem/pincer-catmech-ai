@@ -1,0 +1,209 @@
+{
+  "schema": "phase4_pdf_visual_review_v2",
+  "reviewer": "/root/phase4_compute",
+  "reviewed_at": "2026-09-16T06:36:18.633679+00:00",
+  "reviewed_utc": "2026-09-16T06:36:18.633679+00:00",
+  "pdf_path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\outputs\\phase4-20260916\\PHASE4_RESEARCH_REPORT_ZH.pdf",
+  "pdf_sha256": "28fbe282788478bc27701717a7774fd0c5c5e23e6cab626d528034b1c9ddbe76",
+  "pdf_build_audit_sha256": "d13df84cdfd5ada72544bf15b40c835f7382a4886de3a621c40c17c83bf15378",
+  "source_sha256": "b4be20251d3a7b0e0ac5355139abf1722fd5450036dd7c460c01c96e794e00a0",
+  "language": "ZH",
+  "page_count": 12,
+  "all_pages_visual": true,
+  "all_pages_visually_reviewed": true,
+  "review_method": "Actual view_image of all 12 pages in previous full rebuilt review; final PDF pages 7-12 actually re-viewed, pages 1-6 confirmed byte-identical to those viewed. No unseen page accepted.",
+  "accepted": true,
+  "blocking_issue_count": 0,
+  "pages": [
+    {
+      "page": 1,
+      "image": "page_01.png",
+      "image_sha256": "d23359ae2a2e139b9de0a6e2753889c222f6af5baea17a619851ac941ab5df8e",
+      "extracted_text_sha256": "a7a40fe002be40ca0185bc03b7856340de400f1b36157cc0880c6f06e931bdea",
+      "visually_reviewed_with_view_image": true,
+      "layout_pass": true,
+      "blocking_issues": [],
+      "nonblocking_issues": [],
+      "observation": "新版封面品牌 Pincer-CatMech-AI 完整独立一行；标题、日期、链接、证据边界与页脚清晰。",
+      "review_basis": "Actual view_image in previous pass plus exact byte-hash identity with current PNG"
+    },
+    {
+      "page": 2,
+      "image": "page_02.png",
+      "image_sha256": "4fbe26a1e628c2aae63650c6360ec4a5c92c591e40ea66d0875b879eebba0859",
+      "extracted_text_sha256": "571272974e0b31ed2073d371bc68e675c06bc2921ef64df9c34b4a88f4b25c2f",
+      "visually_reviewed_with_view_image": true,
+      "layout_pass": true,
+      "blocking_issues": [],
+      "nonblocking_issues": [],
+      "observation": "研究判断、创新边界及 CNS 候选主张均完整；中文换行未见裁切、重叠或方框缺字；页末段落正常延续。",
+      "review_basis": "Actual view_image in previous pass plus exact byte-hash identity with current PNG"
+    },
+    {
+      "page": 3,
+      "image": "page_03.png",
+      "image_sha256": "3b353d919563893fa81cc68de90e5b79f3ccb07e80e5def0b2666bec33bb4fd4",
+      "extracted_text_sha256": "5dbeec998e653fd9d380f3a7cd74851313b455c257a2052f75c21c3ee5855407",
+      "visually_reviewed_with_view_image": true,
+      "layout_pass": true,
+      "blocking_issues": [],
+      "nonblocking_issues": [],
+      "observation": "证据分层表和自旋诊断表完整，长单元格正常换行；章节标题均有正文跟随，无孤标题。",
+      "review_basis": "Actual view_image in previous pass plus exact byte-hash identity with current PNG"
+    },
+    {
+      "page": 4,
+      "image": "page_04.png",
+      "image_sha256": "8420806213309183d3d50698c140a760396203f5b0d21b2c5debce06ccd512aa",
+      "extracted_text_sha256": "b48483554bef4c6501a3a4d54ed17e6fc8003567d602a5d8adcf4de3dddb04c1",
+      "visually_reviewed_with_view_image": true,
+      "layout_pass": true,
+      "blocking_issues": [],
+      "nonblocking_issues": [],
+      "observation": "两条活度/缔合公式清晰；表格和两图面板完整，图轴、单位、图例和图注可读，无页脚碰撞。",
+      "review_basis": "Actual view_image in previous pass plus exact byte-hash identity with current PNG"
+    },
+    {
+      "page": 5,
+      "image": "page_05.png",
+      "image_sha256": "963bf17837ec5cc3ab315c0cf04fa106903337c2b91dd2880382267e4fb6372f",
+      "extracted_text_sha256": "0e828cf2c36366312de59407c1589dd9f3666797f1d06acdce063c5bb359f66a",
+      "visually_reviewed_with_view_image": true,
+      "layout_pass": true,
+      "blocking_issues": [],
+      "nonblocking_issues": [
+        "分子式在 Mn 的 M/n 之间换行，建议日后作为不可断行短语处理。"
+      ],
+      "observation": "结构来源说明及竞争机理表完整；分子式 C18H37BrMnNO2P2 在 Mn 中间跨行，属非阻塞排版问题，完整字符仍在。",
+      "review_basis": "Actual view_image in previous pass plus exact byte-hash identity with current PNG"
+    },
+    {
+      "page": 6,
+      "image": "page_06.png",
+      "image_sha256": "cbc94d835961034514046aa4cda5d4ffed528bbe50648a4a7568bdbfd8b28df6",
+      "extracted_text_sha256": "8038685ad3d3a8ceb763b7c96fc4656f2cb2e29de30d9d2eff3de64f84bc120c",
+      "visually_reviewed_with_view_image": true,
+      "layout_pass": true,
+      "blocking_issues": [],
+      "nonblocking_issues": [],
+      "observation": "计算验收与专业平台桥接内容完整；中文段落及拉丁术语均未越界；没有孤标题。",
+      "review_basis": "Actual view_image in previous pass plus exact byte-hash identity with current PNG"
+    },
+    {
+      "page": 7,
+      "image": "page_07.png",
+      "image_sha256": "da5512a1e7fbad2ffa0dd737f635a27a9342f8aa2a74838ed3146cabd334b69e",
+      "extracted_text_sha256": "e9e545fff5651187f27ddbdbfb6e81caef57d5316e31e56b82df49ab15f23d6e",
+      "visually_reviewed_with_view_image": true,
+      "layout_pass": true,
+      "blocking_issues": [],
+      "nonblocking_issues": [],
+      "observation": "最终页 7 已实际查看：713 项测试总结移至 §8 两行正文，软件验证边界清楚；里程碑表与 §9 内容完整，无孤标题。",
+      "review_basis": "Actual view_image of this final PNG"
+    },
+    {
+      "page": 8,
+      "image": "page_08.png",
+      "image_sha256": "b5eb11e7615ecae50a21a93809beb783af1b97d5c9fca3d02ff82b57aa5ca9c5",
+      "extracted_text_sha256": "8e6c72c85a30dd5d18f437b16ec3b6c589636e64909dcdc84260279d7508174c",
+      "visually_reviewed_with_view_image": true,
+      "layout_pass": true,
+      "blocking_issues": [],
+      "nonblocking_issues": [
+        "少量中文标点单独换行；无裁切或歧义。"
+      ],
+      "observation": "最终页 8 已实际查看：守恒、活度、化学势、TST 正逆通量及行内单位完整，未重叠；末页不再留下下一页公式的引导句。",
+      "review_basis": "Actual view_image of this final PNG"
+    },
+    {
+      "page": 9,
+      "image": "page_09.png",
+      "image_sha256": "4f4527bc3b96131aacb375ba2a5e48f8f4726c3fd8834d2095292627b55621e1",
+      "extracted_text_sha256": "8b7a0a99c282f9f837bb16089230e7ff069267a5b0dfa2cdf02aa0c8b856ca76",
+      "visually_reviewed_with_view_image": true,
+      "layout_pass": true,
+      "blocking_issues": [],
+      "nonblocking_issues": [],
+      "observation": "最终页 9 已实际查看：约束引导句与详细平衡/耗散式同页；配分函数、观测与 Jacobian、缩放公式可读。末段保留多行并以两行续至页 10，非单行寡行。",
+      "review_basis": "Actual view_image of this final PNG"
+    },
+    {
+      "page": 10,
+      "image": "page_10.png",
+      "image_sha256": "8893cd2378f8a75e16f646d228fd574d580bf1713a23ede137260e2ae2de0642",
+      "extracted_text_sha256": "0be6de47dd9bacb530dbebd540ad94482faf0d2a913ac054a6f86bdc253ea230",
+      "visually_reviewed_with_view_image": true,
+      "layout_pass": true,
+      "blocking_issues": [],
+      "nonblocking_issues": [],
+      "observation": "最终页 10 已实际查看：段落正常承接；Fisher/协方差行内公式和实验表完整，未拆断表格行；没有孤标题。",
+      "review_basis": "Actual view_image of this final PNG"
+    },
+    {
+      "page": 11,
+      "image": "page_11.png",
+      "image_sha256": "e7f1cea6751917a11455367d08d9364694715400ae1974ee0a2bbf8044f456f3",
+      "extracted_text_sha256": "f7f73f5caad74448427cf09cc4f41d4396df0a56333d289a8dc0b28379b8660b",
+      "visually_reviewed_with_view_image": true,
+      "layout_pass": true,
+      "blocking_issues": [],
+      "nonblocking_issues": [],
+      "observation": "最终页 11 已实际查看：实验操作边界为完整三行段；§13 计算表、两条活化守恒式及合成数学检查说明完整，无裁切、重叠或页脚碰撞。",
+      "review_basis": "Actual view_image of this final PNG"
+    },
+    {
+      "page": 12,
+      "image": "page_12.png",
+      "image_sha256": "f9ae03d87a6350a7e65569287effaed59fe5a1e72247f543bc774203397176e7",
+      "extracted_text_sha256": "dc54144268cbdd0abeaabdfba9915f01c2e031eee96c8993970bf31bf37b6549",
+      "visually_reviewed_with_view_image": true,
+      "layout_pass": true,
+      "blocking_issues": [],
+      "nonblocking_issues": [
+        "末页为完整四行结尾段，留白较多但内容完整，非单行寡页。"
+      ],
+      "observation": "最终页 12 已实际查看：为完整四行结尾段，不再是单行测试句独占末页；链接与页脚完整。末页留白较多，经本轮排版目标允许保留。",
+      "review_basis": "Actual view_image of this final PNG"
+    }
+  ],
+  "nonblocking_notes": [
+    "第 5 页分子式在 Mn 元素符号中间换行，完整字符均在。",
+    "第 8 页个别中文标点单独换行，未遮挡公式或改变读法。",
+    "最后一页保留完整四行结尾段与留白；原单行寡页问题已解决。"
+  ],
+  "evidence_checks": {
+    "pytest_xml_sha256": "942426cbf6a8b7cfb03c72ef43c87313b674e81aec02dee7a2408b9c744c2a45",
+    "tests": 713,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "software_test_scope_explicit": true,
+    "public_precursor_audit_sha256": "f3381920e86cf782b96c3d3efb912872ff15b1250c8c2a223d3e509dbc4d6014",
+    "public_precursor_001_native_calls": 0,
+    "public_precursor_002_native_calls": 6,
+    "two_outputs_not_claimed_two_distinct_minima": true,
+    "no_new_wetlab_or_HPC_validation_claim": true
+  },
+  "scope": "Read-only final visual QA, binding current PDF/source/build hashes. All pages have actual-view evidence; six final changes re-viewed, six unchanged images re-hashed against actual-view records. Only visual_review.json overwritten; no PDF, source or render image changed.",
+  "rebuild_equivalence": {
+    "previous_pdf_sha256": "ea003bf73ba9ad8b1f3cd012934bdd6b2bd8b0bbbb4fa0efd592da1bc578f99b",
+    "previous_review_sha256": "cefa8ba19ba11f4d8fd71fc11c28134b753597fcc0413641bae6a8004e27ea60",
+    "unchanged_page_images": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "changed_pages_actually_reviewed": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "previous_single_line_last_page_issue_resolved": true
+  }
+}

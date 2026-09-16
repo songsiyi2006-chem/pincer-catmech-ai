@@ -1,0 +1,13 @@
+{
+  "status": "converged",
+  "energy_eV": -2193.517394859594,
+  "max_force_eV_A": 0.0007550323511626579,
+  "wall_seconds": 7.797000000020489,
+  "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\phase4\\public_precursor_relaxation_002\\Mn2\\optimization",
+  "charge": 0,
+  "unpaired_electrons": 0,
+  "converged": true,
+  "atoms_count": 62,
+  "output_sha256": "69f3f8b7d82e942cff26079a8016974d49d2f827fa698bb49729290c740cb956",
+  "error": null
+}

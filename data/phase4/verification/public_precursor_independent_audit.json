@@ -1,0 +1,944 @@
+{
+  "schema": "public_precursor_independent_audit_v1",
+  "created_utc": "2026-09-16T06:13:07.550328+00:00",
+  "audit_role": "Separate post-run recomputation from native files; same project assistant that authored driver, not an external human or laboratory review. No quantum process launched.",
+  "status": "pass_with_scope_limits",
+  "source_run": "data/phase4/public_precursor_relaxation_002",
+  "source_summary_sha256": "6f62f5d6981dd4c3fcf5e8382a7305ac03d3f6bd26af3ed3fc02416eb879dded",
+  "prior_run": "data/phase4/public_precursor_relaxation_001",
+  "prior_summary_sha256": "56368da304dd1d46292bb2f22c6c8aed2a6ac79cf2ba36916139de000dd17b03",
+  "native_call_counts": {
+    "001": 0,
+    "002": 6,
+    "002_optimization": 2,
+    "002_fresh_gradient": 2,
+    "002_full_hessian": 2
+  },
+  "method": "GFN2-xTB ALPB(toluene), gsolv, q0/UHF0 candidate, electronic smearing 300 K; 383.15 K context is not a computed free energy.",
+  "independent_recalculation": "Parsed ORCA-format engrad separately from driver Turbomole gradient parser; parsed all 186x186 raw Cartesian Hessian values and projected with independent QR rigid-mode complement rather than driver SVD; recalculated mapped bond graph and Kabsch alignment.",
+  "checks": [
+    {
+      "name": "Mn1 source XYZ hash",
+      "pass": true
+    },
+    {
+      "name": "Mn1 source metadata hash",
+      "pass": true
+    },
+    {
+      "name": "Mn1 candidate hash",
+      "pass": true
+    },
+    {
+      "name": "Mn1 native manifest integrity",
+      "pass": true,
+      "details": {
+        "file_count": 37,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Mn1 native manifest hash",
+      "pass": true
+    },
+    {
+      "name": "Mn1 optimization method and completion",
+      "pass": true,
+      "details": {
+        "--gfn": "2",
+        "--chrg": "0",
+        "--uhf": "0",
+        "--etemp": "300.0",
+        "--alpb": "toluene"
+      }
+    },
+    {
+      "name": "Mn1 native optimization completion",
+      "pass": true
+    },
+    {
+      "name": "Mn1 optimization text hash normalization",
+      "pass": true,
+      "details": "Receipt hashes LF-normalized captured text; native manifest hashes Windows CRLF file bytes."
+    },
+    {
+      "name": "Mn1 accepted geometry equals optimized geometry",
+      "pass": true
+    },
+    {
+      "name": "Mn1 fresh_gradient method and completion",
+      "pass": true,
+      "details": {
+        "--gfn": "2",
+        "--chrg": "0",
+        "--uhf": "0",
+        "--etemp": "300.0",
+        "--alpb": "toluene"
+      }
+    },
+    {
+      "name": "Mn1 fresh_gradient exact evaluated geometry",
+      "pass": true
+    },
+    {
+      "name": "Mn1 hessian method and completion",
+      "pass": true,
+      "details": {
+        "--gfn": "2",
+        "--chrg": "0",
+        "--uhf": "0",
+        "--etemp": "300",
+        "--alpb": "toluene"
+      }
+    },
+    {
+      "name": "Mn1 hessian exact evaluated geometry",
+      "pass": true
+    },
+    {
+      "name": "Mn1 complete mapped composition and graph",
+      "pass": true
+    },
+    {
+      "name": "Mn1 formula",
+      "pass": true
+    },
+    {
+      "name": "Mn1 Mn-Br CO2 P2N NH bonds",
+      "pass": true
+    },
+    {
+      "name": "Mn1 independent fresh gradient",
+      "pass": true,
+      "details": {
+        "recomputed_fmax_eV_A": 0.000780294228581194
+      }
+    },
+    {
+      "name": "Mn1 independent electronic energy",
+      "pass": true
+    },
+    {
+      "name": "Mn1 Hessian and gradient energy agreement",
+      "pass": true,
+      "details": {
+        "absolute_difference_eV": 8.082224667305127e-09
+      }
+    },
+    {
+      "name": "Mn1 full Cartesian Hessian cardinality",
+      "pass": true,
+      "details": {
+        "entry_count": 34596
+      }
+    },
+    {
+      "name": "Mn1 serialized Hessian hash",
+      "pass": true
+    },
+    {
+      "name": "Mn1 serialized Hessian/geometry/mass matches raw",
+      "pass": true
+    },
+    {
+      "name": "Mn1 independent QR projected spectrum",
+      "pass": true,
+      "details": {
+        "external_rank": 6,
+        "maximum_recalculation_difference_cm1": 7.275957614183426e-12
+      }
+    },
+    {
+      "name": "Mn1 strict positive internal Hessian",
+      "pass": true,
+      "details": {
+        "imaginary_count": 0,
+        "zero_count": 0,
+        "minimum_frequency_cm1": 33.468868410178,
+        "raw_relative_antisymmetry": 0.0
+      }
+    },
+    {
+      "name": "Mn1 full unbiased unscaled native Hessian",
+      "pass": true
+    },
+    {
+      "name": "Mn1 native spectrum independently agrees with minimum sign",
+      "pass": true
+    },
+    {
+      "name": "Mn2 source XYZ hash",
+      "pass": true
+    },
+    {
+      "name": "Mn2 source metadata hash",
+      "pass": true
+    },
+    {
+      "name": "Mn2 candidate hash",
+      "pass": true
+    },
+    {
+      "name": "Mn2 native manifest integrity",
+      "pass": true,
+      "details": {
+        "file_count": 37,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Mn2 native manifest hash",
+      "pass": true
+    },
+    {
+      "name": "Mn2 optimization method and completion",
+      "pass": true,
+      "details": {
+        "--gfn": "2",
+        "--chrg": "0",
+        "--uhf": "0",
+        "--etemp": "300.0",
+        "--alpb": "toluene"
+      }
+    },
+    {
+      "name": "Mn2 native optimization completion",
+      "pass": true
+    },
+    {
+      "name": "Mn2 optimization text hash normalization",
+      "pass": true,
+      "details": "Receipt hashes LF-normalized captured text; native manifest hashes Windows CRLF file bytes."
+    },
+    {
+      "name": "Mn2 accepted geometry equals optimized geometry",
+      "pass": true
+    },
+    {
+      "name": "Mn2 fresh_gradient method and completion",
+      "pass": true,
+      "details": {
+        "--gfn": "2",
+        "--chrg": "0",
+        "--uhf": "0",
+        "--etemp": "300.0",
+        "--alpb": "toluene"
+      }
+    },
+    {
+      "name": "Mn2 fresh_gradient exact evaluated geometry",
+      "pass": true
+    },
+    {
+      "name": "Mn2 hessian method and completion",
+      "pass": true,
+      "details": {
+        "--gfn": "2",
+        "--chrg": "0",
+        "--uhf": "0",
+        "--etemp": "300",
+        "--alpb": "toluene"
+      }
+    },
+    {
+      "name": "Mn2 hessian exact evaluated geometry",
+      "pass": true
+    },
+    {
+      "name": "Mn2 complete mapped composition and graph",
+      "pass": true
+    },
+    {
+      "name": "Mn2 formula",
+      "pass": true
+    },
+    {
+      "name": "Mn2 Mn-Br CO2 P2N NH bonds",
+      "pass": true
+    },
+    {
+      "name": "Mn2 independent fresh gradient",
+      "pass": true,
+      "details": {
+        "recomputed_fmax_eV_A": 0.0007509869721349165
+      }
+    },
+    {
+      "name": "Mn2 independent electronic energy",
+      "pass": true
+    },
+    {
+      "name": "Mn2 Hessian and gradient energy agreement",
+      "pass": true,
+      "details": {
+        "absolute_difference_eV": 4.299636202631518e-09
+      }
+    },
+    {
+      "name": "Mn2 full Cartesian Hessian cardinality",
+      "pass": true,
+      "details": {
+        "entry_count": 34596
+      }
+    },
+    {
+      "name": "Mn2 serialized Hessian hash",
+      "pass": true
+    },
+    {
+      "name": "Mn2 serialized Hessian/geometry/mass matches raw",
+      "pass": true
+    },
+    {
+      "name": "Mn2 independent QR projected spectrum",
+      "pass": true,
+      "details": {
+        "external_rank": 6,
+        "maximum_recalculation_difference_cm1": 6.991740519879386e-12
+      }
+    },
+    {
+      "name": "Mn2 strict positive internal Hessian",
+      "pass": true,
+      "details": {
+        "imaginary_count": 0,
+        "zero_count": 0,
+        "minimum_frequency_cm1": 33.81102119885597,
+        "raw_relative_antisymmetry": 0.0
+      }
+    },
+    {
+      "name": "Mn2 full unbiased unscaled native Hessian",
+      "pass": true
+    },
+    {
+      "name": "Mn2 native spectrum independently agrees with minimum sign",
+      "pass": true
+    },
+    {
+      "name": "execution snapshot scripts/run_public_precursor_relaxation.py",
+      "pass": true
+    },
+    {
+      "name": "execution snapshot src/pincer_catmech/quantum/xtb_backend.py",
+      "pass": true
+    },
+    {
+      "name": "execution snapshot src/pincer_catmech/quantum/thermochemistry.py",
+      "pass": true
+    },
+    {
+      "name": "execution snapshot src/pincer_catmech/kinetics/neb_ts_search.py",
+      "pass": true
+    },
+    {
+      "name": "xTB executable hash",
+      "pass": true
+    },
+    {
+      "name": "original CIF hash",
+      "pass": true
+    },
+    {
+      "name": "002 native call total",
+      "pass": true
+    },
+    {
+      "name": "002 accepted diagnostics totals",
+      "pass": true
+    },
+    {
+      "name": "001 no native calls",
+      "pass": true
+    },
+    {
+      "name": "cross-conformer mapped element/graph identity",
+      "pass": true
+    },
+    {
+      "name": "raw evidence unchanged during independent audit",
+      "pass": true
+    }
+  ],
+  "checks_passed": 63,
+  "checks_total": 63,
+  "structures": [
+    {
+      "id": "Mn1",
+      "audit_model_minimum_pass": true,
+      "atoms": 62,
+      "formula": "C18H37BrMnNO2P2",
+      "mapped_bond_count": 63,
+      "essential_bond_count": 9,
+      "fresh_fmax_eV_A": 0.000780294228581194,
+      "fresh_energy_eV": -2193.5175100705887,
+      "hessian_energy_eV": -2193.5175100625065,
+      "full_cartesian_shape": [
+        186,
+        186
+      ],
+      "external_modes_removed": 6,
+      "internal_modes": 180,
+      "imaginary_internal_modes": 0,
+      "lowest_internal_frequency_cm1": 33.468868410178,
+      "native_xtb_lowest_frequency_cm1": 33.41,
+      "projection_comparison": "Independent QR projection of unprojected hessian.out reproduces stored SVD spectrum. Native xTB vibspectrum uses its own projection/mass treatment and differs slightly; signs agree.",
+      "NH_distance_A": 1.0281772844732533,
+      "Mn_Br_distance_A": 2.434078793660539,
+      "native_files_hashed": 37
+    },
+    {
+      "id": "Mn2",
+      "audit_model_minimum_pass": true,
+      "atoms": 62,
+      "formula": "C18H37BrMnNO2P2",
+      "mapped_bond_count": 63,
+      "essential_bond_count": 9,
+      "fresh_fmax_eV_A": 0.0007509869721349165,
+      "fresh_energy_eV": -2193.5173948574716,
+      "hessian_energy_eV": -2193.517394853172,
+      "full_cartesian_shape": [
+        186,
+        186
+      ],
+      "external_modes_removed": 6,
+      "internal_modes": 180,
+      "imaginary_internal_modes": 0,
+      "lowest_internal_frequency_cm1": 33.81102119885597,
+      "native_xtb_lowest_frequency_cm1": 33.7,
+      "projection_comparison": "Independent QR projection of unprojected hessian.out reproduces stored SVD spectrum. Native xTB vibspectrum uses its own projection/mass treatment and differs slightly; signs agree.",
+      "NH_distance_A": 1.028178776785402,
+      "Mn_Br_distance_A": 2.434294583800768,
+      "native_files_hashed": 37
+    }
+  ],
+  "native_calls": [
+    {
+      "structure": "Mn1",
+      "kind": "optimization",
+      "stdout_sha256": "414150215b391554a17b054ab8b472492fed27468862acb3ee0a2c01f2a953e2",
+      "command_record_sha256": "bfd4e177ddac8f84b567a7e1fa3acec48d99c58cb72e7fbd721152efe64e28d5",
+      "native_normal_termination": true
+    },
+    {
+      "structure": "Mn1",
+      "kind": "fresh_gradient",
+      "stdout_sha256": "75f00e9251c3456be551ff997e56426e42265b706cc39578cad6bde08986d848",
+      "command_record_sha256": "28741769a782c23e24042c39b8929d7d1da800b8f4be6732a13f60b838adbdd5",
+      "native_normal_termination": true
+    },
+    {
+      "structure": "Mn1",
+      "kind": "hessian",
+      "stdout_sha256": "adbc6d616ea5c52c8149007fda2cbf3d61d04c22ababa1c0057ebd33bd0754e2",
+      "command_record_sha256": "b132df1dab857c38acc2841351066f7268964530a8a76e20167ce7f4254aed22",
+      "native_normal_termination": true
+    },
+    {
+      "structure": "Mn2",
+      "kind": "optimization",
+      "stdout_sha256": "131ed85e62dfc5c0f36aebcfac8d9d9f1aacdfc690a540c12513d661aab8f1b0",
+      "command_record_sha256": "bfd4e177ddac8f84b567a7e1fa3acec48d99c58cb72e7fbd721152efe64e28d5",
+      "native_normal_termination": true
+    },
+    {
+      "structure": "Mn2",
+      "kind": "fresh_gradient",
+      "stdout_sha256": "61882cf036b19183351bc2038db53839919e79218172b9772e4362177f9b4b2a",
+      "command_record_sha256": "123ac65898b0463a896be3ae8f84ac2b8d27c096c22363b4be10bd3c820eed57",
+      "native_normal_termination": true
+    },
+    {
+      "structure": "Mn2",
+      "kind": "hessian",
+      "stdout_sha256": "8c6e9567f334d88b23861951b9785f593f3cf4f7fb2cee3d28dc5d4d7b45eb03",
+      "command_record_sha256": "45b996da36713e558fb724488233bc1d2dbbbf940c5f4223a3d1eb71c2a8aadb",
+      "native_normal_termination": true
+    }
+  ],
+  "conformer_comparison": {
+    "mapping": "CIF C1..C18 to C19..C36; corresponding carbon-bound H offsets +18; Mn1 to Mn2, Br1 to Br2, N1 to N2, P1/P2 to P3/P4, O1/O2 to O3/O4, NH H1 to H2; exact mapped graph checked.",
+    "atom_pairs": [
+      {
+        "Mn1_index": 0,
+        "Mn1_label": "Mn1",
+        "Mn2_index": 0,
+        "Mn2_label": "Mn2"
+      },
+      {
+        "Mn1_index": 1,
+        "Mn1_label": "Br1",
+        "Mn2_index": 1,
+        "Mn2_label": "Br2"
+      },
+      {
+        "Mn1_index": 2,
+        "Mn1_label": "C1",
+        "Mn2_index": 2,
+        "Mn2_label": "C19"
+      },
+      {
+        "Mn1_index": 3,
+        "Mn1_label": "H1A",
+        "Mn2_index": 3,
+        "Mn2_label": "H19A"
+      },
+      {
+        "Mn1_index": 4,
+        "Mn1_label": "H1B",
+        "Mn2_index": 4,
+        "Mn2_label": "H19B"
+      },
+      {
+        "Mn1_index": 5,
+        "Mn1_label": "C2",
+        "Mn2_index": 5,
+        "Mn2_label": "C20"
+      },
+      {
+        "Mn1_index": 6,
+        "Mn1_label": "H2A",
+        "Mn2_index": 6,
+        "Mn2_label": "H20A"
+      },
+      {
+        "Mn1_index": 7,
+        "Mn1_label": "H2B",
+        "Mn2_index": 7,
+        "Mn2_label": "H20B"
+      },
+      {
+        "Mn1_index": 8,
+        "Mn1_label": "C3",
+        "Mn2_index": 8,
+        "Mn2_label": "C21"
+      },
+      {
+        "Mn1_index": 9,
+        "Mn1_label": "H3A",
+        "Mn2_index": 9,
+        "Mn2_label": "H21A"
+      },
+      {
+        "Mn1_index": 10,
+        "Mn1_label": "H3B",
+        "Mn2_index": 10,
+        "Mn2_label": "H21B"
+      },
+      {
+        "Mn1_index": 11,
+        "Mn1_label": "C4",
+        "Mn2_index": 11,
+        "Mn2_label": "C22"
+      },
+      {
+        "Mn1_index": 12,
+        "Mn1_label": "H4A",
+        "Mn2_index": 12,
+        "Mn2_label": "H22A"
+      },
+      {
+        "Mn1_index": 13,
+        "Mn1_label": "H4B",
+        "Mn2_index": 13,
+        "Mn2_label": "H22B"
+      },
+      {
+        "Mn1_index": 14,
+        "Mn1_label": "C5",
+        "Mn2_index": 14,
+        "Mn2_label": "C23"
+      },
+      {
+        "Mn1_index": 15,
+        "Mn1_label": "H5",
+        "Mn2_index": 15,
+        "Mn2_label": "H23"
+      },
+      {
+        "Mn1_index": 16,
+        "Mn1_label": "C6",
+        "Mn2_index": 16,
+        "Mn2_label": "C24"
+      },
+      {
+        "Mn1_index": 17,
+        "Mn1_label": "H6A",
+        "Mn2_index": 17,
+        "Mn2_label": "H24A"
+      },
+      {
+        "Mn1_index": 18,
+        "Mn1_label": "H6B",
+        "Mn2_index": 18,
+        "Mn2_label": "H24B"
+      },
+      {
+        "Mn1_index": 19,
+        "Mn1_label": "H6C",
+        "Mn2_index": 19,
+        "Mn2_label": "H24C"
+      },
+      {
+        "Mn1_index": 20,
+        "Mn1_label": "C7",
+        "Mn2_index": 20,
+        "Mn2_label": "C25"
+      },
+      {
+        "Mn1_index": 21,
+        "Mn1_label": "H7A",
+        "Mn2_index": 21,
+        "Mn2_label": "H25A"
+      },
+      {
+        "Mn1_index": 22,
+        "Mn1_label": "H7B",
+        "Mn2_index": 22,
+        "Mn2_label": "H25B"
+      },
+      {
+        "Mn1_index": 23,
+        "Mn1_label": "H7C",
+        "Mn2_index": 23,
+        "Mn2_label": "H25C"
+      },
+      {
+        "Mn1_index": 24,
+        "Mn1_label": "C8",
+        "Mn2_index": 24,
+        "Mn2_label": "C26"
+      },
+      {
+        "Mn1_index": 25,
+        "Mn1_label": "H8",
+        "Mn2_index": 25,
+        "Mn2_label": "H26"
+      },
+      {
+        "Mn1_index": 26,
+        "Mn1_label": "C9",
+        "Mn2_index": 26,
+        "Mn2_label": "C27"
+      },
+      {
+        "Mn1_index": 27,
+        "Mn1_label": "H9A",
+        "Mn2_index": 27,
+        "Mn2_label": "H27A"
+      },
+      {
+        "Mn1_index": 28,
+        "Mn1_label": "H9B",
+        "Mn2_index": 28,
+        "Mn2_label": "H27B"
+      },
+      {
+        "Mn1_index": 29,
+        "Mn1_label": "H9C",
+        "Mn2_index": 29,
+        "Mn2_label": "H27C"
+      },
+      {
+        "Mn1_index": 30,
+        "Mn1_label": "C10",
+        "Mn2_index": 30,
+        "Mn2_label": "C28"
+      },
+      {
+        "Mn1_index": 31,
+        "Mn1_label": "H10A",
+        "Mn2_index": 31,
+        "Mn2_label": "H28A"
+      },
+      {
+        "Mn1_index": 32,
+        "Mn1_label": "H10B",
+        "Mn2_index": 32,
+        "Mn2_label": "H28B"
+      },
+      {
+        "Mn1_index": 33,
+        "Mn1_label": "H10C",
+        "Mn2_index": 33,
+        "Mn2_label": "H28C"
+      },
+      {
+        "Mn1_index": 34,
+        "Mn1_label": "C11",
+        "Mn2_index": 34,
+        "Mn2_label": "C29"
+      },
+      {
+        "Mn1_index": 35,
+        "Mn1_label": "H11",
+        "Mn2_index": 35,
+        "Mn2_label": "H29"
+      },
+      {
+        "Mn1_index": 36,
+        "Mn1_label": "C12",
+        "Mn2_index": 36,
+        "Mn2_label": "C30"
+      },
+      {
+        "Mn1_index": 37,
+        "Mn1_label": "H12A",
+        "Mn2_index": 37,
+        "Mn2_label": "H30A"
+      },
+      {
+        "Mn1_index": 38,
+        "Mn1_label": "H12B",
+        "Mn2_index": 38,
+        "Mn2_label": "H30B"
+      },
+      {
+        "Mn1_index": 39,
+        "Mn1_label": "H12C",
+        "Mn2_index": 39,
+        "Mn2_label": "H30C"
+      },
+      {
+        "Mn1_index": 40,
+        "Mn1_label": "C13",
+        "Mn2_index": 40,
+        "Mn2_label": "C31"
+      },
+      {
+        "Mn1_index": 41,
+        "Mn1_label": "H13A",
+        "Mn2_index": 41,
+        "Mn2_label": "H31A"
+      },
+      {
+        "Mn1_index": 42,
+        "Mn1_label": "H13B",
+        "Mn2_index": 42,
+        "Mn2_label": "H31B"
+      },
+      {
+        "Mn1_index": 43,
+        "Mn1_label": "H13C",
+        "Mn2_index": 43,
+        "Mn2_label": "H31C"
+      },
+      {
+        "Mn1_index": 44,
+        "Mn1_label": "C14",
+        "Mn2_index": 44,
+        "Mn2_label": "C32"
+      },
+      {
+        "Mn1_index": 45,
+        "Mn1_label": "H14",
+        "Mn2_index": 45,
+        "Mn2_label": "H32"
+      },
+      {
+        "Mn1_index": 46,
+        "Mn1_label": "C15",
+        "Mn2_index": 46,
+        "Mn2_label": "C33"
+      },
+      {
+        "Mn1_index": 47,
+        "Mn1_label": "H15A",
+        "Mn2_index": 47,
+        "Mn2_label": "H33A"
+      },
+      {
+        "Mn1_index": 48,
+        "Mn1_label": "H15B",
+        "Mn2_index": 48,
+        "Mn2_label": "H33B"
+      },
+      {
+        "Mn1_index": 49,
+        "Mn1_label": "H15C",
+        "Mn2_index": 49,
+        "Mn2_label": "H33C"
+      },
+      {
+        "Mn1_index": 50,
+        "Mn1_label": "C16",
+        "Mn2_index": 50,
+        "Mn2_label": "C34"
+      },
+      {
+        "Mn1_index": 51,
+        "Mn1_label": "H16A",
+        "Mn2_index": 51,
+        "Mn2_label": "H34A"
+      },
+      {
+        "Mn1_index": 52,
+        "Mn1_label": "H16B",
+        "Mn2_index": 52,
+        "Mn2_label": "H34B"
+      },
+      {
+        "Mn1_index": 53,
+        "Mn1_label": "H16C",
+        "Mn2_index": 53,
+        "Mn2_label": "H34C"
+      },
+      {
+        "Mn1_index": 54,
+        "Mn1_label": "C17",
+        "Mn2_index": 54,
+        "Mn2_label": "C35"
+      },
+      {
+        "Mn1_index": 55,
+        "Mn1_label": "C18",
+        "Mn2_index": 55,
+        "Mn2_label": "C36"
+      },
+      {
+        "Mn1_index": 56,
+        "Mn1_label": "N1",
+        "Mn2_index": 56,
+        "Mn2_label": "N2"
+      },
+      {
+        "Mn1_index": 57,
+        "Mn1_label": "O1",
+        "Mn2_index": 57,
+        "Mn2_label": "O3"
+      },
+      {
+        "Mn1_index": 58,
+        "Mn1_label": "O2",
+        "Mn2_index": 58,
+        "Mn2_label": "O4"
+      },
+      {
+        "Mn1_index": 59,
+        "Mn1_label": "P1",
+        "Mn2_index": 59,
+        "Mn2_label": "P3"
+      },
+      {
+        "Mn1_index": 60,
+        "Mn1_label": "P2",
+        "Mn2_index": 60,
+        "Mn2_label": "P4"
+      },
+      {
+        "Mn1_index": 61,
+        "Mn1_label": "H1",
+        "Mn2_index": 61,
+        "Mn2_label": "H2"
+      }
+    ],
+    "transformation": "Centroid translation and proper Kabsch rotation only, no reflection; no atom permutation optimization required.",
+    "relaxed_all_atoms": {
+      "rmsd_angstrom": 0.003542911313092786,
+      "maximum_atom_displacement_angstrom": 0.006908966628045483,
+      "rotation_determinant": 1.0000000000000009
+    },
+    "relaxed_heavy_atoms": {
+      "rmsd_angstrom": 0.002726599764678449,
+      "maximum_atom_displacement_angstrom": 0.005034959845705988,
+      "rotation_determinant": 1.0000000000000002
+    },
+    "crystal_start_all_atoms": {
+      "rmsd_angstrom": 0.06153216551006881,
+      "maximum_atom_displacement_angstrom": 0.1418473117949971,
+      "rotation_determinant": 1.000000000000001
+    },
+    "selected_local_torsions": [
+      {
+        "zero_based_indices": [
+          59,
+          2,
+          5,
+          56
+        ],
+        "Mn1_deg": 308.9197704140187,
+        "Mn2_deg": 308.87015034319955,
+        "wrapped_difference_deg": -0.049620070819173634
+      },
+      {
+        "zero_based_indices": [
+          56,
+          8,
+          11,
+          60
+        ],
+        "Mn1_deg": 56.09374361132806,
+        "Mn2_deg": 56.076282328528634,
+        "wrapped_difference_deg": -0.017461282799416722
+      },
+      {
+        "zero_based_indices": [
+          2,
+          59,
+          14,
+          16
+        ],
+        "Mn1_deg": 177.86937621075126,
+        "Mn2_deg": 177.88030480380567,
+        "wrapped_difference_deg": 0.01092859305441607
+      },
+      {
+        "zero_based_indices": [
+          2,
+          59,
+          24,
+          26
+        ],
+        "Mn1_deg": 169.78050557602765,
+        "Mn2_deg": 169.80086589293037,
+        "wrapped_difference_deg": 0.020360316902724662
+      },
+      {
+        "zero_based_indices": [
+          11,
+          60,
+          34,
+          36
+        ],
+        "Mn1_deg": 26.089691436561548,
+        "Mn2_deg": 26.102810904038297,
+        "wrapped_difference_deg": 0.01311946747674142
+      },
+      {
+        "zero_based_indices": [
+          11,
+          60,
+          44,
+          46
+        ],
+        "Mn1_deg": 48.038657871848784,
+        "Mn2_deg": 48.11899320618381,
+        "wrapped_difference_deg": 0.08033533433501816
+      }
+    ],
+    "Mn2_minus_Mn1_electronic_energy_eV": 0.00011521311716933269,
+    "Mn2_minus_Mn1_electronic_energy_kJ_mol": 0.011116375875043742,
+    "Mn2_minus_Mn1_electronic_energy_kcal_mol": 0.0026568775991959188,
+    "energy_definition": "Native total electronic/SCC model energy including ALPB excess solvation at 300 K electronic smearing; not a 383.15 K solution Gibbs free energy.",
+    "deduplication_interpretation": "Near-identical relaxed conformations, consistent with one local conformational basin to the achieved optimization accuracy. Two passing calculations must not be reported as two distinct minima. Exact basin identity is not mathematically established by an RMSD comparison.",
+    "reported_distinct_minimum_count": null,
+    "distinct_minimum_count_status": "Not established; keep two certified outputs separately but do not claim two independent minima."
+  },
+  "warnings": [
+    {
+      "structure": "Mn2",
+      "warning": [
+        "Refinement of some symmetry elements was terminated before convergence was reached.",
+        "Some symmetry elements may remain unidentified."
+      ],
+      "interpretation": "Native symmetry finder warning in automatic thermochemistry section; not an SCC/geometry failure. All 180 independent internal curvatures positive. No thermochemical or symmetry-number validation claimed."
+    }
+  ],
+  "limitations": [
+    "Finite-difference full Hessian at one 0.005 bohr step; no step-size convergence study. A symmetric stored Hessian is not a finite-difference error bound.",
+    "q0/UHF0 is an electron-count candidate; no ground-spin comparison, DFT confirmation, active-species assignment, experimental mechanism validation, transition state or MECP created.",
+    "xTB automatic thermo text was not promoted to validated thermochemistry; no 383.15 K solution free energy certified.",
+    "Receipt optimization output_sha256 is LF-normalized text; native_manifest SHA256 binds actual CRLF bytes; both were checked."
+  ],
+  "conclusion_zh": "002 批次确有 6 次原生 xTB 调用，两个晶体起点各完成优化、独立梯度及完整 Hessian，均保持映射成键并通过模型极小值检查；001 批次原生调用为 0。两输出按 CIF 原子映射叠合后几乎相同，应按两个通过检查的计算结果报告，不能称为两个不同极小值。"
+}

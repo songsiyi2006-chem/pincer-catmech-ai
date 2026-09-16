@@ -1,0 +1,293 @@
+{
+  "schema": "phase4_final_report_consistency_v1",
+  "created_utc": "2026-09-16T06:34:01.212409+00:00",
+  "status": "consistent_with_sources",
+  "reviewer": "Codex reports collaboration agent",
+  "scope": "Read-only final bilingual scientific-text consistency review against stored native-result JSON, independent recomputation audit JSON and existing pytest XML. Only this audit JSON was written; reports and scientific code were not modified.",
+  "reports": [
+    {
+      "path": "docs/PHASE4_RESEARCH_REPORT_EN.md",
+      "absolute_path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\docs\\PHASE4_RESEARCH_REPORT_EN.md",
+      "sha256": "71ca6a02331fffaa2a090c79c14f494a8db7b1d4cbc4dee9e0df3fc7351e4b0e"
+    },
+    {
+      "path": "docs/PHASE4_RESEARCH_REPORT_ZH.md",
+      "absolute_path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\docs\\PHASE4_RESEARCH_REPORT_ZH.md",
+      "sha256": "b4be20251d3a7b0e0ac5355139abf1722fd5450036dd7c460c01c96e794e00a0"
+    }
+  ],
+  "source_files": [
+    {
+      "role": "psi4",
+      "path": "data/phase4/local_pilot_001/summary.json",
+      "sha256": "076b9bfaad822e7123a97472ff1f733cda26de51290d6c23300704dbc7c88018"
+    },
+    {
+      "role": "xtb_precheck",
+      "path": "data/phase4/public_precursor_relaxation_001/summary.json",
+      "sha256": "56368da304dd1d46292bb2f22c6c8aed2a6ac79cf2ba36916139de000dd17b03"
+    },
+    {
+      "role": "xtb_run",
+      "path": "data/phase4/public_precursor_relaxation_002/summary.json",
+      "sha256": "6f62f5d6981dd4c3fcf5e8382a7305ac03d3f6bd26af3ed3fc02416eb879dded"
+    },
+    {
+      "role": "Mn1",
+      "path": "data/phase4/public_precursor_relaxation_002/Mn1/result.json",
+      "sha256": "172d0bad9aada0b421610421349677cad7a2eeb5e69daa16b830c88b5b1be0ba"
+    },
+    {
+      "role": "Mn2",
+      "path": "data/phase4/public_precursor_relaxation_002/Mn2/result.json",
+      "sha256": "2466a9dac0a6096ce96c530681166bb28c43a39a65041405c0171844430f013b"
+    },
+    {
+      "role": "native_audit",
+      "path": "data/phase4/verification/public_precursor_independent_audit.json",
+      "sha256": "f3381920e86cf782b96c3d3efb912872ff15b1250c8c2a223d3e509dbc4d6014"
+    },
+    {
+      "role": "fixture",
+      "path": "data/phase4/thermodynamic_fixture_audit_001/summary.json",
+      "sha256": "95e9a88ce6b45871423222b2d206f519a74494642bfe5678b913a898f97d8c5b"
+    },
+    {
+      "role": "activation",
+      "path": "data/phase4/activation_hypotheses.json",
+      "sha256": "d8714c64bacef29c244579e80495f8993cd335ae22a58419db5449a84b0f1041"
+    },
+    {
+      "role": "pytest",
+      "path": "data/phase4/verification/pytest.xml",
+      "sha256": "942426cbf6a8b7cfb03c72ef43c87313b674e81aec02dee7a2408b9c744c2a45"
+    },
+    {
+      "role": "status",
+      "path": "data/phase4/PHASE4_STATUS.json",
+      "sha256": "75dc29941c138ebbea6764e0ad770533fa6d1537db069768d7cf5139b3ed2581"
+    }
+  ],
+  "checks_total": 18,
+  "checks_passed": 18,
+  "checks": [
+    {
+      "id": "psi4_jobs_separately_counted",
+      "passed": true,
+      "evidence": {
+        "jobs": 3,
+        "SCF_converged": 2,
+        "spin_quality_pass": 1,
+        "accepted_chemical_labels": 0,
+        "scope": "Gas-phase vertical SCF and basis feasibility diagnostic at a prior xTB geometry."
+      }
+    },
+    {
+      "id": "precheck_started_no_quantum_calls",
+      "passed": true,
+      "evidence": {
+        "native_calculations_started": 0
+      }
+    },
+    {
+      "id": "xtb_six_calls_not_conflated_with_Psi4",
+      "passed": true,
+      "evidence": {
+        "001": 0,
+        "002": 6,
+        "002_optimization": 2,
+        "002_fresh_gradient": 2,
+        "002_full_hessian": 2
+      }
+    },
+    {
+      "id": "runtime_and_protocol",
+      "passed": true,
+      "evidence": {
+        "method": "GFN2-xTB",
+        "solvent": "toluene",
+        "solvation_state": "gsolv",
+        "threads": 2,
+        "physical_workers": 1,
+        "total_elapsed_seconds": 120.59299999999348,
+        "electronic_smearing_temperature_K": 300.0,
+        "reaction_temperature_context_K": 383.15,
+        "thermal_free_energy_computed": false
+      }
+    },
+    {
+      "id": "Mn1_minimum_table",
+      "passed": true,
+      "evidence": {
+        "force_eV_A": 0.0007802942092995298,
+        "lowest_internal_frequency_cm1": 33.46886841017446,
+        "full_internal_modes": 180,
+        "imaginary_modes": 0,
+        "rounded_force": "0.00078029",
+        "rounded_frequency": "33.4689",
+        "accepted_chemical_label": false
+      }
+    },
+    {
+      "id": "Mn2_minimum_table",
+      "passed": true,
+      "evidence": {
+        "force_eV_A": 0.0007509869895041861,
+        "lowest_internal_frequency_cm1": 33.81102119885175,
+        "full_internal_modes": 180,
+        "imaginary_modes": 0,
+        "rounded_force": "0.00075099",
+        "rounded_frequency": "33.8110",
+        "accepted_chemical_label": false
+      }
+    },
+    {
+      "id": "near_duplicate_outputs_not_two_distinct_minima",
+      "passed": true,
+      "evidence": {
+        "mapped_all_atom_RMSD_A": 0.003542911313092786,
+        "reported_distinct_minimum_count": null,
+        "interpretation": "Two individually certified outputs; no two distinct basins established."
+      }
+    },
+    {
+      "id": "native_audit_provenance_and_file_count",
+      "passed": true,
+      "evidence": {
+        "native_files_checked_in_source_audit": 74,
+        "checks_passed_in_source_audit": 63,
+        "audit_role": "Separate post-run recomputation from native files; same project assistant that authored driver, not an external human or laboratory review. No quantum process launched.",
+        "review_scope": "This consistency review checked the audit JSON and its summary-hash links; it did not repeat the native Hessian recomputation."
+      }
+    },
+    {
+      "id": "no_new_physical_kinetic_or_spin_claim",
+      "passed": true,
+      "evidence": {
+        "ground_spin_determined": false,
+        "solution_mechanism_validated": false,
+        "new_accepted_TS": 0,
+        "new_accepted_MECP": 0,
+        "new_383_15_K_reaction_free_energy_from_precursor_run": false
+      }
+    },
+    {
+      "id": "synthetic_audit_numbers_and_scope",
+      "passed": true,
+      "evidence": {
+        "positive_states": 200,
+        "max_dissipation_identity_defect_kcal_L_s": 1.4210854715202004e-14,
+        "physical_rates_validated": false,
+        "ODE_integrations": 0,
+        "evidence_class": "synthetic_mathematical_fixture_only"
+      }
+    },
+    {
+      "id": "activation_bookkeeping_recomputed",
+      "passed": true,
+      "evidence": [
+        {
+          "reaction": "H1_Br_retention",
+          "atoms_balanced": true,
+          "charge_balanced": true,
+          "thermodynamic_or_kinetic_parameters": null,
+          "validated_activation_mechanism": false
+        },
+        {
+          "reaction": "H2_Br_dissociation",
+          "atoms_balanced": true,
+          "charge_balanced": true,
+          "thermodynamic_or_kinetic_parameters": null,
+          "validated_activation_mechanism": false
+        }
+      ]
+    },
+    {
+      "id": "713_software_tests_no_failures_errors_skips",
+      "passed": true,
+      "evidence": {
+        "testcases": 713,
+        "failures": 0,
+        "errors": 0,
+        "skips": 0,
+        "source": "data/phase4/verification/pytest.xml",
+        "rerun_in_this_review": false,
+        "meaning": "Software verification only.",
+        "report_locations": {
+          "docs/PHASE4_RESEARCH_REPORT_EN.md": {
+            "line": 141,
+            "section": "## 8. Milestones, stopping rules and publication positioning"
+          },
+          "docs/PHASE4_RESEARCH_REPORT_ZH.md": {
+            "line": 141,
+            "section": "## 8. 里程碑、停止条件与论文定位"
+          }
+        }
+      }
+    },
+    {
+      "id": "rate_and_flux_equation_dimensions",
+      "passed": true,
+      "evidence": {
+        "locations_both_reports": "sections 10, lines 170-184",
+        "review": "J has units mol/(L s); activities are dimensionless. k+ and k- are s^-1 frequency constants, so ln(k+/k-) is dimensionless. Concentration coefficients instead have units M^(1-m)/s and cannot be divided across unlike orders inside a logarithm without standard-state conversion. f has units kcal/L and J times affinity has units kcal/(L s)."
+      }
+    },
+    {
+      "id": "information_matrix_assumptions_explicit",
+      "passed": true,
+      "evidence": {
+        "locations_both_reports": "section 11, lines 198-206",
+        "review": "API is diagonal noise/parameter scaling plus SVD. Log-parameter derivatives require scales=theta>0. Correlated covariance whitening is externally verified. S^T S is true local mean-parameter Fisher information only for known parameter-independent Gaussian covariance; otherwise qualified as weighted-least-squares/Gauss-Newton approximation."
+      }
+    },
+    {
+      "id": "equilibrium_coarse_graining_not_kinetic_proof",
+      "passed": true,
+      "evidence": {
+        "locations_both_reports": "section 11, lines 190-194",
+        "review": "Equilibrium effective free energy requires same-composition states and no degeneracy double counting; valid reduced kinetics additionally needs rapid interconversion and exit-flux/timescale validation. MECP does not provide nonadiabatic rates."
+      }
+    },
+    {
+      "id": "novelty_and_prior_art_boundaries",
+      "passed": true,
+      "evidence": {
+        "locations_both_reports": "sections 1, 10 and 13",
+        "review": "Mature reaction-network thermodynamics and inference principles are not claimed as new theory. Existing Mn-PNP/base/speciation precedent is acknowledged; no first-discovery or exhaustive novelty clearance is claimed. Shared branching-dormancy mechanism and added predictive value remain hypotheses. CNS standard is not established. This review assessed the recorded source boundary; no new exhaustive literature search was performed."
+      }
+    },
+    {
+      "id": "bilingual_section13_consistency",
+      "passed": true,
+      "evidence": {
+        "locations_both_reports": "section 13, lines 228-249; final 713-test result in section 8, line 141",
+        "review": "Section 13 numerical values, runtime, source scope, two near-identical outputs, spin/solvent-temperature caveats, Mn2 automatic symmetry warning, balanced activation hypotheses and synthetic-only audit agree. Section 8 consistently records the final 713-test software result."
+      }
+    },
+    {
+      "id": "reviewed_markdown_unchanged",
+      "passed": true,
+      "evidence": {
+        "docs/PHASE4_RESEARCH_REPORT_EN.md": "71ca6a02331fffaa2a090c79c14f494a8db7b1d4cbc4dee9e0df3fc7351e4b0e",
+        "docs/PHASE4_RESEARCH_REPORT_ZH.md": "b4be20251d3a7b0e0ac5355139abf1722fd5450036dd7c460c01c96e794e00a0"
+      }
+    }
+  ],
+  "findings": [],
+  "mathematical_principles_mature": true,
+  "synthetic_audit_provides_physical_rates": false,
+  "cns_standard_achieved": false,
+  "novel_mechanism_established": false,
+  "new_quantum_calls_in_this_review": 0,
+  "tests_executed_in_this_review": 0,
+  "PDF_visual_review_performed": false,
+  "PDF_visual_review_scope": "Assigned separately to other reviewers; no claim about PDF layout is made here.",
+  "limitations": [
+    "The native independent audit is a separate computational recomputation by a project AI agent, not an external human or laboratory validation. Its audit_role explicitly records that the auditor also authored the driver.",
+    "Two model-minimum certificates and a mapped RMSD do not establish two distinct basins, a true ground spin, solution speciation, a mechanism, or a physical catalytic rate.",
+    "No new literature completeness assessment, experimental validation, quantum run, or full test rerun was performed in this consistency review."
+  ],
+  "frozen_utc": "2026-09-16T06:35:22.705935+00:00",
+  "final_text_placement_note": "Root moved the 713-test sentence from the end of section 13 into the existing section 8 software-verification paragraph in both languages. The bound Markdown hashes are the final post-move hashes; this location-only follow-up verified both."
+}

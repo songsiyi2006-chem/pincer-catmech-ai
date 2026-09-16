@@ -1,0 +1,21 @@
+{
+  "schema": "post_import_documentation_addendum_v1",
+  "scope": "Added attribution and interpretation only; original import files and manifest unchanged",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "bda4e1a39a9808e690adaa5ae961787dde959c1d04cb5069e26ef9cc8a0cd0d2",
+      "bytes": 3540
+    },
+    {
+      "path": "THIRD_PARTY_LICENSE.md",
+      "sha256": "9a7cde39f8cac62baac8317e01767d6ad2e9a590c3151c7539a12eb38c47ef2a",
+      "bytes": 2276
+    },
+    {
+      "path": "file_manifest.json",
+      "sha256": "a5783a41dcb0f3678984917027290f6cbbb1e0ea908c48d7bf3e0e07f7c44e45",
+      "bytes": 961
+    }
+  ]
+}

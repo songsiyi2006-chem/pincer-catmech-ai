@@ -1,10 +1,20 @@
 # Pincer-CatMech-AI: Statistical Thermochemistry and Three-Dimensional Steric Descriptors
 
-Technical report, core pipeline initialization; 13 September 2026.
+Technical report: core initialization on 13 September 2026; research scope revised on 16 September 2026.
+
+## Revised research scope
+
+The original mathematical derivations and software examples below remain intact. The expanded project subsequently executed native xTB/Psi4 diagnostics and an exploratory EGNN training run; the original core's scope is not the scope of the entire current project. See the [Phase 4 technical report](PHASE4_RESEARCH_REPORT_EN.md), [prior-art and falsifiable research design](NATURE_RESEARCH_CASE.md), and [HPC bridge guide](HPC_BRIDGE_ZH.md). Historical software examples have not been relabelled as physical evidence.
+
+The research programme is revised against Nature's originality, importance and evidential criteria, without claiming submission readiness. No target TS, MECP, physical catalytic rate, or AI improvement over the simple baseline has been established. No private experimental data or executed HPC results have been added. Known base/cation effects, MLC and alcohol assistance are not generic novelty claims. Priority moves to public experiment-linked Mn-PNP structures, competing explanations and prospectively fixed independent predictions.
+
+Phase 4 adds native gas-phase SCF/basis diagnostics, 405 rows of sensitivity analysis on archived microsolvation results, public crystal provenance and an offline ORCA/Slurm bundle. Reanalysis is not new quantum computation; prepared jobs are not executed jobs; crystal geometry is not identification of a solution-active species. Toluene, 383.15 K, 0.05 equiv. tBuOK and a 0.01-0.20 equiv. scan remain proposed research conditions. NH and O-H sites are audited by backbone; total base, free-base activity and neutral alcohol activity are distinct quantities.
+
+The additional CNS innovation and mathematical requirements are specified in the [innovation charter](CNS_INNOVATION_CHARTER.md), [thermodynamically consistent model foundation](THERMODYNAMIC_MODEL_FOUNDATION.md) and [advanced experimental design](ADVANCED_EXPERIMENTS_ZH.md). Shared-species coupling and scaffold transfer remain unproven candidates; conservation, detailed balance and dissipation are model constraints, not chemical discoveries.
 
 ## Abstract
 
-Pincer-catalyzed borrowing-hydrogen transformations couple alcohol dehydrogenation, bond construction, and hydrogen return. Mechanistic comparison therefore requires consistent free energies for species with different coordination, protonation, and molecularity. This implementation provides an auditable postprocessing core: Gaussian/ORCA vibrational and thermochemical parsing, Grimme entropy interpolation, pressure-to-concentration standard-state conversion, exact donor–metal–donor angles, and Monte Carlo estimates of ligand buried volume. It does not execute electronic-structure calculations, identify a catalytic pathway, train a predictive model, or establish experimental catalyst performance. The statistical model is explicit, the distinction between total and vibrational entropy is preserved, and uncertainty in numerical volume integration is reported independently of uncertainty in the chemical model.
+Pincer-catalyzed borrowing-hydrogen transformations couple alcohol dehydrogenation, bond construction, and hydrogen return. Mechanistic comparison therefore requires consistent free energies for species with different coordination, protonation, and molecularity. This implementation provides an auditable postprocessing core: Gaussian/ORCA vibrational and thermochemical parsing, Grimme entropy interpolation, pressure-to-concentration standard-state conversion, exact donor–metal–donor angles, and Monte Carlo estimates of ligand buried volume. This paragraph describes the original postprocessing module; subsequent computations are distinguished in the revision above. Postprocessing alone does not identify a catalytic pathway or establish experimental catalyst performance. The statistical model is explicit, the distinction between total and vibrational entropy is preserved, and uncertainty in numerical volume integration is reported independently of uncertainty in the chemical model.
 
 ## 1. Chemical motivation and attribution
 

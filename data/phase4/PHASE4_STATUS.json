@@ -1,0 +1,82 @@
+{
+  "schema": "pincer_phase4_status_v1",
+  "created_utc": "2026-09-16T05:15:18.651861+00:00",
+  "scientific_status": "research_programme_incomplete_not_cns_ready",
+  "hpc_access": false,
+  "private_experimental_data": false,
+  "actual_local_quantum_attempts": 9,
+  "scf_converged": 2,
+  "spin_quality_numeric_pass": 1,
+  "production_spin_gaps_validated": 0,
+  "new_TS_accepted": 0,
+  "new_MECP_accepted": 0,
+  "physical_kinetic_predictions": 0,
+  "thermochemical_reanalysis_rows": 405,
+  "baseline_rows_reconstructed": 27,
+  "baseline_max_difference_kcal_mol": 0.0,
+  "public_crystal_independent_molecules": 2,
+  "public_crystal_atoms_each": 62,
+  "hpc_inputs_prepared": 6,
+  "hpc_jobs_submitted": 0,
+  "full_pytest": {
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "tests": 713,
+    "seconds": 119.602
+  },
+  "source_sha256": {
+    "data/phase3/PHASE3_STATUS.json": "cd486e7c05663effbf8b0c5b7abbc41709dfdcb8817419b31cb8418bb35d117f",
+    "data/phase4/local_pilot_001/summary.json": "076b9bfaad822e7123a97472ff1f733cda26de51290d6c23300704dbc7c88018",
+    "data/phase4/solvation_sensitivity_001/summary.json": "8969be34ebaaa8c977202adfaee5e6b3e6f18596ea39b5c136a5e3493a617201",
+    "data/phase4/public_structure/import_v002/structure_verification.json": "8d1966f9a3cfbe1360ac4e5b91b202dc2e212cfa14b1822a6ddfed8d92582f79",
+    "data/phase4/hpc_bundle_001/manifest.json": "9f067cdd7a3a38bab74ed37536453ce6172ed0bff8d6406949e96b751ebdebbb",
+    "data/phase4/verification/pytest.xml": "942426cbf6a8b7cfb03c72ef43c87313b674e81aec02dee7a2408b9c744c2a45",
+    "data/phase4/literature_evidence.json": "13c989ac82701258cf9b17d2960b52676fbfd5800db98bff1fb6d1f37c6cc657",
+    "data/phase4/public_precursor_relaxation_001/summary.json": "56368da304dd1d46292bb2f22c6c8aed2a6ac79cf2ba36916139de000dd17b03",
+    "data/phase4/public_precursor_relaxation_002/summary.json": "6f62f5d6981dd4c3fcf5e8382a7305ac03d3f6bd26af3ed3fc02416eb879dded",
+    "data/phase4/thermodynamic_fixture_audit_001/summary.json": "95e9a88ce6b45871423222b2d206f519a74494642bfe5678b913a898f97d8c5b",
+    "data/phase4/activation_hypotheses.json": "d8714c64bacef29c244579e80495f8993cd335ae22a58419db5449a84b0f1041",
+    "data/phase4/computation_decision_plan.json": "8da3fe99a3e4d39d1bc39c10a15990cdee4f28f5ef758576afc0aa8c27ebe8c9",
+    "data/phase4/cns_innovation_sources.json": "e300efd478f0e2996948482c9379d75ca6b494fc1bf5416aadb6e72ead6663bc",
+    "data/phase4/advanced_experiment_sources.json": "3a3eaddd41e0364bcf879df2a35a895012c72959c2568e2ce136444f2f9c4d12",
+    "data/phase4/verification/public_precursor_independent_audit.json": "f3381920e86cf782b96c3d3efb912872ff15b1250c8c2a223d3e509dbc4d6014"
+  },
+  "remaining": [
+    "Qualified chemistry review and research supervision",
+    "Authorized cluster and licensed engine access",
+    "Validated solution species, stationary points, method sensitivity and alternative mechanisms",
+    "Discriminating experiments and prospectively registered independent predictions",
+    "Demonstrated novelty and broader scientific importance"
+  ],
+  "updated_utc": "2026-09-16T06:17:09.959254+00:00",
+  "quantum_attempt_count_definition": "3 Psi4 jobs plus 6 xTB native calls; optimization/Hessian internal evaluations are not separate jobs; 001 precheck starts zero calls",
+  "psi4_diagnostic_attempts": 3,
+  "xtb_precursor_native_calls": 6,
+  "xtb_precursor_minimum_checked_endpoints": 2,
+  "xtb_precursor_distinct_basins_established": false,
+  "xtb_precursor_mapped_all_atom_RMSD_A": 0.00354291,
+  "xtb_precursor_components": {
+    "optimization": 2,
+    "fresh_gradient": 2,
+    "complete_hessian": 2
+  },
+  "xtb_precheck_only_run_native_calls": 0,
+  "new_experimental_observations": 0,
+  "synthetic_math_audit": {
+    "states": 200,
+    "ode_integrations": 0,
+    "physical_rates_validated": false,
+    "checks": {
+      "max_dissipation_identity_defect_kcal_L_s": 1.4210854715202004e-14,
+      "min_entropy_production_kcal_L_K_s": 5.661088333800199e-08,
+      "max_inventory_derivative_defect_M_s": 8.881784197001252e-16,
+      "max_energy_reference_shift_rhs_defect_M_s": 4.085620730620576e-14,
+      "max_equilibrium_net_flux_M_s": 0.0,
+      "cycle_logK_sum": 0.0,
+      "all_three_zero_concentration_boundaries_point_inward": true
+    }
+  },
+  "activation_hypotheses": "element_and_charge_balanced_only_no_computed_activation_free_energies",
+  "cns_novelty_established": false
+}

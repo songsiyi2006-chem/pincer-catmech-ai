@@ -1,0 +1,18 @@
+[
+  {
+    "source": "docs/PHASE4_RESEARCH_REPORT_ZH.md",
+    "source_sha256": "b4be20251d3a7b0e0ac5355139abf1722fd5450036dd7c460c01c96e794e00a0",
+    "pdf": "PHASE4_RESEARCH_REPORT_ZH.pdf",
+    "pdf_sha256": "28fbe282788478bc27701717a7774fd0c5c5e23e6cab626d528034b1c9ddbe76",
+    "pages": 12,
+    "display_equations": 13
+  },
+  {
+    "source": "docs/PHASE4_RESEARCH_REPORT_EN.md",
+    "source_sha256": "71ca6a02331fffaa2a090c79c14f494a8db7b1d4cbc4dee9e0df3fc7351e4b0e",
+    "pdf": "PHASE4_RESEARCH_REPORT_EN.pdf",
+    "pdf_sha256": "64f2bb8c04c3237e6a45f824573aed8c7c4bd15cedb2da688b9b4f597bbc2f20",
+    "pages": 13,
+    "display_equations": 13
+  }
+]

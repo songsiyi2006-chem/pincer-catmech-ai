@@ -1,0 +1,398 @@
+{
+  "schema": "pincer_phase4_independent_audit_v1",
+  "completed_utc": "2026-09-16T05:19:22.674745+00:00",
+  "reviewer": "HPC bridge agent independently auditing root-authored solvation analysis",
+  "verdict": "no_blocking_findings_for_audited_scope",
+  "nature_publication_standard_verified": false,
+  "new_quantum_jobs": 0,
+  "scope": [
+    "Thermochemical sensitivity arithmetic and archived evidence",
+    "Public crystal exports and charge/multiplicity candidate counts",
+    "Six-task offline HPC bundle identity",
+    "Thermochemical subsection in section 3 of Chinese report; local pilot insertion excluded"
+  ],
+  "methods": [
+    "Read-only source and certificate inspection",
+    "Independent direct harmonic entropy and Grimme reduced-inertia rotor interpolation; replacement of vibrational component of full molecular entropy; ideal-gas to 1M standard-state correction. Independent numerical path did not call recalculate_g or calculate_thermochemistry.",
+    "Independent stoichiometric activity-power and logarithmic equilibrium ratio",
+    "Native gzip decompression with raw byte count and SHA256 checks",
+    "Exact NPZ/certificate/thermal-row spectrum comparison and accepted XYZ/NPZ coordinates comparison",
+    "Offline bundle verification and source hashes, electron counts, unexecuted status"
+  ],
+  "source_sha256": {
+    "data/phase3/solvation/summary.json": "271c169649730433309c0f546a1cd4474f970de098d6fcd207b794a5fc7c8c45",
+    "data/reference_thermochemistry/hemiaminal/stationarity/result.json": "c87bc196360d78217ef6e0528c5db5f9660bc58ea6815663a40e35b3495caff7",
+    "data/reference_thermochemistry/hemiaminal/stationarity/accepted_geometry.xyz": "43c120f6fa5106717960454234119afe3ec98c29b1709477c98d887599f3c399",
+    "data/reference_thermochemistry/hemiaminal/stationarity/hessian_00.npz": "711a7c4d09980744a16cc9ec29921e184db45bc50a5ba5cb4383c551e9ea48f9",
+    "data/reference_thermochemistry/tert_butanol/stationarity/result.json": "8adab470849d6646c6d5b52cab0e32e897898300e466093a834b128439fbee79",
+    "data/reference_thermochemistry/tert_butanol/stationarity/accepted_geometry.xyz": "528ce6cef516220b49746927b16e66a325ccc5797a749a09e16cf5dfe6b1bd99",
+    "data/reference_thermochemistry/tert_butanol/stationarity/hessian_00.npz": "519f1eb724b3b223ec193e71e4eefe89a521e378f0383d7a15fa5396300f9c25",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_1_seed_02/stationarity/result.json": "5c473aca7d7f1ca2a5722971192ff7ed4b7007d5d99de42f1ade8a5226b45951",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_1_seed_02/stationarity/accepted_geometry.xyz": "7994652a6b0b01df8099a9f0c29c2370b0c43c35aea41ff3f68aba81a1a47b1d",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_1_seed_02/stationarity/hessian_00.npz": "14b3343cc868a3c690e965c7609c86c613b4d041c9baca326a7b1b82356e0e21",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_2_seed_01/stationarity/result.json": "b32b2a455591de78169cdf44e3b0ce705356fd9e620a90a824bf31b8fb07db1d",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_2_seed_01/stationarity/accepted_geometry.xyz": "a4bb960767a96841c0168a02c72cc576203d8339d30e5c794eb9b4b4c0bf09d5",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_2_seed_01/stationarity/hessian_00.npz": "c8a109b0852fccc16d45e1f34583b6b9e529accc86b22503bb71a23c17518eaf",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_3_seed_00/stationarity/result.json": "c252bfc96394a24521b10d5df6fc9262e6fe7f0ebee28071057ac66a9ddd6c42",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_3_seed_00/stationarity/accepted_geometry.xyz": "808b34c9bfdaf81e098dcb7f6ca03a5ebccdb0de908e4eb61bc16ad7f0e39f70",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_3_seed_00/stationarity/hessian_01.npz": "392ff26420adc2d3f59a1f9f9c74feced91984850bdddd7ce3a0fd3f614e96ac"
+  },
+  "implementation_sha256": {
+    "scripts/run_phase4_solvation_sensitivity.py": "1762fea08d6fe1a405a07e05b668e16a9f482859cd5c0e9a81f8b296ca3a2c39",
+    "src/pincer_catmech/kinetics/solvation_sensitivity.py": "317f4874544a2487f90449b6037162a787130ae40c2ac0d9ad5edaf4a6d90474",
+    "src/pincer_catmech/kinetics/free_energy.py": "52f08dc843f8ca6c2b372f214b30489d1835d7003f7cdcba0c595d38291c0aba"
+  },
+  "sensitivity_summary_sha256": "8969be34ebaaa8c977202adfaee5e6b3e6f18596ea39b5c136a5e3493a617201",
+  "sensitivity_csv_sha256": "96dfcd662acf44db9044eeef61a9daa5791809f9d882df8bc77cda0b1b80a5f4",
+  "thermochemical_checks": {
+    "rows": 405,
+    "unique_combinations": 405,
+    "clusters": 3,
+    "temperatures_K": [
+      298.15,
+      360.0,
+      370.0,
+      380.0,
+      383.15,
+      390.0,
+      400.0,
+      410.0,
+      420.0
+    ],
+    "cutoffs_cm1": [
+      50.0,
+      100.0,
+      150.0
+    ],
+    "alcohol_activities_relative_to_1M": [
+      0.001,
+      0.01,
+      0.05,
+      0.1,
+      1.0
+    ],
+    "baseline_rows": 27,
+    "baseline_unique_keys": 27,
+    "independent_standard_G_max_difference_kcal_mol": 0.0,
+    "independent_effective_G_max_difference_kcal_mol": 0.0,
+    "independent_log_activity_ratio_max_difference": 7.105427357601002e-15,
+    "independent_baseline_max_difference_kcal_mol": 0.0,
+    "minimum_standard_association_G_kcal_mol": 0.26639279772280133,
+    "cutoff_ranges_at_383_15K": [
+      {
+        "n_alcohol": 1,
+        "temperature_K": 383.15,
+        "cutoff_min_kcal_mol": 3.175923152357427,
+        "cutoff_max_kcal_mol": 3.9691352485278912,
+        "cutoff_range_kcal_mol": 0.7932120961704641
+      },
+      {
+        "n_alcohol": 2,
+        "temperature_K": 383.15,
+        "cutoff_min_kcal_mol": 8.404477226569725,
+        "cutoff_max_kcal_mol": 10.702983504539588,
+        "cutoff_range_kcal_mol": 2.2985062779698637
+      },
+      {
+        "n_alcohol": 3,
+        "temperature_K": 383.15,
+        "cutoff_min_kcal_mol": 10.958427877332724,
+        "cutoff_max_kcal_mol": 14.423586066564894,
+        "cutoff_range_kcal_mol": 3.46515818923217
+      }
+    ],
+    "units_verified": true,
+    "temperature_matching_without_interpolation": true,
+    "not_bulk_populations_or_TS_or_rates": true
+  },
+  "minimum_certificates": [
+    {
+      "name": "hemiaminal",
+      "certificate": "data/reference_thermochemistry/hemiaminal/stationarity/result.json",
+      "certificate_sha256": "c87bc196360d78217ef6e0528c5db5f9660bc58ea6815663a40e35b3495caff7",
+      "accepted_attempt": 0,
+      "accepted": true,
+      "imaginary_modes": 0,
+      "atom_count": 28,
+      "internal_modes": 78,
+      "minimum_frequency_cm1": 26.056809848222702,
+      "max_force_eV_A": 0.0006722322476086415,
+      "threshold_eV_A": 0.03,
+      "spectrum_sha256": "711a7c4d09980744a16cc9ec29921e184db45bc50a5ba5cb4383c551e9ea48f9",
+      "geometry_sha256": "43c120f6fa5106717960454234119afe3ec98c29b1709477c98d887599f3c399",
+      "npz_xyz_max_error_angstrom": 4.766209982243197e-09
+    },
+    {
+      "name": "tert_butanol",
+      "certificate": "data/reference_thermochemistry/tert_butanol/stationarity/result.json",
+      "certificate_sha256": "8adab470849d6646c6d5b52cab0e32e897898300e466093a834b128439fbee79",
+      "accepted_attempt": 0,
+      "accepted": true,
+      "imaginary_modes": 0,
+      "atom_count": 15,
+      "internal_modes": 39,
+      "minimum_frequency_cm1": 152.76198521591172,
+      "max_force_eV_A": 0.0010462634068320103,
+      "threshold_eV_A": 0.03,
+      "spectrum_sha256": "519f1eb724b3b223ec193e71e4eefe89a521e378f0383d7a15fa5396300f9c25",
+      "geometry_sha256": "528ce6cef516220b49746927b16e66a325ccc5797a749a09e16cf5dfe6b1bd99",
+      "npz_xyz_max_error_angstrom": 4.908530026881408e-09
+    },
+    {
+      "name": "hemiaminal_tbuoh_1_seed_02",
+      "certificate": "data/phase3/solvation/clusters/hemiaminal_tbuoh_1_seed_02/stationarity/result.json",
+      "certificate_sha256": "5c473aca7d7f1ca2a5722971192ff7ed4b7007d5d99de42f1ade8a5226b45951",
+      "accepted_attempt": 0,
+      "accepted": true,
+      "imaginary_modes": 0,
+      "atom_count": 43,
+      "internal_modes": 123,
+      "minimum_frequency_cm1": 15.080351405731657,
+      "max_force_eV_A": 0.00046434472138684707,
+      "threshold_eV_A": 0.03,
+      "spectrum_sha256": "14b3343cc868a3c690e965c7609c86c613b4d041c9baca326a7b1b82356e0e21",
+      "geometry_sha256": "7994652a6b0b01df8099a9f0c29c2370b0c43c35aea41ff3f68aba81a1a47b1d",
+      "npz_xyz_max_error_angstrom": 4.966620004154265e-09
+    },
+    {
+      "name": "hemiaminal_tbuoh_2_seed_01",
+      "certificate": "data/phase3/solvation/clusters/hemiaminal_tbuoh_2_seed_01/stationarity/result.json",
+      "certificate_sha256": "b32b2a455591de78169cdf44e3b0ce705356fd9e620a90a824bf31b8fb07db1d",
+      "accepted_attempt": 0,
+      "accepted": true,
+      "imaginary_modes": 0,
+      "atom_count": 58,
+      "internal_modes": 168,
+      "minimum_frequency_cm1": 17.769535790035665,
+      "max_force_eV_A": 0.0005356964316091054,
+      "threshold_eV_A": 0.03,
+      "spectrum_sha256": "c8a109b0852fccc16d45e1f34583b6b9e529accc86b22503bb71a23c17518eaf",
+      "geometry_sha256": "a4bb960767a96841c0168a02c72cc576203d8339d30e5c794eb9b4b4c0bf09d5",
+      "npz_xyz_max_error_angstrom": 4.990429999796042e-09
+    },
+    {
+      "name": "hemiaminal_tbuoh_3_seed_00",
+      "certificate": "data/phase3/solvation/clusters/hemiaminal_tbuoh_3_seed_00/stationarity/result.json",
+      "certificate_sha256": "c252bfc96394a24521b10d5df6fc9262e6fe7f0ebee28071057ac66a9ddd6c42",
+      "accepted_attempt": 1,
+      "accepted": true,
+      "imaginary_modes": 0,
+      "atom_count": 73,
+      "internal_modes": 213,
+      "minimum_frequency_cm1": 1.4209202504640637,
+      "max_force_eV_A": 0.0005022769128067405,
+      "threshold_eV_A": 0.03,
+      "spectrum_sha256": "392ff26420adc2d3f59a1f9f9c74feced91984850bdddd7ce3a0fd3f614e96ac",
+      "geometry_sha256": "808b34c9bfdaf81e098dcb7f6ca03a5ebccdb0de908e4eb61bc16ad7f0e39f70",
+      "npz_xyz_max_error_angstrom": 4.979940015914508e-09
+    }
+  ],
+  "native_gzip_checks": [
+    {
+      "path": "data/reference_thermochemistry/hemiaminal/stationarity/unprojected_hessian_00.gz",
+      "compressed_sha256": "a4aedbccc5c8a1e689b0978ca615477b7b63569bc4e4110fbd3e824695b595f6",
+      "raw_sha256": "4bcc82cd7e132f6ee3368373859da765d7edcb427d129719154e24969118a227",
+      "raw_bytes": 116424
+    },
+    {
+      "path": "data/reference_thermochemistry/hemiaminal/stationarity/native_output_00.gz",
+      "compressed_sha256": "d94f8d5509bf681554a6dcf81e6787e209aa5d4eafb7f91b28d5718dbac3296b",
+      "raw_sha256": "c5f27d84df69cc25c8fae114fa091476b36ea974d63e8754107fc8f66ac23466",
+      "raw_bytes": 31276
+    },
+    {
+      "path": "data/reference_thermochemistry/hemiaminal/stationarity/native_projected_hessian_00.gz",
+      "compressed_sha256": "24d3a50ec6e552dd20427c4db27c0193f8757453bec58416b0056b784c2aab1a",
+      "raw_sha256": "55c23982cff1da84321a20c332df704a411109818deb55e53968b50925a4c2c7",
+      "raw_bytes": 115918
+    },
+    {
+      "path": "data/reference_thermochemistry/tert_butanol/stationarity/unprojected_hessian_00.gz",
+      "compressed_sha256": "60bcb7f31fe3c8a20683f839f8d5de958e9bd2b574fa40bbde7db6bb374264e8",
+      "raw_sha256": "e4f5b36aa4b206afc1b366b049bf51d14678fc853aec5d3f9517f49d55772bfb",
+      "raw_bytes": 33480
+    },
+    {
+      "path": "data/reference_thermochemistry/tert_butanol/stationarity/native_output_00.gz",
+      "compressed_sha256": "15fc8ca9e219d6e281f287890cffc6c2e1683d6119a9b97f95d6db7b1895f15a",
+      "raw_sha256": "6006b862e1fa3371c9206383292bde2f00f46f881577f4b83c4fb474ad878c64",
+      "raw_bytes": 26717
+    },
+    {
+      "path": "data/reference_thermochemistry/tert_butanol/stationarity/native_projected_hessian_00.gz",
+      "compressed_sha256": "d07cc137d7e07e7d20f0fe4402dc9669621bcca7ee2ac4c9283f4b264f26c6ca",
+      "raw_sha256": "e59988db6441b4a6fc7f4ffc1cfdc26fe8fb85b415ee1b6947fee9ab58c3c05c",
+      "raw_bytes": 33292
+    },
+    {
+      "path": "data/phase3/solvation/clusters/hemiaminal_tbuoh_1_seed_02/stationarity/unprojected_hessian_00.gz",
+      "compressed_sha256": "16ef51eea39358133f5cc209962a0a43bb7d4bd50389616d82bea08b0ce73655",
+      "raw_sha256": "f679f4a442bd13891d5657ce75a6862ffab8adbac3b1786b2d025e33de56fe4c",
+      "raw_bytes": 274770
+    },
+    {
+      "path": "data/phase3/solvation/clusters/hemiaminal_tbuoh_1_seed_02/stationarity/native_output_00.gz",
+      "compressed_sha256": "e7f54e43283090fc4cb0366be0045533abf451ae9fff8616fb986d75f59f80b5",
+      "raw_sha256": "ac91b72b80cf8d0f10fbe2e33692b3881ee7b4e172864e222aef85d412393386",
+      "raw_bytes": 36597
+    },
+    {
+      "path": "data/phase3/solvation/clusters/hemiaminal_tbuoh_1_seed_02/stationarity/native_projected_hessian_00.gz",
+      "compressed_sha256": "f6624934a50a4cba83c81245357db2aa6c1f9f299fba0996db4e8d26c6595a9b",
+      "raw_sha256": "240e412d8fe397ec2ab92d4a25b6cd9654fc7cc6dd8053c05fc6a63fa0635ff7",
+      "raw_bytes": 273175
+    },
+    {
+      "path": "data/phase3/solvation/clusters/hemiaminal_tbuoh_2_seed_01/stationarity/unprojected_hessian_00.gz",
+      "compressed_sha256": "95193e5e186ba994674e89ab5c8fb3fdd39064df347281bf5635e690957312af",
+      "raw_sha256": "495be617a86a99263f2e9a138309731af18fac1b5b3a8c05f9ff4087e707d7f6",
+      "raw_bytes": 499728
+    },
+    {
+      "path": "data/phase3/solvation/clusters/hemiaminal_tbuoh_2_seed_01/stationarity/native_output_00.gz",
+      "compressed_sha256": "aa05ba97bee93ea4e4013af937ccba7d270a76b0d56e0a336463bcc8f8294856",
+      "raw_sha256": "7111249c8144dbe20ff07c1436466dd8be594555173a82750fd733e3bd111970",
+      "raw_bytes": 41780
+    },
+    {
+      "path": "data/phase3/solvation/clusters/hemiaminal_tbuoh_2_seed_01/stationarity/native_projected_hessian_00.gz",
+      "compressed_sha256": "c517cc987b7f518359485f118180de315ff5d39980ca924a43a2ced767a7b2a9",
+      "raw_sha256": "e8f5b8bac0a63217992b841a7d4d9cea5ed894615fb7d2cacbfab594185ac529",
+      "raw_bytes": 496852
+    },
+    {
+      "path": "data/phase3/solvation/clusters/hemiaminal_tbuoh_3_seed_00/stationarity/unprojected_hessian_01.gz",
+      "compressed_sha256": "6629396b7baf1a14909b947b5b4124ffb960c21cb39b9eec1d4d99abb2a4e02a",
+      "raw_sha256": "a7618a5b2c3211a0afe2bb80ec865d00d04bdde7a7bb9fe9a89943e015459a4b",
+      "raw_bytes": 791466
+    },
+    {
+      "path": "data/phase3/solvation/clusters/hemiaminal_tbuoh_3_seed_00/stationarity/native_output_01.gz",
+      "compressed_sha256": "58348d25dc9e809c3099f0c09f1953ecb06a0fe947c7de74ca55615554f7d767",
+      "raw_sha256": "7d97b5669a2dc65135036da07d0ef26889ff8de8334602a23a266a2cae04af6b",
+      "raw_bytes": 46719
+    },
+    {
+      "path": "data/phase3/solvation/clusters/hemiaminal_tbuoh_3_seed_00/stationarity/native_projected_hessian_01.gz",
+      "compressed_sha256": "d29bc899a06ff5e339c1184780c165e256af415d5dbe709bfe38f493a60e4cbe",
+      "raw_sha256": "57c830a9497f987b7b67421c9ebe557d0f369449b77eccedf7cfb69bdfcc27a4",
+      "raw_bytes": 786949
+    }
+  ],
+  "n3_repair_verified": {
+    "accepted_attempt": 1,
+    "accepted_minimum_frequency_cm1": 1.4209202504640637,
+    "rejected_attempt_0_minimum_frequency_cm1": -2.568606463635607,
+    "only_accepted_attempt_used": true
+  },
+  "public_structure": {
+    "verification_sha256": "8d1966f9a3cfbe1360ac4e5b91b202dc2e212cfa14b1822a6ddfed8d92582f79",
+    "original_cif_sha256": "9704aa1897177a1026ea7a87f57cf2679bd0bd5c6647910ef60cc06696b663cd",
+    "normalized_cif_sha256": "40b07b40af922850f21c3e108e09647f2911765cda6c5be6fdc08f886c413123",
+    "exports": [
+      {
+        "id": "Mn1",
+        "atom_count": 62,
+        "formula": "C18H37BrMnNO2P2",
+        "charge": 0,
+        "electrons": 258,
+        "candidate_multiplicities": [
+          1,
+          3,
+          5
+        ],
+        "xyz_sha256": "1101d04dd31efe3deb1abe7880428ed75926ac97010967884687e4beff0722b3",
+        "metadata_sha256": "24a838e86284c428ea78b652f0b9a87d8384cd3a291d89d8d0380f35c2f4ab62",
+        "NH_distance_angstrom": 0.8359613708371987,
+        "CO_count": 2,
+        "bound_bromide_count": 1,
+        "structure_origin": "public_crystal_derived_candidate",
+        "active_state_generated": false,
+        "geometry_optimized": false
+      },
+      {
+        "id": "Mn2",
+        "atom_count": 62,
+        "formula": "C18H37BrMnNO2P2",
+        "charge": 0,
+        "electrons": 258,
+        "candidate_multiplicities": [
+          1,
+          3,
+          5
+        ],
+        "xyz_sha256": "b59beea221b95e5382979bf1303d8e9afb4b6cd8043c7f40193037d1f64871c8",
+        "metadata_sha256": "12f4cfee8c131f79a00cc8c3ffbf9a9e4eaf36fd24a0b6a9192640b47005f372",
+        "NH_distance_angstrom": 0.8464989851575944,
+        "CO_count": 2,
+        "bound_bromide_count": 1,
+        "structure_origin": "public_crystal_derived_candidate",
+        "active_state_generated": false,
+        "geometry_optimized": false
+      }
+    ],
+    "solution_identity_validated": false,
+    "license_not_reaudited_against_remote_API_in_this_review": true
+  },
+  "hpc_bundle": {
+    "manifest_sha256": "9f067cdd7a3a38bab74ed37536453ce6172ed0bff8d6406949e96b751ebdebbb",
+    "runner_sha256": "7debc0f998a4ea88ffe638bcf2e26349a35208fee0ba5eb2857d9fa1cbb68f63",
+    "tasks": 6,
+    "geometries": 2,
+    "multiplicities": [
+      1,
+      3,
+      5
+    ],
+    "status": "prepared_not_submitted",
+    "results_directory_exists": false,
+    "resources": {
+      "nprocs": 4,
+      "memory_mb": 8192,
+      "maxcore_mb": 1000,
+      "walltime": "01:00:00",
+      "concurrency": 2,
+      "nodes": 1,
+      "cpus_per_task": 1
+    },
+    "task_ids": [
+      "MnPNP_complex1_Mn1_M1",
+      "MnPNP_complex1_Mn1_M3",
+      "MnPNP_complex1_Mn1_M5",
+      "MnPNP_complex1_Mn2_M1",
+      "MnPNP_complex1_Mn2_M3",
+      "MnPNP_complex1_Mn2_M5"
+    ],
+    "all_source_geometry_metadata_hashes_match": true,
+    "all_experimental_solution_spin_identity_flags_false": true
+  },
+  "report_review": {
+    "path": "docs/PHASE4_RESEARCH_REPORT_ZH.md",
+    "whole_file_sha256_at_review": "e4d801803f45289f2642d0fe5287365b8486bd4d824aa4fac6ddbb9ef5b7d77f",
+    "reviewed_thermochemical_excerpt_sha256": "6b2150c9cd3e188a54cc7ff0079f79ebf4c92098b25a763f0883863a814c979b",
+    "scope": "Thermochemical subsection and boundary wording only; pending local-pilot/public-structure insertions excluded",
+    "association_not_misrepresented_as_population_or_TS": true
+  },
+  "nonblocking_findings": [
+    {
+      "kind": "prospective_hardening",
+      "detail": "Audited runner hash-checks reference certificates but does not explicitly assert their accepted/status as for clusters; actual two references independently passed here."
+    },
+    {
+      "kind": "prospective_hardening",
+      "detail": "Audited runner builds baseline dictionary without explicit duplicate-key rejection; actual baseline has exactly 27 unique keys and no duplicates."
+    }
+  ],
+  "limitations": [
+    "AI-agent audit is not external expert peer review or independent experimental replication. Reviewer authored the HPC bridge itself; independent numerical audit concerns root-authored solvation implementation.",
+    "One minimum per cluster size; no complete conformer ensemble or statistical confidence interval.",
+    "Accepted n=3 mode at 1.420920 cm^-1 remains physically and numerically sensitive.",
+    "ALPB electronic solvent contribution fixed across temperature.",
+    "Hypothetical neutral tBuOH activity is not total tBuOK equivalents; no bulk mass balance, ion pairing, TS barrier or physical kinetics established.",
+    "Two crystal molecules represent one precursor, not two catalyst systems or independent reaction replicates.",
+    "Original X-ray H coordinates retained; no solution optimization, experimental spin assignment or activation established.",
+    "No ORCA native job or remote HPC submission occurred.",
+    "Hashes prove consistency, not scientific validity or authenticity against coordinated fabrication.",
+    "Report source hash is a version snapshot during finalization; later inserted local-pilot results are outside this audit."
+  ]
+}

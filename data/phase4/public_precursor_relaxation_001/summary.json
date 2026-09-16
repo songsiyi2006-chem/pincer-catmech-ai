@@ -1,0 +1,130 @@
+{
+  "schema": "public_precursor_relaxation_v1",
+  "status": "completed_bounded_preprocessing",
+  "started_utc": "2026-09-16T05:48:59.513763+00:00",
+  "method": "GFN2-xTB",
+  "solvent": "toluene",
+  "solvation_state": "gsolv",
+  "threads": 2,
+  "physical_workers": 1,
+  "charge": 0,
+  "unpaired_electrons": 0,
+  "electronic_smearing_temperature_K": 300.0,
+  "reaction_temperature_context_K": 383.15,
+  "thermal_free_energy_computed": false,
+  "configured_memory_mib": null,
+  "memory_limit_enforced": false,
+  "memory_policy": "Require at least 1 GiB available host memory before each native calculation; native xTB has no imposed allocation here",
+  "total_quantum_wall_limit_seconds": 900.0,
+  "per_structure_quantum_limit_seconds": 420,
+  "optimization_limit_seconds": 210,
+  "force_threshold_eV_A": 0.03,
+  "hessian_minimum_remaining_seconds": 120,
+  "retries": 0,
+  "structures": [
+    {
+      "id": "Mn1",
+      "status": "not_started_resource",
+      "source_xyz_sha256": "1101d04dd31efe3deb1abe7880428ed75926ac97010967884687e4beff0722b3",
+      "source_metadata_sha256": "24a838e86284c428ea78b652f0b9a87d8384cd3a291d89d8d0380f35c2f4ab62",
+      "input_identity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "essential_bonds_retained": true,
+        "NH_distance_angstrom": 0.8359613708371987,
+        "Mn_Br_distance_angstrom": 2.5772861130883826,
+        "Mn_donor_distances_angstrom": [
+          2.1217573372201644,
+          2.300822856570287,
+          2.298812134121776
+        ],
+        "carbonyl_distances_angstrom": [
+          {
+            "Mn_C": 1.7810210638389252,
+            "C_O": 1.1617223520851032
+          },
+          {
+            "Mn_C": 1.7508186183303345,
+            "C_O": 1.1646543511015721
+          }
+        ],
+        "criterion": "Exact mapped source bond graph under 1.20 times ASE covalent-radii sum; geometric screen, not bond-order or solution-identity proof"
+      },
+      "optimization_converged": false,
+      "minimum_certified": false,
+      "accepted_chemical_label": false,
+      "quantum_wall_seconds": 0.0,
+      "native_calculations_started": 0,
+      "failure_reasons": [],
+      "hessian_status": "not_started",
+      "reason": "Insufficient remaining time or 1 GiB memory reserve",
+      "native_evidence": {
+        "file_count": 0,
+        "manifest_sha256": "69e13060ac6fe33e243154af211a02b161652d4c67b98d3993f02de75a086d2c"
+      }
+    },
+    {
+      "id": "Mn2",
+      "status": "not_started_resource",
+      "source_xyz_sha256": "b59beea221b95e5382979bf1303d8e9afb4b6cd8043c7f40193037d1f64871c8",
+      "source_metadata_sha256": "12f4cfee8c131f79a00cc8c3ffbf9a9e4eaf36fd24a0b6a9192640b47005f372",
+      "input_identity": {
+        "retained": true,
+        "lost_bonds": [],
+        "new_bonds": [],
+        "essential_bonds_retained": true,
+        "NH_distance_angstrom": 0.8464989851575945,
+        "Mn_Br_distance_angstrom": 2.574537769946709,
+        "Mn_donor_distances_angstrom": [
+          2.1193206772463813,
+          2.301466143293237,
+          2.3021288159110544
+        ],
+        "carbonyl_distances_angstrom": [
+          {
+            "Mn_C": 1.7770517740714549,
+            "C_O": 1.1639356604979703
+          },
+          {
+            "Mn_C": 1.755856906796624,
+            "C_O": 1.1635914266853973
+          }
+        ],
+        "criterion": "Exact mapped source bond graph under 1.20 times ASE covalent-radii sum; geometric screen, not bond-order or solution-identity proof"
+      },
+      "optimization_converged": false,
+      "minimum_certified": false,
+      "accepted_chemical_label": false,
+      "quantum_wall_seconds": 0.0,
+      "native_calculations_started": 0,
+      "failure_reasons": [],
+      "hessian_status": "not_started",
+      "reason": "Insufficient remaining time or 1 GiB memory reserve",
+      "native_evidence": {
+        "file_count": 0,
+        "manifest_sha256": "69e13060ac6fe33e243154af211a02b161652d4c67b98d3993f02de75a086d2c"
+      }
+    }
+  ],
+  "execution_source_sha256": {
+    "scripts/run_public_precursor_relaxation.py": "284a040899afc99dc0b24fcd6252408880d1d1a235ca82205362d1c3a471711f",
+    "src/pincer_catmech/quantum/xtb_backend.py": "b21260bab673f0c59613ff63f500d87df56f2ed3ecf0e928d231f2cd44d43888",
+    "src/pincer_catmech/quantum/thermochemistry.py": "63fb1e27f84491d2eca9ae41c87d59b77b3467fe176eb1c5f8e9ff70af472304",
+    "src/pincer_catmech/kinetics/neb_ts_search.py": "c44d0985a66e8f43aec3f7882b94c7c055dddde27dea262bb3b057c99484156d"
+  },
+  "xtb_executable": "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+  "xtb_executable_sha256": "e11f074b519c3b226f3fab4902f36555c4bfb204cc0365bdb196313124e3dc1b",
+  "source_cif_sha256": "9704aa1897177a1026ea7a87f57cf2679bd0bd5c6647910ef60cc06696b663cd",
+  "ground_spin_determined": false,
+  "validated_solution_mechanism": false,
+  "new_transition_state_count": 0,
+  "new_MECP_count": 0,
+  "scope": "xTB preparation/identity diagnostic on two independent crystal conformers of the same precursor; no ground-spin, active-species, DFT or experimental validation",
+  "finished_utc": "2026-09-16T05:48:59.583334+00:00",
+  "total_elapsed_seconds": 0.0470000000204891,
+  "optimizations_converged": 0,
+  "mapped_structures_retained": 0,
+  "verified_model_minima": 0,
+  "native_calculations_started": 0
+}

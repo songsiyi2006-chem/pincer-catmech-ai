@@ -1,0 +1,90 @@
+{
+  "schema": "phase4_local_pilot_plan_v1",
+  "purpose": "Prospective bounded SCF recovery and basis feasibility diagnostic; not production spin labels",
+  "catalyst_id": "Fe_bipyridine_pnnoh_iPr",
+  "source_proton_site": "hydroxypyridine O-H/O-; not NH",
+  "physical_workers": 1,
+  "threads": 2,
+  "configured_memory_mib": 500,
+  "rss_limit_mib": 1536,
+  "total_quantum_wall_seconds": 1200,
+  "jobs": [
+    {
+      "multiplicity": 5,
+      "name": "sto3g_quintet_recovery",
+      "basis": "sto-3g",
+      "wall_seconds": 240
+    },
+    {
+      "multiplicity": 1,
+      "name": "def2svp_singlet",
+      "basis": "def2-svp",
+      "wall_seconds": 450
+    },
+    {
+      "multiplicity": 5,
+      "name": "def2svp_quintet",
+      "basis": "def2-svp",
+      "wall_seconds": 450
+    }
+  ],
+  "protocol": {
+    "d_convergence": 1E-06,
+    "grid_spherical": 110,
+    "method": "pbe",
+    "e_convergence": 1E-08,
+    "soscf_start_convergence": 0.0001,
+    "scf_algorithm": "soscf",
+    "solvent": null,
+    "scf_max_iterations": 120,
+    "grid_radial": 35,
+    "spin_squared_absolute_deviation_max": 0.1
+  },
+  "historical_diagnosis": {
+    "quintet_last_delta_energy_hartree": -3.23503E-08,
+    "quintet_last_commutator_rms": 5.1988E-07,
+    "triplet_spin_squared": 2.661445763547917,
+    "proton_wire_final_force_eV_A": 1.20663,
+    "quintet_iteration": 26,
+    "proton_wire_force_threshold_eV_A": 0.07
+  },
+  "source_evidence": [
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\summary.json",
+      "sha256": "c8fafbc4ee951f0eefaf4e8e764f23e4b7e7119ab738f55032d1c9d266aa3a30",
+      "bytes": 675270
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_def2svp_resource_pilot_001\\summary.json",
+      "sha256": "97158a75c2e6c5ff495e4f87070dd73f6df9c11021b3c300d1d887c77a6ada04",
+      "bytes": 11670
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\proton_wire\\summary.json",
+      "sha256": "27634667e491a993140738ad2fee51adc1711c0b0e9f35bf4baefd9caf98045c",
+      "bytes": 5120
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\proton_wire\\attempt_01_continuation\\neb.log",
+      "sha256": "6bf9ab8c24744eb375144587d21669b2436f475f7fc7bb6aa673de3a0c2cb4c1",
+      "bytes": 10704
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\structures\\Fe_bipyridine_pnnoh_iPr\\active\\best_found.xyz",
+      "sha256": "9ffa23dd9988166a60dd4d31c8b8626a6d953441d12fd9ecfeeab712e87d2851",
+      "bytes": 3787
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\structures\\Fe_bipyridine_pnnoh_iPr\\active\\metadata.json",
+      "sha256": "7058f7a6ff7478053fc88b70a715925f02ee1c427998957a066465687c341b5d",
+      "bytes": 4013
+    },
+    {
+      "path": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase3\\spin\\pincer_vertical_diagnostic_003\\Fe_bipyridine_pnnoh_iPr\\multiplicity_5\\406b38b95b2ac53199fcdc5ebb77cb58d4844f820e4068158ad1fbe90ebba6b3\\attempt_0c487e0c3f484fe1bed14ab662893f18\\native\\pair_3f998a240b524460bc653fa043b5d1ff\\multiplicity_5\\psi4.out",
+      "sha256": "2e7aabee5bda9436eac3dfa95bc276244420b33b53be6678061fd38e870cc698",
+      "bytes": 13650
+    }
+  ],
+  "physical_result": null,
+  "acceptance_boundary": "Actual new results must come from local_pilot_001/summary.json; no accepted chemical label or MECP is conferred by this plan."
+}

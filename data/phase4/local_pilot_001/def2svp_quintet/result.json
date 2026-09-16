@@ -1,0 +1,36 @@
+{
+  "name": "def2svp_quintet",
+  "basis": "def2-svp",
+  "method": "pbe",
+  "multiplicity": 5,
+  "started_utc": "2026-09-16T05:05:39.865418+00:00",
+  "status": "timeout",
+  "requested_wall_seconds": 450.0,
+  "enforced_wall_seconds": 450.0,
+  "configured_memory_mib": 500,
+  "rss_limit_mib": 1536,
+  "threads": 2,
+  "peak_rss_mib": 522.765625,
+  "accepted_chemical_label": false,
+  "geometry_sha256": "bc58eef692c3f118a7220a64314e480c72434b40c04227488dc46909b42e5731",
+  "reason": "Enforced per-job or total wall-time limit",
+  "returncode": 1,
+  "finished_utc": "2026-09-16T05:13:09.937976+00:00",
+  "worker_wall_seconds": 450.0779999999795,
+  "native_evidence": {
+    "files": 6,
+    "scientific_files_copied": 2,
+    "manifest_sha256": "5ae18dc9b4443a550679c5e537ff652341d5c6fc7454cf546b218d72ed3fa719"
+  },
+  "command": [
+    "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase7\\python.exe",
+    "-m",
+    "pincer_catmech.quantum.spin_provider",
+    "--request",
+    "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase4\\local_pilot_001\\def2svp_quintet\\request.json",
+    "--result",
+    "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-13\\files-pasted-by-the-user-mission\\work\\pincer-catmech-ai\\data\\phase4\\local_pilot_001\\def2svp_quintet\\response.json"
+  ],
+  "request_sha256": "622c0f0fb874abded714d0f263499b993a1df062df42241e1b07e01b702daf19",
+  "worker_stdout_sha256": "9b70cab210935dbcebe315615fe75beff0e0d36614db08ad82c3a5ee5bbec468"
+}

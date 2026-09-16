@@ -1,0 +1,66 @@
+{
+  "schema": "pincer_solvation_sensitivity_v1",
+  "created_utc": "2026-09-16T04:59:34.798647+00:00",
+  "rows": 405,
+  "new_quantum_jobs": 0,
+  "baseline_rows_checked": 27,
+  "baseline_max_error_kcal_mol": 0.0,
+  "baseline_temperature_K": 383.15,
+  "cutoff_sensitivity_at_baseline": [
+    {
+      "n_alcohol": 1,
+      "temperature_K": 383.15,
+      "cutoff_min_kcal_mol": 3.175923152357427,
+      "cutoff_max_kcal_mol": 3.9691352485278912,
+      "cutoff_range_kcal_mol": 0.7932120961704641
+    },
+    {
+      "n_alcohol": 2,
+      "temperature_K": 383.15,
+      "cutoff_min_kcal_mol": 8.404477226569725,
+      "cutoff_max_kcal_mol": 10.702983504539588,
+      "cutoff_range_kcal_mol": 2.2985062779698637
+    },
+    {
+      "n_alcohol": 3,
+      "temperature_K": 383.15,
+      "cutoff_min_kcal_mol": 10.958427877332724,
+      "cutoff_max_kcal_mol": 14.423586066564894,
+      "cutoff_range_kcal_mol": 3.46515818923217
+    }
+  ],
+  "source_sha256": {
+    "data/phase3/solvation/summary.json": "271c169649730433309c0f546a1cd4474f970de098d6fcd207b794a5fc7c8c45",
+    "data/reference_thermochemistry/hemiaminal/stationarity/result.json": "c87bc196360d78217ef6e0528c5db5f9660bc58ea6815663a40e35b3495caff7",
+    "data/reference_thermochemistry/hemiaminal/stationarity/accepted_geometry.xyz": "43c120f6fa5106717960454234119afe3ec98c29b1709477c98d887599f3c399",
+    "data/reference_thermochemistry/hemiaminal/stationarity/hessian_00.npz": "711a7c4d09980744a16cc9ec29921e184db45bc50a5ba5cb4383c551e9ea48f9",
+    "data/reference_thermochemistry/tert_butanol/stationarity/result.json": "8adab470849d6646c6d5b52cab0e32e897898300e466093a834b128439fbee79",
+    "data/reference_thermochemistry/tert_butanol/stationarity/accepted_geometry.xyz": "528ce6cef516220b49746927b16e66a325ccc5797a749a09e16cf5dfe6b1bd99",
+    "data/reference_thermochemistry/tert_butanol/stationarity/hessian_00.npz": "519f1eb724b3b223ec193e71e4eefe89a521e378f0383d7a15fa5396300f9c25",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_1_seed_02/stationarity/result.json": "5c473aca7d7f1ca2a5722971192ff7ed4b7007d5d99de42f1ade8a5226b45951",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_1_seed_02/stationarity/accepted_geometry.xyz": "7994652a6b0b01df8099a9f0c29c2370b0c43c35aea41ff3f68aba81a1a47b1d",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_1_seed_02/stationarity/hessian_00.npz": "14b3343cc868a3c690e965c7609c86c613b4d041c9baca326a7b1b82356e0e21",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_2_seed_01/stationarity/result.json": "b32b2a455591de78169cdf44e3b0ce705356fd9e620a90a824bf31b8fb07db1d",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_2_seed_01/stationarity/accepted_geometry.xyz": "a4bb960767a96841c0168a02c72cc576203d8339d30e5c794eb9b4b4c0bf09d5",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_2_seed_01/stationarity/hessian_00.npz": "c8a109b0852fccc16d45e1f34583b6b9e529accc86b22503bb71a23c17518eaf",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_3_seed_00/stationarity/result.json": "c252bfc96394a24521b10d5df6fc9262e6fe7f0ebee28071057ac66a9ddd6c42",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_3_seed_00/stationarity/accepted_geometry.xyz": "808b34c9bfdaf81e098dcb7f6ca03a5ebccdb0de908e4eb61bc16ad7f0e39f70",
+    "data/phase3/solvation/clusters/hemiaminal_tbuoh_3_seed_00/stationarity/hessian_01.npz": "392ff26420adc2d3f59a1f9f9c74feced91984850bdddd7ce3a0fd3f614e96ac"
+  },
+  "implementation_sha256": {
+    "scripts/run_phase4_solvation_sensitivity.py": "1762fea08d6fe1a405a07e05b668e16a9f482859cd5c0e9a81f8b296ca3a2c39",
+    "src/pincer_catmech/kinetics/solvation_sensitivity.py": "317f4874544a2487f90449b6037162a787130ae40c2ac0d9ad5edaf4a6d90474",
+    "src/pincer_catmech/kinetics/free_energy.py": "52f08dc843f8ca6c2b372f214b30489d1835d7003f7cdcba0c595d38291c0aba"
+  },
+  "csv_sha256": "96dfcd662acf44db9044eeef61a9daa5791809f9d882df8bc77cda0b1b80a5f4",
+  "scientific_status": "conditional_thermochemical_sensitivity_only",
+  "assumptions": [
+    "One selected certified minimum per cluster size; incomplete conformer ensemble",
+    "ALPB electronic solvent contribution held fixed across temperature",
+    "Neutral tBuOH activity relative to 1 M is an independent hypothetical input",
+    "Alcohol activity is not tBuOK equivalents or a measured solution activity",
+    "Association equilibrium only; not catalytic rates, bulk populations or a TS barrier"
+  ],
+  "physical_kinetics_validated": false,
+  "bulk_speciation_validated": false
+}
