@@ -1,0 +1,71 @@
+{
+  "audit_date": "2026-09-20",
+  "scope": "Hashes of local raw Cu audit sources; edited project summaries excluded. Null URL explicitly means exact endpoint not preserved.",
+  "files": [
+    {
+      "file": "citing_openalex.json",
+      "bytes": 1109585,
+      "sha256": "DF62B53A3A347FAFC10A2CFB702A3CC66A48B6A88DDF8C1847347E0BD2C82DFC",
+      "local_only": true,
+      "source_url": null,
+      "source_locator": "OpenAlex cited-by API response, date cutoff 2026-09-20; see cu_evidence.json subsequent_search. Exact query URL not preserved."
+    },
+    {
+      "file": "crossref_followup_jacs.json",
+      "bytes": 25897,
+      "sha256": "C84D9740AC0574BE5DF0C72B8E260DAAC969F0EBD32E1AF69AA7788BADDEABF6",
+      "local_only": true,
+      "source_url": "https://api.crossref.org/works/10.1021/jacs.6c07265"
+    },
+    {
+      "file": "crossref_followup_review.json",
+      "bytes": 39043,
+      "sha256": "DB97A03FD4980D1ACBD0A448591A5D4ED479359C182BD67CAC9FC7FE52FABACC",
+      "local_only": true,
+      "source_url": "https://api.crossref.org/works/10.1016/j.chempr.2025.102838"
+    },
+    {
+      "file": "crossref.json",
+      "bytes": 16372,
+      "sha256": "2BD37F2E1A91E4A605EAF42FEFD2E91945971DDE4B1E873E4826DCA831C41B01",
+      "local_only": true,
+      "source_url": "https://api.crossref.org/works/10.1002/anie.202505085"
+    },
+    {
+      "file": "neu_figure.png",
+      "bytes": 188253,
+      "sha256": "915A53977980104437246C69CADE0C861DE3E27BC79448B67F5D1F1B55DDB5C9",
+      "local_only": true,
+      "source_url": "https://neunews.neu.edu.cn/__local/B/1C/67/245ABE2C221B0DDDFB1A80F654F_DB14C13F_2DF5D.png"
+    },
+    {
+      "file": "neu_news.html",
+      "bytes": 41661,
+      "sha256": "55ECA3317234A9887D895D2D5045C0A2D882ABE54815DEF9E1F32933041AC08B",
+      "local_only": true,
+      "source_url": "https://neunews.neu.edu.cn/info/1341/941741.htm"
+    },
+    {
+      "file": "neu_paper_front.png",
+      "bytes": 1886763,
+      "sha256": "6064A2E9C11863B4244981D84FB85D6C713B6E48FEE0EB770CC01B35C1329F6A",
+      "local_only": true,
+      "source_url": null,
+      "source_locator": "Image linked from https://neunews.neu.edu.cn/info/1341/941741.htm; exact asset URL not captured in this merged manifest."
+    },
+    {
+      "file": "openalex.json",
+      "bytes": 34108,
+      "sha256": "D1EC6026AD9F99111A25C1C8917BA5CAD97A3448432AE9271EBF925F2D94C826",
+      "local_only": true,
+      "source_url": "https://api.openalex.org/works/https://doi.org/10.1002/anie.202505085"
+    },
+    {
+      "file": "pubchem_substrate.json",
+      "bytes": 229,
+      "sha256": "0EF25E3BED51B6060FC3AEE2F0574F7B84EA5BB8DC2A9A99C4DAE9FB7380D9A8",
+      "local_only": true,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/3-methylquinazolin-4(3H)-one/property/MolecularFormula,CanonicalSMILES,IsomericSMILES/JSON"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "label":"PLANNED CALCULATION",
+  "freeze_date_local":"2026-09-20",
+  "status":"reserved; no fitted model and no validated performance prediction",
+  "grouping":"conditions; all catalyst comparisons and repeat calculations belonging to one condition remain in the same group",
+  "development":"verified reference condition only; Q and aromatic nitrile B identities/concentrations still require primary paper/SI",
+  "holdouts":[
+    {"id":"HOLD-B2","condition":"double B activity at fixed Q activity, donor activity and measured cathode potential","purpose":"partner competition","rank_decision_value":1},
+    {"id":"HOLD-P02","condition":"pre-add isolated verified product at 0.2 equivalents relative to initial Q, fixed Q/B/donor and potential","purpose":"product inhibition","rank_decision_value":2},
+    {"id":"HOLD-D05","condition":"half independently calibrated proton-donor activity, constant ionic strength and controlled water","purpose":"interfacial delivery versus occupancy","rank_decision_value":3}
+  ],
+  "restrictions":["No fitting, tuning or acquisition on these groups","Freeze quantitative predictions and uncertainty before measurement","No aqueous pH inferred for DMF","Ranking above is experimental information value, not catalyst performance"],
+  "unlock_requires":["full reaction identity and conditions","baseline reproduction","method sensitivity below interpreted effect","appropriate interface/kinetic validation"]
+}

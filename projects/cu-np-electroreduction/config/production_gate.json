@@ -1,0 +1,13 @@
+{
+  "label": "PLANNED CALCULATION",
+  "production_authorized": false,
+  "baseline_status": "not_reproduced_source_incomplete",
+  "requirements": {"published_atom_coordinates": null,"unit_cell":null,"published_functional":null,"dispersion":null,"pseudopotentials":null,"cutoff":null,"k_mesh":null,"charge_and_spin":null,"solvation":null,"potential_reference":null,"thermal_corrections":null,"substrate_partner_product_identity":null,"electrolyte_concentration":null,"server_allocation":null,"software_license":null},
+  "baseline_tolerances_before_interpretation": {"atom_count_and_connectivity": "exact", "published_bond_distances_A":0.05,"relative_electronic_energy_eV":0.10,"convergence_energy_change_eV":0.03,"force_max_eV_per_A":0.03,"proviso":"Conditional same-method reproduction thresholds; not DFT physical accuracy. Revise prospectively if SI specifies stricter limits, never to rescue discrepancies."},
+  "next_minimal_batch": [
+    {"id":"B01","calculation":"published CuN4 bare/adsorbed reference pair","decision":"Can reported relative adsorption be reconstructed?","status":"unexecuted_missing_source"},
+    {"id":"B02","calculation":"published CuN3P1 bare/adsorbed reference pair","decision":"Does the sign and size of the P coordination effect reproduce?","status":"unexecuted_missing_source"},
+    {"id":"B03","calculation":"same-composition alternative occupancies Q, aromatic nitrile B, product and solvent; explicit reservoirs","decision":"Can competitive occupancy erase the bare-site advantage?","status":"gated_on_B01_B02"},
+    {"id":"B04","calculation":"two potentials bracketing experimentally measured cathodic onset with consistent potential control","decision":"Is any ranking reversal robust to working potential?","status":"gated_on_measured_reference_and_server"}
+  ]
+}

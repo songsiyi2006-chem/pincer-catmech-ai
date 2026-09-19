@@ -1,0 +1,80 @@
+{
+  "calculation_id": "R008-gfn2-dmf-q0",
+  "label": "EXECUTED RESULT",
+  "scope": "molecular_method_preflight_only",
+  "identity": {
+    "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+    "settings": {
+      "gfn": 2,
+      "charge": 0,
+      "unpaired": 0,
+      "solvent": "dmf",
+      "task": "sp"
+    },
+    "software_version": "6.7.1 (edcfbbe) compiled by 'VssAdministrator@runnervm171ch' on 2026-06-10",
+    "runner_sha256": "57815fb66f385cbb4737d49501a6ca4a7a56cff67867a0428aeb23b01f662f0f",
+    "parser_sha256": "aad488274b65c1d9f0e188f3ac8cc9e8260f5ab42fc5c940e3279cb89c6c92c8"
+  },
+  "input_structure_provenance": {
+    "origin_calculation_id": "R000-rotor-reopt",
+    "sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9"
+  },
+  "command": [
+    "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+    "input.xyz",
+    "--gfn",
+    "2",
+    "--chrg",
+    "0",
+    "--uhf",
+    "0",
+    "--acc",
+    "0.1",
+    "--iterations",
+    "250",
+    "--alpb",
+    "dmf"
+  ],
+  "settings": {
+    "gfn": 2,
+    "charge": 0,
+    "unpaired": 0,
+    "solvent": "dmf",
+    "task": "sp"
+  },
+  "resource_request": {
+    "threads": 2,
+    "timeout_seconds": 180,
+    "memory_limit": "not imposed by xTB; small 20-atom molecule"
+  },
+  "started_utc": "2026-09-19T16:14:28.252084+00:00",
+  "status": "completed",
+  "output_location": "data\\raw\\pilot_002\\R008-gfn2-dmf-q0",
+  "downstream_results": [
+    "results/pilot_summary.json"
+  ],
+  "parsing_history": [
+    {
+      "utc": "2026-09-19T16:14:28.316703+00:00",
+      "parser": "science.parse_xtb",
+      "result": "accepted native termination/energy"
+    }
+  ],
+  "exit_code": 0,
+  "energy_hartree": -33.30814702704,
+  "native_normal_termination": true,
+  "geometry_optimized": false,
+  "task": "sp",
+  "elapsed_seconds": 0.060693899999023415,
+  "finished_utc": "2026-09-19T16:14:28.316703+00:00",
+  "output_hashes": {
+    "charges": "65bbdb100513996873bfe68f5f2107989d440b922e12b0f884752da5998c692e",
+    "input.xyz": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+    "input_settings.json": "41042a9a39c4d6f84fbee79b0da31085e264365f86eedab837e9e9bfe4fd29bc",
+    "stderr.log": "40f9f7e0095fdc25e368e4c6c31f5efb176709e0349d3c45b7387727ed672cf0",
+    "stdout.log": "77f06aed787d165584ad0e92169c0c0d3e7aa36df0946e624dc25a6a7fee330e",
+    "wbo": "defc90367098b89a4194022107145a2e9c76f3be4804713d49bf073773eab742",
+    "xtbrestart": "61efc578808baded734f3735dbc76dd0d77b95328b0e8da122015bc7b923d2e6",
+    "xtbtopo.mol": "d71faf9f2d6a8e807d9931c8710f4b589da26bb35698a794d266fa05cd6f0838"
+  }
+}

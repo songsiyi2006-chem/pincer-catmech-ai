@@ -1,0 +1,43 @@
+{
+  "audit_date": "2026-09-20",
+  "scope": "HTTP retrieval audit; local full source bodies excluded from public repository",
+  "attempts": [
+    {
+      "name": "nature_anchor_si",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-023-05886-z/MediaObjects/41586_2023_5886_MOESM1_ESM.pdf",
+      "status": 200,
+      "valid_pdf": true,
+      "bytes": 9346994,
+      "local_audit_basename": "nature_anchor_si.pdf"
+    },
+    {
+      "name": "cu_dynamic_si",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-023-40970-y/MediaObjects/41467_2023_40970_MOESM1_ESM.pdf",
+      "status": 200,
+      "valid_pdf": true,
+      "bytes": 5827062,
+      "local_audit_basename": "cu_dynamic_si.pdf"
+    },
+    {
+      "name": "mn_anchor_si",
+      "url": "https://onlinelibrary.wiley.com/doi/suppl/10.1002/anie.202315032/supinfo/anie202315032-sup-0001-misc_information.pdf",
+      "status": 403,
+      "valid_pdf": false,
+      "bytes": 5815,
+      "local_audit_basename": "mn_anchor_si_access_error.html"
+    },
+    {
+      "name": "fe_anchor_si",
+      "url": "https://onlinelibrary.wiley.com/doi/suppl/10.1002/anie.202404295/supinfo/anie202404295-sup-0001-misc_information.pdf",
+      "status": 403,
+      "valid_pdf": false,
+      "bytes": 5815,
+      "local_audit_basename": "fe_anchor_si_access_error.html"
+    },
+    {
+      "name": "mnrh_si",
+      "url": "https://www.rsc.org/suppdata/d4/sc/d4sc08658a/d4sc08658a1.pdf",
+      "error": "HTTPSConnectionPool(host='www.rsc.org', port=443): Read timed out. (read timeout=40)"
+    }
+  ]
+}

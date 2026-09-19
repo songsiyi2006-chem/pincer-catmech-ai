@@ -1,0 +1,374 @@
+{
+  "label": "EXECUTED RESULT",
+  "scope": "molecular fixed-charge preflight; not Cu-site reproduction, no kinetics or electrochemical potential",
+  "native_calls": 20,
+  "completed_native_calls": 20,
+  "elapsed_sum_seconds": 2.8715468000009423,
+  "initial_minimum_rejected": true,
+  "identity_connectivity_preserved": true,
+  "connectivity_note": "distance graph only, not bond-order, chemical or active-site validation",
+  "rows": [
+    {
+      "id": "P000-neutral-gfn2-gas-opt",
+      "batch": "pilot_001",
+      "settings": {
+        "gfn": 2,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "gas",
+        "task": "opt"
+      },
+      "energy_hartree": -33.288927637404,
+      "elapsed_seconds": 0.1867976999928942,
+      "input_sha256": "98dee3e405e340c9367d28c0c8af231700166a579378f607cc084ca53e011e8a",
+      "status": "completed"
+    },
+    {
+      "id": "P001-gfn1-gas-q0",
+      "batch": "pilot_001",
+      "settings": {
+        "gfn": 1,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "gas",
+        "task": "sp"
+      },
+      "energy_hartree": -34.421131055134,
+      "elapsed_seconds": 0.08409440000832547,
+      "input_sha256": "f5cb47eb0fad8363a3250fc79e42d1e7161aa049ec7d118f4d04828ddcf9e7c4",
+      "status": "completed"
+    },
+    {
+      "id": "P002-gfn1-gas-q-1",
+      "batch": "pilot_001",
+      "settings": {
+        "gfn": 1,
+        "charge": -1,
+        "unpaired": 1,
+        "solvent": "gas",
+        "task": "sp"
+      },
+      "energy_hartree": -34.619979023004,
+      "elapsed_seconds": 0.07536459999391809,
+      "input_sha256": "f5cb47eb0fad8363a3250fc79e42d1e7161aa049ec7d118f4d04828ddcf9e7c4",
+      "status": "completed"
+    },
+    {
+      "id": "P003-gfn1-dmf-q0",
+      "batch": "pilot_001",
+      "settings": {
+        "gfn": 1,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "dmf",
+        "task": "sp"
+      },
+      "energy_hartree": -34.440090133752,
+      "elapsed_seconds": 0.08544769999571145,
+      "input_sha256": "f5cb47eb0fad8363a3250fc79e42d1e7161aa049ec7d118f4d04828ddcf9e7c4",
+      "status": "completed"
+    },
+    {
+      "id": "P004-gfn1-dmf-q-1",
+      "batch": "pilot_001",
+      "settings": {
+        "gfn": 1,
+        "charge": -1,
+        "unpaired": 1,
+        "solvent": "dmf",
+        "task": "sp"
+      },
+      "energy_hartree": -34.701201152434,
+      "elapsed_seconds": 0.061301599998841994,
+      "input_sha256": "f5cb47eb0fad8363a3250fc79e42d1e7161aa049ec7d118f4d04828ddcf9e7c4",
+      "status": "completed"
+    },
+    {
+      "id": "P005-gfn2-gas-q0",
+      "batch": "pilot_001",
+      "settings": {
+        "gfn": 2,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "gas",
+        "task": "sp"
+      },
+      "energy_hartree": -33.288927637395,
+      "elapsed_seconds": 0.08166870000422932,
+      "input_sha256": "f5cb47eb0fad8363a3250fc79e42d1e7161aa049ec7d118f4d04828ddcf9e7c4",
+      "status": "completed"
+    },
+    {
+      "id": "P006-gfn2-gas-q-1",
+      "batch": "pilot_001",
+      "settings": {
+        "gfn": 2,
+        "charge": -1,
+        "unpaired": 1,
+        "solvent": "gas",
+        "task": "sp"
+      },
+      "energy_hartree": -33.458904697136,
+      "elapsed_seconds": 0.07683069999620784,
+      "input_sha256": "f5cb47eb0fad8363a3250fc79e42d1e7161aa049ec7d118f4d04828ddcf9e7c4",
+      "status": "completed"
+    },
+    {
+      "id": "P007-gfn2-dmf-q0",
+      "batch": "pilot_001",
+      "settings": {
+        "gfn": 2,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "dmf",
+        "task": "sp"
+      },
+      "energy_hartree": -33.307692478877,
+      "elapsed_seconds": 0.05235700000775978,
+      "input_sha256": "f5cb47eb0fad8363a3250fc79e42d1e7161aa049ec7d118f4d04828ddcf9e7c4",
+      "status": "completed"
+    },
+    {
+      "id": "P008-gfn2-dmf-q-1",
+      "batch": "pilot_001",
+      "settings": {
+        "gfn": 2,
+        "charge": -1,
+        "unpaired": 1,
+        "solvent": "dmf",
+        "task": "sp"
+      },
+      "energy_hartree": -33.538102582926,
+      "elapsed_seconds": 0.07001619999937247,
+      "input_sha256": "f5cb47eb0fad8363a3250fc79e42d1e7161aa049ec7d118f4d04828ddcf9e7c4",
+      "status": "completed"
+    },
+    {
+      "id": "P009-neutral-gfn2-gas-hess",
+      "batch": "pilot_001",
+      "settings": {
+        "gfn": 2,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "gas",
+        "task": "hess"
+      },
+      "energy_hartree": -33.288927637404,
+      "elapsed_seconds": 0.7151176999905147,
+      "input_sha256": "f5cb47eb0fad8363a3250fc79e42d1e7161aa049ec7d118f4d04828ddcf9e7c4",
+      "status": "completed",
+      "frequency_count": 60,
+      "minimum_frequency_cm1": -50.49,
+      "vibrational_mode_count": 54,
+      "minimum_vibrational_frequency_cm1": -50.49,
+      "significant_imaginary_modes": 1,
+      "minimum_accepted": false
+    },
+    {
+      "id": "R000-rotor-reopt",
+      "batch": "pilot_002",
+      "settings": {
+        "gfn": 2,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "gas",
+        "task": "opt",
+        "optimization": "verytight"
+      },
+      "energy_hartree": -33.289389145391,
+      "elapsed_seconds": 0.12937650000094436,
+      "input_sha256": "95528070107c902a9b0c2920a2fccf1334fcad29982430843c2698b070589b84",
+      "status": "completed"
+    },
+    {
+      "id": "R001-rotor-hess",
+      "batch": "pilot_002",
+      "settings": {
+        "gfn": 2,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "gas",
+        "task": "hess"
+      },
+      "energy_hartree": -33.28938914539,
+      "elapsed_seconds": 0.7229344000079436,
+      "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+      "status": "completed",
+      "frequency_count": 60,
+      "minimum_frequency_cm1": -0.0,
+      "vibrational_mode_count": 54,
+      "minimum_vibrational_frequency_cm1": 78.64,
+      "significant_imaginary_modes": 0,
+      "minimum_accepted": true
+    },
+    {
+      "id": "R002-gfn1-gas-q0",
+      "batch": "pilot_002",
+      "settings": {
+        "gfn": 1,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "gas",
+        "task": "sp"
+      },
+      "energy_hartree": -34.421110219996,
+      "elapsed_seconds": 0.07413349999114871,
+      "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+      "status": "completed"
+    },
+    {
+      "id": "R003-gfn1-gas-q-1",
+      "batch": "pilot_002",
+      "settings": {
+        "gfn": 1,
+        "charge": -1,
+        "unpaired": 1,
+        "solvent": "gas",
+        "task": "sp"
+      },
+      "energy_hartree": -34.620569410465,
+      "elapsed_seconds": 0.06373249999887776,
+      "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+      "status": "completed"
+    },
+    {
+      "id": "R004-gfn1-dmf-q0",
+      "batch": "pilot_002",
+      "settings": {
+        "gfn": 1,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "dmf",
+        "task": "sp"
+      },
+      "energy_hartree": -34.440001596247,
+      "elapsed_seconds": 0.06183140000212006,
+      "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+      "status": "completed"
+    },
+    {
+      "id": "R005-gfn1-dmf-q-1",
+      "batch": "pilot_002",
+      "settings": {
+        "gfn": 1,
+        "charge": -1,
+        "unpaired": 1,
+        "solvent": "dmf",
+        "task": "sp"
+      },
+      "energy_hartree": -34.701534840989,
+      "elapsed_seconds": 0.061809399994672276,
+      "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+      "status": "completed"
+    },
+    {
+      "id": "R006-gfn2-gas-q0",
+      "batch": "pilot_002",
+      "settings": {
+        "gfn": 2,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "gas",
+        "task": "sp"
+      },
+      "energy_hartree": -33.289389145382,
+      "elapsed_seconds": 0.05912670001271181,
+      "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+      "status": "completed"
+    },
+    {
+      "id": "R007-gfn2-gas-q-1",
+      "batch": "pilot_002",
+      "settings": {
+        "gfn": 2,
+        "charge": -1,
+        "unpaired": 1,
+        "solvent": "gas",
+        "task": "sp"
+      },
+      "energy_hartree": -33.460123305346,
+      "elapsed_seconds": 0.06208909999986645,
+      "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+      "status": "completed"
+    },
+    {
+      "id": "R008-gfn2-dmf-q0",
+      "batch": "pilot_002",
+      "settings": {
+        "gfn": 2,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "dmf",
+        "task": "sp"
+      },
+      "energy_hartree": -33.30814702704,
+      "elapsed_seconds": 0.060693899999023415,
+      "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+      "status": "completed"
+    },
+    {
+      "id": "R009-gfn2-dmf-q-1",
+      "batch": "pilot_002",
+      "settings": {
+        "gfn": 2,
+        "charge": -1,
+        "unpaired": 1,
+        "solvent": "dmf",
+        "task": "sp"
+      },
+      "energy_hartree": -33.539105579302,
+      "elapsed_seconds": 0.08682310000585858,
+      "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+      "status": "completed"
+    }
+  ],
+  "fixed_geometry_charging_energies": [
+    {
+      "gfn": 1,
+      "solvent": "gas",
+      "delta_E_qminus1_minus_q0_eV": -5.427561072162644,
+      "calculation_ids": [
+        "R003-gfn1-gas-q-1",
+        "R002-gfn1-gas-q0"
+      ],
+      "label": "EXECUTED RESULT"
+    },
+    {
+      "gfn": 1,
+      "solvent": "dmf",
+      "delta_E_qminus1_minus_q0_eV": -7.1166821388391694,
+      "calculation_ids": [
+        "R005-gfn1-dmf-q-1",
+        "R004-gfn1-dmf-q0"
+      ],
+      "label": "EXECUTED RESULT"
+    },
+    {
+      "gfn": 2,
+      "solvent": "gas",
+      "delta_E_qminus1_minus_q0_eV": -4.645913172163479,
+      "calculation_ids": [
+        "R007-gfn2-gas-q-1",
+        "R006-gfn2-gas-q0"
+      ],
+      "label": "EXECUTED RESULT"
+    },
+    {
+      "gfn": 2,
+      "solvent": "dmf",
+      "delta_E_qminus1_minus_q0_eV": -6.284702372413941,
+      "calculation_ids": [
+        "R009-gfn2-dmf-q-1",
+        "R008-gfn2-dmf-q0"
+      ],
+      "label": "EXECUTED RESULT"
+    }
+  ],
+  "hamiltonian_spread_eV": {
+    "gas": 0.7816478999991645,
+    "dmf": 0.8319797664252286
+  },
+  "predeclared_spread_threshold_eV": 0.2,
+  "method_sensitivity_stop": true,
+  "interpretation": "These are E(anion)-E(neutral) with the same nuclei. ALPB uses equilibrium implicit solvent polarization. This is NOT a nonequilibrium vertical electron affinity, electrode potential, ET barrier, free energy, selectivity, or Cu mechanism. No electron chemical potential/reference calibration is supplied."
+}

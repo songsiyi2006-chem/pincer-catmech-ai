@@ -1,0 +1,863 @@
+{
+  "records": [
+    {
+      "calculation_id": "R000-rotor-reopt",
+      "label": "EXECUTED RESULT",
+      "scope": "molecular_method_preflight_only",
+      "identity": {
+        "input_sha256": "95528070107c902a9b0c2920a2fccf1334fcad29982430843c2698b070589b84",
+        "settings": {
+          "gfn": 2,
+          "charge": 0,
+          "unpaired": 0,
+          "solvent": "gas",
+          "task": "opt",
+          "optimization": "verytight"
+        },
+        "software_version": "6.7.1 (edcfbbe) compiled by 'VssAdministrator@runnervm171ch' on 2026-06-10",
+        "runner_sha256": "57815fb66f385cbb4737d49501a6ca4a7a56cff67867a0428aeb23b01f662f0f",
+        "parser_sha256": "aad488274b65c1d9f0e188f3ac8cc9e8260f5ab42fc5c940e3279cb89c6c92c8"
+      },
+      "input_structure_provenance": {
+        "source": "data\\raw\\pilot_001\\P000-neutral-gfn2-gas-opt\\xtbopt.xyz",
+        "source_sha256": "f5cb47eb0fad8363a3250fc79e42d1e7161aa049ec7d118f4d04828ddcf9e7c4",
+        "modification": "methyl hydrogen rotation +60 degrees about N-C axis",
+        "reason": "initial Hessian -50.49 cm-1; nuclear coordinates are a local computational seed"
+      },
+      "command": [
+        "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+        "input.xyz",
+        "--gfn",
+        "2",
+        "--chrg",
+        "0",
+        "--uhf",
+        "0",
+        "--acc",
+        "0.1",
+        "--iterations",
+        "250",
+        "--opt",
+        "verytight"
+      ],
+      "settings": {
+        "gfn": 2,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "gas",
+        "task": "opt",
+        "optimization": "verytight"
+      },
+      "resource_request": {
+        "threads": 2,
+        "timeout_seconds": 180,
+        "memory_limit": "not imposed by xTB; small 20-atom molecule"
+      },
+      "started_utc": "2026-09-19T16:14:26.981193+00:00",
+      "status": "completed",
+      "output_location": "data\\raw\\pilot_002\\R000-rotor-reopt",
+      "downstream_results": [
+        "results/pilot_summary.json"
+      ],
+      "parsing_history": [
+        {
+          "utc": "2026-09-19T16:14:27.112259+00:00",
+          "parser": "science.parse_xtb",
+          "result": "accepted native termination/energy"
+        }
+      ],
+      "exit_code": 0,
+      "energy_hartree": -33.289389145391,
+      "native_normal_termination": true,
+      "geometry_optimized": true,
+      "task": "opt",
+      "elapsed_seconds": 0.12937650000094436,
+      "finished_utc": "2026-09-19T16:14:27.112259+00:00",
+      "output_hashes": {
+        ".xtboptok": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "charges": "2915c728f999c76cbb2d9ce8410df470fbb979d570e6ad41e182bd131a0070cc",
+        "input.xyz": "95528070107c902a9b0c2920a2fccf1334fcad29982430843c2698b070589b84",
+        "input_settings.json": "67698cfdb43762eb5e5899ed42997ae1c3b46767a77b6029e816ad96663534a5",
+        "stderr.log": "40f9f7e0095fdc25e368e4c6c31f5efb176709e0349d3c45b7387727ed672cf0",
+        "stdout.log": "16bb59ae4758a4c19b139fb3feeee90ec7ac17867a7a8cb8829a1ee4c8edc70c",
+        "wbo": "550e36a8841909190b6ddf2cba1b8cd87aa9a440fe468121edb8587cddbb8df9",
+        "xtbopt.log": "ec94e32002339d5727a039f5010fc6bfb8441f1fa91312674452b8b2482888b4",
+        "xtbopt.xyz": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "xtbrestart": "6cc0cfe4dccc2ec61601bc24dd4ad10cb0aaca031c0216669b219fd074a873bb",
+        "xtbtopo.mol": "d71faf9f2d6a8e807d9931c8710f4b589da26bb35698a794d266fa05cd6f0838"
+      }
+    },
+    {
+      "calculation_id": "R001-rotor-hess",
+      "label": "EXECUTED RESULT",
+      "scope": "molecular_method_preflight_only",
+      "identity": {
+        "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "settings": {
+          "gfn": 2,
+          "charge": 0,
+          "unpaired": 0,
+          "solvent": "gas",
+          "task": "hess"
+        },
+        "software_version": "6.7.1 (edcfbbe) compiled by 'VssAdministrator@runnervm171ch' on 2026-06-10",
+        "runner_sha256": "57815fb66f385cbb4737d49501a6ca4a7a56cff67867a0428aeb23b01f662f0f",
+        "parser_sha256": "aad488274b65c1d9f0e188f3ac8cc9e8260f5ab42fc5c940e3279cb89c6c92c8"
+      },
+      "input_structure_provenance": {
+        "origin_calculation_id": "R000-rotor-reopt",
+        "sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9"
+      },
+      "command": [
+        "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+        "input.xyz",
+        "--gfn",
+        "2",
+        "--chrg",
+        "0",
+        "--uhf",
+        "0",
+        "--acc",
+        "0.1",
+        "--iterations",
+        "250",
+        "--hess"
+      ],
+      "settings": {
+        "gfn": 2,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "gas",
+        "task": "hess"
+      },
+      "resource_request": {
+        "threads": 2,
+        "timeout_seconds": 180,
+        "memory_limit": "not imposed by xTB; small 20-atom molecule"
+      },
+      "started_utc": "2026-09-19T16:14:27.115819+00:00",
+      "status": "completed",
+      "output_location": "data\\raw\\pilot_002\\R001-rotor-hess",
+      "downstream_results": [
+        "results/pilot_summary.json"
+      ],
+      "parsing_history": [
+        {
+          "utc": "2026-09-19T16:14:27.840699+00:00",
+          "parser": "science.parse_xtb",
+          "result": "accepted native termination/energy"
+        }
+      ],
+      "exit_code": 0,
+      "energy_hartree": -33.28938914539,
+      "native_normal_termination": true,
+      "geometry_optimized": false,
+      "task": "hess",
+      "frequencies_cm1": [
+        78.64,
+        88.0,
+        115.23,
+        210.82,
+        255.62,
+        258.45,
+        340.74,
+        388.19,
+        423.12,
+        431.62,
+        481.61,
+        517.33,
+        564.3,
+        591.66,
+        647.69,
+        711.81,
+        738.67,
+        772.9,
+        786.83,
+        858.72,
+        881.78,
+        888.58,
+        922.05,
+        932.11,
+        964.99,
+        1034.39,
+        1071.86,
+        1105.6,
+        1117.87,
+        1169.32,
+        1189.93,
+        1220.23,
+        1243.23,
+        1269.81,
+        1309.58,
+        1342.63,
+        1360.22,
+        1394.55,
+        1434.7,
+        1452.0,
+        1459.14,
+        1465.01,
+        1551.0,
+        1590.86,
+        1625.03,
+        1714.8,
+        2994.81,
+        3004.65,
+        3026.63,
+        3044.62,
+        3080.68,
+        3090.12,
+        3099.84,
+        3109.92
+      ],
+      "minimum_check": "passed",
+      "elapsed_seconds": 0.7229344000079436,
+      "finished_utc": "2026-09-19T16:14:27.840699+00:00",
+      "output_hashes": {
+        "charges": "eac94971abbe558a250880ff01c83f0e0277455470ba909c0c4baac8e6157509",
+        "g98.out": "ee880daad97b2f5c71f1a0685cfea92a1ef19730b6ccde9d397b8c92d1be01b9",
+        "hessian": "205cfef1de7b82311a7467a6c0976fce72751c29cb401d6d4466795cee80f793",
+        "input.xyz": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "input_settings.json": "6824b102b5809dd84784cceb3756f62d7e2f59055f3ffe64e4b4a8e5b6c913b9",
+        "stderr.log": "40f9f7e0095fdc25e368e4c6c31f5efb176709e0349d3c45b7387727ed672cf0",
+        "stdout.log": "08309951758f67ed2d5b134acdde6dfd9cab96d14b79274fd9cbb6c5eb7fde2f",
+        "vibspectrum": "8c3ed38eee5ee01fcaafc746b50a2f8539a88816a9e54f6ad901c6c6ccfe7eba",
+        "wbo": "d9c2e23bb2d007f294eb8fc7fc4ddc4d26da69c649095a8796e5c2081de181fc",
+        "xtbrestart": "29d5132597723a80b809e04d880c09c839a51e8c44363c4f97ec3269e7c0bc81",
+        "xtbtopo.mol": "9b957a421aeb58dbe8e38f878d9ca259c4d1e42da92f2047e9de1c802045188f"
+      }
+    },
+    {
+      "calculation_id": "R002-gfn1-gas-q0",
+      "label": "EXECUTED RESULT",
+      "scope": "molecular_method_preflight_only",
+      "identity": {
+        "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "settings": {
+          "gfn": 1,
+          "charge": 0,
+          "unpaired": 0,
+          "solvent": "gas",
+          "task": "sp"
+        },
+        "software_version": "6.7.1 (edcfbbe) compiled by 'VssAdministrator@runnervm171ch' on 2026-06-10",
+        "runner_sha256": "57815fb66f385cbb4737d49501a6ca4a7a56cff67867a0428aeb23b01f662f0f",
+        "parser_sha256": "aad488274b65c1d9f0e188f3ac8cc9e8260f5ab42fc5c940e3279cb89c6c92c8"
+      },
+      "input_structure_provenance": {
+        "origin_calculation_id": "R000-rotor-reopt",
+        "sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9"
+      },
+      "command": [
+        "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+        "input.xyz",
+        "--gfn",
+        "1",
+        "--chrg",
+        "0",
+        "--uhf",
+        "0",
+        "--acc",
+        "0.1",
+        "--iterations",
+        "250"
+      ],
+      "settings": {
+        "gfn": 1,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "gas",
+        "task": "sp"
+      },
+      "resource_request": {
+        "threads": 2,
+        "timeout_seconds": 180,
+        "memory_limit": "not imposed by xTB; small 20-atom molecule"
+      },
+      "started_utc": "2026-09-19T16:14:27.843845+00:00",
+      "status": "completed",
+      "output_location": "data\\raw\\pilot_002\\R002-gfn1-gas-q0",
+      "downstream_results": [
+        "results/pilot_summary.json"
+      ],
+      "parsing_history": [
+        {
+          "utc": "2026-09-19T16:14:27.917837+00:00",
+          "parser": "science.parse_xtb",
+          "result": "accepted native termination/energy"
+        }
+      ],
+      "exit_code": 0,
+      "energy_hartree": -34.421110219996,
+      "native_normal_termination": true,
+      "geometry_optimized": false,
+      "task": "sp",
+      "elapsed_seconds": 0.07413349999114871,
+      "finished_utc": "2026-09-19T16:14:27.917837+00:00",
+      "output_hashes": {
+        "charges": "c4a512f8370cf8a7cc596165f4738856aa99ff852a1ef466051a8c75d2e5ac6f",
+        "input.xyz": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "input_settings.json": "271cc8daa6d3afec4c2199f71aa8fcea43e0dd143ad7291bdb9300ce640fb72d",
+        "stderr.log": "592fed113c3bea9862d01eb03e4b837d9a0ebb4cd33b8ac6282766644db936bc",
+        "stdout.log": "d049bce6efe01ffcaa4c489781900b89077097be1e2fe9bffc702995d9f61bfb",
+        "wbo": "912b8b0e78e47b03a883ef9aaec0c9e1ea775ff6e401f86c1b0da00000992427",
+        "xtbrestart": "20513030d38d6d464c6381257e0b2e3fd5eb18c60c21102eda60cf71c7422981",
+        "xtbtopo.mol": "d11ffa834c4b79a1e43934503b4793f76d2a710a34474c511b61ffa935fe0ccc"
+      }
+    },
+    {
+      "calculation_id": "R003-gfn1-gas-q-1",
+      "label": "EXECUTED RESULT",
+      "scope": "molecular_method_preflight_only",
+      "identity": {
+        "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "settings": {
+          "gfn": 1,
+          "charge": -1,
+          "unpaired": 1,
+          "solvent": "gas",
+          "task": "sp"
+        },
+        "software_version": "6.7.1 (edcfbbe) compiled by 'VssAdministrator@runnervm171ch' on 2026-06-10",
+        "runner_sha256": "57815fb66f385cbb4737d49501a6ca4a7a56cff67867a0428aeb23b01f662f0f",
+        "parser_sha256": "aad488274b65c1d9f0e188f3ac8cc9e8260f5ab42fc5c940e3279cb89c6c92c8"
+      },
+      "input_structure_provenance": {
+        "origin_calculation_id": "R000-rotor-reopt",
+        "sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9"
+      },
+      "command": [
+        "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+        "input.xyz",
+        "--gfn",
+        "1",
+        "--chrg",
+        "-1",
+        "--uhf",
+        "1",
+        "--acc",
+        "0.1",
+        "--iterations",
+        "250"
+      ],
+      "settings": {
+        "gfn": 1,
+        "charge": -1,
+        "unpaired": 1,
+        "solvent": "gas",
+        "task": "sp"
+      },
+      "resource_request": {
+        "threads": 2,
+        "timeout_seconds": 180,
+        "memory_limit": "not imposed by xTB; small 20-atom molecule"
+      },
+      "started_utc": "2026-09-19T16:14:27.922468+00:00",
+      "status": "completed",
+      "output_location": "data\\raw\\pilot_002\\R003-gfn1-gas-q-1",
+      "downstream_results": [
+        "results/pilot_summary.json"
+      ],
+      "parsing_history": [
+        {
+          "utc": "2026-09-19T16:14:27.988137+00:00",
+          "parser": "science.parse_xtb",
+          "result": "accepted native termination/energy"
+        }
+      ],
+      "exit_code": 0,
+      "energy_hartree": -34.620569410465,
+      "native_normal_termination": true,
+      "geometry_optimized": false,
+      "task": "sp",
+      "elapsed_seconds": 0.06373249999887776,
+      "finished_utc": "2026-09-19T16:14:27.988137+00:00",
+      "output_hashes": {
+        "charges": "9bcf64b4b84d425010c5fc79dd416690373b53fddfd26ce0e8e88f17e8b10df0",
+        "input.xyz": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "input_settings.json": "59fc882927784db7f173826495109c0d2ac47b363b56603d2a85768c9e24de19",
+        "stderr.log": "592fed113c3bea9862d01eb03e4b837d9a0ebb4cd33b8ac6282766644db936bc",
+        "stdout.log": "345d7b3a16f208591156b2bde4237103afae9f06b4c6da2f14ceec6646c3f917",
+        "wbo": "599fe80af77cb51798a1ae748fd7cd14f7e6a66781ff9bafd06233390822a3ef",
+        "xtbrestart": "741605ea7692304d8b90ddee9951448eda8c6338595568bd071fb5967adbf82a",
+        "xtbtopo.mol": "7c198048004b6ad1cf82cc3902f85b28e7b43c79577a96ab3fa16cc66f31075a"
+      }
+    },
+    {
+      "calculation_id": "R004-gfn1-dmf-q0",
+      "label": "EXECUTED RESULT",
+      "scope": "molecular_method_preflight_only",
+      "identity": {
+        "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "settings": {
+          "gfn": 1,
+          "charge": 0,
+          "unpaired": 0,
+          "solvent": "dmf",
+          "task": "sp"
+        },
+        "software_version": "6.7.1 (edcfbbe) compiled by 'VssAdministrator@runnervm171ch' on 2026-06-10",
+        "runner_sha256": "57815fb66f385cbb4737d49501a6ca4a7a56cff67867a0428aeb23b01f662f0f",
+        "parser_sha256": "aad488274b65c1d9f0e188f3ac8cc9e8260f5ab42fc5c940e3279cb89c6c92c8"
+      },
+      "input_structure_provenance": {
+        "origin_calculation_id": "R000-rotor-reopt",
+        "sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9"
+      },
+      "command": [
+        "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+        "input.xyz",
+        "--gfn",
+        "1",
+        "--chrg",
+        "0",
+        "--uhf",
+        "0",
+        "--acc",
+        "0.1",
+        "--iterations",
+        "250",
+        "--alpb",
+        "dmf"
+      ],
+      "settings": {
+        "gfn": 1,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "dmf",
+        "task": "sp"
+      },
+      "resource_request": {
+        "threads": 2,
+        "timeout_seconds": 180,
+        "memory_limit": "not imposed by xTB; small 20-atom molecule"
+      },
+      "started_utc": "2026-09-19T16:14:27.990839+00:00",
+      "status": "completed",
+      "output_location": "data\\raw\\pilot_002\\R004-gfn1-dmf-q0",
+      "downstream_results": [
+        "results/pilot_summary.json"
+      ],
+      "parsing_history": [
+        {
+          "utc": "2026-09-19T16:14:28.054039+00:00",
+          "parser": "science.parse_xtb",
+          "result": "accepted native termination/energy"
+        }
+      ],
+      "exit_code": 0,
+      "energy_hartree": -34.440001596247,
+      "native_normal_termination": true,
+      "geometry_optimized": false,
+      "task": "sp",
+      "elapsed_seconds": 0.06183140000212006,
+      "finished_utc": "2026-09-19T16:14:28.054039+00:00",
+      "output_hashes": {
+        "charges": "f206b2acafe6ed7f112726e2c2859cc13c2484579d4fc7fd76fb7b4d9ad87da8",
+        "input.xyz": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "input_settings.json": "29bc3b9785af700deb5b502d7ffdfce9713dc801feb511ac7bcd517c08a903ab",
+        "stderr.log": "592fed113c3bea9862d01eb03e4b837d9a0ebb4cd33b8ac6282766644db936bc",
+        "stdout.log": "e5043c7588b89375f795943f4cdb53a1a419bef3c94517054056e2fe629bd3c9",
+        "wbo": "6800d42d414789d8a0a7247e0b8aa4a8396f14a6c95ecda725ec600444bb417d",
+        "xtbrestart": "4ffe571845ffb68f12650d9ffce4dc87430e443fd75f68e4f46352b124c33c4e",
+        "xtbtopo.mol": "3cbdbc8cfc84d1533438d807d6b7b8b9104526909cc8f59569e200cb47c0e8d0"
+      }
+    },
+    {
+      "calculation_id": "R005-gfn1-dmf-q-1",
+      "label": "EXECUTED RESULT",
+      "scope": "molecular_method_preflight_only",
+      "identity": {
+        "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "settings": {
+          "gfn": 1,
+          "charge": -1,
+          "unpaired": 1,
+          "solvent": "dmf",
+          "task": "sp"
+        },
+        "software_version": "6.7.1 (edcfbbe) compiled by 'VssAdministrator@runnervm171ch' on 2026-06-10",
+        "runner_sha256": "57815fb66f385cbb4737d49501a6ca4a7a56cff67867a0428aeb23b01f662f0f",
+        "parser_sha256": "aad488274b65c1d9f0e188f3ac8cc9e8260f5ab42fc5c940e3279cb89c6c92c8"
+      },
+      "input_structure_provenance": {
+        "origin_calculation_id": "R000-rotor-reopt",
+        "sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9"
+      },
+      "command": [
+        "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+        "input.xyz",
+        "--gfn",
+        "1",
+        "--chrg",
+        "-1",
+        "--uhf",
+        "1",
+        "--acc",
+        "0.1",
+        "--iterations",
+        "250",
+        "--alpb",
+        "dmf"
+      ],
+      "settings": {
+        "gfn": 1,
+        "charge": -1,
+        "unpaired": 1,
+        "solvent": "dmf",
+        "task": "sp"
+      },
+      "resource_request": {
+        "threads": 2,
+        "timeout_seconds": 180,
+        "memory_limit": "not imposed by xTB; small 20-atom molecule"
+      },
+      "started_utc": "2026-09-19T16:14:28.057507+00:00",
+      "status": "completed",
+      "output_location": "data\\raw\\pilot_002\\R005-gfn1-dmf-q-1",
+      "downstream_results": [
+        "results/pilot_summary.json"
+      ],
+      "parsing_history": [
+        {
+          "utc": "2026-09-19T16:14:28.117091+00:00",
+          "parser": "science.parse_xtb",
+          "result": "accepted native termination/energy"
+        }
+      ],
+      "exit_code": 0,
+      "energy_hartree": -34.701534840989,
+      "native_normal_termination": true,
+      "geometry_optimized": false,
+      "task": "sp",
+      "elapsed_seconds": 0.061809399994672276,
+      "finished_utc": "2026-09-19T16:14:28.117091+00:00",
+      "output_hashes": {
+        "charges": "8714b6bd114db4a66d43ddb9137d6122d0b24a40b33d8af5b4c2d69bafd66f54",
+        "input.xyz": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "input_settings.json": "853651b2aaf513a87dcff3381334b9a3b65542d5ada233c62e3a9ee9301f530c",
+        "stderr.log": "592fed113c3bea9862d01eb03e4b837d9a0ebb4cd33b8ac6282766644db936bc",
+        "stdout.log": "08c86f5b719ea28e27ddb7d5e5c91d93e1b406fe2a075a0f5f915881e879217f",
+        "wbo": "e391f6322ef40cb24a7c4e7b0a9dcf0436bf3577055fbe410a44ec440d96835f",
+        "xtbrestart": "8759eea7e6c60b59cf3955448c169d2bc08fab493e884048efba11f69c8b73de",
+        "xtbtopo.mol": "a88eb04fa20c340bea47206a0bba3312b0089a88663b0e77d4da3bc0bbfc7552"
+      }
+    },
+    {
+      "calculation_id": "R006-gfn2-gas-q0",
+      "label": "EXECUTED RESULT",
+      "scope": "molecular_method_preflight_only",
+      "identity": {
+        "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "settings": {
+          "gfn": 2,
+          "charge": 0,
+          "unpaired": 0,
+          "solvent": "gas",
+          "task": "sp"
+        },
+        "software_version": "6.7.1 (edcfbbe) compiled by 'VssAdministrator@runnervm171ch' on 2026-06-10",
+        "runner_sha256": "57815fb66f385cbb4737d49501a6ca4a7a56cff67867a0428aeb23b01f662f0f",
+        "parser_sha256": "aad488274b65c1d9f0e188f3ac8cc9e8260f5ab42fc5c940e3279cb89c6c92c8"
+      },
+      "input_structure_provenance": {
+        "origin_calculation_id": "R000-rotor-reopt",
+        "sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9"
+      },
+      "command": [
+        "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+        "input.xyz",
+        "--gfn",
+        "2",
+        "--chrg",
+        "0",
+        "--uhf",
+        "0",
+        "--acc",
+        "0.1",
+        "--iterations",
+        "250"
+      ],
+      "settings": {
+        "gfn": 2,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "gas",
+        "task": "sp"
+      },
+      "resource_request": {
+        "threads": 2,
+        "timeout_seconds": 180,
+        "memory_limit": "not imposed by xTB; small 20-atom molecule"
+      },
+      "started_utc": "2026-09-19T16:14:28.117091+00:00",
+      "status": "completed",
+      "output_location": "data\\raw\\pilot_002\\R006-gfn2-gas-q0",
+      "downstream_results": [
+        "results/pilot_summary.json"
+      ],
+      "parsing_history": [
+        {
+          "utc": "2026-09-19T16:14:28.183765+00:00",
+          "parser": "science.parse_xtb",
+          "result": "accepted native termination/energy"
+        }
+      ],
+      "exit_code": 0,
+      "energy_hartree": -33.289389145382,
+      "native_normal_termination": true,
+      "geometry_optimized": false,
+      "task": "sp",
+      "elapsed_seconds": 0.05912670001271181,
+      "finished_utc": "2026-09-19T16:14:28.183765+00:00",
+      "output_hashes": {
+        "charges": "aa91937764a9b984a915f6c9e22e1b62f57f4820b9aecbafb37eee94647f217d",
+        "input.xyz": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "input_settings.json": "b9096d201064b5647b46ecfca9a928f10c70c477b0df72e90a545d7662529977",
+        "stderr.log": "40f9f7e0095fdc25e368e4c6c31f5efb176709e0349d3c45b7387727ed672cf0",
+        "stdout.log": "34bbd92d30b7cb4f15ace60df3005ad9b98616d25893c730cbc2a45cfdffaeb2",
+        "wbo": "2299cf8a8c8b6f9e03252323b59eec17011abe86db9e843044ef6f0625071c74",
+        "xtbrestart": "b695558c9f43fbd419ada28475b1be4765d0931446c69cee752864a77592867a",
+        "xtbtopo.mol": "d71faf9f2d6a8e807d9931c8710f4b589da26bb35698a794d266fa05cd6f0838"
+      }
+    },
+    {
+      "calculation_id": "R007-gfn2-gas-q-1",
+      "label": "EXECUTED RESULT",
+      "scope": "molecular_method_preflight_only",
+      "identity": {
+        "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "settings": {
+          "gfn": 2,
+          "charge": -1,
+          "unpaired": 1,
+          "solvent": "gas",
+          "task": "sp"
+        },
+        "software_version": "6.7.1 (edcfbbe) compiled by 'VssAdministrator@runnervm171ch' on 2026-06-10",
+        "runner_sha256": "57815fb66f385cbb4737d49501a6ca4a7a56cff67867a0428aeb23b01f662f0f",
+        "parser_sha256": "aad488274b65c1d9f0e188f3ac8cc9e8260f5ab42fc5c940e3279cb89c6c92c8"
+      },
+      "input_structure_provenance": {
+        "origin_calculation_id": "R000-rotor-reopt",
+        "sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9"
+      },
+      "command": [
+        "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+        "input.xyz",
+        "--gfn",
+        "2",
+        "--chrg",
+        "-1",
+        "--uhf",
+        "1",
+        "--acc",
+        "0.1",
+        "--iterations",
+        "250"
+      ],
+      "settings": {
+        "gfn": 2,
+        "charge": -1,
+        "unpaired": 1,
+        "solvent": "gas",
+        "task": "sp"
+      },
+      "resource_request": {
+        "threads": 2,
+        "timeout_seconds": 180,
+        "memory_limit": "not imposed by xTB; small 20-atom molecule"
+      },
+      "started_utc": "2026-09-19T16:14:28.187832+00:00",
+      "status": "completed",
+      "output_location": "data\\raw\\pilot_002\\R007-gfn2-gas-q-1",
+      "downstream_results": [
+        "results/pilot_summary.json"
+      ],
+      "parsing_history": [
+        {
+          "utc": "2026-09-19T16:14:28.251539+00:00",
+          "parser": "science.parse_xtb",
+          "result": "accepted native termination/energy"
+        }
+      ],
+      "exit_code": 0,
+      "energy_hartree": -33.460123305346,
+      "native_normal_termination": true,
+      "geometry_optimized": false,
+      "task": "sp",
+      "elapsed_seconds": 0.06208909999986645,
+      "finished_utc": "2026-09-19T16:14:28.251539+00:00",
+      "output_hashes": {
+        "charges": "6872a735f5d7d7e30149e7c7759ec6fbfffb12a5ba392f374962a5fbb6ebe44b",
+        "input.xyz": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "input_settings.json": "0e9055dbff602add96e243300fc6ee0f8056d1a298e7f81bfed7be7035ebd29a",
+        "stderr.log": "40f9f7e0095fdc25e368e4c6c31f5efb176709e0349d3c45b7387727ed672cf0",
+        "stdout.log": "34e166896377cf476ebdde53ad275d728a2d7e7db93377a191175b8317d014cb",
+        "wbo": "c806c905532f07e31038bcf92e3205da2a411f8e2379c10007dc6432ca1cd79e",
+        "xtbrestart": "2661a9ffd5fe53ab7630dc198c8f36d1b7a87a64b019da85b1eea7c7a4a22a18",
+        "xtbtopo.mol": "7c198048004b6ad1cf82cc3902f85b28e7b43c79577a96ab3fa16cc66f31075a"
+      }
+    },
+    {
+      "calculation_id": "R008-gfn2-dmf-q0",
+      "label": "EXECUTED RESULT",
+      "scope": "molecular_method_preflight_only",
+      "identity": {
+        "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "settings": {
+          "gfn": 2,
+          "charge": 0,
+          "unpaired": 0,
+          "solvent": "dmf",
+          "task": "sp"
+        },
+        "software_version": "6.7.1 (edcfbbe) compiled by 'VssAdministrator@runnervm171ch' on 2026-06-10",
+        "runner_sha256": "57815fb66f385cbb4737d49501a6ca4a7a56cff67867a0428aeb23b01f662f0f",
+        "parser_sha256": "aad488274b65c1d9f0e188f3ac8cc9e8260f5ab42fc5c940e3279cb89c6c92c8"
+      },
+      "input_structure_provenance": {
+        "origin_calculation_id": "R000-rotor-reopt",
+        "sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9"
+      },
+      "command": [
+        "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+        "input.xyz",
+        "--gfn",
+        "2",
+        "--chrg",
+        "0",
+        "--uhf",
+        "0",
+        "--acc",
+        "0.1",
+        "--iterations",
+        "250",
+        "--alpb",
+        "dmf"
+      ],
+      "settings": {
+        "gfn": 2,
+        "charge": 0,
+        "unpaired": 0,
+        "solvent": "dmf",
+        "task": "sp"
+      },
+      "resource_request": {
+        "threads": 2,
+        "timeout_seconds": 180,
+        "memory_limit": "not imposed by xTB; small 20-atom molecule"
+      },
+      "started_utc": "2026-09-19T16:14:28.252084+00:00",
+      "status": "completed",
+      "output_location": "data\\raw\\pilot_002\\R008-gfn2-dmf-q0",
+      "downstream_results": [
+        "results/pilot_summary.json"
+      ],
+      "parsing_history": [
+        {
+          "utc": "2026-09-19T16:14:28.316703+00:00",
+          "parser": "science.parse_xtb",
+          "result": "accepted native termination/energy"
+        }
+      ],
+      "exit_code": 0,
+      "energy_hartree": -33.30814702704,
+      "native_normal_termination": true,
+      "geometry_optimized": false,
+      "task": "sp",
+      "elapsed_seconds": 0.060693899999023415,
+      "finished_utc": "2026-09-19T16:14:28.316703+00:00",
+      "output_hashes": {
+        "charges": "65bbdb100513996873bfe68f5f2107989d440b922e12b0f884752da5998c692e",
+        "input.xyz": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "input_settings.json": "41042a9a39c4d6f84fbee79b0da31085e264365f86eedab837e9e9bfe4fd29bc",
+        "stderr.log": "40f9f7e0095fdc25e368e4c6c31f5efb176709e0349d3c45b7387727ed672cf0",
+        "stdout.log": "77f06aed787d165584ad0e92169c0c0d3e7aa36df0946e624dc25a6a7fee330e",
+        "wbo": "defc90367098b89a4194022107145a2e9c76f3be4804713d49bf073773eab742",
+        "xtbrestart": "61efc578808baded734f3735dbc76dd0d77b95328b0e8da122015bc7b923d2e6",
+        "xtbtopo.mol": "d71faf9f2d6a8e807d9931c8710f4b589da26bb35698a794d266fa05cd6f0838"
+      }
+    },
+    {
+      "calculation_id": "R009-gfn2-dmf-q-1",
+      "label": "EXECUTED RESULT",
+      "scope": "molecular_method_preflight_only",
+      "identity": {
+        "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "settings": {
+          "gfn": 2,
+          "charge": -1,
+          "unpaired": 1,
+          "solvent": "dmf",
+          "task": "sp"
+        },
+        "software_version": "6.7.1 (edcfbbe) compiled by 'VssAdministrator@runnervm171ch' on 2026-06-10",
+        "runner_sha256": "57815fb66f385cbb4737d49501a6ca4a7a56cff67867a0428aeb23b01f662f0f",
+        "parser_sha256": "aad488274b65c1d9f0e188f3ac8cc9e8260f5ab42fc5c940e3279cb89c6c92c8"
+      },
+      "input_structure_provenance": {
+        "origin_calculation_id": "R000-rotor-reopt",
+        "sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9"
+      },
+      "command": [
+        "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+        "input.xyz",
+        "--gfn",
+        "2",
+        "--chrg",
+        "-1",
+        "--uhf",
+        "1",
+        "--acc",
+        "0.1",
+        "--iterations",
+        "250",
+        "--alpb",
+        "dmf"
+      ],
+      "settings": {
+        "gfn": 2,
+        "charge": -1,
+        "unpaired": 1,
+        "solvent": "dmf",
+        "task": "sp"
+      },
+      "resource_request": {
+        "threads": 2,
+        "timeout_seconds": 180,
+        "memory_limit": "not imposed by xTB; small 20-atom molecule"
+      },
+      "started_utc": "2026-09-19T16:14:28.316703+00:00",
+      "status": "completed",
+      "output_location": "data\\raw\\pilot_002\\R009-gfn2-dmf-q-1",
+      "downstream_results": [
+        "results/pilot_summary.json"
+      ],
+      "parsing_history": [
+        {
+          "utc": "2026-09-19T16:14:28.408454+00:00",
+          "parser": "science.parse_xtb",
+          "result": "accepted native termination/energy"
+        }
+      ],
+      "exit_code": 0,
+      "energy_hartree": -33.539105579302,
+      "native_normal_termination": true,
+      "geometry_optimized": false,
+      "task": "sp",
+      "elapsed_seconds": 0.08682310000585858,
+      "finished_utc": "2026-09-19T16:14:28.408454+00:00",
+      "output_hashes": {
+        "charges": "5f2cc769b5319a3ac223fad2dbbce12f4159650807c992b9b7aca10f36f7cbaa",
+        "input.xyz": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+        "input_settings.json": "63e1b2addf2b667339df94ecc5be7df94e306e85b7d7f01ce244abda867dd7c6",
+        "stderr.log": "40f9f7e0095fdc25e368e4c6c31f5efb176709e0349d3c45b7387727ed672cf0",
+        "stdout.log": "51370857e7b2dd27e6abf3187939fb6921959bea1406d6c1f19fb0c3bb125221",
+        "wbo": "7df58146e076226fd1fcbab9d25a15d4a867f5783a1cda4bbfd7ac0212d709fe",
+        "xtbrestart": "c5961b1f07506f1bd4a99985d8c52356d50252ed9bb39e15f435c93db95c69d9",
+        "xtbtopo.mol": "7c198048004b6ad1cf82cc3902f85b28e7b43c79577a96ab3fa16cc66f31075a"
+      }
+    }
+  ],
+  "scope": "same-composition molecular charging sensitivity, no electrode or copper"
+}

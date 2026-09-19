@@ -1,0 +1,80 @@
+{
+  "calculation_id": "R009-gfn2-dmf-q-1",
+  "label": "EXECUTED RESULT",
+  "scope": "molecular_method_preflight_only",
+  "identity": {
+    "input_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+    "settings": {
+      "gfn": 2,
+      "charge": -1,
+      "unpaired": 1,
+      "solvent": "dmf",
+      "task": "sp"
+    },
+    "software_version": "6.7.1 (edcfbbe) compiled by 'VssAdministrator@runnervm171ch' on 2026-06-10",
+    "runner_sha256": "57815fb66f385cbb4737d49501a6ca4a7a56cff67867a0428aeb23b01f662f0f",
+    "parser_sha256": "aad488274b65c1d9f0e188f3ac8cc9e8260f5ab42fc5c940e3279cb89c6c92c8"
+  },
+  "input_structure_provenance": {
+    "origin_calculation_id": "R000-rotor-reopt",
+    "sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9"
+  },
+  "command": [
+    "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+    "input.xyz",
+    "--gfn",
+    "2",
+    "--chrg",
+    "-1",
+    "--uhf",
+    "1",
+    "--acc",
+    "0.1",
+    "--iterations",
+    "250",
+    "--alpb",
+    "dmf"
+  ],
+  "settings": {
+    "gfn": 2,
+    "charge": -1,
+    "unpaired": 1,
+    "solvent": "dmf",
+    "task": "sp"
+  },
+  "resource_request": {
+    "threads": 2,
+    "timeout_seconds": 180,
+    "memory_limit": "not imposed by xTB; small 20-atom molecule"
+  },
+  "started_utc": "2026-09-19T16:14:28.316703+00:00",
+  "status": "completed",
+  "output_location": "data\\raw\\pilot_002\\R009-gfn2-dmf-q-1",
+  "downstream_results": [
+    "results/pilot_summary.json"
+  ],
+  "parsing_history": [
+    {
+      "utc": "2026-09-19T16:14:28.408454+00:00",
+      "parser": "science.parse_xtb",
+      "result": "accepted native termination/energy"
+    }
+  ],
+  "exit_code": 0,
+  "energy_hartree": -33.539105579302,
+  "native_normal_termination": true,
+  "geometry_optimized": false,
+  "task": "sp",
+  "elapsed_seconds": 0.08682310000585858,
+  "finished_utc": "2026-09-19T16:14:28.408454+00:00",
+  "output_hashes": {
+    "charges": "5f2cc769b5319a3ac223fad2dbbce12f4159650807c992b9b7aca10f36f7cbaa",
+    "input.xyz": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+    "input_settings.json": "63e1b2addf2b667339df94ecc5be7df94e306e85b7d7f01ce244abda867dd7c6",
+    "stderr.log": "40f9f7e0095fdc25e368e4c6c31f5efb176709e0349d3c45b7387727ed672cf0",
+    "stdout.log": "51370857e7b2dd27e6abf3187939fb6921959bea1406d6c1f19fb0c3bb125221",
+    "wbo": "7df58146e076226fd1fcbab9d25a15d4a867f5783a1cda4bbfd7ac0212d709fe",
+    "xtbrestart": "c5961b1f07506f1bd4a99985d8c52356d50252ed9bb39e15f435c93db95c69d9",
+    "xtbtopo.mol": "7c198048004b6ad1cf82cc3902f85b28e7b43c79577a96ab3fa16cc66f31075a"
+  }
+}

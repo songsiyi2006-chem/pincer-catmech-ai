@@ -1,0 +1,26 @@
+{
+  "audit_date": "2026-09-20",
+  "scope": "HTTP retrieval audit; local full source bodies excluded from public repository",
+  "attempts": [
+    {
+      "name": "mnrh",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11934264/supplementaryFiles",
+      "status": 200,
+      "bytes": 4923953,
+      "type": "application/zip",
+      "retained_pdf_members": [
+        "SC-016-D4SC08658A-s001.pdf"
+      ]
+    },
+    {
+      "name": "pd_proton",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12333693/supplementaryFiles",
+      "status": 200,
+      "bytes": 9030933,
+      "type": "application/zip",
+      "retained_pdf_members": [
+        "sciadv.adu1602_sm.pdf"
+      ]
+    }
+  ]
+}

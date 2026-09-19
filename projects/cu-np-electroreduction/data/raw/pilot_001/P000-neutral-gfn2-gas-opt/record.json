@@ -1,0 +1,90 @@
+{
+  "calculation_id": "P000-neutral-gfn2-gas-opt",
+  "label": "EXECUTED RESULT",
+  "scope": "molecular_method_preflight_only",
+  "identity": {
+    "input_sha256": "98dee3e405e340c9367d28c0c8af231700166a579378f607cc084ca53e011e8a",
+    "settings": {
+      "gfn": 2,
+      "charge": 0,
+      "unpaired": 0,
+      "solvent": "gas",
+      "task": "opt"
+    },
+    "software_version": "6.7.1 (edcfbbe) compiled by 'VssAdministrator@runnervm171ch' on 2026-06-10",
+    "runner_sha256": "8d0766248da954d4a78dc7ec9466d80621c1ecf455d13d2aa3923212ef2ea73f",
+    "parser_sha256": "c09a51929124931350abd39b3fe536a903d02028418c948774032cb8a62fbc75"
+  },
+  "input_structure_provenance": {
+    "name": "3-methylquinazolin-4(3H)-one",
+    "smiles": "CN1C=Nc2ccccc2C1=O",
+    "formula": "C9H8N2O",
+    "source": "https://neunews.neu.edu.cn/info/1341/941741.htm",
+    "source_locator": "author institutional report, reaction scheme substrate 1a; manually transcribed connectivity; independent PubChem CID 17088 name/formula search match",
+    "coordinate_origin": "RDKit ETKDGv3 seed 20260920 then MMFF94; independently generated, not experimental or published DFT coordinates",
+    "rdkit": "2026.03.5",
+    "seed": 20260920,
+    "sha256": "98dee3e405e340c9367d28c0c8af231700166a579378f607cc084ca53e011e8a"
+  },
+  "command": [
+    "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+    "input.xyz",
+    "--gfn",
+    "2",
+    "--chrg",
+    "0",
+    "--uhf",
+    "0",
+    "--acc",
+    "0.1",
+    "--iterations",
+    "250",
+    "--opt",
+    "tight"
+  ],
+  "settings": {
+    "gfn": 2,
+    "charge": 0,
+    "unpaired": 0,
+    "solvent": "gas",
+    "task": "opt"
+  },
+  "resource_request": {
+    "threads": 2,
+    "timeout_seconds": 180,
+    "memory_limit": "not imposed by xTB; small 20-atom molecule"
+  },
+  "started_utc": "2026-09-19T16:12:13.795134+00:00",
+  "status": "completed",
+  "output_location": "data\\raw\\pilot_001\\P000-neutral-gfn2-gas-opt",
+  "downstream_results": [
+    "results/pilot_summary.json"
+  ],
+  "parsing_history": [
+    {
+      "utc": "2026-09-19T16:12:13.985139+00:00",
+      "parser": "science.parse_xtb",
+      "result": "accepted native termination/energy"
+    }
+  ],
+  "exit_code": 0,
+  "energy_hartree": -33.288927637404,
+  "native_normal_termination": true,
+  "geometry_optimized": true,
+  "task": "opt",
+  "elapsed_seconds": 0.1867976999928942,
+  "finished_utc": "2026-09-19T16:12:13.985139+00:00",
+  "output_hashes": {
+    ".xtboptok": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "charges": "8b39417a2f8731cbcf3ac4070dc856c9aeb6edb82b25d38ec974166b39b77cd1",
+    "input.xyz": "98dee3e405e340c9367d28c0c8af231700166a579378f607cc084ca53e011e8a",
+    "input_settings.json": "9713c07160701b99141c0aea38a7305dee2227ab71fe0979e3de6d1c9d974d9e",
+    "stderr.log": "40f9f7e0095fdc25e368e4c6c31f5efb176709e0349d3c45b7387727ed672cf0",
+    "stdout.log": "8cce1e4dc5b2f0972a65527d38d6c75abef0e9251c2183f166ea45d998130a69",
+    "wbo": "9592005ce11fdc51a14387df0240a39c5b72e794aded4308e0b1c61432b21c5a",
+    "xtbopt.log": "669f3b335c9751a673b23d8b7230a50ea5172e896f43c8ca5d5fe14c46c6b6f3",
+    "xtbopt.xyz": "f5cb47eb0fad8363a3250fc79e42d1e7161aa049ec7d118f4d04828ddcf9e7c4",
+    "xtbrestart": "3acb5b72ad3b9e5723d12f5565f26b0ea31e27868cc1ef35c38bf69e7bb92a27",
+    "xtbtopo.mol": "4e9c56fbf60d1ac548244ae6318cf6eb944e45abd3e64d1501a7ffc1e6498f08"
+  }
+}

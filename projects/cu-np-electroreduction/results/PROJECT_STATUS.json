@@ -1,0 +1,22 @@
+{
+  "date_local":"2026-09-20",
+  "status":"evidence_audit_and_local_preflight_delivered; catalytic_research_incomplete",
+  "scientific_success_definition_met":false,
+  "work_packages":{"WP0":"audited locally; institutional constraints unknown","WP1":"unexecuted_missing_original_Cu_model","WP2":"planned_only","WP3":"molecular_preflight_only_no_Cu_or_interface","WP4":"software_foundation_tested_no_physical_network","WP5":"deferred_not_justified"},
+  "actual_quantum_calls":20,
+  "native_engine":"xTB 6.7.1",
+  "native_completed":20,
+  "initial_minimum_accepted":false,
+  "repaired_minimum_accepted":true,
+  "method_sensitivity_gate_passed":false,
+  "literature_original_studies":12,
+  "target_reaction_studies_verified":1,
+  "strict_organic_electroreduction_studies":4,
+  "quantitative_catalyst_predictions":0,
+  "physical_microkinetic_runs":0,
+  "institutional_server_jobs":0,
+  "experiments_performed":0,
+  "ML_models_trained":0,
+  "remaining_gates":["lawful original Cu paper/SI and catalyst coordinates","complete Q/B/product and electron mapping","source-matched baseline reproduction","method/model sensitivity","verified institutional allocation/license","independent experimental validation"],
+  "central_question":"Does potential-dependent competitive occupation preserve, erase or reverse the CuN3P1 versus CuN4 advantage in quinazolinone-aryl-nitrile reductive coupling?"
+}

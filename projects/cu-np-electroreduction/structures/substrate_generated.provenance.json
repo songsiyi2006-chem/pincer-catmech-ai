@@ -1,0 +1,11 @@
+{
+  "name": "3-methylquinazolin-4(3H)-one",
+  "smiles": "CN1C=Nc2ccccc2C1=O",
+  "formula": "C9H8N2O",
+  "source": "https://neunews.neu.edu.cn/info/1341/941741.htm",
+  "source_locator": "author institutional report, reaction scheme substrate 1a; manually transcribed connectivity; independent PubChem CID 17088 name/formula search match",
+  "coordinate_origin": "RDKit ETKDGv3 seed 20260920 then MMFF94; independently generated, not experimental or published DFT coordinates",
+  "rdkit": "2026.03.5",
+  "seed": 20260920,
+  "sha256": "98dee3e405e340c9367d28c0c8af231700166a579378f607cc084ca53e011e8a"
+}

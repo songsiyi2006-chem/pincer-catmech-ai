@@ -1,0 +1,20 @@
+{
+  "audit_date": "2026-09-20",
+  "scope": "HTTP retrieval audit; local full source bodies excluded from public repository",
+  "attempts": [
+    {
+      "name": "mnrh",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11934264/fullTextXML",
+      "status": 200,
+      "bytes": 89402,
+      "local_audit_basename": "mnrh.xml"
+    },
+    {
+      "name": "pd_proton",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12333693/fullTextXML",
+      "status": 200,
+      "bytes": 220657,
+      "local_audit_basename": "pd_proton.xml"
+    }
+  ]
+}

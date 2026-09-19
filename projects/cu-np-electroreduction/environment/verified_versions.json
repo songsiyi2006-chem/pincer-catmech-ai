@@ -1,0 +1,12 @@
+{
+  "label":"EXECUTED RESULT",
+  "audit_date":"2026-09-20",
+  "actual_imports":{"rdkit":"2026.03.5","numpy":"2.4.6","scipy":"1.18.0","ase":"3.29.0","torch":"2.10.0","torch_cuda_available":false,"psi4":"1.11"},
+  "native_version_check":{"xtb":"6.7.1 (edcfbbe)"},
+  "python_science":"C:/Users/HUIWEI/.codex/tools/chem-ai4s/venv/Scripts/python.exe",
+  "python_psi4":"C:/Users/HUIWEI/miniconda3/envs/phase7/python.exe",
+  "xtb":"C:/Users/HUIWEI/miniconda3/envs/phase2ff/Library/bin/xtb.exe",
+  "actual_execution":"xTB molecular opt, fixed-charge single points, Hessians; no Psi4 energy calculation in this project",
+  "unverified":["institutional server access","Linux periodic engines","scheduler allocation","institutional licenses","GPU allocation","remote quota"],
+  "reuse":"research_status and existing workbench verification.json inspected; no packages installed, upgraded or removed"
+}

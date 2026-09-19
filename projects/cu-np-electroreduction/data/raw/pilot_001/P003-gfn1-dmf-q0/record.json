@@ -1,0 +1,81 @@
+{
+  "calculation_id": "P003-gfn1-dmf-q0",
+  "label": "EXECUTED RESULT",
+  "scope": "molecular_method_preflight_only",
+  "identity": {
+    "input_sha256": "f5cb47eb0fad8363a3250fc79e42d1e7161aa049ec7d118f4d04828ddcf9e7c4",
+    "settings": {
+      "gfn": 1,
+      "charge": 0,
+      "unpaired": 0,
+      "solvent": "dmf",
+      "task": "sp"
+    },
+    "software_version": "6.7.1 (edcfbbe) compiled by 'VssAdministrator@runnervm171ch' on 2026-06-10",
+    "runner_sha256": "8d0766248da954d4a78dc7ec9466d80621c1ecf455d13d2aa3923212ef2ea73f",
+    "parser_sha256": "c09a51929124931350abd39b3fe536a903d02028418c948774032cb8a62fbc75"
+  },
+  "input_structure_provenance": {
+    "origin_calculation_id": "P000-neutral-gfn2-gas-opt",
+    "sha256": "f5cb47eb0fad8363a3250fc79e42d1e7161aa049ec7d118f4d04828ddcf9e7c4",
+    "root_source": "https://neunews.neu.edu.cn/info/1341/941741.htm"
+  },
+  "command": [
+    "C:\\Users\\HUIWEI\\miniconda3\\envs\\phase2ff\\Library\\bin\\xtb.exe",
+    "input.xyz",
+    "--gfn",
+    "1",
+    "--chrg",
+    "0",
+    "--uhf",
+    "0",
+    "--acc",
+    "0.1",
+    "--iterations",
+    "250",
+    "--alpb",
+    "dmf"
+  ],
+  "settings": {
+    "gfn": 1,
+    "charge": 0,
+    "unpaired": 0,
+    "solvent": "dmf",
+    "task": "sp"
+  },
+  "resource_request": {
+    "threads": 2,
+    "timeout_seconds": 180,
+    "memory_limit": "not imposed by xTB; small 20-atom molecule"
+  },
+  "started_utc": "2026-09-19T16:12:14.156504+00:00",
+  "status": "completed",
+  "output_location": "data\\raw\\pilot_001\\P003-gfn1-dmf-q0",
+  "downstream_results": [
+    "results/pilot_summary.json"
+  ],
+  "parsing_history": [
+    {
+      "utc": "2026-09-19T16:12:14.243422+00:00",
+      "parser": "science.parse_xtb",
+      "result": "accepted native termination/energy"
+    }
+  ],
+  "exit_code": 0,
+  "energy_hartree": -34.440090133752,
+  "native_normal_termination": true,
+  "geometry_optimized": false,
+  "task": "sp",
+  "elapsed_seconds": 0.08544769999571145,
+  "finished_utc": "2026-09-19T16:12:14.243422+00:00",
+  "output_hashes": {
+    "charges": "050e69c4b0afd9e8e07b31231107b82ebbb864810d9966c60693deaba2b922a4",
+    "input.xyz": "f5cb47eb0fad8363a3250fc79e42d1e7161aa049ec7d118f4d04828ddcf9e7c4",
+    "input_settings.json": "29bc3b9785af700deb5b502d7ffdfce9713dc801feb511ac7bcd517c08a903ab",
+    "stderr.log": "592fed113c3bea9862d01eb03e4b837d9a0ebb4cd33b8ac6282766644db936bc",
+    "stdout.log": "99005d94939b15e6f72e7542392299a2584c82293730338d76ca16aa12c9b63a",
+    "wbo": "3087067330b9b5db974820b5bef30170be4af77da582c918e6b832d1829e689a",
+    "xtbrestart": "ad31cf2a5286972713c0ccec6e9380559fd01b62c4216dede4b9ed88dcb37047",
+    "xtbtopo.mol": "a2705a2bfbfab5ba15060604d20317f2388ebe7bab85ad1ca632c7fe39dcb3a8"
+  }
+}

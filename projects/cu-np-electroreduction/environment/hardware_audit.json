@@ -1,0 +1,45 @@
+{
+  "label": "EXECUTED RESULT",
+  "utc": "2026-09-19T16:18:01.2445373Z",
+  "cpu": {
+    "Name": "13th Gen Intel(R) Core(TM) i7-13700H",
+    "NumberOfCores": 14,
+    "NumberOfLogicalProcessors": 20
+  },
+  "system": {
+    "TotalPhysicalMemory": 16890716160
+  },
+  "os": {
+    "Caption": "Microsoft Windows 11 家庭中文版",
+    "Version": "10.0.22631",
+    "FreePhysicalMemory": 6731072
+  },
+  "storage": [
+    {
+      "Name": "C",
+      "Used": 221142110208,
+      "Free": 90070351872
+    },
+    {
+      "Name": "D",
+      "Used": 279025668096,
+      "Free": 110810767360
+    },
+    {
+      "Name": "E",
+      "Used": 194089816064,
+      "Free": 107903913984
+    },
+    {
+      "Name": "Temp",
+      "Used": 221142110208,
+      "Free": 90070351872
+    }
+  ],
+  "ssh_config_present": false,
+  "scheduler_commands": [],
+  "server_access": "not established; no host/allocation/credentials provided or used",
+  "linux_runtime": "wsl --list --quiet returned help with exit 1; usable distribution not verified",
+  "license": "no institutional calculation licenses verified",
+  "repository_base": "9aa9c08b15f2f64b3f108e4a90e0f8ec0a4352c0"
+}

@@ -1,5 +1,17 @@
 # PINCER-CATMECH-AI
 
+## Cu–N–P organic electroreduction audit — 20 September 2026
+
+The new [research package](projects/cu-np-electroreduction/README.md) contains
+a verified literature matrix, [中文报告](projects/cu-np-electroreduction/reports/TECHNICAL_REPORT_ZH.md),
+[English report](projects/cu-np-electroreduction/reports/TECHNICAL_REPORT_EN.md),
+20 archived native molecular xTB calls, scientific checks and a gated
+institutional-compute plan. The initial molecular minimum failed and was
+repaired; large charging-energy method sensitivity prevents quantitative
+electrochemical interpretation. **Published Cu-model reproduction, catalytic
+mechanism, physical kinetics and prospective performance remain unestablished.**
+This additive project preserves the pincer research below.
+
 ## Phase 4: a falsifiable research programme and an offline HPC bridge
 
 Updated 16 September 2026. **This project is not CNS-ready.** Nature's

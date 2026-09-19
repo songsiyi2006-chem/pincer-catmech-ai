@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-20",
+  "queries": [
+    "\"10.1038/s41586-023-05886-z\"",
+    "\"10.1002/anie.202315032\"",
+    "\"10.1002/anie.202404295\"",
+    "\"10.1039/D4SC08658A\"",
+    "copper single atom catalyst quinazolinone reduction phosphorus dynamic active site electroreduction 2025 2026",
+    "single atom copper catalyst electrochemical hydrogenation organic carbonyl operando reconstruction",
+    "constant potential single atom copper catalyst solvent coordination reconstruction electrochemical original study",
+    "\"Phosphorus-Doped Single Atom Copper\" 2026 quinazolinones",
+    "\"quinazolinones\" \"electro\" \"single atom\" 2026",
+    "\"Cu1/PC\" furfural hydrogenation",
+    "\"Selective electrochemical hydrogenation of furfural to 2-methylfuran over a single atom Cu catalyst under mild pH conditions\"",
+    "\"10.1021/acs.nanolett.5c01245\" authors 2025",
+    "\"10.1021/jacs.4c05669\" supporting information",
+    "\"10.1038/s41467-024-50379-w\"",
+    "\"Breaking the activity-selectivity dilemma\" \"2026\""
+  ],
+  "sources_used": "Only original publisher content, official institutional/PMC repositories and bibliographic records; reviews used for discovery only.",
+  "limitations": "No exhaustive subscription citation-index search or claim of complete 2026 coverage.",
+  "primary_system_followup_search": {
+    "search_cutoff": "2026-09-20",
+    "methods": [
+      "Exact DOI and title queries",
+      "Chinese quinazolinone/phosphorus/single-atom queries",
+      "Fresh OpenAlex cited-by API filtered to cutoff; raw response retained",
+      "Independent Crossref checks of selected follow-ups"
+    ],
+    "same_system_followup": "No independently verified CuN3P1/quinazolinone follow-up was identified in this bounded search. This is not evidence of absence.",
+    "relevant_followups": [
+      {
+        "doi": "10.1016/j.chempr.2025.102838",
+        "title": "Advanced organic electrosynthesis empowered by single-atom catalysis",
+        "publication": "Chem 12(4), 102838; 2026-04 issue; institutional record reports online 2026-01-27",
+        "kind": "Review, not an original nearest-neighbor study",
+        "source": "https://scholars.cityu.edu.hk/en/publications/advanced-organic-electrosynthesis-empowered-by-single-atom-cataly/",
+        "claim_scope": "Mechanistic gaps discussed at field level; no new validation of the Cu mechanism"
+      },
+      {
+        "doi": "10.1021/jacs.6c07265",
+        "title": "Electrochemical Selective C2-H Hydroxymethylation of Pyridines via a Zinc Single-Atom Cathode and Anodic Iodide Relay-Mediated Strategy",
+        "publication": "2026-06-16 (publisher-deposited Crossref record)",
+        "kind": "Original later study by GXNU authors including Hai-Tao Tang and Ying-Ming Pan",
+        "source": "https://api.crossref.org/works/10.1021/jacs.6c07265",
+        "access": "Publisher DOI/abstract pages returned HTTP 403; metadata and publisher-deposited abstract obtained",
+        "claim_scope": "Different metal and reaction; conceptual paired-electrolysis/relay reference only"
+      }
+    ]
+  }
+}

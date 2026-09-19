@@ -1,0 +1,17 @@
+{
+  "label": "MODEL INFERENCE",
+  "relation": "kWh/kg acceptable isolated product = coefficient * z / M(g mol^-1)",
+  "full_cell_required": true,
+  "z": null,
+  "M": null,
+  "meaning": "scenario grid not measured target electricity; do not publish a target kWh/kg before balanced product identification",
+  "excludes": [
+    "cooling",
+    "pumping",
+    "solvent recovery",
+    "electrolyte recovery",
+    "separation",
+    "catalyst manufacture"
+  ],
+  "FE_convention": "target formed; isolated recovery applied separately"
+}

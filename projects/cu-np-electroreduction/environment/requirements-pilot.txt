@@ -1,0 +1,4 @@
+# Existing runtime reused. External native executable: xTB 6.7.1.
+# No reinstall is necessary on the audited workstation.
+rdkit==2026.3.5
+# Pure-Python science utilities and unittest use the Python standard library.

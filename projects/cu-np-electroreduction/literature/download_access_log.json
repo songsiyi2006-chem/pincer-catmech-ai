@@ -1,0 +1,69 @@
+{
+  "audit_date": "2026-09-20",
+  "scope": "HTTP retrieval audit; local full source bodies excluded from public repository",
+  "attempts": [
+    {
+      "name": "nature_anchor",
+      "url": "https://www.nature.com/articles/s41586-023-05886-z",
+      "final_url": "https://www.nature.com/articles/s41586-023-05886-z",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 356810,
+      "local_audit_basename": "nature_anchor.html"
+    },
+    {
+      "name": "mn_anchor",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202315032",
+      "final_url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202315032",
+      "status": 403,
+      "type": "text/html; charset=UTF-8",
+      "bytes": 5577,
+      "local_audit_basename": "mn_anchor.html"
+    },
+    {
+      "name": "fe_anchor",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202404295",
+      "final_url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202404295",
+      "status": 403,
+      "type": "text/html; charset=UTF-8",
+      "bytes": 5577,
+      "local_audit_basename": "fe_anchor.html"
+    },
+    {
+      "name": "mnrh_pmc",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11934264/",
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11934264/",
+      "status": 403,
+      "type": "text/html; charset=UTF-8",
+      "bytes": 134,
+      "local_audit_basename": "mnrh_pmc.html"
+    },
+    {
+      "name": "mnrh_article",
+      "url": "https://pubs.rsc.org/en/content/articlepdf/2025/sc/d4sc08658a",
+      "final_url": "https://pubs.rsc.org/en/content/articlepdf/2025/sc/d4sc08658a",
+      "status": 403,
+      "type": "text/html; charset=UTF-8",
+      "bytes": 5566,
+      "local_audit_basename": "mnrh_article.html"
+    },
+    {
+      "name": "cu_dynamic",
+      "url": "https://www.nature.com/articles/s41467-023-40970-y",
+      "final_url": "https://www.nature.com/articles/s41467-023-40970-y",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 533112,
+      "local_audit_basename": "cu_dynamic.html"
+    },
+    {
+      "name": "pd_proton",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12333693/",
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12333693/",
+      "status": 403,
+      "type": "text/html; charset=UTF-8",
+      "bytes": 134,
+      "local_audit_basename": "pd_proton.html"
+    }
+  ]
+}

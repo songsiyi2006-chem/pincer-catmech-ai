@@ -1,0 +1,164 @@
+{
+  "audit_date": "2026-09-20",
+  "evidence_policy": "Publisher assertions are literature claims, not independent experimental confirmation. Unknown SI contents remain unknown.",
+  "bibliography": {
+    "evidence_label": "LITERATURE FACT",
+    "doi": "10.1002/anie.202505085",
+    "title": "Phosphorus-Doped Single Atom Copper Catalyst as a Redox Mediator in the Cathodic Reduction of Quinazolinones",
+    "journal": "Angewandte Chemie International Edition",
+    "volume": "64",
+    "issue": "22",
+    "article_number": "e202505085",
+    "accepted_manuscript_online": "2025-03-19",
+    "version_of_record_online": "2025-03-27",
+    "issue_date": "2025-05-26",
+    "authors": [
+      "Xin-Yu Wang",
+      "Wan-Jie Wei",
+      "Si-Yu Zhou",
+      "Yong-Zhou Pan",
+      "Jiarui Yang",
+      "Tao Gan",
+      "Zechao Zhuang",
+      "Wen-Hao Li",
+      "Xia Zhang",
+      "Ying-Ming Pan",
+      "Hai-Tao Tang",
+      "Dingsheng Wang"
+    ],
+    "corresponding_authors": [
+      "Wen-Hao Li",
+      "Hai-Tao Tang",
+      "Dingsheng Wang"
+    ],
+    "affiliations": [
+      "Northeastern University",
+      "Guangxi Normal University",
+      "Tsinghua University",
+      "Shanghai Synchrotron Radiation Facility, Shanghai Advanced Research Institute, Chinese Academy of Sciences",
+      "Columbia University"
+    ],
+    "sources": [
+      "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202505085",
+      "https://api.crossref.org/works/10.1002/anie.202505085",
+      "https://pubmed.ncbi.nlm.nih.gov/40107943/"
+    ],
+    "locator": "Publisher author information and publication history; Crossref metadata"
+  },
+  "access": {
+    "main_article": "NOT OBTAINED: full HTML redirects to abstract; publisher PDF request returned HTTP 403",
+    "supporting_information": "NOT OBTAINED: publisher exposes file name and size, but download returned HTTP 403",
+    "si_filename": "anie202505085-sup-0001-SuppMat.pdf",
+    "si_advertised_size": "8.9 MB",
+    "si_url": "https://onlinelibrary.wiley.com/doi/suppl/10.1002/anie.202505085/supinfo/anie202505085-sup-0001-SuppMat.pdf",
+    "data_availability": "Publisher states data available from corresponding author upon reasonable request",
+    "openalex_conflict": "Search-index page claimed bronze OA; fresh API reports no OA locations, no PDF content and no PDF URL. Neither proves successful access.",
+    "local_original_source_material": [
+      "crossref.json",
+      "openalex.json",
+      "neu_news.html",
+      "neu_figure.png",
+      "neu_paper_front.png"
+    ],
+    "redistribution": "No redistribution license verified for publisher text or university figures; retain these downloads in local audit storage, exclude from public Git repository. Source URLs, own extraction, hashes and original code may be published."
+  },
+  "source_ids": {
+    "wiley": "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202505085",
+    "neu": "https://neunews.neu.edu.cn/info/1341/941741.htm",
+    "neu_figure": "https://neunews.neu.edu.cn/__local/B/1C/67/245ABE2C221B0DDDFB1A80F654F_DB14C13F_2DF5D.png",
+    "pubchem": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/3-methylquinazolin-4(3H)-one/property/MolecularFormula,CanonicalSMILES,IsomericSMILES/JSON"
+  },
+  "verified_claims": [
+    {
+      "label": "LITERATURE FACT",
+      "claim": "The abstract assigns a CuN3P1 microcoordination environment and describes reductive coupling/ring opening, gram-scale demonstration and 11 natural-product modifications.",
+      "source": "wiley",
+      "locator": "Abstract",
+      "scope": "Author-reported conclusions; underlying measurements and calculations not reanalysed"
+    },
+    {
+      "label": "LITERATURE FACT",
+      "claim": "The author-written institutional report compares CuN3P1 with CuN4 and attributes enhanced conversion to stronger substrate-N adsorption; it reports five recycling runs.",
+      "source": "neu",
+      "locator": "Main text, paragraph beginning 本文报道; author Li Wen-Hao, dated 2025-04-01",
+      "scope": "Primary investigator institutional account; no numerical adsorption energies or full DFT protocol available"
+    },
+    {
+      "label": "LITERATURE FACT",
+      "claim": "The natural-alcohol panel shows precursor esterification with 4-cyanobenzoic acid, DCC/DMAP in THF, followed by coupling with structure 1a. Electrolysis labels read TBAPF6, TEOA, DMF, 10 mA; carbon anode and Cu-N3P1@NC cathode.",
+      "source": "neu_figure",
+      "locator": "Panel a, reaction scheme",
+      "scope": "Visual extraction from 577x575 source image; no quantities, temperature, duration, potential reference or full-cell voltage assigned"
+    },
+    {
+      "label": "LITERATURE FACT",
+      "claim": "Drawn 1a has the connectivity of 3-methylquinazolin-4(3H)-one. PubChem CID 17088 independently maps this name to C9H8N2O and CN1C=NC2=CC=CC=C2C1=O.",
+      "source": "neu_figure + pubchem",
+      "locator": "Panel a, orange 1a structure; PubChem property record",
+      "scope": "2D connectivity reconstructed from public figure; not published optimized Cartesian coordinates"
+    }
+  ],
+  "reaction_mapping": {
+    "substrate_name": "3-methylquinazolin-4(3H)-one",
+    "substrate_smiles": "CN1C=NC2=CC=CC=C2C1=O",
+    "substrate_formula": "C9H8N2O",
+    "substrate_pubchem_cid": 17088,
+    "coupling_partner_class": "Aromatic nitrile; natural-alcohol examples use 4-cyanobenzoate esters",
+    "product_smiles": null,
+    "product_atom_mapping": "UNRESOLVED: image appears consistent with an opened anthranilamide derivative, but not accepted as an atom-mapped assignment without high-resolution scheme/SI",
+    "electron_number": null,
+    "warning": "Do not substitute unsubstituted quinazolinone or treat this as isolated 2-electron hydrogenation. No whole-reaction energy or process electron balance is validated."
+  },
+  "unavailable_parameters": [
+    "Reagent amounts and concentration",
+    "Electrolysis time and temperature",
+    "Measured cathode potential and reference electrode",
+    "Full-cell voltage",
+    "Faradaic efficiency",
+    "Metal loading/site density/electrode area",
+    "Raw leaching and post-reaction structural measurements",
+    "Exact model atom counts, cell and coordinates",
+    "Charge/spin",
+    "DFT functional, dispersion, basis/pseudopotential/cutoff/k mesh",
+    "Solvation and potential treatment",
+    "Transition-state validation",
+    "Numerical adsorption/free-energy values",
+    "Product atom map and net electron/proton balance"
+  ],
+  "feasibility_decision": {
+    "label": "MODEL INFERENCE",
+    "status": "Provisional system retained for preproduction audit; published-catalyst reproduction gate blocked",
+    "central_question": "Does a coordination-only adsorption explanation remain sufficient after substrate reduction and competitive donor/solvent binding are treated explicitly?",
+    "minimum_executable_batch": "Molecular 1a neutral/reduced structures and a fixed-nuclear-geometry equilibrium-ALPB charging diagnostic in DMF, with solvent and electronic-structure sensitivity. This is not a physical vertical electron affinity: the equilibrium implicit-solvent response is allowed to change with charge. It is neither a catalyst effect, an electrode potential nor an electron-transfer activation barrier.",
+    "gate": "No CuN3P1 vs CuN4 production comparison until structural provenance and baseline settings are obtained. Do not invent published Cartesian coordinates."
+  },
+  "subsequent_search": {
+    "search_cutoff": "2026-09-20",
+    "methods": [
+      "Exact DOI and title queries",
+      "Chinese quinazolinone/phosphorus/single-atom queries",
+      "Fresh OpenAlex cited-by API filtered to cutoff; raw response retained",
+      "Independent Crossref checks of selected follow-ups"
+    ],
+    "same_system_followup": "No independently verified CuN3P1/quinazolinone follow-up was identified in this bounded search. This is not evidence of absence.",
+    "relevant_followups": [
+      {
+        "doi": "10.1016/j.chempr.2025.102838",
+        "title": "Advanced organic electrosynthesis empowered by single-atom catalysis",
+        "publication": "Chem 12(4), 102838; 2026-04 issue; institutional record reports online 2026-01-27",
+        "kind": "Review, not an original nearest-neighbor study",
+        "source": "https://scholars.cityu.edu.hk/en/publications/advanced-organic-electrosynthesis-empowered-by-single-atom-cataly/",
+        "claim_scope": "Mechanistic gaps discussed at field level; no new validation of the Cu mechanism"
+      },
+      {
+        "doi": "10.1021/jacs.6c07265",
+        "title": "Electrochemical Selective C2-H Hydroxymethylation of Pyridines via a Zinc Single-Atom Cathode and Anodic Iodide Relay-Mediated Strategy",
+        "publication": "2026-06-16 (publisher-deposited Crossref record)",
+        "kind": "Original later study by GXNU authors including Hai-Tao Tang and Ying-Ming Pan",
+        "source": "https://api.crossref.org/works/10.1021/jacs.6c07265",
+        "access": "Publisher DOI/abstract pages returned HTTP 403; metadata and publisher-deposited abstract obtained",
+        "claim_scope": "Different metal and reaction; conceptual paired-electrolysis/relay reference only"
+      }
+    ]
+  }
+}

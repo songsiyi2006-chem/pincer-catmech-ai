@@ -1,0 +1,1047 @@
+{
+  "audit_date": "2026-09-20",
+  "scope": "Twelve original studies: one primary system, three additional organic-electroreduction comparators, four mechanism/method neighbors, and four mandatory conceptual anchors. Categories are not interchangeable.",
+  "evidence_boundary": "LITERATURE FACT denotes what the original publication reports, not independent confirmation. Missing source details remain unavailable.",
+  "count": 12,
+  "counting_boundary": {
+    "original_studies_in_matrix": 12,
+    "primary_same_system": 1,
+    "additional_direct_organic_electroreduction_comparators": 3,
+    "methodological_or_speciation_neighbors": 4,
+    "mandatory_conceptual_anchors": 4,
+    "primary_plus_organic_comparators_plus_method_neighbors": 8,
+    "strict_direct_organic_electroreduction_count": 4,
+    "shortfall_if_eight_direct_organic_electroreduction_studies_are_required": 4,
+    "additional_exact_same_system_originals_verified": 0,
+    "note": "The contract requests directly relevant original studies, not eight studies on an identical reaction. Eight relevant studies are present only under an explicit mechanism/method-inclusive definition. Same-system count is one; four thermal/anodic conceptual anchors are not used to fill this count."
+  },
+  "sources": [
+    {
+      "id": "A0",
+      "doi": "10.1002/anie.202505085",
+      "publisher_url": "https://doi.org/10.1002/anie.202505085",
+      "title": "Phosphorus-Doped Single Atom Copper Catalyst as a Redox Mediator in the Cathodic Reduction of Quinazolinones",
+      "relevance_category": "primary_same_system_organic_electroreduction",
+      "year": 2025,
+      "system": {
+        "label": "LITERATURE FACT",
+        "text": "Cu-N-P@NC, assigned CuN3P1; 3-methylquinazolin-4(3H)-one and aromatic nitrile coupling/ring opening. Author-institution figure labels TBAPF6, TEOA, DMF, 10 mA, carbon anode and Cu-N3P1@NC cathode. Concentrations and cathode potential unknown."
+      },
+      "central_claim": {
+        "label": "LITERATURE FACT",
+        "text": "Authors attribute P promotion to metal-support electronic effects and substrate adsorption/desorption; abstract reports gram-scale chemistry and 11 natural-product modifications."
+      },
+      "interface_treatment": {
+        "label": "LITERATURE FACT",
+        "text": "Exact coordinates, charge/spin, functional, solvent and potential treatment are unavailable because the original body/SI were not obtained."
+      },
+      "evidence": {
+        "label": "LITERATURE FACT",
+        "text": "Publisher abstract/metadata plus author-written NEU account and inspected reaction figure; no raw computational or experimental reanalysis."
+      },
+      "limitations": {
+        "label": "MODEL INFERENCE",
+        "text": "Cannot yet reproduce catalyst energetics or balance the net electron/proton reaction. A low-resolution product depiction is insufficient for an accepted atom map."
+      },
+      "project_overlap": {
+        "label": "MODEL INFERENCE",
+        "text": "Repeating CuN3P1 versus CuN4 static adsorption logic would mainly reproduce the published rationale."
+      },
+      "potential_novel_contribution": {
+        "label": "WORKING HYPOTHESIS",
+        "text": "Discriminate coordination-only adsorption from potential-dependent populations and donor/solvent competition, then test a frozen prospective condition set."
+      },
+      "access_status": {
+        "article": "NOT OBTAINED: full HTML redirects to abstract; publisher PDF request returned HTTP 403; publisher abstract and author-institution account inspected",
+        "si": "NOT OBTAINED: publisher exposes file name and size, but download returned HTTP 403"
+      },
+      "sources": [
+        "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202505085",
+        "https://neunews.neu.edu.cn/info/1341/941741.htm",
+        "https://neunews.neu.edu.cn/__local/B/1C/67/245ABE2C221B0DDDFB1A80F654F_DB14C13F_2DF5D.png",
+        "https://api.crossref.org/works/10.1002/anie.202505085",
+        "https://pubmed.ncbi.nlm.nih.gov/40107943/"
+      ],
+      "evidence_locators": [
+        "Publisher Abstract, author information and publication history",
+        "NEU author account dated 2025-04-01; reaction figure panel a",
+        "Detailed extraction and missing fields: cu_evidence.json"
+      ],
+      "checked_on": "2026-09-20",
+      "counting_class": "primary_same_system",
+      "same_reaction_as_primary": true,
+      "author_roles": {
+        "authors": [
+          "Xin-Yu Wang",
+          "Wan-Jie Wei",
+          "Si-Yu Zhou",
+          "Yong-Zhou Pan",
+          "Jiarui Yang",
+          "Tao Gan",
+          "Zechao Zhuang",
+          "Wen-Hao Li",
+          "Xia Zhang",
+          "Ying-Ming Pan",
+          "Hai-Tao Tang",
+          "Dingsheng Wang"
+        ],
+        "corresponding": [
+          "Wen-Hao Li",
+          "Hai-Tao Tang",
+          "Dingsheng Wang"
+        ],
+        "gxnu_roles": "Published GXNU affiliation and corresponding status of Hai-Tao Tang verified. Individual computation/experiment contributions unavailable in accessible article view. No current collaboration or access inferred.",
+        "source": "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202505085",
+        "additional_sources": [
+          "https://api.crossref.org/works/10.1002/anie.202505085",
+          "https://pubmed.ncbi.nlm.nih.gov/40107943/"
+        ],
+        "scope": "Publisher author-information and bibliographic role verification only.",
+        "evidence_label": "LITERATURE FACT",
+        "verification_limit": "Affiliation and author roles describe the publication; no present collaboration, facility access or available data are inferred."
+      }
+    },
+    {
+      "id": "A1",
+      "doi": "10.1038/s41586-023-05886-z",
+      "publisher_url": "https://doi.org/10.1038/s41586-023-05886-z",
+      "title": "CO2-mediated organocatalytic chlorine evolution under industrial conditions",
+      "relevance_category": "mandatory_conceptual_anchor",
+      "year": 2023,
+      "system": {
+        "label": "LITERATURE FACT",
+        "text": "Amide organocatalyst; chloride oxidation; SI electrochemical tests use 5 M NaCl, pH 2. Not a Cu SAC or organic electroreduction."
+      },
+      "central_claim": {
+        "label": "LITERATURE FACT",
+        "text": "Authors attribute improved chlorine evolution to reversible CO2 binding and radical generation. Abstract reports 10 kA m^-2, 99.6% selectivity, 89 mV overpotential."
+      },
+      "interface_treatment": {
+        "label": "LITERATURE FACT",
+        "text": "SI: Gaussian09; B3LYP/6-31G(d) geometries; water IEF-PCM; B3LYP-D3(BJ)/def2-TZVPP single points plus thermal corrections. Redox potentials from thermodynamic cycles; not a constant-potential electrode model."
+      },
+      "evidence": {
+        "label": "LITERATURE FACT",
+        "text": "Electrochemistry, operando ATR-SEIRAS, molecular characterization and calculated redox thermodynamics."
+      },
+      "limitations": {
+        "label": "MODEL INFERENCE",
+        "text": "Aqueous CER performance cannot establish nonaqueous Cu-organic process performance. SI S69 notes calculated water/pH7 conditions versus pH2 experiments."
+      },
+      "project_overlap": {
+        "label": "MODEL INFERENCE",
+        "text": "Reproducing CO2-enabled redox-mediator logic is conceptual reproduction."
+      },
+      "potential_novel_contribution": {
+        "label": "WORKING HYPOTHESIS",
+        "text": "Test whether potential-dependent catalyst populations, rather than a single molecular redox shift, control the target Cu reaction."
+      },
+      "access_status": {
+        "article": "publisher abstract, author information and data statement read; full article unavailable",
+        "si": "downloaded public publisher PDF; selected methods pages inspected"
+      },
+      "sources": [
+        "https://www.nature.com/articles/s41586-023-05886-z",
+        "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-023-05886-z/MediaObjects/41586_2023_5886_MOESM1_ESM.pdf"
+      ],
+      "evidence_locators": [
+        "publisher Abstract and Author information",
+        "SI S8 computational method; S16-S17 electrochemistry; S69 thermodynamic interpretation"
+      ],
+      "checked_on": "2026-09-20",
+      "counting_class": "mandatory_conceptual_anchor",
+      "same_reaction_as_primary": false,
+      "author_roles": {
+        "authors": [
+          "Jiarui Yang",
+          "Wen-Hao Li",
+          "Hai-Tao Tang",
+          "Ying-Ming Pan",
+          "Dingsheng Wang",
+          "Yadong Li"
+        ],
+        "equal_contribution": [
+          "Jiarui Yang",
+          "Wen-Hao Li",
+          "Hai-Tao Tang"
+        ],
+        "corresponding": [
+          "Dingsheng Wang",
+          "Yadong Li"
+        ],
+        "gxnu_roles": "Hai-Tao Tang and Ying-Ming Pan affiliated with GXNU; catalyst synthesis contributions. Jiarui Yang performed theoretical calculations.",
+        "source": "https://www.nature.com/articles/s41586-023-05886-z",
+        "evidence_label": "LITERATURE FACT",
+        "verification_limit": "Affiliation and author roles describe the publication; no present collaboration, facility access or available data are inferred."
+      }
+    },
+    {
+      "id": "A2",
+      "doi": "10.1002/anie.202315032",
+      "publisher_url": "https://doi.org/10.1002/anie.202315032",
+      "title": "Single-Atom Manganese-Catalyzed Oxygen Evolution Drives the Electrochemical Oxidation of Silane to Silanol",
+      "relevance_category": "mandatory_conceptual_anchor",
+      "year": 2024,
+      "system": {
+        "label": "LITERATURE FACT",
+        "text": "Mn-SA@NC; silane-to-silanol oxidation. Electrolyte, solvent, electrode and applied-current conditions unavailable in inspected abstract."
+      },
+      "central_claim": {
+        "label": "LITERATURE FACT",
+        "text": "Authors propose an OER-derived MOOH intermediate mediates silane oxidation; abstract reports 600 ppm loading, TON 9132 and a 10 mmol flow demonstration."
+      },
+      "interface_treatment": {
+        "label": "LITERATURE FACT",
+        "text": "Detailed computational charge, solvent, potential and ion treatments not accessible; no assumptions filled in."
+      },
+      "evidence": {
+        "label": "LITERATURE FACT",
+        "text": "Publisher abstract describes synthesis, catalytic scope and flow demonstration; mechanistic claim remains author-reported at abstract evidence level."
+      },
+      "limitations": {
+        "label": "MODEL INFERENCE",
+        "text": "Cannot independently assess mechanistic controls or model reproduction without original body/SI."
+      },
+      "project_overlap": {
+        "label": "MODEL INFERENCE",
+        "text": "Transferring the OER-intermediate concept alone supplies no new evidence for reductive Cu chemistry."
+      },
+      "potential_novel_contribution": {
+        "label": "WORKING HYPOTHESIS",
+        "text": "Use adsorbate-state competition as a question; do not transplant an oxidizing MOOH pathway to the Cu cathode."
+      },
+      "access_status": {
+        "article": "publisher abstract and author roles accessible; full-text link redirects to abstract",
+        "si": "publisher listed filename verified; download HTTP403"
+      },
+      "sources": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/anie.202315032"
+      ],
+      "evidence_locators": [
+        "publisher Abstract, Author information, Supporting Information filename"
+      ],
+      "checked_on": "2026-09-20",
+      "counting_class": "mandatory_conceptual_anchor",
+      "same_reaction_as_primary": false,
+      "author_roles": {
+        "authors": [
+          "Hai-Tao Tang",
+          "He-Yang Zhou",
+          "Ying-Ming Pan",
+          "Jia-Lan Zhang",
+          "Fei-Hu Cui",
+          "Wen-Hao Li",
+          "Dingsheng Wang"
+        ],
+        "corresponding": [
+          "Hai-Tao Tang",
+          "Wen-Hao Li",
+          "Dingsheng Wang"
+        ],
+        "gxnu_roles": "First five authors affiliated with GXNU. Detailed individual research contributions unavailable in abstract view.",
+        "first_online": "2023-12-06",
+        "issue": "2024, 63(3), e202315032",
+        "source": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202315032",
+        "evidence_label": "LITERATURE FACT",
+        "verification_limit": "Affiliation and author roles describe the publication; no present collaboration, facility access or available data are inferred."
+      }
+    },
+    {
+      "id": "A3",
+      "doi": "10.1002/anie.202404295",
+      "publisher_url": "https://doi.org/10.1002/anie.202404295",
+      "title": "Single-Atom Iron Catalyst as an Advanced Redox Mediator for Anodic Oxidation of Organic Electrosynthesis",
+      "relevance_category": "mandatory_conceptual_anchor",
+      "year": 2024,
+      "system": {
+        "label": "LITERATURE FACT",
+        "text": "Fe-SA@NC; organic anodic oxidation, including cyclopropyl-amide ring opening. Exact electrolyte and electrolysis conditions not accessible."
+      },
+      "central_claim": {
+        "label": "LITERATURE FACT",
+        "text": "Authors describe heterogeneous redox mediation, C-C/C-X construction, complex-molecule tolerance, gram scale and flow electrochemistry."
+      },
+      "interface_treatment": {
+        "label": "LITERATURE FACT",
+        "text": "No accessible detailed charge, potential-reference, solvation or ion model; not reconstructed from abstract."
+      },
+      "evidence": {
+        "label": "LITERATURE FACT",
+        "text": "Publisher abstract verifies the reported reaction family and scale claims; individual mechanistic experiments not inspected."
+      },
+      "limitations": {
+        "label": "MODEL INFERENCE",
+        "text": "Abstract cannot separate electron mediation from adsorption, support or leached-species effects."
+      },
+      "project_overlap": {
+        "label": "MODEL INFERENCE",
+        "text": "A heterogeneous mediator for ring opening is already established conceptually; the target must add a discriminating explanation."
+      },
+      "potential_novel_contribution": {
+        "label": "WORKING HYPOTHESIS",
+        "text": "Separate static coordination, changing site populations and interfacial transfer using the target reductive system."
+      },
+      "access_status": {
+        "article": "publisher abstract and author roles read; full-text link redirects to abstract",
+        "si": "filename verified; HTTP403 download"
+      },
+      "sources": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/anie.202404295",
+        "https://pubmed.ncbi.nlm.nih.gov/38649323/"
+      ],
+      "evidence_locators": [
+        "publisher Abstract and Author information"
+      ],
+      "checked_on": "2026-09-20",
+      "counting_class": "mandatory_conceptual_anchor",
+      "same_reaction_as_primary": false,
+      "author_roles": {
+        "authors": [
+          "Xin-Yu Wang",
+          "Yong-Zhou Pan",
+          "Jiarui Yang",
+          "Wen-Hao Li",
+          "Tao Gan",
+          "Ying-Ming Pan",
+          "Hai-Tao Tang",
+          "Dingsheng Wang"
+        ],
+        "equal_contribution": [
+          "Xin-Yu Wang",
+          "Yong-Zhou Pan"
+        ],
+        "corresponding": [
+          "Wen-Hao Li",
+          "Hai-Tao Tang",
+          "Dingsheng Wang"
+        ],
+        "gxnu_roles": "GXNU affiliations for Xin-Yu Wang, Yong-Zhou Pan, Ying-Ming Pan and Hai-Tao Tang. Individual computation/experiment contributions unavailable in abstract view.",
+        "accepted_manuscript_online": "2024-04-22",
+        "version_of_record_online": "2024-05-27",
+        "issue": "2024, 63(27), e202404295",
+        "source": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202404295",
+        "evidence_label": "LITERATURE FACT",
+        "verification_limit": "Affiliation and author roles describe the publication; no present collaboration, facility access or available data are inferred."
+      }
+    },
+    {
+      "id": "A4",
+      "doi": "10.1039/D4SC08658A",
+      "publisher_url": "https://doi.org/10.1039/D4SC08658A",
+      "title": "A Mn-Rh dual single-atom catalyst for inducing C-C cleavage: relay catalysis reversing chemoselectivity in C-H oxidation",
+      "relevance_category": "mandatory_conceptual_anchor",
+      "year": 2025,
+      "system": {
+        "label": "LITERATURE FACT",
+        "text": "Mn1-Rh1@O-TiC; cumene to acetophenone. SI: 40 mg catalyst, 2.9 mmol cumene, O2 balloon, 120 C, 400 rpm, 12-18 h; no added reaction solvent specified. Thermal, not electrochemical."
+      },
+      "central_claim": {
+        "label": "LITERATURE FACT",
+        "text": "Authors propose Mn-promoted oxidation and Rh-assisted dehydration/relay oxidation; main text reports 99% conversion and 94% isolated yield."
+      },
+      "interface_treatment": {
+        "label": "LITERATURE FACT",
+        "text": "SI: spin-polarized VASP/PAW/PBE-D3, 450 eV, 15 A vacuum, 1e-5 eV and 0.05 eV/A tolerances; thermal corrections at 298.15 K. No electrode-potential model."
+      },
+      "evidence": {
+        "label": "LITERATURE FACT",
+        "text": "XAS/STEM, intermediates, EPR, hot filtration, ICP, cycling and calculated intermediate free energies."
+      },
+      "limitations": {
+        "label": "MODEL INFERENCE",
+        "text": "Methods inspected do not establish validated transition states. Intermediate-energy differences must not become kinetic barriers. Experimental 393 K versus thermochemical corrections at 298 K requires care."
+      },
+      "project_overlap": {
+        "label": "MODEL INFERENCE",
+        "text": "Relay-catalysis explanation is not novel, and this reaction cannot validate cathodic Cu kinetics."
+      },
+      "potential_novel_contribution": {
+        "label": "WORKING HYPOTHESIS",
+        "text": "Apply falsification and explicit competing-site controls without adding Mn/Rh to the core project."
+      },
+      "access_status": {
+        "article": "complete official publisher HTML/EuropePMC XML read",
+        "si": "complete 71-page PDF downloaded via official EuropePMC API; relevant methods inspected"
+      },
+      "sources": [
+        "https://pubs.rsc.org/en/content/articlehtml/2025/sc/d4sc08658a?page=search",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11934264/fullTextXML",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11934264/supplementaryFiles"
+      ],
+      "evidence_locators": [
+        "main Fig5-Fig6 and Author contributions",
+        "SI pp4-5 computational method; p8 general procedure"
+      ],
+      "checked_on": "2026-09-20",
+      "counting_class": "mandatory_conceptual_anchor",
+      "same_reaction_as_primary": false,
+      "author_roles": {
+        "authors": [
+          "Chang-Jie Yang",
+          "Yu-Da Huang",
+          "Yu-Yuan Zhang",
+          "Yong-Zhou Pan",
+          "Jiarui Yang",
+          "Ying-Ming Pan",
+          "Tao Gan",
+          "Hai-Tao Tang",
+          "Xia Zhang",
+          "Wen-Hao Li",
+          "Dingsheng Wang"
+        ],
+        "corresponding": [
+          "Hai-Tao Tang",
+          "Wen-Hao Li",
+          "Dingsheng Wang"
+        ],
+        "gxnu_roles": "GXNU affiliations for Chang-Jie Yang, Yu-Da Huang, Yu-Yuan Zhang, Ying-Ming Pan and Hai-Tao Tang. Ying-Ming Pan performed theoretical calculation; Li/Tang/Wang conceived, designed, planned synthesis and acquired funding.",
+        "first_online": "2025-03-18",
+        "issue": "2025, 16, 7329-7338",
+        "source": "https://pubs.rsc.org/en/content/articlehtml/2025/sc/d4sc08658a?page=search",
+        "evidence_label": "LITERATURE FACT",
+        "verification_limit": "Affiliation and author roles describe the publication; no present collaboration, facility access or available data are inferred."
+      }
+    },
+    {
+      "id": "N1",
+      "doi": "10.1039/D0GC03999C",
+      "publisher_url": "https://doi.org/10.1039/D0GC03999C",
+      "title": "Selective electrochemical hydrogenation of furfural to 2-methylfuran over a single atom Cu catalyst under mild pH conditions",
+      "relevance_category": "nearest_cu_p_organic_electroreduction",
+      "year": 2021,
+      "system": {
+        "label": "LITERATURE FACT",
+        "text": "Single-atom Cu with phosphorus dopants; furfural reduction at aqueous pH5. Electrolyte salt not verified from accessible abstract."
+      },
+      "central_claim": {
+        "label": "LITERATURE FACT",
+        "text": "Authors associate P with sequential reduction toward methylfuran and atomically dispersed Cu with HER suppression; FE >90% furfuryl alcohol at -0.75 V and 60% methylfuran at -0.90 V vs RHE."
+      },
+      "interface_treatment": {
+        "label": "LITERATURE FACT",
+        "text": "Potential reference and bulk pH explicit; computational interface treatment unavailable in inspected material."
+      },
+      "evidence": {
+        "label": "LITERATURE FACT",
+        "text": "Primary publisher abstract, authors, DOI, pages and date verified."
+      },
+      "limitations": {
+        "label": "MODEL INFERENCE",
+        "text": "Phosphorus doping does not by itself prove the same CuN3P1 local motif. Furfural and aqueous media differ from the target."
+      },
+      "project_overlap": {
+        "label": "MODEL INFERENCE",
+        "text": "P-enhanced Cu-SAC organic electroreduction is prior art; introduction of P alone is not novelty."
+      },
+      "potential_novel_contribution": {
+        "label": "WORKING HYPOTHESIS",
+        "text": "Establish a target-specific potential/speciation crossover with prospective predictions rather than repeat P promotion."
+      },
+      "access_status": {
+        "article": "publisher abstract available; full-text fetch HTTP403",
+        "si": "listed publicly on publisher; content not obtained"
+      },
+      "sources": [
+        "https://pubs.rsc.org/en/content/articlelanding/2021/gc/d0gc03999c/unauth"
+      ],
+      "evidence_locators": [
+        "publisher Abstract and Article information"
+      ],
+      "checked_on": "2026-09-20",
+      "counting_class": "direct_organic_electroreduction_comparator",
+      "same_reaction_as_primary": false,
+      "author_roles": {
+        "authors": [
+          "Peng Zhou",
+          "Yu Chen",
+          "Peng Luan",
+          "Xiaolong Zhang",
+          "Ziliang Yuan",
+          "Si-Xuan Guo",
+          "Qinfen Gu",
+          "Bernt Johannessen",
+          "Mamun Mollah",
+          "Alan L. Chaffee",
+          "David R. Turner",
+          "Jie Zhang"
+        ],
+        "corresponding": [
+          "Qinfen Gu",
+          "Jie Zhang"
+        ],
+        "contribution_scope": "Corresponding status verified on publisher landing page; individual experimental/computational roles not inspected.",
+        "source": "https://pubs.rsc.org/en/content/articlelanding/2021/gc/d0gc03999c/unauth",
+        "evidence_label": "LITERATURE FACT",
+        "verification_limit": "Affiliation and author roles describe the publication; no present collaboration, facility access or available data are inferred."
+      }
+    },
+    {
+      "id": "N2",
+      "doi": "10.1038/s41467-023-40970-y",
+      "publisher_url": "https://doi.org/10.1038/s41467-023-40970-y",
+      "title": "Activating dynamic atomic-configuration for single-site electrocatalyst in electrochemical CO2 reduction",
+      "relevance_category": "nearest_active_site_speciation",
+      "year": 2023,
+      "system": {
+        "label": "LITERATURE FACT",
+        "text": "N-coordinated single-atom Cu; CO2 reduction in 0.1 M KHCO3; reported potentials vs RHE."
+      },
+      "central_claim": {
+        "label": "LITERATURE FACT",
+        "text": "Potential-driven Cu-N weakening creates low-coordination states; Cu-N changes partly reverse, whereas Cu-Cu formation is irreversible for this material."
+      },
+      "interface_treatment": {
+        "label": "LITERATURE FACT",
+        "text": "Methods: Gaussian09 B3LYP-D3(BJ); H/C/N/O 6-31G(d,p), Cu LANL2DZ; no constant-potential electrode ensemble established in inspected computational details."
+      },
+      "evidence": {
+        "label": "LITERATURE FACT",
+        "text": "Operando/in situ TEM, XAS, spectroscopy, product distributions and electronic-structure calculations."
+      },
+      "limitations": {
+        "label": "MODEL INFERENCE",
+        "text": "Does not show that every Cu-N-C support, solvent or adsorbate reconstructs identically; ex situ recovery is not a universal state descriptor."
+      },
+      "project_overlap": {
+        "label": "MODEL INFERENCE",
+        "text": "Claiming that Cu coordination changes under bias would reproduce known behavior."
+      },
+      "potential_novel_contribution": {
+        "label": "WORKING HYPOTHESIS",
+        "text": "Determine whether P shifts the speciation crossover in the actual organic electrolyte and affects product release."
+      },
+      "access_status": {
+        "article": "complete publisher HTML downloaded and methods read",
+        "si": "98-page public publisher PDF downloaded; selected pages inspected"
+      },
+      "sources": [
+        "https://www.nature.com/articles/s41467-023-40970-y",
+        "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-023-40970-y/MediaObjects/41467_2023_40970_MOESM1_ESM.pdf"
+      ],
+      "evidence_locators": [
+        "main Results and Computational details"
+      ],
+      "checked_on": "2026-09-20",
+      "counting_class": "methodological_or_speciation_neighbor",
+      "same_reaction_as_primary": false,
+      "author_roles": {
+        "authors": [
+          "Chia-Shuo Hsu",
+          "Jiali Wang",
+          "You-Chiuan Chu",
+          "Jui-Hsien Chen",
+          "Chia-Ying Chien",
+          "Kuo-Hsin Lin",
+          "Li Duan Tsai",
+          "Hsiao-Chien Chen",
+          "Yen-Fa Liao",
+          "Nozomu Hiraoka",
+          "Yuan-Chung Cheng",
+          "Hao Ming Chen"
+        ],
+        "corresponding": [
+          "Yuan-Chung Cheng",
+          "Hao Ming Chen"
+        ],
+        "contribution_scope": "Publisher Contributions identifies Jui-Hsien Chen and Yuan-Chung Cheng with computational investigation; Hao Ming Chen directed the project.",
+        "source": "https://www.nature.com/articles/s41467-023-40970-y",
+        "evidence_label": "LITERATURE FACT",
+        "verification_limit": "Affiliation and author roles describe the publication; no present collaboration, facility access or available data are inferred."
+      }
+    },
+    {
+      "id": "N3",
+      "doi": "10.1021/jacs.4c05669",
+      "publisher_url": "https://doi.org/10.1021/jacs.4c05669",
+      "title": "Not One, Not Two, But at Least Three: Activity Origin of Copper Single-Atom Catalysts toward CO2/CO Electroreduction to C2+ Products",
+      "relevance_category": "nearest_cluster_alternative",
+      "year": 2024,
+      "system": {
+        "label": "LITERATURE FACT",
+        "text": "Cu sites on carbon nitride, CO2/CO electroreduction; solvent and ionic composition not independently extracted."
+      },
+      "central_claim": {
+        "label": "LITERATURE FACT",
+        "text": "Authors calculate that isolated Cu is unstable and cannot accomplish the considered multicarbon pathways; leaching and clustering create alternative activity."
+      },
+      "interface_treatment": {
+        "label": "LITERATURE FACT",
+        "text": "Publisher-indexed text describes constant-potential/hybrid-solvent calculations. Detailed algorithm and settings remain unverified because full text/SI access failed."
+      },
+      "evidence": {
+        "label": "LITERATURE FACT",
+        "text": "Verified DOI and primary abstract; this is computational evidence, not independent experimental confirmation."
+      },
+      "limitations": {
+        "label": "MODEL INFERENCE",
+        "text": "Requirement for multiple Cu centers in CO-CO chemistry cannot be transferred to quinazolinone ring opening."
+      },
+      "project_overlap": {
+        "label": "MODEL INFERENCE",
+        "text": "Generic statements that Cu clusters may be active are prior art."
+      },
+      "potential_novel_contribution": {
+        "label": "WORKING HYPOTHESIS",
+        "text": "Test bounded Cu-cluster/leached-species controls for this organic substrate without assuming their dominance."
+      },
+      "access_status": {
+        "article": "publisher-indexed abstract accessible; direct publisher fetch HTTP403",
+        "si": "not retrieved"
+      },
+      "sources": [
+        "https://pubs.acs.org/doi/abs/10.1021/jacs.4c05669",
+        "https://pubmed.ncbi.nlm.nih.gov/38804682/"
+      ],
+      "evidence_locators": [
+        "publisher abstract; complete model settings not verified"
+      ],
+      "checked_on": "2026-09-20",
+      "counting_class": "methodological_or_speciation_neighbor",
+      "same_reaction_as_primary": false,
+      "author_roles": {
+        "authors": [
+          "Juan Zhang",
+          "Yu Wang",
+          "Yafei Li"
+        ],
+        "corresponding": null,
+        "contribution_scope": "Author list verified bibliographically; corresponding and individual contribution roles not verified.",
+        "source": "https://pubs.acs.org/doi/abs/10.1021/jacs.4c05669",
+        "additional_sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/38804682/"
+        ],
+        "evidence_label": "LITERATURE FACT",
+        "verification_limit": "Affiliation and author roles describe the publication; no present collaboration, facility access or available data are inferred."
+      }
+    },
+    {
+      "id": "N4",
+      "doi": "10.1021/acs.nanolett.5c01245",
+      "publisher_url": "https://doi.org/10.1021/acs.nanolett.5c01245",
+      "title": "Dynamic Structural Evolution of Single-Atom Catalysts at the Catalyst-Electrolyte Interface: Insights from Electrochemical Coupled Field",
+      "relevance_category": "nearest_interface_speciation_method",
+      "year": 2025,
+      "system": {
+        "label": "LITERATURE FACT",
+        "text": "Cu-N-C at an electrochemical interface; proton transfer and metal-N stability, not a quinazolinone reaction."
+      },
+      "central_claim": {
+        "label": "LITERATURE FACT",
+        "text": "Authors link potential-sensitive Cu-N antibonding occupancy and proton-induced electronic reordering to metal leaching."
+      },
+      "interface_treatment": {
+        "label": "LITERATURE FACT",
+        "text": "Hybrid-solvation constant-potential simulations claimed in primary abstract. SI contents list E-U fits and charge-potential tables; numerical settings not inspected."
+      },
+      "evidence": {
+        "label": "LITERATURE FACT",
+        "text": "Original computational study; title, authors and journal bibliographic record independently verified."
+      },
+      "limitations": {
+        "label": "MODEL INFERENCE",
+        "text": "Potential fit quality, sampled solvent configurations and transfer to nonaqueous organic electrolyte remain unaudited."
+      },
+      "project_overlap": {
+        "label": "MODEL INFERENCE",
+        "text": "Combining Cu-N speciation, proton transfer and electrode potential is already a published methodological direction."
+      },
+      "potential_novel_contribution": {
+        "label": "WORKING HYPOTHESIS",
+        "text": "Measure the decision value of applying a calibrated version to Cu-N-P and substrate/product occupancy."
+      },
+      "access_status": {
+        "article": "primary abstract and ACS issue table read; direct article HTTP403",
+        "si": "publisher description available, content not retrieved"
+      },
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/40190161/",
+        "https://pubs.acs.org/doi/10.1021/acs.nanolett.5c01245",
+        "https://pubs.acs.org/nalefd/issue/25/15"
+      ],
+      "evidence_locators": [
+        "abstract and Supporting Information description only"
+      ],
+      "checked_on": "2026-09-20",
+      "counting_class": "methodological_or_speciation_neighbor",
+      "same_reaction_as_primary": false,
+      "author_roles": {
+        "authors": [
+          "Xiaotao Zhang",
+          "Jiao Chen",
+          "Hongyan Wang",
+          "Yongliang Tang",
+          "Yuan Ping Feng",
+          "Yuanzheng Chen",
+          "Zhongfang Chen"
+        ],
+        "corresponding": null,
+        "contribution_scope": "Author list verified in ACS issue table; corresponding and individual contributions not verified.",
+        "source": "https://pubs.acs.org/nalefd/issue/25/15",
+        "evidence_label": "LITERATURE FACT",
+        "verification_limit": "Affiliation and author roles describe the publication; no present collaboration, facility access or available data are inferred."
+      }
+    },
+    {
+      "id": "N5",
+      "doi": "10.1126/sciadv.adu1602",
+      "publisher_url": "https://doi.org/10.1126/sciadv.adu1602",
+      "title": "Pd single atoms guided proton transfer along an interfacial hydrogen bond network for efficient electrochemical hydrogenation",
+      "relevance_category": "nearest_interfacial_transfer_control",
+      "year": 2025,
+      "system": {
+        "label": "LITERATURE FACT",
+        "text": "Pd1-CuOx on Cu foam; chloramphenicol hydrodechlorination in 0.2 M Na2SO4, -1.2 V vs Hg/HgO; carbonyl/nitrile tests also reported."
+      },
+      "central_claim": {
+        "label": "LITERATURE FACT",
+        "text": "Authors connect water organization and proton transfer to hydrogenation. CAP dechlorination ratio 99% is distinct from its 17.5% hydrodechlorination FE."
+      },
+      "interface_treatment": {
+        "label": "LITERATURE FACT",
+        "text": "VASP PBE-D3/PAW 400 eV; 68 explicit waters; 300 K AIMD and slow-growth constraints. Methods describe adding 1 electron via NELECT and mapping potentials."
+      },
+      "evidence": {
+        "label": "LITERATURE FACT",
+        "text": "Operando Raman/FTIR, EPR, H/D KIE, hydrogen-bond perturbation and AIMD."
+      },
+      "limitations": {
+        "label": "MODEL INFERENCE",
+        "text": "A fixed added electron and potential mapping do not alone verify constant-potential feedback; authors use that label. Aqueous Pd-water behavior cannot establish Cu-N-P nonaqueous behavior."
+      },
+      "project_overlap": {
+        "label": "MODEL INFERENCE",
+        "text": "Hydrogen-bond control of organic ECH is prior art."
+      },
+      "potential_novel_contribution": {
+        "label": "WORKING HYPOTHESIS",
+        "text": "Discriminate donor-mediated transfer from active-site populations using matched target-specific donor/activity experiments."
+      },
+      "access_status": {
+        "article": "complete original article read as official EuropePMC XML",
+        "si": "public PDF downloaded via EuropePMC API; not exhaustively audited"
+      },
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12333693/",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12333693/fullTextXML",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12333693/supplementaryFiles"
+      ],
+      "evidence_locators": [
+        "Results Electrochemical hydrogenation performance",
+        "Materials and Methods Electrochemical measurements and Dynamics simulations"
+      ],
+      "checked_on": "2026-09-20",
+      "counting_class": "direct_organic_electroreduction_comparator",
+      "same_reaction_as_primary": false,
+      "author_roles": {
+        "authors": [
+          "Rui Zhao",
+          "Qi Wang",
+          "Yancai Yao",
+          "Ruizhao Wang",
+          "Long Zhao",
+          "Zhiwei Hu",
+          "Cheng-Wei Kao",
+          "Ting-Shan Chan",
+          "Wenhuai Li",
+          "Qian Zheng",
+          "Jiaxian Wang",
+          "Xingyue Zou",
+          "Kaiyuan Wang",
+          "Jie Dai",
+          "Xiang-Kui Gu",
+          "Lizhi Zhang"
+        ],
+        "corresponding": [
+          "Yancai Yao",
+          "Jie Dai",
+          "Xiang-Kui Gu",
+          "Lizhi Zhang"
+        ],
+        "equal_contribution": [
+          "Rui Zhao",
+          "Qi Wang"
+        ],
+        "contribution_scope": "Author roles from official EuropePMC fullTextXML author metadata; no inferred roles.",
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12333693/fullTextXML",
+        "evidence_label": "LITERATURE FACT",
+        "verification_limit": "Affiliation and author roles describe the publication; no present collaboration, facility access or available data are inferred."
+      }
+    },
+    {
+      "id": "N6",
+      "doi": "10.1038/s41467-024-50379-w",
+      "publisher_url": "https://doi.org/10.1038/s41467-024-50379-w",
+      "title": "Reversible metal cluster formation on Nitrogen-doped carbon controlling electrocatalyst particle size with subnanometer accuracy",
+      "relevance_category": "nearest_dynamic_cluster_control",
+      "year": 2024,
+      "system": {
+        "label": "LITERATURE FACT",
+        "text": "Cu-N-C; CO2 reduction in CO2-saturated 0.1 M KHCO3; alternating cathodic/anodic pulses."
+      },
+      "central_claim": {
+        "label": "LITERATURE FACT",
+        "text": "Operando tracking shows reversible interconversion of single sites, clusters and nanoparticles with pulse-dependent product distributions."
+      },
+      "interface_treatment": {
+        "label": "LITERATURE FACT",
+        "text": "Experimentally controlled potentials; Ag/AgCl calibrated against RHE. Four-process population model, not an atomistic constant-potential DFT calculation."
+      },
+      "evidence": {
+        "label": "LITERATURE FACT",
+        "text": "Operando quick XAS, electrolysis and a semiquantitative kinetic model."
+      },
+      "limitations": {
+        "label": "MODEL INFERENCE",
+        "text": "Local pH, adsorbates and capacitive-current corrections complicate pulse interpretation; reversibility differs from N2 because material/protocol differ."
+      },
+      "project_overlap": {
+        "label": "MODEL INFERENCE",
+        "text": "Pulse-controlled Cu ensembles and kinetic population models are prior art."
+      },
+      "potential_novel_contribution": {
+        "label": "WORKING HYPOTHESIS",
+        "text": "Use hysteresis and post-pulse persistence to distinguish target catalyst changes from instantaneous electron-transfer effects."
+      },
+      "access_status": {
+        "article": "complete publisher HTML read",
+        "si": "not downloaded in this audit"
+      },
+      "sources": [
+        "https://www.nature.com/articles/s41467-024-50379-w",
+        "https://pubmed.ncbi.nlm.nih.gov/39030207/"
+      ],
+      "evidence_locators": [
+        "main Size dependency, Catalytic selectivity, Discussion and Methods"
+      ],
+      "checked_on": "2026-09-20",
+      "counting_class": "methodological_or_speciation_neighbor",
+      "same_reaction_as_primary": false,
+      "author_roles": {
+        "authors": [
+          "Janis Timoshenko",
+          "Clara Rettenmaier",
+          "Dorottya Hursan",
+          "Martina Ruscher",
+          "Eduardo Ortega",
+          "Antonia Herzog",
+          "Timon Wagner",
+          "Arno Bergmann",
+          "Uta Hejral",
+          "Aram Yoon",
+          "Andrea Martini",
+          "Eric Liberra",
+          "Mariana Cecilio de Oliveira Monteiro",
+          "Beatriz Roldan Cuenya"
+        ],
+        "corresponding": [
+          "Janis Timoshenko",
+          "Beatriz Roldan Cuenya"
+        ],
+        "contribution_scope": "Publisher Contributions: Timoshenko/Cuenya designed study; Timoshenko led XAS analysis, Rettenmaier catalytic tests, Hursan synthesis. Names with diacritics are normalized here.",
+        "source": "https://www.nature.com/articles/s41467-024-50379-w",
+        "evidence_label": "LITERATURE FACT",
+        "verification_limit": "Affiliation and author roles describe the publication; no present collaboration, facility access or available data are inferred."
+      }
+    },
+    {
+      "id": "N7",
+      "doi": "10.1038/s41467-026-74394-1",
+      "publisher_url": "https://doi.org/10.1038/s41467-026-74394-1",
+      "title": "Breaking the activity-selectivity dilemma in direct electrocatalytic hydrogenolysis of furfural into furanic biofuel",
+      "relevance_category": "subsequent_organic_cu_cluster_alternative",
+      "year": 2026,
+      "system": {
+        "label": "LITERATURE FACT",
+        "text": "Mixed-valence Cu clusters/nanoparticles in N-doped carbon; furfural hydrogenolysis. Standard tests: 25 mM substrate, 30 mL 0.5 M H2SO4 with 20 vol% MeCN (reported pH1.0), -0.65 V vs RHE."
+      },
+      "central_claim": {
+        "label": "LITERATURE FACT",
+        "text": "Authors associate Cu valence and intermediate coverage with PCET-selective methylfuran formation versus HAT-related alcohol formation."
+      },
+      "interface_treatment": {
+        "label": "LITERATURE FACT",
+        "text": "VASP PBE-D3/PAW 450 eV, 20 A vacuum, 1e-5 eV and 0.05 eV/A tolerances. Inspected methods do not specify a grand-canonical electrode or explicit-solvent ensemble."
+      },
+      "evidence": {
+        "label": "LITERATURE FACT",
+        "text": "Operando XAS/FTIR/Raman, product-selective KIE, adsorption controls and DFT. Published 6 July 2026; version of record 14 August 2026."
+      },
+      "limitations": {
+        "label": "MODEL INFERENCE",
+        "text": "Cluster morphology, aqueous acid and furfural differ from the target; DFT alone cannot establish the interfacial kinetic mechanism."
+      },
+      "project_overlap": {
+        "label": "MODEL INFERENCE",
+        "text": "Cu-valence/coverage and PCET-versus-HAT arguments in organic reduction are already represented in subsequent work."
+      },
+      "potential_novel_contribution": {
+        "label": "WORKING HYPOTHESIS",
+        "text": "Determine whether the intact Cu-N-P model remains adequate against experimentally bounded cluster alternatives."
+      },
+      "access_status": {
+        "article": "complete official publisher HTML downloaded and methods read",
+        "si": "not downloaded in this audit"
+      },
+      "sources": [
+        "https://www.nature.com/articles/s41467-026-74394-1"
+      ],
+      "evidence_locators": [
+        "main Fig3 conditions; Fig4 KIE; Theoretical calculations; publication dates"
+      ],
+      "checked_on": "2026-09-20",
+      "counting_class": "direct_organic_electroreduction_comparator",
+      "same_reaction_as_primary": false,
+      "author_roles": {
+        "authors": [
+          "Xiuzheng Zhuang",
+          "Ke Liu",
+          "Wenjie Zhang",
+          "Gehao Chen",
+          "Qi Zhang",
+          "Lungang Chen",
+          "Xinghua Zhang",
+          "Longlong Ma"
+        ],
+        "corresponding": [
+          "Xinghua Zhang",
+          "Longlong Ma"
+        ],
+        "contribution_scope": "Publisher Contributions: Longlong Ma designed/supervised; Xiuzheng Zhuang conducted experimental work and drafted manuscript.",
+        "source": "https://www.nature.com/articles/s41467-026-74394-1",
+        "evidence_label": "LITERATURE FACT",
+        "verification_limit": "Affiliation and author roles describe the publication; no present collaboration, facility access or available data are inferred."
+      }
+    }
+  ],
+  "mandatory_author_roles": {
+    "10.1038/s41586-023-05886-z": {
+      "authors": [
+        "Jiarui Yang",
+        "Wen-Hao Li",
+        "Hai-Tao Tang",
+        "Ying-Ming Pan",
+        "Dingsheng Wang",
+        "Yadong Li"
+      ],
+      "equal_contribution": [
+        "Jiarui Yang",
+        "Wen-Hao Li",
+        "Hai-Tao Tang"
+      ],
+      "corresponding": [
+        "Dingsheng Wang",
+        "Yadong Li"
+      ],
+      "gxnu_roles": "Hai-Tao Tang and Ying-Ming Pan affiliated with GXNU; catalyst synthesis contributions. Jiarui Yang performed theoretical calculations.",
+      "source": "https://www.nature.com/articles/s41586-023-05886-z",
+      "evidence_label": "LITERATURE FACT",
+      "verification_limit": "Affiliation and author roles describe the publication; no present collaboration, facility access or available data are inferred."
+    },
+    "10.1002/anie.202315032": {
+      "authors": [
+        "Hai-Tao Tang",
+        "He-Yang Zhou",
+        "Ying-Ming Pan",
+        "Jia-Lan Zhang",
+        "Fei-Hu Cui",
+        "Wen-Hao Li",
+        "Dingsheng Wang"
+      ],
+      "corresponding": [
+        "Hai-Tao Tang",
+        "Wen-Hao Li",
+        "Dingsheng Wang"
+      ],
+      "gxnu_roles": "First five authors affiliated with GXNU. Detailed individual research contributions unavailable in abstract view.",
+      "first_online": "2023-12-06",
+      "issue": "2024, 63(3), e202315032",
+      "source": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202315032",
+      "evidence_label": "LITERATURE FACT",
+      "verification_limit": "Affiliation and author roles describe the publication; no present collaboration, facility access or available data are inferred."
+    },
+    "10.1002/anie.202404295": {
+      "authors": [
+        "Xin-Yu Wang",
+        "Yong-Zhou Pan",
+        "Jiarui Yang",
+        "Wen-Hao Li",
+        "Tao Gan",
+        "Ying-Ming Pan",
+        "Hai-Tao Tang",
+        "Dingsheng Wang"
+      ],
+      "equal_contribution": [
+        "Xin-Yu Wang",
+        "Yong-Zhou Pan"
+      ],
+      "corresponding": [
+        "Wen-Hao Li",
+        "Hai-Tao Tang",
+        "Dingsheng Wang"
+      ],
+      "gxnu_roles": "GXNU affiliations for Xin-Yu Wang, Yong-Zhou Pan, Ying-Ming Pan and Hai-Tao Tang. Individual computation/experiment contributions unavailable in abstract view.",
+      "accepted_manuscript_online": "2024-04-22",
+      "version_of_record_online": "2024-05-27",
+      "issue": "2024, 63(27), e202404295",
+      "source": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202404295",
+      "evidence_label": "LITERATURE FACT",
+      "verification_limit": "Affiliation and author roles describe the publication; no present collaboration, facility access or available data are inferred."
+    },
+    "10.1039/D4SC08658A": {
+      "authors": [
+        "Chang-Jie Yang",
+        "Yu-Da Huang",
+        "Yu-Yuan Zhang",
+        "Yong-Zhou Pan",
+        "Jiarui Yang",
+        "Ying-Ming Pan",
+        "Tao Gan",
+        "Hai-Tao Tang",
+        "Xia Zhang",
+        "Wen-Hao Li",
+        "Dingsheng Wang"
+      ],
+      "corresponding": [
+        "Hai-Tao Tang",
+        "Wen-Hao Li",
+        "Dingsheng Wang"
+      ],
+      "gxnu_roles": "GXNU affiliations for Chang-Jie Yang, Yu-Da Huang, Yu-Yuan Zhang, Ying-Ming Pan and Hai-Tao Tang. Ying-Ming Pan performed theoretical calculation; Li/Tang/Wang conceived, designed, planned synthesis and acquired funding.",
+      "first_online": "2025-03-18",
+      "issue": "2025, 16, 7329-7338",
+      "source": "https://pubs.rsc.org/en/content/articlehtml/2025/sc/d4sc08658a?page=search",
+      "evidence_label": "LITERATURE FACT",
+      "verification_limit": "Affiliation and author roles describe the publication; no present collaboration, facility access or available data are inferred."
+    },
+    "10.1002/anie.202505085": {
+      "authors": [
+        "Xin-Yu Wang",
+        "Wan-Jie Wei",
+        "Si-Yu Zhou",
+        "Yong-Zhou Pan",
+        "Jiarui Yang",
+        "Tao Gan",
+        "Zechao Zhuang",
+        "Wen-Hao Li",
+        "Xia Zhang",
+        "Ying-Ming Pan",
+        "Hai-Tao Tang",
+        "Dingsheng Wang"
+      ],
+      "corresponding": [
+        "Wen-Hao Li",
+        "Hai-Tao Tang",
+        "Dingsheng Wang"
+      ],
+      "gxnu_roles": "Published GXNU affiliation and corresponding status of Hai-Tao Tang verified. Individual computation/experiment contributions unavailable in accessible article view. No current collaboration or access inferred.",
+      "source": "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202505085",
+      "additional_sources": [
+        "https://api.crossref.org/works/10.1002/anie.202505085",
+        "https://pubmed.ncbi.nlm.nih.gov/40107943/"
+      ],
+      "scope": "Publisher author-information and bibliographic role verification only.",
+      "evidence_label": "LITERATURE FACT",
+      "verification_limit": "Affiliation and author roles describe the publication; no present collaboration, facility access or available data are inferred."
+    }
+  }
+}

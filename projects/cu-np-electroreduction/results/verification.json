@@ -1,0 +1,11 @@
+{
+  "label": "EXECUTED RESULT",
+  "utc": "2026-09-19T16:34:17.280983+00:00",
+  "tests_passed": 31,
+  "tests_command": "python -m unittest discover -s tests -v",
+  "returncode": 0,
+  "scope": "package only; no existing pincer source changed or full upstream regression claimed",
+  "quantum_calls": 20,
+  "scientific_validation": false,
+  "raw_evidence_hash_verification": true
+}

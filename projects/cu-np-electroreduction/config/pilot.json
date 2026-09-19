@@ -1,0 +1,14 @@
+{
+  "protocol_id": "substrate_preflight_v1",
+  "label": "PLANNED CALCULATION",
+  "purpose": "Bounded molecular fixed-charge method preflight, NOT reproduction of the Cu paper or a catalyst screen",
+  "scaffold": {"name": "3-methylquinazolin-4(3H)-one", "smiles": "CN1C=Nc2ccccc2C1=O", "formula": "C9H8N2O", "source": "https://neunews.neu.edu.cn/info/1341/941741.htm", "source_locator": "author institutional report, reaction scheme substrate 1a; manually transcribed connectivity; independent PubChem CID 17088 name/formula search match", "coordinate_origin": "RDKit ETKDGv3 seed 20260920 then MMFF94; independently generated, not experimental or published DFT coordinates"},
+  "seed": 20260920,
+  "threads": 2,
+  "timeout_seconds_per_job": 180,
+  "xtb_geometry": {"gfn": 2, "charge": 0, "unpaired": 0, "solvent": "gas", "optimization": "tight"},
+  "single_points": {"gfn": [1, 2], "solvent": ["gas", "dmf"], "charge_unpaired": [[0,0],[-1,1]], "geometry": "same neutral GFN2 gas optimized geometry for all eight single points"},
+  "decision": "Assess execution, electron bookkeeping and sensitivity of fixed-geometry charging energy to Hamiltonian and implicit solvent. Do not report electrochemical potentials, barriers, selectivity or active-site speciation.",
+  "predeclared_tolerances": {"identity": "all expected pair-distance connectivities retained", "neutral_minimum_imaginary_cm1_threshold": -20, "charging_energy_method_spread_flag_eV": 0.2, "interpretation": "0.2 eV is a conservative screening stop flag, not an accuracy claim"}
+}
+

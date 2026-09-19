@@ -1,0 +1,19 @@
+label,scenario_type,full_cell_V,FE_fraction,acceptable_product_recovery,z_electrons,product_M_g_mol,kWh_kg_coefficient_to_multiply_by_z_over_M
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,2.0,0.3,0.7,unverified,unverified,255.25220138441802
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,2.0,0.3,0.9,unverified,unverified,198.52948996565846
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,2.0,0.6,0.7,unverified,unverified,127.62610069220901
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,2.0,0.6,0.9,unverified,unverified,99.26474498282923
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,2.0,0.9,0.7,unverified,unverified,85.08406712813934
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,2.0,0.9,0.9,unverified,unverified,66.1764966552195
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,4.0,0.3,0.7,unverified,unverified,510.50440276883603
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,4.0,0.3,0.9,unverified,unverified,397.0589799313169
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,4.0,0.6,0.7,unverified,unverified,255.25220138441802
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,4.0,0.6,0.9,unverified,unverified,198.52948996565846
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,4.0,0.9,0.7,unverified,unverified,170.16813425627868
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,4.0,0.9,0.9,unverified,unverified,132.352993310439
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,6.0,0.3,0.7,unverified,unverified,765.7566041532541
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,6.0,0.3,0.9,unverified,unverified,595.5884698969754
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,6.0,0.6,0.7,unverified,unverified,382.87830207662705
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,6.0,0.6,0.9,unverified,unverified,297.7942349484877
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,6.0,0.9,0.7,unverified,unverified,255.25220138441802
+MODEL INFERENCE,assumed_process_inputs_not_target_measurements,6.0,0.9,0.9,unverified,unverified,198.52948996565846

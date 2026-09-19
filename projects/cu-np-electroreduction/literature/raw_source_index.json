@@ -1,0 +1,98 @@
+{
+  "audit_date": "2026-09-20",
+  "files": [
+    {
+      "filename": "cu_dynamic.html",
+      "bytes": 533112,
+      "sha256": "67489c383bc97815a51f0b6032306888409648d58c7329523e389e629115fc4f",
+      "valid_pdf": null,
+      "public_git_default": "exclude full source pending license review",
+      "source_url": "https://www.nature.com/articles/s41467-023-40970-y",
+      "local_only": true
+    },
+    {
+      "filename": "cu_dynamic_si.pdf",
+      "bytes": 5827062,
+      "sha256": "3d36040657a48788a776c1ff597a5e01e79709222ca802f55ad4847a8bfc4282",
+      "valid_pdf": true,
+      "public_git_default": "exclude full source pending license review",
+      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-023-40970-y/MediaObjects/41467_2023_40970_MOESM1_ESM.pdf",
+      "local_only": true
+    },
+    {
+      "filename": "cu_furfural_2026.html",
+      "bytes": 540629,
+      "sha256": "b00e7276e1852ac290bc128ec3503f854ddc514a2a8d0ef5c9b306e24a57b79e",
+      "valid_pdf": null,
+      "public_git_default": "exclude full source pending license review",
+      "source_url": "https://www.nature.com/articles/s41467-026-74394-1",
+      "local_only": true
+    },
+    {
+      "filename": "cu_pulse.html",
+      "bytes": 478647,
+      "sha256": "2195a8058f721df2ba44d2281cc9fcb373854ad0ccac30a933bb9a4b7745aa72",
+      "valid_pdf": null,
+      "public_git_default": "exclude full source pending license review",
+      "source_url": "https://www.nature.com/articles/s41467-024-50379-w",
+      "local_only": true
+    },
+    {
+      "filename": "mnrh.xml",
+      "bytes": 89402,
+      "sha256": "3df955cfd5e74f9e0ec5bd19c60b3f23e0a1745313363962ca4fb92260802181",
+      "valid_pdf": null,
+      "public_git_default": "exclude full source pending license review",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11934264/fullTextXML",
+      "local_only": true
+    },
+    {
+      "filename": "mnrh_SC-016-D4SC08658A-s001.pdf",
+      "bytes": 4854339,
+      "sha256": "98916c05211a22545fa6aa38f17c1a1d4064ca7f59c372de57e607c9035598f5",
+      "valid_pdf": true,
+      "public_git_default": "exclude full source pending license review",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11934264/supplementaryFiles",
+      "local_only": true,
+      "archive_member": "SC-016-D4SC08658A-s001.pdf"
+    },
+    {
+      "filename": "nature_anchor.html",
+      "bytes": 356810,
+      "sha256": "40d00c1d5da2533c5bb51133315b94d48eb4a55505960d6a134c01ba591e1dcb",
+      "valid_pdf": null,
+      "public_git_default": "exclude full source pending license review",
+      "source_url": "https://www.nature.com/articles/s41586-023-05886-z",
+      "local_only": true
+    },
+    {
+      "filename": "nature_anchor_si.pdf",
+      "bytes": 9346994,
+      "sha256": "28bcf09538a77c20417630b5e0ff3a993b8800d342fbb8265521c09557ba3cf6",
+      "valid_pdf": true,
+      "public_git_default": "exclude full source pending license review",
+      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-023-05886-z/MediaObjects/41586_2023_5886_MOESM1_ESM.pdf",
+      "local_only": true
+    },
+    {
+      "filename": "pd_proton.xml",
+      "bytes": 220657,
+      "sha256": "5e1290e651d56123ff750709fda65dc4a138b38a02fb29c365de99214962786b",
+      "valid_pdf": null,
+      "public_git_default": "exclude full source pending license review",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12333693/fullTextXML",
+      "local_only": true
+    },
+    {
+      "filename": "pd_proton_sciadv.adu1602_sm.pdf",
+      "bytes": 9768742,
+      "sha256": "d7830d8c08d45166254fb586ba8296b3c33eba8f0309cfefe80c5a40561c3539",
+      "valid_pdf": true,
+      "public_git_default": "exclude full source pending license review",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12333693/supplementaryFiles",
+      "local_only": true,
+      "archive_member": "sciadv.adu1602_sm.pdf"
+    }
+  ],
+  "scope": "SHA256 of successful local raw source bytes. These files are intentionally not included in this repository; filenames are identifiers, not repository paths. Failed response bodies excluded."
+}

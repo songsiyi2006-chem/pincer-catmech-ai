@@ -1,0 +1,8 @@
+{
+  "gfn": 2,
+  "charge": 0,
+  "unpaired": 0,
+  "solvent": "gas",
+  "task": "opt",
+  "optimization": "verytight"
+}

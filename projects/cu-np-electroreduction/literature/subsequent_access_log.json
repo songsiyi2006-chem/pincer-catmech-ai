@@ -1,0 +1,20 @@
+{
+  "audit_date": "2026-09-20",
+  "scope": "HTTP retrieval audit; local full source bodies excluded from public repository",
+  "attempts": [
+    {
+      "name": "cu_pulse",
+      "url": "https://www.nature.com/articles/s41467-024-50379-w",
+      "status": 200,
+      "bytes": 478647,
+      "date": []
+    },
+    {
+      "name": "cu_furfural_2026",
+      "url": "https://www.nature.com/articles/s41467-026-74394-1",
+      "status": 200,
+      "bytes": 540629,
+      "date": []
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Preserve calculation evidence and recorded source hashes byte-for-byte.
+* -text whitespace=cr-at-eol,-blank-at-eof
+data/raw/** -text whitespace=cr-at-eol,-blank-at-eof,-blank-at-eol
+workflows/executed_sources/** -text whitespace=cr-at-eol,-blank-at-eof
