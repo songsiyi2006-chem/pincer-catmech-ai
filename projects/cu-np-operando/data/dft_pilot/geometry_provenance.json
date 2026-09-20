@@ -1,0 +1,18 @@
+{
+  "molecule_name": "3-methylquinazolin-4(3H)-one",
+  "formula": "C9H8N2O",
+  "smiles": "CN1C=Nc2ccccc2C1=O",
+  "atom_count": 20,
+  "neutral_electron_count": 84,
+  "neutral_charge_multiplicity": [0, 1],
+  "anion_charge_multiplicity": [-1, 2],
+  "coordinate_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+  "source_repository_commit": "6197929f41074cb4b21fb2792c7dcd55772a86c0",
+  "source_relative_path": "projects/cu-np-electroreduction/data/raw/pilot_002/R000-rotor-reopt/xtbopt.xyz",
+  "source_native_calculation_id": "R000-rotor-reopt",
+  "prior_generator": "RDKit ETKDGv3 seed 20260920, MMFF94, GFN2-xTB optimization, documented methyl-rotor repair and verytight reoptimization",
+  "prior_minimum_validation": "GFN2-xTB Hessian: 54 positive vibrational modes, lowest 78.64 cm^-1; not a DFT stationary-point certificate",
+  "connectivity_source": "Prior archive cites author institutional scheme https://neunews.neu.edu.cn/info/1341/941741.htm and independent PubChem CID 17088 identity check",
+  "coordinate_origin": "Independent generated molecular model; not experimental coordinates, not paper/SI DFT coordinates, not a Cu active site",
+  "new_protocol": "Nuclear coordinates held fixed; no molecular optimization or frequency calculation in new Psi4 jobs"
+}

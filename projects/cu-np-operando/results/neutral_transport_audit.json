@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "executed_at_utc": "2026-09-20T11:59:55.283307+00:00",
+  "claim_kind": "SOFTWARE_VERIFICATION",
+  "physical_target_prediction": false,
+  "experiment_performed": false,
+  "fixture_notice": "All energetic and transport fixture values are arbitrary neutral software inputs, not Cu parameters, measurements, computed chemical energies or target predictions.",
+  "environment": {
+    "python": "3.14.6",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "platform": "Windows-11-10.0.22631-SP0"
+  },
+  "tests": {
+    "run": 20,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "successful": true
+  },
+  "file_sha256": {
+    "scripts/evidence_gate.py": "385bb61d92c5613d6dd92335310f89c2f0d3b9b277f3e4709343b75740a33168",
+    "scripts/plot_diagnostics.py": "c98b53e42bb3dcb3092acf8adbf19f0ac2c0a577fea289da6b34b01e128d8d11",
+    "scripts/run_audit.py": "e9e95a15b5fdbb55e290cae318b4dd58be6575da6c746a241f62726181cd5f41",
+    "scripts/run_validation.py": "2dea707eddd12e10681e82575a49c338f22c55f72315461ad1010c508e00b2aa",
+    "src/neutral_transport/__init__.py": "16d67fe79d1a9faef23908dfd0503f28be329afa35a91ce556c3342478a6068b",
+    "src/neutral_transport/core.py": "e2c9ff20b97f75b891836f9568f5f7022e332c47642f142e5f249557550a2a44",
+    "tests/test_evidence_gate.py": "ac28df4cc304fdc980e798b9a2bff11a9ef00a3a724b38bfffcfa0cb04d023d5",
+    "tests/test_native_dft.py": "b0d47d877d28e490851e6081c336e2169f82f2ab67472a9ee30c8dd529cb6de1",
+    "tests/test_neutral_transport.py": "e824a8a7545fe3332b1365ec4da8274b5c96cb46d0887e63f3903765fc58ceca"
+  },
+  "thermodynamic_cycle_log_residual": 0.0,
+  "surface_site_balance_residual": 0.0,
+  "surface_steady_residual_s": 6.661338147750939e-16,
+  "film_balance_residual_mol_m2_s": 3.3881317890172014e-21,
+  "independent_integrated_source_checks": [
+    {
+      "inlet_a_mol_m3": 100.0,
+      "inlet_p_mol_m3": 5.0,
+      "integrated_surface_source_mol_s": 2.0232105586045714e-07,
+      "outlet_net_product_formation_mol_s": 2.023210558604569e-07,
+      "source_outlet_balance_residual_mol_s": 2.3822801641527197e-22
+    },
+    {
+      "inlet_a_mol_m3": 1.0,
+      "inlet_p_mol_m3": 100.0,
+      "integrated_surface_source_mol_s": -2.1125111245040995e-07,
+      "outlet_net_product_formation_mol_s": -2.1125111245040884e-07,
+      "source_outlet_balance_residual_mol_s": -1.1117307432712692e-21
+    }
+  ],
+  "grid_verification": {
+    "analytic_outlet_a_mol_m3": 78.59549610435255,
+    "grids": [
+      {
+        "cells": 20,
+        "outlet_a_mol_m3": 78.81547365220736,
+        "absolute_error_mol_m3": 0.2199775478548105,
+        "relative_error_to_inlet": 0.002199775478548105,
+        "material_balance_residual_mol_m3": 0.0
+      },
+      {
+        "cells": 40,
+        "outlet_a_mol_m3": 78.70628556447443,
+        "absolute_error_mol_m3": 0.11078946012187885,
+        "relative_error_to_inlet": 0.0011078946012187884,
+        "material_balance_residual_mol_m3": 0.0
+      },
+      {
+        "cells": 80,
+        "outlet_a_mol_m3": 78.65109358758703,
+        "absolute_error_mol_m3": 0.05559748323447877,
+        "relative_error_to_inlet": 0.0005559748323447877,
+        "material_balance_residual_mol_m3": 0.0
+      },
+      {
+        "cells": 160,
+        "outlet_a_mol_m3": 78.62334586233266,
+        "absolute_error_mol_m3": 0.027849757980106915,
+        "relative_error_to_inlet": 0.00027849757980106914,
+        "material_balance_residual_mol_m3": 0.0
+      }
+    ],
+    "observed_error_ratios": [
+      1.9855458056462634,
+      1.992706390226901,
+      1.9963363155325107
+    ],
+    "adaptive_radau_outlet_a_mol_m3": 78.59549610435309,
+    "adaptive_absolute_error_mol_m3": 5.400124791776761e-13
+  },
+  "separate_electrical_unit_fixture": {
+    "energy_j": 21600.0,
+    "energy_kwh": 0.006,
+    "energy_kwh_per_kg_isolated": 6.0,
+    "charge_c": 7200.0,
+    "formed_product_mol": 0.01,
+    "independently_assumed_electrons_per_product": 2,
+    "faradaic_efficiency": 0.26801481144444445,
+    "linked_to_neutral_cycle": false,
+    "additional_boundary": "Excludes pumps, separation, other auxiliaries; full-cell electrical input only."
+  },
+  "evidence_gate": {
+    "target_ranking_allowed": false,
+    "rejection_reasons": [
+      "neutral_unimolecular_kernel_is_not_target_electrosynthesis_network",
+      "synthetic_fixture_cannot_support_physical_prediction",
+      "parameter_evidence_is_not_literature_or_executed_calculation",
+      "parameters_not_validated",
+      "outside_target_reaction_domain"
+    ],
+    "permitted_use": "software_verification_only",
+    "scientific_maturity": "A_engineering_prototype"
+  },
+  "not_implemented": [
+    "Cu reaction stoichiometry",
+    "electrode potential/current coupling",
+    "constant-potential free energies",
+    "competitive chemistry",
+    "ionic membrane transport",
+    "Nernst-Planck migration",
+    "ohmic conduction",
+    "deactivation",
+    "TEA prices",
+    "physical catalyst ranking"
+  ]
+}

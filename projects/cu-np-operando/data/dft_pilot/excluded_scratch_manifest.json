@@ -1,0 +1,53 @@
+{
+  "files": [
+    {
+      "path": "runs/DFT002-pbe0-anion/psi.27896.clean",
+      "bytes": 384,
+      "sha256": "6659adcfbfa8c063771a771523a352d5f00831ef53136f0837cfa9536c18276f",
+      "reason": "Rebuildable native scratch; retained locally, excluded from Git delivery"
+    },
+    {
+      "path": "runs/DFT002-pbe0-anion/scratch/psi.27896.35",
+      "bytes": 378344,
+      "sha256": "67d982c769df89a41c311f30508f31063e4d1673d97ab75a6caaf75189f3f2cc",
+      "reason": "Rebuildable native scratch; retained locally, excluded from Git delivery"
+    },
+    {
+      "path": "runs/DFT002-pbe0-anion/scratch/psi.27896.64",
+      "bytes": 45246248,
+      "sha256": "65d6a75d38508200acfc4b38b03c3b4719cb8380981e9d89caa378b60004e8ba",
+      "reason": "Rebuildable native scratch; retained locally, excluded from Git delivery"
+    },
+    {
+      "path": "runs/DFT002-pbe0-anion/scratch/psi.27896.97",
+      "bytes": 378915720,
+      "sha256": "9f23be6b57a139ab714b7fa51689f7daa458ded31071f6c8618a20c83c6a5308",
+      "reason": "Rebuildable native scratch; retained locally, excluded from Git delivery"
+    },
+    {
+      "path": "runs/DFT004-b3lyp-anion/psi.20660.clean",
+      "bytes": 387,
+      "sha256": "61826b7f1e1a2079b3d41484e46e0e1df5b133d0dd24256af79319fec29ac9ff",
+      "reason": "Rebuildable native scratch; retained locally, excluded from Git delivery"
+    },
+    {
+      "path": "runs/DFT004-b3lyp-anion/scratch/psi.20660.35",
+      "bytes": 378344,
+      "sha256": "67d982c769df89a41c311f30508f31063e4d1673d97ab75a6caaf75189f3f2cc",
+      "reason": "Rebuildable native scratch; retained locally, excluded from Git delivery"
+    },
+    {
+      "path": "runs/DFT004-b3lyp-anion/scratch/psi.20660.64",
+      "bytes": 45246248,
+      "sha256": "34989185e312fb2896aa37f291d109d46b82e02dd43e1742c34d385f753f50eb",
+      "reason": "Rebuildable native scratch; retained locally, excluded from Git delivery"
+    },
+    {
+      "path": "runs/DFT004-b3lyp-anion/scratch/psi.20660.97",
+      "bytes": 378915720,
+      "sha256": "9f23be6b57a139ab714b7fa51689f7daa458ded31071f6c8618a20c83c6a5308",
+      "reason": "Rebuildable native scratch; retained locally, excluded from Git delivery"
+    }
+  ],
+  "policy": "Retain locally; omit from Git; no scientific label depends on scratch"
+}

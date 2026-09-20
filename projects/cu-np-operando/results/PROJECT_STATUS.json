@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-20",
+  "agreed_scope": "Complete locally executable work and push; user reports no HPC or original SI",
+  "local_deliverable_complete": true,
+  "full_scientific_programme_complete": false,
+  "maturity": "A: executable engineering prototype with bounded molecular diagnostics",
+  "physical_target_prediction": false,
+  "originality_established": false,
+  "industrial_advantage_established": false,
+  "native_quantum_launches": 4,
+  "native_scf_completed": 2,
+  "native_timeouts": 2,
+  "preflight_rejections_not_quantum_jobs": 2,
+  "complete_charge_pairs": 0,
+  "attachment_energy_eV": null,
+  "cross_functional_charging_energy_spread_eV": null,
+  "validation_record": "results/validation_final/summary.json",
+  "gate_record": "results/production_readiness.json",
+  "native_record": "data/dft_pilot/summary.json",
+  "numerical_record": "results/neutral_transport_audit.json",
+  "charter_gates": {
+    "G0": "partial: source access, reaction identity and novelty gaps",
+    "G1": "not passed: no complete charge pair and no target interface benchmark",
+    "G2": "not run: target mechanism",
+    "G3": "engineering components only, not target multiscale validation",
+    "G4": "not run: uncertainty-qualified ranking prediction",
+    "G5": "not run: design benefit",
+    "G6": "not run: target AI benefit",
+    "G7": "not run: experiment"
+  },
+  "not_implemented": [
+    "Source-matched periodic Cu structure and constant-potential interface",
+    "Target electron/proton-balanced competing reaction network",
+    "Target kinetic parameters and ionic transport calibration",
+    "Target uncertainty-trained surrogate and prospective prediction",
+    "Stability, industrial process economics and life-cycle assessment"
+  ],
+  "figure_qa": {
+    "files": ["results/figures/native_job_status.png", "results/figures/neutral_grid_convergence.png"],
+    "both_visually_inspected": true,
+    "scope": "readability and clear evidence labels; not physical validation"
+  },
+  "remote_ci_status_at_report_authoring": "not yet run for this commit"
+}

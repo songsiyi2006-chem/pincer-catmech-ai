@@ -1,0 +1,19 @@
+test_disappearing_child_does_not_skip_parent_kill (test_bounded_runner.BoundedRunnerChecks.test_disappearing_child_does_not_skip_parent_kill) ... ok
+test_launch_exception_is_persisted_as_failure (test_bounded_runner.BoundedRunnerChecks.test_launch_exception_is_persisted_as_failure) ... ok
+test_actual_pair_numeric_sign_and_units (test_dft_archive.DFTArchiveChecks.test_actual_pair_numeric_sign_and_units) ... skipped 'No completed neutral/anion pair; physical difference remains unavailable'
+test_duplicate_success_is_rejected (test_dft_archive.DFTArchiveChecks.test_duplicate_success_is_rejected) ... ok
+test_electron_count_mutation_cannot_supply_a_label (test_dft_archive.DFTArchiveChecks.test_electron_count_mutation_cannot_supply_a_label) ... ok
+test_embedded_script_hash_conflict_is_rejected (test_dft_archive.DFTArchiveChecks.test_embedded_script_hash_conflict_is_rejected) ... ok
+test_failed_run_cannot_supply_a_charge_pair (test_dft_archive.DFTArchiveChecks.test_failed_run_cannot_supply_a_charge_pair) ... ok
+test_missing_external_preflight_is_not_invented (test_dft_archive.DFTArchiveChecks.test_missing_external_preflight_is_not_invented) ... ok
+test_nan_energy_cannot_supply_a_label (test_dft_archive.DFTArchiveChecks.test_nan_energy_cannot_supply_a_label) ... ok
+test_native_hash_energy_electron_and_protocol_validation (test_dft_archive.DFTArchiveChecks.test_native_hash_energy_electron_and_protocol_validation) ... ok
+test_pair_geometry_basis_and_grid_mismatch_rejected (test_dft_archive.DFTArchiveChecks.test_pair_geometry_basis_and_grid_mismatch_rejected) ... ok
+test_settings_conflict_is_rejected (test_dft_archive.DFTArchiveChecks.test_settings_conflict_is_rejected) ... ok
+test_spin_inconsistency_is_rejected (test_dft_archive.DFTArchiveChecks.test_spin_inconsistency_is_rejected) ... ok
+test_tampered_native_output_is_rejected (test_dft_archive.DFTArchiveChecks.test_tampered_native_output_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 1.082s
+
+OK (skipped=1)

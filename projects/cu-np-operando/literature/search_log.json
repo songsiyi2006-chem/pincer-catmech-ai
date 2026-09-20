@@ -1,0 +1,216 @@
+{
+  "date": "2026-09-20",
+  "engine": "web search tool; domain-restricted Google Patents and ChemRxiv queries as recorded",
+  "queries": [
+    {
+      "query_id": "Q01",
+      "query": "\"10.1002/anie.202505085\"",
+      "result": "anchor; official abstract and SI listing found"
+    },
+    {
+      "query_id": "Q02",
+      "query": "\"anie202505085-sup\"",
+      "result": "SI filename found, content unavailable"
+    },
+    {
+      "query_id": "Q03",
+      "query": "\"Cu-N3P1\" quinazolinone acrylate",
+      "result": "no verified acrylate identity; do not infer"
+    },
+    {
+      "query_id": "Q04",
+      "query": "\"Phosphorus-Doped Single Atom Copper\" pdf",
+      "result": "official article and publisher preview found"
+    },
+    {
+      "query_id": "Q05",
+      "query": "\"喹唑啉酮\" \"唐海涛\" \"2025\"",
+      "result": "no verified structure supplement located"
+    },
+    {
+      "query_id": "Q06",
+      "query": "\"anie202505085\" \"SuppMat.pdf\"",
+      "result": "no independently accessible SI copy found"
+    },
+    {
+      "query_id": "Q07",
+      "query": "\"single atom\" \"ranking\" \"potential\" microkinetic",
+      "result": "neighbor methods found"
+    },
+    {
+      "query_id": "Q08",
+      "query": "\"Scaling Organic Electrosynthesis\" \"Mechanism\" \"Mass Transport\"",
+      "result": "L05"
+    },
+    {
+      "query_id": "Q09",
+      "query": "\"constant potential\" \"mass transport\" microkinetic catalyst ranking",
+      "result": "L04, L08"
+    },
+    {
+      "query_id": "Q10",
+      "query": "site:patents.google.com \"quinazolinone\" \"electrochemical\" copper",
+      "result": "no exact-reaction patent hit verified; negative query not absence proof"
+    },
+    {
+      "query_id": "Q11",
+      "query": "\"Multiscale Modeling of Mass Transport Effects on Oxygen Evolution Reaction Kinetics\"",
+      "result": "L04"
+    },
+    {
+      "query_id": "Q12",
+      "query": "\"Multiscale insights of interfacial transport and kinetics in acidic CO2 electroreduction\"",
+      "result": "L08"
+    },
+    {
+      "query_id": "Q13",
+      "query": "\"electrocatalysis\" \"ranking inversion\"",
+      "result": "no exact phrase match relied upon"
+    },
+    {
+      "query_id": "Q14",
+      "query": "\"catalyst\" \"ranking\" \"mass transport\" microkinetic",
+      "result": "method neighbors; not complete citation chaining"
+    },
+    {
+      "query_id": "Q15",
+      "query": "site:patents.google.com \"喹唑啉酮\" \"电还原\"",
+      "result": "no exact reaction match verified"
+    },
+    {
+      "query_id": "Q16",
+      "query": "site:patents.google.com \"单原子\" \"铜\" \"喹唑\"",
+      "result": "no exact reaction match verified"
+    },
+    {
+      "query_id": "Q17",
+      "query": "site:patents.google.com \"organic electrosynthesis\" \"flow\"",
+      "result": "P01 and other apparatus patents"
+    },
+    {
+      "query_id": "Q18",
+      "query": "site:patents.google.com \"dynamic\" \"potential\" \"electrosynthesis\"",
+      "result": "P02"
+    },
+    {
+      "query_id": "Q19",
+      "query": "\"single atom\" \"organic electrosynthesis\" \"deactivation\" original",
+      "result": "review pointers; no direct lifetime label accepted"
+    },
+    {
+      "query_id": "Q20",
+      "query": "site:chemrxiv.org \"electrosynthesis\" \"mass transport\"",
+      "result": "PP01"
+    },
+    {
+      "query_id": "Q21",
+      "query": "site:chemrxiv.org \"constant potential\" \"single atom\"",
+      "result": "no exact anchor preprint verified"
+    },
+    {
+      "query_id": "Q22",
+      "query": "\"catalyst ranking\" \"potential\" electrocatalysis",
+      "result": "L03, U01 candidate"
+    },
+    {
+      "query_id": "Q23",
+      "query": "\"BEAST DB\" \"Grand-Canonical\"",
+      "result": "L03; author preprint downloaded"
+    },
+    {
+      "query_id": "Q24",
+      "query": "\"Reaction-Condition- and Ensemble-Aware Screening\"",
+      "result": "U01; exact public date unknown"
+    },
+    {
+      "query_id": "Q25",
+      "query": "\"Bajada\" \"2023\" \"1092\" \"1103\" Nature Synthesis",
+      "result": "photochemical Ni study, not used as an electrochemical baseline"
+    },
+    {
+      "query_id": "Q26",
+      "query": "\"Saptal\" \"202219306\"",
+      "result": "review pointer only"
+    },
+    {
+      "query_id": "Q27",
+      "query": "\"single atom\" \"deactivation\" \"electrosynthesis\" catalyst original research",
+      "result": "L09"
+    },
+    {
+      "query_id": "Q28",
+      "query": "\"10.1021/acscatal.6c04252\" \"September\"",
+      "result": "exact public date remains unverified"
+    },
+    {
+      "query_id": "Q29",
+      "query": "\"acscatal.6c04252\" \"Published\"",
+      "result": "exact public date remains unverified"
+    },
+    {
+      "query_id": "Q30",
+      "query": "\"acscatal.3c04801\" \"Published\"",
+      "result": "L09 publication date verified by author-deposited publisher PDF metadata in index"
+    },
+    {
+      "query_id": "Q31",
+      "query": "\"Interfacing single-atom catalysis with continuous-flow organic electrosynthesis\"",
+      "result": "L06"
+    },
+    {
+      "query_id": "Q32",
+      "query": "\"10.1021/acscentsci.4c01733\" \"March\"",
+      "result": "exact day not accepted"
+    },
+    {
+      "query_id": "Q33",
+      "query": "\"10.1002/anie.202404295\" \"April\"",
+      "result": "exact day not accepted"
+    },
+    {
+      "query_id": "Q34",
+      "query": "\"10.1039/D4RE00346B\"",
+      "result": "L10"
+    },
+    {
+      "query_id": "Q35",
+      "query": "\"US8147659B2\" \"Publication date\"",
+      "result": "P02 publication history verified"
+    }
+  ],
+  "access_attempts": [
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/anie.202505085",
+      "method": "web.open",
+      "result": "redirected to /doi/abs/; abstract available"
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/suppl/10.1002/anie.202505085/supinfo/anie202505085-sup-0001-SuppMat.pdf",
+      "method": "PowerShell Invoke-WebRequest",
+      "result": "HTTP 403"
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fanie.202505085&file=anie202505085-sup-0001-SuppMat.pdf",
+      "method": "official SI link through web.click",
+      "result": "HTTP 403"
+    },
+    {
+      "url": "https://www.researchgate.net/figure/publication/390023854/figure/fig4/AS%3A11431281465331962%401748275316084/Reduction-of-quinazolinone-by-Cu-N3P1NC-in-organic-electrosynthesis-Reaction.png",
+      "method": "web.click",
+      "result": "HTTP 404; direct retrieval HTTP 403"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2405.20239",
+      "method": "web.open and Invoke-WebRequest",
+      "result": "success; local hash in L03; p.10 rendered"
+    }
+  ],
+  "limits": [
+    "No subscription Scopus/Web of Science/SciFinder/Reaxys search",
+    "No comprehensive forward/backward citation census",
+    "No patent family/CPC/claim chart analysis",
+    "SI and exact anchor chemical structures inaccessible",
+    "Search-engine ranking and indexing are incomplete",
+    "No comprehensive correction/retraction database check"
+  ]
+}

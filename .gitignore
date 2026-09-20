@@ -14,6 +14,7 @@ work/
 !data/**/*.log
 !tests/fixtures/*.log
 !tests/fixtures/*.out
+!projects/cu-np-operando/**/*.log
 # Reconstructible Psi4 DF-SCF integral and DIIS scratch; retained locally with
 # exact SHA256/size in data/phase3/spin/evidence_publication.json.
 data/phase3/spin/**/psi.*.97

@@ -1,0 +1,14 @@
+{
+  "scope": "User-authorized local execution only; no HPC or SI supplied as of 2026-09-20",
+  "requirements": {
+    "reaction_identity": {"status": "unverified", "reason": "Exact partner/product atom mapping unavailable; additive acronym conflict remains"},
+    "source_site_coordinates": {"status": "unavailable", "reason": "SI requests denied; no source-matched periodic model"},
+    "potential_calibration": {"status": "unavailable", "reason": "No solvent/reference calibration"},
+    "constant_potential_paths": {"status": "not_run", "reason": "No validated interface engine/HPC/model"},
+    "site_density": {"status": "unknown", "reason": "No site-density measurement"},
+    "kinetic_parameters": {"status": "unavailable", "reason": "Neutral numerical fixtures do not supply physical rates"},
+    "transport_calibration": {"status": "unavailable", "reason": "Analytical checks only; no measured flow reactor"},
+    "stability_data": {"status": "unavailable", "reason": "No time-series experiments"},
+    "independent_validation": {"status": "not_run", "reason": "No blind chemical prediction or experiment"}
+  }
+}

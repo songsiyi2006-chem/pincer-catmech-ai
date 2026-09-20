@@ -1,0 +1,11 @@
+test_extreme_finite_inputs_fail_without_nan_outputs (__main__.AccountingAndEvidence.test_extreme_finite_inputs_fail_without_nan_outputs) ... ok
+test_fe_is_formed_moles_not_isolated_mass (__main__.AccountingAndEvidence.test_fe_is_formed_moles_not_isolated_mass) ... ok
+test_fixture_cannot_be_mislabeled_as_physical_rank (__main__.AccountingAndEvidence.test_fixture_cannot_be_mislabeled_as_physical_rank) ... ok
+test_full_cell_energy_and_si_units (__main__.AccountingAndEvidence.test_full_cell_energy_and_si_units) ... ok
+test_invalid_electrical_inputs_are_rejected (__main__.AccountingAndEvidence.test_invalid_electrical_inputs_are_rejected) ... ok
+test_variable_power_integration (__main__.AccountingAndEvidence.test_variable_power_integration) ... ok
+test_closed_thermodynamic_cycle (__main__.Thermodynamics.test_closed_thermodynamic_cycle) ... ok
+test_equal_rates_analytic_tof (__main__.Thermodynamics.test_equal_rates_analytic_tof) ... ok
+test_equilibrium_has_zero_edge_flux (__main__.Thermodynamics.test_equilibrium_has_zero_edge_flux) ... ok
+test_imported_unphysical_rates_rejected (__main__.Thermodynamics.test_imported_unphysical_rates_rejected) ... ok
+test_independent_linear_system (__main__.Thermodynamics.test_independent_linear_system) ... 

@@ -1,5 +1,19 @@
 # PINCER-CATMECH-AI
 
+## Cu–N–P operando project: bounded local execution — 20 September 2026
+
+The [new local execution package](projects/cu-np-operando/README.md) includes
+the [advanced research charter](projects/cu-np-operando/reports/RESEARCH_CHARTER_ZH.md),
+[中文技术报告](projects/cu-np-operando/reports/TECHNICAL_REPORT_ZH.md),
+[English technical report](projects/cu-np-operando/reports/TECHNICAL_REPORT_EN.md),
+native Psi4 files, and a verified neutral kinetics/transport software kernel.
+Two neutral DFT single points converged; two anion jobs timed out. No complete
+charge pair or electron-affinity comparison is available. The neutral numerical
+fixtures are not physical Cu kinetics. **Target constant-potential calculations,
+catalyst ranking, originality and industrial performance remain unverified.**
+The user-authorized scope is local work without HPC or the original SI.
+All earlier research and negative results below remain preserved.
+
 ## Cu–N–P organic electroreduction audit — 20 September 2026
 
 The new [research package](projects/cu-np-electroreduction/README.md) contains

@@ -1,0 +1,80 @@
+{
+  "audit_date_local": "2026-09-20",
+  "scope": "Live local inventory plus preserved prior molecular preflight; no remote allocation claimed",
+  "hardware": {
+    "os": "Microsoft Windows 11 Home Chinese",
+    "cpu": "13th Gen Intel Core i7-13700H",
+    "physical_cores": 14,
+    "logical_processors": 20,
+    "visible_ram_kib": 16494840,
+    "free_ram_kib_at_initial_probe": 2803752,
+    "free_ram_kib_at_second_probe": 2596256,
+    "graphics_adapter": "Intel Iris Xe Graphics",
+    "cuda_gpu_detected": false,
+    "observation": "Available RAM changes with concurrent applications; recheck before every quantum job"
+  },
+  "engines": {
+    "psi4": {"version": "1.11", "live_import": true, "python": "C:/Users/HUIWEI/miniconda3/envs/phase7/python.exe", "role": "Molecular fixed-charge quantum chemistry; not an installed constant-potential periodic electrode workflow"},
+    "xtb": {"version": "6.7.1", "live_version_command": true, "executable": "C:/Users/HUIWEI/miniconda3/envs/phase2ff/Library/bin/xtb.exe"},
+    "rdkit": {"version": "2026.03.5", "live_import": true},
+    "numpy_phase2ff": "2.4.6",
+    "scipy_phase2ff": "1.18.0",
+    "quantum_espresso": "not found on PATH or registered Conda environment executable search",
+    "jdftx": "not found on PATH or registered Conda environment executable search",
+    "gpaw": "not importable in phase2ff/phase7; discovered ASE output readers are not the GPAW engine",
+    "pyscf_phase7": "not importable",
+    "wsl": "wsl.exe exists; distribution-list request returned usage text and no verified Linux distribution"
+  },
+  "hpc": {
+    "verified_remote_login": false,
+    "verified_scheduler": false,
+    "allocation_or_compute_budget": "unknown",
+    "local_scheduler_commands": {"sbatch": false, "squeue": false, "qsub": false},
+    "ssh_client_present": true,
+    "user_ssh_config_present": false,
+    "user_known_hosts_present": false,
+    "interpretation": "No usable remote HPC route is established by this audit. This is not proof that the user owns no external account.",
+    "credential_policy": "No private key or credential values read or printed; no remote connection attempted"
+  },
+  "prior_project": {
+    "path": "C:/Users/HUIWEI/Documents/Codex/2026-09-20/new-chat/work/research-repo/projects/cu-np-electroreduction",
+    "repository_head": "6197929f41074cb4b21fb2792c7dcd55772a86c0",
+    "working_tree_clean_at_probe": true,
+    "package_hash_verification": "passed again in this audit",
+    "unit_tests_reexecuted": 31,
+    "unit_tests_passed": 31,
+    "unit_test_wall_seconds": 2.553,
+    "native_xtb_calls_preserved": 20,
+    "native_xtb_calls_with_valid_records": 20,
+    "source_snapshots_hash_verified": true,
+    "molecule": "3-methylquinazolin-4(3H)-one",
+    "formula": "C9H8N2O",
+    "smiles": "CN1C=Nc2ccccc2C1=O",
+    "coordinate_provenance": "Independently generated RDKit geometry, optimized and rotor-repaired at GFN2-xTB; not original paper/SI coordinates",
+    "accepted_neutral_geometry_sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9",
+    "initial_minimum_vibration_cm_inverse": -50.49,
+    "repaired_minimum_vibration_cm_inverse": 78.64,
+    "repaired_positive_vibrations": 54,
+    "fixed_nuclei_charging_method_spread_eV": {"gas": 0.7816478999991645, "dmf": 0.8319797664252286},
+    "predeclared_spread_limit_eV": 0.2,
+    "method_sensitivity_gate_passed": false,
+    "reuse_allowed": ["source provenance", "raw engine output", "parser and failure-handling tests", "neutral molecular geometry as a labeled approximate starting point", "negative method-sensitivity result"],
+    "reuse_not_supported": ["Cu-site geometry reproduction", "electrochemical reference potential", "electron-transfer barrier", "catalyst ranking", "reaction free energy", "selectivity", "physical microkinetic labels", "experimental validation"]
+  },
+  "local_calculation_plan": {
+    "new_run_scope": "PBE0 and, if resource benchmark permits, B3LYP gas-phase fixed-nuclei neutral/anion diagnostics using def2-SVPD",
+    "threads": 2,
+    "psi4_requested_memory_bytes": 536870912,
+    "process_tree_sampled_rss_stop_bytes": 1073741824,
+    "timeout_seconds_per_job": 300,
+    "jobs_in_parallel": 1,
+    "not_claimed": ["DFT minimum", "bound anion established", "solvated reduction potential", "constant-potential electrode", "Cu catalysis"]
+  },
+  "exact_gaps": [
+    "Source-supported catalyst coordinates and complete reaction/SI data remain required for literal reproduction",
+    "No locally verified constant-potential periodic electronic-structure engine",
+    "No verified HPC scheduler, accessible allocation, software build or compute budget",
+    "No measured kinetic, flow-electrolysis or catalyst-stability dataset",
+    "Available RAM limits quantum pilots; engine memory setting is not total process RSS"
+  ]
+}

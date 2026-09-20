@@ -1,0 +1,47 @@
+test_artifact_tampering_rejected (test_evidence_gate.EvidenceGateTests.test_artifact_tampering_rejected) ... ok
+test_escape_rejected (test_evidence_gate.EvidenceGateTests.test_escape_rejected) ... ok
+test_family_leakage_detected (test_evidence_gate.EvidenceGateTests.test_family_leakage_detected) ... ok
+test_grouped_split (test_evidence_gate.EvidenceGateTests.test_grouped_split) ... ok
+test_malformed_requirements_fail_closed (test_evidence_gate.EvidenceGateTests.test_malformed_requirements_fail_closed) ... ok
+test_no_evidence_never_ready (test_evidence_gate.EvidenceGateTests.test_no_evidence_never_ready) ... ok
+test_relabelled_fixture_cannot_unlock_target_model (test_evidence_gate.EvidenceGateTests.test_relabelled_fixture_cannot_unlock_target_model) ... ok
+test_synthetic_cannot_unlock_physical_prediction (test_evidence_gate.EvidenceGateTests.test_synthetic_cannot_unlock_physical_prediction) ... ok
+test_disappearing_child_does_not_skip_parent_kill (test_bounded_runner.BoundedRunnerChecks.test_disappearing_child_does_not_skip_parent_kill) ... ok
+test_launch_exception_is_persisted_as_failure (test_bounded_runner.BoundedRunnerChecks.test_launch_exception_is_persisted_as_failure) ... ok
+test_actual_pair_numeric_sign_and_units (test_dft_archive.DFTArchiveChecks.test_actual_pair_numeric_sign_and_units) ... skipped 'No completed neutral/anion pair; physical difference remains unavailable'
+test_duplicate_success_is_rejected (test_dft_archive.DFTArchiveChecks.test_duplicate_success_is_rejected) ... ok
+test_electron_count_mutation_cannot_supply_a_label (test_dft_archive.DFTArchiveChecks.test_electron_count_mutation_cannot_supply_a_label) ... ok
+test_embedded_script_hash_conflict_is_rejected (test_dft_archive.DFTArchiveChecks.test_embedded_script_hash_conflict_is_rejected) ... ok
+test_failed_run_cannot_supply_a_charge_pair (test_dft_archive.DFTArchiveChecks.test_failed_run_cannot_supply_a_charge_pair) ... ok
+test_missing_external_preflight_is_not_invented (test_dft_archive.DFTArchiveChecks.test_missing_external_preflight_is_not_invented) ... ok
+test_nan_energy_cannot_supply_a_label (test_dft_archive.DFTArchiveChecks.test_nan_energy_cannot_supply_a_label) ... ok
+test_native_hash_energy_electron_and_protocol_validation (test_dft_archive.DFTArchiveChecks.test_native_hash_energy_electron_and_protocol_validation) ... ok
+test_pair_geometry_basis_and_grid_mismatch_rejected (test_dft_archive.DFTArchiveChecks.test_pair_geometry_basis_and_grid_mismatch_rejected) ... ok
+test_settings_conflict_is_rejected (test_dft_archive.DFTArchiveChecks.test_settings_conflict_is_rejected) ... ok
+test_spin_inconsistency_is_rejected (test_dft_archive.DFTArchiveChecks.test_spin_inconsistency_is_rejected) ... ok
+test_tampered_native_output_is_rejected (test_dft_archive.DFTArchiveChecks.test_tampered_native_output_is_rejected) ... ok
+test_extreme_finite_inputs_fail_without_nan_outputs (test_neutral_transport.AccountingAndEvidence.test_extreme_finite_inputs_fail_without_nan_outputs) ... ok
+test_fe_is_formed_moles_not_isolated_mass (test_neutral_transport.AccountingAndEvidence.test_fe_is_formed_moles_not_isolated_mass) ... ok
+test_fixture_cannot_be_mislabeled_as_physical_rank (test_neutral_transport.AccountingAndEvidence.test_fixture_cannot_be_mislabeled_as_physical_rank) ... ok
+test_full_cell_energy_and_si_units (test_neutral_transport.AccountingAndEvidence.test_full_cell_energy_and_si_units) ... ok
+test_invalid_electrical_inputs_are_rejected (test_neutral_transport.AccountingAndEvidence.test_invalid_electrical_inputs_are_rejected) ... ok
+test_variable_power_integration (test_neutral_transport.AccountingAndEvidence.test_variable_power_integration) ... ok
+test_closed_thermodynamic_cycle (test_neutral_transport.Thermodynamics.test_closed_thermodynamic_cycle) ... ok
+test_equal_rates_analytic_tof (test_neutral_transport.Thermodynamics.test_equal_rates_analytic_tof) ... ok
+test_equilibrium_has_zero_edge_flux (test_neutral_transport.Thermodynamics.test_equilibrium_has_zero_edge_flux) ... ok
+test_imported_unphysical_rates_rejected (test_neutral_transport.Thermodynamics.test_imported_unphysical_rates_rejected) ... ok
+test_independent_linear_system (test_neutral_transport.Thermodynamics.test_independent_linear_system) ... ok
+test_invalid_barrier_and_temperature_rejected (test_neutral_transport.Thermodynamics.test_invalid_barrier_and_temperature_rejected) ... ok
+test_adaptive_independent_integrator (test_neutral_transport.Transport.test_adaptive_independent_integrator) ... ok
+test_integrated_surface_source_matches_outlet_formation_in_both_directions (test_neutral_transport.Transport.test_integrated_surface_source_matches_outlet_formation_in_both_directions) ... ok
+test_joint_film_solution_matches_analytic (test_neutral_transport.Transport.test_joint_film_solution_matches_analytic) ... ok
+test_no_reaction_or_zero_volume (test_neutral_transport.Transport.test_no_reaction_or_zero_volume) ... ok
+test_nonzero_product_inlet_not_counted_as_formation (test_neutral_transport.Transport.test_nonzero_product_inlet_not_counted_as_formation) ... ok
+test_pfr_grid_converges_to_independent_analytic_limit (test_neutral_transport.Transport.test_pfr_grid_converges_to_independent_analytic_limit) ... ok
+test_reverse_reaction_and_zero_sites (test_neutral_transport.Transport.test_reverse_reaction_and_zero_sites) ... ok
+test_transport_asymptotic_limits (test_neutral_transport.Transport.test_transport_asymptotic_limits) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 1.475s
+
+OK (skipped=1)

@@ -1,0 +1,521 @@
+{
+  "algorithm": "SHA256",
+  "scope": "this project only; excludes caches and self",
+  "files": [
+    {
+      "path": "config/evidence_requirements.json",
+      "bytes": 1120,
+      "sha256": "f10338ac72ea7d3b5e6d65934222df660636597391859033fd8b2b7beaba310b"
+    },
+    {
+      "path": "config/prospective_decisions.json",
+      "bytes": 1270,
+      "sha256": "4c331a2e6bf2aea759efa8f1d086ca1c583929152c0c11b671006dbe8c3ad202"
+    },
+    {
+      "path": "data/dft_pilot/bounded_runner.py",
+      "bytes": 7194,
+      "sha256": "b4891123df75bbe2b212f26cbf5627eab04d8ec7c47ea8a94fc8bf3fff8935c3"
+    },
+    {
+      "path": "data/dft_pilot/delivery_files.json",
+      "bytes": 10337,
+      "sha256": "36c297e983a4741ee5bd86c91eb0fcb9ae2e442beef65475e37e26ed884fc70f"
+    },
+    {
+      "path": "data/dft_pilot/DFT_REPORT_EN.md",
+      "bytes": 4162,
+      "sha256": "1daf29025809490d960bc13a85f2dca720c84edca2bc56efe07a1a26c95fdabf"
+    },
+    {
+      "path": "data/dft_pilot/DFT_REPORT_ZH.md",
+      "bytes": 3776,
+      "sha256": "e50a993d49f33312e7f81c4f640e2c0950aff48a9adaa821e3f95eba3b9da168"
+    },
+    {
+      "path": "data/dft_pilot/excluded_scratch_manifest.json",
+      "bytes": 2332,
+      "sha256": "f2d213248287e3cd439c73139f2a615503038cc7853f2925d18c547b51ec8e21"
+    },
+    {
+      "path": "data/dft_pilot/geometry_provenance.json",
+      "bytes": 1297,
+      "sha256": "81c6d7f98ef74e787f0aababde71b4ba01c5ed996fafe49ba3594c04f73092ac"
+    },
+    {
+      "path": "data/dft_pilot/memory_preflight_rejection.json",
+      "bytes": 605,
+      "sha256": "1a92c39716ed414d396e8483cd23b3507393c2539b29e39c08ab608ccef751da"
+    },
+    {
+      "path": "data/dft_pilot/psi4_single_point.py",
+      "bytes": 4111,
+      "sha256": "d4dabb2b074b4470ffd905f608174b79539f947ec8fbdc968e341eeb9b9a4221"
+    },
+    {
+      "path": "data/dft_pilot/README.md",
+      "bytes": 6005,
+      "sha256": "fab623528e014087c0f7362b6ee37deed8e861c54a46186d34a1e5c7d29002f8"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT001-pbe0-neutral/executed_bounded_runner.py",
+      "bytes": 4842,
+      "sha256": "5f9a38ee48e2a89f7a3310d0bf0227dd51866ad85caf69fffb3436adb135aa3a"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT001-pbe0-neutral/executed_psi4_single_point.py",
+      "bytes": 3989,
+      "sha256": "69302faee494d948f4fb98a40da248584df40d28dfc75277b7b2e014f1b2f4c6"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT001-pbe0-neutral/input.xyz",
+      "bytes": 1654,
+      "sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT001-pbe0-neutral/orbitals.molden",
+      "bytes": 2867870,
+      "sha256": "4aa040ab75d0c092a8c2426b894e2e6da9364de5e08841c968ea19da1d4b6069"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT001-pbe0-neutral/psi4.out",
+      "bytes": 18672,
+      "sha256": "64a9d93cede25d56fa4c0e84ce2249735decad03e8d0a02c4c69832b91297333"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT001-pbe0-neutral/result.json",
+      "bytes": 17444,
+      "sha256": "f4697cfe2969d9d11a5cea7bf6a6ebf321eeac0475aa5aa5ccd240e63b83f05d"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT001-pbe0-neutral/run_record.json",
+      "bytes": 7263,
+      "sha256": "c8a653f76d1c001b981d650c6f3152bbee2dd90764cadba51a39808f197e5a67"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT001-pbe0-neutral/settings.json",
+      "bytes": 343,
+      "sha256": "6670606de3128dd777f94df10b76ad2c77ee67fe9ccce01104cd753c923f9204"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT001-pbe0-neutral/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT001-pbe0-neutral/stdout.log",
+      "bytes": 84,
+      "sha256": "45d3cc0c6ea0f629d85d9d45076c3e6ff01aa87f0355d6f7de1710a37cfc0bc4"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT001-pbe0-neutral/timer.dat",
+      "bytes": 6462,
+      "sha256": "ecf42195b0d1970df020d602dca54c55c04104b982a07aedce93ceec1e0a2fbc"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT002-pbe0-anion/executed_bounded_runner.py",
+      "bytes": 5191,
+      "sha256": "f418cd313504d74f4aefd1ca5939ac70bc7e2bea6906abbc66538d9b9fdbc3b3"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT002-pbe0-anion/executed_psi4_single_point.py",
+      "bytes": 3989,
+      "sha256": "69302faee494d948f4fb98a40da248584df40d28dfc75277b7b2e014f1b2f4c6"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT002-pbe0-anion/input.xyz",
+      "bytes": 1654,
+      "sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT002-pbe0-anion/psi4.out",
+      "bytes": 10084,
+      "sha256": "c00b776c36bce22d6b4a5ed47e21f38b9c6c06f4dd22d1c088d21eaf270befe6"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT002-pbe0-anion/run_record.json",
+      "bytes": 15846,
+      "sha256": "0d1a110ea1e9bda5fbbe0e86a1a6fdfd87bc66b62f64e87e89615b6afa5fe834"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT002-pbe0-anion/settings.json",
+      "bytes": 343,
+      "sha256": "9b91da12176a2ad7c9be4af0965c999b355f2948c2e14e0a725ea0c918cc4969"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT002-pbe0-anion/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT002-pbe0-anion/stdout.log",
+      "bytes": 84,
+      "sha256": "45d3cc0c6ea0f629d85d9d45076c3e6ff01aa87f0355d6f7de1710a37cfc0bc4"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT003-b3lyp-neutral/executed_bounded_runner.py",
+      "bytes": 5191,
+      "sha256": "f418cd313504d74f4aefd1ca5939ac70bc7e2bea6906abbc66538d9b9fdbc3b3"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT003-b3lyp-neutral/executed_psi4_single_point.py",
+      "bytes": 3989,
+      "sha256": "69302faee494d948f4fb98a40da248584df40d28dfc75277b7b2e014f1b2f4c6"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT003-b3lyp-neutral/input.xyz",
+      "bytes": 1654,
+      "sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT003-b3lyp-neutral/run_record.json",
+      "bytes": 1259,
+      "sha256": "c5c06897a8fb9e051652e8124bce364ce93ff210a0e59a14da4da3217309f9af"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT003-b3lyp-neutral/settings.json",
+      "bytes": 343,
+      "sha256": "52afbc63256591b5441c84dae7b5f8a9ec90c72e2101a5bace2f049604e59eea"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT003b-b3lyp-neutral/executed_bounded_runner.py",
+      "bytes": 5191,
+      "sha256": "f418cd313504d74f4aefd1ca5939ac70bc7e2bea6906abbc66538d9b9fdbc3b3"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT003b-b3lyp-neutral/executed_psi4_single_point.py",
+      "bytes": 3989,
+      "sha256": "69302faee494d948f4fb98a40da248584df40d28dfc75277b7b2e014f1b2f4c6"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT003b-b3lyp-neutral/input.xyz",
+      "bytes": 1654,
+      "sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT003b-b3lyp-neutral/orbitals.molden",
+      "bytes": 2867870,
+      "sha256": "2d33f5bbd1dccefea58fc26f5ac898d9e0b008c8fb9b425f6c37f5748a938cad"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT003b-b3lyp-neutral/psi4.out",
+      "bytes": 18772,
+      "sha256": "aab36d62c7c04c37a7388053bd16dc347c63de9cc0d4c3aadd6703cc289eed11"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT003b-b3lyp-neutral/result.json",
+      "bytes": 17482,
+      "sha256": "2230f3c0f11fad14ad0487058257c098ef9cd4b3622c5197304c8685e6796cdd"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT003b-b3lyp-neutral/run_record.json",
+      "bytes": 7609,
+      "sha256": "f17229db80669cf2996c57baa1fc6c4b943b99eb88a69a903e8fcb5dbf62d0c6"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT003b-b3lyp-neutral/settings.json",
+      "bytes": 343,
+      "sha256": "af3f079fde707c5f81e981b193e8036cd9efbab3d2ad05cc84835e3be0236ac3"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT003b-b3lyp-neutral/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT003b-b3lyp-neutral/stdout.log",
+      "bytes": 84,
+      "sha256": "45d3cc0c6ea0f629d85d9d45076c3e6ff01aa87f0355d6f7de1710a37cfc0bc4"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT003b-b3lyp-neutral/timer.dat",
+      "bytes": 6462,
+      "sha256": "004f421325e02330407e8810ce729bc642d67ff431c99555f4e51ff696ba3282"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT004-b3lyp-anion/executed_bounded_runner.py",
+      "bytes": 5191,
+      "sha256": "f418cd313504d74f4aefd1ca5939ac70bc7e2bea6906abbc66538d9b9fdbc3b3"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT004-b3lyp-anion/executed_psi4_single_point.py",
+      "bytes": 3989,
+      "sha256": "69302faee494d948f4fb98a40da248584df40d28dfc75277b7b2e014f1b2f4c6"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT004-b3lyp-anion/input.xyz",
+      "bytes": 1654,
+      "sha256": "29351eee2bde9d27f5d9857c9d24d5ed74faa327a9e0a69ed52117ae34e688b9"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT004-b3lyp-anion/psi4.out",
+      "bytes": 9946,
+      "sha256": "634adbee16307449634958665323ad9ff349a90316f5b36749bca75be00a8e0d"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT004-b3lyp-anion/run_record.json",
+      "bytes": 15912,
+      "sha256": "f1f02ecd0962639993f4ea5a1bd08f3cb907e0f1e6c38aaf949e9b43cedd19ef"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT004-b3lyp-anion/settings.json",
+      "bytes": 344,
+      "sha256": "8a918e59d12d2373342be9978edaa1f6da8e8893d9fd78f686a1d850dd81a6ae"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT004-b3lyp-anion/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/dft_pilot/runs/DFT004-b3lyp-anion/stdout.log",
+      "bytes": 84,
+      "sha256": "45d3cc0c6ea0f629d85d9d45076c3e6ff01aa87f0355d6f7de1710a37cfc0bc4"
+    },
+    {
+      "path": "data/dft_pilot/summarize_dft.py",
+      "bytes": 11185,
+      "sha256": "d00a3d0b92834292fd3a9828dada385b7f334590e1af62732c63386c404763c1"
+    },
+    {
+      "path": "data/dft_pilot/summary.json",
+      "bytes": 4053,
+      "sha256": "39672fb59f2f2f2d6a9163df199c545e93db77dcb93578db9b3bf470ab60da2d"
+    },
+    {
+      "path": "data/dft_pilot/test_bounded_runner.py",
+      "bytes": 1776,
+      "sha256": "904e1d2ad55072229ffddf136cacfcffc668658c75e1b42b3dabeaf3eab08fd1"
+    },
+    {
+      "path": "data/dft_pilot/test_dft_archive.py",
+      "bytes": 6723,
+      "sha256": "f73049bb164b4bda9341b77139c5c87fb832092b96df1e57511ad554310da8b8"
+    },
+    {
+      "path": "data/dft_pilot/validation_tests.log",
+      "bytes": 2062,
+      "sha256": "0e793f203ffb521c9fe4c28d867cbed0148d77db055d3474f83f863c34963e4d"
+    },
+    {
+      "path": "data/dft_pilot/write_delivery_manifest.py",
+      "bytes": 1011,
+      "sha256": "c11fd363cdd28d3b1cf267dc7671acfd5ce9772329c19328642d3e61db2ab389"
+    },
+    {
+      "path": "data/dft_pilot/write_summary_reports.py",
+      "bytes": 8344,
+      "sha256": "a1b08475710745504da819aa2515004c53f1deb4aa7feab678241834a50ba967"
+    },
+    {
+      "path": "environment/resource_audit.json",
+      "bytes": 4819,
+      "sha256": "c892025dc46086e46ef8c10e304ce1d6a30a6c50d8f623218395fcde94c790ad"
+    },
+    {
+      "path": "environment/resource_audit.md",
+      "bytes": 4172,
+      "sha256": "4063630853bc1fa204b80be230f5e18d9472ce68eae41e6c8e2f6b3487cd312b"
+    },
+    {
+      "path": "literature/evidence_conflicts.json",
+      "bytes": 1071,
+      "sha256": "caa3a7948b8f9dd571130a9fa95abdc5d156bf52c304059dfad7debd68599187"
+    },
+    {
+      "path": "literature/evidence_sources.json",
+      "bytes": 18352,
+      "sha256": "36c0d916d646c80375436f60311ed649ace4238fc48426faa9b1ec1fc6244046"
+    },
+    {
+      "path": "literature/novelty_matrix.csv",
+      "bytes": 8503,
+      "sha256": "91c6a476f57ff86b21f7ae2f68b781cbc6538bc04a3f099e2c0f575d610a1fd1"
+    },
+    {
+      "path": "literature/review_zh.md",
+      "bytes": 9898,
+      "sha256": "cd5d79d74415f914543c0c6747f09a800f852f615f1d53a9bb6dcf35abbad286"
+    },
+    {
+      "path": "literature/search_log.json",
+      "bytes": 7330,
+      "sha256": "36925c7f923d96b16e0d7abeec313263051525f4f090f453fbe7e3ba89968452"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3516,
+      "sha256": "78ae1f9550dfe471802575279a823c323f2e0ab6ab7df94375a381dae196b62e"
+    },
+    {
+      "path": "reports/EXPERIMENT_INTERFACE_ZH_EN.md",
+      "bytes": 2563,
+      "sha256": "95c54cf3625b79df3f55f831b58d66f13d640c59c14e31d94b96a522af2d3ed8"
+    },
+    {
+      "path": "reports/NEUTRAL_TRANSPORT_SCOPE.md",
+      "bytes": 5923,
+      "sha256": "386a833a726c286d07065d1a2a4622545d24eccddbeb99d482be534d71587f0f"
+    },
+    {
+      "path": "reports/RESEARCH_CHARTER_ZH.md",
+      "bytes": 21031,
+      "sha256": "9be42b4275f99f56118a633c9ec287504064f5b88ed75639efefdb6294d897cf"
+    },
+    {
+      "path": "reports/review/code_review.md",
+      "bytes": 6724,
+      "sha256": "3459008814ec2ce8536316f6b421c5b86725d531a7cfa4826951540bdae1b523"
+    },
+    {
+      "path": "reports/review/DFT_REVIEW.md",
+      "bytes": 6914,
+      "sha256": "b731f9c28951a41e882b061001c746ff62a268a85e94d9af079cc340830714a0"
+    },
+    {
+      "path": "reports/review/DFT_REVIEW_RESOLUTION.md",
+      "bytes": 6814,
+      "sha256": "cdc4b9e87093a809a798afc23e42b7809177cccd136170470e930bf7557cf071"
+    },
+    {
+      "path": "reports/review/gate_tests_review_final_base.log",
+      "bytes": 111,
+      "sha256": "956efa17997496a22036a9562c646fb24edcdd59405da63cec6cad712f64587e"
+    },
+    {
+      "path": "reports/review/neutral_tests_review.log",
+      "bytes": 1264,
+      "sha256": "9bbb2d3938bcc00de931b814f2d9a5d2441aedc107cc6b18ccb91f08e566308f"
+    },
+    {
+      "path": "reports/review/neutral_tests_review_chem_ai4s.log",
+      "bytes": 1264,
+      "sha256": "9bbb2d3938bcc00de931b814f2d9a5d2441aedc107cc6b18ccb91f08e566308f"
+    },
+    {
+      "path": "reports/review/neutral_tests_review_dll_path.log",
+      "bytes": 2452,
+      "sha256": "fbc1601a1d5ebeedae201c842f98c5f95d683d36d48c402325af04912070b9f9"
+    },
+    {
+      "path": "reports/review/neutral_tests_review_final_base.log",
+      "bytes": 2452,
+      "sha256": "737747d090a388a6b271d91dbfd405388e68a54b3b475dec0123338788ce6668"
+    },
+    {
+      "path": "reports/review/reviewed_code_hashes.json",
+      "bytes": 412,
+      "sha256": "bbab3d55487f9112762f50a9ba2b5b57a5576687fcb284e6c61984137f1efd77"
+    },
+    {
+      "path": "reports/TECHNICAL_REPORT_EN.md",
+      "bytes": 15759,
+      "sha256": "737966c1bcc2333962698a41c57ebb1a65b91b61b1c329abcaa04662038ff99e"
+    },
+    {
+      "path": "reports/TECHNICAL_REPORT_ZH.md",
+      "bytes": 13018,
+      "sha256": "9615cabfdeca5ff78d7c7ce946625c9812569f459a8835153bff6189a55db4fa"
+    },
+    {
+      "path": "results/figures/native_job_status.png",
+      "bytes": 49090,
+      "sha256": "0d2f85b81ab28b8a6d67335c4cf1e20419167b9ae528db16686e0f6df92fee23"
+    },
+    {
+      "path": "results/figures/neutral_grid_convergence.png",
+      "bytes": 79037,
+      "sha256": "9097461c84b3941535b9ea5607d9e82a13dd55d7f763c460c12e0075caf253f8"
+    },
+    {
+      "path": "results/neutral_transport_audit.json",
+      "bytes": 5064,
+      "sha256": "f212db59a80675d538ee102b8217a571f550a5976dfa821273efd402f4cece86"
+    },
+    {
+      "path": "results/neutral_transport_test_log.txt",
+      "bytes": 2732,
+      "sha256": "0b132011220fcb81bfcbdceb153c1d36f6425dc00cabd108a85274aaea9297ea"
+    },
+    {
+      "path": "results/production_readiness.json",
+      "bytes": 3253,
+      "sha256": "2256fffbb31851059a113177ab5ff24cd3597e5d6f6381b26a2ff97157aff23e"
+    },
+    {
+      "path": "results/PROJECT_STATUS.json",
+      "bytes": 2079,
+      "sha256": "2c56e303bbc0383b6d9654e943edbef654259fd6a98cd4f4fe7dd1689a35a91e"
+    },
+    {
+      "path": "results/validation/summary.json",
+      "bytes": 245,
+      "sha256": "f7011dd065798a8f92b4b573778266a1b78043578da9622c3634e6a4b2956b22"
+    },
+    {
+      "path": "results/validation/tests.txt",
+      "bytes": 5608,
+      "sha256": "c3229315d4731b3018bb49c64131451a1b38132cfe4e80c7d635fdcf8170b4df"
+    },
+    {
+      "path": "results/validation_final/summary.json",
+      "bytes": 245,
+      "sha256": "c0106a9815fa4d15f3a3cc585b1f7d95e01575b26ffc3f9dd441a40661783433"
+    },
+    {
+      "path": "results/validation_final/tests.txt",
+      "bytes": 5608,
+      "sha256": "51032423a39ff0a10a8ac08c1e76219167cf20aa3c97442c0b31c8b2b0947e0c"
+    },
+    {
+      "path": "scripts/evidence_gate.py",
+      "bytes": 6519,
+      "sha256": "385bb61d92c5613d6dd92335310f89c2f0d3b9b277f3e4709343b75740a33168"
+    },
+    {
+      "path": "scripts/plot_diagnostics.py",
+      "bytes": 2121,
+      "sha256": "c98b53e42bb3dcb3092acf8adbf19f0ac2c0a577fea289da6b34b01e128d8d11"
+    },
+    {
+      "path": "scripts/run_audit.py",
+      "bytes": 5980,
+      "sha256": "e9e95a15b5fdbb55e290cae318b4dd58be6575da6c746a241f62726181cd5f41"
+    },
+    {
+      "path": "scripts/run_validation.py",
+      "bytes": 1405,
+      "sha256": "2dea707eddd12e10681e82575a49c338f22c55f72315461ad1010c508e00b2aa"
+    },
+    {
+      "path": "src/neutral_transport/__init__.py",
+      "bytes": 679,
+      "sha256": "16d67fe79d1a9faef23908dfd0503f28be329afa35a91ce556c3342478a6068b"
+    },
+    {
+      "path": "src/neutral_transport/core.py",
+      "bytes": 17160,
+      "sha256": "e2c9ff20b97f75b891836f9568f5f7022e332c47642f142e5f249557550a2a44"
+    },
+    {
+      "path": "tests/test_evidence_gate.py",
+      "bytes": 3290,
+      "sha256": "ac28df4cc304fdc980e798b9a2bff11a9ef00a3a724b38bfffcfa0cb04d023d5"
+    },
+    {
+      "path": "tests/test_native_dft.py",
+      "bytes": 344,
+      "sha256": "b0d47d877d28e490851e6081c336e2169f82f2ab67472a9ee30c8dd529cb6de1"
+    },
+    {
+      "path": "tests/test_neutral_transport.py",
+      "bytes": 12752,
+      "sha256": "e824a8a7545fe3332b1365ec4da8274b5c96cb46d0887e63f3903765fc58ceca"
+    },
+    {
+      "path": "workflows/RUNBOOK.md",
+      "bytes": 3948,
+      "sha256": "320b8f2452b27f36ff3ed95c1a8a6e0bc6dc88985de0bfe10866341ce4d42822"
+    }
+  ]
+}

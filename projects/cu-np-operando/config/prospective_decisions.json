@@ -1,0 +1,12 @@
+{
+  "evidence_kind": "HYPOTHESIS",
+  "registered_date": "2026-09-20",
+  "status": "conditional_plan_not_numeric_prediction",
+  "do_not_assign_real_catalyst_parameters_from_fixtures": true,
+  "hypotheses": [
+    {"id": "H1", "claim": "Product occupation may erase a coordination-induced intrinsic advantage", "refutation": "Matched product-addition and flow variation show no effect beyond uncertainty", "prerequisites": ["exact product structure", "two characterized sites", "calibrated potential", "uncertainty model"]},
+    {"id": "H2", "claim": "Coupled potential and transport can change a catalyst ranking", "refutation": "No robust crossing over the accessible and stable operating domain", "prerequisites": ["constant-potential paths", "site-density evidence", "validated transport"]}
+  ],
+  "immutable_targets_from_charter": {"numerical_energy_convergence_eV": 0.03, "cross_method_barrier_review_threshold_eV": 0.10, "model_internal_ranking_probability": 0.90, "conditional_productivity_gain_target": 0.20, "conditional_active_learning_cost_reduction_target": 0.30},
+  "note": "These are proposed decision thresholds, not measured performance or proof of originality. Actual experiments require preregistered numerical predictions after physical calibration."
+}

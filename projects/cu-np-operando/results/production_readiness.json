@@ -1,0 +1,98 @@
+{
+  "evidence_manifest_complete": false,
+  "physical_ranking_ready": false,
+  "blocking_reason": "No validated target-reaction model is implemented; metadata cannot unlock physical ranking",
+  "scope": "completeness gate, not an independent scientific certificate",
+  "requirements": {
+    "reaction_identity": {
+      "passed": false,
+      "definition": "Verified reactant, partner, product and atom/electron mapping",
+      "errors": [
+        "not accepted",
+        "missing or nonphysical evidence kind",
+        "scope/reviewer attestation absent",
+        "no local supporting artifact"
+      ]
+    },
+    "source_site_coordinates": {
+      "passed": false,
+      "definition": "Source-matched periodic Cu structures and cell",
+      "errors": [
+        "not accepted",
+        "missing or nonphysical evidence kind",
+        "scope/reviewer attestation absent",
+        "no local supporting artifact"
+      ]
+    },
+    "potential_calibration": {
+      "passed": false,
+      "definition": "Solvent-compatible potential reference and calibration",
+      "errors": [
+        "not accepted",
+        "missing or nonphysical evidence kind",
+        "scope/reviewer attestation absent",
+        "no local supporting artifact"
+      ]
+    },
+    "constant_potential_paths": {
+      "passed": false,
+      "definition": "Executed accepted constant-potential competing paths",
+      "errors": [
+        "not accepted",
+        "missing or nonphysical evidence kind",
+        "scope/reviewer attestation absent",
+        "no local supporting artifact"
+      ]
+    },
+    "site_density": {
+      "passed": false,
+      "definition": "Measured site density with uncertainty for current conversion",
+      "errors": [
+        "not accepted",
+        "missing or nonphysical evidence kind",
+        "scope/reviewer attestation absent",
+        "no local supporting artifact"
+      ]
+    },
+    "kinetic_parameters": {
+      "passed": false,
+      "definition": "Traceable accepted rate parameters, not fixture labels",
+      "errors": [
+        "not accepted",
+        "missing or nonphysical evidence kind",
+        "scope/reviewer attestation absent",
+        "no local supporting artifact"
+      ]
+    },
+    "transport_calibration": {
+      "passed": false,
+      "definition": "Geometry, transport coefficients and validation",
+      "errors": [
+        "not accepted",
+        "missing or nonphysical evidence kind",
+        "scope/reviewer attestation absent",
+        "no local supporting artifact"
+      ]
+    },
+    "stability_data": {
+      "passed": false,
+      "definition": "Time-resolved stability or declared lifetime uncertainty",
+      "errors": [
+        "not accepted",
+        "missing or nonphysical evidence kind",
+        "scope/reviewer attestation absent",
+        "no local supporting artifact"
+      ]
+    },
+    "independent_validation": {
+      "passed": false,
+      "definition": "Prospectively registered independent validation",
+      "errors": [
+        "not accepted",
+        "missing or nonphysical evidence kind",
+        "scope/reviewer attestation absent",
+        "no local supporting artifact"
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "b3lyp",
+  "basis": "def2-svpd",
+  "charge": -1,
+  "multiplicity": 2,
+  "solvent": "gas",
+  "threads": 2,
+  "psi4_memory_bytes": 536870912,
+  "timeout_seconds": 300,
+  "process_tree_rss_limit_bytes": 805306368,
+  "sampling_interval_seconds": 0.1,
+  "geometry_optimization": false,
+  "frequency_calculation": false
+}

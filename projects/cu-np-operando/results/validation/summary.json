@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-20T11:59:57.902093+00:00",
+  "python": "3.14.6",
+  "tests_run": 42,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 1,
+  "passed": true,
+  "scope": "software and native-record integrity; not experimental validation"
+}

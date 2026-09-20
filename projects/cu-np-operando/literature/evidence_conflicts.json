@@ -1,0 +1,21 @@
+[
+  {
+    "conflict_id": "EC-001",
+    "field": "anchor_additive_identity",
+    "status": "UNRESOLVED",
+    "new_evidence": {
+      "value": "TDEA",
+      "source_id": "L02",
+      "locator": "Figure 4 and Figure 5 publisher-preview captions",
+      "full_name": "unverified"
+    },
+    "previous_evidence": {
+      "value": "TEOA",
+      "provenance": "Earlier project/source record reported by parent agent; original record not edited or independently retrieved in this audit",
+      "status": "unverified_in_this_audit"
+    },
+    "interpretation": "Could be source typographic/OCR error or prior transcription error; neither explanation has been demonstrated.",
+    "consequence": "Do not instantiate an additive molecule, balance protons, assign oxidation mechanism, or calculate an additive-specific solvation/adsorption energy from either string.",
+    "resolution_requirement": "Obtain lawful original SI and readable reaction scheme/materials entry; check abbreviation, structure, supplier or CAS, and retain both historical records."
+  }
+]

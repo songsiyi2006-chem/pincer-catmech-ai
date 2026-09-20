@@ -1,0 +1,25 @@
+test_extreme_finite_inputs_fail_without_nan_outputs (__main__.AccountingAndEvidence.test_extreme_finite_inputs_fail_without_nan_outputs) ... ok
+test_fe_is_formed_moles_not_isolated_mass (__main__.AccountingAndEvidence.test_fe_is_formed_moles_not_isolated_mass) ... ok
+test_fixture_cannot_be_mislabeled_as_physical_rank (__main__.AccountingAndEvidence.test_fixture_cannot_be_mislabeled_as_physical_rank) ... ok
+test_full_cell_energy_and_si_units (__main__.AccountingAndEvidence.test_full_cell_energy_and_si_units) ... ok
+test_invalid_electrical_inputs_are_rejected (__main__.AccountingAndEvidence.test_invalid_electrical_inputs_are_rejected) ... ok
+test_variable_power_integration (__main__.AccountingAndEvidence.test_variable_power_integration) ... ok
+test_closed_thermodynamic_cycle (__main__.Thermodynamics.test_closed_thermodynamic_cycle) ... ok
+test_equal_rates_analytic_tof (__main__.Thermodynamics.test_equal_rates_analytic_tof) ... ok
+test_equilibrium_has_zero_edge_flux (__main__.Thermodynamics.test_equilibrium_has_zero_edge_flux) ... ok
+test_imported_unphysical_rates_rejected (__main__.Thermodynamics.test_imported_unphysical_rates_rejected) ... ok
+test_independent_linear_system (__main__.Thermodynamics.test_independent_linear_system) ... ok
+test_invalid_barrier_and_temperature_rejected (__main__.Thermodynamics.test_invalid_barrier_and_temperature_rejected) ... ok
+test_adaptive_independent_integrator (__main__.Transport.test_adaptive_independent_integrator) ... ok
+test_integrated_surface_source_matches_outlet_formation_in_both_directions (__main__.Transport.test_integrated_surface_source_matches_outlet_formation_in_both_directions) ... ok
+test_joint_film_solution_matches_analytic (__main__.Transport.test_joint_film_solution_matches_analytic) ... ok
+test_no_reaction_or_zero_volume (__main__.Transport.test_no_reaction_or_zero_volume) ... ok
+test_nonzero_product_inlet_not_counted_as_formation (__main__.Transport.test_nonzero_product_inlet_not_counted_as_formation) ... ok
+test_pfr_grid_converges_to_independent_analytic_limit (__main__.Transport.test_pfr_grid_converges_to_independent_analytic_limit) ... ok
+test_reverse_reaction_and_zero_sites (__main__.Transport.test_reverse_reaction_and_zero_sites) ... ok
+test_transport_asymptotic_limits (__main__.Transport.test_transport_asymptotic_limits) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.694s
+
+OK
