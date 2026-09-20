@@ -18,4 +18,6 @@ if os.name == "nt":
         deterministic cleanup without changing subprocess errors or test results.
         """
         with tempfile.TemporaryDirectory(prefix="pincer-test-") as directory:
-            yield Path(directory)
+            # Windows runners may expose TEMP through an 8.3 alias.
+            # Match production roots, which are already canonicalized.
+            yield Path(directory).resolve()
