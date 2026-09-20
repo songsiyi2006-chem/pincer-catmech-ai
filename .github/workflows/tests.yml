@@ -5,11 +5,15 @@ permissions:
 jobs:
   pytest:
     strategy:
+      fail-fast: false
       matrix:
         os: [ubuntu-latest, windows-latest]
         python: ['3.10', '3.12']
     runs-on: ${{ matrix.os }}
     steps:
+      - name: Enable long native-calculation paths on Windows
+        if: runner.os == 'Windows'
+        run: git config --global core.longpaths true
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
